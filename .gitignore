@@ -1,0 +1,6 @@
+\#*
+.\#*
+*~
+/build
+/sphinx/__pycache__
+/venv

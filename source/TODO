@@ -1,0 +1,11 @@
+00-abstract.rst: version information
+00-forewords.rst: CoP reference to COUNTER website, outdated PDF version
+03-reports/01-counter-reports-for-libraries.rst: Usage Reports => Standard Views for Section 4 references
+12-maintenance/04-implementation-schedule.rst: No detailed change log in Appendix B...
+14-changes/index.rst: No detailed change log in Appendix B...
+b: section numbering, references to sections
+c: PDF version?
+d: Title changed, now direct link to PDF
+e: Validation Tool URL
+f: JSON highlighting
+i: Report a Change form
