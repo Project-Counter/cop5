@@ -34,4 +34,10 @@ Change History
      - 2018-12-10
      - 2019-02-28 (with support for January 2019 usage)
 
+   * - 5.0.2
+     - Amendments, corrections and clarifications based on feedback and questions from the community.
+     - No
+     - TBD (mid-2021)
+     - 2022-02-28 (with support for January 2022 usage)
+
 A detailed description of the changes is provided in :ref:`Appendix B <appendix-b>`.

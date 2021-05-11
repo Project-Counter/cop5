@@ -3,7 +3,7 @@
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
 ======================================
-COUNTER Code of Practice Release 5.0.1
+COUNTER Code of Practice Release 5.0.2
 ======================================
 
 .. Same abstract in conf.py for the PDF version!
@@ -14,7 +14,7 @@ COUNTER Code of Practice Release 5.0.1
 
    The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.
 
-   Release 5.0.1 (published 10 December 2018, with updates for Appendix E published 22 January 2019 and Appendix A published 20 February 2019) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2019.
+   Release 5.0.2 (to be published in mid-2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
 
 .. only:: not (latex or builder_html)
 

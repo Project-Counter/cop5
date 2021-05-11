@@ -28,7 +28,7 @@ author = 'COUNTER'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '5.0.1'
+release = '5.0.2'
 
 
 # -- General configuration ---------------------------------------------------
@@ -179,7 +179,7 @@ latex_elements = {
     ''',
     'maketitle': r'''
         \hypersetup{
-            pdftitle={COUNTER Code of Practice Release 5.0.1},
+            pdftitle={COUNTER Code of Practice Release 5.0.2},
             pdfauthor={COUNTER}
         }
         \pagenumbering{Roman}
@@ -190,9 +190,9 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Release 5.0.1}}\par
+                {\Huge \textbf{\color{TitleColor} Release 5.0.2}}\par
                 \vspace{50pt}
-                {Published: 10 December 2018}\par
+                {Published: TBD (mid-2021)}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -206,7 +206,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s library and content provider members have contributed to the development of Release 5 (R5) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.}\par
-            {Release 5.0.1 (published 10 December 2018, with updates for Appendix E published 22 January 2019 and Appendix A published 20 February 2019) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2019.}\par
+            {Release 5.0.2 (to be published in mid-2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
@@ -244,7 +244,7 @@ latex_documents = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice',
-     author, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice Release 5.0.1',
+     author, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice Release 5.0.2',
      'Miscellaneous'),
 ]
 
