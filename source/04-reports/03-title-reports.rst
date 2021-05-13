@@ -671,7 +671,7 @@ Table 4.m (below): Filters/Attributes for Title Master Report and Standard Views
        Unique_Item_Requests
 
    * - Exclude_Monthly_Details
-     - False (default) or True
+     -
      -
      -
      -
