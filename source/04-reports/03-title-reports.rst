@@ -567,8 +567,7 @@ Table 4.l (below): Filters/Attributes for Title Master Report and Standard Views
    * - Access_Type
      - One or more or all (default) of:\ |br|\ |lb|
        - Controlled\ |br|\ |lb|
-       - OA_Gold\ |br|\ |lb|
-       - Other_Free_To_Read
+       - OA_Gold
      - Controlled
      -
      -
