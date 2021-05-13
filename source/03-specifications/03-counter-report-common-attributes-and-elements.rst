@@ -615,7 +615,7 @@ Table 3.u (below): List of Access_Type Values
    * - Other_Free_To_Read
      - At the time of the transaction the content item was available as free-to-read (no license required) and did not qualify under the OA_Gold Access_Type.
 
-       NOTE: This value is for institutional repositories only.
+       NOTE: This value is for institutional repositories only. Institutional repositories may also use Access_Type Other_Free_To_Read in the Master Title Report if this report is offered.
      - Data_Repository\ |br|\ |lb|
        Repository
      - IR\ |br|\ |lb|
