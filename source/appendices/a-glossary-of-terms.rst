@@ -1157,11 +1157,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Unique_Title_Investigations
-     - A COUNTER Metric Type that represents the number of unique titles investigated in a user-session. Examples of titles are journals and books.
+     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Type Book.
      -
 
    * - Unique_Title_Requests
-     - A COUNTER Metric Type that represents the number of unique titles requested in a user session. Examples of titles are journals and books.
+     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Type Book.
      -
 
    * - URI
