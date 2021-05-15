@@ -242,7 +242,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - 2018-09-05
 
    * - Article_Version
-     - ALPSP/NISO code indicating the version of the parent work. Possible values are the codes for Accepted Manuscript, Version of Record, Corrected Version of Record, and Enhanced Version of Record.
+     - ALPSP/NISO code indicating the version of the work. Possible values are the codes for Accepted Manuscript, Version of Record, Corrected Version of Record, and Enhanced Version of Record.
      - IR\ |br|\ |lb|
        IR_A1
      - VoR
