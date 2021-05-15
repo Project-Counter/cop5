@@ -180,6 +180,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       eJournal\ |br|\ |lb|
        Repository
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1, DR_D1
