@@ -338,7 +338,7 @@ Table 3.r (below): List of Metric_Types for Searches
      - Reports
 
    * - Searches_Regular
-     - Number of searches conducted against a user-selected database where results are returned to the user on the host UI. The user is responsible for selecting the databases or set of databases to be searched. This metric only applies to usage tracked at the database level and is not represented at the platform level.
+     - Number of searches conducted against a database where results are returned to the user on the host UI and either a single database is searched, or multiple databases are searched and the user has the option of selecting the databases to be searched. This metric only applies to usage tracked at the database level and is not represented at the platform level.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
@@ -349,7 +349,7 @@ Table 3.r (below): List of Metric_Types for Searches
        DR_D1
 
    * - Searches_Automated
-     - Searches conducted on the host site or discovery service where results are returned in the host UI and multiple databases are searched without user selection of databases. This metric only applies to usage that is tracked at the database level and is not represented at the platform level.
+     - Number of searches conducted against a database on the host site or discovery service where results are returned in the host UI, multiple databases are searched and the user does NOT have the option of selecting the databases to be searched. This metric only applies to usage that is tracked at the database level and is not represented at the platform level.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|

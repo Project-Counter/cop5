@@ -133,9 +133,9 @@ Appendix A: Glossary of Terms
      -
 
    * - Automated search
-     - A search from a discovery layer or similar technology where multiple Databases are searched simultaneously with a single query from the user interface. The end user is not responsible for selecting which Databases are being searched. Usage of this nature is reported as Searches_Automated.
+     - A search from a host site or discovery service where multiple databases are searched simultaneously with a single query from the user interface and the end user does not have the option of selecting the databases being searched. Usage of this nature is reported as Searches_Automated.
 
-       A Search run repeatedly (i.e. daily or weekly) by a script or automated process. Usage of this nature must not be included in COUNTER reports.
+       A search run repeatedly (e.g. daily or weekly) by a script or automated process. Usage of this nature must not be included in COUNTER reports.
      -
 
    * - Automated search agent
@@ -450,7 +450,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Federated search
-     - A federated search application that allows users to simultaneously search multiple databases hosted by the same or different vendors with a single query from a single user interface. The end user is not responsible for selecting the database being searched. See :ref:`Appendix G <appendix-g>`.
+     - A search conducted by a federated search application that allows users to simultaneously search multiple content sources, typically hosted by different vendors, with a single query from a single user interface. The federated search application typically presents the user with a single set of results collected from the content sources searched. The end user is not responsible for selecting the content sources being searched. The content sources being searched will report such activity as Searches_Federated. See :ref:`Appendix G <appendix-g>`.
      - MetaLib, EBSCOhost Connection
 
    * - Filter
@@ -799,7 +799,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Platform search
-     - Search conducted by users of a Platform.
+     - Search conducted at the platform level.
      -
 
    * - Platform usage
@@ -871,7 +871,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Regular search
-     - A search conducted by a user on a host where the user is in control over which databases can be searched.
+     - A search conducted by a user on a host where the user has the option of selecting the databases being searched.
      -
 
    * - Release
@@ -959,6 +959,14 @@ Appendix A: Glossary of Terms
 
    * - Search
      - A user-driven intellectual query, typically equated to submitting the search form of the online service to the server.
+
+       For COUNTER reports a search is counted any time a system executes a search to retrieve a new set of results. This means that systems that perform multiple searches (e.g. search for exact match, search for words in subject, general search) to return a single set of results must only count a single search, not multiple searches. Things that do count as separate searches:
+
+       * Bento-box or multi-tab user interfaces, where multiple searches are conducted to retrieve and present multiple result sets
+       * Refinement of a set of search results by faceting, where applying a facet or filter requires the search to be re-run
+       * Browsing through a topics list or subject authority file, where clicking on the topic or subject conducts a search to present a set of search results
+
+       Note that link resolution never counts as a search.
      -
 
    * - Search engine
@@ -966,27 +974,27 @@ Appendix A: Glossary of Terms
      -
 
    * - Searches_Regular
-     - A COUNTER Metric Type used to report on searches conducted by a user on a host where the user is in control over which databases can be searched.
+     - A COUNTER Metric_Type used to report on searches conducted by a user on a host site where the user has the option of selecting the databases being searched.
 
        Note: If a search is conducted across multiple databases, each database searched can count that search.
 
-       See also *Regular search*.
+       See also Regular search.
      -
 
    * - Searches_Automated
-     - A COUNTER Metric Type used to report searches conducted through a discovery service or by an automated search agent.
+     - A COUNTER Metric_Type used to report on searches conducted on a host site or discovery service where multiple databases are searched simultaneously with a single query and the end user does not have the option of selecting the databases being searched.
 
-       See also *Automated search*.
+       See also Automated search.
      -
 
    * - Searches_Federated
-     - A COUNTER Metric Type used to report searches conducted through a federated search service. See :ref:`Appendix G <appendix-g>`.
+     - A COUNTER Metric_Type used to report on searches conducted by a federated search application. See :ref:`Appendix G <appendix-g>`.
 
-       See also *Federated search*.
+       See also Federated search.
      -
 
    * - Searches_Platform
-     - A COUNTER Metric Type used to report searches conducted on a platform.
+     - A COUNTER Metric_Type used to report on searches conducted at the platform level.
 
        Note: Searches conducted against multiple databases on the platform will only be counted once.
      -
@@ -1231,5 +1239,5 @@ Appendix A: Glossary of Terms
      -
 
    * - Z39.50
-     - An international standard protocol created by NISO for search. A Z39.50 client can search any Z39.50-compatible online service. Often used by federated search services to facilitate searching content at other sites.
+     - An international standard protocol created by NISO for search. A Z39.50 client can search any Z39.50-compatible online service. Often used by federated search applications to facilitate searching content at other sites.
      -
