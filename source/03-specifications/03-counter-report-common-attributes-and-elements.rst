@@ -187,6 +187,8 @@ Table 3.p (below): List of Data_Type Values
 
    * - Other
      - Content that cannot be classified by any of the other Data_Types.
+
+       Note that Data_Type Other MUST NOT be used if there isn’t sufficient information available to classify the content.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
@@ -233,6 +235,19 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Repository
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D1
+
+   * - Unspecified
+     - It is not possible to classify the content because there isn’t sufficient information available.
+
+       Note that content providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Data_Repository\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1, DR_D1
 
@@ -857,6 +872,8 @@ Not all content providers or other COUNTER report providers link their COUNTER r
   * Omit Performance elements that don’t have at least one Instance element.
   * Omit Report_Items elements that don’t have at least one Performance element.
 
+
+.. _missing-values:
 
 Missing and Unknown Field Values
 """"""""""""""""""""""""""""""""
