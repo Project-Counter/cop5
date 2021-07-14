@@ -25,4 +25,4 @@ Note that the force of these words is modified by the requirement level of the d
 
 Content providers implementing the Code of Practice who feel they have a valid disagreement with a requirement of the code are requested to present their case in writing to the COUNTER Project Director and ask for clarification on interpretation of the code.
 
-Text appearing in *italic* will be replaced with appropriate values at implementation time, terms enclosed in curly brackets are variables. For example, *Exception in the format “{Exception Number}: {Exception Description}”* might resolve to “3030: No Usage Available for Requested Dates”.
+Text appearing in *italic* will be replaced with appropriate values at implementation time, terms enclosed in curly brackets are variables. For example, *Exception in the format “{Exception Code}: {Exception Message}”* might resolve to “3030: No Usage Available for Requested Dates”.

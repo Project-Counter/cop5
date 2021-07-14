@@ -126,7 +126,7 @@ Table 4.e (below): Header for Database Master Report and Standard Views
 
    * - 9
      - Exceptions
-     - :cspan:`2` *Any exceptions that occurred in generating the report, in the format “{Exception Number}: {Exception Description} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
+     - :cspan:`2` *Any exceptions that occurred in generating the report, in the format “{Exception Code}: {Exception Message} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
 
    * - 10
      - Reporting_Period

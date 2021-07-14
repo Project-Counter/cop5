@@ -169,7 +169,7 @@ Table 4.i (below) Header for Title Master Report and Standard Views - Part 1 (fo
 
    * - 9
      - Exceptions
-     - :cspan:`3` *Any exceptions that occurred in generating the report, in the format “{Exception Number}: {Exception Description} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
+     - :cspan:`3` *Any exceptions that occurred in generating the report, in the format “{Exception Code}: {Exception Message} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
 
    * - 10
      - Reporting_Period
@@ -279,7 +279,7 @@ Table 4.j (below): Header for Title Master Report and Standard Views - Part 2 (f
 
    * - 9
      - Exceptions
-     - :cspan:`3` *Any exceptions that occurred in generating the report, in the format “{Exception Number}: {Exception Description} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
+     - :cspan:`3` *Any exceptions that occurred in generating the report, in the format “{Exception Code}: {Exception Message} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
 
    * - 10
      - Reporting_Period

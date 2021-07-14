@@ -433,17 +433,17 @@ Appendix A: Glossary of Terms
      - Electronic resources.
      -
 
-   * - Error_No
-     - A unique numeric code included as part of a COUNTER SUSHI exception that identifies the type of error that applies to a report.
+   * - Exception
+     - An optional element that may be included within a COUNTER report indicating some difference between the usage that was requested and the usage that is being presented in the report. An Exception includes the Exception Code and Exception Message and may include additional Data that further describes the error.
+     - 3031: Usage Not Ready for Requested Dates (request was for 2016-01-01 to 2016-12-31, but usage is only available to 2016-08-31).
+
+   * - Exception Code
+     - A unique numeric code included as part of an Exception that identifies the type of error.
      -
 
-   * - Exception
-     - An optional element that may be included within a COUNTER report indicating some difference between the usage that was requested and the usage that is being presented in the report. An exception includes the following elements:
-
-       * Error_No
-       * Exception_Description
-       * and the data itself.
-     - 3040: Partial Data Returned (request was for 2016-01-01 to 2016-12-31, but usage is only available to 2016-08-30).
+   * - Exception Message
+     - A short description of the Exception encountered. The Message is normally a standard message for the Exception Code concerned, see Appendix F for more information.
+     -
 
    * - Exclude_Monthly_Details
      - Reporting_Period_Total column without month-by-month breakdowns.

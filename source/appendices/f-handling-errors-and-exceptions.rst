@@ -25,8 +25,8 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
        “Code”: {
          “type”: “integer”,
          “format”: “int32”,
-         “description”: “Error number. See table of errors.”,
-         “example”: 3040
+         “description”: “Exception Code. See Table F.1 in the Code of Practice, Appendix F.”,
+         “example”: 3031
        },
        “Severity”: {
          “type”: “string”,
@@ -42,8 +42,8 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
        },
        “Message”: {
          “type”: “string”,
-         “description”: “Text describing the error.”,
-         “example”: “Partial Data Returned.”
+         “description”: “Exception Message. See Table F.1 in the Code of Practice, Appendix F.”,
+         “example”: “Usage Not Ready for Requested Dates”
        },
        “Help_URL”: {
          “type”: “string”,
@@ -52,7 +52,7 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
        “Data”: {
          “type”: “string”,
          “description”: “Additional data provided to clarify the error.”,
-         “example”: “Usage data has not been processed for all months.”
+         “example”: “Usage was requested for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.”
        }
      }
    }
@@ -84,9 +84,9 @@ Table F.1 (below): Exceptions
    :widths: 20 9 10 61
    :header-rows: 1
 
-   * - Exception Description (message)
+   * - Exception Message
      - Severity
-     - Exception Number (code)
+     - Exception Code
      - Invocation Conditions
 
    * - Info or Debug

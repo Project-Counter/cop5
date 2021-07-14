@@ -125,7 +125,7 @@ Table 4.a (below): Header for Platform Master Report and Standard Views
 
    * - 9
      - Exceptions
-     - :cspan:`1` *Any exceptions that occurred in generating the report, in the format “{Exception Number}: {Exception Description} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
+     - :cspan:`1` *Any exceptions that occurred in generating the report, in the format “{Exception Code}: {Exception Message} ({Data})” with multiple exceptions separated by semicolon-space (“; ”).*
 
    * - 10
      - Reporting_Period
