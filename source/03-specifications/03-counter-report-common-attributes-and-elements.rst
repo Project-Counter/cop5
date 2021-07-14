@@ -159,7 +159,7 @@ Table 3.p (below): List of Data_Type Values
        PR_P1
 
    * - Journal
-     - Textual content published serially as a journal or magazine.
+     - A serial that is a branded and continually growing collection of original articles within a particular discipline.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
