@@ -16,5 +16,3 @@ The Audit Process
 
 * The dated logo MUST link to the content provider’s entry on the COUNTER website.
 * Failure to complete a successful audit by the due date may result in COUNTER removing that content provider from the list of compliant content providers on the COUNTER website.
-
-Note that COUNTER has provided a COUNTER Report Validation Tool to allow content providers and auditors to quickly perform compliance checks related to format. It is highly RECOMMENDED for content providers to use this tool to check their reports and COUNTER_SUSHI API implementation before they begin the audit.

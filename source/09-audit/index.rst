@@ -15,6 +15,7 @@ The independent audit is REQUIRED within six months of a content provider’s fi
    :maxdepth: 1
 
    01-the-audit-process
-   02-categories-of-audit-result
-   03-timetable-and-procedure
-   04-right-to-use-counter-compliance-logo-and-designation
+   02-counter-release-5-validation-tool
+   03-categories-of-audit-result
+   04-timetable-and-procedure
+   05-right-to-use-counter-compliance-logo-and-designation
