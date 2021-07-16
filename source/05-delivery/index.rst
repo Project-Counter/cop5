@@ -11,9 +11,10 @@ Content providers MUST make tabular versions of COUNTER reports available from a
 
 * Reports MUST be provided in the following formats:
 
-  * Microsoft Excel file (see :numref:`formats` above), or as a Tab Separated Value (TSV) file or other structured text file that can be easily imported into spreadsheet programs without loss or corruption of data. Microsoft Excel files may be offered in addition to text files.
+  * In tabular form as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion.
   * JSON formatted in accordance with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
+* The reports in JSON, TSV and other text formats MUST be encoded using UTF-8.
 * Each report MUST be delivered as a separate file to facilitate automated processing of usage reports into ERM and usage consolidation systems. For clarity, multiple reports MUST NOT be included in the same Excel file as separate worksheets.
 * Tabular reports MUST be made available through a website.
 
