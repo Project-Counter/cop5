@@ -2,10 +2,10 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-Creating New Values for Enumerated Elements and Attributes
-----------------------------------------------------------
+Creating Custom Values for Enumerated Elements
+----------------------------------------------
 
-Several report elements and attributes in COUNTER reports include a controlled list of possible values. On occasion, a content provider may want to introduce additional values that better reflects their content and platform. The element value lists can be extended by including additional values in the form of *{namespace}*:*{element value}*. An example of a custom Metric_Type could be ebscohost:Total_Linkouts. The following is the list of elements that can be extended in this manner:
+Several elements in COUNTER reports include a controlled list of possible values. On occasion, content providers may want to introduce additional custom values that better reflect their content and platform. For Master reports (PR, DR, TR, IR) and custom reports the element value lists can be extended by including additional custom values in the form of *{namespace}*:*{element value}*. An example would be a custom Metric_Type value EBSCOhost:Total_Linkouts. The following is the list of elements that can be extended in this manner:
 
 * Data_Type
 * Section_Type
@@ -13,4 +13,4 @@ Several report elements and attributes in COUNTER reports include a controlled l
 * Access_Method
 * Metric_Type
 
-Note that values for identifier fields (Institution_ID, Publisher_ID, etc.) MUST also include the namespace for these identifiers. For proprietary identifiers that are platform-specific, the platform ID should be used as the namespace.
+Custom values MUST only be included in Master Reports if requested, and if included they MUST be listed in the corresponding report filters in the Report_Filters or Metric_Types header.
