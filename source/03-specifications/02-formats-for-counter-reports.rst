@@ -228,7 +228,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - Examples
 
    * - Authors
-     - Authors of the work for which usage is being reported in the format *{author name}* (*{author identifier}*) with author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included with multiple authors separated by semicolon-space (“; ”).
+     - Authors of the work for which usage is being reported in the format *{author name}* (*{author identifier}*) with one OPTIONAL author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included with multiple authors separated by semicolon-space (“; ”).
 
        Note that this element is only used in tabular reports, in JSON reports authors are represented as Item_Contributors with Type Author.
      - IR\ |br|\ |lb|
