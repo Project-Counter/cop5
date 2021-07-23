@@ -30,7 +30,7 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
        },
        “Severity”: {
          “type”: “string”,
-         “description”: “Severity of the error.”,
+         “description”: “Severity of the Exception (deprecated).”,
          “example”: “Warning”,
          “enum”: [
            “Warning”,
@@ -60,13 +60,7 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
 As indicated in the JSON code above, multiple exceptions can be returned and the exceptions have the following elements:
 
 * **Code**: is a numeric exception number that identifies the exception. See table F.1 for permissible values.
-* **Severity:** indicates if the exception is one of:
-
-    * Fatal: unable to complete the transaction. The problem is with the service and may be temporary and a retry could be successful. No report is returned. Example: Service Busy.
-    * Error: unable to complete the transaction. The problem is with the request such that a retry will not be successful unless the request or other configuration details change. No report is returned. Example: Requestor Not Authorized to Access Service.
-    * Warning: The transaction can be completed, and a report is returned, but the report may differ from what was expected. Examples: Usage Not Ready for Requested Dates; Partial Data Returned
-    * Debug: reserved for use by developers as a means of providing additional data about the request or response to the calling application.
-
+* **Severity:** In Release 4 the Severity element was used to indicate the severity of the Exception (Fatal, Error, Warning, Info or Debug). The RESTful COUNTER_SUSHI API in Release 5 instead uses HTTP status codes to indicate if the response is a (fatal) error (non-200 HTTP status code) or not (HTTP status code 200). The Severity element therefore is deprecated and will be removed in the next major release. SUSHI clients should stop relying on Severity and use the HTTP status code and Exception Code instead.
 * **Message**: textual description of the exception. For exception Codes &gt; 999 the Message must exactly match column 1 in table F.1.
 * **Data:** additional optional data that further describes the error. Example: for “Partial Data Returned” exception, the Data could state “You requested 2017-01-01 to 2017-12-31; however, only 2017-01-01 to 2017-06-30 were available.”
 * **Help_URL**: an optional variable that includes the URL to a help message that explains the exception in more detail.
