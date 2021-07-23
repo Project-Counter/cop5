@@ -13,14 +13,10 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
 
 .. code-block:: json-object
 
-   “SUSHI_errorModel”: {
+   “SUSHI_error_model”: {
      “type”: “object”,
-     “description”: “Generalized format for presenting errors and exceptions.”,
-     “required”: [
-       “Code”,
-       “Severity”,
-       “Message”
-     ],
+     “description”: “Generalized format for presenting errors and warnings.”,
+     “required”: [ “Code”, “Severity”, “Message” ],
      “properties”: {
        “Code”: {
          “type”: “integer”,
@@ -32,13 +28,7 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
          “type”: “string”,
          “description”: “Severity of the error.”,
          “example”: “Warning”,
-         “enum”: [
-           “Warning”,
-           “Error”,
-           “Fatal”,
-           “Debug”,
-           “Info”
-         ]
+         “enum”: [ “Warning”, “Error”, “Fatal”, “Debug”, “Info” ]
        },
        “Message”: {
          “type”: “string”,
@@ -47,12 +37,12 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
        },
        “Help_URL”: {
          “type”: “string”,
-         “description”: “URL describing error details.”
+         “description”: “URL to a help page that explains the Exception in more detail.”
        },
        “Data”: {
          “type”: “string”,
-         “description”: “Additional data provided to clarify the error.”,
-         “example”: “Usage was requested for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.”
+         “description”: “Additional data provided by the server to clarify the Exception.”,
+         “example”: “Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.”
        }
      }
    }
