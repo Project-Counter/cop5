@@ -55,7 +55,7 @@ As indicated in the JSON code above, multiple exceptions can be returned and the
 * **Data:** additional optional data that further describes the error. Example: for “Partial Data Returned” exception, the Data could state “You requested 2017-01-01 to 2017-12-31; however, only 2017-01-01 to 2017-06-30 were available.”
 * **Help_URL**: an optional variable that includes the URL to a help message that explains the exception in more detail.
 
-Table F.1 provides a list of possible exceptions that may occur for the COUNTER_SUSHI API. Note that some of the exceptions also may occur for tabular reports.
+Table F.1 provides a list of possible exceptions that may occur for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999. Note that some of the exceptions also may occur for tabular reports.
 
 Table F.1 (below): Exceptions
 
