@@ -214,17 +214,6 @@ Table F.1 (below): Exceptions
      - 3070
      - A required filter was not included in the request. Which filters are required will depend on the report and the service being called. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required filter would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
 
-   * - Required ReportAttribute Missing
-     - Warning\ |br|\ |lb|
-       Error
-     - 3071
-     - A required report attribute was not included in the request. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required attribute would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value, then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
-
-   * - Limit Requested Greater than Maximum Server Limit
-     - Warning
-     - 3080
-     - The requested value for limit (number of items to return) exceeds the server limit. The server is expected to return data in the response (up to the limit). The Message element of the exception should indicate the server limit.
-
 Note 1: An Error does not interrupt completion of the transaction (in the sense of a programmatic failure), although it may not return the expected report for the reason that is identified. A Fatal exception does not complete the transaction; the problem may be temporary and a retry could be successful.
 
 Note 2: Optional response: Service may respond with the additional exception of Info level and include additional information in the Message. For example, if the client is requesting data for a date range where the begin_date is before what the service offers, the service might include a HelpURL that can provide more information about supported dates.
