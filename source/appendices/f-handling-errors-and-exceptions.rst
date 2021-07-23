@@ -147,10 +147,14 @@ Table F.1 (below): Exceptions
      - 3000
      - The requested report name, or other means of identifying a report that the service can process is not matched against the supported reports.
 
+       In Release 5 the requested report is part of the URL path, and for RESTful APIs the HTTP status code 404 is used to signal that a path isn’t supported. Therefore this Exception is deprecated and will be removed in the next major release. SUSHI clients should stop relying on this Exception and use the HTTP status code instead.
+
    * - Report Version Not Supported
      - Error
      - 3010
      - Requested version of the report is not supported by the service.
+
+       In Release 5 the requested report version is part of the URL path, and for RESTful APIs the HTTP status code 404 is used to signal that a path isn’t supported. Therefore this Exception is deprecated and will be removed in the next major release. SUSHI clients should stop relying on this Exception and use the HTTP status code instead.
 
    * - Invalid Date Arguments
      - Error
