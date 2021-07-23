@@ -77,42 +77,48 @@ Table F.1 (below): Exceptions
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.12}|>{\parskip=\tparskip}\Y{0.56}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.12}|>{\raggedright\arraybackslash}\Y{0.09}|>{\parskip=\tparskip}\Y{0.47}|
 
 .. list-table::
    :class: longtable
-   :widths: 20 9 10 61
+   :widths: 20 9 10 7 54
    :header-rows: 1
 
    * - Exception Message
      - Severity
      - Exception Code
+     - HTTP Status Code
      - Invocation Conditions
 
    * - Info or Debug
      - Info\ |br|\ |lb|
        Debug
      - 0
+     - 200
      - Any. These Messages will never be standardized and service providers can design them as they see fit.
 
    * - Warnings
      - Warning
      - 1-999
+     - 200
      - Any. This range is reserved for the use of service providers to supply their own custom warnings.
 
    * - Service Not Available
      - Fatal
      - 1000
+     - 503
      - Service is executing a request, but due to internal errors cannot complete the request.
 
    * - Service Busy
      - Fatal
      - 1010
+     - 503
      - Service is too busy to execute the incoming request. Client should retry the request after some reasonable time.
 
    * - Report Queued for Processing
      - Warning
      - 1011
+     - 202
      - Services queuing incoming report requests must return a response with this exception and no payload to inform the client about the processing status. Client should retry the request after some reasonable time.
 
        Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
@@ -120,56 +126,67 @@ Table F.1 (below): Exceptions
    * - Client has made too many requests
      - Fatal
      - 1020
+     - 429
      - If the server sets a limit on the number of requests a client can make within a given timeframe, the server will return this error when the client exceeds that limit. The server would provide an explanation of the limit in the additional Data element (e.g., “Client has made too many requests. This server allows only 5 requests per day per requestor_id and customer_id.”).
 
    * - Insufficient Information to Process Request
      - Fatal
      - 1030
+     - 400
      - There is insufficient data in the request to begin processing (e.g., missing requestor_id, no customer_id, etc.).
 
    * - Requestor Not Authorized to Access Service
      - Error
      - 2000
+     - 401
      - If requestor_id is not recognized or not authorized by the service.
 
    * - Requestor is Not Authorized to Access Usage for Institution
      - Error
      - 2010
+     - 403
      - If requestor_id has not been authorized to harvest usage for the institution identified by the customer_id, or if the customer_id is not recognized.
 
    * - APIKey Invalid
      - Error
      - 2020
+     - 401
      - The service being called requires a valid APIKey to access usage data and the key provided was not valid or not authorized for the data being requested.
 
    * - Report Not Supported
      - Error
      - 3000
+     - 404
      - The requested report name, or other means of identifying a report that the service can process is not matched against the supported reports.
 
    * - Report Version Not Supported
      - Error
      - 3010
+     - 404
      - Requested version of the report is not supported by the service.
 
    * - Invalid Date Arguments
      - Error
      - 3020
+     - 400
      - Any format or logic errors involving date computations (e.g., end_date cannot be less than begin_date).
 
    * - No Usage Available for Requested Dates
      - Error
      - 3030
+     - 200
      - Service did not find any data for the date range specified.
 
    * - Usage Not Ready for Requested Dates
      - Error, Warning
      - 3031
+     - 200
      - Service has not yet processed the usage for one or more of the requested months, if some months are available that data should be returned. The exception should include the months not processed in the additional Data element.
 
    * - Usage No Longer Available for Requested Dates
      - Warning
      - 3032
+     - 200
      - Service does not have the usage for one or more of the requested months because the requested Begin_Date is earlier than the available data. If some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
 
        Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
@@ -177,11 +194,13 @@ Table F.1 (below): Exceptions
    * - Partial Data Returned
      - Warning
      - 3040
+     - 200
      - Request could not be fulfilled in its entirety. Data that was available was returned.
 
    * - Parameter Not Recognized in this Context
      - Warning
      - 3050
+     - 200
      - Request contained one or more parameters that are not recognized by the server in the context of the report being serviced. The server should list the names of unsupported parameters in the additional Data element of the exception.
 
        Note: The server is expected to ignore unsupported parameters and continue to process the request, returning data that is available without the parameter being applied.
@@ -190,6 +209,7 @@ Table F.1 (below): Exceptions
      - Warning\ |br|\ |lb|
        Error
      - 3060
+     - 200
      - Request contained one or more filter values that are not supported by the server. The server should list the names of unsupported filter values in the additional Data element of the exception.
 
        Note: The server is expected to ignore unsupported filters and continue to process the request, returning data that is available without the filter being applied.
@@ -198,12 +218,14 @@ Table F.1 (below): Exceptions
      - Warning\ |br|\ |lb|
        Error
      - 3061
+     - 200
      - A filter element includes multiple values in a pipe-delimited list; however, the supplied values are not all of the same scope (e.g., item_id filter includes article level DOIs and journal level DOIs or ISSNs).
 
    * - Invalid ReportAttribute Value
      - Warning\ |br|\ |lb|
        Error
      - 3062
+     - 200
      - Request contained one or more report attribute values that are not supported by the server. The server should list the names of unsupported report attribute values in the additional Data element of the exception.
 
        Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
@@ -212,17 +234,20 @@ Table F.1 (below): Exceptions
      - Warning\ |br|\ |lb|
        Error
      - 3070
+     - 200
      - A required filter was not included in the request. Which filters are required will depend on the report and the service being called. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required filter would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
 
    * - Required ReportAttribute Missing
      - Warning\ |br|\ |lb|
        Error
      - 3071
+     - 
      - A required report attribute was not included in the request. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required attribute would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value, then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
 
    * - Limit Requested Greater than Maximum Server Limit
      - Warning
      - 3080
+     - 
      - The requested value for limit (number of items to return) exceeds the server limit. The server is expected to return data in the response (up to the limit). The Message element of the exception should indicate the server limit.
 
 Note 1: An Error does not interrupt completion of the transaction (in the sense of a programmatic failure), although it may not return the expected report for the reason that is identified. A Fatal exception does not complete the transaction; the problem may be temporary and a retry could be successful.
