@@ -761,7 +761,7 @@ Table 3.x (below): Report Attributes
      - Reports
 
    * - Attributes_To_Show
-     - List of optional columns/elements to include in the report (default: none). See :numref:`platform-elements`, :numref:`database-elements`, :numref:`title-elements` and :numref:`item-elements` for permissible values. Note that the component and parent columns/elements cannot be selected individually and MUST NOT be included in the list (see the Include_Component_Details and Include_Parent_Details attributes below).
+     - List of additional columns/elements to include in the report (default: none). See :numref:`platform-elements`, :numref:`database-elements`, :numref:`title-elements` and :numref:`item-elements` for permissible values. Note that the component and parent columns/elements cannot be selected individually and MUST NOT be included in the list (see the Include_Component_Details and Include_Parent_Details attributes below).
      - PR, DR, TR, IR
 
    * - Exclude_Monthly_Details
