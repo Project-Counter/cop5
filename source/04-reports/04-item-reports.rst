@@ -147,7 +147,7 @@ Table 4.o (below): Header for Item Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these fields appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The optional (O) Parent and Component elements MUST only be included if requested via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other optional (O) elements MUST only be included if requested, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these fields appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the Master Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.p (below): Column Headings/Elements for Item Master Report and Standard Views
 
@@ -186,17 +186,17 @@ Table 4.p (below): Column Headings/Elements for Item Master Report and Standard 
      - M
 
    * - Authors
-     - O
+     - R
      - M
      -
 
    * - Publication_Date
-     - O
+     - R
      - M
      -
 
    * - Article_Version
-     - O
+     - R
      - M
      -
 
@@ -231,127 +231,127 @@ Table 4.p (below): Column Headings/Elements for Item Master Report and Standard 
      - M
 
    * - Parent_Title
-     - O
+     - R
      - M
      -
 
    * - Parent_Authors
-     - O
+     - R
      - M
      -
 
    * - Parent_Publication_Date
-     - O
+     - R
      -
      -
 
    * - Parent_Article_Version
-     - O
+     - R
      - M
      -
 
    * - Parent_Data_Type
-     - O
+     - R
      -
      -
 
    * - Parent_DOI
-     - O
+     - R
      - M
      -
 
    * - Parent_Proprietary_ID
-     - O
+     - R
      - M
      -
 
    * - Parent_ISBN
-     - O
+     - R
      -
      -
 
    * - Parent_Print_ISSN
-     - O
+     - R
      - M
      -
 
    * - Parent_Online_ISSN
-     - O
+     - R
      - M
      -
 
    * - Parent_URI
-     - O
+     - R
      - M
      -
 
    * - Component_Title
-     - O
+     - R
      -
      -
 
    * - Component_Authors
-     - O
+     - R
      -
      -
 
    * - Component_Publication_Date
-     - O
+     - R
      -
      -
 
    * - Component_Data_Type
-     - O
+     - R
      -
      -
 
    * - Component_DOI
-     - O
+     - R
      -
      -
 
    * - Component_Proprietary_ID
-     - O
+     - R
      -
      -
 
    * - Component_ISBN
-     - O
+     - R
      -
      -
 
    * - Component_Print_ISSN
-     - O
+     - R
      -
      -
 
    * - Component_Online_ISSN
-     - O
+     - R
      -
      -
 
    * - Component_URI
-     - O
+     - R
      -
      -
 
    * - Data_Type
-     - O
+     - R
      -
      -
 
    * - YOP
-     - O
+     - R
      -
      -
 
    * - Access_Type
-     - O
+     - R
      - M
      -
 
    * - Access_Method
-     - O
+     - R
      -
      -
 

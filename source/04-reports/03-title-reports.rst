@@ -310,7 +310,7 @@ Table 4.j (below): Header for Title Master Report and Standard Views - Part 2 (f
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these fields appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. Optional (O) elements MUST only be included if requested, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these fields appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.k (below): Column Headings/Elements for Title Master Report and Standard Views
 
@@ -434,7 +434,7 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
      - M
 
    * - Data_Type
-     - O
+     - R
      -
      -
      -
@@ -444,7 +444,7 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
      -
 
    * - Section_Type
-     - O
+     - R
      -
      -
      -
@@ -454,7 +454,7 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
      -
 
    * - YOP
-     - O
+     - R
      - M
      - M
      - M
@@ -464,7 +464,7 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
      - M
 
    * - Access_Type
-     - O
+     - R
      -
      -
      - M
@@ -474,7 +474,7 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
      -
 
    * - Access_Method
-     - O
+     - R
      -
      -
      -
