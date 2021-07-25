@@ -20,7 +20,7 @@ Appendix A: Glossary of Terms
 
    * - Term
      - Definition
-     - Examples/formats Definition
+     - Examples
 
    * - A&I database\ |br|\ |lb|
        A&I_Database
@@ -63,7 +63,7 @@ Appendix A: Glossary of Terms
 
    * - Access_Type
      - A COUNTER attribute used to report on the nature of access control restrictions, if any, placed on the content item at the time when the content item was accessed.
-     - Controlled, OA_Gold_APC, OA_Gold_Non_APC, OA_Delayed, Other_Free_to_Read
+     - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
 
    * - Aggregated_Full_Content
      - A COUNTER Host_Type for content providers who license full-text articles and possibly non-textual content (beyond bibliographic information).
@@ -288,7 +288,7 @@ Appendix A: Glossary of Terms
 
    * - Customer_ID
      - The field in the COUNTER reports that indicates whose usage is being reported. May be a proprietary or standard value such as ISNI.
-     - ISNI=000000012150090X
+     - ISNI:000000012150090X
 
    * - Data harvesting
      - Automated processes used for extracting data from websites.
@@ -301,22 +301,8 @@ Appendix A: Glossary of Terms
      - Figshare
 
    * - Data Types, Data_Type
-     - The field identifying type of content. COUNTER recognizes the following Data_Types:
-
-       * Article
-       * Book
-       * Book Segment
-       * Database
-       * Dataset
-       * Journal
-       * Multimedia
-       * Newspaper_Or_Newsletter
-       * Other
-       * Platform
-       * Report
-       * Repository Item
-       * Thesis_Or_Dissertation
-     -
+     - The field identifying type of content.
+     - Article, Book, Book_Segment, Database, Dataset, Journal, Multimedia, Newspaper_Or_Newsletter, Other, Platform, Report, Repository_Item, Thesis_Or_Dissertation
 
    * - Database
      - A collection of electronically stored data or unit records (facts, bibliographic data, texts) with a common user interface and software for the retrieval and manipulation of data. (NISO)
@@ -415,7 +401,7 @@ Appendix A: Glossary of Terms
 
    * - Element
      - A piece of information to be reported on, displayed as a column heading (and/or in the Report Header) in a COUNTER report.
-     - Listed for each Master Report in section 4.
+     -
 
    * - Embargo period
      - The period of time before an article is moved out from behind the paywall, i.e. from Controlled to OA_Delayed.
@@ -499,15 +485,7 @@ Appendix A: Glossary of Terms
 
    * - Host types
      - A categorization of Content Hosts used by COUNTER to facilitate implementation of the Code of Practice. The Code of Practice identifies the Host types that apply to the various artefacts in the Code of Practice, allowing a Content Host to quickly identify the areas of the Code of Practice to implement by identifying the Host Types categories that apply to them.
-     - E-Journal\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Aggregated Full Content\ |br|\ |lb|
-       A&I Database\ |br|\ |lb|
-       Discovery Service\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Data Repository\ |br|\ |lb|
-       Scholarly Collaboration Network
+     - A&I_Database, Aggregated_Full_Content, Data_Repository, Discovery_Service, eBook, eBook_Collection, eJournal, Full_Content_Database, Multimedia, Multimedia_Collection, Repository, Scholarly_Collaboration_Network
 
    * - Host UI, host-site UI
      - User interface that an end-user would use to access content on the Content host.
@@ -527,8 +505,7 @@ Appendix A: Glossary of Terms
 
    * - Institution_ID
      - A unique identifier for an institution. In COUNTER reports the Institution_ID is presented as a combination of the identifier type and its value. Proprietary identifiers that identify the content platform can be used.
-     - isni=000000012150090X\ |br|\ |lb|
-       ebscohost=s12345
+     - ISNI:000000012150090X, EBSCOhost:s12345
 
    * - Institution_Name
      - The field in the COUNTER reports that indicates the name of the institution.
@@ -606,7 +583,7 @@ Appendix A: Glossary of Terms
 
    * - Item
      - Collective term for content that is reported at a high level of granularity, e.g. a full-text article (original or a review of other published work), an abstract or digest of a full-text article, a sectional HTML page, supplementary material associated with a full-text article (e.g. a supplementary data set), or non-textual resources such as an image, a video, audio, a dataset, a piece of code, or a chemical structure or reaction.
-     - Full text article, TOC, Abstract, Database record, Dataset, Thesis
+     - Full-text article, Abstract, Database record, Dataset, Thesis
 
    * - Item Master Report
      - A COUNTER report that provides usage data at the item or item-component level.
@@ -672,10 +649,7 @@ Appendix A: Glossary of Terms
 
    * - Metric Types, Metric_Types
      - An attribute of COUNTER usage that identifies the nature of the usage activity. See Sections 4.1.3; 4.2.3; 4.3.3; 4.4.3.
-     - Total_Requests\ |br|\ |lb|
-       Searches_Regular\ |br|\ |lb|
-       Limit_Exceeded\ |br|\ |lb|
-       Unique_Title_Requests
+     - Total_Item_Requests, Searches_Regular, Limit_Exceeded, Unique_Title_Requests
 
    * - Monograph Text
      - See *Book*.
@@ -880,17 +854,15 @@ Appendix A: Glossary of Terms
 
    * - Report Attribute, Report_Attributes
      - A series of zero or more report attributes applied to the report. Typically, a report attribute affects how the usage is presented, but does not change the totals.
-     - Exclude_Report_Header;\ |br|\ |lb|
-       Attributes_To_Show=\ |lb|\ Access_Type|YOP
+     - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
    * - Report filters
      - In COUNTER reports the report filter can be used to limit the usage returned.
-     - Data_Type=journal
+     - Data_Type=Journal
 
    * - Report_ID
      - The alphanumeric identifier of a specific report Standard View.
-     - DR_D1: Database Search and Item Usage.\ |br|\ |lb|
-       TR_J3, Journal Usage by Access Type
+     - PR, DR_D1, TR_J3
 
    * - Report item attributes
      - A series of elements that describe the nature of usage for an item and may include Access_Type, YOP, etc.
@@ -899,7 +871,7 @@ Appendix A: Glossary of Terms
    * - Report name\ |br|\ |lb|
        Report_Name
      - The name of a COUNTER report.
-     - Journal Title Report 1
+     - Journal Requests (Excluding OA_Gold)
 
    * - Report validation tool
      - See *COUNTER Report Validation Tool*.
@@ -907,7 +879,7 @@ Appendix A: Glossary of Terms
 
    * - Reporting period, Reporting_Period
      - The total time period covered in a usage report.
-     -
+     - Begin_Date=2018-01-01; End_Date=2018-06-30
 
    * - Repository
      - A host who provides access to an institution’s research output. Includes subject repositories, institution, department, etc.
@@ -1005,7 +977,7 @@ Appendix A: Glossary of Terms
 
    * - Section Types, Section_Type
      - A COUNTER attribute that identifies the type of section that was accessed by the user.
-     - Article, book, chapter
+     - Article, Book, Chapter
 
    * - Serial
      - A publication in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely. This definition includes periodicals, newspapers, and annuals (reports, yearbooks, monographic series). (NISO)
@@ -1041,8 +1013,7 @@ Appendix A: Glossary of Terms
 
    * - Standard View
      - A pre-defined version of a Master report, designed to meet the most common needs.
-     - Book Requests (Excluding OA_Gold)\ |br|\ |lb|
-       Journal Article Requests
+     - Book Requests (Excluding OA_Gold), Journal Article Requests
 
    * - Standardized Usage Statistics Harvesting Initiative
      - See *SUSHI*.
