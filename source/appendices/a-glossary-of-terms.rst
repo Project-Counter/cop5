@@ -948,6 +948,12 @@ Appendix A: Glossary of Terms
      - See Internet robot, crawler, spider.
      -
 
+   * - ROR (Research Organization Registry)
+     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world. See https://ror.org.
+
+       In COUNTER reports ROR IDs can be used as identifiers for institutions and publishers.
+     -
+
    * - Scholarly Collaboration Network
      - A service used by researchers to share information about their work.
      - Mendeley, Reddit/Science
