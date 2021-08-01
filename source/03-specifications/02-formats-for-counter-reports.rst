@@ -76,8 +76,8 @@ Table 3.f (below): COUNTER Report Header Elements
      - Mt. Laurel University
 
    * - Institution_ID
-     - A series of identifiers that represent the institution in the format of *{namespace}*:*{value}*. Include multiple identifiers by separating with a semicolon-space (“; ”). Permitted identifier namespaces are ISIL, ISNI, OCLC and, for local identifiers assigned by the content provider, the platform ID of the content provider.
-     - ISNI:0000000419369078; pubsiteA:PrncU
+     - A series of identifiers that represent the institution in the format of *{namespace}*:*{value}*. Include multiple identifiers by separating with a semicolon-space (“; ”). Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 
    * - Metric_Types
      - A semicolon-space delimited list of Metric_Types requested for this report. Note that even though a Metric_Type was requested, it might not be included in the body of the report if no report items had usage of that type.
@@ -170,11 +170,10 @@ Table 3.g (below): Elements that Describe the Report Item
        APA
 
    * - Publisher_ID
-     - A unique identifier for the publisher in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one per type. Permitted identifier namespaces are ISNI and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - A unique identifier for the publisher in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one per type. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
-     - ISNI:1234123412341234\ |br|\ |lb|
-       ebscohost:PubX
+     - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
 
 
 .. rubric:: Platform
