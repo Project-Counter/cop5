@@ -9,7 +9,20 @@
 Appendix F: Handling Errors and Exceptions
 ==========================================
 
-As a rule, the structure of the SUSHI response will be governed by the SUSHI schema; therefore, any error conditions that can be reported will be specified within the SUSHI response. The following is a definition of from the COUNTER_SUSHI API Specification that shows the format of the exception.
+Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`sushi`) defines the API methods and the JSON response formats, including the format for Exceptions (SUSHI_error_model), this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
+
+There are four types of errors that can occur while responding to COUNTER_SUSHI API calls:
+
+* The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the SUSHI server MUST respond with HTTP status code 404. The Exceptions 3000 and 3010 used in Release 4 for indicating that the report or report version isn't supported still exist, but they are deprecated and will be removed in the next major release.
+* While processing a COUNTER_SUSHI API call an error occurs that usually prohibits generating the requested report, report list, consortium member list or server status. The SUSHI server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
+* The SUSHI server detects errors in a report request that can be ignored and processing can continue. The SUSHI server SHOULD continue processing the request and return HTTP status code 200 and the report in JSON format with the appropriate Exceptions in the report header.
+* The report differs from what might be expected, for example the report is empty because there was no usage. In this case the report in JSON format MUST be returned with the appropriate Exceptions in the report header.
+
+When requesting a tabular report at an administrative/reporting site, only the last type of error should occur and be included in a report. The website is expected to gracefully handle other errors that might occur while generating the report.
+
+While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the SUSHI server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
+
+The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as follows:
 
 .. code-block:: json-object
 
@@ -47,15 +60,17 @@ As a rule, the structure of the SUSHI response will be governed by the SUSHI sch
      }
    }
 
-As indicated in the JSON code above, multiple exceptions can be returned and the exceptions have the following elements:
+For tabular reports the format for the Exceptions header is defined in :numref:`report-header` of the Code of Practice, Table 3.f, as "*{Exception Code}*: *{Exception Message}* (*{Data}*)" with multiple Exceptions separated by semicolon-space ("; ").
 
-* **Code**: is a numeric exception number that identifies the exception. See table F.1 for permissible values.
+As indicated in the code above, Exceptions in JSON format have the following elements:
+
+* **Code**: The Code is a number that identifies the Exception. See Table F.1 below for permissible values.
 * **Severity:** In Release 4 the Severity element was used to indicate the severity of the Exception (Fatal, Error, Warning, Info or Debug). The RESTful COUNTER_SUSHI API in Release 5 instead uses HTTP status codes to indicate if the response is a (fatal) error (non-200 HTTP status code) or not (HTTP status code 200). The Severity element therefore is deprecated and will be removed in the next major release. SUSHI clients should stop relying on Severity and use the HTTP status code and Exception Code instead.
-* **Message**: textual description of the exception. For exception Codes &gt; 999 the Message must exactly match column 1 in table F.1.
-* **Data:** additional optional data that further describes the error. Example: for “Partial Data Returned” exception, the Data could state “You requested 2017-01-01 to 2017-12-31; however, only 2017-01-01 to 2017-06-30 were available.”
-* **Help_URL**: an optional variable that includes the URL to a help message that explains the exception in more detail.
+* **Message**: The Message element contains a textual description of the Exception. For standard Exceptions with Codes > 999 the Message MUST exactly match the Message in Table F.1 below.
+* **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table F.1 below), for other Exceptions it is optional.
+* **Help_URL**: An optional element that contains an URL to a help page that explains the Exception in more detail.
 
-Table F.1 provides a list of possible exceptions that may occur for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999. Note that some of the exceptions also may occur for tabular reports.
+Table F.1 lists all Exceptions permissible for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
 
 Table F.1 (below): Exceptions
 
@@ -74,14 +89,14 @@ Table F.1 (below): Exceptions
      - HTTP Status Code
      - Invocation Conditions
 
-   * - Info or Debug
+   * - *{Info or Debug Message}*
      - Info\ |br|\ |lb|
        Debug
      - 0
      - 200
      - Any. These Messages will never be standardized and service providers can design them as they see fit.
 
-   * - Warnings
+   * - *{Warning Message}*
      - Warning
      - 1-999
      - 200
@@ -224,13 +239,3 @@ Table F.1 (below): Exceptions
      - 3070
      - 200
      - A required filter was not included in the request. Which filters are required will depend on the report and the service being called. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required filter would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
-
-Note 1: An Error does not interrupt completion of the transaction (in the sense of a programmatic failure), although it may not return the expected report for the reason that is identified. A Fatal exception does not complete the transaction; the problem may be temporary and a retry could be successful.
-
-Note 2: Optional response: Service may respond with the additional exception of Info level and include additional information in the Message. For example, if the client is requesting data for a date range where the begin_date is before what the service offers, the service might include a HelpURL that can provide more information about supported dates.
-
-Note 3: If multiple exceptions are discovered, each exception should be returned in its own element.
-
-Note 4: Clarifying details about an exception (e.g., the filter that was missing or deemed invalid should be added to the Data element or, for custom warnings, the Message element of the exception so that the caller knows what to correct).
-
-Note 5: If the caller gets the baseURL, the version, or method wrong, the expectation is that they will receive an HTTP 404 error since the specified path is not valid.
