@@ -14,7 +14,7 @@ All COUNTER reports have the same layout and structure. Figure 3.b (below) provi
 .. figure:: ../_static/img/3b-standard-view-sample.png
    :alt: Standard View sample
    :align: center
-   :width: 75%
+   :width: 80%
 
 .. centered:: Figure 3.b: Sample “Journal Requests (Excluding OA_Gold)” Standard View
 
@@ -38,7 +38,7 @@ The first 12 rows of a tabular COUNTER report contain the header, and the 13th r
 .. figure:: ../_static/img/3d-tabular-report-header.png
    :alt: Tabular Report layout
    :align: center
-   :width: 80%
+   :width: 85%
 
 .. centered:: Figure 3.d: Common Report Header Information
 
