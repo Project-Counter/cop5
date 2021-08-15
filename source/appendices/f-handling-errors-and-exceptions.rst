@@ -137,6 +137,12 @@ Table F.1 (below): Exceptions
      - 401
      - The service being called requires a valid APIKey to access usage data and the key provided was not valid or not authorized for the data being requested.
 
+   * - IP Address Not Authorized to Access Service
+     - Error
+     - 2030
+     - 401
+     - The service requires IP authorization, and the IP address used by the client is not authorized. The server MUST include information on how this issue can be resolved in the Data element or include a Help_URL that points to the information.
+
    * - Report Not Supported
      - Error
      - 3000
