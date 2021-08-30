@@ -12,6 +12,7 @@ Appendix E: Audit Requirements and Tests
 .. toctree::
    :maxdepth: 4
 
-   01-general-auditing-requirements
-   02-the-required-audit-outputs
-   03-the-required-audit-tests
+   01-audit-requirements
+   02-audit-tests
+   03-audit-compliance
+   04-audit-conclusion

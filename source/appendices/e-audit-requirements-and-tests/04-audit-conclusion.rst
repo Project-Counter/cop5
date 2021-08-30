@@ -2,20 +2,20 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-E.2 The Required Audit Outputs
-------------------------------
+E.4 Audit Conclusion
+--------------------
 
-If the auditor identifies one or more issues, the content provider MUST resolve them and pass the audit within 3 months to maintain COUNTER-compliant status. Please see :numref:`audit-result` in the COUNTER Code of Practice.
+If the auditor identifies one or more issues, the content provider MUST resolve them and pass the audit within 3 months to maintain COUNTER-compliant status. Please see :numref:`audit-result` in the COUNTER R5 Code of Practice.
 
 The auditor will provide to the COUNTER Executive Committee a summary report including, as a minimum, the following information:
 
-#. The name of the content provider
-#. The audit period and date
-#. The usage report(s) tested
-#. For each usage report tested, the test results, indicated as a % of the reported figures over the expected
-#. A summary of any material issues noted with the format/structure, data integrity, and/or delivery of the content provider’s reports. If there are no issues, a PASS should be noted.
-#. A clear indication of the outcome of the audit: PASS, QUALIFIED PASS, or FAIL.
-#. Any other comments that relate to the audit and are worthy of consideration by the COUNTER Executive Committee.
+* The name of the content provider
+* The audit period and date
+* The usage report(s) tested
+* For each usage report tested, the test results, indicated as a % of the reported figures over the expected
+* A summary of any material issues noted with the format/structure, data integrity, and/or delivery of the content provider’s reports. If there are no issues, a PASS should be noted.
+* A clear indication of the outcome of the audit: PASS, QUALIFIED PASS, or FAIL.
+* Any other comments that relate to the audit and are worthy of consideration by the COUNTER Executive Committee.
 
 
 Sample Audit Report:
@@ -46,7 +46,7 @@ Sample Audit Report:
      - :rspan:`1` Comments
 
    * - Tabular
-     - SUSHI
+     - SUSHI/JSON
      - Reports Interface
      - SUSHI Server
 
