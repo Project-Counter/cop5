@@ -25,6 +25,8 @@ Appendix A: Glossary of Terms
    * - A&I database\ |br|\ |lb|
        A&I_Database
      - A non-full-text database that typically contains article metadata, abstracts, and subject classifications. Used by researchers to locate publications relevant to their research.
+
+       A COUNTER Host_Type.
      - PubMed, PsycInfo
 
    * - Abstract
@@ -53,6 +55,10 @@ Appendix A: Glossary of Terms
      - A COUNTER Host_Type for content providers who license full-text articles and possibly non-textual content (beyond bibliographic information).
      -
 
+   * - Aggregated full-text database
+     - A full-text database that includes content from multiple titles, usually from multiple publishers.
+     - Academic Search Complete
+
    * - Aggregator
      - A type of content provider that hosts content from multiple publishers, delivers content direct to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
@@ -69,10 +75,16 @@ Appendix A: Glossary of Terms
      - Application Programming Interface.
      -
 
+   * - Archive
+     - Non-current collections of journals, books, articles, or other publications that are preserved because of their continuing value and which are frequently made available by publishers as separate acquisitions.
+     - Oxford Journals Archive
+
    * - Article
      - An item of original written work published in a journal, other serial publication, or in a book. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
 
        A COUNTER Data_Type.
+
+       A COUNTER Section_Type for Title Reports.
      -
 
    * - Article header
@@ -130,6 +142,8 @@ Appendix A: Glossary of Terms
      - A non-serial publication of any length available in print (in hard or soft covers or in loose-leaf format) or in electronic format.
 
        A COUNTER Data_Type.
+
+       A COUNTER Section_Type for Title Reports.
      -
 
    * - Book Access Denied
@@ -144,8 +158,11 @@ Appendix A: Glossary of Terms
      - Book content items retrieved.
      -
 
-   * - Book_Segment
-     - See Section_Type.
+   * - Book segment\ |br|\ |lb|
+       Book_Segment
+     - Part of a book.
+
+       A COUNTER Data_Type.
      -
 
    * - Bulk download
@@ -283,11 +300,17 @@ Appendix A: Glossary of Terms
      - Social Science Abstracts, Reaxys
 
    * - Dataset
-     - See Data_Type.
+     - A collection of data.
+
+       A COUNTER Data_Type.
      -
 
    * - Database Master Report
      - A COUNTER report that contains additional filters and breakdowns beyond those included in the Database Standard Views and is aggregated to the database level.
+     -
+
+   * - Database Reports
+     - A series of COUNTER reports that provide usage aggregated to the database level.
      -
 
    * - Delayed Open Access
@@ -305,6 +328,8 @@ Appendix A: Glossary of Terms
    * - Discovery service\ |br|\ |lb|
        Discovery_Service
      - A pre-harvested central index coupled with fully featured discovery layer.
+
+       A COUNTER Host_Type.
      - EDS, Primo, Summon
 
    * - Distributed Usage Logging (DUL)
@@ -353,6 +378,14 @@ Appendix A: Glossary of Terms
 
    * - eBook
      - Monographic content that is published online.
+
+       A COUNTER Host_Type.
+     -
+
+   * - eBook_Collection
+     - A branded group of eBooks that can be subscribed to/licensed and searched as a complete group.
+
+       A COUNTER Host_Type.
      -
 
    * - EC
@@ -361,6 +394,8 @@ Appendix A: Glossary of Terms
 
    * - eJournal
      - Serial content that is published online.
+
+       A COUNTER Host_Type.
      -
 
    * - eJournal host
@@ -413,6 +448,12 @@ Appendix A: Glossary of Terms
 
    * - Format
      - A COUNTER element used to identify the format of the content. Reserved values include: HTML, PDF, Other.
+     -
+
+   * - Full_Content_Database
+     - A COUNTER Host_Type for content providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+
+       Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
      -
 
    * - Full-text database
@@ -561,6 +602,10 @@ Appendix A: Glossary of Terms
      - A JavaScript library.
      -
 
+   * - JSON
+     - JavaScript Object Notation (JSON) is an open standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types. [`Wikipedia <https://en.wikipedia.org/wiki/JSON>`__]
+     -
+
    * - License
      - A contract or agreement that provides an organization or individual (licensee) with the right to access certain content.
      -
@@ -599,6 +644,10 @@ Appendix A: Glossary of Terms
 
    * - Multimedia
      - Non-textual media such as images, audio, and video.
+
+       A COUNTER Host_Type.
+
+       A COUNTER Data_Type.
      -
 
    * - Multimedia collection\ |br|\ |lb|
@@ -624,8 +673,11 @@ Appendix A: Glossary of Terms
        For example, an XML namespace consists of element types and attribute names. Each of the names within that namespace is only related/linked to that namespace. The name is uniquely identified by the namespace identifier ahead of the name. For example, Namespace1:John and Namespace2:John are the same names but within different namespaces.
      -
 
-   * - Newspaper or Newsletter
+   * - Newspaper or Newsletter\ |br|\ |lb|
+       Newspaper_or_Newsletter
      - Textual content published serially in a newspaper or newsletter.
+
+       A COUNTER Data_Type.
      -
 
    * - No_License
@@ -671,7 +723,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Other
-     - A content item or section that cannot be classified by any of the other Data_Types.
+     - A content item or section that cannot be classified by any of the other Data_Types or Section_Types.
+
+       A COUNTER Data_Type.
+
+       A COUNTER Section_Type for Title Reports.
      -
 
    * - Other_Free_to_Read
@@ -700,6 +756,8 @@ Appendix A: Glossary of Terms
 
    * - Platform
      - The content host of an aggregator, publisher, or other online service that delivers the content to the user and that counts and provides the COUNTER usage reports.
+
+       A COUNTER Data_Type.
      - Wiley Online Library, HighWire
 
    * - Platform Master Report
@@ -787,13 +845,22 @@ Appendix A: Glossary of Terms
      - Version of the COUNTER Code of Practice.
      -
 
+   * - Report
+     - A document that presents information in an organized format.
+
+       A COUNTER Data_Type.
+     -
+
    * - Report attribute\ |br|\ |lb|
        Report_Attributes
      - A series of zero or more report attributes applied to the report. Typically, a report attribute affects how the usage is presented, but does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
-   * - Report filters
+   * - Report filters\ |br|\ |lb|
+       Report_Filters
      - In COUNTER reports the report filter can be used to limit the usage returned.
+
+       The Report_Filters report header includes a series of report filters applied to the report.
      - Data_Type=Journal
 
    * - Report_ID
@@ -816,10 +883,15 @@ Appendix A: Glossary of Terms
 
    * - Repository
      - A host who provides access to an institution’s research output. Includes subject repositories, institution, department, etc.
+
+       A COUNTER Host_Type.
      - Cranfield CERES
 
-   * - Repository item
+   * - Repository item\ |br|\ |lb|
+       Repository_Item
      - A content item hosted in a repository, including one that consists of one or more digital objects such as text files, audio, video or data, described by associated metadata.
+
+       A COUNTER Data_Type.
      -
 
    * - Request
@@ -856,8 +928,11 @@ Appendix A: Glossary of Terms
        In COUNTER reports ROR IDs can be used as identifiers for institutions and publishers.
      -
 
-   * - Scholarly Collaboration Network
+   * - Scholarly Collaboration Network\ |br|\ |lb|
+       Scholarly_Collaboration_Network
      - A service used by researchers to share information about their work.
+
+       A COUNTER Host_Type.
      - Mendeley, Reddit/Science
 
    * - Screen scraping
@@ -908,6 +983,8 @@ Appendix A: Glossary of Terms
 
    * - Section
      - The first level of subdivision of a book or reference work.
+
+       A COUNTER Section_Type.
      - Chapter, entry
 
    * - Section_Type
@@ -976,12 +1053,13 @@ Appendix A: Glossary of Terms
      - See TDM.
      -
 
-   * - Thesis_Or_Dissertation
-     - A COUNTER Data_Type.
-
-       Dissertation: a long essay on a particular subject, especially one written as a requirement for the Doctor of Philosophy degree.
+   * - Thesis or Dissertation\ |br|\ |lb|
+       Thesis_Or_Dissertation
+     - Dissertation: a long essay on a particular subject, especially one written as a requirement for the Doctor of Philosophy degree.
 
        Thesis: a long essay or dissertation involving personal research, written by a candidate for a college degree.
+
+       A COUNTER Data_Type.
      -
 
    * - Title
