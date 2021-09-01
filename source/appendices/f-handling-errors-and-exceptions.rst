@@ -106,19 +106,19 @@ Table F.1 (below): Exceptions
      - Fatal
      - 1000
      - 503
-     - Service is executing a request, but due to internal errors cannot complete the request.
+     - The service is executing a request, but due to internal errors cannot complete the request. If possible, the server should provide an explanation in the additional Data element.
 
    * - Service Busy
      - Fatal
      - 1010
      - 503
-     - Service is too busy to execute the incoming request. Client should retry the request after some reasonable time.
+     - The service is too busy to execute the incoming request. The client should retry the request after some reasonable time.
 
    * - Report Queued for Processing
      - Warning
      - 1011
      - 202
-     - Services queuing incoming report requests must return a response with this exception and no payload to inform the client about the processing status. Client should retry the request after some reasonable time.
+     - Services queueing incoming report requests must return a response with this Exception and no payload to inform the client about the processing status. The client should retry the request after some reasonable time.
 
        Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
 
@@ -126,13 +126,13 @@ Table F.1 (below): Exceptions
      - Fatal
      - 1020
      - 429
-     - If the server sets a limit on the number of requests a client can make within a given timeframe, the server will return this error when the client exceeds that limit. The server would provide an explanation of the limit in the additional Data element (e.g., “Client has made too many requests. This server allows only 5 requests per day per requestor_id and customer_id.”).
+     - If the service sets a limit on the number of requests a client can make within a given timeframe, the server will return this Exception when the client exceeds that limit. The server would provide an explanation of the limit in the additional Data element (e.g. “Client has made too many requests. This server allows only 5 requests per day per requestor_id and customer_id.”).
 
    * - Insufficient Information to Process Request
      - Fatal
      - 1030
      - 400
-     - There is insufficient data in the request to begin processing (e.g., missing requestor_id, no customer_id, etc.).
+     - There is insufficient data in the request to begin processing (e.g. missing requestor_id, no customer_id, etc.).
 
    * - Requestor Not Authorized to Access Service
      - Error
@@ -150,7 +150,7 @@ Table F.1 (below): Exceptions
      - Error
      - 2020
      - 401
-     - The service being called requires a valid APIKey to access usage data and the key provided was not valid or not authorized for the data being requested.
+     - The service requires a valid APIKey to access usage data and the key provided was not valid or not authorized for the data being requested.
 
    * - IP Address Not Authorized to Access Service
      - Error
@@ -170,7 +170,7 @@ Table F.1 (below): Exceptions
      - Error
      - 3010
      - 404
-     - Requested version of the report is not supported by the service.
+     - The requested version of the report is not supported by the service.
 
        In Release 5 the requested report version is part of the URL path, and for RESTful APIs the HTTP status code 404 is used to signal that a path isn’t supported. Therefore this Exception is deprecated and will be removed in the next major release. SUSHI clients should stop relying on this Exception and use the HTTP status code instead.
 
@@ -184,19 +184,23 @@ Table F.1 (below): Exceptions
      - Error
      - 3030
      - 200
-     - Service did not find any data for the date range specified.
+     - The service did not find any data for the date range specified.
+
+       Note: If the usage for a requested month either hasn’t been processed yet or is no longer available, only Exception 3031 or 3032 must be returned for that month.
 
    * - Usage Not Ready for Requested Dates
      - Error, Warning
      - 3031
      - 200
-     - Service has not yet processed the usage for one or more of the requested months, if some months are available that data should be returned. The exception should include the months not processed in the additional Data element.
+     - The service has not yet processed the usage for one or more of the requested months, if some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
+
+       Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
 
    * - Usage No Longer Available for Requested Dates
      - Warning
      - 3032
      - 200
-     - Service does not have the usage for one or more of the requested months because the requested Begin_Date is earlier than the available data. If some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
+     - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the available data. If some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
 
        Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
 
@@ -204,24 +208,30 @@ Table F.1 (below): Exceptions
      - Warning
      - 3040
      - 200
-     - Request could not be fulfilled in its entirety. Data that was available was returned.
+     - The request could not be fulfilled in its entirety, since some of the requested data is missing. The server should return the available data and provide an explanation in the additional Data element.
+
+       Note: This Exception is not intended for the conditions already covered by Exceptions 3030, 3031 and 3032. A use case for this Exception for example would be that usage data is missing because the logging has failed. Usually this Exception indicates a permanent error.
 
    * - Parameter Not Recognized in this Context
      - Warning
      - 3050
      - 200
-     - Request contained one or more parameters that are not recognized by the server in the context of the report being serviced. The server should list the names of unsupported parameters in the additional Data element of the exception.
+     - The request contained one or more parameters that are not recognized by the server in the context of the report being serviced. The server should list the names of unsupported parameters in the additional Data element.
 
        Note: The server is expected to ignore unsupported parameters and continue to process the request, returning data that is available without the parameter being applied.
+
+       Note: This Exception is only applicable for report requests. For report list, member list and server status requests parameters not recognized by the server should be ignored.
 
    * - Invalid ReportFilter Value
      - Warning\ |br|\ |lb|
        Error
      - 3060
      - 200
-     - Request contained one or more filter values that are not supported by the server. The server should list the names of unsupported filter values in the additional Data element of the exception.
+     - The request contained one or more filter values that are not supported by the server. The server should list the names of unsupported filter values in the additional Data element.
 
        Note: The server is expected to ignore unsupported filters and continue to process the request, returning data that is available without the filter being applied.
+
+       Note: If the begin_date or end_date value is invalid, the server must return Exception 3020. If the service requires a platform parameter, and the platform value is invalid, the server should return Exception 1030.
 
    * - Incongruous ReportFilter Value
      - Warning\ |br|\ |lb|
@@ -230,12 +240,14 @@ Table F.1 (below): Exceptions
      - 200
      - A filter element includes multiple values in a pipe-delimited list; however, the supplied values are not all of the same scope (e.g., item_id filter includes article level DOIs and journal level DOIs or ISSNs).
 
+       Note: The server is expected to ignore the invalid filters and continue to process the request, returning data that is available without the filter being applied.
+
    * - Invalid ReportAttribute Value
      - Warning\ |br|\ |lb|
        Error
      - 3062
      - 200
-     - Request contained one or more report attribute values that are not supported by the server. The server should list the names of unsupported report attribute values in the additional Data element of the exception.
+     - The request contained one or more report attribute values that are not supported by the server. The server should list the names of unsupported report attribute values in the additional Data element.
 
        Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
 
@@ -244,4 +256,8 @@ Table F.1 (below): Exceptions
        Error
      - 3070
      - 200
-     - A required filter was not included in the request. Which filters are required will depend on the report and the service being called. For example, if the service requires that the request define the Platform name and no Platform filter is included, an exception would be returned. In general, the omission of a required filter would be viewed as an <em>Error</em>; however, if the service is able to process the request using a default value then a <em>Warning</em> can be returned. The additional Data element of the exception should name the missing filter.
+     - A required filter was not included in the request. Which filters are required will depend on the report and the service being called. The server should list the names of the missing filters in the additional Data element.
+
+       Note: If begin_date or end_date is missing, the server must return Exception 1030. If the service requires a platform parameter, and platform is missing, the server also should return Exception 1030.
+
+       Note: Currently there are no other required report filters, so this Exception should not occur.
