@@ -94,9 +94,9 @@ Table 3.f (below): COUNTER Report Header Elements
      - Attributes_To_Show=Access_Type
 
    * - Exceptions
-     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*:*{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table F.1 of :ref:`Appendix F <appendix-f>`. The Data is OPTIONAL.
+     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table F.1 of :ref:`Appendix F <appendix-f>`. For some exceptions further information MUST be provided in the Data element as indicated in Table F.1, otherwise the Data is optional.
 
-       Note that for tabular reports, only the limited set of exceptions where usage is returned will apply.
+       Note that for tabular reports usually only the limited set of exceptions which indicate that usage is not, not yet or no longer available will occur.
      - 3031: Usage Not Ready for Requested Dates (request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31)
 
    * - Reporting_Period
