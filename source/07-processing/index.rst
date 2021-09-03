@@ -14,7 +14,7 @@ Because the way usage records are generated can differ across platforms, it is i
 .. toctree::
    :maxdepth: 1
 
-   01-return-codes
+   01-http-status-codes
    02-double-click-filtering
    03-counting-unique-items
    04-counting-unique-titles
