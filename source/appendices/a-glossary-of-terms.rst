@@ -24,7 +24,7 @@ Appendix A: Glossary of Terms
 
    * - A&I database\ |br|\ |lb|
        A&I_Database
-     - A non-full-text database that typically contains article metadata, abstracts, and subject classifications. Used by researchers to locate publications relevant to their research.
+     - A database that primarily contains bibliographic metadata and descriptive abstracts to support search, discovery, and selection of the described items. The majority of A&I databases center on articles, books, and book chapters. A&I_Databases do not host full text of the described items. For databases that contain A&I and full text, see Full-text database, Aggregated full-text database, Aggregated_Full_Content and Full_Content_Database.
 
        A COUNTER Host_Type.
      - PubMed, PsycInfo
@@ -40,7 +40,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Access Denied
-     - User is denied access to a content item because their institution lacks a proper license or because simultaneous user limits specified in the license have been exceeded.
+     - The user is denied access to a content item because their institution lacks a proper license or because simultaneous user limits specified in the license have been exceeded.
      - Limit_Exceeded, No_License
 
    * - Access_Method
@@ -52,7 +52,7 @@ Appendix A: Glossary of Terms
      - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
 
    * - Aggregated_Full_Content
-     - A COUNTER Host_Type for content providers who license full-text articles and possibly non-textual content (beyond bibliographic information).
+     - A COUNTER Host_Type for content providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
      -
 
    * - Aggregated full-text database
@@ -60,7 +60,7 @@ Appendix A: Glossary of Terms
      - Academic Search Complete
 
    * - Aggregator
-     - A type of content provider that hosts content from multiple publishers, delivers content direct to customers, and is paid for this service by customers.
+     - A type of content provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
 
    * - ALPSP
@@ -92,7 +92,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Article processing charges
-     - An article processing charge (APC), also known as a publication fee, is a fee which is sometimes charged to authors to make a work available Open Access in either an Open Access journal or hybrid journal. ...They are the most common funding method for professionally published Open Access articles. [Wikipedia]
+     - An article processing charge (APC), also known as a publication fee, is a fee which is sometimes charged to authors to make a work available Open Access in either an Open Access journal or hybrid journal. ...They are the most common funding method for professionally published Open Access articles. [`Wikipedia <https://en.wikipedia.org/wiki/Article_processing_charge>`__]
      -
 
    * - Article_Version
@@ -113,7 +113,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Attribute
-     - Used to specify a Report Filter when customizing a Master Report.
+     - See Report Attributes.
      -
 
    * - Author(s)
@@ -154,7 +154,7 @@ Appendix A: Glossary of Terms
      - A subdivision of a book or of some categories of reference work; usually numbered and titled.
      -
 
-   * - Book Request
+   * - Book Requests
      - Book content items retrieved.
      -
 
@@ -170,9 +170,9 @@ Appendix A: Glossary of Terms
      -
 
    * - Cache
-     - Automated system that collects items from remote servers to serve closer and more efficiently to a given population of users. Often populated by robots or modern browsers.
+     - An automated system that collects items from remote servers to serve closer and more efficiently to a given population of users. Often populated by robots or modern browsers.
 
-       Note: Publishers take steps to prevent local caching of their content, i.e. including appropriate headers on their site to restrict caching.
+       Note: Publishers take steps to prevent local caching of their content, i.e. including appropriate response headers on their site to restrict caching.
      -
 
    * - Central Index
@@ -200,13 +200,13 @@ Appendix A: Glossary of Terms
    * - Collection
      - A subset of the content of a service. A collection is a branded group of online information products from one or more vendors that can be subscribed to/licensed and searched as a complete group.
 
-       For the COUNTER reporting is restricted to pre-set collections that are defined like databases. See Database.
+       For the COUNTER reporting this term is restricted to pre-set collections that are defined like databases. See Database.
 
        Note: A package or bundle provided by a publisher is not considered a database or a collection.
      -
 
    * - Component
-     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object). See :numref:`specifications`.
+     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object).
      -
 
    * - Consortium
@@ -228,11 +228,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Content provider
-     - An organization whose function is to commission, create, collect, validate, host, distribute, and trade information in electronic form.
-     - Any publisher, the Metropolitan Museum, Magnum, JSTOR
+     - An organisation, such as a publisher, aggregator or subscriptions agent, who provides access to resources on a subscription basis. [`Knowledge Base+ <https://knowledgebaseplus.wordpress.com/kb-support/kb-discussion-documents/kb-concepts-and-terminology/>`__]
+     - Science Direct, Clarivate, JSTOR
 
    * - Controlled
-     - A COUNTER Access_Type. At the time of the transaction, the content item was not open (i.e. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled not Other_Free_to_Read.
+     - A COUNTER Access_Type. At the time of the transaction, the content item was not open (e.g. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled.
      -
 
    * - Copyright holder
@@ -272,7 +272,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Customer
-     - An individual or organization that can access a specified range of the content provider’s services and/or content and is subject to terms and conditions agreed with the content provider.
+     - An individual or organization that can access a specified range of the content provider’s services and/or content that is subject to the agreed terms and conditions.
      -
 
    * - Customer_ID
@@ -296,7 +296,7 @@ Appendix A: Glossary of Terms
    * - Database
      - A collection of electronically stored data or unit records (facts, bibliographic data, texts) with a common user interface and software for the retrieval and manipulation of data. (NISO)
 
-       A COUNTER Data_Type used when reporting search activity at the database level.
+       A COUNTER Data_Type.
      - Social Science Abstracts, Reaxys
 
    * - Dataset
@@ -314,7 +314,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Delayed Open Access
-     - At the time of the transaction, the content item published in a subscription journal is free to read after an embargo period. See OA_Delayed.
+     - See OA_Delayed.
      -
 
    * - Digital Object Identifier
@@ -327,7 +327,7 @@ Appendix A: Glossary of Terms
 
    * - Discovery service\ |br|\ |lb|
        Discovery_Service
-     - A pre-harvested central index coupled with fully featured discovery layer.
+     - A pre-harvested central index coupled with a fully featured discovery layer.
 
        A COUNTER Host_Type.
      - EDS, Primo, Summon
@@ -341,19 +341,17 @@ Appendix A: Glossary of Terms
      -
 
    * - DOI (digital object identifier)
-     - The digital object identifier is a means of identifying a piece of intellectual property (a creation) on a digital network, irrespective of its current location. (www.doi.org)
-
-       DOIs may be assigned at the title, article/chapter, or component level.
+     - A standard identifier (ANSI/NISO Z39.84). The digital object identifier is a means of identifying a piece of intellectual property (a creation) on a digital network, irrespective of its current location. DOIs may be assigned at the title, article/chapter, or component level.
      -
 
    * - Double-click
-     - A repeated click on the same link by the same user within a period of 30 seconds.
+     - Two clicks in succession on the same link by the same user within a period of 30 seconds.
 
        COUNTER requires that double-clicks must be counted as a single click.
      -
 
    * - Double-click filtering
-     - A process to remove the potential of over-counting which could occur when a user clicks the same link multiple times. Double-click filtering applies to all metric types.
+     - A process to remove the potential of over-counting which could occur when a user clicks the same link multiple times. Double-click filtering applies to Total_Item and Access Denied Metric_Types.
      -
 
    * - DR
@@ -361,11 +359,11 @@ Appendix A: Glossary of Terms
      -
 
    * - DR_D1
-     - Database Search and Item Usage. A pre-set Standard View of DR showing total item investigations and requests, as well as searches.
+     - Database Search and Item Usage. A pre-set Standard View of DR showing Total_Item_Investigations and Requests, as well as Searches_Regular, Automated and Federated.
      -
 
    * - DR_D2
-     - Database Access Denied. A pre-set Standard View of DR showing where users were denied access because simultaneous use (concurrency) licenses were exceeded, or their institution did not have a license for the database.
+     - Database Access Denied. A pre-set Standard View of DR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the database.
      -
 
    * - DUL
@@ -389,7 +387,7 @@ Appendix A: Glossary of Terms
      -
 
    * - EC
-     - Executive Committee.
+     - See Executive Committee.
      -
 
    * - eJournal
@@ -399,11 +397,11 @@ Appendix A: Glossary of Terms
      -
 
    * - eJournal host
-     - A content host that provides access to online serial publications (journals, conferences, newspapers, etc.)
+     - A content host that provides access to online serial publications (journals, conferences, newspapers, etc.).
      - ScienceDirect
 
    * - Element
-     - A piece of information to be reported on, displayed as a column heading (and/or in the Report Header) in a COUNTER report.
+     - A piece of information to be reported on, displayed as a column heading (and/or in the report header) in a COUNTER report.
      -
 
    * - Embargo period
@@ -431,11 +429,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Exception Message
-     - A short description of the Exception encountered. The Message is normally a standard message for the Exception Code concerned, see :ref:`Appendix F <appendix-f>` for more information.
+     - A short description of the Exception encountered. The Message is normally a standard message for the Exception Code concerned. See :ref:`Appendix F <appendix-f>`.
      -
 
    * - Exclude_Monthly_Details
-     - Reporting_Period_Total column without month-by-month breakdowns.
+     - A COUNTER report attribute for tabular reports that specifies whether the columns with the month-by-month breakdown of the usage are excluded from the report.
      -
 
    * - Federated search
@@ -443,11 +441,11 @@ Appendix A: Glossary of Terms
      - MetaLib, EBSCOhost Connection
 
    * - Filter
-     - See Report filter.
+     - See Report filters.
      -
 
    * - Format
-     - A COUNTER element used to identify the format of the content. Reserved values include: HTML, PDF, Other.
+     - A COUNTER element for extending reports, used to identify the format of the content. Reserved values include: HTML, PDF, Other.
      -
 
    * - Full_Content_Database
@@ -457,11 +455,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Full-text database
-     - A database that consists of full-text articles or other non-textual content beyond bibliographic information and that is sold as a self-contained/pre-set grouping of data.
+     - A database that contains the complete text of books,dissertations, journals, magazines, newspapers or other kinds of textual documents. [`Wikipedia <https://en.wikipedia.org/wiki/Full-text_database>`__]
      -
 
    * - Full-text article
-     - The complete text—including all references, figures, and tables—of an article, plus links to any supplementary material published with it.
+     - The complete text - including all references, figures, and tables - of an article, plus links to any supplementary material published with it.
      -
 
    * - GDPR
@@ -489,7 +487,7 @@ Appendix A: Glossary of Terms
      -
 
    * - HTTP
-     - HyperText Transfer Protocol.
+     - Hypertext Transfer Protocol.
      -
 
    * - Hybrid publication
@@ -521,7 +519,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Investigation
-     - A category of COUNTER Metric_Types that represent a user accessing information related to a content item (i.e. an abstract or detailed descriptive metadata of an article) or a content item itself (i.e. full text of an article).
+     - A category of COUNTER Metric_Types that represent a user accessing information related to a content item (e.g. an abstract or detailed descriptive metadata of an article) or a content item itself (e.g. full text of an article).
      -
 
    * - IP
@@ -531,7 +529,7 @@ Appendix A: Glossary of Terms
    * - IP address
      - Internet protocol (IP) address of the computer on which the session is conducted. May be used by content providers as a means of authentication and authorization and for identifying the institution a user is affiliated with.
 
-       The identifying network address (typically four 8-bit numbers: aaa.bbb.cc.dd) of the user’s computer or proxy.
+       The identifying network address (typically four 8-bit numbers separated by “.” for IPv4 or eight groups of up to four hexadezimal numbers separated by “:” for IPv6) of the user’s computer or proxy.
      -
 
    * - IR
@@ -539,25 +537,27 @@ Appendix A: Glossary of Terms
      -
 
    * - IR_A1
-     - Journal Article Requests. A pre-set Standard View of IR showing total item requests for journal articles.
+     - Journal Article Requests. A pre-set Standard View of IR showing Total and Unique_Item_Requests for journal articles.
      -
 
    * - IR_M1
-     - Multimedia Item Requests. A pre-set Standard View of IR showing total item requests for multimedia items.
+     - Multimedia Item Requests. A pre-set Standard View of IR showing Total_Item_Requests for multimedia items.
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique 13-digit number used to identify a book.
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books).
      -
 
    * - ISIL
-     - International Standard Identifier for Libraries and Related Organizations. See https://english.slks.dk/work-areas/libraries/library-standards/isil/
+     - International Standard Identifier for Libraries and Related Organizations (ISO 15511).
+
+       In COUNTER reports ISILs can be used as identifiers for institutions.
      -
 
-   * - ISNI (International Standard Name Identifier)
-     - A unique number used to identify authors, contributors, and distributors of creative works, including researchers, inventors, writers, artists, visual creators, performers, producers, publishers, aggregators, etc.
+   * - ISNI
+     - International Standard Name Identifier (ISO 27729). A unique number used to identify authors, contributors, and distributors of creative works, including researchers, inventors, writers, artists, visual creators, performers, producers, publishers, aggregators, etc.
 
-       COUNTER defines ISNI as an optional identifier for an institution.
+       In COUNTER reports ISNIs can be used as identifiers for institutions, publishers and item contributors (authors).
      -
 
    * - ISO
@@ -565,7 +565,7 @@ Appendix A: Glossary of Terms
      -
 
    * - ISSN (International Standard Serial Number)
-     - A unique 8-digit number used to identify a print or electronic periodical publication. A periodical published in both print and electronic form may have two ISSNs, a print ISSN and an electronic ISSN.
+     - A unique standard identifier (ISO 3297) used to identify a print or electronic periodical publication. A periodical published in both print and electronic form may have two ISSNs, a print ISSN and an electronic ISSN.
      -
 
    * - Issue
@@ -584,7 +584,7 @@ Appendix A: Glossary of Terms
      - A series of COUNTER reports that provide usage data at the item or item-component level.
      -
 
-   * - Javascript Object Notation
+   * - JavaScript Object Notation
      - See JSON.
      -
 
@@ -611,11 +611,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Limit_Exceeded
-     - A COUNTER Metric_Type. User is denied access to a content item because the simultaneous user limit for their institution’s license would be exceeded.
+     - A COUNTER Metric_Type. A user is denied access to a content item because the simultaneous-user limit for their institution’s license would be exceeded.
      -
 
    * - Linking_ISSN
-     - International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication in the format nnnn-nnn[nX] (JSON reports only).
+     - A COUNTER report item identifier for the International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication (ISSN-L) in the format nnnn-nnn[nX] (JSON reports only).
      -
 
    * - Log file analysis
@@ -635,7 +635,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Metric_Type
-     - A COUNTER report attribute that identifies the nature of the usage activity. See :numref:`metric-types`.
+     - A COUNTER report attribute that identifies the nature of the usage activity.
      - Total_Item_Requests, Searches_Regular, Limit_Exceeded, Unique_Title_Requests
 
    * - Monograph Text
@@ -681,7 +681,7 @@ Appendix A: Glossary of Terms
      -
 
    * - No_License
-     - A COUNTER Metric_Type. User is denied access to a content item because the user or the user’s institution does not have access rights under an agreement with the vendor.
+     - A COUNTER Metric_Type. A user is denied access to a content item because the user or the user’s institution does not have access rights under an agreement with the vendor.
      -
 
    * - OA
@@ -689,15 +689,13 @@ Appendix A: Glossary of Terms
      -
 
    * - OA_Delayed
-     - A COUNTER Access_Type.
-
-       At the time of the transaction, the content item was available as Open Access because publisher’s embargo period had expired (delayed Open Access).
+     - A COUNTER Access_Type that is reserved for future use and must not be implemented. At the time of the transaction, the content item was available as Open Access because the publisher’s embargo period had expired (delayed Open Access).
      -
 
    * - OA_Gold
-     - A COUNTER Access_Type. At the time of the transaction, the content item was immediately and permanently available as open access because an APC (article processing charge) has been paid. Content items may be in hybrid publication or fully Open Access publication.
+     - A COUNTER Access_Type. At the time of the transaction, the content item was available under a Gold Open Access license (content that is immediately and permanently available as Open Access because an article processing charge applies or the publication process was sponsored by a library, society, or other organization). Content items may be in hybrid publications or fully Open Access publications.
 
-       Note that content items offered as delayed Open Access (open after an embargo period) would be classified as OA_Delayed.
+       Note that content items offered as delayed Open Access (open after an embargo period) currently must be classified as Controlled, pending the implementation of OA_Delayed.
      -
 
    * - OCLC
@@ -711,15 +709,13 @@ Appendix A: Glossary of Terms
      - 1533-4406
 
    * - Open Access
-     - Open Access (OA) refers to online research outputs that are free of all restrictions on access (e.g. access tolls) and free of many restrictions on use (e.g. certain copyright and license restrictions). Open Access can be applied to all forms of published research output, including peer-reviewed and non-peer-reviewed academic journal articles, conference papers, theses, book chapters, and monographs. [Wikipedia]
+     - Open Access (OA) refers to online research outputs that are free of all restrictions on access (e.g. access tolls) and free of many restrictions on use (e.g. certain copyright and license restrictions). Open Access can be applied to all forms of published research output, including peer-reviewed and non-peer-reviewed academic journal articles, conference papers, theses, book chapters, and monographs. [`Wikipedia <https://en.wikipedia.org/wiki/Open_access>`__]
      -
 
    * - ORCID
-     - An international standard identifier for individuals (i.e. authors) to use with their name as they engage in research, scholarship, and innovation activities.
+     - An international standard identifier for individuals (i.e. authors) to use with their name as they engage in research, scholarship, and innovation activities. See https://orcid.org/.
 
        A COUNTER identifier type for item contributors.
-
-       See http://orcid.org.
      -
 
    * - Other
@@ -731,7 +727,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Other_Free_to_Read
-     - A COUNTER Access_Type. At the time of the transaction, the content item was freely available for reading for reasons such as promotions. This also covers all journals where all articles are free to all users because the journal is funded through advertising.
+     - A COUNTER Access_Type for institutional repositories. At the time of the transaction, the content item was freely available for reading (no license required) and did not qualify under the OA_Gold Access_Type.
      -
 
    * - Page tag
@@ -747,15 +743,15 @@ Appendix A: Glossary of Terms
      -
 
    * - PDF
-     - Portable Document Format, file formatted for the Adobe Acrobat reader. Items such as full-text articles or journals published in PDF format tend to replicate the printed page in appearance.
+     - Portable Document Format, a standard file format for representing electronic documents (ISO 32000). Items such as full-text articles or journals published in PDF format tend to replicate the printed page in appearance.
      -
 
    * - PHP
-     - Hypertext Preprocessor is a server-side scripting language designed for web development. The PHP reference implementation is now produced by The PHP Group. [`Wikipedia <https://en.wikipedia.org/wiki/PHP>`__]
+     - PHP is a general-purpose programming language originally designed for web development. The PHP reference implementation is now produced by The PHP Group. [`Wikipedia <https://en.wikipedia.org/wiki/PHP>`__]
      -
 
    * - Platform
-     - The content host of an aggregator, publisher, or other online service that delivers the content to the user and that counts and provides the COUNTER usage reports.
+     - The content host of an aggregator, publisher, or other online service that delivers the content to the user and that counts and provides the COUNTER usage reports. Individual titles or groups of content might have their own branded user experience but reside on a common host.
 
        A COUNTER Data_Type.
      - Wiley Online Library, HighWire
@@ -769,7 +765,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Platform search
-     - Search conducted at the platform level.
+     - A search conducted at the platform level.
      -
 
    * - Platform usage
@@ -781,7 +777,7 @@ Appendix A: Glossary of Terms
      -
 
    * - PR_P1
-     - Platform Usage. A pre-set Standard View of PR showing total and unique item requests, as well as platform searches.
+     - Platform Usage. A pre-set Standard View of PR showing Total and Unique_Item_Requests and Unique_Title_Requests, as well as Searches_Platform.
      -
 
    * - Print_ISSN
@@ -800,9 +796,9 @@ Appendix A: Glossary of Terms
 
    * - Publication date\ |br|\ |lb|
        Publication_Date
-     - An optional field in COUNTER item reports and Provider Discovery Reports.
+     - The date of release by the publisher to customers of a content item.
 
-       The date of release by the publisher to customers of a content item.
+       An element in COUNTER Item Reports.
      -
 
    * - Publisher
@@ -810,7 +806,7 @@ Appendix A: Glossary of Terms
      - Sage, Cambridge University Press
 
    * - Publisher_ID
-     - A COUNTER identifier for a publisher’s unique identifier. In COUNTER reports the Publisher_ID is presented as a combination of identifier namespace and value.
+     - An element in COUNTER reports for a publisher’s unique identifier. In COUNTER reports the Publisher_ID is presented as a combination of identifier namespace and value.
      -
 
    * - R4
@@ -823,7 +819,7 @@ Appendix A: Glossary of Terms
 
    * - Reference work
      - An authoritative source of information about a subject used to find quick answers to questions. The content may be stable or updated over time.
-     - Dictionary, encyclopedia, directory, manual, guide, atlas, bibliography, index
+     - Dictionary, encyclopedia, directory, manual, guide, atlas, index
 
    * - References
      - A list of works referred to in an article or chapter with sufficient detail to enable the identification and location of each work.
@@ -851,14 +847,16 @@ Appendix A: Glossary of Terms
        A COUNTER Data_Type.
      -
 
-   * - Report attribute\ |br|\ |lb|
+   * - Report attributes\ |br|\ |lb|
        Report_Attributes
-     - A series of zero or more report attributes applied to the report. Typically, a report attribute affects how the usage is presented, but does not change the totals.
+     - Report attributes are elements in COUNTER reports that describe the nature of usage for an item or affect how the usage is broken down.
+
+       In COUNTER Master Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
    * - Report filters\ |br|\ |lb|
        Report_Filters
-     - In COUNTER reports the report filter can be used to limit the usage returned.
+     - Report filters can be used to limit the usage returned in a COUNTER report. For Standard Views the report filters are pre-set, for Master Reports they can be used to customize the report.
 
        The Report_Filters report header includes a series of report filters applied to the report.
      - Data_Type=Journal
@@ -895,8 +893,8 @@ Appendix A: Glossary of Terms
      -
 
    * - Request
-     - A category of COUNTER Metric_Types that represents a user accessing content (i.e. full text of an article).
-     - Total_Item_Requests
+     - A category of COUNTER Metric_Types that represents a user accessing content (e.g. full text of an article).
+     -
 
    * - Requestor ID
      - A system-generated hash identifier that uniquely identifies a requestor session.
@@ -911,11 +909,11 @@ Appendix A: Glossary of Terms
      -
 
    * - RESTful COUNTER_SUSHI API
-     - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format.
+     - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. RESTful is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.
      -
 
-   * - Return code
-     - Defined and maintained by W3C (http://www.w3.org/Protocols/HTTP/HTRESP.html).
+   * - Status code
+     - HTTP response status code. Status codes are issued by a server in response to a client's request made to the server. [`Wikipedia <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>`__]
      -
 
    * - Robot
@@ -923,7 +921,7 @@ Appendix A: Glossary of Terms
      -
 
    * - ROR (Research Organization Registry)
-     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world. See https://ror.org.
+     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world. See https://ror.org/.
 
        In COUNTER reports ROR IDs can be used as identifiers for institutions and publishers.
      -
@@ -958,7 +956,7 @@ Appendix A: Glossary of Terms
    * - Searches_Regular
      - A COUNTER Metric_Type used to report on searches conducted by a user on a host site where the user has the option of selecting the databases being searched.
 
-       Note: If a search is conducted across multiple databases, each database searched can count that search.
+       Note: If a search is conducted across multiple databases, each database searched will count that search.
 
        See also Regular search.
      -
@@ -982,17 +980,17 @@ Appendix A: Glossary of Terms
      -
 
    * - Section
-     - The first level of subdivision of a book or reference work.
+     - A group of chapters or articles.
 
        A COUNTER Section_Type.
-     - Chapter, entry
+     -
 
    * - Section_Type
      - A COUNTER report attribute that identifies the type of section that was accessed by the user.
-     - Article, Book, Chapter
+     - Article, Book, Chapter, Other, 
 
    * - Serial
-     - A publication in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely. This definition includes periodicals, newspapers, and annuals (reports, yearbooks, monographic series). (NISO)
+     - A publication in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely. This definition includes periodicals, journals, magazines, electronic journals, ongoing directories, annual reports, newspapers, monographic series, and also those journals, magazines, and newsletters of limited duration that otherwise bear all the characteristics of serials (e.g. newsletter of an event). [NISO]
      -
 
    * - Server-side scripting language
@@ -1004,7 +1002,7 @@ Appendix A: Glossary of Terms
      - ScienceDirect, Academic Universe
 
    * - Session
-     - A successful request of an online service. A single user connects to the service or database and ends by terminating activity that is either explicit (by leaving the service through exit or logout) or implicit (timeout due to user inactivity). (NISO)
+     - A successful use of an online service. A single user connects to the service or database and ends by terminating activity that is either explicit (by leaving the service through exit or logout) or implicit (timeout due to user inactivity). [NISO]
      -
 
    * - Session cookie
@@ -1012,7 +1010,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Session ID
-     - A unique identifier for a single user session or, in case of a double-click, multiple clicks on the same link within 30 seconds of each other.
+     - A unique identifier for a single user session. If the content provider's web-site does not assign and capture a unique identifier to each user session, then a surrogate session ID can be generated using the browser user-agent, the user's IP address and a one hour time slice (see :numref:`processing` for details). The Session ID is used for double-click filtering and computing Unique_Item and Unique_Title metrics.
      -
 
    * - Sites
@@ -1024,7 +1022,7 @@ Appendix A: Glossary of Terms
      -
 
    * - Standard View
-     - A pre-defined version of a Master report, designed to meet the most common needs.
+     - A predefined version of a Master report, designed to meet the most common needs.
      - Book Requests (Excluding OA_Gold), Journal Article Requests
 
    * - Standardized Usage Statistics Harvesting Initiative
@@ -1032,11 +1030,11 @@ Appendix A: Glossary of Terms
      -
 
    * - SUSHI
-     - An international standard (Z39-93) that describes a method for automating the harvesting of reports.
+     - An international standard (Z39-93) used by COUNTER R4 that describes a method for automating the harvesting of reports.
 
-       COUNTER_SUSHI is an implementation of this standard for harvesting COUNTER reports.
+       Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
 
-       COUNTER compliance requires content hosts to implement COUNTER_SUSHI.
+       COUNTER compliance requires content hosts to implement the COUNTER_SUSHI API.
      -
 
    * - Tab Separated Value
@@ -1044,9 +1042,9 @@ Appendix A: Glossary of Terms
      -
 
    * - TDM
-     - Text and data mining (TDM) is a computational process whereby text or datasets are crawled by software that recognizes entities, relationships, and actions. (STM Publishers)
+     - Text and data mining (TDM) is a computational process whereby text or datasets are crawled by software that recognizes entities, relationships, and actions. [STM Publishers]
 
-       An Access_Method in a COUNTER report used to separate regular usage from usage that represents access to content for the purposes of text and data mining.
+       A COUNTER Access_Method used to separate regular usage from usage that represents access to content for the purposes of text and data mining.
      -
 
    * - Text and data mining
@@ -1055,7 +1053,7 @@ Appendix A: Glossary of Terms
 
    * - Thesis or Dissertation\ |br|\ |lb|
        Thesis_Or_Dissertation
-     - Dissertation: a long essay on a particular subject, especially one written as a requirement for the Doctor of Philosophy degree.
+     - Dissertation: a long essay on a particular subject, especially one written as a requirement for a degree.
 
        Thesis: a long essay or dissertation involving personal research, written by a candidate for a college degree.
 
@@ -1079,11 +1077,11 @@ Appendix A: Glossary of Terms
      -
 
    * - Total_Items_Investigations
-     - A COUNTER Metric_Type that represents the number of times users accessed the content (i.e. full text) of an item, or information describing that item (i.e. an abstract).
+     - A COUNTER Metric_Type that represents the number of times users accessed the content (e.g. a full text) of an item, or information describing that item (e.g. an abstract).
      -
 
    * - Total_Item_Requests
-     - A COUNTER Metric_Type that represents the number of times users requested the full content (i.e. full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the content provider’s server.
+     - A COUNTER Metric_Type that represents the number of times users requested the full content (e.g. a full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the content provider.
      -
 
    * - TR
@@ -1091,13 +1089,11 @@ Appendix A: Glossary of Terms
      -
 
    * - TR_B1
-     - Book Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all content which is not Gold Open Access.
-
-       Numbers between sites will vary based on whether the content is delivered as a complete book or by chapter.
+     - Book Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all book content which is not Gold Open Access.
      -
 
    * - TR_B2
-     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous use (concurrency) licenses were exceeded, or their institution did not have a license for the database.
+     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book.
      -
 
    * - TR_B3
@@ -1105,11 +1101,11 @@ Appendix A: Glossary of Terms
      -
 
    * - TR_J1
-     - Journal Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all content which is not Gold Open Access.
+     - Journal Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all journal content which is not Gold Open Access.
      -
 
    * - TR_J2
-     - Journal Accessed Denied. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type.
+     - Journal Accessed Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use licenses were exceeded, or their institution did not have a license for the journal.
      -
 
    * - TR_J3
@@ -1125,7 +1121,7 @@ Appendix A: Glossary of Terms
      -
 
    * - TSV
-     - Tab Separated Values.
+     - A tab-separated values (TSV) file is a simple text format for storing data in a tabular structure, e.g. database table or spreadsheet data. Each record in the table is one line of the text file. Each field value of a record is separated from the next by a tab character. [`Wikipedia <https://en.wikipedia.org/wiki/Tab-separated_values>`__]
      -
 
    * - Turnaway
@@ -1133,19 +1129,19 @@ Appendix A: Glossary of Terms
      -
 
    * - Unique item
-     - Matchless content item.
+     - A content item assessed during a session. Each unique content item accessed in a session is counted once per user session, even if there are multiple requests for the same content item during a session.
      -
 
    * - Unique_Item_Investigations
-     - A COUNTER Metric_Type that represents the number of unique content items investigated in a user-session.
+     - A COUNTER Metric_Type that represents the number of unique content items investigated in a user session. Examples of content items are articles, books, book chapters, and multimedia files.
      -
 
    * - Unique_Item_Requests
-     - A COUNTER Metric_Type that represents the number of unique content items investigated in a user-session. Examples of items are articles, book chapters, and multimedia files.
+     - A COUNTER Metric_Type that represents the number of unique content items requested in a user session. Examples of content items are articles, books, book chapters, and multimedia files.
      -
 
    * - Unique title
-     - Matchless book title.
+     - A book assessed during a session. Each unique book title accessed in a session is counted once per user session, even if there are multiple requests for the same title during a session.
      -
 
    * - Unique_Title_Investigations
@@ -1157,7 +1153,7 @@ Appendix A: Glossary of Terms
      -
 
    * - URI
-     - In information technology, a Uniform Resource Identifier (URI) is a string of characters used to identify a resource. Such identification enables interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols. [Wikipedia]
+     - In information technology, a Uniform Resource Identifier (URI) is a string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme (e.g.http://). [`Wikipedia <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`__]
 
        An element in COUNTER reports used to identify the item for which usage is being reported.
      -
@@ -1175,7 +1171,7 @@ Appendix A: Glossary of Terms
      -
 
    * - User agent
-     - An identifier that is part of the HTTP/S protocol that identifies the software (i.e. browser) being used to access the site. May be used by robots to identify themselves.
+     - An identifier that is part of the HTTP protocol that identifies the software (e.g. browser) being used to access the site. May be used by robots to identify themselves.
      -
 
    * - User cookie
@@ -1203,7 +1199,7 @@ Appendix A: Glossary of Terms
      -
 
    * - XML
-     - eXtensible Markup Language.
+     - A mark-up language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. [`Wikipedia <https://en.wikipedia.org/wiki/XML>`__]
      -
 
    * - Year of Publication
@@ -1211,9 +1207,9 @@ Appendix A: Glossary of Terms
      -
 
    * - YOP
-     - Calendar year in which an article, item, issue, or volume is published.
+     - Year of publication. Calendar year in which an article, item, issue, or volume is published.
 
-       For the COUNTER YOP report attribute, use the year of publication for the print when it differs from the online.
+       For the COUNTER report attribute YOP, use the year of publication for the Version of Record if the year of publication differs for print and online version.
      -
 
    * - Z39.50
