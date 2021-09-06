@@ -63,6 +63,10 @@ Appendix A: Glossary of Terms
      - A type of content provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
 
+   * - AJAX
+     - Asynchronous JavaScript And XML. AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes.
+     -
+
    * - ALPSP
      - The Association of Learned and Professional Society Publishers is an international trade association of non-profit publishers.
      -
@@ -434,6 +438,10 @@ Appendix A: Glossary of Terms
 
    * - Exclude_Monthly_Details
      - A COUNTER report attribute for tabular reports that specifies whether the columns with the month-by-month breakdown of the usage are excluded from the report.
+     -
+
+   * - Executive Committee
+     - The committee which deals with the day-to-day activities of COUNTER’s business.
      -
 
    * - Federated search
