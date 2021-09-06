@@ -91,10 +91,6 @@ Appendix A: Glossary of Terms
        A COUNTER Section_Type for Title Reports.
      -
 
-   * - Article header
-     - See Metadata.
-     -
-
    * - Article processing charges
      - An article processing charge (APC), also known as a publication fee, is a fee which is sometimes charged to authors to make a work available Open Access in either an Open Access journal or hybrid journal. ...They are the most common funding method for professionally published Open Access articles. [`Wikipedia <https://en.wikipedia.org/wiki/Article_processing_charge>`__]
      -
@@ -148,10 +144,6 @@ Appendix A: Glossary of Terms
        A COUNTER Data_Type.
 
        A COUNTER Section_Type for Title Reports.
-     -
-
-   * - Book Access Denied
-     - Access Denied activity for books, where users were denied access because simultaneous-user licenses were exceeded, or their institution did not have a license for the book.
      -
 
    * - Book chapter
@@ -516,10 +508,6 @@ Appendix A: Glossary of Terms
 
    * - Institutional identifier
      - See Institution_ID.
-     -
-
-   * - Intermediary
-     - See Content provider.
      -
 
    * - Internet robot, crawler, spider
