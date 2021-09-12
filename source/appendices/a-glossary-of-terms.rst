@@ -22,13 +22,6 @@ Appendix A: Glossary of Terms
      - Definition
      - Examples
 
-   * - A&I database\ |br|\ |lb|
-       A&I_Database
-     - A database that primarily contains bibliographic metadata and descriptive abstracts to support search, discovery, and selection of the described items. The majority of A&I databases center on articles, books, and book chapters. A&I_Databases do not host full text of the described items. For databases that contain A&I and full text, see Full-text database, Aggregated full-text database, Aggregated_Full_Content and Full_Content_Database.
-
-       A COUNTER Host_Type.
-     - PubMed, PsycInfo
-
    * - Abstract
      - A short summary of an article or content item.
 
@@ -62,6 +55,13 @@ Appendix A: Glossary of Terms
    * - Aggregator
      - A type of content provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
+
+   * - A&I database\ |br|\ |lb|
+       A&I_Database
+     - A database that primarily contains bibliographic metadata and descriptive abstracts to support search, discovery, and selection of the described items. The majority of A&I databases center on articles, books, and book chapters. A&I_Databases do not host full text of the described items. For databases that contain A&I and full text, see Full-text database, Aggregated full-text database, Aggregated_Full_Content and Full_Content_Database.
+
+       A COUNTER Host_Type.
+     - PubMed, PsycInfo
 
    * - AJAX
      - Asynchronous JavaScript And XML. AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes.
@@ -295,18 +295,18 @@ Appendix A: Glossary of Terms
        A COUNTER Data_Type.
      - Social Science Abstracts, Reaxys
 
-   * - Dataset
-     - A collection of data.
-
-       A COUNTER Data_Type.
-     -
-
    * - Database Master Report
      - A COUNTER report that contains additional filters and breakdowns beyond those included in the Database Standard Views and is aggregated to the database level.
      -
 
    * - Database Reports
      - A series of COUNTER reports that provide usage aggregated to the database level.
+     -
+
+   * - Dataset
+     - A collection of data.
+
+       A COUNTER Data_Type.
      -
 
    * - Delayed Open Access
@@ -366,10 +366,6 @@ Appendix A: Glossary of Terms
      - See Distributed Usage Logging (DUL).
      -
 
-   * - eBook host
-     - A content host that provides access to eBook and reference work content.
-     - EBL, EBSCOhost, ScienceDirect
-
    * - eBook
      - Monographic content that is published online.
 
@@ -381,6 +377,10 @@ Appendix A: Glossary of Terms
 
        A COUNTER Host_Type.
      -
+
+   * - eBook host
+     - A content host that provides access to eBook and reference work content.
+     - EBL, EBSCOhost, ScienceDirect
 
    * - EC
      - See Executive Committee.
@@ -454,12 +454,12 @@ Appendix A: Glossary of Terms
        Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
      -
 
-   * - Full-text database
-     - A database that contains the complete text of books,dissertations, journals, magazines, newspapers or other kinds of textual documents. [`Wikipedia <https://en.wikipedia.org/wiki/Full-text_database>`__]
-     -
-
    * - Full-text article
      - The complete text - including all references, figures, and tables - of an article, plus links to any supplementary material published with it.
+     -
+
+   * - Full-text database
+     - A database that contains the complete text of books,dissertations, journals, magazines, newspapers or other kinds of textual documents. [`Wikipedia <https://en.wikipedia.org/wiki/Full-text_database>`__]
      -
 
    * - GDPR
@@ -659,10 +659,6 @@ Appendix A: Glossary of Terms
      - An item of non-textual media content such as an image or streaming or downloadable audio or video files. (Does not include thumbnails or descriptive text/metadata.)
      -
 
-   * - NISO
-     - The National Information Standards Organization is a United States non-profit standards organization that develops, maintains and publishes technical standards related to publishing, bibliographic and library applications. [`Wikipedia <https://en.wikipedia.org/wiki/National_Information_Standards_Organization>`__]
-     -
-
    * - Namespace
      - A term primarily used in programming languages where the same name may be used for different objects. It is created to group together those names that might be repeated elsewhere within the same or interlinked programs, objects and elements.
 
@@ -674,6 +670,10 @@ Appendix A: Glossary of Terms
      - Textual content published serially in a newspaper or newsletter.
 
        A COUNTER Data_Type.
+     -
+
+   * - NISO
+     - The National Information Standards Organization is a United States non-profit standards organization that develops, maintains and publishes technical standards related to publishing, bibliographic and library applications. [`Wikipedia <https://en.wikipedia.org/wiki/National_Information_Standards_Organization>`__]
      -
 
    * - No_License
@@ -782,12 +782,12 @@ Appendix A: Glossary of Terms
        See also ISSN.
      - 0028-4793
 
-   * - Proprietary Identifier
-     - See Proprietary_ID.
-     -
-
    * - Proprietary_ID
      - A COUNTER report item identifier for a unique identifier given by publishers and other content providers to a product or collection of products.
+     -
+
+   * - Proprietary Identifier
+     - See Proprietary_ID.
      -
 
    * - Publication date\ |br|\ |lb|
@@ -908,10 +908,6 @@ Appendix A: Glossary of Terms
      - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. RESTful is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.
      -
 
-   * - Status code
-     - HTTP response status code. Status codes are issued by a server in response to a client's request made to the server. [`Wikipedia <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>`__]
-     -
-
    * - Robot
      - See Internet robot, crawler, spider.
      -
@@ -949,14 +945,6 @@ Appendix A: Glossary of Terms
      - A service that allows users to search for content via the World Wide Web.
      -
 
-   * - Searches_Regular
-     - A COUNTER Metric_Type used to report on searches conducted by a user on a host site where the user has the option of selecting the databases being searched.
-
-       Note: If a search is conducted across multiple databases, each database searched will count that search.
-
-       See also Regular search.
-     -
-
    * - Searches_Automated
      - A COUNTER Metric_Type used to report on searches conducted on a host site or discovery service where multiple databases are searched simultaneously with a single query and the end user does not have the option of selecting the databases being searched.
 
@@ -973,6 +961,14 @@ Appendix A: Glossary of Terms
      - A COUNTER Metric_Type used to report on searches conducted at the platform level.
 
        Note: Searches conducted against multiple databases on the platform will only be counted once.
+     -
+
+   * - Searches_Regular
+     - A COUNTER Metric_Type used to report on searches conducted by a user on a host site where the user has the option of selecting the databases being searched.
+
+       Note: If a search is conducted across multiple databases, each database searched will count that search.
+
+       See also Regular search.
      -
 
    * - Section
@@ -1025,6 +1021,10 @@ Appendix A: Glossary of Terms
      - See SUSHI.
      -
 
+   * - Status code
+     - HTTP response status code. Status codes are issued by a server in response to a client's request made to the server. [`Wikipedia <https://en.wikipedia.org/wiki/List_of_HTTP_status_codes>`__]
+     -
+
    * - SUSHI
      - An international standard (Z39-93) used by COUNTER R4 that describes a method for automating the harvesting of reports.
 
@@ -1072,7 +1072,7 @@ Appendix A: Glossary of Terms
      - Transport Layer Security (TLS) protocol, Hypertext Transfer Protocol Secure (HTTPS) protocol.
      -
 
-   * - Total_Items_Investigations
+   * - Total_Item_Investigations
      - A COUNTER Metric_Type that represents the number of times users accessed the content (e.g. a full text) of an item, or information describing that item (e.g. an abstract).
      -
 
