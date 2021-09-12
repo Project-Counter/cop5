@@ -7,7 +7,7 @@ E.4 Audit Conclusion
 
 If the auditor identifies one or more issues, the content provider MUST resolve them and pass the audit within 3 months to maintain COUNTER-compliant status. Please see :numref:`audit-result` in the COUNTER R5 Code of Practice.
 
-The auditor will provide to the COUNTER Executive Committee a summary report including, as a minimum, the following information:
+The auditor will provide to the COUNTER Project Director a summary report including, as a minimum, the following information:
 
 * The name of the content provider
 * The audit period and date

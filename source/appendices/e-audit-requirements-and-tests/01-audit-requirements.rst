@@ -5,7 +5,7 @@
 E.1 Audit Requirements
 ----------------------
 
-The COUNTER audit seeks to mirror the activity of an institution (a customer) carrying out usage on the content provider’s platform. The COUNTER audit procedures and tests are to ensure the usage reports provided by content providers comply with the COUNTER R5 Code of Practice. 
+The COUNTER audit seeks to mirror the activity of an institution (a customer) carrying out usage on the content provider’s platform. The COUNTER audit procedures and tests ensure the usage reports provided by content providers comply with the COUNTER R5 Code of Practice. 
 
 Third-party hosts and vendors must be taken into account for usage reporting. Both hosts and vendors have additional audit requirements. The details are below:
 
@@ -25,10 +25,10 @@ COUNTER defines specific audit tests for each of the COUNTER required usage repo
 There are three audit compliance stages:
 
 * **Stage 1: Format.** The usage reports are reviewed by the auditor to confirm they adhere to the COUNTER R5 Code of Practice. This review includes format and presentation of all relevant COUNTER reports.
-* **Stage 2: Data Integrity.** The usage statistics reported by the content provider are verified by the auditor to accurately record the activity carried out during the audit. The auditor will check that the content provider supplies consistent usage statistics when reports are accessed using different browsers, including Google Chrome, Internet Explorer, and Mozilla Firefox as a minimum. Note: COUNTER will review the selected browsers annually. 
+* **Stage 2: Data Integrity.** The usage statistics reported by the content provider are verified by the auditor to accurately record the activity carried out during the audit. The auditor will check that the content provider supplies consistent usage statistics when reports are accessed using different browsers, including Google Chrome, Internet Explorer/Microsoft Edge, and Mozilla Firefox as a minimum. Note: COUNTER will review the selected browsers annually. 
 
   To ensure reports are counting correctly as per the COUNTER R5 Code of Practice, it is important browser cache settings of the test machines are disabled. It is also important the content provider confirms before the audit period whether or not they operate a cache server. If they do, tests may not report as the COUNTER R5 Code of Practice expects. It is likely there will be some under-reporting.
-* **Stage 3: Report Delivery.** The auditor tests the content provider has implemented the COUNTER_SUSHI API correctly and reports can be accessed using SUSHI according to the instructions supplied by the content provider (which must comply with the COUNTER_SUSHI API specification). Note: Implementation of the COUNTER_SUSHI API is a requirement for compliance and is covered by the Declaration of COUNTER Compliance signed by all compliant content providers. Delivery of reports via Excel or tab separated value (TSV) file will still be required as specified in the COUNTER R5 Code of Practice.
+* **Stage 3: Report Delivery.** The auditor tests that the content provider has implemented the COUNTER_SUSHI API correctly and reports can be accessed using SUSHI according to the instructions supplied by the content provider (which must comply with the COUNTER_SUSHI API specification). Note: Implementation of the COUNTER_SUSHI API is a requirement for compliance and is covered by the Declaration of COUNTER Compliance signed by all compliant content providers. Delivery of reports via Excel or tab separated value (TSV) file will still be required as specified in the COUNTER R5 Code of Practice.
 
 The COUNTER auditor cannot express an opinion regarding usage reported in any other accounts/institutions, or regarding aspects of the COUNTER R5 Code of Practice, not specifically tested.
 
@@ -72,7 +72,7 @@ If COUNTER does not receive a satisfactory auditor’s report within the specifi
    * - 3 months following the due audit date
      - A reminder from COUNTER that an auditor’s report is required
 
-   * - 2 months following the due audit date
+   * - 4 months following the due audit date
      - A further reminder from COUNTER that an auditor’s report is required
 
    * - 5 months following the due audit date
@@ -236,7 +236,7 @@ Table 1: COUNTER Reports Requiring Audit
 E.1.4 Audit Test Requirements
 """""""""""""""""""""""""""""
 
-COUNTER defines a reporting period as a calendar month. A report run for any given month MUST reflect all activity of a customer for the entire selected audit month. The auditor must also conduct and conclude all audit tests within the audit month.
+COUNTER defines the basic reporting period as a calendar month. A report run for any given month MUST reflect all activity of a customer for the entire selected audit month. The auditor must also conduct and conclude all audit tests within the audit month.
 
 To prevent any collision of reported data, an auditor must be allowed to set up and maintain separate accounts for each of the audit tests. During the audit month, there should not be any activity on the audit accounts other than activity generated by the auditor. Any non-auditor activity on the test accounts will make the test reports unreliable, may result in further audit tests and may incur additional costs.
 
@@ -248,4 +248,4 @@ Prior to the audit, the content provider must supply to the auditor:
 * A declaration confirming federated and automated searches have been disaggregated from any searches reported. See the COUNTER R5 Code of Practice for further information on the protocols regarding federated and automated searches.
 * If server-side caching is implemented, information on cache settings used should be provided.
 
-  **Note:** Server-side caching can cause a discrepancy between the usage recorded in the audit tests and the usage reported by the content provider. Information on cache settings enables the auditor to take them into account when evaluating the results of the report tests. If the content provider does not provide this information, the auditor is likely to require further audit tests that may incur additional costs.
+  **Note**: Server-side caching can cause a discrepancy between the usage recorded in the audit tests and the usage reported by the content provider. Information on cache settings enables the auditor to take them into account when evaluating the results of the report tests. If the content provider does not provide this information, the auditor is likely to require further audit tests that may incur additional costs.

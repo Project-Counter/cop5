@@ -27,11 +27,11 @@ An audit of this Standard View requires the following for all audit tests, unles
 * The auditor must have access to all available content on the platform of the content provider.
 * All searches, including those returning 0 results, must be reported as a Searches_Platform in the PR_P1 Standard View.
 * The auditor must allow at least 31 seconds between each request.
-* Each time a search is conducted, the auditor will record the search term, the database searched, and the number of results returned.
+* Each time a search is conducted, the auditor will record the search term, the database searched (if applicable), and the number of results returned.
 * Audit tests P1-1, P1-2 and P1-3 must take place in separate accounts so that each audit test can be separately reported.
 * For each applicable audit test to achieve an audit pass, all metrics reported by the content provider in PR_P1 Standard View from the auditor’s test account must be within a -8% and +3% reliability window of the same audit metrics on the auditor’s report.
 
-The audit test requirements may vary dependent on the set up of the platform and any related database(s).
+The audit test requirements may vary depending on the set up of the platform and any related database(s).
 
 
 Audit Test P1-1: Searches_Platform
@@ -233,7 +233,7 @@ This must result in:
 Audit Test D1-4: Total_Item_Investigations
 ..........................................
 
-**IMPORTANT NOTE**: This test is required when investigations can be reported independently of a request. It is not required when all investigations have a matching request. Any exclusion of tests must be confirmed by COUNTER prior to testing and the auditor notified.
+**IMPORTANT NOTE**: This test is required when investigations can be reported independently of a request. It is not required if all investigations have a matching request, but this must be verified during the audit. Any exclusion of tests must be confirmed by COUNTER prior to testing and the auditor notified.
 
 The auditor must make 100 Investigations on a subset of available unique items. This must result in 100 Total_Item_Investigations.
 
@@ -287,7 +287,7 @@ Audit Test D2-1: Limit_Exceeded
 
 The auditor will perform audit tests based on the relevant option detailed below.
 
-The account used for this testing must have concurrent/simultaneous-user limit set at one single user. A second user attempting to accessing the database would be denied.
+The account used for this testing must have concurrent/simultaneous-user limit set at one single user. A second user attempting to access the database would be denied.
 
 **Option 1**: The content provider denies the user access when the concurrent/simultaneous-user limit is exceeded upon login.
 
@@ -545,7 +545,7 @@ The auditor will perform audit tests based on the relevant options detailed belo
 
 The auditor must make a total of 50 item investigations within a subset of books. There must be 25 Investigations of items within a book where the Access_Type is Controlled and 25 investigations of items within a book where the Access_Type is OA_Gold.
 
-* Each book must have 5 investigations to unique items. This will report 5 Total_Item_Investigations, 5 Unique_Item_Investigations, and 1 Unique_Title_Investigations.
+* Each book must have 5 investigations of unique items. This will report 5 Total_Item_Investigations, 5 Unique_Item_Investigations, and 1 Unique_Title_Investigations.
 
 This must result in:
 
@@ -557,7 +557,7 @@ This must result in:
 
 The auditor must make a total of 50 Investigations within a subset of books.
 
-* Each book must have 5 investigations to unique items. This will report 5 Total_Item_Investigations, 5 Unique_Item_Investigations, and 1 Unique_Title_Investigations.
+* Each book must have 5 investigations of unique items. This will report 5 Total_Item_Investigations, 5 Unique_Item_Investigations, and 1 Unique_Title_Investigations.
 
 This must result in:
 
