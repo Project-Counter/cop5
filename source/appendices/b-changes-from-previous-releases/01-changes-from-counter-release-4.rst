@@ -58,15 +58,15 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
 
    * - Consortium Report 2: Total Searches by Month and Database
      - Eliminated
-     - Consortium administrators will request “Database Usage” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 2.
+     - Consortium administrators will request “Database Search and Item Usage” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 2.
 
    * - Consortium Report 3: Number of Successful Multimedia Full Content Unit Requests by Month and Collection
      - Eliminated
-     - For multimedia collections that are equivalent to databases, consortium administrators will request “Database Usage” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 3.
+     - For multimedia collections that are equivalent to databases, consortium administrators will request “Database Search and Item Usage” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 3.
 
    * - Database Report 1: Total Searches, Result Clicks and Record Views by Month and Database
-     - Database Usage
-     - Result Clicks and Record Views have been replaced by Total_Item_Investigations. Metrics for regular searches remains unchanged, and federated and automated searches are now reported separately. The report also includes Access Denied and Requests metrics.
+     - Database Search and Item Usage
+     - Result Clicks and Record Views have been replaced by Total_Item_Investigations. Metrics for regular searches remains unchanged, and federated and automated searches are now reported separately. The report also includes Requests metrics.
 
    * - Database Report 2: Access Denied by Month, Database and Category
      - Database Access Denied
@@ -89,7 +89,8 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - The Limit_Exceeded and No_License metrics are equivalent to corresponding metrics in R4 report.
 
    * - Journal Report 3: Number of Successful Item Requests by Month, Journal and Page-type
-     - Title Master Report, Item Master Report
+     - Title Master Report\ |br|\ |lb|
+       Item Master Report
      - The Title Master Report can be configured to show Section_Types, which provides details similar to JR3. Other details like the audio and video usage can be reported in the Item Master Report (using the Component elements where appropriate).
 
    * - Journal Report 3 Mobile: Number of Successful Item Requests by Month, Journal and Page-type for usage on a mobile device
@@ -98,15 +99,15 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
 
    * - Journal Report 4: Total Searches Run By Month and Collection
      - Eliminated (no equivalent)
-     - To the extent that a journal collection is organized for searching as a discrete collection (rare), usage would be reported in “Database Usage”.
+     - To the extent that a journal collection is organized for searching as a discrete collection (rare), usage would be reported in “Database Search and Item Usage”.
 
    * - Journal Report 5: Number of Successful Full-Text Article Requests by Year-of-Publication (YOP) and Journal
      - Journal Requests by YOP (Excluding OA_Gold)
      - This R5 report offers a breakdown of journal usage by year of publication (YOP) and the resulting report can be analysed using filters or pivot tables.
 
    * - Multimedia Report 1: Number of Successful Full Multimedia Content Unit Requests by Month and Collection
-     - Database Usage
-     - Multimedia usage, where multimedia is packaged and accessed as separate collections, would be reported using “Database Usage”.
+     - Database Search and Item Usage
+     - Multimedia usage, where multimedia is packaged and accessed as separate collections, would be reported using “Database Search and Item Usage”.
 
    * - Multimedia Report 2: Number of Successful Full Multimedia Content Unit Requests by Month, Collection and Item Type
      - Multimedia Item Requests
@@ -323,7 +324,7 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
        TDM
 
    * - Data_Type
-     - Used to generally classify the nature of item the usage is being presented for.
+     - Used to generally classify the nature of the item the usage is being presented for.
      - Article\ |br|\ |lb|
        Book\ |br|\ |lb|
        Book_Segment\ |br|\ |lb|
@@ -339,8 +340,8 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
        Thesis_or_Dissertation
 
    * - Publisher_ID
-     - A unique identifier for the publisher, preferably to a standard identifier such as ISNI. For the JSON version of the report, the type (namespace) and value are separate. For tabular, the format is *{namespace}*:*{value}*.
-     - isni:123334445
+     - A unique identifier for the publisher, preferably a standard identifier such as ISNI. For the JSON version of the report, the type (namespace) and value are separate. For tabular, the format is *{namespace}*:*{value}*.
+     - ISNI:1233344455678889
 
    * - Section_Type
      - Used in conjunction with Data_Type, this attribute tracks requests to the level of the section requested. Used mostly with books where content may be delivered by chapter or section, this element defines the nature of the section retrieved.
@@ -353,5 +354,5 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    * - YOP
      - This attribute records the year of publication of the item. The YOP attribute replaces the year-of-publication ranges in R4’s JR5 report and is tracked for all metrics in Title and Item Reports.
      - A 4-digit year, e.g. 2012\ |br|\ |lb|
-       0001 for Unknown\ |br|\ |lb|
-       9999 for Articles in Print
+       0001 for unknown\ |br|\ |lb|
+       9999 for articles in press
