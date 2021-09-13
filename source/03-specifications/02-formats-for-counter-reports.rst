@@ -72,7 +72,11 @@ Table 3.f (below): COUNTER Report Header Elements
      - 5
 
    * - Institution_Name
-     - For subscription-based services, the name of the institution to which the usage is attributed. For OA publishers and repositories, where it is not possible to identify usage by individual institutions, the usage should be attributed to “The World”.
+     - The name of the organization to which the usage is attributed.
+
+       This can be a higher education institution, or for example a country for a country-wide contract, or a publisher if an aggregator or discovery service wants to report usage of a publisher’s content to the publisher.
+
+       For reports including usage of open content that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
      - Mt. Laurel University
 
    * - Institution_ID
