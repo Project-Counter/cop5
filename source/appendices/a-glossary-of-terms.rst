@@ -9,6 +9,8 @@
 Appendix A: Glossary of Terms
 =============================
 
+Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
+
 .. only:: latex
 
    .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|
