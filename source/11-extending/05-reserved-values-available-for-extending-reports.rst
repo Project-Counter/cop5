@@ -44,4 +44,30 @@ COUNTER recognizes that there are some common extensions that content providers 
      - TR
      - PDF
 
+   * - Country_Name
+     - Name of the country according to ISO 3166-1. Note that the standard allows country names in different languages. The name is included for easier reading, for processing the reports the Country_Code should be used.
+     - PR, DR, TR, IR
+     - Canada
+
+   * - Country_Code
+     - ISO 3166-1 alpha-2 code of the country.
+     - PR, DR, TR, IR
+     - CA
+
+   * - Subdivision_Name
+     - Name of the country subdivision according to ISO 3166-2. Note that the standard allows country subdivision names in different languages. The name is included for easier reading, for processing the reports the Subdivision_Code should be used.
+     - PR, DR, TR, IR
+     - Quebec\ |br|\ |lb|
+       Québec
+
+   * - Subdivision_Code
+     - ISO 3166-2 code of the country subdivision.
+     - PR, DR, TR, IR
+     - CA-QC
+
+   * - Attributed
+     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
+     - PR, DR, TR, IR
+     - No
+
 Note that by supporting the Institution_Name and Customer_ID extensions content providers can offer COUNTER Master Reports to consortia with usage broken down by their members. If a consortium requests a report with Institution_Name and/or Customer_ID, the usage would be broken down by institution if the extension is supported by the content provider, otherwise the usage would be summarised over all consortium members as usual.
