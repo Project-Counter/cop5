@@ -9,6 +9,8 @@
 Appendix G: List of Federated Search Products
 =============================================
 
+Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
+
 The following are lists of known (to COUNTER) federated search products and user-agent values that may be used to identify federated search activity for reporting as Searches_Federated in Database Reports.
 
 NOTE: These lists are for reference purposes only and may not represent all current Federated Search Products (please contact COUNTER with updates).

@@ -7,6 +7,8 @@
 Appendix H: Sample COUNTER Master Reports and Standard Views
 ============================================================
 
+Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
+
 The Master Reports and Standard Views in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting-level, the Master Report appears first followed by the Standard Views. Click the highlighted view link to see the corresponding tabular sample.
 
 Table H.1: Sample COUNTER Master Reports and Standard Views

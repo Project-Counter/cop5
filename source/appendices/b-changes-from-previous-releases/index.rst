@@ -9,6 +9,8 @@
 Appendix B: Changes from Previous Releases
 ==========================================
 
+Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
+
 .. toctree::
    :maxdepth: 4
 
