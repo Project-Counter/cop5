@@ -179,6 +179,8 @@ Table 3.g (below): Elements that Describe the Report Item
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
 
+For Database the value MUST NOT be empty. For Title, Item and Publisher the value SHOULD NOT be empty, and if the value for Title or Item is empty at least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI MUST be provided so that the report item can be identified. Note that content providers are expected to make all reasonable efforts to provide this information and that using an empty value may affect the result of an audit (see :numref:`missing-values`).
+
 
 .. rubric:: Platform
 
@@ -292,6 +294,8 @@ Table 3.i (below): Elements for Report Item Identifiers
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      -
 
+At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI SHOULD be provided for each report item. Note that only one value per identifier is permitted, unless specified otherwise.
+
 
 .. rubric:: Parent Item Description and Identifiers
 
@@ -376,6 +380,8 @@ Table 3.j (below): Elements that Describe a Parent Item
        IR_A1
      - https://www.tandfonline.com/action/journalInformation?journalCode=wser20
 
+At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URL MUST be included if parent information is provided for a report item. Note that only one value per identifier is permitted, unless specified otherwise.
+
 
 .. rubric:: Component Item Description and Identifiers
 
@@ -447,6 +453,8 @@ Table 3.k (below): Elements that Describe a Component Item
      - IR
      -
 
+At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI per component MUST be included if component information is provided for a report item. Note that only one value per identifier is permitted, unless specified otherwise.
+
 
 .. rubric:: Item and Report Attributes
 
@@ -502,6 +510,8 @@ Table 3.l (below): Elements for Item and Report Attributes
      - PR, DR, TR, IR
      - Regular\ |br|\ |lb|
        TDM
+
+If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a Master Report, a permissible value MUST be specified for each report item. The only exception is Section_Type which MUST be empty (tabular reports) or omitted (JSON reports) for Data_Type Book and Unique_Title metrics, since it is not applicable in this case. Note that this results in two report items in JSON reports, one for the Total_Item and Unique_Item metrics with Section_Type and one for the Unique_Title metrics without Section_Type.
 
 
 .. rubric:: Metric Type
