@@ -875,14 +875,17 @@ Not all content providers or other COUNTER report providers link their COUNTER r
 
 .. _missing-values:
 
-Missing and Unknown Field Values
-""""""""""""""""""""""""""""""""
+Missing and Unknown Values
+""""""""""""""""""""""""""
 
-* For tabular reports
+The value for an element might be missing or unknown, for example a title might not have an ISBN or the ISBN might be unknown. In COUNTER reports this is expressed as follows:
 
-  * If a field value is missing or unknown (e.g. the ISBN for a title doesn’t exist or isn’t known), the field MUST be left blank. For clarity, the field MUST NOT contain values such as “unknown” or “n/a”.
-
+* For tabular reports the cell MUST be left blank.
 * For JSON reports
 
-  * If the value of a field is missing or unknown and the COUNTER_SUSHI API Specification (see :numref:`sushi` below) indicates the field is REQUIRED, the value of the field MUST be expressed as empty as appropriate for the data type.
-  * If the value of a field is missing or unknown and the field is not REQUIRED according to the COUNTER_SUSHI API Specification, the field MUST be omitted from the response.
+  * If the COUNTER_SUSHI API Specification (see :numref:`sushi`) indicates the element is REQUIRED, the value of the element MUST be expressed as empty as appropriate for the data type.
+  * If the element is not REQUIRED according to the COUNTER_SUSHI API Specification, the element MUST be omitted.
+
+For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.
+
+If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Release 5 Validation Tool reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Release 5 Validation Tool reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the COUNTER Release 5 Validation Tool.
