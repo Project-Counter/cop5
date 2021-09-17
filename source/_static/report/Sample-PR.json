@@ -1,0 +1,260 @@
+{
+  "Report_Header": {
+    "Report_Name": "Platform Master Report",
+    "Report_ID": "PR",
+    "Release": "5",
+    "Institution_Name": "Client Demo Site",
+    "Institution_ID": [
+      {
+        "Type": "ISNI",
+        "Value": "1234123412341234"
+      }
+    ],
+    "Customer_ID": "c123456",
+    "Report_Filters": [
+      {
+        "Name": "Begin_Date",
+        "Value": "2016-01-01"
+      },
+      {
+        "Name": "End_Date",
+        "Value": "2016-03-31"
+      }
+    ],
+    "Report_Attributes": [
+      {
+        "Name": "Attributes_To_Show",
+        "Value": "Data_Type|Access_Method"
+      }
+    ],
+    "Created": "2019-04-25T11:39:38Z",
+    "Created_By": "Sample Publisher"
+  },
+  "Report_Items": [
+    {
+      "Platform": "Platform 1",
+      "Data_Type": "Platform",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Platform",
+              "Count": 4641
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Platform",
+              "Count": 9985
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Platform",
+              "Count": 10885
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Platform": "Platform 1",
+      "Data_Type": "Journal",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 18975
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 2300
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 2467
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 2000
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 15626
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 4984
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 4600
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 4500
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 18234
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 5752
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 5900
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 5600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Platform": "Platform 1",
+      "Data_Type": "Book",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 3220
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 1780
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 3214
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 1770
+            },
+            {
+              "Metric_Type": "Unique_Title_Investigations",
+              "Count": 61
+            },
+            {
+              "Metric_Type": "Unique_Title_Requests",
+              "Count": 61
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 7269
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 3935
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 7263
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 3933
+            },
+            {
+              "Metric_Type": "Unique_Title_Investigations",
+              "Count": 117
+            },
+            {
+              "Metric_Type": "Unique_Title_Requests",
+              "Count": 117
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 8379
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 4570
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 8371
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 4568
+            },
+            {
+              "Metric_Type": "Unique_Title_Investigations",
+              "Count": 200
+            },
+            {
+              "Metric_Type": "Unique_Title_Requests",
+              "Count": 200
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
