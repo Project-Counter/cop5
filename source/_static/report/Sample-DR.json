@@ -1,0 +1,464 @@
+{
+  "Report_Header": {
+    "Report_Name": "Database Master Report",
+    "Report_ID": "DR",
+    "Release": "5",
+    "Institution_Name": "Client Demo Site",
+    "Institution_ID": [
+      {
+        "Type": "ISNI",
+        "Value": "1234123412341234"
+      }
+    ],
+    "Customer_ID": "ppa123456",
+    "Report_Filters": [
+      {
+        "Name": "Begin_Date",
+        "Value": "2016-01-01"
+      },
+      {
+        "Name": "End_Date",
+        "Value": "2016-03-31"
+      }
+    ],
+    "Report_Attributes": [
+      {
+        "Name": "Attributes_To_Show",
+        "Value": "Data_Type|Access_Method"
+      }
+    ],
+    "Created": "2019-04-25T11:35:16Z",
+    "Created_By": "Publisher Platform Alpha"
+  },
+  "Report_Items": [
+    {
+      "Database": "Database 1 Bibliographic Database",
+      "Publisher": "Gamma",
+      "Publisher_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:gam"
+        }
+      ],
+      "Platform": "PPα",
+      "Item_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:bdb-1"
+        }
+      ],
+      "Data_Type": "Database",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Limit_Exceeded",
+              "Count": 23
+            },
+            {
+              "Metric_Type": "Searches_Automated",
+              "Count": 5061
+            },
+            {
+              "Metric_Type": "Searches_Federated",
+              "Count": 7860
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 1687
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Limit_Exceeded",
+              "Count": 21
+            },
+            {
+              "Metric_Type": "Searches_Automated",
+              "Count": 9709
+            },
+            {
+              "Metric_Type": "Searches_Federated",
+              "Count": 10789
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 3601
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Limit_Exceeded",
+              "Count": 16
+            },
+            {
+              "Metric_Type": "Searches_Automated",
+              "Count": 12457
+            },
+            {
+              "Metric_Type": "Searches_Federated",
+              "Count": 13567
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 3984
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Database": "Database 1 Bibliographic Database",
+      "Publisher": "Gamma",
+      "Publisher_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:gam"
+        }
+      ],
+      "Platform": "PPα",
+      "Item_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:bdb-1"
+        }
+      ],
+      "Data_Type": "Journal",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 74
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 74
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 421
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 421
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 549
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 549
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Database": "Database 2 Aggregated Full Content Database",
+      "Publisher": "Gamma",
+      "Publisher_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:gam"
+        }
+      ],
+      "Platform": "PPα",
+      "Item_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:afcdb-2"
+        }
+      ],
+      "Data_Type": "Database",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 290
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 270
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 380
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Database": "Database 2 Aggregated Full Content Database",
+      "Publisher": "Gamma",
+      "Publisher_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:gam"
+        }
+      ],
+      "Platform": "PPα",
+      "Item_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:afcdb-2"
+        }
+      ],
+      "Data_Type": "Journal",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 300
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 270
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 290
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 265
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 250
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 230
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 240
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 225
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 350
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 330
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 340
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 325
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Database": "Database 3 Full Content Database",
+      "Publisher": "Gamma",
+      "Publisher_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:gam"
+        }
+      ],
+      "Platform": "PPα",
+      "Item_ID": [
+        {
+          "Type": "Proprietary",
+          "Value": "alpha:fcdb-3"
+        }
+      ],
+      "Data_Type": "Database",
+      "Access_Method": "Regular",
+      "Performance": [
+        {
+          "Period": {
+            "Begin_Date": "2016-01-01",
+            "End_Date": "2016-01-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "No_License",
+              "Count": 25
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 2300
+            },
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 2000
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 1200
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 1900
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 1190
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-02-01",
+            "End_Date": "2016-02-29"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "No_License",
+              "Count": 30
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 2000
+            },
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 1900
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 1100
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 1800
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 1080
+            }
+          ]
+        },
+        {
+          "Period": {
+            "Begin_Date": "2016-03-01",
+            "End_Date": "2016-03-31"
+          },
+          "Instance": [
+            {
+              "Metric_Type": "No_License",
+              "Count": 45
+            },
+            {
+              "Metric_Type": "Searches_Regular",
+              "Count": 2400
+            },
+            {
+              "Metric_Type": "Total_Item_Investigations",
+              "Count": 1800
+            },
+            {
+              "Metric_Type": "Total_Item_Requests",
+              "Count": 1200
+            },
+            {
+              "Metric_Type": "Unique_Item_Investigations",
+              "Count": 1700
+            },
+            {
+              "Metric_Type": "Unique_Item_Requests",
+              "Count": 1180
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
