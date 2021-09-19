@@ -163,6 +163,8 @@ latex_elements = {
         \usepackage{datetime}
         \newdateformat{ddmonthyyyy}{\THEDAY\ \monthname[\THEMONTH] \THEYEAR}
 
+        \setcounter{secnumdepth}{4}
+
         \renewcommand\sphinxtableofcontents{%
            \pagenumbering{arabic}
            \tableofcontents}
