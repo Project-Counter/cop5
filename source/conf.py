@@ -108,7 +108,8 @@ except ImportError:
 # documentation.
 #
 html_theme_options = {
-   'navigation_depth': 3
+    'navigation_depth': 3,
+    'display_version': False
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -127,6 +128,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_css_files = [ 'css/custom.css' ]
+html_logo = '_static/img/counter-logo.png'
 html_secnumber_suffix = ' '
 html_show_sourcelink = False
 
