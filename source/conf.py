@@ -109,6 +109,7 @@ except ImportError:
 #
 html_theme_options = {
     'navigation_depth': 3,
+    'logo_only': True,
     'display_version': False
 }
 
