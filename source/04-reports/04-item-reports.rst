@@ -147,7 +147,7 @@ Table 4.o (below): Header for Item Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these fields appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the Master Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the Master Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.p (below): Column Headings/Elements for Item Master Report and Standard Views
 
@@ -160,7 +160,7 @@ Table 4.p (below): Column Headings/Elements for Item Master Report and Standard 
    :widths: 34 10 10 10
    :header-rows: 1
 
-   * - Field Name (Tabular)
+   * - Element Name (Tabular)
      - IR
      - IR_A1
      - IR_M1

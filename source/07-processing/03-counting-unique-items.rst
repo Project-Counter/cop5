@@ -9,7 +9,7 @@ Counting Unique Items
 
 Some COUNTER Metric_Types count the number of unique items that had a certain activity, such as a Unique_Item_Requests or Unique_Item_Investigations.
 
-For the purpose of COUNTER metrics, an item is the typical unit of content being accessed by users, such as articles, book chapters, book sections, whole books (if delivered as a single file), and multimedia content. The item MUST be identified using the unique ID which identifies the work (e.g. chapter or article) regardless of format (e.g. PDF, HTML, or EPUB). If no item-level identifier is available, then use the item name in combination with the identifier of the parent item (i.e. the article title + ISSN of the journal, or chapter name + ISBN of the book).
+For the purpose of COUNTER metrics, an item is the typical unit of content being accessed by users, such as articles, book chapters, book segments, whole books (if delivered as a single file), and multimedia content. The item MUST be identified using the unique ID which identifies the work (e.g. chapter or article) regardless of format (e.g. PDF, HTML, or EPUB). If no item-level identifier is available, then use the item name in combination with the identifier of the parent item (i.e. the article title + ISSN of the journal, or chapter name + ISBN of the book).
 
 The rules for calculating the unique item counts are as follows:
 

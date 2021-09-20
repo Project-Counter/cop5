@@ -14,7 +14,7 @@ Any additional requests for the same URL within 30 seconds (between clicks) MUST
 
 There are different ways to track whether two requests for the same URL are from the same user and session. These options are listed in order of increasing reliability, with Option 4 being the most reliable.
 
-#. If the user is authenticated only through an IP address, that IP address combined with the browser’s user-agent (logged in the HTTP header) MUST be used to trace double-clicks. Where you have multiple users on a single IP address with the same browser user-agent, this can occasionally lead to separate clicks from different users being logged as a double click from one user. This will only happen if the multiple users are clicking on exactly the same content within a few seconds of each other.
+#. If the user is authenticated only through an IP address, that IP address combined with the browser’s user-agent (logged in the HTTP header) MUST be used to trace double-clicks. Where you have multiple users on a single IP address with the same browser user-agent, this can occasionally lead to separate clicks from different users being logged as a double-click from one user. This will only happen if the multiple users are clicking on exactly the same content within a few seconds of each other.
 #. When a session cookie is implemented and logged, the session cookie MUST be used to trace double-clicks.
 #. When a user cookie is available and logged, the user cookie MUST be used to trace double-clicks.
 #. When an individual has logged in with their own profile, their username MUST be used to trace double-clicks.

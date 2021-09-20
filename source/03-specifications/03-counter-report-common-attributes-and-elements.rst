@@ -102,7 +102,7 @@ Table 3.p (below): List of Data_Type Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.25}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.315}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -325,7 +325,7 @@ Table 3.r (below): List of Metric_Types for Searches
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.1}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.365}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -417,7 +417,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.24}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.305}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -522,7 +522,7 @@ Table 3.t (below): List of Metric_Types for Access Denied
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.33}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.395}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -578,7 +578,7 @@ Table 3.u (below): List of Access_Type Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.3}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.365}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -648,7 +648,7 @@ Table 3.v (below): List of Access_Method Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.33}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.17}|
 
 .. list-table::
    :class: longtable
@@ -702,7 +702,7 @@ Table 3.v (below): List of Access_Method Values
 YOP
 """
 
-Analyzing collection usage by the age of the content is also desired. The YOP usage attribute represents the year of publication, and it must be tracked for all Investigations, Requests and Access Denied metrics in the Title and Item Reports. The table below lists the Host_Types and reports the YOP attribute applies to.
+Analyzing collection usage by the age of the content is also desired. The YOP report attribute represents the year of publication, and it must be tracked for all Investigations, Requests and Access Denied metrics in the Title and Item Reports. The table below lists the Host_Types and reports the YOP attribute applies to.
 
 Table 3.w (below): YOP Values
 
@@ -721,7 +721,7 @@ Table 3.w (below): YOP Values
      - Reports
 
    * - *yyyy*
-     - The year of publication for the item as a four-digit year. If a content item has a different year of publication for an online version than the print, use the year of publication for the Version of Record. If the year of publication is not known, use a value of 0001. For articles-in-press (not yet assigned to an issue), use the value 9999.
+     - The year of publication for the item as a four-digit year. If a content item has a different year of publication for an online version than for the print version, use the year of publication for the Version of Record. If the year of publication is not known, use a value of 0001. For articles in press (not yet assigned to an issue), use the value 9999.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -777,11 +777,11 @@ Table 3.x (below): Report Attributes
        (JSON)
 
    * - Include_Component_Details
-     - Specifies whether to include the component columns/elements (see table 3.k) in the report. Permissible values are False (default) and True.
+     - Specifies whether to include the component columns/elements (see Table 3.k) in the report. Permissible values are False (default) and True.
      - IR
 
    * - Include_Parent_Details
-     - Specifies whether to include the parent columns/elements (see table 3.j) in the report. Permissible values are False (default) and True.
+     - Specifies whether to include the parent columns/elements (see Table 3.j) in the report. Permissible values are False (default) and True.
      - IR
 
 
