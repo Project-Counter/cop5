@@ -10,7 +10,7 @@ The transition from R4 to R5 meets the general requirements outlined in :numref:
 * Content providers MUST be compliant by February 2019 for delivery of R5 reports starting with January 2019 usage.
 * Content providers may choose to release their R5 compliant reporting service before February 2019.
 * A content provider’s customers MUST be able to obtain R4-compliant reports for that content provider from the time the content provider’s R5 reporting service was released through to April 2019 (providing access to March 2019 usage). A content provider may provide access to R4 reports beyond April 2019 at their discretion.
-* Content providers may choose to meet the requirement to provide R4 report based on R5 metrics. The following R4 reports must be supported (when applicable to the platform): BR1, BR2, BR3, DB1, DB2, JR1, JR2, JR5, and PR1. The following table presents the equivalent R4 metric types and R5 Metric_Types and filters by report.
+* Content providers may choose to meet the requirement to provide R4 reports based on R5 metrics. The following R4 reports must be supported (when applicable to the platform): BR1, BR2, BR3, DB1, DB2, JR1, JR2, JR5, and PR1. The following table presents the equivalent R4 metric types and R5 Metric_Types and filters by report.
 
 .. only:: latex
 
@@ -74,7 +74,7 @@ The transition from R4 to R5 meets the general requirements outlined in :numref:
      - Access denied - concurrent/simultaneous user limit exceeded
      - Limit_Exceeded AND Data_Type=Journal
 
-   * - Access denied—content item not licensed
+   * - Access denied - content item not licensed
      - No_License AND Data_Type=Journal
 
    * - JR5

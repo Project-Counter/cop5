@@ -22,7 +22,7 @@ Sample Audit Report:
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.1}|>{\raggedright\arraybackslash}\Y{0.1}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.115}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.09}|>{\raggedright\arraybackslash}\Y{0.105}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.1}|>{\raggedright\arraybackslash}\Y{0.095}|>{\raggedright\arraybackslash}\Y{0.095}|>{\raggedright\arraybackslash}\Y{0.14}|>{\raggedright\arraybackslash}\Y{0.115}|>{\raggedright\arraybackslash}\Y{0.105}|>{\raggedright\arraybackslash}\Y{0.085}|>{\raggedright\arraybackslash}\Y{0.105}|>{\raggedright\arraybackslash}\Y{0.17}|
 
 .. flat-table::
    :class: longtable

@@ -29,7 +29,7 @@ After the comment period, changes to the COUNTER Code of Practice MUST be voted 
 Communication of Changes
 """"""""""""""""""""""""
 
-COUNTER will inform the COUNTER membership about upcoming changes to the COUNTER Code of Practice through email and on the COUNTER website. Additionally, proposed and pending changes will be published on the `Usus <http://www.usus.org.uk/>`_ website and through posting on listservs that discuss usage topics.
+COUNTER will inform the COUNTER membership about upcoming changes to the COUNTER Code of Practice through email and on the COUNTER website and through posting on listservs that discuss usage topics.
 
 
 Version and Change Control

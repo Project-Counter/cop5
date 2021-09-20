@@ -4,8 +4,7 @@
 
 .. raw:: latex
 
-   \renewcommand\thesection{}
-   \renewcommand\thesubsection{}
+   \setcounter{secnumdepth}{0}
 
 
 Appendices
