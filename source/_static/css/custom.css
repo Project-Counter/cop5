@@ -6,7 +6,13 @@
 }
 
 .wy-side-nav-search .wy-dropdown > a img.logo, .wy-side-nav-search > a img.logo {
-    max-width: 70% !important;
+    max-width: 75% !important;
+}
+
+.wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
+    content: "COUNTER Code of Practice\ARelease 5.0.2";
+    white-space: pre;
+    font-weight: 400;
 }
 
 .wy-nav-content {
