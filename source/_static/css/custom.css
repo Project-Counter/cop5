@@ -1,6 +1,20 @@
 /* !important prevents the common CSS stylesheets from overriding
    this as on RTD they are loaded after this stylesheet */
 
+.wy-side-nav-search {
+    background-color: #107da6 !important;
+}
+
+.wy-side-nav-search .wy-dropdown > a img.logo, .wy-side-nav-search > a img.logo {
+    max-width: 75% !important;
+}
+
+.wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
+    content: "COUNTER Code of Practice\ARelease 5.0.1";
+    white-space: pre;
+    font-weight: 400;
+}
+
 .wy-nav-content {
     max-width: 1200px !important;
 }

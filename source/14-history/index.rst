@@ -28,7 +28,7 @@ Change History
      - 2017-07-01
      - 2019-02-28 (with support for January 2019 usage)
 
-   * - 5.0.1
+   * - `5.0.1 <https://cop5.projectcounter.org/_/downloads/en/5.0.1/pdf/>`_
      - Amendments, corrections and clarifications based on feedback and questions from the community.
      - Yes
      - 2018-12-10
