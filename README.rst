@@ -3,11 +3,13 @@ COUNTER Code of Practice Release 5
 
 This repository contains the source for the `COUNTER <https://www.projectcounter.org/>`_ Code of Practice Release 5.
 
-There are two branches:
+There are three branches:
+
+* `5.0.2 <https://github.com/Project-Counter/cop5/tree/5.0.2>`_: Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
 
 * `5.0.1 <https://github.com/Project-Counter/cop5/tree/5.0.1>`_: Release 5.0.1 (published 10 December 2018, with updates for Appendices A and E) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2019.
 
-* `planned <https://github.com/Project-Counter/cop5/tree/planned>`_: Release 5.0.2 (to be published in mid-2021) is still under discussion. It should become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
+* `planned <https://github.com/Project-Counter/cop5/tree/planned>`_: Release 5.1 (community consultation scheduled for April 2022) is still under discussion. It is scheduled to become the current Code of Practice and the requirement for COUNTER compliance effective from January 2024.
 
 
 Reading the COUNTER Code of Practice Release 5

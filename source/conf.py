@@ -197,7 +197,7 @@ latex_elements = {
                 \vspace{10pt}
                 {\Huge \textbf{\color{TitleColor} Release 5.0.2}}\par
                 \vspace{50pt}
-                {Published: TBD (mid-2021)}\par
+                {Published: 28 September 2021}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -211,7 +211,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s library and content provider members have contributed to the development of Release 5 (R5) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.}\par
-            {Release 5.0.2 (to be published in mid-2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.}\par
+            {Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
