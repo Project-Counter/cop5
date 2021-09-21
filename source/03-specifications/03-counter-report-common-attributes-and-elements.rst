@@ -102,7 +102,7 @@ Table 3.p (below): List of Data_Type Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.25}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.315}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -309,7 +309,7 @@ Table 3.r (below): List of Metric_Types for Searches
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.1}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.365}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -401,7 +401,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.24}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.305}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -506,7 +506,7 @@ Table 3.t (below): List of Metric_Types for Access Denied
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.33}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.395}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -562,7 +562,7 @@ Table 3.u (below): List of Access_Type Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.3}|>{\raggedright\arraybackslash}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.21}|>{\parskip=\tparskip}\Y{0.365}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
@@ -632,7 +632,7 @@ Table 3.v (below): List of Access_Method Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.32}|>{\raggedright\arraybackslash}\Y{0.33}|>{\raggedright\arraybackslash}\Y{0.17}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\parskip=\tparskip}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.325}|>{\raggedright\arraybackslash}\Y{0.17}|
 
 .. list-table::
    :class: longtable

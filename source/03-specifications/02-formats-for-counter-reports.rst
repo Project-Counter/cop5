@@ -382,7 +382,7 @@ Table 3.k (below): Elements that Describe a Component Item
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.5}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.13}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.29}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.13}|
 
 .. list-table::
    :class: longtable

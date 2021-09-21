@@ -61,7 +61,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -108,7 +108,9 @@ except ImportError:
 # documentation.
 #
 html_theme_options = {
-   'navigation_depth': 3
+    'navigation_depth': 3,
+    'logo_only': True,
+    'display_version': False
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -127,6 +129,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 html_css_files = [ 'css/custom.css' ]
+html_logo = '_static/img/counter-logo.png'
 html_secnumber_suffix = ' '
 html_show_sourcelink = False
 
@@ -162,6 +165,8 @@ latex_elements = {
 
         \usepackage{datetime}
         \newdateformat{ddmonthyyyy}{\THEDAY\ \monthname[\THEMONTH] \THEYEAR}
+
+        \setcounter{secnumdepth}{4}
 
         \renewcommand\sphinxtableofcontents{%
            \pagenumbering{arabic}
