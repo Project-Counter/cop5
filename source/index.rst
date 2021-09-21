@@ -14,7 +14,7 @@ COUNTER Code of Practice Release 5.0.2
 
    The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.
 
-   Release 5.0.2 (to be published in mid-2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
+   Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
 
 .. only:: not (latex or builder_html)
 
