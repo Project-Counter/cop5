@@ -1,9 +1,8 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "The COUNTER_SUSHI5_0 API represents a RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. ",
-    "version" : "5.0.2",
     "title" : "COUNTER_SUSHI5_0 API",
+    "description" : "The COUNTER_SUSHI5_0 API represents a RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. ",
     "termsOfService" : "",
     "contact" : {
       "name" : "Project COUNTER",
@@ -13,11 +12,24 @@
     "license" : {
       "name" : "Apache 2.0",
       "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version" : "5.0.2"
+  },
+  "schemes" : [ "https" ],
+  "securityDefinitions" : {
+    "api_key" : {
+      "type" : "apiKey",
+      "description" : "Unique code which may be assigned by a Content Provider to grant you access to this API. If assigned, the api_key needs to be a query parameter for every operation to access this API.",
+      "name" : "api_key",
+      "in" : "query"
+    },
+    "requestor_id" : {
+      "type" : "apiKey",
+      "description" : "Identifier which may be assigned by a Content Provider for the requester(client) that is asking for report data. If assigned, the requestor_id needs to be a query parameter for every operation to access this API.",
+      "name" : "requestor_id",
+      "in" : "query"
     }
   },
-  "host" : "virtserver.swaggerhub.com",
-  "basePath" : "/COUNTER/counter-sushi_5_0_api/5.0.2",
-  "schemes" : [ "https" ],
   "security" : [ {
     "api_key" : [ ]
   }, {
@@ -26,8 +38,8 @@
   "paths" : {
     "/status" : {
       "get" : {
-        "description" : "This resource returns the current status of the reporting service supported by this API.",
         "operationId" : "getAPIStatus",
+        "description" : "This resource returns the current status of the reporting service supported by this API.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -63,8 +75,8 @@
     },
     "/members" : {
       "get" : {
-        "description" : "This resource returns the list of consortium members related to a Customer_ID.",
         "operationId" : "getConsortiumMembers",
+        "description" : "This resource returns the list of consortium members related to a Customer_ID.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -100,8 +112,8 @@
     },
     "/reports" : {
       "get" : {
-        "description" : "This resource returns a list of reports supported by the API for a given application.",
         "operationId" : "getReports",
+        "description" : "This resource returns a list of reports supported by the API for a given application.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -143,8 +155,8 @@
     },
     "/reports/pr" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Platform Master Report' [PR]. A customizable report summarizing activity across a provider’s platforms that allows the user to apply filters and select other configuration options for the report.",
         "operationId" : "getReportsPR",
+        "description" : "This resource returns COUNTER 'Platform Master Report' [PR]. A customizable report summarizing activity across a provider’s platforms that allows the user to apply filters and select other configuration options for the report.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -220,8 +232,8 @@
     },
     "/reports/pr_p1" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Platform Usage' [pr_p1]. This is a Standard View of the Package Master Report that presents usage for the overall Platform broken down by Metric_Type.",
         "operationId" : "getReportsPR1",
+        "description" : "This resource returns COUNTER 'Platform Usage' [pr_p1]. This is a Standard View of the Package Master Report that presents usage for the overall Platform broken down by Metric_Type.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -266,8 +278,8 @@
     },
     "/reports/dr" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Database Master Report' [DR]. A customizable report detailing activity by database that allows the user to apply filters and select other configuration options for the report.",
         "operationId" : "getReportsDR",
+        "description" : "This resource returns COUNTER 'Database Master Report' [DR]. A customizable report detailing activity by database that allows the user to apply filters and select other configuration options for the report.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -349,8 +361,8 @@
     },
     "/reports/dr_d1" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Database Search and Item Usage' [DR_D1], a Standard View of Database Master Report. Reports on key search and request metrics needed to evaluate a database.",
         "operationId" : "getReportsDR1",
+        "description" : "This resource returns COUNTER 'Database Search and Item Usage' [DR_D1], a Standard View of Database Master Report. Reports on key search and request metrics needed to evaluate a database.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -395,8 +407,8 @@
     },
     "/reports/dr_d2" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Database Access Denied' [DR_D2], a Standard View of Database Master Report. Reports on Access Denied activity for databases where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the database.",
         "operationId" : "getReportsDR2",
+        "description" : "This resource returns COUNTER 'Database Access Denied' [DR_D2], a Standard View of Database Master Report. Reports on Access Denied activity for databases where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the database.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -441,8 +453,8 @@
     },
     "/reports/tr" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Title Master Report' [TR]. A customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options for the report.",
         "operationId" : "getReportsTR",
+        "description" : "This resource returns COUNTER 'Title Master Report' [TR]. A customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options for the report.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -542,8 +554,8 @@
     },
     "/reports/tr_b1" : {
       "get" : {
-        "description" : "This resource returns COUNTER Book Requests (Excluding OA_Gold) [TR_B1], a Standard View of Title Master Report. Reports on full text activity for non-Gold Open Access books as “Total_Item_Requests” and “Unique_Title_Requests”.",
         "operationId" : "getReportsTRB1",
+        "description" : "This resource returns COUNTER Book Requests (Excluding OA_Gold) [TR_B1], a Standard View of Title Master Report. Reports on full text activity for non-Gold Open Access books as “Total_Item_Requests” and “Unique_Title_Requests”.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -588,8 +600,8 @@
     },
     "/reports/tr_b2" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Access Denied by Book'[TR_B2], a Standard View of Title Master Report. Reports on Access Denied activity for books where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the book.",
         "operationId" : "getReportsTRB2",
+        "description" : "This resource returns COUNTER 'Access Denied by Book'[TR_B2], a Standard View of Title Master Report. Reports on Access Denied activity for books where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the book.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -634,8 +646,8 @@
     },
     "/reports/tr_b3" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Book Usage by Access Type' [TR_B3], a Standard View of Title Master Report. Reports on book usage showing all applicable metric types broken down by Access_Type.",
         "operationId" : "getReportsTRB3",
+        "description" : "This resource returns COUNTER 'Book Usage by Access Type' [TR_B3], a Standard View of Title Master Report. Reports on book usage showing all applicable metric types broken down by Access_Type.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -680,8 +692,8 @@
     },
     "/reports/tr_j1" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Journal Requests (Excluding OA_Gold)' [TR_J1], a Standard View of Title Master Report. Reports on usage of non-Gold Open Access journal content as “Total_Item_Requests” and “Unique_Item_Requests”. ",
         "operationId" : "getReportsTRJ1",
+        "description" : "This resource returns COUNTER 'Journal Requests (Excluding OA_Gold)' [TR_J1], a Standard View of Title Master Report. Reports on usage of non-Gold Open Access journal content as “Total_Item_Requests” and “Unique_Item_Requests”. ",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -726,8 +738,8 @@
     },
     "/reports/tr_j2" : {
       "get" : {
-        "description" : "This resource returns 'Access Denied by Journal' [TR_J2], a Standard View of Title Master Report. Reports on Access Denied activity for journal content where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the title.",
         "operationId" : "getReportsTRJ2",
+        "description" : "This resource returns 'Access Denied by Journal' [TR_J2], a Standard View of Title Master Report. Reports on Access Denied activity for journal content where users were denied access because simultaneous use licenses were exceeded or their institution did not have a license for the title.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -772,8 +784,8 @@
     },
     "/reports/tr_j3" : {
       "get" : {
-        "description" : "This resource returns 'Journal Usage by Access Type ' [TR_J3], a Standard View of Title Master Report. Reports on usage of journal content for all metric types broken down by Access Type.",
         "operationId" : "getReportsTRJ3",
+        "description" : "This resource returns 'Journal Usage by Access Type ' [TR_J3], a Standard View of Title Master Report. Reports on usage of journal content for all metric types broken down by Access Type.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -818,8 +830,8 @@
     },
     "/reports/tr_j4" : {
       "get" : {
-        "description" : "This resource returns \"Journal Requests by YOP (Excluding OA_Gold)\" [TR_J4], a Standard View of Title Master Report. Breaks down the usage of non-Gold Open Access journal content by year of publication (YOP) providing counts for the metric types \"Total_Item_Requests\" and \"Unique_Item_Requests\".",
         "operationId" : "getReportsTRJ4",
+        "description" : "This resource returns \"Journal Requests by YOP (Excluding OA_Gold)\" [TR_J4], a Standard View of Title Master Report. Breaks down the usage of non-Gold Open Access journal content by year of publication (YOP) providing counts for the metric types \"Total_Item_Requests\" and \"Unique_Item_Requests\".",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -864,8 +876,8 @@
     },
     "/reports/ir" : {
       "get" : {
-        "description" : "This resource returns COUNTER 'Item Master Report'  [IR].",
         "operationId" : "getReportsIR",
+        "description" : "This resource returns COUNTER 'Item Master Report'  [IR].",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -977,8 +989,8 @@
     },
     "/reports/ir_a1" : {
       "get" : {
-        "description" : "This resource returns 'Journal Article Requests' [IR_A1], a Standard View of Item Master Report. Reports on journal article requests at the article level. This report is limited to content with Data_Type=Article; Parent_Data_Type=Journal; Access_Method=Regular and metric types of Total_Item_Requests and Unique_Item_Requests.",
         "operationId" : "getReportsIRA1",
+        "description" : "This resource returns 'Journal Article Requests' [IR_A1], a Standard View of Item Master Report. Reports on journal article requests at the article level. This report is limited to content with Data_Type=Article; Parent_Data_Type=Journal; Access_Method=Regular and metric types of Total_Item_Requests and Unique_Item_Requests.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -1023,8 +1035,8 @@
     },
     "/reports/ir_m1" : {
       "get" : {
-        "description" : "This resource returns 'Multimedia Item Requests' [IR_M1], a Standard View of Item Master Report. Reports on multimedia requests at the item level.",
         "operationId" : "getReportsIRM1",
+        "description" : "This resource returns 'Multimedia Item Requests' [IR_M1], a Standard View of Item Master Report. Reports on multimedia requests at the item level.",
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "customer_id",
@@ -1068,41 +1080,28 @@
       }
     }
   },
-  "securityDefinitions" : {
-    "api_key" : {
-      "description" : "Unique code which may be assigned by a Content Provider to grant you access to this API. If assigned, the api_key needs to be a query parameter for every operation to access this API.",
-      "type" : "apiKey",
-      "name" : "api_key",
-      "in" : "query"
-    },
-    "requestor_id" : {
-      "description" : "Identifier which may be assigned by a Content Provider for the requester(client) that is asking for report data. If assigned, the requestor_id needs to be a query parameter for every operation to access this API.",
-      "type" : "apiKey",
-      "name" : "requestor_id",
-      "in" : "query"
-    }
-  },
   "definitions" : {
     "SUSHI_error_model" : {
       "type" : "object",
-      "required" : [ "Code", "Message", "Severity" ],
+      "description" : "Generalized format for presenting errors and warnings.",
+      "required" : [ "Code", "Severity", "Message" ],
       "properties" : {
         "Code" : {
           "type" : "integer",
           "format" : "int32",
-          "example" : 3031,
-          "description" : "Exception Code. See Table F.1 in the Code of Practice, Appendix F."
+          "description" : "Exception Code. See Table F.1 in the Code of Practice, Appendix F.",
+          "example" : 3031
         },
         "Severity" : {
           "type" : "string",
-          "example" : "Warning",
           "description" : "Severity of the Exception (deprecated).",
+          "example" : "Warning",
           "enum" : [ "Warning", "Error", "Fatal", "Debug", "Info" ]
         },
         "Message" : {
           "type" : "string",
-          "example" : "Usage Not Ready for Requested Dates",
-          "description" : "Exception Message. See Table F.1 in the Code of Practice, Appendix F."
+          "description" : "Exception Message. See Table F.1 in the Code of Practice, Appendix F.",
+          "example" : "Usage Not Ready for Requested Dates"
         },
         "Help_URL" : {
           "type" : "string",
@@ -1110,51 +1109,51 @@
         },
         "Data" : {
           "type" : "string",
-          "example" : "Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.",
-          "description" : "Additional data provided by the server to clarify the Exception."
+          "description" : "Additional data provided by the server to clarify the Exception.",
+          "example" : "Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31."
         }
-      },
-      "description" : "Generalized format for presenting errors and warnings."
+      }
     },
     "SUSHI_report_header" : {
       "type" : "object",
-      "required" : [ "Created", "Created_By", "Institution_Name", "Release", "Report_Filters", "Report_ID", "Report_Name" ],
+      "description" : "Generalized report header that defines the requested report, the requestor, the customer, filters applied, reportAttributes applied and any exceptions.",
+      "required" : [ "Created", "Created_By", "Report_ID", "Report_Name", "Release", "Institution_Name", "Report_Filters" ],
       "properties" : {
         "Created" : {
           "type" : "string",
           "format" : "dateTime",
-          "example" : "2016-09-08T22:47:31Z",
-          "description" : "Time the report was prepared. Format as defined by date-time - RFC3339"
+          "description" : "Time the report was prepared. Format as defined by date-time - RFC3339",
+          "example" : "2016-09-08T22:47:31Z"
         },
         "Created_By" : {
           "type" : "string",
-          "example" : "EBSCO Informtion Services",
-          "description" : "Name of the organization producing the report."
+          "description" : "Name of the organization producing the report.",
+          "example" : "EBSCO Informtion Services"
         },
         "Customer_ID" : {
           "type" : "string",
-          "example" : "12345",
-          "description" : "Identifier of the customer the report represents - identifier used on the request"
+          "description" : "Identifier of the customer the report represents - identifier used on the request",
+          "example" : "12345"
         },
         "Report_ID" : {
           "type" : "string",
-          "example" : "TR_J1",
-          "description" : "The report ID or code or shortname. Typically this will be the same code provided in the Report parameter of the request."
+          "description" : "The report ID or code or shortname. Typically this will be the same code provided in the Report parameter of the request.",
+          "example" : "TR_J1"
         },
         "Release" : {
           "type" : "string",
-          "example" : "5",
-          "description" : "The release or version of the report."
+          "description" : "The release or version of the report.",
+          "example" : "5"
         },
         "Report_Name" : {
           "type" : "string",
-          "example" : "Journal Requests (Excluding \"OA_Gold\")",
-          "description" : "The long name of the report."
+          "description" : "The long name of the report.",
+          "example" : "Journal Requests (Excluding \"OA_Gold\")"
         },
         "Institution_Name" : {
           "type" : "string",
-          "example" : "Mt. Laurel University",
-          "description" : "Name of the customer."
+          "description" : "Name of the customer.",
+          "example" : "Mt. Laurel University"
         },
         "Institution_ID" : {
           "type" : "array",
@@ -1167,40 +1166,38 @@
           "type" : "array",
           "description" : "A List of report filters used for this report.  Typically  reflect filters provided on the Request.  Filters limit the data to be reported on.",
           "items" : {
-            "type" : "object",
+            "required" : [ "Name", "Value" ],
             "properties" : {
               "Name" : {
                 "type" : "string",
-                "example" : "Begin_Date",
-                "description" : "Name of the report filter."
+                "description" : "Name of the report filter.",
+                "example" : "Begin_Date"
               },
               "Value" : {
                 "type" : "string",
-                "example" : "2015-01-01",
-                "description" : "Value of the report filter."
+                "description" : "Value of the report filter.",
+                "example" : "2015-01-01"
               }
-            },
-            "required" : [ "Name", "Value" ]
+            }
           }
         },
         "Report_Attributes" : {
           "type" : "array",
           "description" : "Any additional attributes applied to the report. Attributes inform the level of detail in the report.",
           "items" : {
-            "type" : "object",
+            "required" : [ "Name", "Value" ],
             "properties" : {
               "Name" : {
                 "type" : "string",
-                "example" : "Attributes_To_Show",
-                "description" : "Name of the report attribute."
+                "description" : "Name of the report attribute.",
+                "example" : "Attributes_To_Show"
               },
               "Value" : {
                 "type" : "string",
-                "example" : "Data_Type|Access_Method",
-                "description" : "Value(s) of the report attribute. Where there are multiple values for a report attribute those values are pipe separated"
+                "description" : "Value(s) of the report attribute. Where there are multiple values for a report attribute those values are pipe separated",
+                "example" : "Data_Type|Access_Method"
               }
-            },
-            "required" : [ "Name", "Value" ]
+            }
           }
         },
         "Exceptions" : {
@@ -1210,37 +1207,36 @@
             "$ref" : "#/definitions/SUSHI_error_model"
           }
         }
-      },
-      "description" : "Generalized report header that defines the requested report, the requestor, the customer, filters applied, reportAttributes applied and any exceptions."
+      }
     },
     "SUSHI_report_list" : {
       "type" : "object",
-      "required" : [ "Release", "Report_Description", "Report_ID", "Report_Name" ],
+      "required" : [ "Report_ID", "Report_Name", "Release", "Report_Description" ],
       "properties" : {
         "Report_Name" : {
           "type" : "string",
-          "example" : "Journal Requests (Excluding \"OA_Gold\")",
-          "description" : "The long name of the report"
+          "description" : "The long name of the report",
+          "example" : "Journal Requests (Excluding \"OA_Gold\")"
         },
         "Report_ID" : {
           "type" : "string",
-          "example" : "TR_J1",
-          "description" : "The code, ID or short name of the report that is be used in the request to identify the report."
+          "description" : "The code, ID or short name of the report that is be used in the request to identify the report.",
+          "example" : "TR_J1"
         },
         "Release" : {
           "type" : "string",
-          "example" : "5",
-          "description" : "The release or version number of the report."
+          "description" : "The release or version number of the report.",
+          "example" : "5"
         },
         "Report_Description" : {
           "type" : "string",
-          "example" : "Usage by Month and Journal",
-          "description" : "A short sentence describing the report."
+          "description" : "A short sentence describing the report.",
+          "example" : "Usage by Month and Journal"
         },
         "Path" : {
           "type" : "string",
-          "example" : "/reports/tr_j1",
-          "description" : "The path to use when requesting this report on this service. Optional but recommended for custom reports."
+          "description" : "The path to use when requesting this report on this service. Optional but recommended for custom reports.",
+          "example" : "/reports/tr_j1"
         }
       }
     },
@@ -1250,23 +1246,23 @@
       "properties" : {
         "Description" : {
           "type" : "string",
-          "example" : "COUNTER Usage Reports for EBSCOhost platform.",
-          "description" : "Description of the service."
+          "description" : "Description of the service.",
+          "example" : "COUNTER Usage Reports for EBSCOhost platform."
         },
         "Service_Active" : {
           "type" : "boolean",
-          "example" : true,
-          "description" : "Indicator if the service is currently able to deliver reports."
+          "description" : "Indicator if the service is currently able to deliver reports.",
+          "example" : true
         },
         "Registry_URL" : {
           "type" : "string",
-          "example" : "https://www.projectcounter.org/counter-user/ebsco-database/",
-          "description" : "If available, the URL separate registy with additional information about the service."
+          "description" : "If available, the URL separate registy with additional information about the service.",
+          "example" : "https://www.projectcounter.org/counter-user/ebsco-database/"
         },
         "Note" : {
           "type" : "string",
-          "example" : "A given customer can request a maximum of 5 requests per day for a given report",
-          "description" : "A general note about the service."
+          "description" : "A general note about the service.",
+          "example" : "A given customer can request a maximum of 5 requests per day for a given report"
         },
         "Alerts" : {
           "type" : "array",
@@ -1277,13 +1273,13 @@
               "Date_Time" : {
                 "type" : "string",
                 "format" : "dateTime",
-                "example" : "2016-08-02: 12:54",
-                "description" : "Date-time of the alert."
+                "description" : "Date-time of the alert.",
+                "example" : "2016-08-02: 12:54"
               },
               "Alert" : {
                 "type" : "string",
-                "example" : "Service will be unavailable Sunday midnight...",
-                "description" : "Text of the alert."
+                "description" : "Text of the alert.",
+                "example" : "Service will be unavailable Sunday midnight..."
               }
             }
           }
@@ -1296,23 +1292,23 @@
       "properties" : {
         "Customer_ID" : {
           "type" : "string",
-          "example" : "12345",
-          "description" : "Identifer for the consortium's member account.  This identifier would be used as the Customer_ID for subsequent report requests for the member."
+          "description" : "Identifer for the consortium's member account.  This identifier would be used as the Customer_ID for subsequent report requests for the member.",
+          "example" : "12345"
         },
         "Requestor_ID" : {
           "type" : "string",
-          "example" : "1-1212-4444-555",
-          "description" : "The RequestorID to use to retrieve COUNTER stats the consortium's member account -- only include if different from the main consortium's RequestorID.  This identifier would be used as the Requestor for subsequent report requests for the member."
+          "description" : "The RequestorID to use to retrieve COUNTER stats the consortium's member account -- only include if different from the main consortium's RequestorID.  This identifier would be used as the Requestor for subsequent report requests for the member.",
+          "example" : "1-1212-4444-555"
         },
         "Name" : {
           "type" : "string",
-          "example" : "Mt. Laurel University Medical School",
-          "description" : "Customer name assigned to the consortium member."
+          "description" : "Customer name assigned to the consortium member.",
+          "example" : "Mt. Laurel University Medical School"
         },
         "Notes" : {
           "type" : "string",
-          "example" : "Usage pulled using content licensed by the consortium.",
-          "description" : "Additional notes regarding the customer."
+          "description" : "Additional notes regarding the customer.",
+          "example" : "Usage pulled using content licensed by the consortium."
         },
         "Institution_ID" : {
           "type" : "array",
@@ -1325,24 +1321,25 @@
     },
     "SUSHI_org_identifiers" : {
       "type" : "object",
+      "description" : "Identifier for an organization.",
       "required" : [ "Type", "Value" ],
       "properties" : {
         "Type" : {
           "type" : "string",
-          "example" : "ISNI",
           "description" : "Type of identifier (namespace or domain). e.g. ISNI, Proprietary, etc.",
+          "example" : "ISNI",
           "enum" : [ "ISNI", "ISIL", "OCLC", "Proprietary" ]
         },
         "Value" : {
           "type" : "string",
-          "example" : "1234 1234 1234 1234",
-          "description" : "Value of the organization identifier"
+          "description" : "Value of the organization identifier",
+          "example" : "1234 1234 1234 1234"
         }
-      },
-      "description" : "Identifier for an organization."
+      }
     },
     "COUNTER_platform_report" : {
       "type" : "object",
+      "description" : "Describes the formatting needs for the COUNTER Platform Report - the Report_Header and Report_Items (usage stats).",
       "required" : [ "Report_Header", "Report_Items" ],
       "properties" : {
         "Report_Header" : {
@@ -1354,42 +1351,42 @@
             "$ref" : "#/definitions/COUNTER_platform_usage"
           }
         }
-      },
-      "description" : "Describes the formatting needs for the COUNTER Platform Report - the Report_Header and Report_Items (usage stats)."
+      }
     },
     "COUNTER_platform_usage" : {
       "type" : "object",
-      "required" : [ "Performance", "Platform" ],
+      "description" : "Defines the output for the Report_Items being returned in a Platform Report.",
+      "required" : [ "Platform", "Performance" ],
       "properties" : {
         "Platform" : {
           "type" : "string",
-          "example" : "EBSCOhost",
-          "description" : "Name of the platform"
+          "description" : "Name of the platform",
+          "example" : "EBSCOhost"
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Platform",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Platform", "Report", "Repository_Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Platform", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "example" : "Platform"
         },
         "Access_Method" : {
           "type" : "string",
-          "example" : "Journal",
           "description" : "Identifies if the usage activity was 'Regular' usage (a user doing research on a content site) or if the usage was for the purpose of retrieving content for Text and Data Mining (TDM)",
-          "enum" : [ "Regular", "TDM" ]
+          "enum" : [ "Regular", "TDM" ],
+          "example" : "Journal"
         },
         "Performance" : {
           "type" : "array",
-          "description" : "The usage data related to the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_performance"
-          }
+          },
+          "description" : "The usage data related to the report item"
         }
-      },
-      "description" : "Defines the output for the Report_Items being returned in a Platform Report."
+      }
     },
     "COUNTER_database_report" : {
       "type" : "object",
+      "description" : "Describes the formatting needs for the COUNTER Database Report - the Report_Header and Report_Items (usage stats).",
       "required" : [ "Report_Header", "Report_Items" ],
       "properties" : {
         "Report_Header" : {
@@ -1401,66 +1398,66 @@
             "$ref" : "#/definitions/COUNTER_database_usage"
           }
         }
-      },
-      "description" : "Describes the formatting needs for the COUNTER Database Report - the Report_Header and Report_Items (usage stats)."
+      }
     },
     "COUNTER_database_usage" : {
       "type" : "object",
-      "required" : [ "Database", "Performance", "Platform", "Publisher" ],
+      "description" : "Defines the output for the Report_Items being returned in a Database Report.",
+      "required" : [ "Database", "Publisher", "Platform", "Performance" ],
       "properties" : {
         "Database" : {
           "type" : "string",
-          "example" : "Academic Search Premier",
-          "description" : "Name of the database or collection being reported on."
+          "description" : "Name of the database or collection being reported on.",
+          "example" : "Academic Search Premier"
         },
         "Item_ID" : {
           "type" : "array",
-          "description" : "The identifier for the report item (database)",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_identifiers"
-          }
+          },
+          "description" : "The identifier for the report item (database)"
         },
         "Platform" : {
           "type" : "string",
-          "example" : "EBSCOhost",
-          "description" : "Name of the platform"
+          "description" : "Name of the platform",
+          "example" : "EBSCOhost"
         },
         "Publisher" : {
           "type" : "string",
-          "example" : "EBSCO Information Services",
-          "description" : "Name of the organization that creates the database"
+          "description" : "Name of the organization that creates the database",
+          "example" : "EBSCO Information Services"
         },
         "Publisher_ID" : {
           "type" : "array",
-          "description" : "The identifier for the publisher.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_publisher_identifiers"
-          }
+          },
+          "description" : "The identifier for the publisher."
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Database",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository Item", "Thesis_or_Dissertation" ],
+          "example" : "Database"
         },
         "Access_Method" : {
           "type" : "string",
-          "example" : "Regular",
           "description" : "Identifies if the usage activity was 'Regular' usage (a user doing research on a content site) or if the usage was for the purpose of retrieving content for Text and Data Mining (TDM)",
-          "enum" : [ "Regular", "TDM" ]
+          "enum" : [ "Regular", "TDM" ],
+          "example" : "Regular"
         },
         "Performance" : {
           "type" : "array",
-          "description" : "The usage data related to the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_performance"
-          }
+          },
+          "description" : "The usage data related to the report item"
         }
-      },
-      "description" : "Defines the output for the Report_Items being returned in a Database Report."
+      }
     },
     "COUNTER_title_report" : {
       "type" : "object",
+      "description" : "Describes the formatting needs for the COUNTER Title Report - the Report_Header and Report_Items (usage stats).",
       "required" : [ "Report_Header", "Report_Items" ],
       "properties" : {
         "Report_Header" : {
@@ -1472,83 +1469,83 @@
             "$ref" : "#/definitions/COUNTER_title_usage"
           }
         }
-      },
-      "description" : "Describes the formatting needs for the COUNTER Title Report - the Report_Header and Report_Items (usage stats)."
+      }
     },
     "COUNTER_title_usage" : {
       "type" : "object",
-      "required" : [ "Performance", "Platform", "Publisher", "Title" ],
+      "description" : "Defines the output for the Report_Items being returned in a Title Report.",
+      "required" : [ "Title", "Platform", "Publisher", "Performance" ],
       "properties" : {
         "Title" : {
           "type" : "string",
-          "example" : "Journal of Economics",
-          "description" : "Name of the item being reported."
+          "description" : "Name of the item being reported.",
+          "example" : "Journal of Economics"
         },
         "Item_ID" : {
           "type" : "array",
-          "description" : "The identifier for the report item (title)",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_identifiers"
-          }
+          },
+          "description" : "The identifier for the report item (title)"
         },
         "Platform" : {
           "type" : "string",
-          "example" : "EBSCOhost",
-          "description" : "Name of the platform"
+          "description" : "Name of the platform",
+          "example" : "EBSCOhost"
         },
         "Publisher" : {
           "type" : "string",
-          "example" : "Springer",
-          "description" : "Name of publisher of the item"
+          "description" : "Name of publisher of the item",
+          "example" : "Springer"
         },
         "Publisher_ID" : {
           "type" : "array",
-          "description" : "The identifier for the publisher.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_publisher_identifiers"
-          }
+          },
+          "description" : "The identifier for the publisher."
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Journal",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "example" : "Journal"
         },
         "Section_Type" : {
           "type" : "string",
-          "example" : "Article",
           "description" : "Defines the nature of the sections being delivered if the item is retrieved in units smaller than the whole.",
-          "enum" : [ "Article", "Book", "Chapter", "Other", "Section" ]
+          "enum" : [ "Article", "Book", "Chapter", "Other", "Section" ],
+          "example" : "Article"
         },
         "YOP" : {
           "type" : "string",
-          "example" : "2010",
-          "description" : "Year of publication in the format of 'yyyy'.  If the item is available in both online and print format, use the year of publication for the version of record. Use '0001' for unknown and '9999' for articles in press."
+          "description" : "Year of publication in the format of 'yyyy'.  If the item is available in both online and print format, use the year of publication for the version of record. Use '0001' for unknown and '9999' for articles in press.",
+          "example" : "2010"
         },
         "Access_Type" : {
           "type" : "string",
-          "example" : "Controlled",
           "description" : "Nature of the access control in place for item retrieved.",
-          "enum" : [ "Controlled", "OA_Gold", "Other_Free_To_Read" ]
+          "enum" : [ "Controlled", "OA_Gold", "Other_Free_To_Read" ],
+          "example" : "Controlled"
         },
         "Access_Method" : {
           "type" : "string",
-          "example" : "Regular",
           "description" : "Identifies if the usage activity was 'Regular' usage (a user doing research on a content site) or if the usage was for the purpose of retrieving content for Text and Data Mining (TDM)",
-          "enum" : [ "Regular", "TDM" ]
+          "enum" : [ "Regular", "TDM" ],
+          "example" : "Regular"
         },
         "Performance" : {
           "type" : "array",
-          "description" : "The usage data related to the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_performance"
-          }
+          },
+          "description" : "The usage data related to the report item"
         }
-      },
-      "description" : "Defines the output for the Report_Items being returned in a Title Report."
+      }
     },
     "COUNTER_item_report" : {
       "type" : "object",
+      "description" : "Describes the formatting needs for the COUNTER Item Report - the Report_Header and Report_Items (usage stats).",
       "required" : [ "Report_Header", "Report_Items" ],
       "properties" : {
         "Report_Header" : {
@@ -1560,105 +1557,104 @@
             "$ref" : "#/definitions/COUNTER_item_usage"
           }
         }
-      },
-      "description" : "Describes the formatting needs for the COUNTER Item Report - the Report_Header and Report_Items (usage stats)."
+      }
     },
     "COUNTER_item_usage" : {
       "type" : "object",
-      "required" : [ "Item", "Performance", "Platform", "Publisher" ],
+      "description" : "Defines the output for the Report_Items being returned in an Item Report.",
+      "required" : [ "Item", "Platform", "Publisher", "Performance" ],
       "properties" : {
         "Item" : {
           "type" : "string",
-          "example" : "Journal of Economics",
-          "description" : "Name of the item being reported."
+          "description" : "Name of the item being reported.",
+          "example" : "Journal of Economics"
         },
         "Item_ID" : {
           "type" : "array",
-          "description" : "The identifier for the report item (title)",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_identifiers"
-          }
+          },
+          "description" : "The identifier for the report item (title)"
         },
         "Item_Contributors" : {
           "type" : "array",
-          "description" : "The identifier for contributor (i.e. author) of the item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_contributors"
-          }
+          },
+          "description" : "The identifier for contributor (i.e. author) of the item."
         },
         "Item_Dates" : {
           "type" : "array",
-          "description" : "Publication or other date(s)related to the item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_dates"
-          }
+          },
+          "description" : "Publication or other date(s)related to the item."
         },
         "Item_Attributes" : {
           "type" : "array",
-          "description" : "Other attributes related related to the parent item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_attributes"
-          }
+          },
+          "description" : "Other attributes related related to the parent item."
         },
         "Platform" : {
           "type" : "string",
-          "example" : "EBSCOhost",
-          "description" : "Name of the platform"
+          "description" : "Name of the platform",
+          "example" : "EBSCOhost"
         },
         "Publisher" : {
           "type" : "string",
-          "example" : "Springer",
-          "description" : "Name of publisher of the item"
+          "description" : "Name of publisher of the item",
+          "example" : "Springer"
         },
         "Publisher_ID" : {
           "type" : "array",
-          "description" : "The identifier for the publisher.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_publisher_identifiers"
-          }
+          },
+          "description" : "The identifier for the publisher."
         },
         "Item_Parent" : {
           "$ref" : "#/definitions/COUNTER_item_parent"
         },
         "Item_Component" : {
           "type" : "array",
-          "description" : "The identifier for the report item (title)",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_component"
-          }
+          },
+          "description" : "The identifier for the report item (title)"
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Journal",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "example" : "Journal"
         },
         "YOP" : {
           "type" : "string",
-          "example" : "2010",
-          "description" : "Year of publication in the format of 'yyyy'.  If the item is available in both online and print format, use the year of publication for the version of record. Use '0001' for unknown and '9999' for articles in press."
+          "description" : "Year of publication in the format of 'yyyy'.  If the item is available in both online and print format, use the year of publication for the version of record. Use '0001' for unknown and '9999' for articles in press.",
+          "example" : "2010"
         },
         "Access_Type" : {
           "type" : "string",
-          "example" : "Controlled",
           "description" : "Nature of the access control in place for item retrieved.",
-          "enum" : [ "Controlled", "OA_Gold", "Other_Free_To_Read" ]
+          "enum" : [ "Controlled", "OA_Gold", "Other_Free_To_Read" ],
+          "example" : "Controlled"
         },
         "Access_Method" : {
           "type" : "string",
-          "example" : "Regular",
           "description" : "Identifies if the usage activity was 'Regular' usage (a user doing research on a content site) or if the usage was for the purpose of retrieving content for Text and Data Mining (TDM)",
-          "enum" : [ "Regular", "TDM" ]
+          "enum" : [ "Regular", "TDM" ],
+          "example" : "Regular"
         },
         "Performance" : {
           "type" : "array",
-          "description" : "The usage data related to the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_performance"
-          }
+          },
+          "description" : "The usage data related to the report item"
         }
-      },
-      "description" : "Defines the output for the Report_Items being returned in an Item Report."
+      }
     },
     "COUNTER_item_parent" : {
       "type" : "object",
@@ -1666,42 +1662,42 @@
       "properties" : {
         "Item_Name" : {
           "type" : "string",
-          "example" : "Journal of Economics",
-          "description" : "Name of the parent item."
+          "description" : "Name of the parent item.",
+          "example" : "Journal of Economics"
         },
         "Item_ID" : {
           "type" : "array",
-          "description" : "The identifier for the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_identifiers"
-          }
+          },
+          "description" : "The identifier for the report item"
         },
         "Item_Contributors" : {
           "type" : "array",
-          "description" : "The identifier for contributor of the parent item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_contributors"
-          }
+          },
+          "description" : "The identifier for contributor of the parent item"
         },
         "Item_Dates" : {
           "type" : "array",
-          "description" : "Publication date(s) related to the parent item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_dates"
-          }
+          },
+          "description" : "Publication date(s) related to the parent item."
         },
         "Item_Attributes" : {
           "type" : "array",
-          "description" : "Other attributes related related to the parent item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_attributes"
-          }
+          },
+          "description" : "Other attributes related related to the parent item."
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Journal",
           "description" : "Nature of the parent item.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "example" : "Journal"
         }
       }
     },
@@ -1711,49 +1707,49 @@
       "properties" : {
         "Item_Name" : {
           "type" : "string",
-          "example" : "Journal of Economics",
-          "description" : "Name of the parent item."
+          "description" : "Name of the parent item.",
+          "example" : "Journal of Economics"
         },
         "Item_ID" : {
           "type" : "array",
-          "description" : "The identifier for the report item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_identifiers"
-          }
+          },
+          "description" : "The identifier for the report item"
         },
         "Item_Contributors" : {
           "type" : "array",
-          "description" : "The identifier for contributor of the parent item",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_contributors"
-          }
+          },
+          "description" : "The identifier for contributor of the parent item"
         },
         "Item_Dates" : {
           "type" : "array",
-          "description" : "Publication date(s) related to the parent item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_dates"
-          }
+          },
+          "description" : "Publication date(s) related to the parent item."
         },
         "Item_Attributes" : {
           "type" : "array",
-          "description" : "Other attributes related related to the parent item.",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_attributes"
-          }
+          },
+          "description" : "Other attributes related related to the parent item."
         },
         "Data_Type" : {
           "type" : "string",
-          "example" : "Journal",
           "description" : "Nature of the component item.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ]
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "example" : "Journal"
         },
         "Performance" : {
           "type" : "array",
-          "description" : "The usage data related to the report item component",
           "items" : {
             "$ref" : "#/definitions/COUNTER_item_performance"
-          }
+          },
+          "description" : "The usage data related to the report item component"
         }
       }
     },
@@ -1768,8 +1764,8 @@
         },
         "Value" : {
           "type" : "string",
-          "example" : "0931-865",
-          "description" : "Value of the item identifier"
+          "description" : "Value of the item identifier",
+          "example" : "0931-865"
         }
       }
     },
@@ -1784,30 +1780,30 @@
         },
         "Value" : {
           "type" : "string",
-          "example" : "1234 1234 1234 1234",
-          "description" : "Value of the publisher identifier"
+          "description" : "Value of the publisher identifier",
+          "example" : "1234 1234 1234 1234"
         }
       }
     },
     "COUNTER_item_contributors" : {
       "type" : "object",
-      "required" : [ "Name", "Type" ],
+      "required" : [ "Type", "Name" ],
       "properties" : {
         "Type" : {
           "type" : "string",
-          "example" : "Author",
           "description" : "Name of the contributor",
+          "example" : "Author",
           "enum" : [ "Author" ]
         },
         "Name" : {
           "type" : "string",
-          "example" : "John Smith",
-          "description" : "Name of the contributor"
+          "description" : "Name of the contributor",
+          "example" : "John Smith"
         },
         "Identifier" : {
           "type" : "string",
-          "example" : "ORCID:0000-0001-2345-6789",
-          "description" : "Value of the item contributor identifier, which uniquely identifies a person or organization. Permitted identifiers are ORCID or ISNI (use one or the other, not both)"
+          "description" : "Value of the item contributor identifier, which uniquely identifies a person or organization. Permitted identifiers are ORCID or ISNI (use one or the other, not both)",
+          "example" : "ORCID:0000-0001-2345-6789"
         }
       }
     },
@@ -1822,8 +1818,8 @@
         },
         "Value" : {
           "type" : "string",
-          "example" : "2002-01-15",
-          "description" : "Value of the item date"
+          "description" : "Value of the item date",
+          "example" : "2002-01-15"
         }
       }
     },
@@ -1833,58 +1829,60 @@
       "properties" : {
         "Type" : {
           "type" : "string",
-          "example" : "Article_Version",
           "description" : "Item attribute types are defined by NISO Journal Article Version and other work...",
+          "example" : "Article_Version",
           "enum" : [ "Article_Version", "Article_Type", "Qualification_Name", "Qualification_Level", "Proprietary" ]
         },
         "Value" : {
           "type" : "string",
-          "example" : "VoR",
-          "description" : "Value of the item attribute"
+          "description" : "Value of the item attribute",
+          "example" : "VoR"
         }
       }
     },
     "COUNTER_item_performance" : {
       "type" : "object",
-      "required" : [ "Instance", "Period" ],
+      "required" : [ "Period", "Instance" ],
       "properties" : {
         "Period" : {
           "type" : "object",
+          "required" : [ "Begin_Date", "End_Date" ],
           "properties" : {
             "Begin_Date" : {
               "type" : "string",
-              "example" : "2015-01-01",
-              "description" : "Beginning date for usage in this 'itemPerformance' instance."
+              "description" : "Beginning date for usage in this 'itemPerformance' instance.",
+              "example" : "2015-01-01"
             },
             "End_Date" : {
               "type" : "string",
-              "example" : "2015-01-31",
-              "description" : "Ending date for usage in this 'itemPerformance' instance."
+              "description" : "Ending date for usage in this 'itemPerformance' instance.",
+              "example" : "2015-01-31"
             }
-          },
-          "required" : [ "Begin_Date", "End_Date" ]
+          }
         },
         "Instance" : {
           "type" : "array",
           "items" : {
             "type" : "object",
+            "required" : [ "Metric_Type", "Count" ],
             "properties" : {
               "Metric_Type" : {
                 "type" : "string",
-                "example" : "Total_Item_Requests",
                 "description" : "Type of activity being counted.",
+                "example" : "Total_Item_Requests",
                 "enum" : [ "Searches_Automated", "Searches_Federated", "Searches_Platform", "Searches_Regular", "Total_Item_Investigations", "Total_Item_Requests", "Unique_Item_Investigations", "Unique_Item_Requests", "Unique_Title_Investigations", "Unique_Title_Requests", "No_License", "Limit_Exceeded" ]
               },
               "Count" : {
                 "type" : "integer",
-                "example" : 21,
-                "description" : "Usage count > 0.  If count is zero, the Intance element should be excluded."
+                "description" : "Usage count > 0.  If count is zero, the Intance element should be excluded.",
+                "example" : 21
               }
-            },
-            "required" : [ "Count", "Metric_Type" ]
+            }
           }
         }
       }
     }
-  }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/COUNTER/counter-sushi_5_0_api/5.0.2"
 }
