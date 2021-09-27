@@ -9,10 +9,10 @@ Appendix D: Guidelines for Implementation
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-Our `Friendly Guide To Release 5 Technical Notes for Providers <https://www.projectcounter.org/wp-content/uploads/2017/07/Tech_Notes_20170710.pdf>`_ provides guidelines for implementation.
+Our `Friendly Technical Notes for Providers <https://www.projectcounter.org/wp-content/uploads/2021/09/Release5.0.2_FG_Tech_v3.pdf>`_ provides guidelines for implementation.
 
-.. figure:: ../_static/img/d-tech-notes-cover.jpg
-   :target: https://www.projectcounter.org/wp-content/uploads/2017/07/Tech_Notes_20170710.pdf
-   :alt: Friendly Guide To Release 5 Technical Notes for Providers
+.. figure:: ../_static/img/d-tech-notes-cover.png
+   :target: https://www.projectcounter.org/wp-content/uploads/2021/09/Release5.0.2_FG_Tech_v3.pdf
+   :alt: Friendly Technical Notes for Providers
    :align: left
    :width: 200px

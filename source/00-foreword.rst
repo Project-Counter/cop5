@@ -49,7 +49,7 @@ Sections 3 and 4 provide an explanation of the Master Reports and Standard Views
 
 .. rubric:: Content Providers implementing Release 5
 
-Sections 5 to 7 provide essential information. These sections give detail on the delivery of COUNTER-compliant reports and views, logging usage and processing rules. You will also want to refer to the `Friendly Guide To Release 5 Technical Notes for Providers <https://www.projectcounter.org/the-friendly-guise-to-release-5-technical-notes-for-providers/tech_notes_20170710/>`_.
+Sections 5 to 7 provide essential information. These sections give detail on the delivery of COUNTER-compliant reports and views, logging usage and processing rules. You will also want to refer to the `Friendly Technical Notes for Providers <https://www.projectcounter.org/wp-content/uploads/2021/09/Release5.0.2_FG_Tech_v3.pdf>`_.
 
 COUNTER compliance requires content hosts to implement COUNTER_SUSHI (the standardised model for harvesting online usage data). :numref:`sushi` provides the specifications for the RESTful COUNTER_SUSHI API and the methods that must be supported. :ref:`Appendix F <appendix-f>` explains handling errors and exceptions.
 
