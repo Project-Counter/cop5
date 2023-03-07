@@ -46,7 +46,7 @@ Versions
 
 The COUNTER Code of Practice will be extended and upgraded as necessary based on input from the communities it serves. Each new version will be made available as a numbered release on the COUNTER website; users will be alerted to its availability. R5 of the Code of Practice replaces Release 4 (R4) of the Code of Practice. The deadline date for implementation of this Release is 01-Jan-2019. After this date, only those content providers compliant with R5 will be deemed compliant with the Code of Practice.
 
-COUNTER R5 introduces a continuous maintenance process (see :numref:`maintenance` below) that will allow the Code of Practice to evolve over time minimizing the need for major version changes.
+COUNTER R5 introduced a continuous maintenance process (see :numref:`maintenance` below) that will allow the Code of Practice to evolve over time minimizing the need for major version changes. In Release 5.1 we adopted Explicit Versioning, , a four-digit numbering system in the structure Release.Breaking.Feature.Fix, where “Breaking” indicates changes that are not backwards compatible, “Feature” indicates new features or extensions that are backwards compatible, and “Fix” is used for typographic corrections and similar small amendments. 
 
 
 Auditing and COUNTER Compliance
