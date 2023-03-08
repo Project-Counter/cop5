@@ -10,15 +10,15 @@ COUNTER Code of Practice Release 5.0.2
 
 .. only:: not latex
 
-   COUNTER’s library and content provider members have contributed to the development of Release 5 (R5) of the COUNTER Code of Practice.
+   COUNTER’s library and content provider members have contributed to the development of Release 5.1 (R5.1) of the COUNTER Code of Practice.
 
    The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.
 
-   Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
+   Release 5.1 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
 
 .. only:: not (latex or builder_html)
 
-   The Code of Practice is available from the `COUNTER website <https://www.projectcounter.org/>`_ as an interactive code. This online version is the version of record for Release 5 of the Code of Practice.
+   The Code of Practice is available from the `COUNTER website <https://www.projectcounter.org/>`_ as an interactive code. This online version is the version of record for Release 5.1 of the Code of Practice.
    
 .. toctree::
    :caption: Table of Contents
