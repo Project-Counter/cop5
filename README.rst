@@ -7,7 +7,7 @@ There are multiple branches:
 
 * `5.1 <https://github.com/Project-Counter/cop5/tree/5.0.3>`_: Release 5.1 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
 
-* `5.0.3 <https://github.com/Project-Counter/cop5/tree/5.0.3>`_: Release 5.0.3 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2024.
+* `5.0.3 <https://github.com/Project-Counter/cop5/tree/5.0.3>`_: Release 5.0.3 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective immediately.
 
 * `5.0.2 <https://github.com/Project-Counter/cop5/tree/5.0.2>`_: Release 5.0.2 (published 28 September 2021) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
 
