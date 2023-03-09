@@ -7,19 +7,19 @@
 COUNTER Reports for Libraries
 -----------------------------
 
-Reports for R5 consist of four Master Reports that allow the librarian to filter and configure to create customized views of their usage data. R5 also specifies Standard Views (pre-set filters/configuration).
+Reports for R5 consist of four COUNTER Reports that allow the librarian to filter and configure to create customized views of their usage data. R5 also specifies Standard Views of the COUNTER Reports (pre-set filters/configuration).
 
-To achieve compliance, a content provider MUST offer the Master Reports and Standard Views that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
+To achieve compliance, a content provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
 
-Content providers may offer additional Master Reports and Standard Views not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit isn’t required.
+Content providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit isn’t required.
 
 
-Master Reports
+COUNTER Reports
 """"""""""""""
 
-Master Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing librarians to create a report specific to their needs. The four Master Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
+COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing librarians to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
-Table 3.a (below): Master Reports
+Table 3.a (below): COUNTER Reports
 
 .. only:: latex
 
@@ -36,7 +36,7 @@ Table 3.a (below): Master Reports
      - Host_Types
 
    * - PR
-     - Platform Master Report
+     - Platform Report
      - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
      - All Host_Types:\ |br|\ |lb|
        A&I_Database\ |br|\ |lb|
@@ -53,7 +53,7 @@ Table 3.a (below): Master Reports
        Scholarly_Collaboration_Network
 
    * - DR
-     - Database Master Report
+     - Database Report
      - A customizable report detailing activity by database that allows the user to apply filters and select other configuration options.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
@@ -63,7 +63,7 @@ Table 3.a (below): Master Reports
        Multimedia_Collection
 
    * - TR
-     - Title Master Report
+     - Title Report
      - A customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -71,7 +71,7 @@ Table 3.a (below): Master Reports
        eJournal
 
    * - IR
-     - Item Master Report
+     - Item Report
      - A granular, customizable report showing activity at the level of the item (article, chapter, media object, etc.) that allows the user to apply filters and select other configuration options.
      - Data_Repository*\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
@@ -90,18 +90,18 @@ Figure 3.a (below) provides an example of how the user interface could look. The
 .. centered:: Figure 3.a: Example of a user interface
 
 
-Standard Views
-""""""""""""""
+Standard Views of the COUNTER Reports
+"""""""""""""""""""""""""""""""""""""
 
-The goal of Standard Views is to provide a set of pre-filtered views of the Master Reports covering the most common set of library needs. Report_IDs for Standard Views are derived from the Report_ID of the Master Report that they are based on. The format is *{Master Report_ID}*\ _\ *{View ID}*.
+The goal of Standard Views of the COUNTER Reports is to provide a set of pre-filtered views of the COUNTER Reports covering the most common set of library needs. Report_IDs for Standard Views are derived from the Report_ID of the COUNTER Report that they are based on. The format is *{COUNTER Report_ID}*\ _\ *{View ID}*.
 
 
-Platform Usage Standard Views
-'''''''''''''''''''''''''''''
+Standard Views of the Platform Report
+'''''''''''''''''''''''''''''''''''''
 
-The Platform Usage Standard Views are derived from the Platform Master Report and provide a summary of activity on a given platform to support the evaluation of platforms and to provide high-level statistical data to support surveys and reporting to funders.
+The Platform Usage Standard View is derived from the Platform Report and provides a summary of activity on a given platform to support the evaluation of platforms and to provide high-level statistical data to support surveys and reporting to funders.
 
-Table 3.b (below): Platform Usage Standard Views
+Table 3.b (below): Platform Usage Standard View
 
 .. only:: latex
 
@@ -139,12 +139,12 @@ Table 3.b (below): Platform Usage Standard Views
 See :numref:`platform-reports` below for details on Platform Usage Reports.
 
 
-Database Usage Standard Views
-'''''''''''''''''''''''''''''
+Standard Views of the Database Report
+'''''''''''''''''''''''''''''''''''''
 
-The Database Usage Standard Views support the evaluation of the value of a given database of resources (e.g. a full-text database, an A&I database, or a multimedia collection).
+The Standard Views of the Database Report support the evaluation of the value of a given database of resources (e.g. a full-text database, an A&I database, or a multimedia collection).
 
-Table 3.c (below): Database Usage Standard Views
+Table 3.c (below): Standard Views of the Database Report
 
 .. only:: latex
 
@@ -183,12 +183,12 @@ Table 3.c (below): Database Usage Standard Views
 See :numref:`database-reports` below for details on Database Usage Reports.
 
 
-Title Usage Standard Views
-''''''''''''''''''''''''''
+Standard Views of the Title Report
+'''''''''''''''''''''''''''''''''''
 
-Title Usage Standard Views are used to support the evaluation of the value of a given serial (e.g. journal, magazine, or newspaper) or monograph (e.g. book, eBook, textbook, or reference work) title.
+Standard Views of the Title Report are used to support the evaluation of the value of a given serial (e.g. journal, magazine, or newspaper) or monograph (e.g. book, eBook, textbook, or reference work) title.
 
-Table 3.d (below): Title Usage Standard Views
+Table 3.d (below): Standard Views of the Title Report
 
 .. only:: latex
 
@@ -252,12 +252,12 @@ Table 3.d (below): Title Usage Standard Views
 See :numref:`title-reports` below for details on Title Usage Standard Views.
 
 
-Item Usage Standard Views
-'''''''''''''''''''''''''
+Standard Views of the Item Report
+'''''''''''''''''''''''''''''''''
 
 The Standard Views for item-level reporting are designed to support the most common reporting needs. The Standard View for repositories (Journal Article Requests) provides insight into the usage of individual journal articles. The Standard View for multimedia (Multimedia Item Requests) allows evaluation of multimedia at the title level.
 
-Table 3.e (below): Item Usage Standard Views
+Table 3.e (below): Standard Views of the Item Report
 
 .. only:: latex
 

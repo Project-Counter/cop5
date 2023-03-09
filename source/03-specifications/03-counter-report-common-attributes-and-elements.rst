@@ -251,7 +251,7 @@ Table 3.p (below): List of Data_Type Values
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1, DR_D1
 
-\*Full_Content_Databases may also use Data_Type Database in the Master Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
+\*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
 
 
 .. _section-types:
@@ -259,7 +259,7 @@ Table 3.p (below): List of Data_Type Values
 Section Types
 """""""""""""
 
-Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a librarian could use a Title Master Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
+Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a librarian could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
 
 Table 3.q (below): List of Section_Type Values
 
@@ -630,7 +630,7 @@ Table 3.u (below): List of Access_Type Values
    * - Other_Free_To_Read
      - At the time of the transaction the content item was available as free-to-read (no license required) and did not qualify under the OA_Gold Access_Type.
 
-       NOTE: This value is for institutional repositories only. Institutional repositories may also use Access_Type Other_Free_To_Read in the Master Title Report if this report is offered.
+       NOTE: This value is for institutional repositories only. Institutional repositories may also use Access_Type Other_Free_To_Read in the Title Report if this report is offered.
      - Data_Repository\ |br|\ |lb|
        Repository
      - IR\ |br|\ |lb|
@@ -680,7 +680,7 @@ Table 3.v (below): List of Access_Method Values
        PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
    * - TDM
-     - Content and metadata accessed for the purpose of text and data mining, e.g. through a specific API used for TDM. Note that usage representing TDM activity is to be included in Master Reports only.
+     - Content and metadata accessed for the purpose of text and data mining, e.g. through a specific API used for TDM. Note that usage representing TDM activity is to be included in COUNTER Reports only.
      - All Host_Types:\ |br|\ |lb|
        A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
@@ -739,7 +739,7 @@ Table 3.w (below): YOP Values
 Report Filters and Report Attributes
 """"""""""""""""""""""""""""""""""""
 
-Customized views of the usage data are created by applying report filters and report attributes to the Master Reports. The Standard Views specified by R5 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For Master Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views the filters and attributes are pre-set except for an optional Platform filter.
+Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
 
 The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as name/value pairs in the Report_Filters and Report_Attributes elements and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a method parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/>`_ for details).
 

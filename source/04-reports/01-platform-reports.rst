@@ -9,7 +9,7 @@ Platform Reports
 
 Platform Reports provide a summary of activity on a given platform to support the evaluation of platforms and to provide high-level statistical data to support surveys and reporting to funders.
 
-Table 4 (below): Platform Master Report and Standard Views
+Table 4 (below): Platform Report and Standard Views of the Platform Report
 
 .. only:: latex
 
@@ -26,7 +26,7 @@ Table 4 (below): Platform Master Report and Standard Views
      - Host_Types
 
    * - PR
-     - Platform Master Report
+     - Platform Report
      - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
      - All Host_Types:\ |br|\ |lb|
        A&I_Database\ |br|\ |lb|
@@ -65,9 +65,9 @@ Table 4 (below): Platform Master Report and Standard Views
 Report Header
 """""""""""""
 
-The table below shows the header details for the Platform Master Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Platform Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
 
-Table 4.a (below): Header for Platform Master Report and Standard Views
+Table 4.a (below): Header for Platform Report and Standard Views of the Platform Report
 
 .. only:: latex
 
@@ -87,7 +87,7 @@ Table 4.a (below): Header for Platform Master Report and Standard Views
 
    * - 1
      - Report_Name
-     - Platform Master Report
+     - Platform Report
      - Platform Usage
 
    * - 2
@@ -152,9 +152,9 @@ Table 4.a (below): Header for Platform Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the COUNTER Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
-Table 4.b (Below): Column Headings/Elements for Platform Master Report and Standard Views
+Table 4.b (Below): Column Headings/Elements for Platform Report and Standard Views of the Platform Report
 
 .. only:: latex
 
@@ -201,9 +201,9 @@ Table 4.b (Below): Column Headings/Elements for Platform Master Report and Stand
 Filters and Attributes
 """"""""""""""""""""""
 
-The following table presents the values that can be chosen for the Platform Master Report and that are pre-set for the Standard Views. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
+The following table presents the values that can be chosen for the Platform Report and that are pre-set for the Standard Views of the Platform Report. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
 
-Table 4.c (below) Filters/Attributes for Platform Master Report and Standard Views
+Table 4.c (below) Filters/Attributes for Platform Report and Standard Views of the Platform Report
 
 .. only:: latex
 
@@ -215,7 +215,7 @@ Table 4.c (below) Filters/Attributes for Platform Master Report and Standard Vie
    :header-rows: 2
 
    * - :rspan:`1` Filter/Attribute
-     - :cspan:`1` Filters available (options for Master Report and required for Standard Views)
+     - :cspan:`1` Filters available (options for Platform Report and required for Standard Views of the Platform Report)
 
    * - PR
      - PR_P1

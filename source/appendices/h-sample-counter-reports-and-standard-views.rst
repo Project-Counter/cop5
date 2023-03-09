@@ -4,14 +4,14 @@
 
 |clearpage|
 
-Appendix H: Sample COUNTER Master Reports and Standard Views
-============================================================
+Appendix H: Sample COUNTER Reports and Standard Views of the COUNTER Reports
+============================================================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-The Master Reports and Standard Views in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting level, the Master Report appears first followed by the Standard Views. Click the Excel, TSV and JSON links to download the corresponding sample reports.
+The COUNTER Reports and Standard Views of the COUNTER Reports in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting level, the COUNTER Report appears first followed by the Standard Views of the COUNTER Report. Click the Excel, TSV and JSON links to download the corresponding sample reports.
 
-Table H.1: Sample COUNTER Master Reports and Standard Views
+Table H.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
 .. only:: not latex
 
@@ -25,7 +25,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
 	- Sample Report
 
       * - PR
-        - Platform Master Report
+        - Platform Report
         - :download:`Excel <../_static/report/Sample-PR.xlsx>`
           :download:`TSV <../_static/report/Sample-PR.tsv>`
           :download:`JSON <../_static/report/Sample-PR.json>`
@@ -37,7 +37,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           :download:`JSON <../_static/report/Sample-PR_P1.json>`
 
       * - DR
-        - Database Master Report
+        - Database Report
         - :download:`Excel <../_static/report/Sample-DR.xlsx>`
           :download:`TSV <../_static/report/Sample-DR.tsv>`
           :download:`JSON <../_static/report/Sample-DR.json>`
@@ -55,7 +55,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           :download:`JSON <../_static/report/Sample-DR_D2.json>`
 
       * - TR
-        - Title Master Report
+        - Title Report
         - :download:`Excel <../_static/report/Sample-TR.xlsx>`
           :download:`TSV <../_static/report/Sample-TR.tsv>`
           :download:`JSON <../_static/report/Sample-TR.json>`
@@ -103,7 +103,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           :download:`JSON <../_static/report/Sample-TR_J4.json>`
 
       * - IR
-        - Item Master Report
+        - Item Report
         - :download:`Excel <../_static/report/Sample-IR.xlsx>`
           :download:`TSV <../_static/report/Sample-IR.tsv>`
           :download:`JSON <../_static/report/Sample-IR.json>`
@@ -133,7 +133,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
 	- Sample Report
 
       * - PR
-        - Platform Master Report
+        - Platform Report
         - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.xlsx>`_
           `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.tsv>`_
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.json>`_
@@ -145,7 +145,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR_P1.json>`_
 
       * - DR
-        - Database Master Report
+        - Database Report
         - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.xlsx>`_
           `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.tsv>`_
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.json>`_
@@ -163,7 +163,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D2.json>`_
 
       * - TR
-        - Title Master Report
+        - Title Report
         - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.xlsx>`_
           `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.tsv>`_
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.json>`_
@@ -211,7 +211,7 @@ Table H.1: Sample COUNTER Master Reports and Standard Views
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J4.json>`_
 
       * - IR
-        - Item Master Report
+        - Item Report
         - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.xlsx>`_
           `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.tsv>`_
           `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.json>`_

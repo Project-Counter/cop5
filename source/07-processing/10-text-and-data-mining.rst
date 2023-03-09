@@ -16,8 +16,8 @@ A key feature of TDM is the discovery of unknown associations based on categorie
 
 * COUNTER does not record TDM itself, as most of this activity takes place after an article has been downloaded. All we can do is track the count of articles downloaded for the purposes of mining.
 * Usage associated with TDM activity (e.g. articles downloaded for the purpose of TDM) MUST be tracked by assigning an Access_Method of TDM.
-* Usage associated with TDM activity MUST be reported using the Title, Database, and Platform Master Reports by identifying such usage as Access_Method=TDM.
-* Usage associated with TDM activity MUST NOT be reported in Standard Views (TR_J1, TR_B1, etc.).
+* Usage associated with TDM activity MUST be reported using the Title, Database, and Platform Reports by identifying such usage as Access_Method=TDM.
+* Usage associated with TDM activity MUST NOT be reported in Standard Views of the COUNTER Reports (TR_J1, TR_B1, etc.).
 
 
 .. rubric:: Detecting activity related to TDM:

@@ -13,7 +13,7 @@ Changes in the nature of online content and how it is accessed have resulted in 
 B.1.1 List of Reports
 """""""""""""""""""""
 
-R5 reduces the overall number of reports by replacing many of the special-purpose reports that are seldom used with four Master Reports and a number of Standard Views that are more flexible. All COUNTER R4 reports have either been renamed or eliminated in favour of R5 Master Report or Standard View options.
+R5 reduces the overall number of reports by replacing many of the special-purpose reports that are seldom used with four COUNTER Reports and a number of Standard Views of the COUNTER Reports that are more flexible. All COUNTER R4 reports have either been renamed or eliminated in favour of R5 COUNTER Report or Standard Views of the COUNTER Reports.
 
 .. only:: latex
 
@@ -77,8 +77,8 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - Total_Item_Requests is the equivalent to full text total. HTML and PDF totals have been eliminated, but Unique_Item_Requests can be used to evaluate the effect of the user interface on statistics and offers a comparable statistics for cost-per-unique-use analysis.
 
    * - Journal Report 1 GOA: Number of Successful Gold Open Access Full-Text Article Requests by Month and Journal
-     - Title Master Report
-     - The Title Master Report can be filtered by “Access\_\ |lb|\ Type=OA_Gold; Metric_Type=Total_Item_Requests” to obtain equivalent results.
+     - Title Report
+     - The Title Report can be filtered by “Access\_\ |lb|\ Type=OA_Gold; Metric_Type=Total_Item_Requests” to obtain equivalent results.
 
    * - Journal Report 1a: Number of Successful Full-Text Article Requests from an Archive by Month and Journal
      - Journal Requests by YOP (Excluding OA_Gold)
@@ -89,9 +89,9 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - The Limit_Exceeded and No_License metrics are equivalent to corresponding metrics in R4 report.
 
    * - Journal Report 3: Number of Successful Item Requests by Month, Journal and Page-type
-     - Title Master Report\ |br|\ |lb|
-       Item Master Report
-     - The Title Master Report can be configured to show Section_Types, which provides details similar to JR3. Other details like the audio and video usage can be reported in the Item Master Report (using the Component elements where appropriate).
+     - Title Report\ |br|\ |lb|
+       Item Report
+     - The Title Report can be configured to show Section_Types, which provides details similar to JR3. Other details like the audio and video usage can be reported in the Item Report (using the Component elements where appropriate).
 
    * - Journal Report 3 Mobile: Number of Successful Item Requests by Month, Journal and Page-type for usage on a mobile device
      - Eliminated (no equivalent)
@@ -118,20 +118,20 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - The R5 report provides equivalent metrics as well as additional metrics related to item full-text requests.
 
    * - Title Report 1: Number of Successful Requests for Journal Full-Text Articles and Book Sections by Month and Title
-     - Title Master Report
-     - The Title Master Report offers a single report for books and journals and can show the usage broken down by Section_Type.
+     - Title Report
+     - The Title Report offers a single report for books and journals and can show the usage broken down by Section_Type.
 
    * - Title Report 1 Mobile: Number of Successful Requests for Journal Full-Text Articles and Book Sections by Month and Title (formatted for normal browsers/delivered to mobile devices AND formatted for mobile devices/delivered to mobile devices
      - Eliminated (no equivalent)
      - Capturing usage by mobile devices is less relevant with the responsive design of most sites. The variety of mobile devices also makes it difficult, as does the fact that today’s smartphones have screen resolutions exceeding those of some desktops.
 
    * - Title Report 2: Access Denied to Full-Text Items by Month, Title and Category
-     - Title Master Report
-     - The Title Master Report offers a single report for books and journals and includes the options to show Access Denied metrics.
+     - Title Report
+     - The Title Report offers a single report for books and journals and includes the options to show Access Denied metrics.
 
    * - Title Report 3: Number of Successful Item Requests by Month, Title and Page Type
-     - Title Master Report
-     - The Title Master Report offers a single report for books and journals and can show Requests metrics.
+     - Title Report
+     - The Title Report offers a single report for books and journals and can show Requests metrics.
 
    * - Title Report 3 Mobile: Number of Successful Item Requests by Month, Title and Page Type (formatted for normal browsers/delivered to mobile devices AND formatted for mobile devices/delivered to mobile devices
      - Eliminated (no equivalent)

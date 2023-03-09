@@ -9,7 +9,7 @@ Title Reports
 
 Title Reports provide a summary of activity related to content at the title level and provide a means of evaluating the impact a title has for an institution’s patrons.
 
-Table 4.h (below): Title Master Report and Standard Views
+Table 4.h (below): Title Report and Standard Views of the Title Report
 
 .. only:: latex
 
@@ -26,7 +26,7 @@ Table 4.h (below): Title Master Report and Standard Views
      - Host_Types
 
    * - TR
-     - Title Master Report
+     - Title Report
      - A customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -82,11 +82,11 @@ Table 4.h (below): Title Master Report and Standard Views
 Report Header
 """""""""""""
 
-The table below shows the header details for the Title Master Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Title Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
 
 |blscape|
 
-Table 4.i (below) Header for Title Master Report and Standard Views - Part 1 (for Books)
+Table 4.i (below) Header for Title Report and Standard Views of the Title Report - Part 1 (for Books)
 
 .. only:: latex
 
@@ -108,7 +108,7 @@ Table 4.i (below) Header for Title Master Report and Standard Views - Part 1 (fo
 
    * - 1
      - Report_Name
-     - Title Master Report
+     - Title Report
      - Book Requests (Excluding OA_Gold)
      - Book Access Denied
      - Book Usage by Access Type
@@ -195,7 +195,7 @@ Table 4.i (below) Header for Title Master Report and Standard Views - Part 1 (fo
 |elscape|
 |blscape|
 
-Table 4.j (below): Header for Title Master Report and Standard Views - Part 2 (for Journals)
+Table 4.j (below): Header for Standard Views of the Title Report - Part 2 (for Journals)
 
 .. only:: latex
 
@@ -310,9 +310,9 @@ Table 4.j (below): Header for Title Master Report and Standard Views - Part 2 (f
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the COUNTER Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
-Table 4.k (below): Column Headings/Elements for Title Master Report and Standard Views
+Table 4.k (below): Column Headings/Elements for Title Report and Standard Views of the Title Report
 
 .. only:: latex
 
@@ -521,11 +521,11 @@ Table 4.k (below): Column Headings/Elements for Title Master Report and Standard
 Filters and Attributes
 """"""""""""""""""""""
 
-The following table presents the values that can be chosen for the Title Master Report and that are pre-set for the Standard Views. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
+The following table presents the values that can be chosen for the Title Report and that are pre-set for the Standard Views of the Title Report. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
 
 |blscape|
 
-Table 4.l (below): Filters/Attributes for Title Master Report and Standard Views - Part 1 (for Books)
+Table 4.l (below): Filters/Attributes for Title Report and Standard Views of the Title Report - Part 1 (for Books)
 
 .. only:: latex
 
@@ -537,7 +537,7 @@ Table 4.l (below): Filters/Attributes for Title Master Report and Standard Views
    :header-rows: 2
 
    * - :rspan:`1` Filter/Attribute
-     - :cspan:`3` Filters available (options for Master Report and required for Standard Views)
+     - :cspan:`3` Filters available (options for Title Report and required for Standard Views of the Title Report)
 
    * - TR
      - TR_B1
@@ -610,7 +610,7 @@ Table 4.l (below): Filters/Attributes for Title Master Report and Standard Views
 |elscape|
 |blscape|
 
-Table 4.m (below): Filters/Attributes for Title Master Report and Standard Views - Part 2 (for Journals)
+Table 4.m (below): Filters/Attributes for Standard Views of the Title Report - Part 2 (for Journals)
 
    .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\raggedright\arraybackslash}\Y{0.22}|>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.23}|>{\raggedright\arraybackslash}\Y{0.2}|
 
@@ -620,7 +620,7 @@ Table 4.m (below): Filters/Attributes for Title Master Report and Standard Views
    :header-rows: 2
 
    * - :rspan:`1` Filter/Attribute
-     - :cspan:`3` Filters available (options for Master Report and required for Standard Views)
+     - :cspan:`3` Filters available (options for Title Report and required for Standard Views of the Title Report)
 
    * - TR_J1
      - TR_J2

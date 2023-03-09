@@ -9,7 +9,7 @@ Item Reports
 
 Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons.
 
-Table 4.n (below): Item Master Report and Standard Views
+Table 4.n (below): Item Report and Standard Views of the Item Report
 
 .. only:: latex
 
@@ -26,7 +26,7 @@ Table 4.n (below): Item Master Report and Standard Views
      - Host_Types
 
    * - IR
-     - Item Master Report
+     - Item Report
      - A granular, customizable report showing activity at the level of the item (article, chapter, media object, etc.) that allows the user to apply filters and select other configuration options.
      - Data_Repository*\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
@@ -37,7 +37,7 @@ Table 4.n (below): Item Master Report and Standard Views
      - Journal Article Requests
      - Reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article, Parent_Data_Type of Journal, and Metric_Types of Total_Item_Requests and Unique_Item_Requests.
 
-       This Standard View must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
+       This Standard View of the Item Report must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
@@ -52,9 +52,9 @@ Table 4.n (below): Item Master Report and Standard Views
 Report Header
 """""""""""""
 
-The table below shows the header details for the Item Master Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Item Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
 
-Table 4.o (below): Header for Item Master Report and Standard Views
+Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 
 .. only:: latex
 
@@ -75,7 +75,7 @@ Table 4.o (below): Header for Item Master Report and Standard Views
 
    * - 1
      - Report_Name
-     - Item Master Report
+     - Item Report
      - Journal Article Requests
      - Multimedia Item Requests
 
@@ -147,9 +147,9 @@ Table 4.o (below): Header for Item Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the Master Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the COUNTER Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
-Table 4.p (below): Column Headings/Elements for Item Master Report and Standard Views
+Table 4.p (below): Column Headings/Elements for Item Report and Standard Views of the Item Report
 
 .. only:: latex
 
@@ -378,9 +378,9 @@ Table 4.p (below): Column Headings/Elements for Item Master Report and Standard 
 Filters and Attributes
 """"""""""""""""""""""
 
-The following table presents the values that can be chosen for the Item Master Report and that are pre-set for the Standard Views. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
+The following table presents the values that can be chosen for the Item  Report and that are pre-set for the Standard Views of the Item Report. If a filter is not included in the request, the default applies. For the Standard Views of the Item Report an empty cell indicates that the filter is not applied.
 
-Table 4.q (below): Filters/Attributes for Item Master Report and Standard Views
+Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the Item Report
 
 .. only:: latex
 
@@ -392,7 +392,7 @@ Table 4.q (below): Filters/Attributes for Item Master Report and Standard Views
    :header-rows: 2
 
    * - :rspan:`1` Filter/Attribute
-     - :cspan:`2` Filters available (options for Master Report and required for Standard Views)
+     - :cspan:`2` Filters available (options for Item Report and required for Standard Views of the Item Report)
 
    * - IR
      - IR_A1

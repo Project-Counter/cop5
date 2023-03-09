@@ -20,5 +20,5 @@ Appendices
    e-audit-requirements-and-tests/index
    f-handling-errors-and-exceptions
    g-list-of-federated-search-products
-   h-sample-counter-master-reports-and-standard-views
+   h-sample-counter-reports-and-standard-views
    i-list-of-internet-robots-crawlers-and-spiders

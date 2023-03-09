@@ -5,7 +5,7 @@
 Creating Custom Elements/Columns Headings
 -----------------------------------------
 
-Custom elements/column headings can be added to the Master Reports (PR, DR, TR, IR) and custom reports. The element name MUST take the form of *{namespace}*:*{element name}*. An example of a custom elements/column heading could be:
+Custom elements/column headings can be added to the COUNTER Reports (PR, DR, TR, IR) and custom reports. The element name MUST take the form of *{namespace}*:*{element name}*. An example of a custom elements/column heading could be:
 
 .. only:: latex
 
@@ -20,4 +20,4 @@ Custom elements/column headings can be added to the Master Reports (PR, DR, TR, 
 
    * - EBSCOhost:Total_Linkouts
 
-Custom elements/column headings MUST only be included in Master Reports if requested, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+Custom elements/column headings MUST only be included in COUNTER Reports if requested, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
