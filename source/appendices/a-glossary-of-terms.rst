@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -420,7 +420,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Exception
      - An optional element that may be included within a COUNTER report indicating some difference between the usage that was requested and the usage that is being presented in the report. An Exception includes the Exception Code and Exception Message and may include additional Data that further describes the error.
-     - 3031: Usage Not Ready for Requested Dates (request was for 2016-01-01 to 2016-12-31, but usage is only available to 2016-08-31).
+     - 3031: Usage Not Ready for Requested Dates (request was for 2024-01-01 to 2024-12-31, but usage is only available to 2024-08-31).
 
    * - Exception Code
      - A unique numeric code included as part of an Exception that identifies the type of error.
@@ -875,7 +875,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Reporting period\ |br|\ |lb|
        Reporting_Period
      - The total time period covered in a usage report.
-     - Begin_Date=2018-01-01; End_Date=2018-06-30
+     - Begin_Date=2024-01-01; End_Date=2024-06-30
 
    * - Repository
      - A host who provides access to an institution’s research output. Includes subject repositories, institution, department, etc.
