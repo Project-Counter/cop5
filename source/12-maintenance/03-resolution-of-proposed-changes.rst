@@ -35,6 +35,10 @@ COUNTER will inform the COUNTER membership about upcoming changes to the COUNTER
 Version and Change Control
 """"""""""""""""""""""""""
 
-Each update to the COUNTER Code of practice will generate a new version number (i.e. the initial release of “R5” will be designated as version 5.0. A non-substantive change (fixing typographical errors) would increment the version by .0.1, creating version 5.0.1. A substantive change (requiring changes in implementation of the Code of Practice) would increment the version by .1, creating version 5.1.
+Each update to the COUNTER Code of practice will generate a new version number (i.e. the initial release of “R5” was designated as version 5.0. 
+
+Under Explicit Versioning, a four-digit numbering system in the structure Release.Breaking.Feature.Fix, “Breaking” releases including changes that are not backwards compatible take the first point place (e.g. R5.1.0.0), “Feature” releases with new features or extensions that are backwards compatible take the second point place (e.g. R5.1.1.0), and “Fix” releases with bug fixes, typographic corrections and similar small amendments take the third point place (R5.1.0.1).
+
+Explicit Versioning thus allows for us to change the Release number where changes are so comprehensive that Release 5 would no longer apply.
 
 All changes included in each release will be included in the Change History section of the Code of Practice. The prior release will be archived as a PDF document and access to that release provided via the COUNTER website.
