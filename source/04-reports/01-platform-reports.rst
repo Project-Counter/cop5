@@ -28,36 +28,12 @@ Table 4 (below): Platform Master Report and Standard Views
    * - PR
      - Platform Master Report
      - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
 
    * - PR_P1
      - Platform Usage
      - Platform-level usage summarized by Metric_Type.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
 
 \*Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
 
