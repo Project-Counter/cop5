@@ -204,9 +204,7 @@ Table 3.h (below): Elements that Identify the Platform
 
    * - Platform
      - Identifies the platform/content host where the activity took place. Note that in cases where individual titles or groups of content have their own branded user experience but reside on a common host, the identity of the underlying common host MUST be used as the Platform.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All reports
      - EBSCOhost\ |br|\ |lb|
        ProQuest\ |br|\ |lb|
        ScienceDirect
@@ -536,9 +534,7 @@ Table 3.m (below): Report Element for Metric_Type
      - The type of activity that is being counted.
 
        See :numref:`metric-types` for more detail.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All reports
      - Total_Item_Investigations
 
 
@@ -562,14 +558,10 @@ Table 3.n (below): Elements for Usage Data
 
    * - Reporting_Period_Total
      - Total of usage in this row for all months covered. Note that this element does NOT appear in the JSON reports, instead the JSON format offers a Granularity report attribute (see :numref:`filters-attributes` for details).
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All reports
      - 123456
 
    * - *Mmm-yyyy*
      - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by Begin_Date and End_Date date elements for each month.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All reports
      - May-2016
