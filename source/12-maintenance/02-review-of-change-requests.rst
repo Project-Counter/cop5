@@ -5,4 +5,6 @@
 Review of Change Requests
 -------------------------
 
-All submissions received will be acknowledged and forwarded to the COUNTER Executive Committee for consideration within 30 days of receipt.
+All submissions received will be acknowledged and forwarded to the COUNTER Technical Advisory Group in the first instance. TAG will review submissions for technical feasibility and scope of change. 
+
+Where TAG recommends that the submission be incorporated into the Code of Practice, it will be passed to the Executive Committee for consideration at their next quarterly meeting.
