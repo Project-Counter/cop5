@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -154,7 +154,7 @@ Table 4.e (below): Header for Database Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.f (below): Column Headings/Elements for Database Master Report and Standard Views
 
@@ -198,12 +198,12 @@ Table 4.f (below): Column Headings/Elements for Database Master Report and Stand
      - M
 
    * - Data_Type
-     - R
+     - C
      -
      -
 
    * - Access_Method
-     - R
+     - C
      -
      -
 

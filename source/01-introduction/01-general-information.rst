@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -44,9 +44,9 @@ This Code of Practice provides definitions of data elements and other terms that
 Versions
 """"""""
 
-The COUNTER Code of Practice will be extended and upgraded as necessary based on input from the communities it serves. Each new version will be made available as a numbered release on the COUNTER website; users will be alerted to its availability. R5 of the Code of Practice replaces Release 4 (R4) of the Code of Practice. The deadline date for implementation of this Release is 01-Jan-2019. After this date, only those content providers compliant with R5 will be deemed compliant with the Code of Practice.
+The COUNTER Code of Practice will be extended and upgraded as necessary based on input from the communities it serves. Each new version will be made available as a numbered release on the COUNTER website; users will be alerted to its availability. R5.1 of the Code of Practice replaces Release 5 (R5) of the Code of Practice. The deadline date for implementation of this Release is 01-Jan-2025. After this date, only those content providers compliant with R5.1 will be deemed compliant with the Code of Practice.
 
-COUNTER R5 introduces a continuous maintenance process (see :numref:`maintenance` below) that will allow the Code of Practice to evolve over time minimizing the need for major version changes.
+COUNTER R5 introduced a continuous maintenance process (see :numref:`maintenance` below) that allowed the Code of Practice to evolve over time minimizing the need for major version changes. In R5.1 the COP will transition to use of Explicit Versioning, a four-digit numbering system in the structure Release.Breaking.Feature.Fix, where “Breaking” indicates changes that are not backwards compatible, “Feature” indicates new features or extensions that are backwards compatible, and “Fix” is used for typographic corrections and similar small amendments.
 
 
 Auditing and COUNTER Compliance
