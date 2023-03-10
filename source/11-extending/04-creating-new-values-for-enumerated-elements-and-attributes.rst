@@ -13,4 +13,4 @@ Several elements in COUNTER reports include a controlled list of possible values
 * Access_Method
 * Metric_Type
 
-Custom values MUST only be included in Master Reports if requested, and if included they MUST be listed in the corresponding report filters in the Report_Filters or Metric_Types header.
+Custom values MUST only be included in Master Reports if called for, and if included they MUST be listed in the corresponding report filters in the Report_Filters or Metric_Types header.

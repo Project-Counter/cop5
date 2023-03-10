@@ -20,4 +20,4 @@ Custom elements/column headings can be added to the Master Reports (PR, DR, TR, 
 
    * - EBSCOhost:Total_Linkouts
 
-Custom elements/column headings MUST only be included in Master Reports if requested, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+Custom elements/column headings MUST only be included in Master Reports if called for, and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
