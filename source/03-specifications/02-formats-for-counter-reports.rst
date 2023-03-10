@@ -565,4 +565,3 @@ Table 3.n (below): Elements for Usage Data
      - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by Begin_Date and End_Date date elements for each month.
      - All reports
      - May-2024
-   
