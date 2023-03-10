@@ -853,7 +853,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
        Report_Attributes
      - Report attributes are elements in COUNTER reports that describe the nature of usage for an item or affect how the usage is broken down.
 
-       In COUNTER COUNTER Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
+       In COUNTER Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
    * - Report filters\ |br|\ |lb|

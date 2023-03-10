@@ -13,7 +13,7 @@ Changes in the nature of online content and how it is accessed have resulted in 
 B.1.1 List of Reports
 """""""""""""""""""""
 
-R5 reduces the overall number of reports by replacing many of the special-purpose reports that are seldom used with four COUNTER Reports and a number of Standard Views of the COUNTER Reports that are more flexible. All COUNTER R4 reports have either been renamed or eliminated in favour of R5 COUNTER Report or Standard Views of the COUNTER Reports.
+R5 reduces the overall number of reports by replacing many of the special-purpose reports that are seldom used with four COUNTER Reports and a number of Standard Views of the COUNTER Reports that are more flexible. All COUNTER R4 reports have either been renamed or eliminated in favour of R5 COUNTER Reports or Standard Views of the COUNTER Reports.
 
 .. only:: latex
 
