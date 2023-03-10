@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -28,36 +28,12 @@ Table 4 (below): Platform Report and Standard Views of the Platform Report
    * - PR
      - Platform Report
      - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
 
    * - PR_P1
      - Platform Usage
      - Platform-level usage summarized by Metric_Type.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
 
 \*Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
 
@@ -174,11 +150,11 @@ Table 4.b (Below): Column Headings/Elements for Platform Report and Standard Vie
      - M
 
    * - Data_Type
-     - R
+     - C
      -
 
    * - Access_Method
-     - R
+     - C
      -
 
    * - Metric_Type

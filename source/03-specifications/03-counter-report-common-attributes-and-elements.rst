@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -198,19 +198,7 @@ Table 3.p (below): List of Data_Type Values
 
    * - Platform
      - A content platform that may reflect usage from multiple Data_Types. Note that Data_Type Platform is only applicable for Searches_Platform.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
      - PR\ |br|\ |lb|
        PR_P1
 
@@ -372,19 +360,7 @@ Table 3.r (below): List of Metric_Types for Searches
 
    * - Searches_Platform
      - Searches conducted by users and captured at the platform level. Each user-initiated search can only be counted once regardless of the number of databases involved in the search. This metric only applies to Platform Reports.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository*\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
      - PR\ |br|\ |lb|
        PR_P1
 
@@ -431,37 +407,13 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
 
    * - Total_Item_Investigations
      - Total number of times a content item or information related to a content item was accessed. Double-click filters are applied to these transactions. Examples of content items are articles, book chapters, or multimedia files.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository*\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
      - PR, DR, TR, IR\ |br|\ |lb|
        DR_D1, TR_B3, TR_J3
 
    * - Unique_Item_Investigations
      - Number of unique content items investigated in a user-session. Examples of content items are articles, book chapters, or multimedia files.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository*\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository*\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
      - PR, DR, TR, IR\ |br|\ |lb|
        TR_B3, TR_J3
 
@@ -662,38 +614,12 @@ Table 3.v (below): List of Access_Method Values
 
    * - Regular
      - Refers to activities on a platform or content host that represent typical user behaviour.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All Host_Types
+     - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - TDM
      - Content and metadata accessed for the purpose of text and data mining, e.g. through a specific API used for TDM. Note that usage representing TDM activity is to be included in COUNTER Reports only.
-     - All Host_Types:\ |br|\ |lb|
-       A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Data_Repository\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia\ |br|\ |lb|
-       Multimedia_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+     - All Host_Types
      - PR, DR, TR, IR
 
 
@@ -802,9 +728,7 @@ Table 3.y (below): Report Filters
 
    * - Access_Method
      - List of Access_Methods for which to include usage (default: all). See :numref:`platform-filters`, :numref:`database-filters`, :numref:`title-filters` and :numref:`item-filters` for permissible/pre-set values.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Access_Type
      - List of Access_Types for which to include usage (default: all). See :numref:`title-filters` and :numref:`item-filters` for permissible/pre-set values.
@@ -814,9 +738,7 @@ Table 3.y (below): Report Filters
    * - Begin_Date\ |br|\ |lb|
        End_Date
      - Beginning and end of the reporting period. Note that the COUNTER_SUSHI API allows the format *yyyy-mm* for the method parameters, which must be expanded with the first/last day of the month for the report header. For the tabular reports these filters are included in the Reporting_Period header instead of the Reporting_Filters header for easier reading.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Database
      - Name of a specific database for which usage is being requested (default: all). Support for this filter is optional but recommended for the reporting website.
@@ -837,15 +759,11 @@ Table 3.y (below): Report Filters
 
    * - Metric_Type
      - List of Metric_Types for which to include usage (default: all). See :numref:`platform-filters`, :numref:`database-filters`, :numref:`title-filters` and :numref:`item-filters` for permissible/pre-set values. For the tabular reports this filter is included in the Metric_Types header instead of the Reporting_Filters header for easier reading.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Platform
      - The Platform filter is only intended in cases where there is a single endpoint for multiple platforms; that is, the same base URL for the COUNTER_SUSHI API is used for multiple platforms and the platform parameter is required for all API calls. In the web interface this would correspond to first selecting one platform and then creating reports only for that platform.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Section_Type
      - List of Section_Types for which to include usage (default: all). See :numref:`title-filters` for permissible values.

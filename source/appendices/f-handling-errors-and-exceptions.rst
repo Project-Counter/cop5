@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -57,7 +57,7 @@ The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as fo
        “Data”: {
          “type”: “string”,
          “description”: “Additional data provided by the server to clarify the Exception.”,
-         “example”: “Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.”
+         “example”: “Request was for 2024-01-01 to 2024-12-31; however, usage is only available to 2024-08-31.”
        }
      }
    }

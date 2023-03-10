@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -147,7 +147,7 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the COUNTER Report if requested (R) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if requested (R), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The Parent and Component elements MUST only be included in the COUNTER Report if called for (C) via Include_Parent_Details and Include_Component_Details, respectively (they are not supposed to be selected individually). If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.p (below): Column Headings/Elements for Item Report and Standard Views of the Item Report
 
@@ -186,17 +186,17 @@ Table 4.p (below): Column Headings/Elements for Item Report and Standard Views o
      - M
 
    * - Authors
-     - R
+     - C
      - M
      -
 
    * - Publication_Date
-     - R
+     - C
      - M
      -
 
    * - Article_Version
-     - R
+     - C
      - M
      -
 
@@ -231,127 +231,127 @@ Table 4.p (below): Column Headings/Elements for Item Report and Standard Views o
      - M
 
    * - Parent_Title
-     - R
+     - C
      - M
      -
 
    * - Parent_Authors
-     - R
+     - C
      - M
      -
 
    * - Parent_Publication_Date
-     - R
+     - C
      -
      -
 
    * - Parent_Article_Version
-     - R
+     - C
      - M
      -
 
    * - Parent_Data_Type
-     - R
+     - C
      -
      -
 
    * - Parent_DOI
-     - R
+     - C
      - M
      -
 
    * - Parent_Proprietary_ID
-     - R
+     - C
      - M
      -
 
    * - Parent_ISBN
-     - R
+     - C
      -
      -
 
    * - Parent_Print_ISSN
-     - R
+     - C
      - M
      -
 
    * - Parent_Online_ISSN
-     - R
+     - C
      - M
      -
 
    * - Parent_URI
-     - R
+     - C
      - M
      -
 
    * - Component_Title
-     - R
+     - C
      -
      -
 
    * - Component_Authors
-     - R
+     - C
      -
      -
 
    * - Component_Publication_Date
-     - R
+     - C
      -
      -
 
    * - Component_Data_Type
-     - R
+     - C
      -
      -
 
    * - Component_DOI
-     - R
+     - C
      -
      -
 
    * - Component_Proprietary_ID
-     - R
+     - C
      -
      -
 
    * - Component_ISBN
-     - R
+     - C
      -
      -
 
    * - Component_Print_ISSN
-     - R
+     - C
      -
      -
 
    * - Component_Online_ISSN
-     - R
+     - C
      -
      -
 
    * - Component_URI
-     - R
+     - C
      -
      -
 
    * - Data_Type
-     - R
+     - C
      -
      -
 
    * - YOP
-     - R
+     - C
      -
      -
 
    * - Access_Type
-     - R
+     - C
      - M
      -
 
    * - Access_Method
-     - R
+     - C
      -
      -
 

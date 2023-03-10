@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -353,6 +353,6 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
 
    * - YOP
      - This attribute records the year of publication of the item. The YOP attribute replaces the year-of-publication ranges in R4’s JR5 report and is tracked for all metrics in Title and Item Reports.
-     - A 4-digit year, e.g. 2012\ |br|\ |lb|
+     - A 4-digit year, e.g. 2023\ |br|\ |lb|
        0001 for unknown\ |br|\ |lb|
        9999 for articles in press

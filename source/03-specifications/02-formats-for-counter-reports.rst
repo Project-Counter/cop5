@@ -1,4 +1,4 @@
-.. The COUNTER Code of Practice Release 5 © 2017-2021 by COUNTER
+.. The COUNTER Code of Practice Release 5 © 2017-2023 by COUNTER
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -101,15 +101,15 @@ Table 3.f (below): COUNTER Report Header Elements
      - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table F.1 of :ref:`Appendix F <appendix-f>`. For some exceptions further information MUST be provided in the Data element as indicated in Table F.1, otherwise the Data is optional.
 
        Note that for tabular reports usually only the limited set of exceptions which indicate that usage is not, not yet or no longer available will occur.
-     - 3031: Usage Not Ready for Requested Dates (request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31)
+     - 3031: Usage Not Ready for Requested Dates (request was for 2024-01-01 to 2024-12-31; however, usage is only available to 2024-08-31)
 
    * - Reporting_Period
      - The date range for the usage represented in the report, in the form of: “Begin_Date=\ *yyyy-mm-dd*; End_Date=\ *yyyy-mm-dd*”.
-     - Begin_Date=2016-01-01; End_Date=2016-08-30
+     - Begin_Date=2024-01-01; End_Date=2024-08-30
 
    * - Created
      - The date and time the usage was prepared, in RFC3339 date-time format (*yyyy-mm-ddThh:mm:ssZ*).
-     - 2016-10-11T14:37:15Z
+     - 2024-10-11T14:37:15Z
 
    * - Created_By
      - The name of the organization or system that created the COUNTER report.
@@ -204,9 +204,7 @@ Table 3.h (below): Elements that Identify the Platform
 
    * - Platform
      - Identifies the platform/content host where the activity took place. Note that in cases where individual titles or groups of content have their own branded user experience but reside on a common host, the identity of the underlying common host MUST be used as the Platform.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
      - EBSCOhost\ |br|\ |lb|
        ProQuest\ |br|\ |lb|
        ScienceDirect
@@ -244,7 +242,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - Date of publication for the work in the format *yyyy-mm-dd*.
      - IR\ |br|\ |lb|
        IR_A1
-     - 2018-09-05
+     - 2024-09-05
 
    * - Article_Version
      - ALPSP/NISO code indicating the version of the work. Possible values are the codes for Accepted Manuscript, Version of Record, Corrected Version of Record, and Enhanced Version of Record.
@@ -536,9 +534,7 @@ Table 3.m (below): Report Element for Metric_Type
      - The type of activity that is being counted.
 
        See :numref:`metric-types` for more detail.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
      - Total_Item_Investigations
 
 
@@ -562,14 +558,10 @@ Table 3.n (below): Elements for Usage Data
 
    * - Reporting_Period_Total
      - Total of usage in this row for all months covered. Note that this element does NOT appear in the JSON reports, instead the JSON format offers a Granularity report attribute (see :numref:`filters-attributes` for details).
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
+     - All COUNTER Reports and Standard Views of COUNTER Reports
      - 123456
 
    * - *Mmm-yyyy*
      - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by Begin_Date and End_Date date elements for each month.
-     - All reports:\ |br|\ |lb|
-       PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
-     - May-2016
+     - All COUNTER Reports and Standard Views of COUNTER Reports
+     - May-2024
