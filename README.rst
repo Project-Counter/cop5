@@ -3,9 +3,13 @@ COUNTER Code of Practice Release 5
 
 This repository contains the source for the `COUNTER <https://www.projectcounter.org/>`_ Code of Practice Release 5.
 
-There are three branches:
+There are multiple branches:
 
-* `5.0.2 <https://github.com/Project-Counter/cop5/tree/5.0.2>`_: Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
+* `5.1 <https://github.com/Project-Counter/cop5/tree/5.0.3>`_: Release 5.1 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
+
+* `5.0.3 <https://github.com/Project-Counter/cop5/tree/5.0.3>`_: Release 5.0.3 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective immediately.
+
+* `5.0.2 <https://github.com/Project-Counter/cop5/tree/5.0.2>`_: Release 5.0.2 (published 28 September 2021) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.
 
 * `5.0.1 <https://github.com/Project-Counter/cop5/tree/5.0.1>`_: Release 5.0.1 (published 10 December 2018, with updates for Appendices A and E) is the current Code of Practice and the requirement for COUNTER compliance effective from January 2019.
 
@@ -19,7 +23,7 @@ You can read the COUNTER Code of Practice Release 5 online at
 
   https://cop5.projectcounter.org/
 
-This HTML version is the version of record for the COUNTER Code of Practice Release 5. There is also a PDF version and a single page HTML available for download from the menu at the bottom left. The menu also allows to select other releases of the Code of Practice.
+This HTML version is the version of record for the COUNTER Code of Practice Release 5.1. There is also a PDF version and a single page HTML available for download from the menu at the bottom left. The menu also allows to select other releases of the Code of Practice.
 
 The website is generated from this repository and hosted by `Read the Docs <https://readthedocs.org/>`_.
 
