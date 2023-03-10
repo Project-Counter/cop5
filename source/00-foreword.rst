@@ -19,7 +19,7 @@ This release of the COUNTER Code of Practice is designed to balance changing rep
 
 .. rubric:: Consistency in report formats
 
-Release 5 consists of four Master Reports. Each of the Master Reports is associated with several pre-set filtered Standard Views, but can also be examined from different viewpoints to suit the needs of the person working with the report. Librarians will be able to use Master Report to customize their analysis to meet their specific reporting need.
+Release 5 consists of four COUNTER Reports. Each of the COUNTER Reports is associated with several pre-set filtered Standard Views of the COUNTER Report, but can also be examined from different viewpoints to suit the needs of the person working with the report. Librarians will be able to use COUNTER Report to customize their analysis to meet their specific reporting need.
 
 
 .. rubric:: Consistency and clarity in metrics
@@ -44,7 +44,7 @@ The Code of Practice will be of interest to both content providers and librarian
 
 Sections 1 and 2 provide an introduction and outline of the scope of the COUNTER Code of Practice.
 
-Sections 3 and 4 provide an explanation of the Master Reports and Standard Views which are a requirement for COUNTER-compliance and that allow the librarian to filter and configure to create customized “views” of their usage data. Section 3 also explains Metric Types and Attributes.
+Sections 3 and 4 provide an explanation of the COUNTER Reports and Standard Views of the COUNTER Reports which are a requirement for COUNTER-compliance and that allow the librarian to filter and configure to create customized “views” of their usage data. Section 3 also explains Metric Types and Attributes.
 
 
 .. rubric:: Content Providers implementing Release 5

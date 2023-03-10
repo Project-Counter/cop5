@@ -9,7 +9,7 @@ Database Reports
 
 Database Reports provide a summary of activity related to a given database or fixed collection of content that is packaged like a database. These reports provide a means of evaluating the impact a database has for an institution’s users.
 
-Table 4.d (below): Database Master Report and Standard Views
+Table 4.d (below): Database Report and Standard Views of the Database Report
 
 .. only:: latex
 
@@ -26,7 +26,7 @@ Table 4.d (below): Database Master Report and Standard Views
      - Host_Types
 
    * - DR
-     - Database Master Report
+     - Database Report
      - A customizable report detailing activity by database that allows the user to apply filters and select other configuration options.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
@@ -59,9 +59,9 @@ Table 4.d (below): Database Master Report and Standard Views
 Report Header
 """""""""""""
 
-The table below shows the header details for the Database Master Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Database Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
 
-Table 4.e (below): Header for Database Master Report and Standard Views
+Table 4.e (below): Header for Database Report and Standard Views of the Database Report
 
 .. only:: latex
 
@@ -82,7 +82,7 @@ Table 4.e (below): Header for Database Master Report and Standard Views
 
    * - 1
      - Report_Name
-     - Database Master Report
+     - Database Report
      - Database Search and Item Usage
      - Database Access Denied
 
@@ -154,9 +154,9 @@ Table 4.e (below): Header for Database Master Report and Standard Views
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the Master Report if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the COUNTER Report if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
-Table 4.f (below): Column Headings/Elements for Database Master Report and Standard Views
+Table 4.f (below): Column Headings/Elements for Database Report and Standard Views of the Database Report
 
 .. only:: latex
 
@@ -230,9 +230,9 @@ Table 4.f (below): Column Headings/Elements for Database Master Report and Stand
 Filters and Attributes
 """"""""""""""""""""""
 
-The following table presents the values that can be chosen for the Database Master Report and that are pre-set for the Standard Views. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
+The following table presents the values that can be chosen for the Database Report and that are pre-set for the Standard Views of the Database Report. If a filter is not included in the request, the default applies. For the Standard Views an empty cell indicates that the filter is not applied.
 
-Table 4.g (below): Filters/Attributes for Database Master Report and Standard Views
+Table 4.g (below): Filters/Attributes for Database Report and Standard Views of the Database Report
 
 .. only:: latex
 
@@ -244,7 +244,7 @@ Table 4.g (below): Filters/Attributes for Database Master Report and Standard Vi
    :header-rows: 2
 
    * - :rspan:`1` Filter/Attribute
-     - :cspan:`2` Filters available (options for Master Report and required for Standard Views)
+     - :cspan:`2` Filters available (options for Database Report and required for Standard Views of the Database Report)
 
    * - DR
      - DR_D1

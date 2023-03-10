@@ -383,7 +383,7 @@ At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URL MUST be i
 
 .. rubric:: Component Item Description and Identifiers
 
-Repositories often store multiple components for a given repository item. These components could take the form of multiple files or datasets, which can be identified and usage reported on separately in Item Master Reports. Note that the component usage may only be reported for Total_Item_Investigations and Total_Item_Request. For other Metric_Types the usage cannot be broken down by component and the corresponding cells MUST be empty.
+Repositories often store multiple components for a given repository item. These components could take the form of multiple files or datasets, which can be identified and usage reported on separately in Item Reports. Note that the component usage may only be reported for Total_Item_Investigations and Total_Item_Request. For other Metric_Types the usage cannot be broken down by component and the corresponding cells MUST be empty.
 
 Table 3.k (below): Elements that Describe a Component Item
 
@@ -509,7 +509,7 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Regular\ |br|\ |lb|
        TDM
 
-If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a Master Report, a permissible value MUST be specified for each report item. The only exception is Section_Type which MUST be empty (tabular reports) or omitted (JSON reports) for Data_Type Book and Unique_Title metrics, since it is not applicable in this case. Note that this results in two report items in JSON reports, one for the Total_Item and Unique_Item metrics with Section_Type and one for the Unique_Title metrics without Section_Type.
+If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a COUNTER Report, a permissible value MUST be specified for each report item. The only exception is Section_Type which MUST be empty (tabular reports) or omitted (JSON reports) for Data_Type Book and Unique_Title metrics, since it is not applicable in this case. Note that this results in two report items in JSON reports, one for the Total_Item and Unique_Item metrics with Section_Type and one for the Unique_Title metrics without Section_Type.
 
 
 .. rubric:: Metric Type

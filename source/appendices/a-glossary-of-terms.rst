@@ -249,6 +249,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An online tool to validate COUNTER reports in JSON and tabular format.
      -
 
+   * - COUNTER Reports
+     - The four primary reports (Platform, Database, Title and Item Reports) defined by COUNTER, highly flexible with multiple filter options, and with associated Standard Views of the COUNTER Reports.
+     -
+
    * - COUNTER_SUSHI API
      - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format.
      -
@@ -297,8 +301,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
        A COUNTER Data_Type.
      - Social Science Abstracts, Reaxys
 
-   * - Database Master Report
-     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Database Standard Views and is aggregated to the database level.
+   * - Database Report
+     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Standard Views of the Database Report and is aggregated to the database level.
      -
 
    * - Database Reports
@@ -353,7 +357,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - DR
-     - Database Master Report.
+     - Database Report.
      -
 
    * - DR_D1
@@ -531,7 +535,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - IR
-     - Item Master Report.
+     - Item Report.
      -
 
    * - IR_A1
@@ -574,7 +578,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Collective term for content that is reported at a high level of granularity, e.g. a full-text article (original or a review of other published work), an abstract or digest of a full-text article, a sectional HTML page, supplementary material associated with a full-text article (e.g. a supplementary data set), or non-textual resources such as an image, a video, audio, a dataset, a piece of code, or a chemical structure or reaction.
      - Full-text article, Abstract, Database record, Dataset, Thesis
 
-   * - Item Master Report
+   * - Item Report
      - A COUNTER report that provides usage data at the item or item-component level.
      -
 
@@ -621,7 +625,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Master Reports
-     - COUNTER reports that contain additional filters and breakdowns beyond those included in the Standard Views.
+     - An older term for COUNTER reports.
      -
 
    * - Metadata
@@ -754,8 +758,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
        A COUNTER Data_Type.
      - Wiley Online Library, HighWire
 
-   * - Platform Master Report
-     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Platform Standard Views, and which is aggregated to the platform level.
+   * - Platform Report
+     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Standard Views of the Platform Report, and which is aggregated to the platform level.
      -
 
    * - Platform Reports
@@ -771,7 +775,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - PR
-     - Platform Master Report.
+     - Platform Report.
      -
 
    * - PR_P1
@@ -849,23 +853,23 @@ Note: The main Code of Practice document takes precedence in the case of any con
        Report_Attributes
      - Report attributes are elements in COUNTER reports that describe the nature of usage for an item or affect how the usage is broken down.
 
-       In COUNTER Master Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
+       In COUNTER Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
    * - Report filters\ |br|\ |lb|
        Report_Filters
-     - Report filters can be used to limit the usage returned in a COUNTER report. For Standard Views the report filters are pre-set, for Master Reports they can be used to customize the report.
+     - Report filters can be used to limit the usage returned in a COUNTER report. For Standard Views of the COUNTER Reports the report filters are pre-set, for COUNTER Reports they can be used to customize the report.
 
        The Report_Filters report header includes a series of report filters applied to the report.
      - Data_Type=Journal
 
    * - Report_ID
-     - The alphanumeric identifier of a specific Master Report or Standard View.
+     - The alphanumeric identifier of a specific COUNTER Report or Standard View of a COUNTER Report.
      - PR, DR_D1, TR_J3
 
    * - Report name\ |br|\ |lb|
        Report_Name
-     - The name of a COUNTER Master Report or Standard View.
+     - The name of a COUNTER Report or Standard View of a COUNTER Report.
      - Journal Requests (Excluding OA_Gold)
 
    * - Report validation tool
@@ -1015,8 +1019,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Internet robot, crawler, spider.
      -
 
-   * - Standard View
-     - A predefined version of a Master report, designed to meet the most common needs.
+   * - Standard View of a COUNTER Report
+     - A predefined version of a COUNTER report, designed to meet the most common needs.
      - Book Requests (Excluding OA_Gold), Journal Article Requests
 
    * - Standardized Usage Statistics Harvesting Initiative
@@ -1062,8 +1066,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - The name of a book, journal, or reference work.
      -
 
-   * - Title Master Report
-     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Title Standard Views and is aggregated to publication title level rather than towards individual articles/chapters.
+   * - Title Report
+     - A COUNTER report that contains additional filters and breakdowns beyond those included in the Standard Views of the Title Report and is aggregated to publication title level rather than towards individual articles/chapters.
      -
 
    * - Title Reports

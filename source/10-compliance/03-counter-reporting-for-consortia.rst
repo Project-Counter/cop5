@@ -35,7 +35,7 @@ Detailed versus Summary Reports
 
 A content provider MUST offer the option to provide consortium-level summary of usage for the consortium. For a consortium summary report (usage for all members of the consortium rolled up at the consortia level), COUNTER acknowledges that the totals on the summary report may differ from the sum of the totals on individual member reports for the same items if an authentication method used identifies to multiple member sites and usage it attributed to each such site (e.g. overlapping IP ranges).
 
-Note that it is possible to create Master Reports for a consortium with usage broken down by member sites with extensions (see :numref:`reserved-elements`), but this isn’t required for compliance.
+Note that it is possible to create COUNTER Reports for a consortium with usage broken down by member sites with extensions (see :numref:`reserved-elements`), but this isn’t required for compliance.
 
 
 SUSHI Service Limits
