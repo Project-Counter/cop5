@@ -134,96 +134,96 @@ Table H.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
       * - PR
         - Platform Report
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR.json>`_
 
       * - PR_P1
         - Platform Usage
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR_P1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR_P1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-PR_P1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR_P1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR_P1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-PR_P1.json>`_
 
       * - DR
         - Database Report
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR.json>`_
 
       * - DR_D1
         - Database Search and Item Usage
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D1.json>`_
 
       * - DR_D2
         - Database Access Denied
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D2.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D2.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-DR_D2.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D2.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D2.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-DR_D2.json>`_
 
       * - TR
         - Title Report
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR.json>`_
 
       * - TR_B1
         - Book Requests (Excluding OA_Gold)
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B1.json>`_
 
       * - TR_B2
         - Book Access Denied
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B2.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B2.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B2.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B2.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B2.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B2.json>`_
 
       * - TR_B3
         - Book Usage by Access Type
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B3.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B3.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_B3.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B3.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B3.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_B3.json>`_
 
       * - TR_J1
         - Journal Requests (Excluding OA_Gold)
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J1.json>`_
 
       * - TR_J2
         - Journal Access Denied
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J2.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J2.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J2.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J2.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J2.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J2.json>`_
 
       * - TR_J3
         - Journal Usage by Access Type
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J3.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J3.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J3.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J3.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J3.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J3.json>`_
 
       * - TR_J4
         - Journal Request by YOP (Excluding OA_Gold)
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J4.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J4.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-TR_J4.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J4.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J4.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-TR_J4.json>`_
 
       * - IR
         - Item Report
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR.json>`_
 
       * - IR_A1
         - Journal Article Requests
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_A1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_A1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_A1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_A1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_A1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_A1.json>`_
 
       * - IR_M1
         - Multimedia Item Requests
-        - `Excel <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_M1.xlsx>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_M1.tsv>`_
-          `JSON <https://github.com/Project-Counter/cop5/tree/5.0.2/source/_static/report/Sample-IR_M1.json>`_
+        - `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_M1.xlsx>`_
+          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_M1.tsv>`_
+          `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-IR_M1.json>`_

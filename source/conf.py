@@ -137,7 +137,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'COUNTER_Code_of_Practice_R5'
+htmlhelp_basename = 'COUNTER_Code_of_Practice_R5.1'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -237,7 +237,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'COUNTER_Code_of_Practice_R5.tex', 'COUNTER Code of Practice',
+    (master_doc, 'COUNTER_Code_of_Practice_R5.1.tex', 'COUNTER Code of Practice',
      'COUNTER', 'howto'),
 ]
 
@@ -248,8 +248,8 @@ latex_documents = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice',
-     author, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice Release 5.1',
+    (master_doc, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice',
+     author, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice Release 5.1',
      'Miscellaneous'),
 ]
 
@@ -274,7 +274,7 @@ epub_copyright = copyright
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
 
-epub_basename = 'COUNTER_Code_of_Practice_R5'
+epub_basename = 'COUNTER_Code_of_Practice_R5.1'
 
 
 # -- Extension configuration -------------------------------------------------
