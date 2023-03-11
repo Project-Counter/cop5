@@ -54,4 +54,4 @@ Change History
 
 A detailed description of the changes from Release 4 and Release 5 is provided in :ref:`Appendix B <appendix-b>`.
 
-Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_, and all changes are tracked with GitHub issues and linked pull requests. The `change log <https://github.com/Project-Counter/cop5/blob/5.0.2/CHANGELOG.rst>`_ lists all changes by type and impact of the change.
+Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_, and all changes are tracked with GitHub issues and linked pull requests. The `change log <https://github.com/Project-Counter/cop5/blob/5.1/CHANGELOG.rst>`_ lists all changes by type and impact of the change.

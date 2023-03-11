@@ -2,9 +2,9 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-======================================
-COUNTER Code of Practice Release 5.0.2
-======================================
+====================================
+COUNTER Code of Practice Release 5.1
+====================================
 
 .. Same abstract in conf.py for the PDF version!
 
