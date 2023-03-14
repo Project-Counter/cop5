@@ -148,6 +148,12 @@ Table F.1 (below): Exceptions
      - 403
      - If requestor_id has not been authorized to harvest usage for the institution identified by the customer_id, or if the customer_id is not recognized.
 
+   * - Global Reports Not Supported
+     - Error
+     - 2011
+     - 403
+     - Reporting to "The World", customer_id 0000000000000000, is not supported.
+
    * - APIKey Invalid
      - Error
      - 2020

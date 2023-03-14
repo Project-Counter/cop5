@@ -24,7 +24,7 @@ COUNTER recognizes that there are some common extensions that content providers 
      - Examples
 
    * - Customer_ID
-     - When a COUNTER Report contains usage for multiple organizations, this element can be used to break the usage down by institution. The Customer_ID MUST match the Customer_ID in the report header in a JSON report for that institution and the Customer_ID for the institution returned by the /members COUNTER_SUSHI API path. If Customer_ID is included in a tabular report, it MUST be the second column if Institution_Name is also included, or the first column if Institution_Name is not included.
+     - When a COUNTER Report contains usage for multiple organizations, this element can be used to break the usage down by institution. The Customer_ID MUST match the Customer_ID in the report header in a JSON report for that institution and the Customer_ID for the institution returned by the /members COUNTER_SUSHI API path. Customer_ID 0000000000000000 is reserved for delivery of global reports to "The World". If Customer_ID is included in a tabular report, it MUST be the second column if Institution_Name is also included, or the first column if Institution_Name is not included.
      - PR, DR, TR, IR
      - C12345
 

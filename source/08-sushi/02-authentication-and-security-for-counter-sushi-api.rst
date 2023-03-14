@@ -16,3 +16,5 @@ The API MUST be secured using one or more of the following methods:
 Non-standard techniques for authentication (techniques not specified in the COUNTER_SUSHI API specification) MUST NOT be used.
 
 If IP address authentication is implemented, it MUST allow the same SUSHI client (a single IP address) to harvest usage for multiple customer accounts (e.g. hosted ERM services).
+
+If global reports are available, the Customer_ID 0000000000000000 MUST be used for "The World". This follows the 16-digit ISNI structure but is an empty record. 
