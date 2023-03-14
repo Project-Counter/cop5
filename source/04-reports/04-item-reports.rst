@@ -134,6 +134,10 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
      - :cspan:`2` *Name of organization or system that generated the report.*
 
    * - 13
+     - Registry
+     - :cspan:`1` *Link to the platform's COUNTER Registry record.*
+
+   * - 14
      - *(blank)*
      - *(blank)*
      - *(blank)*

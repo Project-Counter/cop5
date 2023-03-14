@@ -33,7 +33,7 @@ All COUNTER reports have a header. In tabular reports, the header is separated f
 Report Header
 """""""""""""
 
-The first 12 rows of a tabular COUNTER report contain the header, and the 13th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
+The first 13 rows of a tabular COUNTER report contain the header, and the 14th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
 
 .. figure:: ../_static/img/3d-tabular-report-header.png
    :alt: Tabular Report layout
@@ -42,7 +42,7 @@ The first 12 rows of a tabular COUNTER report contain the header, and the 13th r
 
 .. centered:: Figure 3.d: Common Report Header Information
 
-Figure 3.d (above) shows the layout of the common header. The 12 elements in Column A and the values in Column B are discussed in more detail in the table below. Note that the element names (Column A) MUST appear in the COUNTER report exactly as they are shown here. Capitalization, spelling, and punctuation MUST match exactly.
+Figure 3.d (above) shows the layout of the common header. The 13 elements in Column A and the values in Column B are discussed in more detail in the table below. Note that the element names (Column A) MUST appear in the COUNTER report exactly as they are shown here. Capitalization, spelling, and punctuation MUST match exactly.
 
 Table 3.f (below): COUNTER Report Header Elements
 
@@ -116,8 +116,12 @@ Table 3.f (below): COUNTER Report Header Elements
      - EBSCO Information Services\ |br|\ |lb|
        360 COUNTER
 
+   * - Registry
+     - The link to the platform's COUNTER Registry record.
+     - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
+
    * - (blank row)
-     - Row 13 MUST be blank.
+     - Row 14 MUST be blank.
      -
 
 
