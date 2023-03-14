@@ -253,6 +253,15 @@ Table F.1 (below): Exceptions
 
        Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
 
+   * - Components Not Supported
+     - Warning\ |br|\ |lb|
+       Error
+     - 3063
+     - 200
+     - The request contained Component attribute values that are not supported by the server. The server should list the names of unsupported report attribute values in the additional Data element.
+
+       Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
+
    * - Required ReportFilter Missing
      - Warning\ |br|\ |lb|
        Error
