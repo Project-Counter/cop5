@@ -76,7 +76,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
        This can be a higher education institution, or for example a country for a country-wide contract, or a publisher if an aggregator or discovery service wants to report usage of a publisher’s content to the publisher.
 
-       For reports including usage of open content that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+       Where reports show content usage that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
      - Mt. Laurel University
 
    * - Institution_ID

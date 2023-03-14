@@ -9,6 +9,8 @@ Database Reports
 
 Database Reports provide a summary of activity related to a given database or fixed collection of content that is packaged like a database. These reports provide a means of evaluating the impact a database has for an institution’s users.
 
+To better facilitate open access reporting, report providers are encouraged to provide a Global Database Report including all global usage, whether attributed to institutions or not. The Global Database Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+
 Table 4.d (below): Database Report and Standard Views of the Database Report
 
 .. only:: latex
@@ -60,6 +62,8 @@ Report Header
 """""""""""""
 
 The table below shows the header details for the Database Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+
+Note that for the Global Database Report, if provided, the Institution_Name should be “The World”.
 
 Table 4.e (below): Header for Database Report and Standard Views of the Database Report
 

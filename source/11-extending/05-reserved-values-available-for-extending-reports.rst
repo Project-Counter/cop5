@@ -66,7 +66,7 @@ COUNTER recognizes that there are some common extensions that content providers 
      - CA-QC
 
    * - Attributed
-     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
+     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a Global Platform Report, Global Database Report, Global Title Report or Global Item Report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
      - PR, DR, TR, IR
      - No
 
