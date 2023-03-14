@@ -9,7 +9,7 @@ Formats for COUNTER Reports
 
 R5 reports can be delivered in tabular form, or as machine-readable data (JSON) via the COUNTER_SUSHI API. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
-All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the “Journal Requests (Excluding OA_Gold)” Standard View. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
+All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the “Journal Requests (Controlled)” Standard View. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
 
 .. figure:: ../_static/img/3b-standard-view-sample.png
    :alt: Standard View sample
@@ -61,7 +61,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
    * - Report_Name
      - The name of the report as it appears in :numref:`reports-for-libraries`.
-     - Journal Requests (Excluding OA_Gold)
+     - Journal Requests (Controlled)
 
    * - Report_ID
      - The unique identifier for the report as it appears in :numref:`reports-for-libraries`.
@@ -501,7 +501,8 @@ Table 3.l (below): Elements for Item and Report Attributes
      - TR, IR\ |br|\ |lb|
        TR_B3, TR_J3, IR_A1
      - Controlled\ |br|\ |lb|
-       OA_Gold
+       Open\ |br|\ |lb|
+       Free_To_Read
 
    * - Access_Method
      - See :numref:`access-methods` for more detail.

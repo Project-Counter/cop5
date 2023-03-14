@@ -413,8 +413,8 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - Access_Type
      - One or more or all (default) of:\ |br|\ |lb|
        - Controlled\ |br|\ |lb|
-       - OA_Gold\ |br|\ |lb|
-       - Other_Free_To_Read
+       - Open\ |br|\ |lb|
+       - Free_To_Read
      -
      -
 

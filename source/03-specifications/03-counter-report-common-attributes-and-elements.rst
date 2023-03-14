@@ -526,6 +526,11 @@ Access Types
 
 In order to track the value of usage for licensed content, librarians want to know how much Open Access or other freely available content was used and how much content was behind a paywall. To accommodate this R5 has introduced an Access_Type attribute with values of Controlled, OA_Gold, OA_Delayed, and Other_Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to. Note that Access_Type relates to access on the platform where the usage occurs: if access to a Gold Open Access article is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled.
 
+Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings. 
+
+* Open was previously known as OA_Gold. 
+* Free_To_Read was previously known as Other_Free_To_Read and was restricted for use by Repositories. It is now available for all Host_Types to use. 
+
 Table 3.u (below): List of Access_Type Values
 
 .. only:: latex
@@ -543,9 +548,7 @@ Table 3.u (below): List of Access_Type Values
      - Reports
 
    * - Controlled
-     - At the time of the Request or Investigation the content item was not open (e.g. behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription/license would be considered Controlled.
-
-       Platforms providing content that has been made freely available but is not OA_Gold (e.g. free for marketing purposes or because the title offers free access after a year) MUST be tracked as Controlled.
+     - At the time of the Request or Investigation the content item was restricted to authorized users (e.g. behind a paywall) on this platform. This includes free content that is only available to authorized (registered) users.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -557,10 +560,8 @@ Table 3.u (below): List of Access_Type Values
      - TR, IR\ |br|\ |lb|
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
-   * - OA_Gold
-     - At the time of the user Request or Investigation the content item was available under a Gold Open Access license (content that is immediately and permanently available as Open Access because an article processing charge applies or the publication process was sponsored by a library, society, or other organization). Content items may be in hybrid publications or fully Open Access publications.
-
-       Note that content items offered as Delayed Open Access (open after an embargo period) MUST currently be classified as Controlled, pending the implementation of OA_Delayed.
+   * - Open
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
      - Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eJournal\ |br|\ |lb|
@@ -570,19 +571,8 @@ Table 3.u (below): List of Access_Type Values
      - TR, IR\ |br|\ |lb|
        TR_B3, TR_J3, IR_A1, IR_M1
 
-   * - OA_Delayed
-     - \*\*\* RESERVED FOR FUTURE USE - DO NOT IMPLEMENT \*\*\*
-
-       At the time of the user Request or Investigation the content item was available as Open Access after an embargo period had expired (Delayed Open Access). Note that author-archived works hosted in institutional repositories where access is restricted from public access for an embargo period will report usage as OA_Delayed for content accessed after the embargo period expires.
-
-       NOTE: This value is not to be used until its inclusion has been approved by COUNTER and a timeframe for implementation published by COUNTER.
-     -
-     -
-
-   * - Other_Free_To_Read
-     - At the time of the transaction the content item was available as free-to-read (no license required) and did not qualify under the OA_Gold Access_Type.
-
-       NOTE: This value is for institutional repositories only. Institutional repositories may also use Access_Type Other_Free_To_Read in the Title Report if this report is offered.
+   * - Free_To_Read
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
      - Data_Repository\ |br|\ |lb|
        Repository
      - IR\ |br|\ |lb|
