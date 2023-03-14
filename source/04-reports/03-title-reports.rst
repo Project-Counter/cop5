@@ -294,6 +294,10 @@ Table 4.j (below): Header for Standard Views of the Title Report - Part 2 (for J
      - :cspan:`3` *Name of organization or system that generated the report.*
 
    * - 13
+     - Registry
+     - :cspan:`1` *Link to the platform's COUNTER Registry record.*
+
+   * - 14
      - *(blank)*
      - *(blank)*
      - *(blank)*
