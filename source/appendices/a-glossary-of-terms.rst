@@ -43,7 +43,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Regular, TDM
 
    * - Access_Type
-     - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item at the time when the content item was accessed.
+     - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item on the platform at the time when the content item was accessed.
      - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
 
    * - Aggregated_Full_Content
