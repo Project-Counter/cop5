@@ -7,7 +7,7 @@
 Item Reports
 ------------
 
-Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons.
+Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons. To better facilitate open access reporting, Release 5.1 encourages publishers with open access content to provide the Item Report. 
 
 Table 4.n (below): Item Report and Standard Views of the Item Report
 
@@ -31,7 +31,12 @@ Table 4.n (below): Item Report and Standard Views of the Item Report
      - Data_Repository*\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+       Scholarly_Collaboration_Network\ |br|\ |lb|
+       Four other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
+       eJournal
 
    * - IR_A1
      - Journal Article Requests

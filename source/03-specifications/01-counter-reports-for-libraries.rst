@@ -64,7 +64,13 @@ Table 3.a (below): COUNTER Reports
      - Data_Repository*\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+       Scholarly_Collaboration_Network\ |br|\ |lb|
+       Four other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
+       eJournal
+
 
 \* Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
 
@@ -255,7 +261,10 @@ Table 3.e (below): Standard Views of the Item Report
 
        This Standard View must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
      - Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
+       Scholarly_Collaboration_Network\ |br|\ |lb|
+       Twp other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       eJournal
 
    * - IR_M1
      - Multimedia Item Requests
