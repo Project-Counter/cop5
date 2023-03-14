@@ -524,7 +524,12 @@ Table 3.t (below): List of Metric_Types for Access Denied
 Access Types
 """"""""""""
 
-In order to track the value of usage for licensed content, librarians want to know how much Open Access or other freely available content was used and how much content was behind a paywall. To accommodate this R5 has introduced an Access_Type attribute with values of Controlled, OA_Gold, OA_Delayed, and Other_Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to. Note that Access_Type relates to access on the platform where the usage occurs: if access to a Gold Open Access article is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled.
+In order to separately track the usage of subscribed content, open access content, and freely available materials, R5 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
+
+The Access_Type applied to an item MUST adhere to the following principles:
+
+* Access_Type relates to access on the platform where the usage occurs: if access to a content item is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled, even if the content item is Open on a different platform.
+* Access_Type applies to all parts of a content item. That is, the metadata, the full-text (if any) and supplementary materials (if any) all share a single Access_Type. For a journal article, for example, an Investigation of the article metadata must be reported under the same Access_Type as a Request for the full article.
 
 Table 3.u (below): List of Access_Type Values
 
