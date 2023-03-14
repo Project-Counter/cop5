@@ -703,11 +703,11 @@ Table 3.x (below): Report Attributes
        (JSON)
 
    * - Include_Component_Details
-     - Specifies whether to include the component columns/elements (see Table 3.k) in the report. Permissible values are False (default) and True.
+     - Specifies whether to include the component columns/elements (see Table 3.k) in the report, where report providers offer component usage reporting. Permissible values are False (default) and True.
      - IR
 
    * - Include_Parent_Details
-     - Specifies whether to include the parent columns/elements (see Table 3.j) in the report. Permissible values are False (default) and True.
+     - Specifies whether to include the parent columns/elements (see Table 3.j) in the report, where report providers offer component usage reporting. Permissible values are False (default) and True.
      - IR
 
 

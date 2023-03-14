@@ -204,7 +204,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Component
-     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object).
+     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object). Report providers may choose to offer component usage reporting, but are not obliged to do so.
      -
 
    * - Consortium
@@ -579,11 +579,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Full-text article, Abstract, Database record, Dataset, Thesis
 
    * - Item Report
-     - A COUNTER report that provides usage data at the item or item-component level.
+     - A COUNTER report that provides usage data at the item or (at the discretion of the report provider) item-component level.
      -
 
    * - Item Reports
-     - A series of COUNTER reports that provide usage data at the item or item-component level.
+     - A series of COUNTER reports that provide usage data at the item or (at the discretion of the report provider) item-component level.
      -
 
    * - JavaScript Object Notation
