@@ -7,20 +7,22 @@ Transitioning to a New Reporting Service
 
 When a content provider implements a new reporting service, underlying logging system, or approach, they MUST continue to meet the requirement to offer valid COUNTER reports for the current year plus the prior 24 months (or from the date they first became compliant, whichever is later) via a web interface and via a SUSHI server.
 
-Availability of previous reports
+
+Availability of Previous Reports
 """"""""""""""""""""""""""""""""
 
-* Report providers MUST support COUNTER reports that may include a range of months that span the transition period.
 * Report providers SHOULD offer a single report with date ranges that span the transition period. That is, if the new reporting service was deployed in August of 2024 a customer could request a report for January-December 2024 and receive a single report.
 * When it is not practical to support a single report with date ranges that span the transition period, the content provider SHOULD perform the transition on the first day of a month. If the new reporting service was deployed in August 2024, a customer wanting January-December 2024 usage would request January-July 2024 from the previous reporting service and August-December 2024 from the new reporting service. 
 
-Project COUNTER is aware that it is not always possible to transition on the first day of a month (e.g. where a platform is moving from one service provider to another). Where a report provider has no option but to perform the transition mid-month, such that the customer is required to run reports on both the old and new reporting services for the same month, the report provider MUST provide clear guidance about and merging and summing the results to obtain actual monthly usage.
+Project COUNTER is aware that it is not always possible to transition on the first day of a month (e.g. where a platform is moving from one service provider to another). Where a report provider has no option but to perform the transition mid-month, such that the customer is required to run reports on both the old and new reporting services for the same month, the report provider MUST provide clear guidance about merging and summing the results to obtain actual monthly usage.
 
 Report providers MUST alert the COUNTER Project Director (tasha.mellins-cohen@counterusage.org) in advance of platforms transitioning to a new reporting service to ensure that the COUNTER Registry remains up-to-date (https://registry.projectcounter.org/). Transition details, including the date of transition, will be noted in the specific platform record and as a notification to report consumers.
 
-Dual running of reporting systems
+
+Dual Running of Reporting Systems
 """""""""""""""""""""""""""""""""
 
 Report providers have two options in respect of delivering previous reports, where they are unable to offer a single report with date ranges that span the transition period. 
-    * Support two reporting systems, such that reports on usage dating prior to transition are held in the old reporting service. In this case report consumers will access post-transition reports on the new reporting service and pre-transition reports on the old reporting service.
-    * Support the pre-transition reports on the new reporting service.
+
+* Support two reporting systems, such that reports on usage dating prior to transition are held in the old reporting service. In this case report consumers will access post-transition reports on the new reporting service and pre-transition reports on the old reporting service.
+* Support the pre-transition reports on the new reporting service.
