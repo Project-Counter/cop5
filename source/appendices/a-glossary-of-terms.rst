@@ -472,7 +472,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - General Data Protection Regulation.
      -
 
-   * - Global report
+   * - Global Report
      - A report to "The World" including all global usage, whether attributed to an institution or not.
      - 
 
