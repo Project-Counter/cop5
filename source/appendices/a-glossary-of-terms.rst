@@ -695,7 +695,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Open
-     - A COUNTER Access_Type, previously known as OA_Gold. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
      -
 
    * - Open Access

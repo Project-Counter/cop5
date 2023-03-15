@@ -387,7 +387,7 @@ Unique_Item metrics have been introduced in R5 to help eliminate the effect diff
 
 Unique_Title metrics have been introduced in R5 to help normalize eBook metrics. Since eBooks can be downloaded as an entire book in a single PDF or as separate chapters, the counts for R4’s BR1 (book downloads) and BR2 (section downloads) are not comparable. With R5, the book’s Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered.
 
-The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both OA_Gold and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
+The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 
 Table 3.s (below): List of Metric_Types for Requests and Investigations
 
@@ -524,12 +524,9 @@ Table 3.t (below): List of Metric_Types for Access Denied
 Access Types
 """"""""""""
 
-In order to track the value of usage for licensed content, librarians want to know how much Open Access or other freely available content was used and how much content was behind a paywall. To accommodate this R5 has introduced an Access_Type attribute with values of Controlled, OA_Gold, OA_Delayed, and Other_Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to. Note that Access_Type relates to access on the platform where the usage occurs: if access to a Gold Open Access article is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled.
+In order to track the value of usage for licensed content, librarians want to know how much Open Access or other freely available content was used and how much content was behind a paywall. To accommodate this R5 introduced an Access_Type attribute. The table below lists the Access_Types and the Host_Types and reports they apply to. Note that Access_Type relates to access on the platform where the usage occurs: if access to an Open Access article is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled.
 
-Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings. 
-
-* Open was previously known as OA_Gold. 
-* Free_To_Read was previously known as Other_Free_To_Read and was restricted for use by Repositories. It is now available for all Host_Types to use. 
+Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings.
 
 Table 3.u (below): List of Access_Type Values
 

@@ -16,7 +16,7 @@ All COUNTER reports have the same layout and structure. Figure 3.b (below) provi
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.b: Sample “Journal Requests (Excluding OA_Gold)” Standard View
+.. centered:: Figure 3.b: Sample “Journal Requests (Controlled)” Standard View
 
 .. figure:: ../_static/img/3c-tabular-report-layout.png
    :alt: Tabular Report layout
