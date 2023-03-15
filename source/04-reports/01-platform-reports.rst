@@ -27,7 +27,7 @@ Table 4 (below): Platform Report and Standard Views of the Platform Report
 
    * - PR
      - Platform Report
-     - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
+     - A customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options.
      - All Host_Types
 
    * - PR_P1

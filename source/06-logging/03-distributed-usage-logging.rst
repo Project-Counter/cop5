@@ -17,4 +17,4 @@ Distributed Usage Logging (DUL) was an initiative sponsored by Crossref that pro
 * The publisher receiving transactions through DUL is responsible for performing COUNTER processing to eliminate double-clicks, eliminate robot/crawler or other rogue usage, and perform the actions to identify unique items and unique titles.
 * Publishers that plan to include usage reported through DUL in their COUNTER Reports are responsible for ensuring that DUL-reported usage is included in the audit.
 
-The Crossref project has terminated but this process could be used by content providers to capture usage activity related to their content that happens on sites other than their own.
+The Crossref project has terminated but this process could be used by report providers to capture usage activity related to their content that happens on sites other than their own.

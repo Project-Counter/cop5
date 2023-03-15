@@ -7,7 +7,7 @@
 Extending the Code of Practice
 ==============================
 
-COUNTER recognises that some content providers may want to provide customized versions of COUNTER reports to address reporting needs specific to their platform and content. This section describes a method of extending the Code of Practice that avoids creating conflicting custom implementations between content providers.
+COUNTER recognises that some report providers may want to provide customized versions of COUNTER reports to address reporting needs specific to their platform and content. This section describes a method of extending the Code of Practice that avoids creating conflicting custom implementations between content providers.
 
 .. toctree::
    :maxdepth: 1

@@ -7,10 +7,10 @@ Transitioning from COUNTER R4 to R5
 
 The transition from R4 to R5 meets the general requirements outlined in :numref:`transitioning-new-cop`.
 
-* Content providers MUST be compliant by February 2019 for delivery of R5 reports starting with January 2019 usage.
-* Content providers may choose to release their R5 compliant reporting service before February 2019.
-* A content provider’s customers MUST be able to obtain R4-compliant reports for that content provider from the time the content provider’s R5 reporting service was released through to April 2019 (providing access to March 2019 usage). A content provider may provide access to R4 reports beyond April 2019 at their discretion.
-* Content providers may choose to meet the requirement to provide R4 reports based on R5 metrics. The following R4 reports must be supported (when applicable to the platform): BR1, BR2, BR3, DB1, DB2, JR1, JR2, JR5, and PR1. The following table presents the equivalent R4 metric types and R5 Metric_Types and filters by report.
+* Report providers MUST be compliant by February 2019 for delivery of R5 reports starting with January 2019 usage.
+* Report providers may choose to release their R5 compliant reporting service before February 2019.
+* A report provider’s customers MUST be able to obtain R4-compliant reports for that report provider from the time the report provider’s R5 reporting service was released through to April 2019 (providing access to March 2019 usage). A report provider may provide access to R4 reports beyond April 2019 at their discretion.
+* Report providers may choose to meet the requirement to provide R4 reports based on R5 metrics. The following R4 reports must be supported (when applicable to the platform): BR1, BR2, BR3, DB1, DB2, JR1, JR2, JR5, and PR1. The following table presents the equivalent R4 metric types and R5 Metric_Types and filters by report.
 
 .. only:: latex
 
@@ -51,7 +51,7 @@ The transition from R4 to R5 meets the general requirements outlined in :numref:
      - Total_Item_Investigations attributed to the database
 
    * - Record views
-     - Total_Item_Investigations attributed to the database. (Note that resulting result click and record view counts will be the same. Librarians should use one or the other and not add them up.)
+     - Total_Item_Investigations attributed to the database. (Note that resulting result click and record view counts will be the same. Report consumers should use one or the other and not add them up.)
 
    * - :rspan:`1` DB2
      - Access denied - concurrent/simultaneous user limit exceeded
@@ -92,4 +92,4 @@ The transition from R4 to R5 meets the general requirements outlined in :numref:
      - SUM (Total_Item_Investigations attributed to the databases)
 
    * - Record views
-     - SUM (Total_Item_Investigations attributed to the databases). (Note that resulting result click and record view counts will be the same. Librarians should use one or the other and not add them up.)
+     - SUM (Total_Item_Investigations attributed to the databases). (Note that resulting result click and record view counts will be the same. Report consumers should use one or the other and not add them up.)

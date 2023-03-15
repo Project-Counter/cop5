@@ -7,7 +7,7 @@
 Processing Rules for Underlying COUNTER Reporting Data
 ======================================================
 
-Usage data collected by content providers for the usage reports to be sent to customers should meet the basic requirement that only intended usage is recorded and that all requests that are not intended by the user are removed.
+Usage data collected by report providers for the usage reports to be sent to customers should meet the basic requirement that only intended usage is recorded and that all requests that are not intended by the user are removed.
 
 Because the way usage records are generated can differ across platforms, it is impractical to describe all the possible filters and techniques used to clean up the data. This Code of Practice, therefore, specifies only the requirements to be met by the data to be used for building the usage reports.
 

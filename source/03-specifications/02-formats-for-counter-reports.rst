@@ -60,11 +60,11 @@ Table 3.f (below): COUNTER Report Header Elements
      - Example
 
    * - Report_Name
-     - The name of the report as it appears in :numref:`reports-for-libraries`.
+     - The name of the report as it appears in :numref:`reports`.
      - Journal Requests (Excluding OA_Gold)
 
    * - Report_ID
-     - The unique identifier for the report as it appears in :numref:`reports-for-libraries`.
+     - The unique identifier for the report as it appears in :numref:`reports`.
      - TR_J1
 
    * - Release
@@ -80,7 +80,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - Mt. Laurel University
 
    * - Institution_ID
-     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
      - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 
    * - Metric_Types
@@ -178,12 +178,12 @@ Table 3.g (below): Elements that Describe the Report Item
        APA
 
    * - Publisher_ID
-     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
 
-For Database the value MUST NOT be empty. For Title, Item and Publisher the value SHOULD NOT be empty, and if the value for Title or Item is empty at least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI MUST be provided so that the report item can be identified. Note that content providers are expected to make all reasonable efforts to provide this information and that using an empty value may affect the result of an audit (see :numref:`missing-values`).
+For Database the value MUST NOT be empty. For Title, Item and Publisher the value SHOULD NOT be empty, and if the value for Title or Item is empty at least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI MUST be provided so that the report item can be identified. Note that report providers are expected to make all reasonable efforts to provide this information and that using an empty value may affect the result of an audit (see :numref:`missing-values`).
 
 
 .. rubric:: Platform
@@ -261,7 +261,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - 10.1629/uksg.434
 
    * - Proprietary_ID
-     - A proprietary ID assigned by the content provider for the item being reported on. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the host which assigned the proprietary identifier.
+     - A proprietary ID assigned by the report provider for the item being reported on. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the host which assigned the proprietary identifier.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - publisherA:jnrlCode123

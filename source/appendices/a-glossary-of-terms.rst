@@ -47,7 +47,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
 
    * - Aggregated_Full_Content
-     - A COUNTER Host_Type for content providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - A COUNTER Host_Type for report providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
      -
 
    * - Aggregated full-text database
@@ -55,7 +55,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Academic Search Complete
 
    * - Aggregator
-     - A type of content provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
+     - A type of report provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
 
    * - A&I database\ |br|\ |lb|
@@ -226,8 +226,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Content provider
-     - An organisation, such as a publisher, aggregator or subscriptions agent, who provides access to resources on a subscription basis. [`Knowledge Base+ <https://knowledgebaseplus.wordpress.com/kb-support/kb-discussion-documents/kb-concepts-and-terminology/>`__]
-     - Science Direct, Clarivate, JSTOR
+     - See Report provider. 
+
+       An organisation, such as a publisher, aggregator or subscriptions agent, who provides access to content. [https://knowledgebaseplus.wordpress.com/kb-support/kb-discussion-documents/kb-concepts-and-terminology/]
+    - 
 
    * - Controlled
      - A COUNTER Access_Type. At the time of the transaction, the content item was not open (e.g. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled.
@@ -274,7 +276,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Customer
-     - An individual or organization that can access a specified range of the content provider’s services and/or content that is subject to the agreed terms and conditions.
+     - An individual or organization that can access a specified range of the report provider’s services and/or content that is subject to the agreed terms and conditions.
      -
 
    * - Customer_ID
@@ -455,7 +457,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Full_Content_Database
-     - A COUNTER Host_Type for content providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
 
        Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
      -
@@ -529,7 +531,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - IP address
-     - Internet protocol (IP) address of the computer on which the session is conducted. May be used by content providers as a means of authentication and authorization and for identifying the institution a user is affiliated with.
+     - Internet protocol (IP) address of the computer on which the session is conducted. May be used by report providers as a means of authentication and authorization and for identifying the institution a user is affiliated with.
 
        The identifying network address (typically four 8-bit numbers separated by “.” for IPv4 or eight groups of up to four hexadezimal numbers separated by “:” for IPv6) of the user’s computer or proxy.
      -
@@ -789,7 +791,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - 0028-4793
 
    * - Proprietary_ID
-     - A COUNTER report item identifier for a unique identifier given by publishers and other content providers to a product or collection of products.
+     - A COUNTER report item identifier for a unique identifier given by publishers and other report providers to a product or collection of products.
      -
 
    * - Proprietary Identifier
@@ -828,7 +830,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Registry of compliance
-     - The COUNTER register of content providers compliant with the COUNTER Code of Practice.
+     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [https://registry.projectcounter.org/].
      -
 
    * - Regular
@@ -856,6 +858,9 @@ Note: The main Code of Practice document takes precedence in the case of any con
        In COUNTER Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
+   * - Report consumer
+     - An umbrella term referring to all those who make use of COUNTER reports, including librarians, consortia managers, publisher and aggregator staff, etc.
+
    * - Report filters\ |br|\ |lb|
        Report_Filters
      - Report filters can be used to limit the usage returned in a COUNTER report. For Standard Views of the COUNTER Reports the report filters are pre-set, for COUNTER Reports they can be used to customize the report.
@@ -871,6 +876,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
        Report_Name
      - The name of a COUNTER Report or Standard View of a COUNTER Report.
      - Journal Requests (Excluding OA_Gold)
+
+   * - Report provider
+     - An umbrella term. Includes publishers, aggregators and others who directly provide access to content, as well as organizations that provide specialist reporting services on behalf of one or more organizations.
+     - Science Direct, Clarivate, JSTOR, ScholarlyIQ
 
    * - Report validation tool
      - See COUNTER Report Validation Tool.
@@ -1008,7 +1017,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Session ID
-     - A unique identifier for a single user session. If the content provider's web-site does not assign and capture a unique identifier to each user session, then a surrogate session ID can be generated using the browser user-agent, the user's IP address and a one hour time slice (see :numref:`processing` for details). The Session ID is used for double-click filtering and computing Unique_Item and Unique_Title metrics.
+     - A unique identifier for a single user session. If the report provider's web-site does not assign and capture a unique identifier to each user session, then a surrogate session ID can be generated using the browser user-agent, the user's IP address and a one hour time slice (see :numref:`processing` for details). The Session ID is used for double-click filtering and computing Unique_Item and Unique_Title metrics.
      -
 
    * - Sites
@@ -1083,7 +1092,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Total_Item_Requests
-     - A COUNTER Metric_Type that represents the number of times users requested the full content (e.g. a full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the content provider.
+     - A COUNTER Metric_Type that represents the number of times users requested the full content (e.g. a full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the report provider.
      -
 
    * - TR

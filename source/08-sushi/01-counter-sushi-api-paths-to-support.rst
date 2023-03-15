@@ -22,7 +22,7 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /status
-     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the Register of COUNTER Compliant Content Providers, and an array of service alerts (if any).
+     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the Register of COUNTER Compliant Report Providers, and an array of service alerts (if any).
 
    * - GET
      - /reports

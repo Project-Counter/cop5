@@ -7,7 +7,7 @@
 Reserved Elements and Values Available for Extending Reports
 ------------------------------------------------------------
 
-COUNTER recognizes that there are some common extensions that content providers might want to include in COUNTER Reports or when creating custom reports; therefore the following element names and values have been reserved for this common use:
+COUNTER recognizes that there are some common extensions that report providers might want to include in COUNTER Reports or when creating custom reports; therefore the following element names and values have been reserved for this common use:
 
 .. only:: latex
 
@@ -34,7 +34,7 @@ COUNTER recognizes that there are some common extensions that content providers 
      - Mt. Laurel University
 
    * - Format
-     - By tracking the Format, content providers can generate R4 usage reports from R5 usage during the transition period. Reserved values for Format are:
+     - By tracking the Format, report providers can generate R4 usage reports from R5 usage during the transition period. Reserved values for Format are:
 
        * HTML
        * PDF
@@ -66,8 +66,8 @@ COUNTER recognizes that there are some common extensions that content providers 
      - CA-QC
 
    * - Attributed
-     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
+     - Whether the report provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
      - PR, DR, TR, IR
      - No
 
-Note that by supporting the Institution_Name and Customer_ID extensions content providers can offer COUNTER Reports to consortia with usage broken down by their members. If a consortium requests a report with Institution_Name and/or Customer_ID, the usage would be broken down by institution if the extension is supported by the content provider, otherwise the usage would be summarised over all consortium members as usual.
+Note that by supporting the Institution_Name and Customer_ID extensions report providers can offer COUNTER Reports to consortia with usage broken down by their members. If a consortium requests a report with Institution_Name and/or Customer_ID, the usage would be broken down by institution if the extension is supported by the report provider, otherwise the usage would be summarised over all consortium members as usual.
