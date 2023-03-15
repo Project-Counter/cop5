@@ -44,6 +44,11 @@ COUNTER recognizes that there are some common extensions that content providers 
      - TR
      - PDF
 
+   * - Book_Segment_Count
+     - The number of Book_Segments within a Book. Note that this extension MUST only be used where the number of Book_Segments is known, and MUST NOT be used where the number of Book_Segments is only being estimated.
+     - PR, DR, TR
+     - 52
+
    * - Country_Name
      - Name of the country according to ISO 3166-1. Note that the standard allows country names in different languages. The name is included for easier reading, for processing the reports the Country_Code should be used.
      - PR, DR, TR, IR
