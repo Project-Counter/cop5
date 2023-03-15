@@ -15,7 +15,7 @@ Content providers may offer additional COUNTER Reports and Standard Views of the
 
 
 COUNTER Reports
-""""""""""""""
+"""""""""""""""
 
 COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing librarians to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
@@ -64,12 +64,7 @@ Table 3.a (below): COUNTER Reports
      - Data_Repository*\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network\ |br|\ |lb|
-       Four other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal
+       Scholarly_Collaboration_Network
 
 
 \* Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
@@ -83,6 +78,13 @@ Figure 3.a (below) provides an example of how the user interface could look. The
 	    
 .. centered:: Figure 3.a: Example of a user interface
 
+
+Reporting for open access
+'''''''''''''''''''''''''''''''''''''
+
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not. 
+
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an insitution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
 
 Standard Views of the COUNTER Reports
 """""""""""""""""""""""""""""""""""""
@@ -261,10 +263,7 @@ Table 3.e (below): Standard Views of the Item Report
 
        This Standard View must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
      - Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network\ |br|\ |lb|
-       Twp other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       eJournal
+       Scholarly_Collaboration_Network
 
    * - IR_M1
      - Multimedia Item Requests
