@@ -253,6 +253,15 @@ Table F.1 (below): Exceptions
 
        Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
 
+   * - Components Not Supported
+     - Warning\ |br|\ |lb|
+       Error
+     - 3063
+     - 200
+     - The request contained include_component_details=True, but reporting on component usage is not supported.
+
+       Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
+
    * - Required ReportFilter Missing
      - Warning\ |br|\ |lb|
        Error
