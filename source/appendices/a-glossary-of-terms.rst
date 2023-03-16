@@ -226,10 +226,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Content provider
-     - See Report provider. 
-
-       An organisation, such as a publisher, aggregator or subscriptions agent, who provides access to content. [https://knowledgebaseplus.wordpress.com/kb-support/kb-discussion-documents/kb-concepts-and-terminology/]
-    - 
+     - See Report provider.
+     -
 
    * - Controlled
      - A COUNTER Access_Type. At the time of the transaction, the content item was not open (e.g. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled.
@@ -860,6 +858,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Report consumer
      - An umbrella term referring to all those who make use of COUNTER reports, including librarians, consortia managers, publisher and aggregator staff, etc.
+     -
 
    * - Report filters\ |br|\ |lb|
        Report_Filters
@@ -994,7 +993,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Section_Type
      - A COUNTER report attribute that identifies the type of section that was accessed by the user.
-     - Article, Book, Chapter, Other, 
+     - Article, Book, Chapter, Other
 
    * - Serial
      - A publication in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely. This definition includes periodicals, journals, magazines, electronic journals, ongoing directories, annual reports, newspapers, monographic series, and also those journals, magazines, and newsletters of limited duration that otherwise bear all the characteristics of serials (e.g. newsletter of an event). [NISO]
