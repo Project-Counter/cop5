@@ -7,20 +7,20 @@
 COUNTER Reporting for Consortia
 -------------------------------
 
-Consortia license content for their members and consortia managers and administrators need access to COUNTER statistics that show how each member within a given consortium has used the licensed resources.
+Consortia license content for their members, and consortia managers and administrators need access to COUNTER statistics that show how each member within a given consortium has used the licensed resources.
 
 
 Types of Consortia-Level Report
 """""""""""""""""""""""""""""""
 
 There are three types of consortia-level reporting:
-m
+
 * Report providers MUST offer summary reports that show total usage for all members of the consortium rolled up to the consortia level, and which cannot be broken down by institution. The totals on the summary report may differ from the sum of the totals on individual member reports for the same items if an authentication method used identifies to multiple member sites and usage it attributed to each such site (e.g. overlapping IP ranges).
 * Report providers may elect to offer detailed reports that show total usage for all members of the consortium rolled up to the consortia level, and which can be broken down by institution. As with the summary report, the totals on the detailed report may differ from the sum of the totals on individual member reports for the same items.
 * Institutional reports are the individual institutional-level reports. Consortia managers and administrators MUST be able to retrieve institutional reports.
 
-
 Note that consortia-level reports are restricted to COUNTER Reports. The Standard Views of the COUNTER Reports are not available as consortia-level reports.
+
 
 Creating Detailed Consortia-Level Reports
 """""""""""""""""""""""""""""""""""""""""
@@ -30,7 +30,6 @@ COUNTER recognizes that consolidated reports can be helpful to consortia, and th
 * The Customer_ID used in a detailed report MUST match that used in a report to the individual institution, and the ID for the institution returned by the /members COUNTER_SUSHI API path.
 * If provided, the Institution_Name used in a detailed report should match that used in a report to the individual institution, and the name for the institution returned by the /members COUNTER_SUSHI API path.
 * If provided, Institution_Name should be the first column in the tabular report, with Customer_ID the second column. Otherwise Customer_ID should be the first column. 
-
 
 As they are optional, detailed reports are not subject to COUNTER audits.
 
@@ -57,4 +56,3 @@ Content to Report Usage On
 When a COUNTER report is harvested by a consortium administrator, a report provider may choose to limit member usage to include only content acquired through the consortium. Note that when such a limitation is in place the resulting report may differ from the member-sites own version of the report. Since not all report providers can provide such limits, the consortium will be responsible for ensuring usage is filtered to the content they license for members.
 
 When the report provider chooses to limit member usage to only content acquired through the consortium, they MUST include a message to this effect in the Notes element in their implementation of the /members path in the COUNTER_SUSHI API (see :numref:`sushi` above).
-
