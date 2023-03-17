@@ -32,11 +32,6 @@ Table 4.n (below): Item Report and Standard Views of the Item Report
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network\ |br|\ |lb|
-       Four other Host_Types are encouraged but not required to provide Item Reports, specifically\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal
 
    * - IR_A1
      - Journal Article Requests
@@ -458,3 +453,11 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
      -
 
 If a filter is applied to a column that doesn’t show on the report, usage for all selected attribute values is summed and the totals are presented in the report.
+
+
+Reporting for open access
+'''''''''''''''''''''''''''''''''''''
+
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not. 
+
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an insitution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
