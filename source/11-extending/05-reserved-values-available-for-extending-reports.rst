@@ -24,7 +24,7 @@ COUNTER recognizes that there are some common extensions that content providers 
      - Examples
 
    * - Customer_ID
-     - When a COUNTER Report contains usage for multiple organizations, this element can be used to break the usage down by institution. The Customer_ID MUST match the Customer_ID in the report header in a JSON report for that institution and the Customer_ID for the institution returned by the /members COUNTER_SUSHI API path. If Customer_ID is included in a tabular report, it MUST be the second column if Institution_Name is also included, or the first column if Institution_Name is not included.
+     - When a COUNTER Report contains usage for multiple organizations, this element can be used to break the usage down by institution. The Customer_ID MUST match the Customer_ID in the report header in a JSON report for that institution and the Customer_ID for the institution returned by the /members COUNTER_SUSHI API path. Customer_ID 0000000000000000 is reserved for delivery of global reports to "The World". If Customer_ID is included in a tabular report, it MUST be the second column if Institution_Name is also included, or the first column if Institution_Name is not included.
      - PR, DR, TR, IR
      - C12345
 
@@ -43,6 +43,11 @@ COUNTER recognizes that there are some common extensions that content providers 
        The Format element MUST only be used in the Title Report (or custom reports) and for Metric_Type Total_Item_Requests. If Format is included in a tabular report, it MUST be the last column before Metric_Type, and for other Metric_Types than Total_Item_Requests the cells in the Format column MUST be empty.
      - TR
      - PDF
+
+   * - Book_Segment_Count
+     - The number of Book_Segments within a Book. Note that this extension MUST only be used where the number of Book_Segments is known, and MUST NOT be used where the number of Book_Segments is only being estimated.
+     - TR
+     - 52
 
    * - Country_Name
      - Name of the country according to ISO 3166-1. Note that the standard allows country names in different languages. The name is included for easier reading, for processing the reports the Country_Code should be used.
@@ -66,7 +71,7 @@ COUNTER recognizes that there are some common extensions that content providers 
      - CA-QC
 
    * - Attributed
-     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
+     - Whether the content provider was able to attribute the usage to an institution or not. Valid values are Yes and No. With this extension usage of open content that could not be attributed to an institution can be reported. The extension usually would be used in a Global Platform Report, Global Database Report, Global Title Report or Global Item Report for “The World” (see :numref:`report-header`) which could be broken down by geolocation with the Country and Subdivision extensions.
      - PR, DR, TR, IR
      - No
 

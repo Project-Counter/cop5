@@ -15,7 +15,7 @@ Content providers may offer additional COUNTER Reports and Standard Views of the
 
 
 COUNTER Reports
-""""""""""""""
+"""""""""""""""
 
 COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing librarians to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
@@ -74,8 +74,16 @@ Figure 3.a (below) provides an example of how the user interface could look. The
    :alt: Reporting user interface sample
    :align: center
    :width: 65%
-	    
+
 .. centered:: Figure 3.a: Example of a user interface
+
+
+Reporting for Open Access
+'''''''''''''''''''''''''
+
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
+
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
 
 
 Standard Views of the COUNTER Reports

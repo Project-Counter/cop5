@@ -43,7 +43,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Regular, TDM
 
    * - Access_Type
-     - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item at the time when the content item was accessed.
+     - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item on the platform at the time when the content item was accessed.
      - Controlled, Open, Free_to_Read
 
    * - Aggregated_Full_Content
@@ -204,7 +204,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Component
-     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object).
+     - A uniquely identifiable constituent part of a content item composed of more than one file (digital object). Report providers may choose to offer component usage reporting, but are not obliged to do so.
      -
 
    * - Consortium
@@ -476,6 +476,26 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - General Data Protection Regulation.
      -
 
+   * - Global Report
+     - A report to "The World" including all global usage, whether attributed to an institution or not.
+     - 
+
+   * - Global Database Report
+     - A Database Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Item Report
+     - An Item Report that is reporting all global usage to "The World", whether attributed to an institution or not. Particularly valuable for reporting on usage of open access content.
+     - 
+
+   * - Global Platform Report
+     - A Platform Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Title Report
+     - A Title Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
    * - Host
      - See Content host.
      - Ingenta, Semantico, SpringerLink
@@ -579,11 +599,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Full-text article, Abstract, Database record, Dataset, Thesis
 
    * - Item Report
-     - A COUNTER report that provides usage data at the item or item-component level.
+     - A COUNTER report that provides usage data at the item or (at the discretion of the report provider) item-component level.
      -
 
    * - Item Reports
-     - A series of COUNTER reports that provide usage data at the item or item-component level.
+     - A series of COUNTER reports that provide usage data at the item or (at the discretion of the report provider) item-component level.
      -
 
    * - JavaScript Object Notation
@@ -1054,6 +1074,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Text and data mining
      - See TDM.
      -
+
+   * - The World
+     - Used as the Institution_Name for global reports including all global usage, whether attributed to institutions or not.
+     - 
 
    * - Thesis or Dissertation\ |br|\ |lb|
        Thesis_Or_Dissertation

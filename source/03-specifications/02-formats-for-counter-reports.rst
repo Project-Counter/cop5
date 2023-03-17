@@ -33,7 +33,7 @@ All COUNTER reports have a header. In tabular reports, the header is separated f
 Report Header
 """""""""""""
 
-The first 12 rows of a tabular COUNTER report contain the header, and the 13th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
+The first 13 rows of a tabular COUNTER report contain the header, and the 14th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
 
 .. figure:: ../_static/img/3d-tabular-report-header.png
    :alt: Tabular Report layout
@@ -42,7 +42,7 @@ The first 12 rows of a tabular COUNTER report contain the header, and the 13th r
 
 .. centered:: Figure 3.d: Common Report Header Information
 
-Figure 3.d (above) shows the layout of the common header. The 12 elements in Column A and the values in Column B are discussed in more detail in the table below. Note that the element names (Column A) MUST appear in the COUNTER report exactly as they are shown here. Capitalization, spelling, and punctuation MUST match exactly.
+Figure 3.d (above) shows the layout of the common header. The 13 elements in Column A and the values in Column B are discussed in more detail in the table below. Note that the element names (Column A) MUST appear in the COUNTER report exactly as they are shown here. Capitalization, spelling, and punctuation MUST match exactly.
 
 Table 3.f (below): COUNTER Report Header Elements
 
@@ -76,11 +76,13 @@ Table 3.f (below): COUNTER Report Header Elements
 
        This can be a higher education institution, or for example a country for a country-wide contract, or a publisher if an aggregator or discovery service wants to report usage of a publisher’s content to the publisher.
 
-       For reports including usage of open content that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+       Where reports show content usage that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
      - Mt. Laurel University
 
    * - Institution_ID
      - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+
+       For reports to "The World", Institution_ID should be 0000000000000000, with the platform ID as namespace.
      - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 
    * - Metric_Types
@@ -116,8 +118,12 @@ Table 3.f (below): COUNTER Report Header Elements
      - EBSCO Information Services\ |br|\ |lb|
        360 COUNTER
 
+   * - Registry
+     - The link to the platform's COUNTER Registry record.
+     - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
+
    * - (blank row)
-     - Row 13 MUST be blank.
+     - Row 14 MUST be blank.
      -
 
 
@@ -383,7 +389,7 @@ At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URL MUST be i
 
 .. rubric:: Component Item Description and Identifiers
 
-Repositories often store multiple components for a given repository item. These components could take the form of multiple files or datasets, which can be identified and usage reported on separately in Item Reports. Note that the component usage may only be reported for Total_Item_Investigations and Total_Item_Request. For other Metric_Types the usage cannot be broken down by component and the corresponding cells MUST be empty.
+Repositories often store multiple components for a given repository item. These components could take the form of multiple files or datasets, which can be identified and usage reported on separately in Item Reports. Note that reporting on component usage is optional. For report providers who elect to do so, the component usage may only be reported for Total_Item_Investigations and Total_Item_Request. For other Metric_Types the usage cannot be broken down by component and the corresponding cells MUST be empty.
 
 Table 3.k (below): Elements that Describe a Component Item
 
