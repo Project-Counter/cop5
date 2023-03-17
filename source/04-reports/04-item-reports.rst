@@ -7,7 +7,7 @@
 Item Reports
 ------------
 
-Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons.
+Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons. To better facilitate open access reporting, Release 5.1 encourages publishers with open access content to provide the Item Report.
 
 Table 4.n (below): Item Report and Standard Views of the Item Report
 
@@ -457,3 +457,11 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
      -
 
 If a filter is applied to a column that doesn’t show on the report, usage for all selected attribute values is summed and the totals are presented in the report.
+
+
+Reporting for Open Access
+"""""""""""""""""""""""""
+
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
+
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
