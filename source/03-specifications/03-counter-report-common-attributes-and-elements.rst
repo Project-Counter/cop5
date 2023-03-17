@@ -559,8 +559,10 @@ Table 3.u (below): List of Access_Type Values
 
    * - Open
      - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
-     - Data_Repository\ |br|\ |lb|
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
        eJournal\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
@@ -570,10 +572,16 @@ Table 3.u (below): List of Access_Type Values
 
    * - Free_To_Read
      - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
-     - Data_Repository\ |br|\ |lb|
-       Repository
-     - IR\ |br|\ |lb|
-       IR_A1
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Data_Repository\ |br|\ |lb|
+       eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
+       eJournal\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - TR, IR\ |br|\ |lb|
+       TR_B3, TR_J3, IR_A1, IR_M1
 
 
 .. _access-methods:
