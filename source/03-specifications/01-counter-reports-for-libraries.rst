@@ -66,7 +66,6 @@ Table 3.a (below): COUNTER Reports
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
-
 \* Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
 
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
@@ -75,16 +74,17 @@ Figure 3.a (below) provides an example of how the user interface could look. The
    :alt: Reporting user interface sample
    :align: center
    :width: 65%
-	    
+
 .. centered:: Figure 3.a: Example of a user interface
 
 
-Reporting for open access
-'''''''''''''''''''''''''''''''''''''
+Reporting for Open Access
+'''''''''''''''''''''''''
 
-All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not. 
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
 
-The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an insitution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
+
 
 Standard Views of the COUNTER Reports
 """""""""""""""""""""""""""""""""""""
