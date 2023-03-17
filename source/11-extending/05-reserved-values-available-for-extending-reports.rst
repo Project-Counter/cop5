@@ -46,7 +46,7 @@ COUNTER recognizes that there are some common extensions that content providers 
 
    * - Book_Segment_Count
      - The number of Book_Segments within a Book. Note that this extension MUST only be used where the number of Book_Segments is known, and MUST NOT be used where the number of Book_Segments is only being estimated.
-     - PR, DR, TR
+     - TR
      - 52
 
    * - Country_Name
