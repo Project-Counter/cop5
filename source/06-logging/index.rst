@@ -12,7 +12,7 @@ Usage data can be generated in a number of ways, and COUNTER does not prescribe 
 * Log file analysis, which reads the log files containing the web server records of all its transactions
 * Page tagging, which uses JavaScript on each page to notify a third-party server when a page is rendered by a web browser.
 
-Other options are to leverage Distributed Usage Logging (DUL) to capture content activity that happens on other websites. Each of these approaches has advantages and disadvantages, summarised below.
+Each of these approaches has advantages and disadvantages, summarised below.
 
 .. toctree::
    :maxdepth: 1

@@ -7,9 +7,9 @@
 Counting Unique Titles
 ----------------------
 
-Some COUNTER Metric_Types count the number of unique titles that had a certain activity, such as a Unique_Title_Requests or Unique_Title_Investigations.
+Some COUNTER Metric_Types count the number of unique book titles that had a certain activity, namely Unique_Title_Requests or Unique_Title_Investigations.
 
-For the purpose of COUNTER metrics, a title represents the parent work that the item is part of. When the item is a chapter or section, the title is the book. The title MUST be identified using a unique identifier (e.g. an ISBN for a book) regardless of format (e.g. PDF or HTML).
+For the purpose of COUNTER metrics, a title represents the book (parent work) that the item (book chapter or other segment) is part of. The title MUST be identified using a unique identifier (e.g. an ISBN for a book) regardless of format (e.g. PDF or HTML).
 
 The rules for calculating the unique title counts are as follows:
 

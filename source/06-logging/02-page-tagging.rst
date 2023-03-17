@@ -5,13 +5,14 @@
 Page Tagging
 ------------
 
-The main advantages of page tagging over log file analysis are:
+With the increasing use of cloud services, page tagging is becoming a preferred way to obtain analytics information. Page tagging and tag data analysis can be done in-house, but are also widely available as third-party services
 
-* Counting is activated by opening the page, not requesting it from the server. If a page is cached it will not be counted by the server. Cached pages can account for a significant proportion of page views.
-* Data is gathered via a component (tag) in the page, usually written in JavaScript although Java can also be used. JQuery and AJAX can also be used in conjunction with a server-side scripting language (such as PHP) to manipulate and store it in a database, allowing complete control over how the data is represented.
-* The script may have access to additional information on the web client or on the user, not sent in the query.
-* Page tagging can report on events that do not involve a request to the web server.
-* Page tagging is available to companies who do not have access to their own web servers.
-* The page-tagging service manages the process of assigning cookies to visitors; with log file analysis, the server must be configured to do this.
-* Recently page tagging has become a standard in web analytics.
-* Log file analysis is almost always performed in-house. Page tagging can be done in-house, but is more often provided as a third-party service. The cost differences between these two models can also be a consideration.
+Page tags are small pieces of code embedded in each page of a platform website. Data is gathered via these tags and passed to a database. This data can then be manipulated and stored, allowing complete control over how the
+data is represented. 
+
+A key difference between log file analysis and page tagging is that with page tags a usage count is activated by opening the page in the browser, not by requesting it from the server. This means page tagging is likely to offer a more accurate reflection of usage, because cached pages are counted in the same way as server calls.
+
+Other things to note in respect of page tagging are:
+
+* The data storage and manipulation script may have access to additional information about the web client or the user; for example, by reading information from the report providers' access management system.
+* Page-tagging services typically manage the process of assigning cookies to visitors.

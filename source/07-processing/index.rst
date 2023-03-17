@@ -19,8 +19,10 @@ Because the way usage records are generated can differ across platforms, it is i
    03-counting-unique-items
    04-counting-unique-titles
    05-attributing-usage-when-item-appears-in-more-than-one-database
-   06-federated-searches
-   07-discovery-services-and-other-multiple-database-searches
+   06-searches
+   07-federated-searches
    08-internet-robots-and-crawlers
    09-tools-and-features-that-enable-bulk-downloading
    10-text-and-data-mining
+   11-restating-data
+   12-usage-spikes
