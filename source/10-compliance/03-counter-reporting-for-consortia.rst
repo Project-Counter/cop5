@@ -15,11 +15,9 @@ Types of Consortia-Level Report
 
 There are three types of consortia-level reporting:
 
-* Report providers MUST offer summary reports that show total usage for all members of the consortium rolled up to the consortia level, and which cannot be broken down by institution. The totals on the summary report may differ from the sum of the totals on individual member reports for the same items if an authentication method used identifies to multiple member sites and usage it attributed to each such site (e.g. overlapping IP ranges).
-* Report providers may elect to offer detailed reports that show total usage for all members of the consortium rolled up to the consortia level, and which can be broken down by institution. As with the summary report, the totals on the detailed report may differ from the sum of the totals on individual member reports for the same items.
+* Report providers MUST offer summary reports that show total usage for all members of the consortium rolled up to the consortia level, and which cannot be broken down by institution. Summary reports MUST be offered for all relevant COUNTER Reports and Standard Views of the COUNTER Reports. The totals on the summary report may differ from the sum of the totals on individual member reports for the same items if an authentication method used identifies to multiple member sites and usage it attributed to each such site (e.g. overlapping IP ranges).
+* Report providers may elect to offer detailed reports that show total usage for all members of the consortium, and which can be broken down by institution. As with the summary report, the totals on the detailed report may differ from the sum of the totals on individual member reports for the same items.
 * Institutional reports are the individual institutional-level reports. Consortia managers and administrators MUST be able to retrieve institutional reports.
-
-Note that consortia-level reports are restricted to COUNTER Reports. The Standard Views of the COUNTER Reports are not available as consortia-level reports.
 
 
 Creating Detailed Consortia-Level Reports
@@ -28,8 +26,8 @@ Creating Detailed Consortia-Level Reports
 COUNTER recognizes that consolidated reports can be helpful to consortia, and that some report providers may want to meet the needs of their consortium customers by providing detailed reports. This can be done using existing extensions to the Code of Practice (see :numref:`reserved-elements`):
 
 * The Customer_ID used in a detailed report MUST match that used in a report to the individual institution, and the ID for the institution returned by the /members COUNTER_SUSHI API path.
-* If provided, the Institution_Name used in a detailed report should match that used in a report to the individual institution, and the name for the institution returned by the /members COUNTER_SUSHI API path.
-* If provided, Institution_Name should be the first column in the tabular report, with Customer_ID the second column. Otherwise Customer_ID should be the first column. 
+* If provided, the Institution_Name used in a detailed report MUST match that used in a report to the individual institution, and the name for the institution returned by the /members COUNTER_SUSHI API path.
+* If provided, Institution_Name MUST be the first column in the tabular report, with Customer_ID the second column. Otherwise Customer_ID should be the first column. 
 
 As they are optional, detailed reports are not subject to COUNTER audits.
 
