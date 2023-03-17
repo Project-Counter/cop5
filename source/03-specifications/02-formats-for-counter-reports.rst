@@ -60,11 +60,11 @@ Table 3.f (below): COUNTER Report Header Elements
      - Example
 
    * - Report_Name
-     - The name of the report as it appears in :numref:`reports`.
+     - The name of the report as it appears in :numref:`reports-for-consumers`.
      - Journal Requests (Excluding OA_Gold)
 
    * - Report_ID
-     - The unique identifier for the report as it appears in :numref:`reports`.
+     - The unique identifier for the report as it appears in :numref:`reports-for-consumers`.
      - TR_J1
 
    * - Release
