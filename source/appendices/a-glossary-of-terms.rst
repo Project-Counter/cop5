@@ -472,6 +472,26 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - General Data Protection Regulation.
      -
 
+   * - Global Report
+     - A report to "The World" including all global usage, whether attributed to an institution or not.
+     - 
+
+   * - Global Database Report
+     - A Database Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Item Report
+     - An Item Report that is reporting all global usage to "The World", whether attributed to an institution or not. Particularly valuable for reporting on usage of open access content.
+     - 
+
+   * - Global Platform Report
+     - A Platform Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Title Report
+     - A Title Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
    * - Gold Open Access
      - See OA_Gold.
      -
@@ -1052,6 +1072,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Text and data mining
      - See TDM.
      -
+
+   * - The World
+     - Used as the Institution_Name for global reports including all global usage, whether attributed to institutions or not.
+     - 
 
    * - Thesis or Dissertation\ |br|\ |lb|
        Thesis_Or_Dissertation

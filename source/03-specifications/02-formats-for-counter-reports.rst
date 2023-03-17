@@ -76,11 +76,13 @@ Table 3.f (below): COUNTER Report Header Elements
 
        This can be a higher education institution, or for example a country for a country-wide contract, or a publisher if an aggregator or discovery service wants to report usage of a publisher’s content to the publisher.
 
-       For reports including usage of open content that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+       Where reports show content usage that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
      - Mt. Laurel University
 
    * - Institution_ID
      - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+
+       For reports to "The World", Institution_ID should be 0000000000000000, with the platform ID as namespace.
      - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 
    * - Metric_Types
