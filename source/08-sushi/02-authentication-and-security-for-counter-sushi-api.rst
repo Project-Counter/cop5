@@ -17,4 +17,4 @@ Non-standard techniques for authentication (techniques not specified in the COUN
 
 If IP address authentication is implemented, it MUST allow the same SUSHI client (a single IP address) to harvest usage for multiple customer accounts (e.g. hosted ERM services).
 
-If global reports are available, the Customer_ID 0000000000000000 should be used for "The World". This follows the 16-digit ISNI structure but is an empty record. 
+If global reports are available, the customer_id 0000000000000000 should be used for "The World", with type proprietary_id. The report should be available to any valid requestor ID and/or API key. 
