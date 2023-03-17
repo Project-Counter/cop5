@@ -46,7 +46,7 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    :widths: 14 86
 
    * - Access_Type
-     - Used to track usage of content that is either OA_Gold (Gold Open Access) or Controlled (requires a license).
+     - Used to track usage of content that is either Open (open access), Free_To_Read, or Controlled (requires a license).
 
    * - Access_Method
      - Used to track if the purpose of the access was for regular use or for text and data mining (TDM). This attribute allows TDM usage to be excluded from Standard Views and reported on separately.

@@ -189,8 +189,8 @@ Table 3.d (below): Standard Views of the Title Report
      - Host_Types
 
    * - TR_B1
-     - Book Requests (Excluding OA_Gold)
-     - Reports on full-text activity for books, excluding Gold Open Access content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
+     - Book Requests (Controlled)
+     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
@@ -210,8 +210,8 @@ Table 3.d (below): Standard Views of the Title Report
        eBook_Collection
 
    * - TR_J1
-     - Journal Requests (Excluding OA_Gold)
-     - Reports on usage of journal content, excluding Gold Open Access content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity.
+     - Journal Requests (Controlled)
+     - Reports on usage of journal content, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity.
      - Aggregated_Full_Content\ |br|\ |lb|
        eJournal
 
@@ -228,8 +228,8 @@ Table 3.d (below): Standard Views of the Title Report
        eJournal
 
    * - TR_J4
-     - Journal Requests by YOP (Excluding OA_Gold)
-     - Breaks down the usage of journal content, excluding Gold Open Access content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreements. Note that COUNTER reports do not provide access model or perpetual access rights details.
+     - Journal Requests by YOP (Controlled)
+     - Breaks down the usage of journal content, excluding Open and Free_To_Read content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreements. Note that COUNTER reports do not provide access model or perpetual access rights details.
      - Aggregated_Full_Content\ |br|\ |lb|
        eJournal
 

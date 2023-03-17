@@ -30,7 +30,7 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /reports/*{Report_ID in lower case}*
-     - Each supported report has its own path, e.g. GET /reports/tr_b1 for “Book Requests (Excluding OA_Gold)”, GET /reports/tr_j1 for “Journal Requests (Excluding OA_Gold)”.
+     - Each supported report has its own path, e.g. GET /reports/tr_b1 for “Book Requests (Controlled)”, GET /reports/tr_j1 for “Journal Requests (Controlled)”.
 
    * - GET
      - /members

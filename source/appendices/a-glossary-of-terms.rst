@@ -44,7 +44,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Access_Type
      - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item on the platform at the time when the content item was accessed.
-     - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
+     - Controlled, Open, Free_to_Read
 
    * - Aggregated_Full_Content
      - A COUNTER Host_Type for content providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
@@ -230,7 +230,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Science Direct, Clarivate, JSTOR
 
    * - Controlled
-     - A COUNTER Access_Type. At the time of the transaction, the content item was not open (e.g. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled.
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was restricted to authorized users (e.g. behind a paywall) on this platform. This includes free content that is only available to authorized (registered) users. For example, trial subscription usage would be considered Controlled.
      -
 
    * - Copyright holder
@@ -316,7 +316,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Delayed Open Access
-     - See OA_Delayed.
+     - See Open.
      -
 
    * - Digital Object Identifier
@@ -407,7 +407,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Embargo period
-     - The period of time before an article is moved out from behind the paywall, i.e. from Controlled to OA_Delayed.
+     - The period of time before an article is moved out from behind the paywall, i.e. from Controlled to Open.
      -
 
    * - End_Date
@@ -454,6 +454,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A COUNTER element for extending reports, used to identify the format of the content. Reserved values include: HTML, PDF, Other.
      -
 
+   * - Free_to_Read
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
+     -
+
    * - Full_Content_Database
      - A COUNTER Host_Type for content providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
 
@@ -492,10 +496,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A Title Report that is reporting all global usage to "The World", whether attributed to an institution or not.
      - 
 
-   * - Gold Open Access
-     - See OA_Gold.
-     -
-
    * - Host
      - See Content host.
      - Ingenta, Semantico, SpringerLink
@@ -517,7 +517,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Hybrid publication
-     - A publication that is available via a subscription license but also contains articles available as Gold Open Access.
+     - A publication that is available via a subscription license but also contains articles available as Open Access.
      -
 
    * - Institution
@@ -710,14 +710,16 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Open Access.
      -
 
-   * - OA_Delayed
-     - A COUNTER Access_Type that is reserved for future use and must not be implemented. At the time of the transaction, the content item was available as Open Access because the publisher’s embargo period had expired (delayed Open Access).
+   * - OA_Gold
+     - An Access_Type applied in Release 5. Now replaced with the broader Open.
      -
 
-   * - OA_Gold
-     - A COUNTER Access_Type. At the time of the transaction, the content item was available under a Gold Open Access license (content that is immediately and permanently available as Open Access because an article processing charge applies or the publication process was sponsored by a library, society, or other organization). Content items may be in hybrid publications or fully Open Access publications.
+   * - Open
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
+     -
 
-       Note that content items offered as delayed Open Access (open after an embargo period) currently must be classified as Controlled, pending the implementation of OA_Delayed.
+   * - Open Access
+     - See Open.
      -
 
    * - OCLC
@@ -749,7 +751,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Other_Free_to_Read
-     - A COUNTER Access_Type for institutional repositories. At the time of the transaction, the content item was freely available for reading (no license required) and did not qualify under the OA_Gold Access_Type.
+     - An Access_Type applied in a very limited way in Release 5. Now replaced with Free_To_Read.
      -
 
    * - Page tag
@@ -890,7 +892,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Report name\ |br|\ |lb|
        Report_Name
      - The name of a COUNTER Report or Standard View of a COUNTER Report.
-     - Journal Requests (Excluding OA_Gold)
+     - Journal Requests (Controlled)
 
    * - Report validation tool
      - See COUNTER Report Validation Tool.
@@ -1041,7 +1043,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Standard View of a COUNTER Report
      - A predefined version of a COUNTER report, designed to meet the most common needs.
-     - Book Requests (Excluding OA_Gold), Journal Article Requests
+     - Book Requests (Controlled), Journal Article Requests
 
    * - Standardized Usage Statistics Harvesting Initiative
      - See SUSHI.
@@ -1115,7 +1117,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B1
-     - Book Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all book content which is not Gold Open Access.
+     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book content which is not Open or Free_To_Read.
      -
 
    * - TR_B2
@@ -1127,7 +1129,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_J1
-     - Journal Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all journal content which is not Gold Open Access.
+     - Journal Requests (Controlled). A pre-set Standard View of TR showing full text activity for all journal content which is not Open or Free_To_Read.
      -
 
    * - TR_J2
@@ -1139,7 +1141,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_J4
-     - Journal Requests by YOP (excluding OA_Gold). A pre-set Standard View of TR breaking down the full text usage of non-Gold Open Access content by year of publication (YOP).
+     - Journal Requests by YOP (Controlled). A pre-set Standard View of TR breaking down the full text usage of Controlled content by year of publication (YOP).
      -
 
    * - Transaction
