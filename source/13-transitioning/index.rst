@@ -15,3 +15,4 @@ A requirement of the COUNTER Code of Practice is that content providers offer li
    01-transitioning-to-a-new-reporting-service
    02-transitioning-to-a-new-code-of-practice
    03-transitioning-from-counter-r4-to-r5
+   04-transitioning-from-counter-r5-to-r51
