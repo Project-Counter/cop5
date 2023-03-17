@@ -691,7 +691,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - OA_Gold
-     - See Open.
+     - An Access_Type applied in Release 5. Now replaced with the broader Open.
      -
 
    * - Open
@@ -731,7 +731,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Other_Free_to_Read
-     - See Free_To_Read.
+     - An Access_Type applied in a very limited way in Release 5. Now replaced with Free_To_Read.
      -
 
    * - Page tag
