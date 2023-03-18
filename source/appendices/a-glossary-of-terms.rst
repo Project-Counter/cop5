@@ -47,7 +47,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Controlled, Open, Free_to_Read
 
    * - Aggregated_Full_Content
-     - A COUNTER Host_Type for report providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - A COUNTER Host_Type for report providers that provide  access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      -
 
    * - Aggregated full-text database
@@ -459,7 +459,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Full_Content_Database
-     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title).
 
        Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
      -
@@ -1125,15 +1125,15 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B1
-     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book content which is not Open or Free_To_Read.
+     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book and reference work content which is not Open or Free_To_Read.
      -
 
    * - TR_B2
-     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book.
+     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book or reference work.
      -
 
    * - TR_B3
-     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type.
+     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type for books and reference works.
      -
 
    * - TR_J1
