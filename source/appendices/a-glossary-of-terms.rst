@@ -86,7 +86,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Oxford Journals Archive
 
    * - Article
-     - An item of original written work published in a journal, other serial publication, or in a book. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
+     - An article from a journal, or an article available as a standalone content item not aggregated into a title, for example in an institutional repository. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
 
        A COUNTER Data_Type.
 
@@ -118,6 +118,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Report Attributes.
      -
 
+   * - Audiovisual
+     - A form of multimedia, typically describing video content.
+
+       A COUNTER Data_Type.
+     - 
+
    * - Author(s)
      - The person/people who wrote/created the items whose usage is being reported.
      -
@@ -141,7 +147,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Book
-     - A non-serial publication of any length available in print (in hard or soft covers or in loose-leaf format) or in electronic format.
+     - A monograph text, edited volume, textbook, or other form of non-serial (book) publication.
 
        A COUNTER Data_Type.
 
@@ -156,9 +162,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Book content items retrieved.
      -
 
-   * - Book segment\ |br|\ |lb|
-       Book_Segment
-     - Part of a book.
+   * - Book_Segment
+     - A generic term applying to a sub-division of a book regardless of the label applied by the publisher (e.g. chapter, section, etc.). May be available as part of the book as a standalone content item not aggregated into a title, for example in an institutional repository.
 
        A COUNTER Data_Type.
      -
@@ -206,6 +211,18 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Component
      - A uniquely identifiable constituent part of a content item composed of more than one file (digital object). Report providers may choose to offer component usage reporting, but are not obliged to do so.
      -
+
+   * - Conference
+     - A collection of papers, posters, or recordings of material associated with a conference. Typically part of a serial publication.
+    
+       A COUNTER Data_Type.
+     - 
+    
+   * - Conference_Item
+     - A single paper, poster, or recording of material associated with a conference.
+    
+       A COUNTER Data_Type.
+     - 
 
    * - Consortium
      - A group of institutions joining together to license content.
@@ -293,13 +310,31 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Data_Type
      - The element identifying the type of content.
-     - Article, Book, Book_Segment, Database, Dataset, Journal, Multimedia, Newspaper_Or_Newsletter, Other, Platform, Report, Repository_Item, Thesis_Or_Dissertation
+     - Article, Audiovisual, Book, Book_Segment, Conference, Conference_Item, Database_Aggregated, Database_AI, Database_Full, Database_Full_Item, Dataset, Image, Interactive_Resource, Journal, Multimedia, News_Item, Newspaper_Or_Newsletter, Other, Patent, Platform, Report, Reference_Item, Reference_Work, Report, Software, Sound, Standard, Thesis_Or_Dissertation, Unspecified
 
-   * - Database
-     - A collection of electronically stored data or unit records (facts, bibliographic data, texts) with a common user interface and software for the retrieval and manipulation of data. (NISO)
+   * - Database_Aggregated
+     - An aggregated database of full text serial and/or monograph content, or content otherwise aggregated into titles.
+
+       A COUNTER Data_Type applying only to Denial and Search metrics.
+     - 
+
+   * - Database_AI
+     - An fixed database of bibliographic metadata used for abstracting and indexing purposes.
+
+       A COUNTER Data_Type applying only to Denial and Search metrics.
+     - 
+
+   * - Database_Full
+     - A non-aggregated database of full text serial and/or monograph content, or content otherwise not aggregated into titles.
+
+       A COUNTER Data_Type applying only to Denial and Search metrics.
+     - 
+
+   * - Database_Full_Item
+     - An individual item of content held on a Full_Content_Database.
 
        A COUNTER Data_Type.
-     - Social Science Abstracts, Reaxys
+     - 
 
    * - Database Report
      - A COUNTER report that contains additional filters and breakdowns beyond those included in the Standard Views of the Database Report and is aggregated to the database level.
@@ -310,7 +345,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Dataset
-     - A collection of data.
+     - Data encoded in a defined structure, for example data associated with a research project.
 
        A COUNTER Data_Type.
      -
@@ -520,6 +555,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A publication that is available via a subscription license but also contains articles available as Open Access.
      -
 
+   * - Image
+     - A form of multimedia describing a static visual image.
+
+       A COUNTER Data_Type.
+     -
+
    * - Institution
      - The organization for which usage is being reported.
      -
@@ -534,6 +575,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Institutional identifier
      - See Institution_ID.
+     -
+
+   * - Interactive_Resource
+     - A form of multimedia, typically describing materials that require user interaction to be understood, executed or experienced.
+
+       A COUNTER Data_Type.
      -
 
    * - Internet robot, crawler, spider
@@ -665,7 +712,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Multimedia
-     - Non-textual media such as images, audio, and video.
+     - Non-textual media such as audio, images, video and interactive tools. Typically used as a Data_Type only where report providers cannot easily classify materials more specifically.
 
        A COUNTER Host_Type.
 
@@ -691,12 +738,17 @@ Note: The main Code of Practice document takes precedence in the case of any con
        For example, an XML namespace consists of element types and attribute names. Each of the names within that namespace is only related/linked to that namespace. The name is uniquely identified by the namespace identifier ahead of the name. For example, Namespace1:John and Namespace2:John are the same names but within different namespaces.
      -
 
-   * - Newspaper or Newsletter\ |br|\ |lb|
-       Newspaper_or_Newsletter
-     - Textual content published serially in a newspaper or newsletter.
+   * - News_Item
+     - An article from a newspaper or magazine, or a news piece available as a standalone content item not aggregated into a title.
 
        A COUNTER Data_Type.
      -
+
+   * - Newspaper_or_Newsletter
+     - Textual content published serially in a newspaper or newsletter.
+
+       A COUNTER Data_Type.
+     - The Guardian
 
    * - NISO
      - The National Information Standards Organization is a United States non-profit standards organization that develops, maintains and publishes technical standards related to publishing, bibliographic and library applications. [`Wikipedia <https://en.wikipedia.org/wiki/National_Information_Standards_Organization>`__]
@@ -743,7 +795,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Other
-     - A content item or section that cannot be classified by any of the other Data_Types or Section_Types.
+     - A content item that has been labelled as a type of data that does not exist within and cannot be mapped to a COUNTER Data_Type.
 
        A COUNTER Data_Type.
 
@@ -760,6 +812,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Parent
      - In COUNTER Item Reports the parent is the publication an item is part of. For a journal article, the parent is the journal, and for a book chapter it is the book.
+     -
+
+   * - Patent
+     - A patent document representing an exclusive right granted for an invention, which is a product or process that provides (in general) a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
+
+       A COUNTER Data_Type.
      -
 
    * - Paywall
@@ -841,8 +899,16 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Release 5.
      -
 
-   * - Reference work
+   * - Reference_Item
+     - An item or record within a Reference_Work, such as an encyclopedia reference, or a similar item not aggregated into a title.
+
+       A COUNTER Data_Type.
+     -
+
+   * - Reference_Work
      - An authoritative source of information about a subject used to find quick answers to questions. The content may be stable or updated over time.
+
+       A COUNTER Data_Type
      - Dictionary, encyclopedia, directory, manual, guide, atlas, index
 
    * - References
@@ -866,7 +932,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Report
-     - A document that presents information in an organized format.
+     - A document that presents information in an organized format for a specific audience and purpose, such as a policy report.
 
        A COUNTER Data_Type.
      -
@@ -1045,9 +1111,27 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Hosts.
      -
 
+   * - Software
+     - Source code or compiled software, or a virtual notebook environment used for programming.
+
+       A COUNTER Data_Type.
+     -
+
+   * - Sound
+     - A form of multimedia, typically describing content that is audio-only (e.g. a radio programme).
+
+       A COUNTER Data_Type.
+     -
+
    * - Spider
      - See Internet robot, crawler, spider.
      -
+
+   * - Standard
+     - A document outlining processes agreed and established by authority or by general consent (e.g. materials from NISO).
+
+       A COUNTER Data_Type.
+     - The COUNTER Code of Practice
 
    * - Standard View of a COUNTER Report
      - A predefined version of a COUNTER report, designed to meet the most common needs.
@@ -1087,11 +1171,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Used as the Institution_Name for global reports including all global usage, whether attributed to institutions or not.
      - 
 
-   * - Thesis or Dissertation\ |br|\ |lb|
-       Thesis_Or_Dissertation
-     - Dissertation: a long essay on a particular subject, especially one written as a requirement for a degree.
-
-       Thesis: a long essay or dissertation involving personal research, written by a candidate for a college degree.
+   * - Thesis_Or_Dissertation
+     - Long-form writing on a specific subject, often involving personal research, and typically produced to meet requirements for postgraduate or undergraduate qualifications.
 
        A COUNTER Data_Type.
      -
@@ -1186,6 +1267,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Unique_Title_Requests
      - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Type Book.
+     -
+
+   * - Unspecified
+     - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that content providers are expected to make all reasonable efforts to classify the content.
+
+       A COUNTER Data_Type.
      -
 
    * - URI

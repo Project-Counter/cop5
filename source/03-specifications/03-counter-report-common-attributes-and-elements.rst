@@ -96,7 +96,15 @@ Note that a given content host may be classified as having multiple Host_Types a
 Data Types
 """"""""""
 
-R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that report providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
+To facilitate flexible reporting, R5 introduced Data_Types, representing major groupings of content. The list of Data_Types was extended for R5.1 and are listed in Table 3.p below.
+
+The table lists the Data_Types and related Host_Types which use them in one or more reports for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
+
+Report providers MUST report metrics in line with the following:
+
+* Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
+* Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
+* Host_Types that are required to provide the IR, MUST also report at item level in the PR and, if required, the DR.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -115,48 +123,95 @@ Table 3.p (below): List of Data_Type Values
      - Reports
 
    * - Article
-     - An article, typically published in a journal or reference work. Note that Data_Type Article is only applicable for Item Reports when the article is the item, in Title Reports this is represented by the Section_Type.
+     - An article from a journal, or an article available as a standalone content item not aggregated into a title, for example in an institutional repository.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR\ |br|\ |lb|
-       PR_P1, IR_A1
+     - PR, IR
+
+   * - Audiovisual
+     - A form of multimedia, typically describing video content.
+     - Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR
 
    * - Book
-     - A monograph text.
+     - A monograph text, edited volume, textbook, or other form of book that is not a reference work.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, TR_B1, TR_B2, TR_B3
+     - PR, DR, TR
 
    * - Book_Segment
-     - A book segment (e.g. chapter, section, etc.). Note that Data_Type Book_Segment is only applicable for Item Reports when the book segment is the item, in Title Reports this is represented by the Section_Type.
+     - A segment of a book (e.g. chapter, section, etc.), or a segment available as a standalone content item not aggregated into a title, for example in an institutional repository.
+     
+       Where a whole book is being downloaded and there is no mechanism to determine the number of book segments, one Book_Segment should be reported in the IR.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR\ |br|\ |lb|
-       PR_P1
+     - PR, IR
 
-   * - Database
-     - A fixed database where content is searched and accessed in the context of the database. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Note that Data_Type Database is only applicable for Searches and Access Denied at the database level and for Investigations and Requests for Full_Content_Databases*.
+   * - Conference
+     - A collection of papers, posters, or recordings of material associated with a conference. Typically part of a serial publication.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
-       Multimedia_Collection
-     - PR, DR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2
+       eJournal\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR
+
+   * - Conference_Item
+     - A single paper, poster, or recording of material associated with a conference. 
+     - Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, IR
+
+   * - Database_Aggregated
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within an aggregated database of full text serial and/or monograph content, or content otherwise aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate title level Data_Type (e.g. Journal for a journal article).
+     - Aggregated_Full_Content
+     - DR
+
+   * - Database_AI
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within a fixed database where bibliographic metadata is searched and accessed in the context of the database. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate Data_Type (e.g. Journal for a journal article).
+     - A&I_Database
+     - DR
+
+   * - Database_Full
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within databases that are a collection of content items that are not aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate item-level Data_Type (e.g. Multimedia).
+     - Full_Content_Database
+     - DR
+
+   * - Database_Full_Item
+     - Usage of an item from a Full_Content_Database. Database_Full_Item applies where Investigations and Requests are being reported and a more specific Data_Type cannot be applied.
+     - Full_Content_Database
+     - PR, DR, IR
 
    * - Dataset
-     - A data set.
+     - Data encoded in a defined structure, for example data associated with a research project.
      - Data_Repository\ |br|\ |lb|
        Repository
-     - PR, IR\ |br|\ |lb|
-       PR_P1
+     - PR, IR
+
+   * - Image
+     - A form of multimedia describing a static visual image.
+     - Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR
+
+   * - Interactive_Resource
+     - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
+     - Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR
 
    * - Journal
      - A serial that is a branded and continually growing collection of original articles within a particular discipline.
@@ -165,81 +220,152 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        eJournal\ |br|\ |lb|
        Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, TR_J1, TR_J2, TR_J3, TR_J4
+     - PR, DR, TR
 
    * - Multimedia
-     - Multimedia content such as audio, image, streaming audio, streaming video, and video.
+     - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
      - Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, IR_M1
+     - PR, DR, IR
+
+   * - News_Item
+     - An article from a newspaper or magazine, or a news item available as a standalone content item not aggregated into a title, for example in an institutional repository.
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       eJournal\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, IR
 
    * - Newspaper_or_Newsletter
      - Textual content published serially in a newspaper or newsletter.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       eJournal
+     - PR, DR, TR
 
    * - Other
-     - Content that cannot be classified by any of the other Data_Types.
-
-       Note that Data_Type Other MUST NOT be used if there isn’t sufficient information available to classify the content.
+     - Content that has been labelled with a data type that does not exist within and cannot be mapped to COUNTER’s Code of Practice. Other MUST NOT be used if there is not sufficient information available to classify the content.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+     - PR, DR, TR, IR
+
+   * - Patent
+     - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR
 
    * - Platform
-     - A content platform that may reflect usage from multiple Data_Types. Note that Data_Type Platform is only applicable for Searches_Platform.
+     - *Only applies to Searches_Platform metrics.*
      - All Host_Types
-     - PR\ |br|\ |lb|
-       PR_P1
+     - PR
+
+   * - Reference_Item
+     - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone content item not aggregated into a title, for example in an institutional repository. 
+
+       Where a whole reference work is being downloaded and there is no mechanism to determine the number of items, one Reference_Item should be reported in the IR.
+     - Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, IR
+
+   * - Reference_Work
+     - An authoritative source of information about a subject used to find quick answers to questions, such as an encyclopedia or dictionary. The content may be stable or updated over time.
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       eBook\ |br|\ |lb|
+       eBook_Collection
+     - PR, DR, TR
 
    * - Report
-     - A report.
+     - A document presenting information in an organized format for a specific audience and purpose, such as a policy report.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
-       Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR
 
-   * - Repository_Item
-     - A generic classification used for items stored in a repository.
-     - Repository
-     - PR, IR\ |br|\ |lb|
-       PR_P1
+   * - Software
+     - Source code or compiled software, or a virtual notebook environment used for programming.
+     - Data_Repository\ |br|\ |lb|
+       Repository
+     - PR, IR
+
+   * - Sound
+     - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
+     - Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR
+
+   * - Standard
+     - A document outlining processes agreed and established by authority or by general consent (e.g. materials from NISO).
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR
 
    * - Thesis_or_Dissertation
-     - A thesis or dissertation.
+     - A thesis or dissertation, such as one written by a PhD candidate.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
-       Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR
 
    * - Unspecified
-     - It is not possible to classify the content because there isn’t sufficient information available.
-
-       Note that report providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
+     - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that report providers are expected to make all reasonable efforts to classify the content. Using Unspecified will give rise to a Warning in the Validation Tool.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+     - PR, DR, TR, IR\
 
-\*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
+\*Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+
+* Host_Types that MUST offer an IR can choose to provide Parent_Data_Type and other relevant parent information if it is available.
+* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information as specified in the table.
+
+Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
+
+.. only:: latex
+
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.16}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|>{\raggedright\arraybackslash}\Y{0.11}|
+
+.. list-table::
+   :class: longtable
+   :widths: 22 54
+   :header-rows: 1
+
+   * - Data_Type in IR
+     - Parent_Data_Type in IR
+
+   * - Article
+     - Journal
+
+   * - Book_Segment
+     - Book
+
+   * - Conference_Item
+     - Conference
+
+   * - News_Item
+     - Newspaper_or_Newsletter
+
+   * - Reference_Item
+     - Reference_Work
 
 
 .. _section-types:
@@ -563,7 +689,7 @@ Table 3.u (below): List of Access_Type Values
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
    * - Open
-     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the report provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
