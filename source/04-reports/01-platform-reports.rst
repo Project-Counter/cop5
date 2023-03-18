@@ -158,7 +158,7 @@ Table 4.b (Below): Column Headings/Elements for Platform Report and Standard Vie
      - M
 
    * - Data_Type
-     - C
+     - M
      -
 
    * - Access_Method
