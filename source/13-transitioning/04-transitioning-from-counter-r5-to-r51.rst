@@ -22,7 +22,7 @@ R5 and R5.1 reports are broadly comparable, provided some care is applied.
 * For the same reason, R5.1 does not use the Section_Type attribute.
 * The list of Data_Types has been expanded. This means that conference proceedings, for example, can be more accurately classified. Report consumers are advised to use the Title Report to gain a full understanding of usage, rather than using Standard Views of the Title Report which are restricted to reporting on books and journals.
 * The definition and application of Access_Types has been clarified. The primary impact here is on the TR_B1, TR_J1 and TR_J4 Standard Views of the Title Report, which will show only Controlled content without Free_To_Read materials. Report consumers are advised to use the Title Report to gain a full understanding of usage.
-* Components, an aspect of the Item Report, are optional in R5.1. Report consumers should sum up item usage from R5 Item Reports offering Components to compare like-for-like with item usage in R5.1 Item Reports not offering Components.
+* Components, an aspect of the Item Report, are optional in R5.1. Report consumers should sum up Total_Item_Investigations and Total_Item_Requests usage from R5 Item Reports offering Components to compare like-for-like with item usage in R5.1 Item Reports not offering Components.
 
 
 A note on JSON
