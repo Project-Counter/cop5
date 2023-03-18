@@ -10,6 +10,6 @@ Technical Specifications for COUNTER Reports
 .. toctree::
    :maxdepth: 1
 
-   01-counter-reports-for-libraries
+   01-counter-reports-for-consumers
    02-formats-for-counter-reports
    03-counter-report-common-attributes-and-elements

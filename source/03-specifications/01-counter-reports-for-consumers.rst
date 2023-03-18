@@ -2,22 +2,22 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-.. _reports-for-libraries:
+.. _reports-for-consumers:
 
-COUNTER Reports for Libraries
------------------------------
+COUNTER Reports for Report Consumers
+------------------------------------
 
-Reports for R5 consist of four COUNTER Reports that allow the librarian to filter and configure to create customized views of their usage data. R5 also specifies Standard Views of the COUNTER Reports (pre-set filters/configuration).
+Reports for R5 consist of four COUNTER Reports that allow the report consumer to filter and configure to create customized views of their usage data. R5 also specifies Standard Views of the COUNTER Reports (pre-set filters/configuration).
 
-To achieve compliance, a content provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
+To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
 
-Content providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit isn’t required.
+Report providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit isn’t required.
 
 
 COUNTER Reports
 """""""""""""""
 
-COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing librarians to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
+COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing report consumers to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
 Table 3.a (below): COUNTER Reports
 
@@ -37,7 +37,7 @@ Table 3.a (below): COUNTER Reports
 
    * - PR
      - Platform Report
-     - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
+     - A customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options.
      - All Host_Types
 
    * - DR
@@ -89,7 +89,7 @@ The Global Item Report is an Item Report to "The World" including all global usa
 Standard Views of the COUNTER Reports
 """""""""""""""""""""""""""""""""""""
 
-The goal of Standard Views of the COUNTER Reports is to provide a set of pre-filtered views of the COUNTER Reports covering the most common set of library needs. Report_IDs for Standard Views are derived from the Report_ID of the COUNTER Report that they are based on. The format is *{COUNTER Report_ID}*\ _\ *{View ID}*.
+The goal of Standard Views of the COUNTER Reports is to provide a set of pre-filtered views of the COUNTER Reports covering the most common set of report consumer needs. Report_IDs for Standard Views are derived from the Report_ID of the COUNTER Report that they are based on. The format is *{COUNTER Report_ID}*\ _\ *{View ID}*.
 
 
 Standard Views of the Platform Report

@@ -296,7 +296,7 @@ Release 5 of the COUNTER Code of Practice strives for simplicity and clarity by 
 B.1.4 New elements and attributes introduced
 """"""""""""""""""""""""""""""""""""""""""""
 
-With R4 the nature of the usage sometimes had to be inferred based on the name of the report. In an effort to provide more consistent and comparable reporting, R5 introduces some additional attributes that content providers can track with the usage and use to create breakdowns and summaries of usage.
+With R4 the nature of the usage sometimes had to be inferred based on the name of the report. In an effort to provide more consistent and comparable reporting, R5 introduces some additional attributes that report providers can track with the usage and use to create breakdowns and summaries of usage.
 
 .. only:: latex
 

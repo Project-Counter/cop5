@@ -22,11 +22,11 @@ A key feature of TDM is the discovery of unknown associations based on categorie
 
 .. rubric:: Detecting activity related to TDM:
 
-TDM activity typically requires a prior agreement between the content provider and the individual or organization downloading the content for the purpose of text mining. The content provider can isolate TDM-related traffic using techniques like:
+TDM activity typically requires a prior agreement between the report provider and the individual or organization downloading the content for the purpose of text mining. The report provider can isolate TDM-related traffic using techniques like:
 
 * Providing a dedicated end-point that is specifically for TDM data harvesting.
 * Requiring the use of a special account or profile for TDM data harvesting.
 * Assigning an API key that would be used for the harvesting.
 * Registering the IP address of the machine harvesting content.
 
-Harvesting of content for TDM without permission or without using the endpoint or protocol supplied by the content provider MUST be treated as robot or crawler traffic and MUST be excluded from all COUNTER reports.
+Harvesting of content for TDM without permission or without using the endpoint or protocol supplied by the report provider MUST be treated as robot or crawler traffic and MUST be excluded from all COUNTER reports.

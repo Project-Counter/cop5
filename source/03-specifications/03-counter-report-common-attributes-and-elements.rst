@@ -13,7 +13,7 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help content providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
@@ -96,7 +96,7 @@ Note that a given content host may be classified as having multiple Host_Types a
 Data Types
 """"""""""
 
-R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that content providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
+R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that report providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -229,7 +229,7 @@ Table 3.p (below): List of Data_Type Values
    * - Unspecified
      - It is not possible to classify the content because there isn’t sufficient information available.
 
-       Note that content providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
+       Note that report providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
@@ -247,7 +247,7 @@ Table 3.p (below): List of Data_Type Values
 Section Types
 """""""""""""
 
-Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a librarian could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
+Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a report consumer could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
 
 Table 3.q (below): List of Section_Type Values
 
@@ -777,7 +777,7 @@ Table 3.y (below): Report Filters
 Zero Usage
 """"""""""
 
-Not all content providers or other COUNTER report providers link their COUNTER reporting tool to their subscription database, so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for libraries to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
+Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
 
 * For tabular reports
 

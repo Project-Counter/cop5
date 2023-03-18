@@ -5,7 +5,7 @@
 Creating Custom Values for Enumerated Elements
 ----------------------------------------------
 
-Several elements in COUNTER reports include a controlled list of possible values. On occasion, content providers may want to introduce additional custom values that better reflect their content and platform. For COUNTER reports (PR, DR, TR, IR) and custom reports the element value lists can be extended by including additional custom values in the form of *{namespace}*:*{element value}*. An example would be a custom Metric_Type value EBSCOhost:Total_Linkouts. The following is the list of elements that can be extended in this manner:
+Several elements in COUNTER reports include a controlled list of possible values. On occasion, report providers may want to introduce additional custom values that better reflect their content and platform. For COUNTER reports (PR, DR, TR, IR) and custom reports the element value lists can be extended by including additional custom values in the form of *{namespace}*:*{element value}*. An example would be a custom Metric_Type value EBSCOhost:Total_Linkouts. The following is the list of elements that can be extended in this manner:
 
 * Data_Type
 * Section_Type

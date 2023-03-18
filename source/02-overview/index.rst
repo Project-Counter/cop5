@@ -11,7 +11,7 @@ This section provides an overview of the scope of the COUNTER Code of Practice.
 
 :numref:`reports` :ref:`reports` provides detailed specifications for each COUNTER report. Use this section to understand what elements are included in each report.
 
-:numref:`delivery` :ref:`delivery` outlines the options a content provider MUST provide to enable customers to access their reports.
+:numref:`delivery` :ref:`delivery` outlines the options a report provider MUST provide to enable customers to access their reports.
 
 :numref:`logging` :ref:`logging` describes various options used for logging usage transactions.
 
@@ -23,7 +23,7 @@ This section provides an overview of the scope of the COUNTER Code of Practice.
 
 :numref:`compliance` :ref:`compliance` talks about license language to require COUNTER usage statistics, confidentiality of data, and supporting consortia in their need to obtain usage data for their members.
 
-:numref:`extending` :ref:`extending` offers suggestions for content providers who may want to create custom reports or include additional elements and attribute values in COUNTER reports.
+:numref:`extending` :ref:`extending` offers suggestions for report providers who may want to create custom reports or include additional elements and attribute values in COUNTER reports.
 
 :numref:`maintenance` :ref:`maintenance` outlines the procedures that have been put in place to allow the Code of Practice to be amended and expanded on an incremental basis in a controlled and managed way.
 
