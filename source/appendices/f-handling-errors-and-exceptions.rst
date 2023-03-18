@@ -148,6 +148,12 @@ Table F.1 (below): Exceptions
      - 403
      - If requestor_id has not been authorized to harvest usage for the institution identified by the customer_id, or if the customer_id is not recognized.
 
+   * - Global Reports Not Supported
+     - Error
+     - 2011
+     - 403
+     - Reporting to "The World", customer_id 0000000000000000, is not supported.
+
    * - APIKey Invalid
      - Error
      - 2020
@@ -250,6 +256,15 @@ Table F.1 (below): Exceptions
      - 3062
      - 200
      - The request contained one or more report attribute values that are not supported by the server. The server should list the names of unsupported report attribute values in the additional Data element.
+
+       Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
+
+   * - Components Not Supported
+     - Warning\ |br|\ |lb|
+       Error
+     - 3063
+     - 200
+     - The request contained include_component_details=True, but reporting on component usage is not supported.
 
        Note: The server is expected to ignore unsupported report attributes and continue to process the request, returning data that is available without the report attribute being applied.
 

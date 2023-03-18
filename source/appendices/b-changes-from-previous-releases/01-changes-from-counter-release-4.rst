@@ -29,11 +29,11 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - Comments
 
    * - Book Report 1: Number of Successful Title Requests by Month and Title
-     - Book Requests (Excluding OA_Gold)
+     - Book Requests (Controlled)
      - The Unique_Title_Requests metric is equivalent to the full-text requests in Book Report 1.
 
    * - Book Report 2: Number of Successful Section Requests by Month and Title
-     - Book Requests (Excluding OA_Gold)
+     - Book Requests (Controlled)
      - The Total_Item_Requests metric is equivalent to full text requests in Book Report 2.
 
    * - Book Report 3: Access Denied to Content Items by Month, Title and Category
@@ -49,12 +49,12 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - For most platforms, attempting to track searches by titles is not reasonable since all titles are included in most searches.
 
    * - Book Report 7: Number of Successful Unique Title Requests by Month and Title in a Session
-     - Book Requests (Excluding OA_Gold)
+     - Book Requests (Controlled)
      - The Unique_Title_Requests metric is equivalent to the full-text requests in Book Report 7.
 
    * - Consortium Report 1: Number of Successful Full-Text Journal Article or Book Chapter Requests by Month and Title
      - Eliminated
-     - Consortium administrators will request “Journal Requests (Excluding OA_Gold)” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 1.
+     - Consortium administrators will request “Journal Requests (Controlled)” for each member. This can be automated via the COUNTER_SUSHI API using the /members path. Tools will be provided to create consolidated reports that are functionally equivalent to Consortium Report 1.
 
    * - Consortium Report 2: Total Searches by Month and Database
      - Eliminated
@@ -73,15 +73,15 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - Report renamed and updated Metric_Types used.
 
    * - Journal Report 1: Number of Successful Full-Text Article Requests by Month and Journal
-     - Journal Requests (Excluding OA_Gold)
+     - Journal Requests (Controlled)
      - Total_Item_Requests is the equivalent to full text total. HTML and PDF totals have been eliminated, but Unique_Item_Requests can be used to evaluate the effect of the user interface on statistics and offers a comparable statistics for cost-per-unique-use analysis.
 
    * - Journal Report 1 GOA: Number of Successful Gold Open Access Full-Text Article Requests by Month and Journal
      - Title Report
-     - The Title Report can be filtered by “Access\_\ |lb|\ Type=OA_Gold; Metric_Type=Total_Item_Requests” to obtain equivalent results.
+     - The Title Report can be filtered by “Access\_\ |lb|\ Type=Opne; Metric_Type=Total_Item_Requests” to obtain equivalent results.
 
    * - Journal Report 1a: Number of Successful Full-Text Article Requests from an Archive by Month and Journal
-     - Journal Requests by YOP (Excluding OA_Gold)
+     - Journal Requests by YOP (Controlled)
      - The R5 report breaks out usage by year of publication (YOP) to enable evaluation of usage of content for which perpetual access rights are available.
 
    * - Journal Report 2: Access Denied to Full-Text Articles by Month, Journal and Category
@@ -102,7 +102,7 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
      - To the extent that a journal collection is organized for searching as a discrete collection (rare), usage would be reported in “Database Search and Item Usage”.
 
    * - Journal Report 5: Number of Successful Full-Text Article Requests by Year-of-Publication (YOP) and Journal
-     - Journal Requests by YOP (Excluding OA_Gold)
+     - Journal Requests by YOP (Controlled)
      - This R5 report offers a breakdown of journal usage by year of publication (YOP) and the resulting report can be analysed using filters or pivot tables.
 
    * - Multimedia Report 1: Number of Successful Full Multimedia Content Unit Requests by Month and Collection
@@ -314,9 +314,8 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    * - Access_Type
      - Used in conjunction with Investigations and Requests, this attribute indicates if, at the time of the investigation or request, access to the item was controlled (e.g. subscription or payment required) or was available as Open Access or other free-to-read option.
      - Controlled\ |br|\ |lb|
-       OA_Delayed (reserved for future)\ |br|\ |lb|
-       OA_Gold\ |br|\ |lb|
-       Other_Free_to_Read
+       Open\ |br|\ |lb|
+       Free_to_Read
 
    * - Access_Method
      - This attribute is used to distinguish between regular usage (users accessing scholarly information for research purposes) and usage for the purpose of Text and Data Mining (TDM).

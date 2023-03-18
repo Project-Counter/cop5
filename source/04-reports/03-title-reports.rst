@@ -9,6 +9,8 @@ Title Reports
 
 Title Reports provide a summary of activity related to content at the title level and provide a means of evaluating the impact a title has for an institution’s patrons.
 
+To better facilitate open access reporting, report providers are encouraged to provide a Global Title Report including all global usage, whether attributed to institutions or not. The Global Title Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+
 Table 4.h (below): Title Report and Standard Views of the Title Report
 
 .. only:: latex
@@ -34,8 +36,8 @@ Table 4.h (below): Title Report and Standard Views of the Title Report
        eJournal
 
    * - TR_B1
-     - Book Requests (Excluding OA_Gold)
-     - Reports on full-text activity for books, excluding Gold Open Access content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
+     - Book Requests (Controlled)
+     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
@@ -55,8 +57,8 @@ Table 4.h (below): Title Report and Standard Views of the Title Report
        eBook_Collection
 
    * - TR_J1
-     - Journal Requests (Excluding OA_Gold)
-     - Reports on usage of journal content, excluding Gold Open Access content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity.
+     - Journal Requests (Controlled)
+     - Reports on usage of journal content, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity.
      - Aggregated_Full_Content\ |br|\ |lb|
        eJournal
 
@@ -73,8 +75,8 @@ Table 4.h (below): Title Report and Standard Views of the Title Report
        eJournal
 
    * - TR_J4
-     - Journal Requests by YOP (Excluding OA_Gold)
-     - Breaks down the usage of journal content, excluding Gold Open Access content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreement. Note that COUNTER reports do not provide access model or perpetual access rights details.
+     - Journal Requests by YOP (Controlled)
+     - Breaks down the usage of journal content, excluding Open and Free_To_Read content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreement. Note that COUNTER reports do not provide access model or perpetual access rights details.
      - Aggregated_Full_Content\ |br|\ |lb|
        eJournal
 
@@ -83,6 +85,8 @@ Report Header
 """""""""""""
 
 The table below shows the header details for the Title Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+
+Note that for the Global Title Report, if provided, the Institution_Name should be “The World”.
 
 |blscape|
 
@@ -109,7 +113,7 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
    * - 1
      - Report_Name
      - Title Report
-     - Book Requests (Excluding OA_Gold)
+     - Book Requests (Controlled)
      - Book Access Denied
      - Book Usage by Access Type
 
@@ -217,10 +221,10 @@ Table 4.j (below): Header for Standard Views of the Title Report - Part 2 (for J
 
    * - 1
      - Report_Name
-     - Journal Requests (Excluding OA_Gold)
+     - Journal Requests (Controlled)
      - Journal Access Denied
      - Journal Usage by Access Type
-     - Journal Requests by YOP (Excluding OA_Gold)
+     - Journal Requests by YOP (Controlled)
 
    * - 2
      - Report_ID
@@ -571,7 +575,8 @@ Table 4.l (below): Filters/Attributes for Title Report and Standard Views of the
    * - Access_Type
      - One or more or all (default) of:\ |br|\ |lb|
        - Controlled\ |br|\ |lb|
-       - OA_Gold
+       - Open\ |br|\ |lb|
+       - Free_To_Read
      - Controlled
      -
      -
