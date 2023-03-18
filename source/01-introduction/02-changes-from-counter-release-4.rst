@@ -19,7 +19,7 @@ See :ref:`Appendix B, Section B.1.1 <appendix-b-1-1>` for more details.
 Report Format
 """""""""""""
 
-The Standardized Usage Statistics Harvesting Initiative (SUSHI) protocol used in R4 was designed to simplify the gathering of usage statistics by librarians. In R5 the SOAP/XML based SUSHI protocol is replaced with the RESTful COUNTER_SUSHI API that uses JavaScript Object Notation (JSON) for a more lightweight data-interchange. The JSON format not only is easy for humans to read and write, but it is easy for machines to parse and generate. Support of the COUNTER_SUSHI API is mandatory for compliance with R5 (see :numref:`sushi` below).
+The Standardized Usage Statistics Harvesting Initiative (SUSHI) protocol used in R4 was designed to simplify the gathering of usage statistics by report consumers. In R5 the SOAP/XML based SUSHI protocol is replaced with the RESTful COUNTER_SUSHI API that uses JavaScript Object Notation (JSON) for a more lightweight data-interchange. The JSON format not only is easy for humans to read and write, but it is easy for machines to parse and generate. Support of the COUNTER_SUSHI API is mandatory for compliance with R5 (see :numref:`sushi` below).
 
 With R5, all COUNTER reports are structured the same way to ensure consistency, not only between reports, but also between the JSON and tabular versions of the reports. Now, all reports share the same format for the header, the report body is derived from the same set of element names, total rows have been eliminated, and data values are consistent between the JSON and tabular version. R5 also addresses the problems of terminology and report layouts varying from report to report, as well as JSON and tabular versions of the same report producing different results while still being compliant.
 
@@ -35,7 +35,7 @@ See :ref:`Appendix B, Section B.1.3 <appendix-b-1-3>` for a table showing the R4
 New Elements and Attributes Introduced
 """"""""""""""""""""""""""""""""""""""
 
-With R4 the nature of the usage sometimes had to be inferred based on the name of the report. To provide more consistent and comparable reporting, R5 introduces some additional attributes that content providers can use to create breakdowns and summaries of usage.
+With R4 the nature of the usage sometimes had to be inferred based on the name of the report. To provide more consistent and comparable reporting, R5 introduces some additional attributes that report providers can use to create breakdowns and summaries of usage.
 
 .. only:: latex
 
@@ -46,7 +46,7 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    :widths: 14 86
 
    * - Access_Type
-     - Used to track usage of content that is either OA_Gold (Gold Open Access) or Controlled (requires a license).
+     - Used to track usage of content that is either Open (open access), Free_To_Read, or Controlled (requires a license).
 
    * - Access_Method
      - Used to track if the purpose of the access was for regular use or for text and data mining (TDM). This attribute allows TDM usage to be excluded from Standard Views and reported on separately.

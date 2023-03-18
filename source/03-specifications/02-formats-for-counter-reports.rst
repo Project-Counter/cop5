@@ -9,14 +9,14 @@ Formats for COUNTER Reports
 
 R5 reports can be delivered in tabular form, or as machine-readable data (JSON) via the COUNTER_SUSHI API. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
-All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the “Journal Requests (Excluding OA_Gold)” Standard View. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
+All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the “Journal Requests (Controlled)” Standard View. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
 
 .. figure:: ../_static/img/3b-standard-view-sample.png
    :alt: Standard View sample
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.b: Sample “Journal Requests (Excluding OA_Gold)” Standard View
+.. centered:: Figure 3.b: Sample “Journal Requests (Controlled)” Standard View
 
 .. figure:: ../_static/img/3c-tabular-report-layout.png
    :alt: Tabular Report layout
@@ -60,11 +60,11 @@ Table 3.f (below): COUNTER Report Header Elements
      - Example
 
    * - Report_Name
-     - The name of the report as it appears in :numref:`reports-for-libraries`.
-     - Journal Requests (Excluding OA_Gold)
+     - The name of the report as it appears in :numref:`reports-for-consumers`.
+     - Journal Requests (Controlled)
 
    * - Report_ID
-     - The unique identifier for the report as it appears in :numref:`reports-for-libraries`.
+     - The unique identifier for the report as it appears in :numref:`reports-for-consumers`.
      - TR_J1
 
    * - Release
@@ -76,11 +76,13 @@ Table 3.f (below): COUNTER Report Header Elements
 
        This can be a higher education institution, or for example a country for a country-wide contract, or a publisher if an aggregator or discovery service wants to report usage of a publisher’s content to the publisher.
 
-       For reports including usage of open content that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
+       Where reports show content usage that cannot be attributed to an institution, the Institution_Name should be “The World”. Note that such a report would include all global usage, whether attributed to institutions or not, but it could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
      - Mt. Laurel University
 
    * - Institution_ID
-     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
+
+       For reports to "The World", Institution_ID should be 0000000000000000, with the platform ID as namespace.
      - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 
    * - Metric_Types
@@ -178,12 +180,12 @@ Table 3.g (below): Elements that Describe the Report Item
        APA
 
    * - Publisher_ID
-     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the content provider, the platform ID of the content provider.
+     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
 
-For Database the value MUST NOT be empty. For Title, Item and Publisher the value SHOULD NOT be empty, and if the value for Title or Item is empty at least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI MUST be provided so that the report item can be identified. Note that content providers are expected to make all reasonable efforts to provide this information and that using an empty value may affect the result of an audit (see :numref:`missing-values`).
+For Database the value MUST NOT be empty. For Title, Item and Publisher the value SHOULD NOT be empty, and if the value for Title or Item is empty at least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI MUST be provided so that the report item can be identified. Note that report providers are expected to make all reasonable efforts to provide this information and that using an empty value may affect the result of an audit (see :numref:`missing-values`).
 
 
 .. rubric:: Platform
@@ -261,7 +263,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - 10.1629/uksg.434
 
    * - Proprietary_ID
-     - A proprietary ID assigned by the content provider for the item being reported on. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the host which assigned the proprietary identifier.
+     - A proprietary ID assigned by the report provider for the item being reported on. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the host which assigned the proprietary identifier.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - publisherA:jnrlCode123
@@ -505,7 +507,8 @@ Table 3.l (below): Elements for Item and Report Attributes
      - TR, IR\ |br|\ |lb|
        TR_B3, TR_J3, IR_A1
      - Controlled\ |br|\ |lb|
-       OA_Gold
+       Open\ |br|\ |lb|
+       Free_To_Read
 
    * - Access_Method
      - See :numref:`access-methods` for more detail.

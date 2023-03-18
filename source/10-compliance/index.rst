@@ -7,7 +7,7 @@
 Other Compliance Topics
 =======================
 
-Content providers seeking COUNTER compliance are expected to comply with the following.
+Report providers seeking COUNTER compliant status are expected to comply with the following.
 
 .. toctree::
    :maxdepth: 1

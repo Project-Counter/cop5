@@ -11,7 +11,7 @@ Appendix C: Vendor/Aggregator/Gateway Declaration of COUNTER Compliance
 
 `Download Appendix C <https://www.projectcounter.org/wp-content/uploads/2017/10/Release5_Appendix-C.pdf>`_
 
-We <name of Content Provider> (‘The Company’) hereby confirm the following:
+We <name of Report Provider> (‘The Company’) hereby confirm the following:
 
 #. | That the following online usage reports that are supplied by The Company to its customers, and which The Company claims to be ‘COUNTER-compliant’, conforming to Release 5 of the COUNTER Code of Practice:
    | <insert list COUNTER-compliant reports>
@@ -24,7 +24,7 @@ We <name of Content Provider> (‘The Company’) hereby confirm the following:
 |
 | Name: ____________________________________       Title: __________________________________
 |
-| For and on behalf of (content provider's name):
+| For and on behalf of (report provider's name):
 |
 | \______________________________________________________________________________________
 |
@@ -32,8 +32,6 @@ We <name of Content Provider> (‘The Company’) hereby confirm the following:
 |
 | Email address: ________________________________________________________________________
 |
-| **Upon receipt of this signed declaration by the COUNTER office, and upon payment (where the Company is not a member of COUNTER) by The Company of the Content Provider Registration Fee, The Company will be listed on the Register of Content Providers providing COUNTER-compliant Usage Reports pending completion of a formal audit within 6 months of signing this declaration.**
+| **Upon receipt of this signed declaration by the COUNTER office, and upon payment (where the Company is not a member of COUNTER) by The Company of the Report Provider Registration Fee, The Company will be listed on the COUNTER Registry as providing COUNTER-compliant usage reports pending completion of a formal audit within 6 months of signing this declaration.**
 |
-| **This Declaration may be scanned and emailed to:** compliance@counterusage.org
-|
-| **Cheques should be made payable to ‘Project COUNTER’ and mailed to: COUNTER, 25 Egbert Road, Winchester, SO23 7EB, UK**
+| **This Declaration may be scanned and emailed to:** tasha.mellins-cohen@counterusage.org

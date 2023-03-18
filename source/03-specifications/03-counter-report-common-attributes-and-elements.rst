@@ -13,7 +13,7 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help content providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
@@ -96,7 +96,7 @@ Note that a given content host may be classified as having multiple Host_Types a
 Data Types
 """"""""""
 
-R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that content providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
+R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that report providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -229,7 +229,7 @@ Table 3.p (below): List of Data_Type Values
    * - Unspecified
      - It is not possible to classify the content because there isn’t sufficient information available.
 
-       Note that content providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
+       Note that report providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
@@ -247,7 +247,7 @@ Table 3.p (below): List of Data_Type Values
 Section Types
 """""""""""""
 
-Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a librarian could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
+Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a report consumer could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
 
 Table 3.q (below): List of Section_Type Values
 
@@ -387,7 +387,7 @@ Unique_Item metrics have been introduced in R5 to help eliminate the effect diff
 
 Unique_Title metrics have been introduced in R5 to help normalize eBook metrics. Since eBooks can be downloaded as an entire book in a single PDF or as separate chapters, the counts for R4’s BR1 (book downloads) and BR2 (section downloads) are not comparable. With R5, the book’s Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered.
 
-The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both OA_Gold and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
+The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 
 Table 3.s (below): List of Metric_Types for Requests and Investigations
 
@@ -526,6 +526,8 @@ Access Types
 
 In order to separately track the usage of subscribed content, open access content, and freely available materials, R5 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
 
+Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings.
+
 The Access_Type applied to an item MUST adhere to the following principles:
 
 * Access_Type relates to access on the platform where the usage occurs: if access to a content item is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled, even if the content item is Open on a different platform.
@@ -548,9 +550,7 @@ Table 3.u (below): List of Access_Type Values
      - Reports
 
    * - Controlled
-     - At the time of the Request or Investigation the content item was not open (e.g. behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription/license would be considered Controlled.
-
-       Platforms providing content that has been made freely available but is not OA_Gold (e.g. free for marketing purposes or because the title offers free access after a year) MUST be tracked as Controlled.
+     - At the time of the Request or Investigation the content item was restricted to authorized users (e.g. behind a paywall) on this platform. This includes free content that is only available to authorized (registered) users.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -562,12 +562,12 @@ Table 3.u (below): List of Access_Type Values
      - TR, IR\ |br|\ |lb|
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
-   * - OA_Gold
-     - At the time of the user Request or Investigation the content item was available under a Gold Open Access license (content that is immediately and permanently available as Open Access because an article processing charge applies or the publication process was sponsored by a library, society, or other organization). Content items may be in hybrid publications or fully Open Access publications.
-
-       Note that content items offered as Delayed Open Access (open after an embargo period) MUST currently be classified as Controlled, pending the implementation of OA_Delayed.
-     - Data_Repository\ |br|\ |lb|
+   * - Open
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
        eJournal\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Repository\ |br|\ |lb|
@@ -575,23 +575,18 @@ Table 3.u (below): List of Access_Type Values
      - TR, IR\ |br|\ |lb|
        TR_B3, TR_J3, IR_A1, IR_M1
 
-   * - OA_Delayed
-     - \*\*\* RESERVED FOR FUTURE USE - DO NOT IMPLEMENT \*\*\*
-
-       At the time of the user Request or Investigation the content item was available as Open Access after an embargo period had expired (Delayed Open Access). Note that author-archived works hosted in institutional repositories where access is restricted from public access for an embargo period will report usage as OA_Delayed for content accessed after the embargo period expires.
-
-       NOTE: This value is not to be used until its inclusion has been approved by COUNTER and a timeframe for implementation published by COUNTER.
-     -
-     -
-
-   * - Other_Free_To_Read
-     - At the time of the transaction the content item was available as free-to-read (no license required) and did not qualify under the OA_Gold Access_Type.
-
-       NOTE: This value is for institutional repositories only. Institutional repositories may also use Access_Type Other_Free_To_Read in the Title Report if this report is offered.
-     - Data_Repository\ |br|\ |lb|
-       Repository
-     - IR\ |br|\ |lb|
-       IR_A1
+   * - Free_To_Read
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
+     - Aggregated_Full_Content\ |br|\ |lb|
+       Data_Repository\ |br|\ |lb|
+       eBook\ |br|\ |lb|
+       eBook_Collection\ |br|\ |lb|
+       eJournal\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - TR, IR\ |br|\ |lb|
+       TR_B3, TR_J3, IR_A1, IR_M1
 
 
 .. _access-methods:
@@ -782,7 +777,7 @@ Table 3.y (below): Report Filters
 Zero Usage
 """"""""""
 
-Not all content providers or other COUNTER report providers link their COUNTER reporting tool to their subscription database, so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for libraries to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
+Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
 
 * For tabular reports
 

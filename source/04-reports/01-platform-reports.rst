@@ -9,6 +9,8 @@ Platform Reports
 
 Platform Reports provide a summary of activity on a given platform to support the evaluation of platforms and to provide high-level statistical data to support surveys and reporting to funders.
 
+To better facilitate open access reporting, report providers are encouraged to provide a Global Platform Report including all global usage, whether attributed to institutions or not. The Global Platform Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`). 
+
 Table 4 (below): Platform Report and Standard Views of the Platform Report
 
 .. only:: latex
@@ -27,7 +29,7 @@ Table 4 (below): Platform Report and Standard Views of the Platform Report
 
    * - PR
      - Platform Report
-     - A customizable report summarizing activity across a content provider’s platforms that allows the user to apply filters and select other configuration options.
+     - A customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options.
      - All Host_Types
 
    * - PR_P1
@@ -42,6 +44,8 @@ Report Header
 """""""""""""
 
 The table below shows the header details for the Platform Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+
+Note that for the Global Platform Report, if provided, the Institution_Name should be “The World”.
 
 Table 4.a (below): Header for Platform Report and Standard Views of the Platform Report
 

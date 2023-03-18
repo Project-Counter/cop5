@@ -44,10 +44,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Access_Type
      - A COUNTER report attribute used to report on the nature of access control restrictions, if any, placed on the content item on the platform at the time when the content item was accessed.
-     - Controlled, OA_Gold, OA_Delayed, Other_Free_to_Read
+     - Controlled, Open, Free_to_Read
 
    * - Aggregated_Full_Content
-     - A COUNTER Host_Type for content providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - A COUNTER Host_Type for report providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
      -
 
    * - Aggregated full-text database
@@ -55,7 +55,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Academic Search Complete
 
    * - Aggregator
-     - A type of content provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
+     - A type of report provider that hosts content from multiple publishers, delivers content directly to customers, and is paid for this service by customers.
      - EBSCOhost, Gale, Lexis Nexis, ProQuest
 
    * - A&I database\ |br|\ |lb|
@@ -226,11 +226,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Content provider
-     - An organisation, such as a publisher, aggregator or subscriptions agent, who provides access to resources on a subscription basis. [`Knowledge Base+ <https://knowledgebaseplus.wordpress.com/kb-support/kb-discussion-documents/kb-concepts-and-terminology/>`__]
-     - Science Direct, Clarivate, JSTOR
+     - See Report provider.
+     -
 
    * - Controlled
-     - A COUNTER Access_Type. At the time of the transaction, the content item was not open (e.g. was behind a paywall) because access is restricted to authorized users. Access of content due to a trial subscription would be considered Controlled.
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was restricted to authorized users (e.g. behind a paywall) on this platform. This includes free content that is only available to authorized (registered) users. For example, trial subscription usage would be considered Controlled.
      -
 
    * - Copyright holder
@@ -274,7 +274,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Customer
-     - An individual or organization that can access a specified range of the content provider’s services and/or content that is subject to the agreed terms and conditions.
+     - An individual or organization that can access a specified range of the report provider’s services and/or content that is subject to the agreed terms and conditions.
      -
 
    * - Customer_ID
@@ -316,7 +316,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Delayed Open Access
-     - See OA_Delayed.
+     - See Open.
      -
 
    * - Digital Object Identifier
@@ -407,7 +407,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Embargo period
-     - The period of time before an article is moved out from behind the paywall, i.e. from Controlled to OA_Delayed.
+     - The period of time before an article is moved out from behind the paywall, i.e. from Controlled to Open.
      -
 
    * - End_Date
@@ -454,8 +454,12 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A COUNTER element for extending reports, used to identify the format of the content. Reserved values include: HTML, PDF, Other.
      -
 
+   * - Free_to_Read
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
+     -
+
    * - Full_Content_Database
-     - A COUNTER Host_Type for content providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
 
        Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
      -
@@ -472,9 +476,25 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - General Data Protection Regulation.
      -
 
-   * - Gold Open Access
-     - See OA_Gold.
-     -
+   * - Global Report
+     - A report to "The World" including all global usage, whether attributed to an institution or not.
+     - 
+
+   * - Global Database Report
+     - A Database Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Item Report
+     - An Item Report that is reporting all global usage to "The World", whether attributed to an institution or not. Particularly valuable for reporting on usage of open access content.
+     - 
+
+   * - Global Platform Report
+     - A Platform Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
+
+   * - Global Title Report
+     - A Title Report that is reporting all global usage to "The World", whether attributed to an institution or not.
+     - 
 
    * - Host
      - See Content host.
@@ -497,7 +517,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Hybrid publication
-     - A publication that is available via a subscription license but also contains articles available as Gold Open Access.
+     - A publication that is available via a subscription license but also contains articles available as Open Access.
      -
 
    * - Institution
@@ -529,7 +549,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - IP address
-     - Internet protocol (IP) address of the computer on which the session is conducted. May be used by content providers as a means of authentication and authorization and for identifying the institution a user is affiliated with.
+     - Internet protocol (IP) address of the computer on which the session is conducted. May be used by report providers as a means of authentication and authorization and for identifying the institution a user is affiliated with.
 
        The identifying network address (typically four 8-bit numbers separated by “.” for IPv4 or eight groups of up to four hexadezimal numbers separated by “:” for IPv6) of the user’s computer or proxy.
      -
@@ -690,14 +710,16 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Open Access.
      -
 
-   * - OA_Delayed
-     - A COUNTER Access_Type that is reserved for future use and must not be implemented. At the time of the transaction, the content item was available as Open Access because the publisher’s embargo period had expired (delayed Open Access).
+   * - OA_Gold
+     - An Access_Type applied in Release 5. Now replaced with the broader Open.
      -
 
-   * - OA_Gold
-     - A COUNTER Access_Type. At the time of the transaction, the content item was available under a Gold Open Access license (content that is immediately and permanently available as Open Access because an article processing charge applies or the publication process was sponsored by a library, society, or other organization). Content items may be in hybrid publications or fully Open Access publications.
+   * - Open
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
+     -
 
-       Note that content items offered as delayed Open Access (open after an embargo period) currently must be classified as Controlled, pending the implementation of OA_Delayed.
+   * - Open Access
+     - See Open.
      -
 
    * - OCLC
@@ -729,7 +751,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Other_Free_to_Read
-     - A COUNTER Access_Type for institutional repositories. At the time of the transaction, the content item was freely available for reading (no license required) and did not qualify under the OA_Gold Access_Type.
+     - An Access_Type applied in a very limited way in Release 5. Now replaced with Free_To_Read.
      -
 
    * - Page tag
@@ -789,7 +811,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - 0028-4793
 
    * - Proprietary_ID
-     - A COUNTER report item identifier for a unique identifier given by publishers and other content providers to a product or collection of products.
+     - A COUNTER report item identifier for a unique identifier given by publishers and other report providers to a product or collection of products.
      -
 
    * - Proprietary Identifier
@@ -828,7 +850,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Registry of compliance
-     - The COUNTER register of content providers compliant with the COUNTER Code of Practice.
+     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [https://registry.projectcounter.org/].
      -
 
    * - Regular
@@ -856,6 +878,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
        In COUNTER Reports the Report_Attributes report header includes a series of report attributes applied to the report. This affects how the usage is presented (i.e. which columns/elements are included in the report), but it does not change the totals.
      - Attributes_To_Show=\ |lb|\ Access_Type|YOP
 
+   * - Report consumer
+     - An umbrella term referring to all those who make use of COUNTER reports, including librarians, consortia managers, publisher and aggregator staff, etc.
+     -
+
    * - Report filters\ |br|\ |lb|
        Report_Filters
      - Report filters can be used to limit the usage returned in a COUNTER report. For Standard Views of the COUNTER Reports the report filters are pre-set, for COUNTER Reports they can be used to customize the report.
@@ -870,7 +896,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - Report name\ |br|\ |lb|
        Report_Name
      - The name of a COUNTER Report or Standard View of a COUNTER Report.
-     - Journal Requests (Excluding OA_Gold)
+     - Journal Requests (Controlled)
+
+   * - Report provider
+     - An umbrella term. Includes publishers, aggregators and others who directly provide access to content, as well as organizations that provide specialist reporting services on behalf of one or more organizations.
+     - Science Direct, Clarivate, JSTOR, ScholarlyIQ
 
    * - Report validation tool
      - See COUNTER Report Validation Tool.
@@ -985,7 +1015,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Section_Type
      - A COUNTER report attribute that identifies the type of section that was accessed by the user.
-     - Article, Book, Chapter, Other, 
+     - Article, Book, Chapter, Other
 
    * - Serial
      - A publication in any medium issued in successive parts bearing numerical or chronological designations and intended to be continued indefinitely. This definition includes periodicals, journals, magazines, electronic journals, ongoing directories, annual reports, newspapers, monographic series, and also those journals, magazines, and newsletters of limited duration that otherwise bear all the characteristics of serials (e.g. newsletter of an event). [NISO]
@@ -1008,7 +1038,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Session ID
-     - A unique identifier for a single user session. If the content provider's web-site does not assign and capture a unique identifier to each user session, then a surrogate session ID can be generated using the browser user-agent, the user's IP address and a one hour time slice (see :numref:`processing` for details). The Session ID is used for double-click filtering and computing Unique_Item and Unique_Title metrics.
+     - A unique identifier for a single user session. If the report provider's web-site does not assign and capture a unique identifier to each user session, then a surrogate session ID can be generated using the browser user-agent, the user's IP address and a one hour time slice (see :numref:`processing` for details). The Session ID is used for double-click filtering and computing Unique_Item and Unique_Title metrics.
      -
 
    * - Sites
@@ -1021,7 +1051,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Standard View of a COUNTER Report
      - A predefined version of a COUNTER report, designed to meet the most common needs.
-     - Book Requests (Excluding OA_Gold), Journal Article Requests
+     - Book Requests (Controlled), Journal Article Requests
 
    * - Standardized Usage Statistics Harvesting Initiative
      - See SUSHI.
@@ -1053,6 +1083,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See TDM.
      -
 
+   * - The World
+     - Used as the Institution_Name for global reports including all global usage, whether attributed to institutions or not.
+     - 
+
    * - Thesis or Dissertation\ |br|\ |lb|
        Thesis_Or_Dissertation
      - Dissertation: a long essay on a particular subject, especially one written as a requirement for a degree.
@@ -1083,7 +1117,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Total_Item_Requests
-     - A COUNTER Metric_Type that represents the number of times users requested the full content (e.g. a full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the content provider.
+     - A COUNTER Metric_Type that represents the number of times users requested the full content (e.g. a full text) of an item. Requests may take the form of viewing, downloading, emailing, or printing content, provided such actions can be tracked by the report provider.
      -
 
    * - TR
@@ -1091,7 +1125,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B1
-     - Book Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all book content which is not Gold Open Access.
+     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book content which is not Open or Free_To_Read.
      -
 
    * - TR_B2
@@ -1103,7 +1137,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_J1
-     - Journal Requests (Excluding OA_Gold). A pre-set Standard View of TR showing full text activity for all journal content which is not Gold Open Access.
+     - Journal Requests (Controlled). A pre-set Standard View of TR showing full text activity for all journal content which is not Open or Free_To_Read.
      -
 
    * - TR_J2
@@ -1115,7 +1149,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_J4
-     - Journal Requests by YOP (excluding OA_Gold). A pre-set Standard View of TR breaking down the full text usage of non-Gold Open Access content by year of publication (YOP).
+     - Journal Requests by YOP (Controlled). A pre-set Standard View of TR breaking down the full text usage of Controlled content by year of publication (YOP).
      -
 
    * - Transaction

@@ -7,7 +7,9 @@
 Item Reports
 ------------
 
-Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons.
+Item Reports provide a summary of activity related to content at the item level and provide a means of evaluating the impact an item has for an institution’s patrons. To better facilitate open access reporting, Release 5.1 encourages publishers with open access content to provide the Item Report.
+
+To better facilitate open access reporting, report providers are encouraged to provide a Global Item Report including all global usage, whether attributed to institutions or not. The Global Item Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
 
 Table 4.n (below): Item Report and Standard Views of the Item Report
 
@@ -53,6 +55,8 @@ Report Header
 """""""""""""
 
 The table below shows the header details for the Item Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+
+Note that for the Global Item Report, if provided, the Institution_Name should be “The World”.
 
 Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 
@@ -417,8 +421,8 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - Access_Type
      - One or more or all (default) of:\ |br|\ |lb|
        - Controlled\ |br|\ |lb|
-       - OA_Gold\ |br|\ |lb|
-       - Other_Free_To_Read
+       - Open\ |br|\ |lb|
+       - Free_To_Read
      -
      -
 
@@ -457,3 +461,11 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
      -
 
 If a filter is applied to a column that doesn’t show on the report, usage for all selected attribute values is summed and the totals are presented in the report.
+
+
+Reporting for Open Access
+"""""""""""""""""""""""""
+
+All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
+
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
