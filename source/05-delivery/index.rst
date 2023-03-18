@@ -7,7 +7,7 @@
 Delivery of COUNTER Reports
 ===========================
 
-Report providers MUST make COUNTER Reports and Standard Views of the COUNTER Reports available in JSON format via the COUNTER_SUSHI API. Report providers MUST also make tabular versions of their reports available from an administrative/reporting site accessible by members of the institution requesting the report. 
+Report providers MUST make COUNTER Reports and Standard Views of the COUNTER Reports available in JSON format via the COUNTER_SUSHI API. Report providers MUST also make tabular versions of their reports available from an administrative/reporting site accessible by members of the institution requesting the report.
 
 * Reports MUST be provided monthly.
 * Data MUST be updated within 4 weeks of the end of the reporting period.
@@ -40,7 +40,6 @@ Delivering Tabular Reports
   * The report interface MUST offer all Standard Views of the COUNTER Reports the report provider is required to provide, and Standard Views options MUST automatically apply the REQUIRED filter and configuration options and not allow the report consumer to alter the filters or configuration options except for the usage begin and end dates.
   * The date range fields on the user interface MUST default to the latest month with complete usage. For example, if the current date is 15 May 2024 and April usage has been processed, the begin date would default to 01 April 2024 and the end date would default to 30 April 2024. If the April usage has not yet been processed, the start and end dates would default to 01 March 2024 and 31 March 2024.
   * COUNTER Reports must include the option to Exclude_Monthly_Details. Item Reports must include the options to Include_Parent_Details and Include_Component_Details (see :numref:`filters-attributes` for details).
-
 
 .. toctree::
    :maxdepth: 1

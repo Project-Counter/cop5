@@ -9,7 +9,7 @@ Restating data
 Retrospective Reporting of Errors
 """""""""""""""""""""""""""""""""
 
-If errors are identified in COUNTER reports, the report provider must correct the errors within three months of their discovery. The report provider must alert the Project Director so that a notification may be included in the COUNTER Registry. Report providers should also directly inform their customers of the corrections. 
+If errors are identified in COUNTER reports, the report provider must correct the errors within three months of their discovery. The report provider must alert the Project Director so that a notification may be included in the COUNTER Registry. Report providers should also directly inform their customers of the corrections.
 
 
 Reporting Usage When Journal Titles Change

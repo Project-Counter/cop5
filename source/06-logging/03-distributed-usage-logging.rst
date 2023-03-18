@@ -5,7 +5,7 @@
 Distributed Usage Logging
 -------------------------
 
-Distributed Usage Logging (DUL) was an initiative sponsored by Crossref that provides a framework for publishers to capture usage of DOI-identified content items that occurs on other websites, such as aggregators, repositories, and scholarly information-sharing sites. The premise behind DUL was that publishers could register a DUL usage logging end-point with Crossref, which was then mapped to all of the publisher’s DOIs. A content site, such as a repository, could use a content item’s DOI to look up where the publisher wants a transaction to be logged, then use the standard DUL message structure to log the activity. Using DUL could allow a publisher to capture a more complete picture of content usage. 
+Distributed Usage Logging (DUL) was an initiative sponsored by Crossref that provides a framework for publishers to capture usage of DOI-identified content items that occurs on other websites, such as aggregators, repositories, and scholarly information-sharing sites. The premise behind DUL was that publishers could register a DUL usage logging end-point with Crossref, which was then mapped to all of the publisher’s DOIs. A content site, such as a repository, could use a content item’s DOI to look up where the publisher wants a transaction to be logged, then use the standard DUL message structure to log the activity. Using DUL could allow a publisher to capture a more complete picture of content usage.
 
 The Crossref project has terminated but this process could be used by content providers to capture usage activity related to their content that happens on sites other than their own. The following points cover how DUL could be used to facilitate that process:
 
