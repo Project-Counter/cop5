@@ -486,14 +486,6 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Book\ |br|\ |lb|
        Journal
 
-   * - Section_Type
-     - When content is accessed in chunks or sections, this attribute describes the nature of the content unit.
-
-       See :numref:`section-types` for more detail.
-     - TR
-     - Article\ |br|\ |lb|
-       Chapter
-
    * - YOP
      - Year of publication for the item being reported on.
 
@@ -516,7 +508,7 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Regular\ |br|\ |lb|
        TDM
 
-If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a COUNTER Report, a permissible value MUST be specified for each report item. The only exception is Section_Type which MUST be empty (tabular reports) or omitted (JSON reports) for Data_Type Book and Unique_Title metrics, since it is not applicable in this case. Note that this results in two report items in JSON reports, one for the Total_Item and Unique_Item metrics with Section_Type and one for the Unique_Title metrics without Section_Type.
+If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a COUNTER Report, a permissible value MUST be specified for each report item.
 
 
 .. rubric:: Metric Type

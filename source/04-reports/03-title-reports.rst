@@ -451,16 +451,6 @@ Table 4.k (below): Column Headings/Elements for Title Report and Standard Views 
      -
      -
 
-   * - Section_Type
-     - C
-     -
-     -
-     -
-     -
-     -
-     -
-     -
-
    * - YOP
      - C
      - M
@@ -558,12 +548,6 @@ Table 4.l (below): Filters/Attributes for Title Report and Standard Views of the
      - Book
      - Book
 
-   * - Section_Type
-     - One or more or all (default) of the Section_Types applicable to the platform.
-     -
-     -
-     -
-
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.
 
@@ -641,12 +625,6 @@ Table 4.m (below): Filters/Attributes for Standard Views of the Title Report - P
      - Journal
      - Journal
      - Journal
-
-   * - Section_Type
-     -
-     -
-     -
-     -
 
    * - YOP
      -

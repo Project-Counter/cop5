@@ -57,9 +57,6 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    * - Publisher_ID
      - Introduced to improve matching and reporting by publisher.
 
-   * - Section_Type
-     - Identifies the type of section that was accessed by the user, including Article, Book, Chapter, Other and Section. Used primarily for reporting on book usage where content is delivered by section.
-
    * - YOP
      - Year of publication as a single element, simplifies reporting by content age.
 
