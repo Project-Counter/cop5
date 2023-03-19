@@ -1133,7 +1133,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B3
-     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type for books.
+     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type.
      -
 
    * - TR_J1
