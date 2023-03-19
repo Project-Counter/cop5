@@ -15,5 +15,5 @@ Delivering Tabular Reports
   * The report interface MUST provide filter and configuration options for the COUNTER Reports that apply to the report provider.
   * The report interface MUST offer all Standard Views of the COUNTER Reports the report provider is required to provide, and Standard Views options MUST automatically apply the REQUIRED filter and configuration options and not allow the report consumer to alter the filters or configuration options except for the usage begin and end dates.
   * The date range fields on the user interface MUST default to the latest month with complete usage. For example, if the current date is 15 May 2024 and April usage has been processed, the begin date would default to 01 April 2024 and the end date would default to 30 April 2024. If the April usage has not yet been processed, the start and end dates would default to 01 March 2024 and 31 March 2024.
-  * COUNTER Reports must include the option to Exclude_Monthly_Details.
-  * Item Reports must include the option to Include_Parent_Details. If reporting on Components is supported, Item Reports MUST include the option to Include_Component_Details (see :numref:`filters-attributes` for details).
+  * COUNTER Reports MUST include the option to Exclude_Monthly_Details.
+  * Item Reports MUST include the option to Include_Parent_Details. If reporting on Components is supported, Item Reports MUST include the option to Include_Component_Details (see :numref:`filters-attributes` for details).
