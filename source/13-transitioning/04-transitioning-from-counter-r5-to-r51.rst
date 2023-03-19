@@ -21,7 +21,7 @@ R5 and R5.1 reports are broadly comparable, provided some care is applied.
 * In R5.1, the rule that items are the unit of reporting is applied consistently for all Data_Types. This means item-level requests and investigations for books may be larger in R5.1 reports. To compare R5 to R5.1, report consumers should use the Unique_Title_Investigations and Unique_Title_Requests.
 * For the same reason, R5.1 does not use the Section_Type attribute.
 * The list of Data_Types has been expanded. This means that conference proceedings, for example, can be more accurately classified. Report consumers are advised to use the Title Report to gain a full understanding of usage, rather than using Standard Views of the Title Report which are restricted to reporting on books and journals.
-* The definition and application of Access_Types has been clarified. The primary impact here is on the TR_B1, TR_J1 and TR_J4 Standard Views of the Title Report, which will show only Controlled content without Free_To_Read materials. Report consumers are advised to use the Title Report to gain a full understanding of usage.
+* The definition and application of Access_Types has been clarified. The primary impact here is on the TR_B1, TR_J1 and TR_J4 Standard Views of the Title Report, which will show only Controlled content without Open and Free_To_Read materials. Report consumers are advised to use the Title Report to gain a full understanding of usage.
 * Components, an aspect of the Item Report, are optional in R5.1. Report consumers should use Unique_Item_Investigations and Unique_Item_Requests, which are always reported at the level of the item rather than the component, to effectively compare usage across report providers.
 
 
