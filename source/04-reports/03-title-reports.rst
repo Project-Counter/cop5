@@ -442,7 +442,7 @@ Table 4.k (below): Column Headings/Elements for Title Report and Standard Views 
      - M
 
    * - Data_Type
-     - C
+     - M
      -
      -
      -

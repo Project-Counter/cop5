@@ -206,7 +206,7 @@ Table 4.f (below): Column Headings/Elements for Database Report and Standard Vie
      - M
 
    * - Data_Type
-     - C
+     - M
      -
      -
 
