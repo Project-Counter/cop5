@@ -11,7 +11,7 @@ What is regarded as an abnormal spike in usage can vary from one report provider
 Positive Spikes in Usage
 """"""""""""""""""""""""
 
-Reported usage may be considered as a positive spike if, in a specific month, the reported usage by a report consumer is at least one hundred units of measurement greater than 300% above the previous twelve-month average.
+Reported usage may be considered as a positive spike if, in a specific month, the reported usage by a report consumer is at least one hundred units of measurement greater than thrice the previous twelve-month average.
 
 
 Negative Spikes in Usage

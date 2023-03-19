@@ -13,7 +13,7 @@ Design options and activities that do count as separate searches include:
 * Refinement of a set of search results by faceting, where applying a facet or filter requires the search to be re-run.
 * Browsing through a topics list or subject authority file, where clicking on the topic or subject conducts a search to present a set of search results.
 
-Note that link resolution MUST NOT counts as a search.
+Note that link resolution MUST NOT count as a search.
 
 
 Discovery Services and Other Multiple-Database Searches

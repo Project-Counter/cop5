@@ -15,9 +15,9 @@ The most common ways to recognize federated and automated search activity are as
 
 * A federated search engine may be using its own dedicated IP address, which can be identified and used to separate out the activity.
 * If the standard HTML interface is being used (e.g. for screen scraping), the browser ID within the web log files can be used to identify the activity as coming from a federated search.
-* For Z39.50 activity (http://www.niso.org/standards/resources/Z39.50_Resources), authentication is usually through a username/password combination. Create a unique username/password that just the federated search engine will use.
-* If an API (application programming interface) gateway is available, set up an instance of the gateway that is for the exclusive use of federated search tools. It is recommended you also require the federated search engine to include an identifying parameter when making requests to the gateway.
+* All searches via APIs and Z39.50 activity (http://www.niso.org/standards/resources/Z39.50_Resources) must be counted as Searches_Federated, as the results are not presented in the platform user interface.
+* If an API gateway is available, set up an instance of the gateway that is for the exclusive use of federated search tools. It is recommended you also require the federated search engine to include an identifying parameter when making requests to the gateway.
 
-Where federated or automated usage is genuine user-driven usage, in the context of Text & Data Mining, the Access_Method ‘TDM’ attribute should be used. This allows users of the resultant reports to distinguish automated usage from more traditional (‘regular’) usage.
+Where federated or automated usage is genuine user-driven usage, in the context of Text & Data Mining, Access_Method=TDM should be used. This allows users of the resultant reports to distinguish automated usage from more traditional (Access_Method=Regular) usage.
 
 COUNTER has lists of federated search tools in Appendix G (See :ref:`Appendix G <appendix-g>`), separate from a list of robots which is reviewed and updated on a regular basis and which can be found at: https://github.com/atmire/COUNTER-Robots.
