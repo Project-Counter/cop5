@@ -508,7 +508,7 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Regular\ |br|\ |lb|
        TDM
 
-If one of the elements is included in a report, either because it is mandatory for a Standard View (as specified in :numref:`reports`) or it is requested for a COUNTER Report, a permissible value MUST be specified for each report item.
+If one of the elements is included in a report, either because it is mandatory for a COUNTER Report or a Standard View of a COUNTER Report (as specified in :numref:`reports`) or it is called for by the report consumer, a permissible value MUST be specified for each report item.
 
 
 .. rubric:: Metric Type

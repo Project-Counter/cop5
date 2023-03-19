@@ -1004,7 +1004,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Section_Type
-     - Defunct. A COUNTER R5 report attribute that identifies the type of section that was accessed by the user.
+     - Defunct in R5.1. A COUNTER R5 report attribute that identified the type of section that was accessed by the user.
      - Article, Book, Chapter, Other
 
    * - Serial
