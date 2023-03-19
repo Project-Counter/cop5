@@ -385,7 +385,13 @@ R5 also introduces the concept of unique items and unique titles. The Metric_Typ
 
 Unique_Item metrics have been introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
 
-Unique_Title metrics have been introduced in R5 to help normalize eBook metrics. Since eBooks can be downloaded as an entire book in a single PDF or as separate chapters, the counts for R4’s BR1 (book downloads) and BR2 (section downloads) are not comparable. With R5, the book’s Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered.
+In R5.1, the method for counting item-level usage for Data_Types Book and Reference_Work changed to count a Unique_Item_Investigation or Unique_Item_Request for each item (Book_Segment) that is used, where book content is available as Book_Segments.
+
+* Where books are available as separate Book_Segments, a Unique_Item_Request MUST be counted for each Book_Segment a user elects to download.
+* Where books are available as separate Book_Segments and as whole-book downloads, a Unique_Item_Request MUST be counted for each Book_Segment when a user elects to download the whole book as a single file.
+* Where books are only available as whole-book downloads (i.e. there are no Book_Segments), only 1 Unique_Item_Request MUST be counted.
+
+Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered. They are comparable across report providers and across releases.
 
 The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 

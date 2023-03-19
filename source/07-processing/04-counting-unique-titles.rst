@@ -11,7 +11,7 @@ Two COUNTER Metric_Types count the number of unique titles that had a certain ac
 
 For the purpose of COUNTER metrics, a title represents the parent work (book) that a specific content item is part of. The title MUST be identified using a unique identifier (e.g. an ISBN for a book) regardless of format (e.g. PDF, HTML or EPUB).
 
-While the method for counting book usage in R5.1 at the item level is different than it was in R5, the method for counting title-level usage is unchanged. That means Unique_Title_Requests and Unique_Title_Investigations are comparable across report providers.
+While the method for counting book usage in R5.1 at the item level is different than it was in R5, the method for counting title-level usage is unchanged. That means Unique_Title_Requests and Unique_Title_Investigations are comparable across report providers and across releases.
 
 The rules for calculating the unique title counts are as follows:
 
