@@ -371,12 +371,12 @@ Table 3.r (below): List of Metric_Types for Searches
 
 This group of Metric_Types represents activities where content items were retrieved (Requests) or information about a content item (e.g. an abstract) was examined (Investigations). Any user activity that can be attributed to a content item will be considered an Investigation including downloading or viewing the item. Requests are limited to user activity related to retrieving or viewing the content item itself. The figure below provides a graphical representation of the relationship between Investigations and Requests.
 
-.. figure:: ../_static/img/3e-investigations-and-requests.png
+.. figure:: ../_static/img/Figure-3e.png
    :alt: Investigations and Requests
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.e: The relationship between Investigations and Requests
+.. centered:: Figure 3.e: The Relationship between Investigations and Requests
 
 
 .. rubric:: Totals, Unique Items and Unique Titles
