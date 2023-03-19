@@ -5,7 +5,8 @@
 Delivering Tabular Reports
 --------------------------
 
-* Tabular reports MUST be encoded using UTF-8. Tabular reports in text formats SHOULD include a byte order mark, so that spreadsheet programs can automatically detect the encoding in tabular form as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion.
+* Tabular reports MUST be encoded using UTF-8. Tabular reports in text formats SHOULD include a byte order mark, so that spreadsheet programs can automatically detect the encoding.
+* Tabular reports MUST be provided either as an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion.
 * Each report MUST be delivered as a separate file to facilitate automated processing of usage reports into ERM and usage consolidation systems. For clarity, multiple reports MUST NOT be included in the same Excel file as separate worksheets.
 * Tabular reports MUST be made available through a website.
 
