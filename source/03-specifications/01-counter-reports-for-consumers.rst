@@ -70,7 +70,7 @@ Table 3.a (below): COUNTER Reports
 
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
 
-.. figure:: ../_static/img/3a-reporting-ui-sample.png
+.. figure:: ../_static/img/Figure-3a.png
    :alt: Reporting user interface sample
    :align: center
    :width: 65%
