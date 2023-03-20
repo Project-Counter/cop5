@@ -91,7 +91,7 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
    * - Journal Report 3: Number of Successful Item Requests by Month, Journal and Page-type
      - Title Report\ |br|\ |lb|
        Item Report
-     - The Title Report can be configured to show Section_Types, which provides details similar to JR3. Other details like the audio and video usage can be reported in the Item Report (using the Component elements where appropriate).
+     - Details like the audio and video usage can be reported in the Item Report (using the Component elements where appropriate).
 
    * - Journal Report 3 Mobile: Number of Successful Item Requests by Month, Journal and Page-type for usage on a mobile device
      - Eliminated (no equivalent)
@@ -119,7 +119,7 @@ R5 reduces the overall number of reports by replacing many of the special-purpos
 
    * - Title Report 1: Number of Successful Requests for Journal Full-Text Articles and Book Sections by Month and Title
      - Title Report
-     - The Title Report offers a single report for books and journals and can show the usage broken down by Section_Type.
+     - The Title Report offers a single report for books and journals.
 
    * - Title Report 1 Mobile: Number of Successful Requests for Journal Full-Text Articles and Book Sections by Month and Title (formatted for normal browsers/delivered to mobile devices AND formatted for mobile devices/delivered to mobile devices
      - Eliminated (no equivalent)
@@ -341,14 +341,6 @@ With R4 the nature of the usage sometimes had to be inferred based on the name o
    * - Publisher_ID
      - A unique identifier for the publisher, preferably a standard identifier such as ISNI. For the JSON version of the report, the type (namespace) and value are separate. For tabular, the format is *{namespace}*:*{value}*.
      - ISNI:1233344455678889
-
-   * - Section_Type
-     - Used in conjunction with Data_Type, this attribute tracks requests to the level of the section requested. Used mostly with books where content may be delivered by chapter or section, this element defines the nature of the section retrieved.
-     - Article\ |br|\ |lb|
-       Book\ |br|\ |lb|
-       Chapter\ |br|\ |lb|
-       Other\ |br|\ |lb|
-       Section
 
    * - YOP
      - This attribute records the year of publication of the item. The YOP attribute replaces the year-of-publication ranges in R4’s JR5 report and is tracked for all metrics in Title and Item Reports.

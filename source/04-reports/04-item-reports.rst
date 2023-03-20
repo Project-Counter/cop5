@@ -344,7 +344,7 @@ Table 4.p (below): Column Headings/Elements for Item Report and Standard Views o
      -
 
    * - Data_Type
-     - C
+     - M
      -
      -
 

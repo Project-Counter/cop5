@@ -115,7 +115,7 @@ Table 3.p (below): List of Data_Type Values
      - Reports
 
    * - Article
-     - An article, typically published in a journal or reference work. Note that Data_Type Article is only applicable for Item Reports when the article is the item, in Title Reports this is represented by the Section_Type.
+     - An article, typically published in a journal or reference work.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
@@ -134,7 +134,7 @@ Table 3.p (below): List of Data_Type Values
        PR_P1, DR_D1, TR_B1, TR_B2, TR_B3
 
    * - Book_Segment
-     - A book segment (e.g. chapter, section, etc.). Note that Data_Type Book_Segment is only applicable for Item Reports when the book segment is the item, in Title Reports this is represented by the Section_Type.
+     - A book segment (e.g. chapter, section, etc.).
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
@@ -240,63 +240,6 @@ Table 3.p (below): List of Data_Type Values
        PR_P1, DR_D1
 
 \*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
-
-
-.. _section-types:
-
-Section Types
-"""""""""""""
-
-Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a report consumer could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
-
-Table 3.q (below): List of Section_Type Values
-
-.. only:: latex
-
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.16}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|>{\raggedright\arraybackslash}\Y{0.11}|
-
-.. list-table::
-   :class: longtable
-   :widths: 13 54 22 11
-   :header-rows: 1
-
-   * - Section_Type
-     - Description
-     - Host_Types
-     - Reports
-
-   * - Article
-     - An article from a compilation, such as a journal, encyclopedia, or reference book.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eJournal
-     - TR
-
-   * - Book
-     - A complete book, accessed as a single file.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection
-     - TR
-
-   * - Chapter
-     - A chapter from a book.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection
-     - TR
-
-   * - Other
-     - Content delivered in sections not otherwise represented on the list.
-     - Aggregated_Full_Content
-     - TR
-
-   * - Section
-     - A group of chapters or articles.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal
-     - TR
 
 
 .. _metric-types:
@@ -770,10 +713,6 @@ Table 3.y (below): Report Filters
    * - Platform
      - The Platform filter is only intended in cases where there is a single endpoint for multiple platforms; that is, the same base URL for the COUNTER_SUSHI API is used for multiple platforms and the platform parameter is required for all API calls. In the web interface this would correspond to first selecting one platform and then creating reports only for that platform.
      - All COUNTER Reports and Standard Views of COUNTER Reports
-
-   * - Section_Type
-     - List of Section_Types for which to include usage (default: all). See :numref:`title-filters` for permissible values.
-     - TR
 
    * - YOP
      - Range of years of publication for which to include usage (default: all). For the COUNTER_SUSHI API more complex filter values (list of years and ranges) MUST be supported.
