@@ -89,8 +89,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An article from a journal, or an article available as a standalone content item not aggregated into a title, for example in an institutional repository. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
 
        A COUNTER Data_Type.
-
-       A COUNTER Section_Type for Title Reports.
      -
 
    * - Article processing charges
@@ -150,8 +148,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A monograph text, edited volume, textbook, or other form of non-serial (book) publication.
 
        A COUNTER Data_Type.
-
-       A COUNTER Section_Type for Title Reports.
      -
 
    * - Book chapter
@@ -188,8 +184,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Chapter
      - A subdivision of a book or of some categories of reference work, usually numbered and titled.
-
-       A COUNTER Section_Type.
      -
 
    * - Chartered Accountant (CA)
@@ -798,8 +792,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A content item that has been labelled as a type of data that does not exist within and cannot be mapped to a COUNTER Data_Type.
 
        A COUNTER Data_Type.
-
-       A COUNTER Section_Type for Title Reports.
      -
 
    * - Other_Free_to_Read
@@ -1075,12 +1067,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Section
      - A group of chapters or articles.
-
-       A COUNTER Section_Type.
      -
 
    * - Section_Type
-     - A COUNTER report attribute that identifies the type of section that was accessed by the user.
+     - Defunct in R5.1. A COUNTER R5 report attribute that identified the type of section that was accessed by the user.
      - Article, Book, Chapter, Other
 
    * - Serial

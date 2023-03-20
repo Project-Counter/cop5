@@ -27,11 +27,11 @@ The transition from R4 to R5 meets the general requirements outlined in :numref:
 
    * - BR1
      - Full-text requests (at the book level)
-     - Unique_Title_Requests AND Data_Type=Book AND Section_Type=Book
+     - Unique_Title_Requests AND Data_Type=Book
 
    * - BR2
      - Full-text requests (at the chapter/section level)
-     - Total_Item_Requests AND Data_Type=Book AND Section_Type=Chapter|Section
+     - Total_Item_Requests AND Data_Type=Book
 
    * - :rspan:`1` BR3
      - Access denied - concurrent/simultaneous user limit exceeded

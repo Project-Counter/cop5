@@ -7,7 +7,7 @@
 SUSHI for Automated Report Harvesting
 =====================================
 
-Report providers MUST support automatic harvesting of COUNTER reports via the COUNTER_SUSHI API. The specification for the RESTful COUNTER_SUSHI API is maintained by COUNTER on SwaggerHub:
+The COUNTER_SUSHI API is designed to simplify the gathering of usage statistics by report consumers, and report providers MUST support automatic harvesting of COUNTER reports via the COUNTER_SUSHI API. The specification for the RESTful COUNTER_SUSHI API is maintained by COUNTER on SwaggerHub:
 
 https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/
 

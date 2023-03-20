@@ -368,63 +368,6 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
      - Reference_Work
 
 
-.. _section-types:
-
-Section Types
-"""""""""""""
-
-Some scholarly content is accessed in sections. For example, a user may access a chapter or section at a time. Section_Type was introduced to provide a categorization of the transaction based on the type of section accessed. For example, a report consumer could use a Title Report to see a breakdown of usage by Title and Section_Type. The following table lists the Section_Types defined by COUNTER and the Host_Types and reports to which they apply.
-
-Table 3.q (below): List of Section_Type Values
-
-.. only:: latex
-
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.16}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.26}|>{\raggedright\arraybackslash}\Y{0.11}|
-
-.. list-table::
-   :class: longtable
-   :widths: 13 54 22 11
-   :header-rows: 1
-
-   * - Section_Type
-     - Description
-     - Host_Types
-     - Reports
-
-   * - Article
-     - An article from a compilation, such as a journal, encyclopedia, or reference book.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eJournal
-     - TR
-
-   * - Book
-     - A complete book, accessed as a single file.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection
-     - TR
-
-   * - Chapter
-     - A chapter from a book.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection
-     - TR
-
-   * - Other
-     - Content delivered in sections not otherwise represented on the list.
-     - Aggregated_Full_Content
-     - TR
-
-   * - Section
-     - A group of chapters or articles.
-     - Aggregated_Full_Content\ |br|\ |lb|
-       eBook\ |br|\ |lb|
-       eBook_Collection\ |br|\ |lb|
-       eJournal
-     - TR
-
-
 .. _metric-types:
 
 Metric Types
@@ -890,10 +833,6 @@ Table 3.y (below): Report Filters
    * - Platform
      - The Platform filter is only intended in cases where there is a single endpoint for multiple platforms; that is, the same base URL for the COUNTER_SUSHI API is used for multiple platforms and the platform parameter is required for all API calls. In the web interface this would correspond to first selecting one platform and then creating reports only for that platform.
      - All COUNTER Reports and Standard Views of COUNTER Reports
-
-   * - Section_Type
-     - List of Section_Types for which to include usage (default: all). See :numref:`title-filters` for permissible values.
-     - TR
 
    * - YOP
      - Range of years of publication for which to include usage (default: all). For the COUNTER_SUSHI API more complex filter values (list of years and ranges) MUST be supported.
