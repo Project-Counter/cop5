@@ -15,7 +15,7 @@ Exceptions are used both for reporting errors that occur while responding to a C
 
 There are four types of errors that can occur while responding to COUNTER_SUSHI API calls:
 
-* The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the SUSHI server MUST respond with HTTP status code 404. The Exceptions 3000 and 3010 used in Release 4 for indicating that the report or report version isn't supported still exist, but they are deprecated and will be removed in the next major release.
+* The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the SUSHI server MUST respond with HTTP status code 404.
 * While processing a COUNTER_SUSHI API call an error occurs that usually prohibits generating the requested report, report list, consortium member list or server status. The SUSHI server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
 * The SUSHI server detects errors in a report request that can be ignored and processing can continue. The SUSHI server SHOULD continue processing the request and return HTTP status code 200 and the report in JSON format with the appropriate Exceptions in the report header.
 * The report differs from what might be expected, for example the report is empty because there was no usage. In this case the report in JSON format MUST be returned with the appropriate Exceptions in the report header.
@@ -67,7 +67,6 @@ For tabular reports the format for the Exceptions header is defined in :numref:`
 As indicated in the code above, Exceptions in JSON format have the following elements:
 
 * **Code**: The Code is a number that identifies the Exception. See Table F.1 below for permissible values.
-* **Severity:** In Release 4 the Severity element was used to indicate the severity of the Exception (Fatal, Error, Warning, Info or Debug). The RESTful COUNTER_SUSHI API in Release 5 instead uses HTTP status codes to indicate if the response is a (fatal) error (non-200 HTTP status code) or not (HTTP status code 200). The Severity element therefore is deprecated and will be removed in the next major release. SUSHI clients should stop relying on Severity and use the HTTP status code and Exception Code instead.
 * **Message**: The Message element contains a textual description of the Exception. For standard Exceptions with Codes > 999 the Message MUST exactly match the Message in Table F.1 below.
 * **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table F.1 below), for other Exceptions it is optional.
 * **Help_URL**: An optional element that contains an URL to a help page that explains the Exception in more detail.

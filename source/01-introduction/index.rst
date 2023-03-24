@@ -11,4 +11,3 @@ Since its inception in 2002, COUNTER has been focused on providing a code of pra
    :maxdepth: 1
 
    01-general-information
-   02-changes-from-counter-release-4

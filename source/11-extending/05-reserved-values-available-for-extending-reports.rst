@@ -34,7 +34,7 @@ COUNTER recognizes that there are some common extensions that report providers m
      - Mt. Laurel University
 
    * - Format
-     - By tracking the Format, report providers can generate R4 usage reports from R5 usage during the transition period. Reserved values for Format are:
+     - Reserved values for Format are:
 
        * HTML
        * PDF
