@@ -156,12 +156,12 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
    * - 7
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
-     - Data_Type=Book; Reference_Work\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Type=Controlled;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book; Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book;\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
 
    * - 8
@@ -554,9 +554,12 @@ Table 4.l (below): Filters/Attributes for Title Report and Standard Views of the
 
    * - Data_Type
      - One or more or all (default) of the Data_Types applicable to the platform.
-     - Book; Reference_Work
-     - Book; Reference_Work
-     - Book; Reference_Work
+     - Book\ |br|\ |lb|
+       Reference_Work
+     - Book\ |br|\ |lb|
+       Reference_Work
+     - Book\ |br|\ |lb|
+       Reference_Work
 
    * - Section_Type
      - One or more or all (default) of the Section_Types applicable to the platform.
