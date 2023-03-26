@@ -1113,15 +1113,15 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B1
-     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book content which is not Open or Free_To_Read.
+     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book and reference work content which is not Open or Free_To_Read.
      -
 
    * - TR_B2
-     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book.
+     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book or reference work.
      -
 
    * - TR_B3
-     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type.
+     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type for books and reference works.
      -
 
    * - TR_J1
@@ -1169,11 +1169,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Unique_Title_Investigations
-     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - Unique_Title_Requests
-     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - URI
