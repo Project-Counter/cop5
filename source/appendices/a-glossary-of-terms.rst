@@ -1181,11 +1181,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Unique_Title_Investigations
-     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - Unique_Title_Requests
-     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - URI

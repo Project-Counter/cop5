@@ -418,7 +418,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
        TR_B3, TR_J3
 
    * - Unique_Title_Investigations
-     - Number of unique titles investigated in a user-session. This Metric_Type is only applicable for Data_Type Book.
+     - Number of unique titles investigated in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
@@ -458,7 +458,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
        PR_P1, TR_B3, TR_J1, TR_J3, TR_J4, IR_A1
 
    * - Unique_Title_Requests
-     - Number of unique titles requested in a user-session. This Metric_Type is only applicable for Data_Type Book.
+     - Number of unique titles requested in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
