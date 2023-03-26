@@ -13,7 +13,7 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
@@ -37,7 +37,7 @@ Table 3.o (below): List of Host_Type Values
        ProQuest
 
    * - Aggregated_Full_Content
-     - Provides access to aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - Provides access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      - EBSCOhost\ |br|\ |lb|
        ProQuest
 
@@ -68,7 +68,7 @@ Table 3.o (below): List of Host_Type Values
      - ScienceDirect
 
    * - Full_Content_Database
-     - Provides access to databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+     - Provides access to databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include multimedia materials.
      - Cochrane
 
    * - Multimedia
