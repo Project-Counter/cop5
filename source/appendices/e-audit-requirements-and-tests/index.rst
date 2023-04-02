@@ -16,5 +16,3 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    01-audit-requirements
    02-audit-tests
-   03-audit-compliance
-   04-audit-conclusion
