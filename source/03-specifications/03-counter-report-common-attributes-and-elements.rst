@@ -68,7 +68,7 @@ Table 3.o (below): List of Host_Type Values
      - ScienceDirect
 
    * - Full_Content_Database
-     - Provides access to databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include multimedia materials.
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include but not be exclusively composed of multimedia content items.
      - Cochrane
 
    * - Multimedia

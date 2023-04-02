@@ -156,12 +156,12 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
    * - 7
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book; Reference_Work;\ |br|\ |lb|
        Access_Type=Controlled;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book; Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book; Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
 
    * - 8
@@ -443,9 +443,9 @@ Table 4.k (below): Column Headings/Elements for Title Report and Standard Views 
 
    * - Data_Type
      - M
-     -
-     -
-     -
+     - M
+     - M
+     - M
      -
      -
      -
