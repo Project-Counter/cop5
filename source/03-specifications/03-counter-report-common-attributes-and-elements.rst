@@ -96,7 +96,7 @@ Note that a given content host may be classified as having multiple Host_Types a
 Data Types
 """"""""""
 
-To facilitate flexible reporting, R5 introduced Data_Types, representing major groupings of content. The list of Data_Types was extended for R5.1 and are listed in Table 3.p below.
+To facilitate flexible reporting, R5 introduced Data_Types representing major groupings of content. The extended list of Data_Types for R5.1 is detailed in Table 3.p below.
 
 The table lists the Data_Types and related Host_Types which use them in one or more reports for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
 
@@ -104,7 +104,7 @@ Report providers MUST report metrics in line with the following:
 
 * Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
 * Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
-* Host_Types that are required to provide the IR, MUST also report at item level in the PR and, if required, the DR.
+* Host_Types that are required to provide the IR MUST also report at item level in the PR and, if required, the DR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -115,7 +115,6 @@ Table 3.p (below): List of Data_Type Values
 .. list-table::
    :class: longtable
    :widths: 20 43 24 13
-   :header-rows: 1
 
    * - Data_Type
      - Description
@@ -130,7 +129,8 @@ Table 3.p (below): List of Data_Type Values
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
-     - Multimedia\ |br|\ |lb|
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR
 
@@ -159,8 +159,6 @@ Table 3.p (below): List of Data_Type Values
        eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
        eJournal\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
      - PR, DR, TR
 
    * - Conference_Item
@@ -173,21 +171,24 @@ Table 3.p (below): List of Data_Type Values
      - *Only applies to Denial and Search metrics.*
      
        Activity within an aggregated database of full text serial and/or monograph content, or content otherwise aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate title level Data_Type (e.g. Journal for a journal article).
-     - Aggregated_Full_Content
+     - Aggregated_Full_Content\ |br|\ |lb|
+       eBook_Collection
      - DR
 
    * - Database_AI
      - *Only applies to Denial and Search metrics.*
      
        Activity within a fixed database where bibliographic metadata is searched and accessed in the context of the database. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate Data_Type (e.g. Journal for a journal article).
-     - A&I_Database
+     - A&I_Database\ |br|\ |lb|
+       Discovery_Service
      - DR
 
    * - Database_Full
      - *Only applies to Denial and Search metrics.*
      
        Activity within databases that are a collection of content items that are not aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate item-level Data_Type (e.g. Multimedia).
-     - Full_Content_Database
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia_Collection
      - DR
 
    * - Database_Full_Item
@@ -203,13 +204,15 @@ Table 3.p (below): List of Data_Type Values
 
    * - Image
      - A form of multimedia describing a static visual image.
-     - Multimedia\ |br|\ |lb|
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR
 
    * - Interactive_Resource
      - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
-     - Multimedia\ |br|\ |lb|
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR
 
@@ -224,17 +227,14 @@ Table 3.p (below): List of Data_Type Values
 
    * - Multimedia
      - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
-     - Multimedia\ |br|\ |lb|
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR
 
    * - News_Item
      - An article from a newspaper or magazine, or a news item available as a standalone content item not aggregated into a title, for example in an institutional repository.
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Repository\ |br|\ |lb|
+     - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR
 
@@ -256,7 +256,7 @@ Table 3.p (below): List of Data_Type Values
 
    * - Patent
      - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
-     - Aggregated_Full_Content\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
@@ -278,7 +278,8 @@ Table 3.p (below): List of Data_Type Values
 
    * - Reference_Work
      - An authoritative source of information about a subject used to find quick answers to questions, such as an encyclopedia or dictionary. The content may be stable or updated over time.
-     - Aggregated_Full_Content\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
@@ -301,7 +302,8 @@ Table 3.p (below): List of Data_Type Values
 
    * - Sound
      - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
-     - Multimedia\ |br|\ |lb|
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR
 
@@ -333,10 +335,11 @@ Table 3.p (below): List of Data_Type Values
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\
 
-\*Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
 
-* Host_Types that MUST offer an IR can choose to provide Parent_Data_Type and other relevant parent information if it is available.
+* Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
 * Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information as specified in the table.
+* Data_Types MUST NOT be used with other Parent_Data_Types than those listed in the table.
 
 Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
