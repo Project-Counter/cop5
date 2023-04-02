@@ -239,7 +239,7 @@ Table 3.p (below): List of Data_Type Values
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1, DR_D1
 
-\*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
+\*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all COUNTER Reports and Standard Views of COUNTER Reports required for compliance to ensure a consistent reporting.
 
 
 .. _metric-types:

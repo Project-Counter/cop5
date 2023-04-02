@@ -130,7 +130,7 @@ Table 3.f (below): COUNTER Report Header Elements
 Report Body
 """""""""""
 
-Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
+Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all COUNTER Reports and Standard Views of COUNTER Reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
 
 
 .. rubric:: Report Item Description

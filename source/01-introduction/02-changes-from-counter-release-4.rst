@@ -21,13 +21,13 @@ Report Format
 
 The Standardized Usage Statistics Harvesting Initiative (SUSHI) protocol used in R4 was designed to simplify the gathering of usage statistics by report consumers. In R5 the SOAP/XML based SUSHI protocol is replaced with the RESTful COUNTER_SUSHI API that uses JavaScript Object Notation (JSON) for a more lightweight data-interchange. The JSON format not only is easy for humans to read and write, but it is easy for machines to parse and generate. Support of the COUNTER_SUSHI API is mandatory for compliance with R5 (see :numref:`sushi` below).
 
-With R5, all COUNTER reports are structured the same way to ensure consistency, not only between reports, but also between the JSON and tabular versions of the reports. Now, all reports share the same format for the header, the report body is derived from the same set of element names, total rows have been eliminated, and data values are consistent between the JSON and tabular version. R5 also addresses the problems of terminology and report layouts varying from report to report, as well as JSON and tabular versions of the same report producing different results while still being compliant.
+With R5, all COUNTER reports are structured the same way to ensure consistency, not only between reports, but also between the JSON and tabular versions of the reports. Now, all COUNTER Reports and Standard Views of COUNTER Reports share the same format for the header, the report body is derived from the same set of element names, total rows have been eliminated, and data values are consistent between the JSON and tabular version. R5 also addresses the problems of terminology and report layouts varying from report to report, as well as JSON and tabular versions of the same report producing different results while still being compliant.
 
 
 Metric Types
 """"""""""""
 
-R5 strives for simplicity and clarity by reducing the number of Metric_Types and applying these Metric_Types across all reports, as applicable. With R4, Book Reports had metric types that could be considered different from metric types in Journal Reports and metric types attempting to reflect additional attributes such as mobile usage, usage by format, etc. Most R4 metric types have either been renamed or eliminated in favour of new R5 Metric_Types.
+R5 strives for simplicity and clarity by reducing the number of Metric_Types and applying these Metric_Types across all COUNTER Reports and Standard Views of COUNTER Reports, as applicable. With R4, Book Reports had metric types that could be considered different from metric types in Journal Reports and metric types attempting to reflect additional attributes such as mobile usage, usage by format, etc. Most R4 metric types have either been renamed or eliminated in favour of new R5 Metric_Types.
 
 See :ref:`Appendix B, Section B.1.3 <appendix-b-1-3>` for a table showing the R4 metric types and their R5 equivalence or status.
 
