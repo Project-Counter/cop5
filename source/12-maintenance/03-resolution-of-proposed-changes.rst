@@ -39,7 +39,7 @@ Version and Change Control
 
 Each update to the COUNTER Code of practice will generate a new version number (i.e. the initial release of “R5” was designated as version 5.0. 
 
-Under Explicit Versioning, a four-digit numbering system in the structure Release.Breaking.Feature.Fix, “Breaking” releases including changes that are not backwards compatible take the first point place (e.g. R5.1.0.0), “Feature” releases with new features or extensions that are backwards compatible take the second point place (e.g. R5.1.1.0), and “Fix” releases with bug fixes, typographic corrections and similar small amendments take the third point place (R5.1.0.1).
+Under Explicit Versioning, a four-digit numbering system in the structure Release.Breaking.Feature.Fix, “Breaking” releases including changes that are not backwards compatible take the first point place (e.g. R5.1.0.0), “Feature” releases with new features or extensions that are backwards compatible take the second point place (e.g. R5.1.1.0), and “Fix” releases with bug fixes, typographic corrections and similar small amendments take the third point place (R5.1.0.1). Note that in practice, trailing zeroes will be omitted from release numbering.
 
 Explicit Versioning thus allows for us to change the Release number where changes are so comprehensive that Release 5 would no longer apply.
 

@@ -475,6 +475,7 @@ The Access_Type applied to an item MUST adhere to the following principles:
 
 * Access_Type relates to access on the platform where the usage occurs: if access to a content item is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled, even if the content item is Open on a different platform.
 * Access_Type applies to all parts of a content item. That is, the metadata, the full-text (if any) and supplementary materials (if any) all share a single Access_Type. For a journal article, for example, an Investigation of the article metadata must be reported under the same Access_Type as a Request for the full article.
+* Access_Type applies in all circumstances. That is, an item MUST NOT be reported as Open for one user and as Controlled for a different user.
 
 Table 3.u (below): List of Access_Type Values
 
