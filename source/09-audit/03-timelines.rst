@@ -55,5 +55,7 @@ Applications for extensions MUST be sent to both the Project Director and the au
 Alternate year audits
 """""""""""""""""""""
 
-Some report providers are eligible to be audited once every 24 months. Specifically, report providers delivering COUNTER reports for a single platform, where that platform includes up to 150 books OR 15 journals OR one database, may apply to the Project Director for alternate year audit status. Report providers with historic permission to be audited in alternate years will also be considered but they MUST reapply to the Project Director for confirmation.
+Some report providers are eligible to be audited once every 24 months. Specifically, report providers delivering COUNTER reports for a single platform, where that platform includes up to 150 books OR 15 journals OR one database, may apply to the Project Director for alternate year audit status.
+
+Report providers with historic permission to be audited in alternate years for Release 5 of the Code of Pratice will also be considered for alternate year audit for R5.1, but they MUST reapply to the Project Director for confirmation.
 
