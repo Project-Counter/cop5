@@ -7,7 +7,7 @@
 COUNTER Validation Tool
 -----------------------
 
-The COUNTER Validation Tool (https://www.projectcounter.org/validation-tool/) allows report providers and auditors to quickly perform compliance checks related to format and consistency of both tabular and JSON reports. Report providers SHOULD use this free tool to check their reports and COUNTER_SUSHI API implementation and fix issues detected by the tool before they begin the audit. It is recommended to use the tool not just when preparing for the audit, but to integrate the testing in the regular QA processes or at least test regularly to make sure the reports stay compliant. We recommend testing reports using the Validation Tool once every four months at a minimum, and monthly where possible. 
+The `COUNTER Validation Tool <https://www.projectcounter.org/validation-tool/>` allows report providers and auditors to quickly perform compliance checks related to format and consistency of both tabular and JSON reports. Report providers SHOULD use this free tool to check their reports and COUNTER_SUSHI API implementation and fix issues detected by the tool before they begin the audit. It is recommended to use the tool not just when preparing for the audit, but to integrate the testing in the regular QA processes or at least test regularly to make sure the reports stay compliant. We recommend testing reports using the Validation Tool once every four months at a minimum, and monthly where possible. 
 
 The COUNTER Release 5 Validation Tool uses the following error levels to report issues with different severity:
 

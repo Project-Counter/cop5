@@ -840,7 +840,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Registry of compliance
-     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [https://registry.projectcounter.org/].
+     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.projectcounter.org/>`].
      -
 
    * - Regular
@@ -939,7 +939,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ROR (Research Organization Registry)
-     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world. See https://ror.org/.
+     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world [`ROR <https://ror.org/>`].
 
        In COUNTER reports ROR IDs can be used as identifiers for institutions and publishers.
      -

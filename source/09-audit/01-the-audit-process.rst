@@ -37,4 +37,4 @@ Audits follow a five-stage process.
   * The report provider MUST fix the issues identified by the auditor within three months of the date of the interim report
   * The auditor will re-reconcile the COUNTER reports 
 
-* **Stage five**-  audit complete. Once a Pass Report is issued, COUNTER will update the Registry of COUNTER compliant platforms to reflect the updated audit status of all platforms covered by the audit (https://registry.projectcounter.org/). 
+* **Stage five**-  audit complete. Once a Pass Report is issued, COUNTER will update the Registry of COUNTER compliant platforms to reflect the updated audit status of all platforms covered by the audit (`COUNTER Registry <https://registry.projectcounter.org/>`).
