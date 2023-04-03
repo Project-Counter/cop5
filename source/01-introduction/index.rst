@@ -11,6 +11,7 @@ Since its inception in 2002, COUNTER has been focused on providing a Code of Pra
 
 Purpose
 """""""
+
 The purpose of the COUNTER Code of Practice is to facilitate the recording, exchange, and interpretation of online usage data by establishing open international standards and protocols for the provision of report-provider-generated usage statistics that are consistent, comparable, and credible.
 
 

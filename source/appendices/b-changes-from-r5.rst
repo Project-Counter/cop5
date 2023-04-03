@@ -7,8 +7,8 @@
 
 .. _appendix-b:
 
-Appendix B: Changes from Release
-==========================================
+Appendix B: Changes from Release 5
+==================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
