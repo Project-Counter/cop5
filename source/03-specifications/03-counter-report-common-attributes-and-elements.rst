@@ -328,11 +328,13 @@ R5 also introduces the concept of unique items and unique titles. The Metric_Typ
 
 Unique_Item metrics have been introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
 
-In R5.1, the method for counting item-level usage for Data_Types Book and Reference_Work changed to count a Unique_Item_Investigation or Unique_Item_Request for each item (Book_Segment) that is used, where book content is available as Book_Segments.
+The method for counting book usage in R5.1 at the item level is different than it was in R5. In R5.1, a Unique_Item_Investigation or Unique_Item_Request MUST be counted for each item (Book_Segment) that is used, where book content is available as Book_Segments.
 
-* Where books are available as separate Book_Segments, a Unique_Item_Request MUST be counted for each Book_Segment a user elects to download.
-* Where books are available as separate Book_Segments and as whole-book downloads, a Unique_Item_Request MUST be counted for each Book_Segment when a user elects to download the whole book as a single file.
-* Where books are only available as whole-book downloads (i.e. there are no Book_Segments), only 1 Unique_Item_Request MUST be counted.
+* Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
+* Where it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
+* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or Articles within Journals.
+
+This change facilitates consistent reporting on items within the Item Report, and permits more accurate comparisons of usage across Data_Types, while retaining the ability to compare book usage across platforms through Unique_Title_Investigations and Unique_Title_Requests.
 
 Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered. They are comparable across report providers and across releases.
 
