@@ -12,6 +12,7 @@ There are three aspects of audit compliance
 * **Report delivery**: Auditors test whether the COUNTER_SUSHI API has been correctly implemented for delivery of JSON reports, and whether the web interface permits retrieval of tabular reports, using the instructions supplied by the report provider.
 * **Format**: JSON and tabular reports are reviewed by the auditor to confirm they adhere to the format and presentation specified in the Code of Practice.
 * **Data integrity**: Metrics included in the reports are verified by the auditor to ensure they accurately record activities carried out during audit seeding. This includes
+
   * Checking that reports are consistent regardless of the browser used for seeding and/or accessing reports. Auditors MUST use a minimum of two different browsers for testing, one of which MUST be Chrome, Edge, Firefox, or Safari. Any browser used for testing must account for a minimum of one quarter (25%) of the overall testing.
   * Verifying whether the report provider operates a cache server, as this may result in under-reporting of seeding activity. Auditors MUST always switch off the browser cache settings of test machines.
 
@@ -25,7 +26,7 @@ E.1.1 Auditor Setup
 
 The reporting period for COUNTER is the calendar month: a report run for any given month MUST reflect all activity of a customer for the entire selected month. For the purposes of audits, auditors MUST conduct and conclude all audit tests within the seeding month.
 
-Prior to an audit, the report provider SHOULD supply to the auditor, using either the setup form provided (:download:`<../_static/files/COUNTER-audit-setup.pdf>`) or the auditor’s preferred alternative:
+Prior to an audit, the report provider SHOULD supply to the auditor, using either the setup form provided (:download:`PDF <../../_static/COUNTER-audit-setup.pdf>`) or the auditor’s preferred alternative:
 
 * Account details for at least four separate accounts with access to all areas of the site (or specific restrictions for testing Denials).
 * SUSHI credentials for the test accounts to enable verification of SUSHI harvesting of JSON format reports.

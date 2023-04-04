@@ -5,7 +5,6 @@
 E.2 Audit Tests
 ---------------
 
-
 E.2.1 Validation Tool
 """""""""""""""""""""
 
@@ -26,6 +25,7 @@ E.2.2.1 Searches_Platform
 **Option 1**: Platform has multiple databases and the user can search the whole platform, multiple selected databases, or a single database.
 
 The auditor MUST run 100 searches on the platform
+
 * 50 searches against only 1 selected database.
 * 25 searches against 2 selected databases.
 * 25 searches against all databases on the platform.
@@ -35,6 +35,7 @@ The auditor activity MUST result in 100 Searches_Platform (1 per search).
 **Option 2**: Platform has multiple databases and the user can search the whole platform or a single database.
 
 The auditor MUST run 100 searches on the platform
+
 * 50 searches against only 1 selected database.
 * 50 searches against all databases on the platform.
 
@@ -42,13 +43,13 @@ The auditor activity MUST result in 100 Searches_Platform (1 per search).
 
 **Option 3**: Platform has multiple databases but the user can only search the whole platform OR the platform has just one database.
 
-The auditor MUST run 100 searches on the platform. 
+The auditor MUST run 100 searches on the platform.
 
 The auditor activity MUST result in 100 Searches_Platform (1 per search).
 
 **Option 4**: Platform has multiple databases but the user can only search a single database at a time.
 
-The auditor MUST run 100 searches across at least 10% of the available databases, restricted to one database at a time. 
+The auditor MUST run 100 searches across at least 10% of the available databases, restricted to one database at a time.
 
 The auditor activity MUST result in 100 Searches_Platform (1 per search).
 
@@ -61,6 +62,7 @@ Where possible, 50% of items requested SHOULD be via browsing the platform and 5
 **Option 1**: Platforms with mixtures of Data_Types including Data_Type=Book.
 
 The auditor MUST make a total of 100 requests
+
 * 50 requests against different items with Data_Type other than Book.
 * 10 requests against different items within each of 5 books, for 50 total requests.
 
@@ -71,9 +73,10 @@ The auditor activity MUST result in 100 each of Total_Item_Investigations, Total
 **Option 2**: Platforms that only include Data_Type=Book.
 
 The auditor MUST make a total of 100 requests
+
 * 10 requests against different items within each of 10 books, for 100 total requests.
 
-If a platform only delivers book content as a whole-book download (i.e. without Book_Segments), then each request SHOULD be for a separate book. 
+If a platform only delivers book content as a whole-book download (i.e. without Book_Segments), then each request SHOULD be for a separate book.
 
 The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 Unique_Title_Requests (1 per book).
 
@@ -94,6 +97,7 @@ E.2.3.1 Searches_Regular and Searches_Automated
 **Option 1**: Platform has multiple databases and the user can search the whole platform, multiple selected databases, or a single database.
 
 The auditor MUST run 100 searches on the platform
+
 * 50 searches against only 1 selected database, resulting in 50 Searches_Regular against that database.
 * 25 searches against 2 selected databases, resulting in 25 Searches_Regular against both databases.
 * 25 searches against all databases on the platform, resulting in 25 Searches_Regular against every database.
@@ -101,6 +105,7 @@ The auditor MUST run 100 searches on the platform
 **Option 2**: Platform has multiple databases and the user can search the whole platform or a single database.
 
 The auditor MUST run 100 searches on the platform
+
 * 50 searches against only 1 selected database, resulting in 50 Searches_Regular against that database.
 * 50 searches against all databases on the platform, resulting in 50 Searches_Regular against every database.
 
@@ -166,7 +171,8 @@ Within the Title Report, breakdowns by Access_Type are essential. There are ther
 
 **Option 1**: Report provider offers Controlled and Open Book_Segments.
 
-The auditor MUST request 
+The auditor MUST request
+
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Controlled.
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Open.
 
@@ -175,6 +181,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 **Option 2**: Report provider offers Controlled, Open and Free_To_Read Book_Segments.
 
 The auditor MUST request
+
 * 40 Book_Segment items, 10 each from 4 different Books with Access_Type Controlled.
 * 40 Book_Segment items, 10 each from 4 different Books with Access_Type Open.
 * 20 Book_Segment items, 10 each from 2 different Books with Access_Type Free_To_Read.
@@ -184,6 +191,7 @@ This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, U
 **Option 3**: Report provider offers Controlled and Free_To_Read Book_Segments.
 
 The auditor MUST request
+
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Controlled.
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Free_To_Read.
 
@@ -192,6 +200,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 **Option 4**: Report provider offers Open and Free_To_Read Book_Segments.
 
 The auditor MUST request
+
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Open.
 * 50 Book_Segment items, 10 each from 5 different Books with Access_Type Free_To_Read.
 
@@ -206,6 +215,7 @@ Within the Title Report, breakdowns by Access_Type are essential. There are ther
 **Option 1**: Report provider offers Controlled and Open Books, without Book_Segments.
 
 The auditor MUST request
+
 * 25 Books with Access_Type Controlled.
 * 25 Books with Access_Type Open.
 
@@ -216,6 +226,7 @@ Where there are fewer than the required number of books that are Controlled or O
 **Option 2**: Report provider offers Controlled, Open and Free_To_Read Books, without Book_Segments.
 
 The auditor MUST request
+
 * 20 Books with Access_Type Controlled.
 * 20 Books with Access_Type Open.
 * 10 Books with Access_Type Free_To_Read.
@@ -226,7 +237,8 @@ Where there are fewer than the required number of books that are Controlled, Ope
 
 **Option 3**: Report provider offers Controlled and Free_To_Read Books, without Book_Segments.
 
-The auditor MUST request 
+The auditor MUST request
+
 * 25 Books with Access_Type Controlled.
 * 25 Books with Access_Type Free_To_Read.
 
@@ -237,6 +249,7 @@ Where there are fewer than the required number of books that are Controlled or F
 **Option 4**: Report provider offers Open and Free_To_Read Books, without Book_Segments.
 
 The auditor MUST request
+
 * 25 Books with Access_Type Open.
 * 25 Books with Access_Type Free_To_Read.
 
@@ -263,6 +276,7 @@ Within the Title Report, breakdowns by Access_Type are essential. There are ther
 **Option 1**: Report provider offers Controlled and Open journal items.
 
 The auditor MUST request
+
 * 50 journal articles with Access_Type Controlled.
 * 50 journal articles with Access_Type Open.
 
@@ -271,6 +285,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 **Option 2**: Report provider offers Controlled, Open and Free_To_Read journal items.
 
 The auditor MUST request
+
 * 40 journal articles with Access_Type Controlled.
 * 40 journal articles with Access_Type Open.
 * 20 journal articles with Access_Type Free_To_Read.
@@ -280,6 +295,7 @@ This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, U
 *Option 3**: Report provider offers Controlled and Free_To_Read journal items.
 
 The auditor MUST request
+
 * 50 journal articles with Access_Type Controlled.
 * 50 journal articles with Access_Type Free_To_Read.
 
@@ -288,6 +304,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 **Option 4**: Report provider offers Open and Free_To_Read journal items.
 
 The auditor MUST request
+
 * 50 journal articles with Access_Type Open.
 * 50 journal articles with Access_Type Free_To_Read.
 
@@ -328,6 +345,7 @@ This audit test applies to investigations and requests metrics across all COUNTE
 The test consists of making requests to an item twice in succession (double-clicks). If the two clicks occur within a 30-second time-span, only the second request MUST be recorded, resulting in 1 Total_Item_Investigation and 1 Total_Item_Request. If the two clicks occur with more than 30 seconds between them, then 2 Total_Item_Investigations and Total_Item_Requests must be counted. In both cases only 1 Unique_Item_Investigation and 1 Unique_Item_Request will be reported.
 
 The auditor MUST carry out a total of 30 tests:
+
 * 15 “Inside” tests, whereby 2 identical requests are made and the second request is within 30 seconds of the first.
 * 15 “Outside” tests, whereby 2 identical requests are made and the second request is more than 30 seconds after the first.
 
