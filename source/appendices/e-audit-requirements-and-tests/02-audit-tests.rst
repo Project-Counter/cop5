@@ -144,118 +144,119 @@ The auditor MUST make a total of 80 investigations against different items, resu
 Where a platform has fewer than 80 items, the auditor MUST make at least one investigation per item and testing should result in 80 Total_Item_Investigations and the item-count of Unique_Item_Investigations.
 
 
-E.2.4 Title Report Audit Tests: Books
-"""""""""""""""""""""""""""""""""""""
+E.2.4 Title Report Audit Tests: Books and Reference_Works
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The Title Report will be COUNTER-compliant if the following audit tests are passed. The book-related Standard Views of the Title Report (TR_B1, TR_B2, TR_B3) will be COUNTER-compliant if the metrics match those in the Title Report, with the appropriate aggregation.
 
 Audit test requirements vary depending on the set up of the platform and any related database(s), as indicated by the Options within the tests below.
 
+Note that Data_Types Book and Reference_Work are included in the audit tests, as Reference_Works are included in the book-related Standard Views of the Title Report.
 
-E.2.4.1 Book Unique_Title_Requests
-''''''''''''''''''''''''''''''''''
+E.2.4.1 Unique_Title_Requests
+'''''''''''''''''''''''''''''
 
-**Option 1**: Book_Segments are available, users can elect to access books segment-by-segment.
+**Option 1**: Book_Segments and/or Reference_Items are available, users can elect to access Books and/or Reference_Works segment-by-segment.
 
-The auditor MUST request 100 Book_Segment items, 10 each from 10 different Books. This MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests.
+The auditor MUST request 100 Book_Segments and/or Reference_Items, 10 each from 10 different Books and/or Reference_Works. This MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests.
 
-**Option 2**: Only whole Books are available, with no Book_Segments.
+**Option 2**: Only whole Books and/or Reference_Works are available.
 
-The auditor MUST request 20 Book items, twice each. This MUST result in 40 each of Total_Item_Investigations and Total_Item_Requests, and 20 each of Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests.
+The auditor MUST request 20 Books and/or Reference_Works, twice each. This MUST result in 40 each of Total_Item_Investigations and Total_Item_Requests, and 20 each of Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests.
 
 
-E.2.4.2 Book Access Types: Book_Segments
-''''''''''''''''''''''''''''''''''''''''
+E.2.4.2 Book Access Types: Book_Segments and/or Reference_Items
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Books with more than one Access_Type are available on a platform, and they are available as Book_Segments.
 
-**Option 1**: Report provider offers Controlled and Open Book_Segments.
+**Option 1**: Report provider offers Controlled and Open Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Controlled.
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Open.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Controlled.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Open.
 
 This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled, and the same again for Access_Type Open.
 
-**Option 2**: Report provider offers Controlled, Open and Free_To_Read Book_Segments.
+**Option 2**: Report provider offers Controlled, Open and Free_To_Read Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 40 Book_Segment items, 10 each from 4 different Books with Access_Type Controlled.
-* 40 Book_Segment items, 10 each from 4 different Books with Access_Type Open.
-* 20 Book_Segment items, 10 each from 2 different Books with Access_Type Free_To_Read.
+* 40 Book_Segments and/or Reference_Items, 10 each from 4 different Books and/or Reference_Works with Access_Type Controlled.
+* 40 Book_Segments and/or Reference_Items, 10 each from 4 different Books and/or Reference_Works with Access_Type Open.
+* 20 Book_Segments and/or Reference_Items, 10 each from 2 different Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 4 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 2 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Free_To_Read.
 
-**Option 3**: Report provider offers Controlled and Free_To_Read Book_Segments.
+**Option 3**: Report provider offers Controlled and Free_To_Read Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Controlled.
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Free_To_Read.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Controlled.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled, and the same again for Access_Type Free_To_Read.
 
-**Option 4**: Report provider offers Open and Free_To_Read Book_Segments.
+**Option 4**: Report provider offers Open and Free_To_Read Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Open.
-* 50 Book_Segment items, 10 each from 5 different Books with Access_Type Free_To_Read.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Open.
+* 50 Book_Segments and/or Reference_Items, 10 each from 5 different Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Open, and the same again for Access_Type Free_To_Read.
 
 
-E.2.4.3 Book Access Types: Whole Books
-''''''''''''''''''''''''''''''''''''''
+E.2.4.3 Book Access Types: Whole Books and/or Reference_Works
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Books with more than one Access_Type are available on a platform, and they are only available without Book_Segments.
 
-**Option 1**: Report provider offers Controlled and Open Books, without Book_Segments.
+**Option 1**: Report provider offers Controlled and Open Books and/or Reference_Works, without Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 25 Books with Access_Type Controlled.
-* 25 Books with Access_Type Open.
+* 25 Books and/or Reference_Works with Access_Type Controlled.
+* 25 Books and/or Reference_Works with Access_Type Open.
 
 This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled, and the same again for Access_Type Open.
 
-Where there are fewer than the required number of books that are Controlled or Open, the auditor MUST test every book with that Access_Type.
+Where there are fewer than the required number of Books and/or Reference_Works that are Controlled or Open, the auditor MUST test every item with that Access_Type.
 
-**Option 2**: Report provider offers Controlled, Open and Free_To_Read Books, without Book_Segments.
+**Option 2**: Report provider offers Controlled, Open and Free_To_Read Books and/or Reference_Works, without Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 20 Books with Access_Type Controlled.
-* 20 Books with Access_Type Open.
-* 10 Books with Access_Type Free_To_Read.
+* 20 Books and/or Reference_Works with Access_Type Controlled.
+* 20 Books and/or Reference_Works with Access_Type Open.
+* 10 Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled; the same again for Access_Type Open; and 10 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Free_To_Read.
 
-Where there are fewer than the required number of books that are Controlled, Open or Free_To_Read, the auditor MUST test every book with that Access_Type.
+Where there are fewer than the required number of Books and/or Reference_Works that are Controlled, Open or Free_To_Read, the auditor MUST test every item with that Access_Type.
 
-**Option 3**: Report provider offers Controlled and Free_To_Read Books, without Book_Segments.
+**Option 3**: Report provider offers Controlled and Free_To_Read Books and/or Reference_Works, without Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 25 Books with Access_Type Controlled.
-* 25 Books with Access_Type Free_To_Read.
+* 25 Books and/or Reference_Works with Access_Type Controlled.
+* 25 Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled, and the same again for Access_Type Free_To_Read.
 
-Where there are fewer than the required number of books that are Controlled or Free_To_Read, the auditor MUST test every book with that Access_Type.
+Where there are fewer than the required number of Books and/or Reference_Works that are Controlled or Free_To_Read, the auditor MUST test every item with that Access_Type.
 
-**Option 4**: Report provider offers Open and Free_To_Read Books, without Book_Segments.
+**Option 4**: Report provider offers Open and Free_To_Read Books and/or Reference_Works, without Book_Segments and/or Reference_Items.
 
 The auditor MUST request
 
-* 25 Books with Access_Type Open.
-* 25 Books with Access_Type Free_To_Read.
+* 25 Books and/or Reference_Works with Access_Type Open.
+* 25 Books and/or Reference_Works with Access_Type Free_To_Read.
 
 This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Open, and the same again for Access_Type Free_To_Read.
 
-Where there are fewer than the required number of books that are Open or Free_To_Read, the auditor MUST test every book with that Access_Type.
+Where there are fewer than the required number of Books and/or Reference_Works that are Open or Free_To_Read, the auditor MUST test every item with that Access_Type.
 
 
 E.2.5 Title Report Audit Tests: Journals
