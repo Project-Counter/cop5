@@ -11,7 +11,7 @@ Some COUNTER Metric_Types count the number of unique items that had a certain ac
 
 For the purpose of COUNTER metrics, an item is the typical unit of content being accessed by users, such as articles, book chapters, book segments, whole books (if delivered as a single file), and multimedia content. The item MUST be identified using the unique ID which identifies the work (e.g. chapter or article) regardless of format (e.g. PDF, HTML, or EPUB). If no item-level identifier is available, then use the item name in combination with the identifier of the parent item (i.e. the article title + ISSN of the journal, or chapter name + ISBN of the book).
 
-The method for counting book usage in R5.1 at the item level is different than it was in R5. In R5.1, a Unique_Item_Investigation or Unique_Item_Request MUST be counted for each item (Book_Segment) that is used, where book content is available as Book_Segments.
+The method for counting book usage in R5.1 at the item level is different than it was in R5. In R5.1, a Unique_Item_Investigation or Unique_Item_Request MUST be counted for each item (Book_Segment) that is used, independent of the method of content delivery.
 
 * Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
 * Where it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
