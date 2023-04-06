@@ -14,7 +14,7 @@ Appendices
    :maxdepth: 1
 
    a-glossary-of-terms
-   b-changes-from-previous-releases/index
+   b-changes-from-r5
    c-declaration-of-counter-compliance
    d-guidelines-for-implementation
    e-audit-requirements-and-tests/index

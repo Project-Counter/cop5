@@ -70,7 +70,7 @@ Table 3.a (below): COUNTER Reports
 
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
 
-.. figure:: ../_static/img/3a-reporting-ui-sample.png
+.. figure:: ../_static/img/Figure-3a.png
    :alt: Reporting user interface sample
    :align: center
    :width: 65%
@@ -190,7 +190,7 @@ Table 3.d (below): Standard Views of the Title Report
 
    * - TR_B1
      - Book Requests (Controlled)
-     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests show usage per item, so usage on different platforms will vary based on how the content is delivered (e.g. delivered as a complete book or by chapter).
+     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book and reference work platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection

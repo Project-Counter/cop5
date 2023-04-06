@@ -9,21 +9,21 @@ Formats for COUNTER Reports
 
 R5 reports can be delivered in tabular form, or as machine-readable data (JSON) via the COUNTER_SUSHI API. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
-All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the “Journal Requests (Controlled)” Standard View. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
+All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the Title Report. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
 
-.. figure:: ../_static/img/3b-standard-view-sample.png
-   :alt: Standard View sample
+.. figure:: ../_static/img/Figure-3b.png
+   :alt: Title Report sample
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.b: Sample “Journal Requests (Controlled)” Standard View
+.. centered:: Figure 3.b: Sample Title Report
 
-.. figure:: ../_static/img/3c-tabular-report-layout.png
-   :alt: Tabular Report layout
+.. figure:: ../_static/img/Figure-3c.png
+   :alt: Tabular COUNTER report layout
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.c: Layout for tabular COUNTER reports
+.. centered:: Figure 3.c: Layout for Tabular COUNTER Reports
 
 All COUNTER reports have a header. In tabular reports, the header is separated from the body with a blank row (to facilitate sorting and filtering in Excel). Beneath that is the body of the report with column headings. The contents of the body will vary by report. Figure 3.c (above) identifies the different kinds of information you may find in the report and the relative positioning of this information. All of this is discussed in more detail below.
 
@@ -35,8 +35,8 @@ Report Header
 
 The first 13 rows of a tabular COUNTER report contain the header, and the 14th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
 
-.. figure:: ../_static/img/3d-tabular-report-header.png
-   :alt: Tabular Report layout
+.. figure:: ../_static/img/Figure-3d.png
+   :alt: Tabular report header information
    :align: center
    :width: 85%
 

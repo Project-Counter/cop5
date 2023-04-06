@@ -37,21 +37,21 @@ Table 4.h (below): Title Report and Standard Views of the Title Report
 
    * - TR_B1
      - Book Requests (Controlled)
-     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests show usage per item, so usage on different platforms will vary based on how the content is delivered (e.g. delivered as a complete book or by chapter).
+     - Reports on full-text activity for books (Data_Types Book and Reference_Work), excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
 
    * - TR_B2
      - Book Access Denied
-     - Reports on Access Denied activity for books where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the book.
+     - Reports on Access Denied activity for books (Data_Types Book and Reference_Work) where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the book.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
 
    * - TR_B3
      - Book Usage by Access Type
-     - Reports on book usage showing all applicable Metric_Types broken down by Access_Type.
+     - Reports on book usage (Data_Types Book and Reference_Work) showing all applicable Metric_Types broken down by Access_Type.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
@@ -156,12 +156,12 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
    * - 7
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
-     - Data_Type=Book;\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Type=Controlled;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book;\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book;\ |br|\ |lb|
+     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
 
    * - 8
@@ -544,9 +544,12 @@ Table 4.l (below): Filters/Attributes for Title Report and Standard Views of the
 
    * - Data_Type
      - One or more or all (default) of the Data_Types applicable to the platform.
-     - Book
-     - Book
-     - Book
+     - Book\ |br|\ |lb|
+       Reference_Work
+     - Book\ |br|\ |lb|
+       Reference_Work
+     - Book\ |br|\ |lb|
+       Reference_Work
 
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.

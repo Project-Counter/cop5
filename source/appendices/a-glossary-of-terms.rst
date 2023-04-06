@@ -47,7 +47,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Controlled, Open, Free_to_Read
 
    * - Aggregated_Full_Content
-     - A COUNTER Host_Type for report providers that offers aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - A COUNTER Host_Type for report providers that provide  access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      -
 
    * - Aggregated full-text database
@@ -453,9 +453,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Full_Content_Database
-     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
-
-       Note: In contrast to A&I_Databases and Aggregated_Full_Content the Investigations and Requests for Full_Content_Databases (like for example Cochrane Database of Systematic Reviews) are reported with Data_Type Database.
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include but not be exclusively composed of multimedia content items.
      -
 
    * - Full-text article
@@ -1052,9 +1050,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - SUSHI
-     - An international standard (Z39-93) used by COUNTER R4 that describes a method for automating the harvesting of reports.
-
-       Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
+     - Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
 
        COUNTER compliance requires content hosts to implement the COUNTER_SUSHI API.
      -
@@ -1115,15 +1111,15 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - TR_B1
-     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book content which is not Open or Free_To_Read.
+     - Book Requests (Controlled). A pre-set Standard View of TR showing full text activity for all book and reference work content which is not Open or Free_To_Read.
      -
 
    * - TR_B2
-     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book.
+     - Book Access Denied. A pre-set Standard View of TR showing where users were denied access because simultaneous-use (concurrency) licenses were exceeded, or their institution did not have a license for the book or reference work.
      -
 
    * - TR_B3
-     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type.
+     - Book Usage by Access Type. A pre-set Standard View of TR showing all applicable Metric_Types broken down by Access_Type for books and reference works.
      -
 
    * - TR_J1
@@ -1171,11 +1167,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Unique_Title_Investigations
-     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles investigated in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - Unique_Title_Requests
-     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Type Book.
+     - A COUNTER Metric_Type that represents the number of unique titles requested in a user session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      -
 
    * - URI

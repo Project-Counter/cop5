@@ -27,6 +27,6 @@ This section provides an overview of the scope of the COUNTER Code of Practice.
 
 :numref:`maintenance` :ref:`maintenance` outlines the procedures that have been put in place to allow the Code of Practice to be amended and expanded on an incremental basis in a controlled and managed way.
 
-:numref:`transitioning` :ref:`transitioning` describes the procedures and requirements for transitioning to a new reporting service or underlying logging system and for transitioning to a new COUNTER release, in particular from R4 to R5.
+:numref:`transitioning` :ref:`transitioning` describes the procedures and requirements for transitioning to a new reporting service or underlying logging system and for transitioning to a new COUNTER release.
 
 :numref:`history` :ref:`history` provides a list of the Code of Practice releases.
