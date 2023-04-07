@@ -7,14 +7,14 @@ Text and Data Mining
 
 Text and data mining (TDM) is a computational process whereby text or datasets are crawled by software that recognizes entities, relationships, and actions. (`STM Statement on Text and Data Mining <https://www.stm-assoc.org/2012_03_15_STM_Summary_Statement_Text_Data_Mining_final.pdf>`_)
 
-TDM does NOT include straightforward information retrieval, straightforward information extraction, abstracting and summarising activity, automated translation, or summarising query-response systems.
+TDM does NOT include straightforward information retrieval, straightforward information extraction, abstracting and summarizing activity, automated translation, or summarizing query-response systems.
 
 A key feature of TDM is the discovery of unknown associations based on categories that will be revealed as a result of computational and linguistic analytical tools.
 
 
 .. rubric:: Principles for reporting usage:
 
-* COUNTER does not record TDM itself, as most of this activity takes place after an article has been downloaded. All we can do is track the count of articles downloaded for the purposes of mining.
+* COUNTER metrics do not record TDM itself, as most of this activity takes place after an article has been downloaded. Instead, metrics represent the count of articles downloaded for the purposes of mining.
 * Usage associated with TDM activity (e.g. articles downloaded for the purpose of TDM) MUST be tracked by assigning an Access_Method of TDM.
 * Usage associated with TDM activity MUST be reported using the Title, Database, and Platform Reports by identifying such usage as Access_Method=TDM.
 * Usage associated with TDM activity MUST NOT be reported in Standard Views of the COUNTER Reports (TR_J1, TR_B1, etc.).
