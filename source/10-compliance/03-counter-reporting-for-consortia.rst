@@ -37,7 +37,7 @@ Accessing Consortia-Level Reports
 
 Consortia managers and administrators MUST be able to access usage reports through the same user interface or SUSHI service as any other report consumer. 
 
-To facilitate gathering institutional reports, report providers MUST support the /members COUNTER_SUSHI API path to provide the consortium with the list of their members on the platform and the SUSHI credentials for each member. This will enable tools to be created to efficiently retrieve member usage and create separate or consolidated reporting, such as those described at https://www.projectcounter.org/counter-harvester-tools/.
+To facilitate gathering institutional reports, report providers MUST support the /members COUNTER_SUSHI API path to provide the consortium with the list of their members on the platform and the SUSHI credentials for each member. This will enable tools to be created to efficiently retrieve member usage and create separate or consolidated reporting, such as those described `on the COUNTER website <https://www.projectcounter.org/counter-harvester-tools/>`_.
 
 The report provider MUST NOT place limits on the SUSHI service (such as requests per day or amount of data transferred) that would prevent a consortium from retrieving reports for all its members.
 

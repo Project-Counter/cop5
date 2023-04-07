@@ -7,7 +7,7 @@
 Continuous Maintenance
 ======================
 
-With R5, the COUNTER Code of Practice will operate under a continuous maintenance procedure to allow incremental changes to be made to the Code of Practice without creating a completely new release. This section describes those procedures.
+With R5, the COUNTER Code of Practice operates under a continuous maintenance procedure to allow incremental changes to be made to the Code of Practice without creating a completely new release. This section describes those procedures.
 
 .. toctree::
    :maxdepth: 1

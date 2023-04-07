@@ -5,7 +5,7 @@
 Application for inclusion in the COUNTER Registry
 -------------------------------------------------
 
-The Registry of report providers and their platforms for which COUNTER-compliant usage reports are available is maintained by COUNTER and publicly available at https://registry.projectcounter.org/.
+The Registry of report providers and their platforms for which COUNTER-compliant usage reports are available is maintained by COUNTER and publicly available at `Registry <https://registry.projectcounter.org/>`_.
 
 Report providers may apply to the Project Director (tasha.mellins-cohen@counterusage.org) for their products to be included on the Registry. Report providers will have to provide proof of initial compliance by including the results of COUNTER Validation Tool tests showing compliance for each reports, including testing both the upload of the tabular reports and SUSHI harvesting of the same report. Upon receipt of the application and proof of compliance, report providers MUST allow at least one of the COUNTER library test sites to evaluate their usage reports.
 

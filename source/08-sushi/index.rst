@@ -11,7 +11,7 @@ The COUNTER_SUSHI API is designed to simplify the gathering of usage statistics 
 
 https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/
 
-The Swagger files are a comprehensive reference version that contains a detailed description of the entire COUNTER_SUSHI API. It is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they don't support.
+The Swagger files are a comprehensive reference version that contains a detailed description of the entire COUNTER_SUSHI API. It is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.
 
 .. toctree::
    :maxdepth: 1

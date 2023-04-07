@@ -23,7 +23,7 @@ Primary changes between R5 and R5.1
 * **Section_Type** - The impact of the above changes means Section_Type is removed in R5.1.
 * **Access_Type** - R5.1 clarifies where and how COUNTER Access_Types apply. R5.1 also introduced revised definitions for Access_Types to better facilitate reporting of open and free materials.
 * **Components** - Required for the Item Report in R5, Components are optional in R5.1 to simplify delivery of Item Reports.
-* **Report headers** - R5.1 added a link to the COUNTER Registry (https://registry.projectcounter.org) to the standard report header in both JSON and tabular reports.
+* **Report headers** - R5.1 added a link to the `COUNTER Registry <https://registry.projectcounter.org>`_ to the standard report header in both JSON and tabular reports.
 * **SUSHI URLs** - Starting with Release 5.1, the release version number will need to be included in the SUSHI URL path.
 * **SUSHI authentication** - R5.1 removes support for IP-based authentication in the COUNTER_SUSHI API. API key may be used if a replacement is desired.
 * **SUSHI endpoints** - The /status endpoint is public in R5.1 to allow users to easily check whether a service is live. The /reports endpoint is extended to return information about the first and last months for which data are available. We are also introducing separate parameters for common extensions.

@@ -7,9 +7,9 @@ Overview
 
 This section provides an overview of the scope of the COUNTER Code of Practice.
 
-:numref:`specifications` :ref:`specifications` introduces the REQUIRED reports, describes the common format shared by all COUNTER reports, and defines the COUNTER report attributes and their values.
+:numref:`specifications` :ref:`specifications` introduces the REQUIRED COUNTER Reports, describes the common format shared by all COUNTER Reports, and defines the COUNTER Report attributes and their values.
 
-:numref:`reports` :ref:`reports` provides detailed specifications for each COUNTER report. Use this section to understand what elements are included in each report.
+:numref:`reports` :ref:`reports` provides detailed specifications for each COUNTER Report and Standard Views of the COUNTER Reports. Use this section to understand what elements are included in each COUNTER Report.
 
 :numref:`delivery` :ref:`delivery` outlines the options a report provider MUST provide to enable customers to access their reports.
 
@@ -23,7 +23,7 @@ This section provides an overview of the scope of the COUNTER Code of Practice.
 
 :numref:`compliance` :ref:`compliance` talks about license language to require COUNTER usage statistics, confidentiality of data, and supporting consortia in their need to obtain usage data for their members.
 
-:numref:`extending` :ref:`extending` offers suggestions for report providers who may want to create custom reports or include additional elements and attribute values in COUNTER reports.
+:numref:`extending` :ref:`extending` offers suggestions for report providers who may want to create custom reports or include additional elements and attribute values in COUNTER Reports.
 
 :numref:`maintenance` :ref:`maintenance` outlines the procedures that have been put in place to allow the Code of Practice to be amended and expanded on an incremental basis in a controlled and managed way.
 

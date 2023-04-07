@@ -232,4 +232,4 @@ Table 4.c (below) Filters/Attributes for Platform Report and Standard Views of t
      - False (default) or True
      -
 
-If a filter is applied to a column that doesn’t show on the report, usage for all selected attribute values is summed and the totals are presented in the report.
+If a filter is applied to a column that does not show on the report, usage for all selected attribute values is summed and the totals are presented in the report.

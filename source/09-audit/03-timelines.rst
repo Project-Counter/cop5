@@ -49,7 +49,7 @@ Table 9.a (below): Audit Timelines
 * **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the Tool before commencing an audit, they may apply for up to three months delay in the seeding process.
 * **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from three to up to six months.
 
-Applications for extensions MUST be sent to both the Project Director and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
+Applications for extensions MUST be sent to both the Project Director (tasha.mellins-cohen@counterusage.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
 
 
 Alternate year audits

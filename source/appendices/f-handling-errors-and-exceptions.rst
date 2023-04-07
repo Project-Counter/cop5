@@ -108,8 +108,6 @@ Table F.1 (below): Exceptions
      - 202
      - Services queueing incoming report requests must return a response with this Exception and no payload to inform the client about the processing status. The client should retry the request after some reasonable time.
 
-       Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
-
    * - Client has made too many requests
      - 1020
      - 429
@@ -168,8 +166,6 @@ Table F.1 (below): Exceptions
      - 3032
      - 200
      - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the available data. If some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
-
-       Note: This Exception was included in the `amendments published on 11 December 2018 <https://www.projectcounter.org/amendments-clarifications-code-practice-release-5/>`__ but initially was missing from Release 5.0.1.
 
    * - Partial Data Returned
      - 3040
