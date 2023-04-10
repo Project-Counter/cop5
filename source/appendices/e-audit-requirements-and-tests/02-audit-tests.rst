@@ -8,7 +8,7 @@ E.2 Audit Tests
 E.2.1 Validation Tool
 """""""""""""""""""""
 
-Once reports are available for testing (i.e. up to 28 days after the end of the seeding month), auditors MUST run the COUNTER Reports and Standard Views of COUNTER Reports that are within the scope of the audit through the Validation Tool. This test must include all attributes content providers are required to support, including attributes that are included only if called for.
+Once reports are available for testing (i.e. up to 28 days after the end of the seeding month), auditors MUST run the COUNTER Reports and Standard Views of COUNTER Reports that are within the scope of the audit through the Validation Tool. This test must include all attributes report providers are required to support, including attributes that are included only if called for.
 
 Where report providers have elected to follow the pre-flight preparation step outlined in Section 9 of the Code of Practice, this audit test should not result in any errors.
 
@@ -77,7 +77,7 @@ The auditor MUST make a total of 100 requests
 
 The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
 
-If a platform only delivers book and/or reference work content as a single download (i.e. without Book_Segments and/or Reference_Items), then each request SHOULD be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 50 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+If a platform only delivers book and/or reference work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 50 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
 
 **Option 2**: Platforms that only include Data_Type=Book and/or Reference_Work.
 
@@ -87,11 +87,11 @@ The auditor MUST make a total of 100 requests
 
 The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
 
-If a platform only delivers book and/or reference work content as a single download (i.e. without Book_Segments and/or Reference_Items), then each request SHOULD be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 100 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+If a platform only delivers book and/or reference work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 100 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
 
 **Option 3**: Platforms that do not include content with Data_Type=Book and/or Reference_Work.
 
-The auditor MUST make a total of 100 requests against different items, resulting in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests. There should be 0 each of Unique_Title_Investigations and Unique_Title_Requests. Zero usage SHOULD NOT appear in COUNTER Reports.
+The auditor MUST make a total of 100 requests against different items, resulting in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests. There should be 0 each of Unique_Title_Investigations and Unique_Title_Requests. Zero usage MUST NOT appear in COUNTER Reports.
 
 
 E.2.3 Database Report Audit Tests
@@ -144,8 +144,8 @@ The auditor MUST make a total of 80 requests against different items, resulting 
 Where a platform has fewer than 80 items, the auditor MUST make at least one request per item and testing should result in 80 each of Total_Item_Investigations and Total_Item_Requests, and the item-count of Unique_Item_Investigations and Unique_Item_Requests.
 
 
-E.2.3.3 Total_Item_Investigations and Unique_Item_Requests
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+E.2.3.3 Total_Item_Investigations and Unique_Item_Investigations
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 This test is required when investigations can be reported independently of a request. If all investigations have a matching request, please apply to the COUNTER Project Director for an audit exception prior to the audit commencing.
 
@@ -170,11 +170,14 @@ Note that Data_Types Book and Reference_Work are included in the audit tests, as
 E.2.4.1 Unique_Title_Investigations and Unique_Title_Requests
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-**Option 1**: Book_Segments and/or Reference_Items are available, users can elect to access Books and/or Reference_Works segment-by-segment.
+**Option 1**: Book_Segments and/or Reference_Items are available, users can only access Books and/or Reference_Works segment-by-segment.
 
-The auditor MUST request 100 Book_Segments and/or Reference_Items, 10 each from 10 different Books and/or Reference_Works. This MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests.
+* The auditor MUST request 80 Book_Segments and/or Reference_Items, 10 each from 8 different Books and/or Reference_Works.
+* The auditor MUST request 10 Book_Segments and/or Reference_Items, all from the same Book and/or Reference_Work. 
 
-**Option 2**: Only whole Books and/or Reference_Works are available.
+This MUST result in 90 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 9 each of Unique_Title_Investigations and Unique_Title_Requests.
+
+**Option 2**: Only whole Books and/or Reference_Works are available, with no identifiable Book_Segments and/or Reference_Works.
 
 The auditor MUST request 20 Books and/or Reference_Works, twice each. This MUST result in 40 each of Total_Item_Investigations and Total_Item_Requests, and 20 each of Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests.
 
@@ -182,15 +185,23 @@ The auditor MUST request 20 Books and/or Reference_Works, twice each. This MUST 
 
 The auditor MUST request 20 Books and/or Reference_Works, twice each, recording the number of Book_Segments and/or Reference_Items pertaining to each title.
 
-This MUST result in 20 each of Unique_Title_Investigations and Unique_Title_Requests, and a count of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests that is equal to the sum of the Book_Segments and/or Reference_Items.
+This MUST result in 20 each of Unique_Title_Investigations and Unique_Title_Requests, double that number of Total_Item_Investigations and Total_Item_Requests, and a count of Unique_Item_Investigations and Unique_Item_Requests that is equal to the sum of the Book_Segments and/or Reference_Items.
 
 
 E.2.4.2 Book Access Types: Book_Segments and/or Reference_Items
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Books with more than one Access_Type are available on a platform, and they are available as Book_Segments.
+Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests apply where Book_Segments and/or Reference_Items can be identified.
 
-**Option 1**: Report provider offers Book_Segments and/or Reference_Items under two different Access_Types.
+**Option 1**: Report provider offers Book_Segments and/or Reference_Items under only one Access_Type.
+
+The auditor MUST request
+
+70 Book_Segments and/or Reference_Items, 10 each from 7 different Books and/or Reference_Works.
+
+This MUST result in 70 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 7 each of Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
+
+**Option 2**: Report provider offers Book_Segments and/or Reference_Items under two different Access_Types.
 
 The auditor MUST request
 
@@ -200,7 +211,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
 
-**Option 2**: Report provider offers Book_Segments and/or Reference_Items under all three Access_Types (Controlled, Open and Free_To_Read).
+**Option 3**: Report provider offers Book_Segments and/or Reference_Items under all three Access_Types (Controlled, Open and Free_To_Read).
 
 The auditor MUST request
 
@@ -210,31 +221,31 @@ The auditor MUST request
 
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 4 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 2 each of Unique_Title_Investigations and Unique_Title_Requests with Access_Type Free_To_Read.
 
-**Option 3**: Report provider offers Book_Segments and/or Reference_Items under only one Access_Type.
-
-The auditor MUST request
-
-70 Book_Segments and/or Reference_Items, 10 each from 7 different Books and/or Reference_Works.
-
-This MUST result in 70 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 7 each of Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
-
 
 E.2.4.3 Book Access Types: Whole Books and/or Reference_Works
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Books with more than one Access_Type are available on a platform, and they are only available without Book_Segments.
+Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Books and/or Reference_Works are only available as single downloads (i.e. no Book_Segments and/or Reference_Items can be identified).
 
-**Option 1**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under two different Access_Types.
+**Option 1**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under only one Access_Type.
+
+The auditor MUST request 25 Books and/or Reference_Works with the appropriate Access_Type.
+
+This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
+
+Where there are fewer than the required number of Books and/or Reference_Works, the auditor MUST test every item.
+
+**Option 2**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under two different Access_Types.
 
 The auditor MUST request 25 Books and/or Reference_Works with each Access_Type.
 
 This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with each Access_Type.
 
-Where there are fewer than the required number of Books and/or Reference_Works that are Controlled or Open, the auditor MUST test every item with that Access_Type.
+Where there are fewer than the required number of Books and/or Reference_Works under an Access_Type, the auditor MUST test every item with that Access_Type.
 
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
 
-**Option 2**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under all three Access_Types (Controlled, Open and Free_To_Read).
+**Option 3**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under all three Access_Types (Controlled, Open and Free_To_Read).
 
 The auditor MUST request
 
@@ -245,14 +256,6 @@ The auditor MUST request
 This MUST result in 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled; the same again for Access_Type Open; and 10 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Free_To_Read.
 
 Where there are fewer than the required number of Books and/or Reference_Works that are Controlled, Open or Free_To_Read, the auditor MUST test every item with that Access_Type.
-
-**Option 3**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under only one Access_Type.
-
-The auditor MUST request 25 Books and/or Reference_Works with the appropriate Access_Type.
-
-This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
-
-Where there are fewer than the required number of Books and/or Reference_Works, the auditor MUST test every item.
 
 
 E.2.5 Title Report Audit Tests: Journals
@@ -270,9 +273,15 @@ For ease of reading the term ‘journal articles’ has been used to indicate co
 E.2.5.1 Journal Access Types
 ''''''''''''''''''''''''''''
 
-Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type. These tests only apply where Journals with more than one Access_Type are available on a platform.
+Within the Title Report, breakdowns by Access_Type are essential. There are therefore a series of audit tests designed to determine report providers’ compliance with requirements for reporting Access_Type.
 
-**Option 1**: Report provider offers journal articles under two Access_Types.
+**Option 1**: Report provider offers journal articles under just one Access_Type.
+
+The auditor MUST request 100 journal articles.
+
+This MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with the appropriate Access_Type.
+
+**Option 2**: Report provider offers journal articles under two Access_Types.
 
 The auditor MUST request 50 journal articles with each Access_Type.
 
@@ -280,7 +289,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
 
-**Option 2**: Report provider offers Controlled, Open and Free_To_Read journal articles.
+**Option 3**: Report provider offers Controlled, Open and Free_To_Read journal articles.
 
 The auditor MUST request
 
@@ -289,12 +298,6 @@ The auditor MUST request
 * 20 journal articles with Access_Type Free_To_Read.
 
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Free_To_Read.
-
-**Option 3**: Report provider offers journal articles under just one Access_Type.
-
-The auditor MUST request 100 journal articles.
-
-This MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with the appropriate Access_Type.
 
 
 E.2.5.2 Total_Item_Requests and Unique_Item_Requests
@@ -307,8 +310,8 @@ The auditor MUST make a total of 80 requests against 40 different journal articl
 Where a platform has fewer than 80 items, the auditor MUST make at least one request per item and testing should result in 80 each of Total_Item_Investigations and Total_Item_Requests, and the item-count of Unique_Item_Investigations and Unique_Item_Requests.
 
 
-E.2.5.3 Total_Item_Investigations and Unique_Item_Requests
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+E.2.5.3 Total_Item_Investigations and Unique_Item_Investigations
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 This test is required when investigations can be reported independently of a request. If all investigations have a matching request, please apply to the COUNTER Project Director for an audit exception prior to the audit commencing.
 
@@ -324,7 +327,7 @@ E.2.5.4 Journal Year of Publication
 
 For journal content, year of publication (YOP) is useful in evaluating usage of archive content.
 
-The auditor MUST confirm the Year of Publication (YOP) of articles covered in other audit tests described in this section of the appendix (headings E.2.5.1, E2.5.2 and E.2.5.3) with appropriate and proportionate spot checks covering a minimum of 10% of all journal articles tested.
+The auditor MUST confirm the Year of Publication (YOP) of articles covered in other audit tests described in this appendix (headings E.2.5.1, E.2.5.2 and E.2.5.3) with appropriate and proportionate spot checks covering a minimum of 10% of all journal articles tested.
 
 If the YOP appearing in the reports is different from that of the journal article for more than 10% of the checked items, the auditor must expand their spot checks to cover at least 25% of tested journal articles. If 10% or more of the journal articles have a different YOP from that in the reports, the report provider has failed the Journal YOP audit test.
 
@@ -340,7 +343,15 @@ In order for the Item Report to be accurately audited, the report provider MUST 
 
 Note that because Components are optional for Release 5.1, they SHOULD be omitted from Item Report audit tests.
 
-E.2.6.1 Total_Item_Requests and Unique_Item_Requests
+E.2.6.1 Total_Item_Investigations and Unique_Item_Investigations
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+The auditor MUST make a total of 100 investigations on 50 unique items representing the scope of the platform. That is, where a platform is made up of a mixture of content with Data_Types Audio, Patent and Report, the auditor should represent each of those Data_Types proportionately in the audit test.
+
+This MUST result in 100 Total_Item_Investigations and 50 Unique_Item_Investigations. The auditor MUST record the Data_Types for each item (e.g. Audio) and the resulting Item Report MUST reflect those records.
+
+
+E.2.6.2 Total_Item_Requests and Unique_Item_Requests
 ''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 The auditor MUST make a total of 100 requests on 50 unique items representing the scope of the platform. That is, where a platform is made up of a mixture of content with Data_Types Audio, Patent and Report, the auditor should represent each of those Data_Types proportionately in the audit test.
@@ -353,7 +364,7 @@ E.2.7 Audit Tests for Double-Click Filtering
 
 This audit test applies to investigations and requests metrics across all COUNTER Reports and should represent the scope of the platform. That is, where a platform is made up of a mixture of content with Data_Types Article, Multimedia and Patent, the auditor should represent each of those Data_Types proportionately in the audit test.
 
-The test consists of making requests to an item twice in succession (double-clicks). If the two clicks occur within a 30-second time-span, only the second request MUST be recorded, resulting in 1 Total_Item_Investigation and 1 Total_Item_Request. If the two clicks occur with more than 30 seconds between them, then 2 Total_Item_Investigations and Total_Item_Requests must be counted. In both cases only 1 Unique_Item_Investigation and 1 Unique_Item_Request will be reported.
+The test consists of making requests to an item twice in succession (double-clicks). If the two clicks occur within a 30-second time-span, only the second request MUST be recorded, resulting in 1 Total_Item_Investigation and 1 Total_Item_Request. If the two clicks occur with more than 30 seconds between them, then 2 Total_Item_Investigations and 2 Total_Item_Requests must be counted. In both cases only 1 Unique_Item_Investigation and 1 Unique_Item_Request will be reported.
 
 The auditor MUST carry out a total of 30 tests:
 
