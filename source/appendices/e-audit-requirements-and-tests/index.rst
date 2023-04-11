@@ -16,3 +16,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    01-audit-requirements
    02-audit-tests
+   03-pr-tests
+   04-dr-tests
+   05-tr-book-tests
+   06-tr-journal-tests
+   07-ir-tests
