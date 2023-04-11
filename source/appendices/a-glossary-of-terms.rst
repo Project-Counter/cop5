@@ -86,7 +86,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Oxford Journals Archive
 
    * - Article
-     - An article from a journal, or an article available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
+     - An article from a journal, or an article available as a standalone piece of content (e.g. in an institutional repository) either as a preprint, an author accepted manuscript, a version of record, or another article version as defined by `NISO RP-8-2008, Journal Article Versions <https://www.niso.org/publications/niso-rp-8-2008-jav#:~:text=The%20Recommended%20Terms%20and%20Definitions,Version%20of%20Record%20(EVoR)>`_. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
 
        A COUNTER Data_Type.
      -
