@@ -122,17 +122,19 @@ Table 3.p (below): List of Data_Type Values
      - Reports
 
    * - Article
-     - An article from a journal, or an article available as a standalone content item not aggregated into a title, for example in an institutional repository.
+     - An article from a journal, or an article available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1, IR_A1
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
      - Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2, IR_M1
 
    * - Book
      - A monograph text, edited volume, textbook, or other form of book that is not a reference work.
@@ -141,15 +143,17 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
-     - PR, DR, TR
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, DR_D2, TR_B1, TR_B2, TR_B3
 
    * - Book_Segment
-     - A segment of a book (e.g. chapter, section, etc.), or a segment available as a standalone content item not aggregated into a title, for example in an institutional repository.
+     - A segment of a book (e.g. chapter, section, etc.), or a segment available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
      
        Where a whole book is being downloaded and there is no mechanism to determine the number of book segments, one Book_Segment should be reported in the IR.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Conference
      - A collection of papers, posters, or recordings of material associated with a conference. Typically part of a serial publication.
@@ -159,13 +163,15 @@ Table 3.p (below): List of Data_Type Values
        eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
        eJournal\ |br|\ |lb|
-     - PR, DR, TR
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Conference_Item
      - A single paper, poster, or recording of material associated with a conference. 
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Database_Aggregated
      - *Only applies to Denial and Search metrics.*
@@ -194,27 +200,31 @@ Table 3.p (below): List of Data_Type Values
    * - Database_Full_Item
      - Usage of an item from a Full_Content_Database. Database_Full_Item applies where Investigations and Requests are being reported and a more specific Data_Type cannot be applied.
      - Full_Content_Database
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Dataset
      - Data encoded in a defined structure, for example data associated with a research project.
      - Data_Repository\ |br|\ |lb|
        Repository
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Image
      - A form of multimedia describing a static visual image.
      - Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2, IR_M1
 
    * - Interactive_Resource
      - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
      - Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2, IR_M1
 
    * - Journal
      - A serial that is a branded and continually growing collection of original articles within a particular discipline.
@@ -223,20 +233,23 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        eJournal\ |br|\ |lb|
        Repository
-     - PR, DR, TR
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Multimedia
      - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
      - Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2, IR_M1
 
    * - News_Item
-     - An article from a newspaper or magazine, or a news item available as a standalone content item not aggregated into a title, for example in an institutional repository.
+     - An article from a newspaper or magazine, or a news item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Newspaper_or_Newsletter
      - Textual content published serially in a newspaper or newsletter.
@@ -244,7 +257,8 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        eJournal
-     - PR, DR, TR
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Other
      - Content that has been labelled with a data type that does not exist within and cannot be mapped to COUNTER’s Code of Practice. Other MUST NOT be used if there is not sufficient information available to classify the content.
@@ -252,7 +266,8 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Repository
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Patent
      - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
@@ -261,20 +276,23 @@ Table 3.p (below): List of Data_Type Values
        Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Platform
      - *Only applies to Searches_Platform metrics.*
      - All Host_Types
-     - PR
+     - PR\ |br|\ |lb|
+       PR_P1
 
    * - Reference_Item
-     - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone content item not aggregated into a title, for example in an institutional repository. 
+     - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. 
 
        Where a whole reference work is being downloaded and there is no mechanism to determine the number of items, one Reference_Item should be reported in the IR.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Reference_Work
      - An authoritative source of information about a subject used to find quick answers to questions, such as an encyclopedia or dictionary. The content may be stable or updated over time.
@@ -283,7 +301,8 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
-     - PR, DR, TR
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, DR_D2, TR_B1, TR_B2, TR_B3
 
    * - Report
      - A document presenting information in an organized format for a specific audience and purpose, such as a policy report.
@@ -292,20 +311,23 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Software
      - Source code or compiled software, or a virtual notebook environment used for programming.
      - Data_Repository\ |br|\ |lb|
        Repository
-     - PR, IR
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Sound
      - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
      - Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
-     - PR, DR, IR
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, DR_D2, IR_M1
 
    * - Standard
      - A document outlining processes agreed and established by authority or by general consent (e.g. materials from NISO).
@@ -314,7 +336,8 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Thesis_or_Dissertation
      - A thesis or dissertation, such as one written by a PhD candidate.
@@ -323,7 +346,8 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2
 
    * - Unspecified
      - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that report providers are expected to make all reasonable efforts to classify the content. Using Unspecified will give rise to a Warning in the Validation Tool.
@@ -333,7 +357,8 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
-     - PR, DR, TR, IR\
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1, DR_D2\
 
 Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
 

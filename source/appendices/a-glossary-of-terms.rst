@@ -86,7 +86,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Oxford Journals Archive
 
    * - Article
-     - An article from a journal, or an article available as a standalone content item not aggregated into a title, for example in an institutional repository. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
+     - An article from a journal, or an article available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. An article is complete, but usually cites other relevant published works in its list of references, if it has one.
 
        A COUNTER Data_Type.
      -
@@ -159,7 +159,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Book_Segment
-     - A generic term applying to a sub-division of a book regardless of the label applied by the publisher (e.g. chapter, section, etc.). May be available as part of the book as a standalone content item not aggregated into a title, for example in an institutional repository.
+     - A generic term applying to a sub-division of a book regardless of the label applied by the publisher (e.g. chapter, section, etc.). May be available as part of the book as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
 
        A COUNTER Data_Type.
      -
@@ -731,7 +731,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - News_Item
-     - An article from a newspaper or magazine, or a news piece available as a standalone content item not aggregated into a title.
+     - An article from a newspaper or magazine, or a news piece available as a standalone piece of content available as a distinct item not aggregated into a title.
 
        A COUNTER Data_Type.
      -
