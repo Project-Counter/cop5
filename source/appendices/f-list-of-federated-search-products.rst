@@ -4,9 +4,9 @@
 
 |clearpage|
 
-.. _appendix-g:
+.. _appendix-f:
 
-Appendix G: List of Federated Search Products
+Appendix F: List of Federated Search Products
 =============================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.

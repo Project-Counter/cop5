@@ -4,9 +4,9 @@
 
 |clearpage|
 
-.. _appendix-i:
+.. _appendix-h:
 
-Appendix I: List of internet robots, crawlers and spiders
+Appendix H: List of internet robots, crawlers and spiders
 =========================================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.

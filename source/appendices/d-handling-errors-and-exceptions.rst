@@ -4,9 +4,9 @@
 
 |clearpage|
 
-.. _appendix-f:
+.. _appendix-d:
 
-Appendix F: Handling Errors and Exceptions
+Appendix D: Handling Errors and Exceptions
 ==========================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
@@ -36,7 +36,7 @@ The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as fo
        “Code”: {
          “type”: “integer”,
          “format”: “int32”,
-         “description”: “Exception Code. See Table F.1 in the Code of Practice, Appendix F.”,
+         “description”: “Exception Code. See Table D.1 in the Code of Practice, Appendix D.”,
          “example”: 3031
        },
        “Severity”: {
@@ -47,7 +47,7 @@ The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as fo
        },
        “Message”: {
          “type”: “string”,
-         “description”: “Exception Message. See Table F.1 in the Code of Practice, Appendix F.”,
+         “description”: “Exception Message. See Table D.1 in the Code of Practice, Appendix D.”,
          “example”: “Usage Not Ready for Requested Dates”
        },
        “Help_URL”: {

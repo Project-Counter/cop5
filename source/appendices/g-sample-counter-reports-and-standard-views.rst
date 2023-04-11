@@ -4,7 +4,7 @@
 
 |clearpage|
 
-Appendix H: Sample COUNTER Reports and Standard Views of the COUNTER Reports
+Appendix G: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 ============================================================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
