@@ -126,7 +126,7 @@ Table 3.p (below): List of Data_Type Values
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
-       PR_P1, IR_A1
+       PR_P1
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
