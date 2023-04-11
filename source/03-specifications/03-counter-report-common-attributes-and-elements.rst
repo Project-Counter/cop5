@@ -149,7 +149,7 @@ Table 3.p (below): List of Data_Type Values
    * - Book_Segment
      - A segment of a book (e.g. chapter, section, etc.), or a segment available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
      
-       Where a whole book is being downloaded and there is no mechanism to determine the number of book segments, one Book_Segment should be reported in the IR.
+       Where a whole book is being downloaded and it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
@@ -288,7 +288,7 @@ Table 3.p (below): List of Data_Type Values
    * - Reference_Item
      - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. 
 
-       Where a whole reference work is being downloaded and there is no mechanism to determine the number of items, one Reference_Item should be reported in the IR.
+       Where a whole reference work is being downloaded and t is not possible to identify Reference_Items, the whole reference work MUST be counted as a single Reference_Item.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
