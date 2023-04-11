@@ -288,7 +288,7 @@ Table 3.p (below): List of Data_Type Values
    * - Reference_Item
      - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. 
 
-       Where a whole reference work is being downloaded and t is not possible to identify Reference_Items, the whole reference work MUST be counted as a single Reference_Item.
+       Where a whole reference work is being downloaded and it is not possible to identify Reference_Items, the whole reference work MUST be counted as a single Reference_Item.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
