@@ -346,7 +346,7 @@ Table 4.p (below): Column Headings/Elements for Item Report and Standard Views o
    * - Data_Type
      - M
      -
-     -
+     - M
 
    * - YOP
      - C
@@ -409,7 +409,7 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - Data_Type
      - One or more or all (default) of the Data_Types applicable to the platform.
      - Article
-     - Multimedia
+     - Audiovisual; Image; Interactive_Resource; Multimedia; Sound
 
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.
