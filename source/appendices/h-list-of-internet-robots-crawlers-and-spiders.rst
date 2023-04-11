@@ -17,7 +17,7 @@ The growing use of internet robots, crawlers and spiders has the potential to ar
 
 This list of internet robots, crawlers and spiders was published in April 2016 and last updated March 2023. Please note it is rationalised, removing some previously redundant entries (e.g. the text ‘bot’ - msnbot, awbot, bbot, turnitinbot, etc. - which is now collapsed down to a single entry ‘bot’).
 
-The list is displayed below and also available on the `COUNTER Robots <https://github.com/atmire/COUNTER-Robots>_` repository.
+The list is displayed below and also available on the `COUNTER Robots <https://github.com/atmire/COUNTER-Robots>`_ repository.
 
 This page will always show the readme and give potential users and contributors of the list more information on how to integrate the list.
 

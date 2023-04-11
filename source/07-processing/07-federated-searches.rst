@@ -20,4 +20,4 @@ The most common ways to recognize federated and automated search activity are as
 
 Where federated or automated usage is genuine user-driven usage, in the context of Text & Data Mining, Access_Method=TDM should be used. This allows users of the resultant reports to distinguish automated usage from more traditional (Access_Method=Regular) usage.
 
-COUNTER has lists of federated search tools in :ref:`Appendix F <appendix-f>`, separate from a list of robots which is reviewed and updated on a regular basis and which can be found at `COUNTER Robots <https://github.com/atmire/COUNTER-Robots>`.
+COUNTER has lists of federated search tools in :ref:`Appendix F <appendix-f>`, separate from a list of robots which is reviewed and updated on a regular basis and which can be found at `COUNTER Robots <https://github.com/atmire/COUNTER-Robots>`_.
