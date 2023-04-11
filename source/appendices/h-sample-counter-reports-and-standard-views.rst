@@ -9,6 +9,8 @@ Appendix H: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
+An Excel file containing samples of all COUNTER Reports and Standard Views of the COUNTER Reports can be downloaded from <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/Sample-All-R51.xlsx>
+
 The COUNTER Reports and Standard Views of the COUNTER Reports in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting level, the COUNTER Report appears first followed by the Standard Views of the COUNTER Report. Click the Excel, TSV and JSON links to download the corresponding sample reports.
 
 Table H.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
