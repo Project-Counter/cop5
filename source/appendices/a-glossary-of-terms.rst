@@ -840,7 +840,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Registry of compliance
-     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.projectcounter.org/>`].
+     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.projectcounter.org/>`_].
      -
 
    * - Regular
@@ -939,7 +939,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ROR (Research Organization Registry)
-     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world [`ROR <https://ror.org/>`].
+     - ROR is a community-led registry of open, sustainable, usable, and unique identifiers for every research organization in the world. [`ROR <https://ror.org/>`_].
 
        In COUNTER reports ROR IDs can be used as identifiers for institutions and publishers.
      -
@@ -1050,9 +1050,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - SUSHI
-     - An international standard (Z39-93) used by COUNTER R4 that describes a method for automating the harvesting of reports.
-
-       Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
+     - Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
 
        COUNTER compliance requires content hosts to implement the COUNTER_SUSHI API.
      -

@@ -13,7 +13,7 @@ Audits are primarily focused on the four COUNTER Reports. The Standard Views of 
 
 Each report provider MUST be audited on all the COUNTER Reports and Standard Views of the COUNTER Reports they are required to provide. Report providers who elect to offer additional COUNTER Reports (e.g. eJournal Host_Types that offer Item Reports) SHOULD have the additional COUNTER Reports and Standard Views of the COUNTER Reports audited. If the elective reports are not audited, this must be documented in the audit report.
 
-Any exclusions to the audit scope MUST be agreed with the Project Director in writing prior to an audit commencing.
+Any exclusions to the audit scope MUST be agreed with the Project Director in writing prior to an audit commencing (tasha.mellins-cohen@counterusage.org).
 
 
 Audit Scope For Third-Party Report Providers
@@ -37,6 +37,6 @@ Audits follow a five-stage process.
   * The report provider MUST fix the issues identified by the auditor within three months of the date of the interim report
   * The auditor will re-reconcile the COUNTER reports 
 
-* **Stage five**-  audit complete. Once a Pass Report is issued, COUNTER will update the Registry of COUNTER compliant platforms to reflect the updated audit status of all platforms covered by the audit (`COUNTER Registry <https://registry.projectcounter.org/>`).
+* **Stage five**-  audit complete. Once a Pass Report is issued, COUNTER will update the Registry of COUNTER compliant platforms to reflect the updated audit status of all platforms covered by the audit (`COUNTER Registry <https://registry.projectcounter.org/>`_).
 
 Note that if it is not possible to re-reconcile the COUNTER reports after a report provider has completed their fix process, the auditor will need to re-seed the audit. The Project Director SHOULD be notified when this occurs.
