@@ -5,7 +5,7 @@
 COUNTER Report Common Attributes and Elements
 ---------------------------------------------
 
-Early releases of the COUNTER Code of Practice focused on usage statistics related to journals. That was expanded to books, and later articles and multimedia collections were added. R5 further expands the scope of COUNTER into the area of research data and social media. In order to help organize this increased scope in a single, consistent, and coherent Code of Practice, several new elements and attributes have been added.
+Early releases of the COUNTER Code of Practice focused on usage statistics related to journals. That was expanded to books, and later articles and multimedia collections were added. R5 further expanded the scope of COUNTER Reports. In order to help organize this increased scope in a consistent and coherent Code of Practice, several new elements and attributes have been added.
 
 
 .. _host-types:
@@ -13,7 +13,7 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, the R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5.1 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
@@ -37,7 +37,7 @@ Table 3.o (below): List of Host_Type Values
        ProQuest
 
    * - Aggregated_Full_Content
-     - Provides access to aggregated pre-set databases of full text and other content where content is accessed in the context of the licensed database.
+     - Provides access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      - EBSCOhost\ |br|\ |lb|
        ProQuest
 
@@ -68,7 +68,7 @@ Table 3.o (below): List of Host_Type Values
      - ScienceDirect
 
    * - Full_Content_Database
-     - Provides access to databases that are a collection of content items that are not otherwise part of a serial or monograph (i.e. non-aggregated).
+     - Provides access to databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include multimedia materials.
      - Cochrane
 
    * - Multimedia
@@ -443,23 +443,31 @@ Table 3.r (below): List of Metric_Types for Searches
 
 This group of Metric_Types represents activities where content items were retrieved (Requests) or information about a content item (e.g. an abstract) was examined (Investigations). Any user activity that can be attributed to a content item will be considered an Investigation including downloading or viewing the item. Requests are limited to user activity related to retrieving or viewing the content item itself. The figure below provides a graphical representation of the relationship between Investigations and Requests.
 
-.. figure:: ../_static/img/3e-investigations-and-requests.png
+.. figure:: ../_static/img/Figure-3e.png
    :alt: Investigations and Requests
    :align: center
    :width: 80%
 
-.. centered:: Figure 3.e: The relationship between Investigations and Requests
+.. centered:: Figure 3.e: The Relationship between Investigations and Requests
 
 
 .. rubric:: Totals, Unique Items and Unique Titles
 
-R5 also introduces the concept of unique items and unique titles. The Metric_Types that begin with Total are very similar to the metrics of R4, i.e. if a given article or book or book chapter was accessed multiple times in a user session, the metric would increase by the number of times the content item was accessed (minus any adjustments for double-clicks).
+R5 also introduced the concept of unique items and unique titles.
 
-Unique_Item metrics have been introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
+Unique_Item metrics were introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5.1, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
 
-Unique_Title metrics have been introduced in R5 to help normalize eBook metrics. Since eBooks can be downloaded as an entire book in a single PDF or as separate chapters, the counts for R4’s BR1 (book downloads) and BR2 (section downloads) are not comparable. With R5, the book’s Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered.
+The method for counting book usage in R5.1 at the item level is different than it was in R5. In R5.1, a Unique_Item_Investigation or Unique_Item_Request MUST be counted for each item (Book_Segment) that is used, independent of the method of content delivery.
 
-The Unique_Title metrics MUST NOT be used for Data_Types other than Book as they are not meaningful for them. If a book contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
+* Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
+* Where it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
+* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or Articles within Journals.
+
+This change facilitates consistent reporting on items within the Item Report, and permits more accurate comparisons of usage across Data_Types, while retaining the ability to compare book usage across platforms through Unique_Title_Investigations and Unique_Title_Requests.
+
+Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered. They are comparable across report providers and across releases.
+
+The Unique_Title metrics MUST NOT be used for Data_Types other than Book and Reference_Work as they are not meaningful for them. If a title contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 
 Table 3.s (below): List of Metric_Types for Requests and Investigations
 
@@ -490,7 +498,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
        TR_B3, TR_J3
 
    * - Unique_Title_Investigations
-     - Number of unique titles investigated in a user-session. This Metric_Type is only applicable for Data_Type Book.
+     - Number of unique titles investigated in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
@@ -530,7 +538,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
        PR_P1, TR_B3, TR_J1, TR_J3, TR_J4, IR_A1
 
    * - Unique_Title_Requests
-     - Number of unique titles requested in a user-session. This Metric_Type is only applicable for Data_Type Book.
+     - Number of unique titles requested in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
@@ -596,7 +604,7 @@ Table 3.t (below): List of Metric_Types for Access Denied
 Access Types
 """"""""""""
 
-In order to separately track the usage of subscribed content, open access content, and freely available materials, R5 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
+In order to separately track the usage of subscribed content, open access content, and freely available materials, R5.1 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
 
 Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings.
 
@@ -666,7 +674,7 @@ Table 3.u (below): List of Access_Type Values
 Access Methods
 """"""""""""""
 
-In order to track content usage that was accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduces the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
+In order to track content usage that was accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduced the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
 
 Table 3.v (below): List of Access_Method Values
 
@@ -737,7 +745,7 @@ Table 3.w (below): YOP Values
 Report Filters and Report Attributes
 """"""""""""""""""""""""""""""""""""
 
-Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
+Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5.1 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
 
 The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as name/value pairs in the Report_Filters and Report_Attributes elements and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a method parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/>`_ for details).
 
@@ -845,7 +853,7 @@ Table 3.y (below): Report Filters
 Zero Usage
 """"""""""
 
-Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
+Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5.1 reports cannot include zero-usage reporting based on subscription records. Equally, inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage is addressed by `NISO RP-26-2019, KBART Automation: Automated Retrieval of Customer Electronic Holdings <http://www.niso.org/publications/rp-26-2019-kbartautomation>`_.
 
 * For tabular reports
 

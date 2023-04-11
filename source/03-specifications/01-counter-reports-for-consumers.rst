@@ -7,17 +7,17 @@
 COUNTER Reports for Report Consumers
 ------------------------------------
 
-Reports for R5 consist of four COUNTER Reports that allow the report consumer to filter and configure to create customized views of their usage data. R5 also specifies Standard Views of the COUNTER Reports (pre-set filters/configuration).
+R5.1 consists of four COUNTER Reports that allow the report consumer to filter and configure to create customized views of their usage data. R5.1 also specifies Standard Views of the COUNTER Reports (pre-set filters/configuration).
 
 To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
 
-Report providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit isn’t required.
+Report providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit is not required.
 
 
 COUNTER Reports
 """""""""""""""
 
-COUNTER Reports include all relevant metrics and attributes; they are intended to be customizable through the application of filters and other configuration options, allowing report consumers to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
+COUNTER Reports include all relevant Metrics and Attributes; they are intended to be customizable through the application of filters and other configuration options, allowing report consumers to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
 Table 3.a (below): COUNTER Reports
 
@@ -66,11 +66,11 @@ Table 3.a (below): COUNTER Reports
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
-\* Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
+\* Data repositories may choose to conform to the Code of Practice R5.1, alternatively, may wish to work with the Code of Practice for Research Data.
 
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
 
-.. figure:: ../_static/img/3a-reporting-ui-sample.png
+.. figure:: ../_static/img/Figure-3a.png
    :alt: Reporting user interface sample
    :align: center
    :width: 65%
@@ -118,7 +118,7 @@ Table 3.b (below): Platform Usage Standard View
      - Platform-level usage summarized by Metric_Type.
      - All Host_Types
 
-\*Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
+\*Data repositories may choose to conform to the Code of Practice R5.1 or, alternatively, may wish to work with the Code of Practice for Research Data.
 
 See :numref:`platform-reports` below for details on Platform Usage Reports.
 
@@ -190,7 +190,7 @@ Table 3.d (below): Standard Views of the Title Report
 
    * - TR_B1
      - Book Requests (Controlled)
-     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
+     - Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book and reference work platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).
      - Aggregated_Full_Content\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection
