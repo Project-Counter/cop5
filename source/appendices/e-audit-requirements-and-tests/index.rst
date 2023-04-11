@@ -21,3 +21,5 @@ Note: The main Code of Practice document takes precedence in the case of any con
    05-tr-book-tests
    06-tr-journal-tests
    07-ir-tests
+   08-double-click-tests
+   09-denials-tests
