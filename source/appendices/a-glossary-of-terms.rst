@@ -460,7 +460,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Exception Message
-     - A short description of the Exception encountered. The Message is normally a standard message for the Exception Code concerned. See :ref:`Appendix F <appendix-f>`.
+     - A short description of the Exception encountered. The Message is normally a standard message for the Exception Code concerned. See :ref:`Appendix D <appendix-d>`.
      -
 
    * - Exclude_Monthly_Details
@@ -472,7 +472,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Federated search
-     - A search conducted by a federated search application that allows users to simultaneously search multiple content sources, typically hosted by different vendors, with a single query from a single user interface. The federated search application typically presents the user with a single set of results collected from the content sources searched. The end user is not responsible for selecting the content sources being searched. The content sources being searched will report such activity as Searches_Federated. See :ref:`Appendix G <appendix-g>`.
+     - A search conducted by a federated search application that allows users to simultaneously search multiple content sources, typically hosted by different vendors, with a single query from a single user interface. The federated search application typically presents the user with a single set of results collected from the content sources searched. The end user is not responsible for selecting the content sources being searched. The content sources being searched will report such activity as Searches_Federated. See :ref:`Appendix F <appendix-f>`.
      - MetaLib, EBSCOhost Connection
 
    * - Filter
@@ -576,7 +576,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Internet robot, crawler, spider
-     - Any automated program or script that visits websites and systematically retrieves information from them, often to provide indexes for search engines. See :ref:`Appendix I <appendix-i>`.
+     - Any automated program or script that visits websites and systematically retrieves information from them, often to provide indexes for search engines. See :ref:`Appendix H <appendix-h>`.
      -
 
    * - Investigation
@@ -1044,7 +1044,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Searches_Federated
-     - A COUNTER Metric_Type used to report on searches conducted by a federated search application. See :ref:`Appendix G <appendix-g>`.
+     - A COUNTER Metric_Type used to report on searches conducted by a federated search application. See :ref:`Appendix F <appendix-f>`.
 
        See also Federated search.
      -
