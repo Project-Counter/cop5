@@ -16,9 +16,8 @@ Appendices
    a-glossary-of-terms
    b-changes-from-r5
    c-declaration-of-counter-compliance
-   d-guidelines-for-implementation
+   d-handling-errors-and-exceptions
    e-audit-requirements-and-tests/index
-   f-handling-errors-and-exceptions
-   g-list-of-federated-search-products
-   h-sample-counter-reports-and-standard-views
-   i-list-of-internet-robots-crawlers-and-spiders
+   f-list-of-federated-search-products
+   g-sample-counter-reports-and-standard-views
+   h-list-of-internet-robots-crawlers-and-spiders

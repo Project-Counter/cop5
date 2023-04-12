@@ -5,4 +5,4 @@
 Errors and Exceptions
 ---------------------
 
-Implementations of the COUNTER_SUSHI API MUST comply with the warnings, exceptions and errors described in :ref:`Appendix F <appendix-f>`.
+Implementations of the COUNTER_SUSHI API MUST comply with the warnings, exceptions and errors described in :ref:`Appendix D <appendix-d>`.

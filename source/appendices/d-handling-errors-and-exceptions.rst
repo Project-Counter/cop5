@@ -4,9 +4,9 @@
 
 |clearpage|
 
-.. _appendix-f:
+.. _appendix-d:
 
-Appendix F: Handling Errors and Exceptions
+Appendix D: Handling Errors and Exceptions
 ==========================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
@@ -36,12 +36,12 @@ The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as fo
        “Code”: {
          “type”: “integer”,
          “format”: “int32”,
-         “description”: “Exception Code. See Table F.1 in the Code of Practice, Appendix F.”,
+         “description”: “Exception Code. See Table D.1 in the Code of Practice, Appendix D.”,
          “example”: 3031
        },
        “Message”: {
          “type”: “string”,
-         “description”: “Exception Message. See Table F.1 in the Code of Practice, Appendix F.”,
+         “description”: “Exception Message. See Table D.1 in the Code of Practice, Appendix D.”,
          “example”: “Usage Not Ready for Requested Dates”
        },
        “Help_URL”: {
@@ -60,14 +60,14 @@ For tabular reports the format for the Exceptions header is defined in :numref:`
 
 As indicated in the code above, Exceptions in JSON format have the following elements:
 
-* **Code**: The Code is a number that identifies the Exception. See Table F.1 below for permissible values.
-* **Message**: The Message element contains a textual description of the Exception. For standard Exceptions with Codes > 999 the Message MUST exactly match the Message in Table F.1 below.
-* **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table F.1 below), for other Exceptions it is optional.
+* **Code**: The Code is a number that identifies the Exception. See Table D.1 below for permissible values.
+* **Message**: The Message element contains a textual description of the Exception. For standard Exceptions with Codes > 999 the Message MUST exactly match the Message in Table D.1 below.
+* **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table D.1 below), for other Exceptions it is optional.
 * **Help_URL**: An optional element that contains an URL to a help page that explains the Exception in more detail.
 
-Table F.1 lists all Exceptions permissible for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
+Table D.1 lists all Exceptions permissible for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
 
-Table F.1 (below): Exceptions
+Table D.1 (below): Exceptions
 
 .. only:: latex
 

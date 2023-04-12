@@ -47,7 +47,7 @@ Sections 3 and 4 provide an explanation of the COUNTER Reports and Standard View
 
 Sections 5 to 7 provide essential information. These sections give detail on the delivery of COUNTER-compliant reports and views, logging usage and processing rules.
 
-COUNTER compliance requires content hosts to implement COUNTER_SUSHI (the standardised model for harvesting online usage data). :numref:`sushi` provides the specifications for the RESTful COUNTER_SUSHI API and the methods that must be supported. :ref:`Appendix F <appendix-f>` explains handling errors and exceptions.
+COUNTER compliance requires content hosts to implement COUNTER_SUSHI (the standardised model for harvesting online usage data). :numref:`sushi` provides the specifications for the RESTful COUNTER_SUSHI API and the methods that must be supported. :ref:`Appendix D <appendix-d>` explains handling errors and exceptions.
 
 
 .. rubric:: Report Providers preparing for COUNTER audit

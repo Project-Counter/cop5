@@ -102,7 +102,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - Attributes_To_Show=Access_Type
 
    * - Exceptions
-     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table F.1 of :ref:`Appendix F <appendix-f>`. For some exceptions further information MUST be provided in the Data element as indicated in Table F.1, otherwise the Data is optional.
+     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table D.1 of :ref:`Appendix D <appendix-D>`. For some exceptions further information MUST be provided in the Data element as indicated in Table D.1, otherwise the Data is optional.
 
        Note that for tabular reports usually only the limited set of exceptions which indicate that usage is not, not yet or no longer available will occur.
      - 3031: Usage Not Ready for Requested Dates (request was for 2024-01-01 to 2024-12-31; however, usage is only available to 2024-08-31)
@@ -121,7 +121,7 @@ Table 3.f (below): COUNTER Report Header Elements
        360 COUNTER
 
    * - Registry
-     - The link to the platform's COUNTER Registry record.
+     - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank.
      - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
 
    * - (blank row)
@@ -132,7 +132,7 @@ Table 3.f (below): COUNTER Report Header Elements
 Report Body
 """""""""""
 
-Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
+Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all COUNTER Reports and Standard Views of COUNTER Reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
 
 
 .. rubric:: Report Item Description

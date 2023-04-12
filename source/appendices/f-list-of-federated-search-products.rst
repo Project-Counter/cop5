@@ -4,9 +4,9 @@
 
 |clearpage|
 
-.. _appendix-g:
+.. _appendix-f:
 
-Appendix G: List of Federated Search Products
+Appendix F: List of Federated Search Products
 =============================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
@@ -15,7 +15,7 @@ The following are lists of known (to COUNTER) federated search products and user
 
 NOTE: These lists are for reference purposes only and may not represent all current Federated Search Products (please contact COUNTER with updates).
 
-Table G.1: Federated Search Products
+Table F.1: Federated Search Products
 
 .. only:: latex
 
@@ -47,7 +47,7 @@ Table G.1: Federated Search Products
    * - SEARCHit
      - `Auto-Graphics <http://www4.auto-graphics.com/products-searchit-federated-search.asp>`_
 
-Table G.2: Federated Search Agent “User Agent” values
+Table F.2: Federated Search Agent “User Agent” values
 
 .. only:: latex
 

@@ -22,6 +22,6 @@ Breaking releases require report providers to make changes to their implementati
 
 Report providers may elect to become compliant with Feature and Breaking releases earlier than the stated compliance date.
 
-All changes will be clearly marked in the change log in :ref:`Appendix B <appendix-b>` to ensure they can be easily identified.
+All changes will be clearly marked in the change log in our GitHub repository  to ensure they can be easily identified.
 
 All other requirements of the Code of Practice will remain in effect during the implementation period for changes brought about by a new release.

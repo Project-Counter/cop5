@@ -4,14 +4,14 @@
 
 |clearpage|
 
-Appendix H: Sample COUNTER Reports and Standard Views of the COUNTER Reports
+Appendix G: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 ============================================================================
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
 The COUNTER Reports and Standard Views of the COUNTER Reports in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting level, the COUNTER Report appears first followed by the Standard Views of the COUNTER Report. Click the Excel, TSV and JSON links to download the corresponding sample reports.
 
-Table H.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
+Table G.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
 .. only:: not latex
 
