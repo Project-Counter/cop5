@@ -11,7 +11,7 @@ Most web servers produce log files by default in a pre-defined format which may 
 
 As log file data is held on servers in a standard format, report providers can use a variety of analytics programmes and receive consistent results over time. Log files are also independent of users’ web browsers, meaning report providers can reliably track all activity for the purposes of COUNTER reporting.
 
-Report providers wishing to learn more about log files should read the Amazon Web Service documentation (https://docs.aws.amazon.com/).
+Report providers wishing to learn more about log files should read the `Amazon Web Service documentation <https://docs.aws.amazon.com/>`_.
 
 Other things to note in respect of log file analysis are:
 

@@ -49,11 +49,13 @@ Table 9.a (below): Audit Timelines
 * **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the Tool before commencing an audit, they may apply for up to three months delay in the seeding process.
 * **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from three to up to six months.
 
-Applications for extensions MUST be sent to both the Project Director and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
+Applications for extensions MUST be sent to both the Project Director (tasha.mellins-cohen@counterusage.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
 
 
 Alternate year audits
 """""""""""""""""""""
 
-Some report providers are eligible to be audited once every 24 months. Specifically, report providers delivering COUNTER reports for a single platform, where that platform includes up to 150 books OR 15 journals OR one database, may apply to the Project Director for alternate year audit status. Report providers with historic permission to be audited in alternate years will also be considered but they MUST reapply to the Project Director for confirmation.
+Some report providers are eligible to be audited once every 24 months. Specifically, report providers delivering COUNTER reports for a single platform, where that platform includes up to 150 books OR 15 journals OR one database, may apply to the Project Director for alternate year audit status.
+
+Report providers with historic permission to be audited in alternate years for Release 5 of the Code of Pratice will also be considered for alternate year audit for R5.1, but they MUST reapply to the Project Director for confirmation.
 

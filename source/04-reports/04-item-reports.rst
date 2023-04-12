@@ -37,7 +37,7 @@ Table 4.n (below): Item Report and Standard Views of the Item Report
 
    * - IR_A1
      - Journal Article Requests
-     - Reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article, Parent_Data_Type of Journal, and Metric_Types of Total_Item_Requests and Unique_Item_Requests.
+     - Reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article and Metric_Types of Total_Item_Requests and Unique_Item_Requests.
 
        This Standard View of the Item Report must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
      - Repository\ |br|\ |lb|
@@ -112,8 +112,8 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
    * - 7
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
-     - Data_Type=Article; Parent_Data_Type=Journal; Access_Method=Regular*
-     - Data_Type=Multimedia; Access_Method=Regular*
+     - Data_Type=Article; Access_Method=Regular*
+     - Data_Type=Audiovisual|Image|Interactive_Resource|Multimedia|Sound; Access_Method=Regular*
 
    * - 8
      - Report_Attributes
@@ -346,7 +346,7 @@ Table 4.p (below): Column Headings/Elements for Item Report and Standard Views o
    * - Data_Type
      - M
      -
-     -
+     - M
 
    * - YOP
      - C
@@ -409,7 +409,7 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - Data_Type
      - One or more or all (default) of the Data_Types applicable to the platform.
      - Article
-     - Multimedia
+     - Audiovisual; Image; Interactive_Resource; Multimedia; Sound
 
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.

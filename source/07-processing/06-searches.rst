@@ -9,9 +9,9 @@ A search is counted any time the platform executes a search to retrieve a new se
 
 Design options and activities that do count as separate searches include:
 
-* Bento-box or multi-tab user interfaces, where multiple searches are conducted to retrieve and present multiple result sets.
-* Refinement of a set of search results by faceting, where applying a facet or filter requires the search to be re-run.
-* Browsing through a topics list or subject authority file, where clicking on the topic or subject conducts a search to present a set of search results.
+* Platforms where multiple searches are conducted to retrieve and present multiple result sets, for example to deliver multi-tab search result interfaces.
+* Platforms where applying a facet or filter requires the search to be re-run.
+* Where browsing triggers a search, for example where clicking on a topic from browse lists conducts a search to present a set of topic-specific search results.
 
 Note that link resolution MUST NOT count as a search.
 

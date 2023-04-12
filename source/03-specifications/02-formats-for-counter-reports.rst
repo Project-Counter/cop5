@@ -7,9 +7,11 @@
 Formats for COUNTER Reports
 ---------------------------
 
-R5 reports can be delivered in tabular form, or as machine-readable data (JSON) via the COUNTER_SUSHI API. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
+COUNTER Reports and Standard Views of the COUNTER Reports MUST be delivered in machine-readable data (JSON) via the COUNTER_SUSHI API and in tabular form as .tsv files. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
-All COUNTER reports have the same layout and structure. Figure 3.b (below) provides an example of the Title Report. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
+Except where otherwise specified, the remainder of this section uses COUNTER Reports to refer to both the four COUNTER Reports and the Standard Views of the COUNTER Reports.
+
+All COUNTER Reports have the same layout and structure. Figure 3.b (below) provides an example of the Title Report. Figure 3.c (below) shows the layout for tabular reports, which will be the focus of the discussions throughout this document. Note that the COUNTER_SUSHI API Specification includes the same elements with the same or similar names; therefore, understanding the tabular reports translates to an understanding of what is REQUIRED in reports retrieved via the COUNTER_SUSHI API.
 
 .. figure:: ../_static/img/Figure-3b.png
    :alt: Title Report sample
@@ -19,13 +21,13 @@ All COUNTER reports have the same layout and structure. Figure 3.b (below) provi
 .. centered:: Figure 3.b: Sample Title Report
 
 .. figure:: ../_static/img/Figure-3c.png
-   :alt: Tabular COUNTER report layout
+   :alt: Tabular COUNTER Report layout
    :align: center
    :width: 80%
 
 .. centered:: Figure 3.c: Layout for Tabular COUNTER Reports
 
-All COUNTER reports have a header. In tabular reports, the header is separated from the body with a blank row (to facilitate sorting and filtering in Excel). Beneath that is the body of the report with column headings. The contents of the body will vary by report. Figure 3.c (above) identifies the different kinds of information you may find in the report and the relative positioning of this information. All of this is discussed in more detail below.
+All COUNTER Reports have a header. In tabular reports, the header is separated from the body with a blank row (to facilitate sorting and filtering in Excel). Beneath that is the body of the report with column headings. The contents of the body will vary by report. Figure 3.c (above) identifies the different kinds of information you may find in the report and the relative positioning of this information. All of this is discussed in more detail below.
 
 
 .. _report-header:
@@ -33,7 +35,7 @@ All COUNTER reports have a header. In tabular reports, the header is separated f
 Report Header
 """""""""""""
 
-The first 13 rows of a tabular COUNTER report contain the header, and the 14th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
+The first 13 rows of a tabular COUNTER Report contain the header, and the 14th row is always blank. The header information is presented as a series of name-value pairs, with the names appearing in Column A and the corresponding values appearing in Column B. All tabular COUNTER reports have the same names in Column A. Column B entries will vary by report.
 
 .. figure:: ../_static/img/Figure-3d.png
    :alt: Tabular report header information
@@ -100,7 +102,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - Attributes_To_Show=Access_Type
 
    * - Exceptions
-     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table F.1 of :ref:`Appendix F <appendix-f>`. For some exceptions further information MUST be provided in the Data element as indicated in Table F.1, otherwise the Data is optional.
+     - An indication of some difference between the usage that was requested and the usage that is being presented in the report. The format for the exception values is “*{Exception Code}*: *{Exception Message}* (*{Data}*)” with multiple exception values separated by semicolon-space (“; ”). The Exception Code and Exception Message MUST match values provided in Table D.1 of :ref:`Appendix D <appendix-D>`. For some exceptions further information MUST be provided in the Data element as indicated in Table D.1, otherwise the Data is optional.
 
        Note that for tabular reports usually only the limited set of exceptions which indicate that usage is not, not yet or no longer available will occur.
      - 3031: Usage Not Ready for Requested Dates (request was for 2024-01-01 to 2024-12-31; however, usage is only available to 2024-08-31)
@@ -119,7 +121,7 @@ Table 3.f (below): COUNTER Report Header Elements
        360 COUNTER
 
    * - Registry
-     - The link to the platform's COUNTER Registry record.
+     - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank.
      - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
 
    * - (blank row)
@@ -130,7 +132,7 @@ Table 3.f (below): COUNTER Report Header Elements
 Report Body
 """""""""""
 
-Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
+Figures 3.b and 3.c (above) show the body of the COUNTER reports containing an extensive array of data elements. Not all COUNTER Reports and Standard Views of COUNTER Reports will include all elements. When formatting a report, maintain the order of elements described below, but only include those elements relevant to that report. Where practical, the discussion below will provide guidance as to which reports an element may be included in. See :numref:`reports` below for an extensive mapping of elements to reports.
 
 
 .. rubric:: Report Item Description
@@ -391,6 +393,8 @@ At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URL MUST be i
 
 Repositories often store multiple components for a given repository item. These components could take the form of multiple files or datasets, which can be identified and usage reported on separately in Item Reports. Note that reporting on component usage is optional. For report providers who elect to do so, the component usage may only be reported for Total_Item_Investigations and Total_Item_Request. For other Metric_Types the usage cannot be broken down by component and the corresponding cells MUST be empty.
 
+Note that delivering Components within an Item Report is optional.
+
 Table 3.k (below): Elements that Describe a Component Item
 
 .. only:: latex
@@ -508,7 +512,7 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Regular\ |br|\ |lb|
        TDM
 
-If one of the elements is included in a report, either because it is mandatory for a COUNTER Report or a Standard View of a COUNTER Report (as specified in :numref:`reports`) or it is called for by the report consumer, a permissible value MUST be specified for each report item.
+If one of the elements is included in a report, either because it is mandatory for a COUNTER Report (as specified in :numref:`reports`) or it is called for by the report consumer, a permissible value MUST be specified for each report item.
 
 
 .. rubric:: Metric Type

@@ -5,7 +5,7 @@
 COUNTER Report Common Attributes and Elements
 ---------------------------------------------
 
-Early releases of the COUNTER Code of Practice focused on usage statistics related to journals. That was expanded to books, and later articles and multimedia collections were added. R5 further expands the scope of COUNTER into the area of research data and social media. In order to help organize this increased scope in a single, consistent, and coherent Code of Practice, several new elements and attributes have been added.
+Early releases of the COUNTER Code of Practice focused on usage statistics related to journals. That was expanded to books, and later articles and multimedia collections were added. R5 further expanded the scope of COUNTER Reports. In order to help organize this increased scope in a consistent and coherent Code of Practice, several new elements and attributes have been added.
 
 
 .. _host-types:
@@ -13,7 +13,7 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5.1 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
@@ -68,7 +68,7 @@ Table 3.o (below): List of Host_Type Values
      - ScienceDirect
 
    * - Full_Content_Database
-     - Provides access to databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include multimedia materials.
+     - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include but not be exclusively composed of multimedia content items.
      - Cochrane
 
    * - Multimedia
@@ -96,7 +96,15 @@ Note that a given content host may be classified as having multiple Host_Types a
 Data Types
 """"""""""
 
-R5 reports on scholarly information in many ways. These major groupings, referred to as Data_Types, are listed in the table below along with the Host_Types and reports that they apply to. All Data_Types apply to the Platform Reports since they summarize the usage on the platform. Note that the table lists only Host_Types required to provide one or more reports for compliance, but that report providers may offer additional reports. For example, Host_Type eJournal might also offer IR and IR_A1 and would then use Data_Type Article in these reports.
+To facilitate flexible reporting, R5 introduced Data_Types representing major groupings of content. The extended list of Data_Types for R5.1 is detailed in Table 3.p below.
+
+The table lists the Data_Types and related Host_Types which use them in one or more reports for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
+
+Report providers MUST report metrics in line with the following:
+
+* Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
+* Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
+* Host_Types that are required to provide the IR MUST also report at item level in the PR and, if required, the DR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -107,7 +115,6 @@ Table 3.p (below): List of Data_Type Values
 .. list-table::
    :class: longtable
    :widths: 20 43 24 13
-   :header-rows: 1
 
    * - Data_Type
      - Description
@@ -115,48 +122,109 @@ Table 3.p (below): List of Data_Type Values
      - Reports
 
    * - Article
-     - An article, typically published in a journal or reference work.
+     - An article from a journal, or an article available as a standalone piece of content (e.g. in an institutional repository) either as a preprint, an author accepted manuscript, a version of record, or another article version as defined by `NISO RP-8-2008, Journal Article Versions <https://www.niso.org/publications/niso-rp-8-2008-jav#:~:text=The%20Recommended%20Terms%20and%20Definitions,Version%20of%20Record%20(EVoR)>`_. Article SHOULD NOT be used for content other than journal articles.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
-       PR_P1, IR_A1
+       PR_P1
+
+   * - Audiovisual
+     - A form of multimedia, typically describing video content.
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, IR_M1
 
    * - Book
-     - A monograph text.
+     - A monograph text, edited volume, textbook, or other form of book that is not a reference work.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
-       Repository\ |br|\ |lb|
-       Scholarly_Collaboration_Network
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, TR_B1, TR_B2, TR_B3
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, TR_B1, TR_B2, TR_B3
 
    * - Book_Segment
-     - A book segment (e.g. chapter, section, etc.).
+     - A segment of a book (e.g. chapter, section, etc.), or a segment available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
+     
+       Where a whole book is being downloaded and it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
        PR_P1
 
-   * - Database
-     - A fixed database where content is searched and accessed in the context of the database. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Note that Data_Type Database is only applicable for Searches and Access Denied at the database level and for Investigations and Requests for Full_Content_Databases*.
+   * - Conference
+     - A collection of papers, posters, or recordings of material associated with a conference. Typically part of a serial publication.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       eBook\ |br|\ |lb|
        eBook_Collection\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
+       eJournal\ |br|\ |lb|
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1
+
+   * - Conference_Item
+     - A single paper, poster, or recording of material associated with a conference. 
+     - Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, IR\ |br|\ |lb|
+       PR_P1
+
+   * - Database_Aggregated
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within an aggregated database of full text serial and/or monograph content, or content otherwise aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate title level Data_Type (e.g. Journal for a journal article).
+     - Aggregated_Full_Content\ |br|\ |lb|
+       eBook_Collection
+     - DR
+
+   * - Database_AI
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within a fixed database where bibliographic metadata is searched and accessed in the context of the database. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate Data_Type (e.g. Journal for a journal article).
+     - A&I_Database\ |br|\ |lb|
+       Discovery_Service
+     - DR
+
+   * - Database_Full
+     - *Only applies to Denial and Search metrics.*
+     
+       Activity within databases that are a collection of content items that are not aggregated into titles. A given item on the host may be in multiple databases but a transaction must be attributed to a specific database. Activity that would result in Investigation and Request metrics must be reported against the appropriate item-level Data_Type (e.g. Multimedia).
+     - Full_Content_Database\ |br|\ |lb|
        Multimedia_Collection
+     - DR
+
+   * - Database_Full_Item
+     - Usage of an item from a Full_Content_Database. Database_Full_Item applies where Investigations and Requests are being reported and a more specific Data_Type cannot be applied.
+     - Full_Content_Database
      - PR, DR\ |br|\ |lb|
-       PR_P1, DR_D1, DR_D2
+       PR_P1
 
    * - Dataset
-     - A data set.
+     - Data encoded in a defined structure, for example data associated with a research project.
      - Data_Repository\ |br|\ |lb|
        Repository
      - PR, IR\ |br|\ |lb|
        PR_P1
+
+   * - Image
+     - A form of multimedia describing a static visual image.
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, IR_M1
+
+   * - Interactive_Resource
+     - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, IR_M1
 
    * - Journal
      - A serial that is a branded and continually growing collection of original articles within a particular discipline.
@@ -165,71 +233,124 @@ Table 3.p (below): List of Data_Type Values
        Discovery_Service\ |br|\ |lb|
        eJournal\ |br|\ |lb|
        Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, TR_J1, TR_J2, TR_J3, TR_J4
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1
 
    * - Multimedia
-     - Multimedia content such as audio, image, streaming audio, streaming video, and video.
-     - Multimedia\ |br|\ |lb|
+     - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
-       PR_P1, DR_D1, IR_M1
+       PR_P1, IR_M1
+
+   * - News_Item
+     - An article from a newspaper or magazine, or a news item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository.
+     - Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Newspaper_or_Newsletter
      - Textual content published serially in a newspaper or newsletter.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
-       eJournal\ |br|\ |lb|
-       Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       eJournal
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1
 
    * - Other
-     - Content that cannot be classified by any of the other Data_Types.
-
-       Note that Data_Type Other MUST NOT be used if there isn’t sufficient information available to classify the content.
+     - Content that has been labelled with a data type that does not exist within and cannot be mapped to COUNTER’s Code of Practice. Other MUST NOT be used if there is not sufficient information available to classify the content.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Repository
      - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       PR_P1
+
+   * - Patent
+     - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
+     - A&I_Database\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Platform
-     - A content platform that may reflect usage from multiple Data_Types. Note that Data_Type Platform is only applicable for Searches_Platform.
+     - *Only applies to Searches_Platform metrics.*
      - All Host_Types
      - PR\ |br|\ |lb|
        PR_P1
 
-   * - Report
-     - A report.
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Discovery_Service\ |br|\ |lb|
-       Repository
-     - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+   * - Reference_Item
+     - An item or record within a reference work (e.g. an encylopedia reference), or a reference item available as a standalone piece of content available as a distinct item not aggregated into a title, for example in an institutional repository. 
 
-   * - Repository_Item
-     - A generic classification used for items stored in a repository.
-     - Repository
+       Where a whole reference work is being downloaded and it is not possible to identify Reference_Items, the whole reference work MUST be counted as a single Reference_Item.
+     - Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
      - PR, IR\ |br|\ |lb|
        PR_P1
 
-   * - Thesis_or_Dissertation
-     - A thesis or dissertation.
+   * - Reference_Work
+     - An authoritative source of information about a subject used to find quick answers to questions, such as an encyclopedia or dictionary. The content may be stable or updated over time.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
-       Repository
+       eBook\ |br|\ |lb|
+       eBook_Collection
+     - PR, DR, TR\ |br|\ |lb|
+       PR_P1, TR_B1, TR_B2, TR_B3
+
+   * - Report
+     - A document presenting information in an organized format for a specific audience and purpose, such as a policy report.
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       PR_P1
+
+   * - Software
+     - Source code or compiled software, or a virtual notebook environment used for programming.
+     - Data_Repository\ |br|\ |lb|
+       Repository
+     - PR, IR\ |br|\ |lb|
+       PR_P1
+
+   * - Sound
+     - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
+     - Full_Content_Database\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Multimedia_Collection
+     - PR, DR, IR\ |br|\ |lb|
+       PR_P1, IR_M1
+
+   * - Standard
+     - A document outlining processes agreed and established by authority or by general consent (e.g. materials from NISO).
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1
+
+   * - Thesis_or_Dissertation
+     - A thesis or dissertation, such as one written by a PhD candidate.
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Discovery_Service\ |br|\ |lb|
+       Repository\ |br|\ |lb|
+       Scholarly_Collaboration_Network
+     - PR, DR, TR, IR\ |br|\ |lb|
+       PR_P1
 
    * - Unspecified
-     - It is not possible to classify the content because there isn’t sufficient information available.
-
-       Note that report providers are expected to make all reasonable efforts to classify the content and that using Data_Type Unspecified may affect the result of an audit, see :numref:`missing-values` for details.
+     - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that report providers are expected to make all reasonable efforts to classify the content. Using Unspecified will give rise to a Warning in the Validation Tool.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
@@ -237,9 +358,42 @@ Table 3.p (below): List of Data_Type Values
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, DR_D1
+       PR_P1
 
-\*Full_Content_Databases may also use Data_Type Database in the Title Report if this report is offered. All other Host_Types MUST report Investigations and Requests either with the title-level Data_Types (e.g. Journal for a journal article or Book for a book, from Host_Type A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, eBook_Collection and eJournal), or with the item-level Data_Types (e.g. Article for an article or Multimedia for a video from Host_Type Data_Repository, Multimedia, Multimedia_Collection, Repository and Scholarly_Collaboration_Network). These Data_Types MUST be used across all reports required for compliance to ensure a consistent reporting.
+Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+
+* Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
+* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information as specified in the table.
+* Data_Types MUST NOT be used with other Parent_Data_Types than those listed in the table.
+
+Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
+
+.. only:: latex
+
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.2}|>{\parskip=\tparskip}\Y{0.29}|
+
+.. list-table::
+   :class: longtable
+   :widths: 20 29
+   :header-rows: 1
+
+   * - Data_Type in IR
+     - Parent_Data_Type in IR
+
+   * - Article
+     - Journal
+
+   * - Book_Segment
+     - Book
+
+   * - Conference_Item
+     - Conference
+
+   * - News_Item
+     - Newspaper_or_Newsletter
+
+   * - Reference_Item
+     - Reference_Work
 
 
 .. _metric-types:
@@ -324,11 +478,19 @@ This group of Metric_Types represents activities where content items were retrie
 
 .. rubric:: Totals, Unique Items and Unique Titles
 
-R5 also introduces the concept of unique items and unique titles. The Metric_Types that begin with Total are very similar to the metrics of R4, i.e. if a given article or book or book chapter was accessed multiple times in a user session, the metric would increase by the number of times the content item was accessed (minus any adjustments for double-clicks).
+R5 also introduced the concept of unique items and unique titles.
 
-Unique_Item metrics have been introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
+Unique_Item metrics were introduced in R5 to help eliminate the effect different styles of user interfaces may have on usage counts. With R5.1, if a single article is accessed multiple times in a given user session, the corresponding Unique_Item metric can only increase by 1 to simply indicate that the content item was accessed in the session. Unique_Item metrics provide comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version.
 
-Unique_Title metrics were introduced in R5 to help normalize eBook metrics. Since eBooks can be downloaded as an entire book in a single PDF or as separate chapters, the item metrics on different platforms may not be comparable. By contrast, a book’s Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered.
+The method for counting book usage in R5.1 at the item level is different than it was in R5. In R5.1, a Unique_Item_Investigation or Unique_Item_Request MUST be counted for each item (Book_Segment) that is used, independent of the method of content delivery.
+
+* Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
+* Where it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
+* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or Articles within Journals.
+
+This change facilitates consistent reporting on items within the Item Report, and permits more accurate comparisons of usage across Data_Types, while retaining the ability to compare book usage across platforms through Unique_Title_Investigations and Unique_Title_Requests.
+
+Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered. They are comparable across report providers and across releases.
 
 The Unique_Title metrics MUST NOT be used for Data_Types other than Book and Reference_Work as they are not meaningful for them. If a title contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 
@@ -467,7 +629,7 @@ Table 3.t (below): List of Metric_Types for Access Denied
 Access Types
 """"""""""""
 
-In order to separately track the usage of subscribed content, open access content, and freely available materials, R5 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
+In order to separately track the usage of subscribed content, open access content, and freely available materials, R5.1 uses the Access_Type attribute with values of Controlled, Open, and Free_To_Read. The table below lists the Access_Types and the Host_Types and reports they apply to.
 
 Note that the values for Access_Type changed in R5.1 to reflect community needs around reporting and to address common misunderstandings.
 
@@ -475,6 +637,7 @@ The Access_Type applied to an item MUST adhere to the following principles:
 
 * Access_Type relates to access on the platform where the usage occurs: if access to a content item is restricted on a platform (for example because the article is included in an aggregated full-text database available to subscribers only) the Access_Type is Controlled, even if the content item is Open on a different platform.
 * Access_Type applies to all parts of a content item. That is, the metadata, the full-text (if any) and supplementary materials (if any) all share a single Access_Type. For a journal article, for example, an Investigation of the article metadata must be reported under the same Access_Type as a Request for the full article.
+* Access_Type applies in all circumstances. That is, an item MUST NOT be reported as Open for one user and as Controlled for a different user.
 
 Table 3.u (below): List of Access_Type Values
 
@@ -506,7 +669,7 @@ Table 3.u (below): List of Access_Type Values
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
    * - Open
-     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the report provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|
@@ -537,7 +700,7 @@ Table 3.u (below): List of Access_Type Values
 Access Methods
 """"""""""""""
 
-In order to track content usage that was accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduces the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
+In order to track content usage that was accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduced the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
 
 Table 3.v (below): List of Access_Method Values
 
@@ -608,7 +771,7 @@ Table 3.w (below): YOP Values
 Report Filters and Report Attributes
 """"""""""""""""""""""""""""""""""""
 
-Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
+Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5.1 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
 
 The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as name/value pairs in the Report_Filters and Report_Attributes elements and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a method parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/>`_ for details).
 
@@ -716,7 +879,7 @@ Table 3.y (below): Report Filters
 Zero Usage
 """"""""""
 
-Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5 reports cannot include zero-usage reporting based on subscription records. Inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage will be addressed by the `KBART Automation Working Group <https://www.niso.org/standards-committees/kbart/kbart-automation>`_ initiative.
+Not all report providers are able to link COUNTER reporting tools to the relevant subscription database(s), so R5.1 reports cannot include zero-usage reporting based on subscription records. Equally, inclusion of zero-usage reporting for everything, including unsubscribed content, could make reports unmanageably large. The need for report consumers to identify subscribed titles with zero usage is addressed by `NISO RP-26-2019, KBART Automation: Automated Retrieval of Customer Electronic Holdings <http://www.niso.org/publications/rp-26-2019-kbartautomation>`_.
 
 * For tabular reports
 
