@@ -9,7 +9,7 @@ With the increasing use of cloud services, page tagging is becoming a preferred 
 
 Page tags are small pieces of code embedded in each page of a platform website. Data is gathered via these tags and passed to a database. This data can then be manipulated and stored, allowing complete control over how the data is represented.
 
-A key difference between log file analysis and page tagging is that with page tags a usage count is activated by opening the page in the browser, not by requesting it from the server. This means page tagging is likely to offer a more accurate reflection of usage, because cached pages are counted in the same way as server calls. However, many browsers block some page pagging services so as with log file analysis some usage will not be recorded.
+A key difference between log file analysis and page tagging is that with page tags a usage count is activated by opening the page in the browser, not by requesting it from the server. This means page tagging is likely to offer a more accurate reflection of usage, because cached pages are counted in the same way as server calls. However, many browsers block some page tagging services so as with log file analysis some usage will not be recorded.
 
 Other things to note in respect of page tagging are:
 

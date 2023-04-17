@@ -120,7 +120,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - EBSCO Information Services\ |br|\ |lb|
        360 COUNTER
 
-   * - Registry
+   * - Registry_Record
      - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank.
      - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
 
