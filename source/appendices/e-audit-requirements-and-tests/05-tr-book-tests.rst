@@ -30,11 +30,12 @@ This MUST result in 90 each of Total_Item_Investigations, Total_Item_Requests, U
 
 The auditor MUST request 20 Books and/or Reference_Works, twice each. This MUST result in 40 each of Total_Item_Investigations and Total_Item_Requests, and 20 each of Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests.
 
-**Option 3**: Books and/or Reference_Works are available as both whole Books and/or Reference_Works and as Book_Segments and/or Reference_Items.
+**Option 3**: Books and/or Reference_Works are available as whole titles, within which Book_Segments and/or Reference_Items can be identified. Alternatively, Books and/or Reference_Works are available as both whole titles and as Book_Segments and/or Reference_Items.
 
-The auditor MUST request 20 Books and/or Reference_Works, twice each, recording the number of Book_Segments and/or Reference_Items pertaining to each title.
+* The auditor MUST request 80 Book_Segments and/or Reference_Items, 10 each from 8 different Books and/or Reference_Works.
+* The auditor MUST request 10 Books and/or Reference_Works, twice each, recording the number of Book_Segments and/or Reference_Items pertaining to each title.
 
-This MUST result in 20 each of Unique_Title_Investigations and Unique_Title_Requests, double that number of Total_Item_Investigations and Total_Item_Requests, and a count of Unique_Item_Investigations and Unique_Item_Requests that is equal to the sum of the Book_Segments and/or Reference_Items.
+This MUST result in 80 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests from the first set of requests, plus a count of Total_Item_Investigations and Total_Item_Requests that is equal to the sum of the Book_Segments and/or Reference_Items from the second set of requests and half that number of Unique_Item_Investigations and Unique_Item_Requests. It MUST also result in 18 each of Unique_Title_Investigations and Unique_Title_Requests.
 
 
 E.5.2 Book Access Types
@@ -99,8 +100,6 @@ This MUST result in 30, plus the count of Book_Segments and/or Reference_Items f
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
 
 **Option 3**: Report provider offers Book_Segments and/or Reference_Items under all three Access_Types (Controlled, Open and Free_To_Read).
-
-The auditor MUST request
 
 The auditor MUST request 
 
