@@ -107,7 +107,7 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
      - Metric_Types
      - *Semicolon-space delimited list of Metric_Types included in the report.*
      - Total_Item_Requests; Unique_Items_Requests
-     - Total_Item_Requests
+     - Total_Item_Requests; Unique_Items_Requests
 
    * - 7
      - Report_Filters
@@ -443,7 +443,8 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
        - No_License
      - Total_Item_Requests\ |br|\ |lb|
        Unique_Item_Requests
-     - Total_Item_Requests
+     - Total_Item_Requests\ |br|\ |lb|
+       Unique_Item_Requests
 
    * - Include_Parent_Details
      - False (default) or True
