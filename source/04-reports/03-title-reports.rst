@@ -472,7 +472,7 @@ Table 4.k (below): Column Headings/Elements for Title Report and Standard Views 
      -
 
    * - Access_Method
-     - R
+     - C
      -
      -
      -
