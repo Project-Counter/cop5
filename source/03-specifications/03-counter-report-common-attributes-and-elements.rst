@@ -200,7 +200,7 @@ Table 3.p (below): List of Data_Type Values
    * - Database_Full_Item
      - Usage of an item from a Full_Content_Database. Database_Full_Item applies where Investigations and Requests are being reported and a more specific Data_Type cannot be applied.
      - Full_Content_Database
-     - PR, DR\ |br|\ |lb|
+     - PR, DR, IR\ |br|\ |lb|
        PR_P1
 
    * - Dataset
@@ -388,6 +388,9 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
    * - Conference_Item
      - Conference
+
+   * - Database_Full_Item
+     - Database_Full
 
    * - News_Item
      - Newspaper_or_Newsletter
