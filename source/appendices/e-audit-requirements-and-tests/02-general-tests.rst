@@ -23,6 +23,7 @@ The auditor MUST test the SUSHI service endpoints as follows
 
 * The /status endpoint MUST be public (i.e. unprotected) to allow report consumers to easily check whether the service is live.
 * The /reports endpoint MUST return the date range for which COUNTER Reports and the Standard Views of COUNTER Reports are available. If this is less than the required year-to-date plus two years of back data, the auditor MUST note the missing months in the audit report.
+* The /members endpoing MUST return the auditor's customer details.
 
 Any error messages returned by the SUSHI service in the process of audit MUST be noted in the audit report, including an indication of where these error messages deviate from those specified in  :ref:`Appendix D <appendix-d>`.
 
