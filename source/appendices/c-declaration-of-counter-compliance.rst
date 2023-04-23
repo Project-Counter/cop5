@@ -34,6 +34,6 @@ We <name of Content Provider> (‘The Company’) hereby confirm the following:
 |
 | **Upon receipt of this signed declaration by the COUNTER office, and upon payment (where the Company is not a member of COUNTER) by The Company of the Content Provider Registration Fee, The Company will be listed on the Register of Content Providers providing COUNTER-compliant Usage Reports pending completion of a formal audit within 6 months of signing this declaration.**
 |
-| **This Declaration may be scanned and emailed to:** compliance@counterusage.org
+| **This Declaration may be scanned and emailed to:** tasha.mellins-cohen@counterusage.org
 |
 | **Cheques should be made payable to ‘Project COUNTER’ and mailed to: COUNTER, 25 Egbert Road, Winchester, SO23 7EB, UK**
