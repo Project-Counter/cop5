@@ -33,7 +33,7 @@ The auditor MUST request 50 journal articles with each Access_Type.
 
 This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with each Access_Type.
 
-The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
+The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
 **Option 3**: Report provider offers Controlled, Open and Free_To_Read journal articles.
 

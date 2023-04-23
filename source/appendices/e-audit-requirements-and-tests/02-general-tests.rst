@@ -13,7 +13,7 @@ E.2.1 Validation Tool
 
 Once reports are available for testing (i.e. up to 28 days after the end of the seeding month), auditors MUST run the COUNTER Reports and Standard Views of COUNTER Reports that are within the scope of the audit through the Validation Tool. This test must include all attributes report providers are required to support, including attributes that are included only if called for.
 
-Where report providers have elected to follow the pre-flight preparation step outlined in Section 9 of the Code of Practice, this audit test should not result in any errors.
+Where report providers have elected to follow the pre-flight preparation step outlined in :numref:`audit` of the Code of Practice, this audit test should not result in any errors.
 
 
 E.2.2 SUSHI Endpoints
@@ -33,7 +33,7 @@ E.2.3 Audit Tests for Double-Click Filtering
 
 This audit test applies to investigations and requests metrics across all COUNTER Reports and should represent the scope of the platform. That is, where a platform is made up of a mixture of content with Data_Types Article, Multimedia and Patent, the auditor should represent each of those Data_Types proportionately in the audit test.
 
-The test consists of making requests to an item twice in succession (double-clicks). If the two clicks occur within a 30-second time-span, only the second request MUST be recorded, resulting in 1 Total_Item_Investigation and 1 Total_Item_Request. If the two clicks occur with more than 30 seconds between them, then 2 Total_Item_Investigations and 2 Total_Item_Requests must be counted. In both cases only 1 Unique_Item_Investigation and 1 Unique_Item_Request will be reported.
+The test consists of making requests to an item twice in succession (double-clicks). If the two clicks occur within a 30-second time-span, only the second request MUST be recorded, resulting in 1 Total_Item_Investigations and 1 Total_Item_Requests. If the two clicks occur with more than 30 seconds between them, then 2 Total_Item_Investigations and 2 Total_Item_Requests must be counted. In both cases only 1 Unique_Item_Investigations and 1 Unique_Item_Requests will be reported.
 
 The auditor MUST carry out a total of 30 tests:
 

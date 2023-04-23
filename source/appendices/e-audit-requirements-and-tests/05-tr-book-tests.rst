@@ -71,7 +71,7 @@ The auditor MUST request 50 Book_Segments and/or Reference_Items, 10 each from 5
 
 This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests with each Access_Type.
 
-The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
+The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
 
 E.5.2.2 Available as Both Book_Segments and/or Reference_Items and Whole Books and/or Reference_Works
@@ -97,7 +97,7 @@ The auditor MUST request
 
 This MUST result in 30, plus the count of Book_Segments and/or Reference_Items from the Title downloads, of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 13 each of Unique_Title_Investigations and Unique_Title_Requests, for each of the two Access_Types.
 
-The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
+The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
 **Option 3**: Report provider offers Book_Segments and/or Reference_Items under all three Access_Types (Controlled, Open and Free_To_Read).
 
@@ -130,7 +130,7 @@ This MUST result in 25 each of Total_Item_Investigations, Total_Item_Requests, U
 
 Where there are fewer than the required number of Books and/or Reference_Works under an Access_Type, the auditor MUST test every item with that Access_Type.
 
-The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read
+The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
 **Option 3**: Report provider offers Books and/or Reference_Works, without Book_Segments and/or Reference_Items, under all three Access_Types (Controlled, Open and Free_To_Read).
 

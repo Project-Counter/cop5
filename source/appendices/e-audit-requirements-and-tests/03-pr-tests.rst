@@ -15,7 +15,7 @@ Platform Report tests apply to all Host_Types.
 
 
 E.3.1 Searches_Platform
-"""""""""""""""""""""""""
+"""""""""""""""""""""""
 
 **Option 1**: Platform has multiple databases and the user can search the whole platform, multiple selected databases, or a single database.
 
@@ -72,9 +72,7 @@ If a platform only delivers book and/or reference work content as a single downl
 
 **Option 2**: Platforms that only include Data_Type=Book and/or Reference_Work.
 
-The auditor MUST make a total of 100 requests
-
-10 requests against different items within each of 10 books and/or reference works, for 100 total requests.
+The auditor MUST make 10 requests against different items within each of 10 books and/or reference works, for 100 total requests.
 
 The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
 
