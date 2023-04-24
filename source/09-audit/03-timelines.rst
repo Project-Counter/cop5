@@ -7,7 +7,7 @@ Audit Timelines
 
 An audit is valid for twelve months from the date of seeding: that is, an audit seeded in April 2025 will be valid until the end of March 2026.
 
-The audit process can be lengthy and report providers should take this into consideration when planning for audits. A typical timeline is shown in table 9.a below.
+The audit process can be lengthy and report providers should take this into consideration when planning for audits. A typical timeline is shown in Table 9.a below.
 
 Table 9.a (below): Audit Timelines
 
@@ -44,9 +44,11 @@ Table 9.a (below): Audit Timelines
      - 1 month
      - August
 
-\*Report providers may request extensions to the usual timelines under the following circumstances.
+\
 
-* **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the Tool before commencing an audit, they may apply for up to three months delay in the seeding process.
+Report providers may request extensions to the usual timelines under the following circumstances.
+
+* **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the tool before commencing an audit, they may apply for up to three months delay in the seeding process.
 * **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from three to up to six months.
 
 Applications for extensions MUST be sent to both the Project Director (tasha.mellins-cohen@counterusage.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
