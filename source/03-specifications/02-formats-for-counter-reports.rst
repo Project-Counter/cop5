@@ -109,7 +109,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
    * - Reporting_Period
      - The date range for the usage represented in the report, in the form of: “Begin_Date=\ *yyyy-mm-dd*; End_Date=\ *yyyy-mm-dd*”.
-     - Begin_Date=2024-01-01; End_Date=2024-08-30
+     - Begin_Date=2024-01-01; End_Date=2024-08-31
 
    * - Created
      - The date and time the usage was prepared, in RFC3339 date-time format (*yyyy-mm-ddThh:mm:ssZ*).
