@@ -64,20 +64,24 @@ Where possible, 50% of items requested SHOULD be via browsing the platform and 5
 The auditor MUST make a total of 100 requests
 
 * 50 requests against different items with Data_Type other than Book and/or Reference_Work.
-* 10 requests against different items within each of 5 books and/or reference works, for 50 total requests.
+* 10 requests against different items within each of 5 Books and/or Reference_Works, for 50 total requests.
 
-The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 5 each of Unique_Title_Investigations and Unique_Title_Requests (1 per Book and/or Reference_Work).
 
-If a platform only delivers book and/or reference work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 50 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+If a platform only delivers Book and/or Reference_Work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate Book and/or Reference_Work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 50 each of Unique_Title_Investigations and Unique_Title_Requests (1 per Book and/or Reference_Work).
+
+In the specific case of platforms offering Books and/or Reference_Works as whole-title downloads where Book_Segments and/or Reference_Items can be identified, the metric counts will deviate from those specified. The auditor MUST note the number of Book_Segments and/or Reference_Items in the titles subject to double-click tests, and the number of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests must reflect the number of Book_Segments and/or Reference_Items in addition to any other items tested.
 
 **Option 2**: Platforms that only include Data_Type=Book and/or Reference_Work.
 
-The auditor MUST make 10 requests against different items within each of 10 books and/or reference works, for 100 total requests.
+The auditor MUST make 10 requests against different items within each of 10 Books and/or Reference_Works, for 100 total requests.
 
-The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+The auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 10 each of Unique_Title_Investigations and Unique_Title_Requests (1 per Book and/or Reference_Work).
 
-If a platform only delivers book and/or reference work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate book and/or reference work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 100 each of Unique_Title_Investigations and Unique_Title_Requests (1 per book and/or reference work).
+If a platform only delivers Book and/or Reference_Work content as a single download, and it is not possible to identify Book_Segments and/or Reference_Items, then each request MUST be for a separate Book and/or Reference_Work. In this case the auditor activity MUST result in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 100 each of Unique_Title_Investigations and Unique_Title_Requests (1 per Book and/or Reference_Work).
+
+In the specific case of platforms offering Books and/or Reference_Works as whole-title downloads where Book_Segments and/or Reference_Items can be identified, the metric counts will deviate from those specified. The auditor MUST note the number of Book_Segments and/or Reference_Items in the titles subject to double-click tests, and the number of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests must reflect the number of Book_Segments and/or Reference_Items in addition to any other items tested.
 
 **Option 3**: Platforms that do not include content with Data_Type=Book and/or Reference_Work.
 
-The auditor MUST make a total of 100 requests against different items, resulting in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests. There should be 0 each of Unique_Title_Investigations and Unique_Title_Requests. Zero usage MUST NOT appear in COUNTER Reports.
+The auditor MUST make a total of 100 requests against different items, resulting in 100 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests. There should be no Unique_Title_Investigations or Unique_Title_Requests. Zero usage MUST NOT appear in COUNTER Reports.

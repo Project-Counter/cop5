@@ -20,4 +20,5 @@ Note: The main Code of Practice document takes precedence in the case of any con
    04-dr-tests
    05-tr-book-tests
    06-tr-journal-tests
-   07-ir-tests
+   07-tr-tests
+   08-ir-tests

@@ -5,13 +5,11 @@
 E.6 Title Report Audit Tests for Journals
 -----------------------------------------
 
-This section of the appendix outlines tests that MUST be run during audits for a Host_Type that is required to offer the Title Report and which includes Book and/or Reference_Work content requiring delivery of the journal-related Standard Views of the Title Report (TR_J1, TR_J2, TR_J3, TR_J4).
+This section of the appendix outlines tests that MUST be run during audits for a Host_Type that is required to offer the Title Report and which includes Journal content requiring delivery of the journal-related Standard Views of the Title Report (TR_J1, TR_J2, TR_J3, TR_J4). Title Report audit tests for journals apply to Host_Types Aggregated_Full_Content and eJournal.
 
 The Title Report will be COUNTER-compliant for journal content if the following audit tests are passed. The journal-related Standard Views of the Title Report (TR_J1, TR_J2, TR_J3, TR_J4) will be COUNTER-compliant if the metrics match those in the Title Report, with the appropriate aggregation.
 
 Audit test requirements vary depending on the set up of the platform, as indicated by the Options within the tests below.
-
-Title Report audit tests for journals apply to Host_Types Aggregated_Full_Content and eJournal.
 
 For ease of reading the term ‘journal articles’ has been used to indicate content items within Data_Type=Journal.
 
@@ -53,8 +51,6 @@ Where possible, 50% of items requested SHOULD be via browsing the platform and 5
 
 The auditor MUST make a total of 80 requests against 40 different journal articles, resulting in 80 each of Total_Item_Investigations and Total_Item_Requests, and 40 each of Unique_Item_Investigations and Unique_Item_Requests.
 
-Where a platform has fewer than 80 items, the auditor MUST make at least one request per item and testing should result in 80 each of Total_Item_Investigations and Total_Item_Requests, and the item-count of Unique_Item_Investigations and Unique_Item_Requests.
-
 
 E.6.3 Total_Item_Investigations and Unique_Item_Investigations
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -64,8 +60,6 @@ This test is required when investigations can be reported independently of a req
 Where possible, 50% of items investigated SHOULD be via browsing the platform and 50% via searching the platform. If either browsing or searching is not possible, all items may be investigated via the only available option.
 
 The auditor MUST make a total of 80 investigations against 40 different journal articles, resulting in 80 Total_Item_Investigations and 40 Unique_Item_Investigations.
-
-Where a platform has fewer than 80 items, the auditor MUST make at least one investigation per item and testing should result in 80 Total_Item_Investigations and the item-count of Unique_Item_Investigations.
 
 
 E.6.4 Journal Year of Publication

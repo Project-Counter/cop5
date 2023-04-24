@@ -49,3 +49,9 @@ E.1.2 Audits Where 'Accounts' Do Not Apply
 """"""""""""""""""""""""""""""""""""""""""
 
 Institutional repositories typically cannot set up or supply account details for auditors. The same may be true for purely open access publishers. Where this is the case, all audit tests MUST be run on defined and agreed IP addresses.
+
+
+E.1.3 Insufficient Item Counts
+""""""""""""""""""""""""""""""
+
+These audit tests specify minimum numbers of Items to be tested. Where a platform has fewer than the required number of items, the auditor MUST make at least one request for each item on the platform, and where necessary undertake duplicate actions to reach the required threshold. This will result in the necessary count of Total_Item_Investigations and Total_Item_Requests, but the item-count of Unique_Item_Investigations and Unique_Item_Requests.

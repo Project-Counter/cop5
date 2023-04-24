@@ -42,13 +42,14 @@ The auditor MUST carry out a total of 30 tests:
 
 The “Inside” tests MUST result in 15 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and the “Outside” tests MUST result in 30 Total_Item_Investigations, 30 Total_Item_Requests, 15 Unique_Item_Investigations and 15 Unique_Item_Requests, for a total of 45 Total_Item_Investigations, 45 Total_Item_Requests, 30 Unique_Item_Investigations and 30 Unique_Item_Requests.
 
+Note that in the specific case of platforms offering Books and/or Reference_Works as whole-title downloads where Book_Segments and/or Reference_Items can be identified, the metric counts will deviate from those specified. The auditor MUST note the number of Book_Segments and/or Reference_Items in the titles subject to double-click tests, and the number of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests must reflect the number of Book_Segments and/or Reference_Items in addition to any other items tested.
 
 E.2.4 Audit Tests for Denials
 """""""""""""""""""""""""""""
 
 Report providers operating platforms where turnaways or denials are in operation MUST be subject to audit tests for denials. For report providers operating multiple platforms, the audit scope as defined in :numref:`audit` MUST include platforms where turnaways or denials are in operation. Where either Limit_Exceeded or No_License denials do not apply to a report provider, auditors MUST note this in the audit report. This does not require an exemption from the COUNTER Project Director.
 
-These audit tests apply to denial metrics across all COUNTER Reports and should represent the scope of the platform under audit. That is, where a platform is made up of a mixture of content with Data_Types Article, Multimedia and Patent, the auditor SHOULD represent each of those Data_Types proportionately in the audit test.
+These audit tests apply to denial metrics across all relevant COUNTER Reports and should represent the scope of the platform under audit. That is, where a platform is made up of a mixture of content with Data_Types Article, Multimedia and Patent, the auditor SHOULD represent each of those Data_Types proportionately in the audit test.
 
 
 E.2.4.1 Limit_Exceeded
