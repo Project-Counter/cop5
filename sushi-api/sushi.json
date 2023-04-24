@@ -7,13 +7,13 @@
     "contact" : {
       "name" : "Project COUNTER",
       "url" : "https://www.projectcounter.org/",
-      "email" : "lorraine.estelle@counterusage.org"
+      "email" : "tasha.mellins-cohen@counterusage.org"
     },
     "license" : {
       "name" : "Apache 2.0",
       "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "version" : "planned"
+    "version" : "5.0.3"
   },
   "schemes" : [ "https" ],
   "securityDefinitions" : {
@@ -1884,5 +1884,5 @@
     }
   },
   "host" : "virtserver.swaggerhub.com",
-  "basePath" : "/COUNTER/counter-sushi_5_0_api/planned"
+  "basePath" : "/COUNTER/counter-sushi_5_0_api/5.0.2"
 }
