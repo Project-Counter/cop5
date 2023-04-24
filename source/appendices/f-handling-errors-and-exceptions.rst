@@ -186,7 +186,7 @@ Table F.1 (below): Exceptions
      - Error
      - 3030
      - 200
-     - The service did not find any data for the date range specified.
+     - The service did not find any data for the specified date range and other filters (if any).
 
        Note: If the usage for a requested month either hasn’t been processed yet or is no longer available, only Exception 3031 or 3032 must be returned for that month.
 
