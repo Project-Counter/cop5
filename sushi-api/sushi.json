@@ -1274,7 +1274,7 @@
                 "type" : "string",
                 "format" : "dateTime",
                 "description" : "Date-time of the alert.",
-                "example" : "2016-08-02: 12:54"
+                "example" : "2016-08-02T12:54:05Z"
               },
               "Alert" : {
                 "type" : "string",
@@ -1366,14 +1366,14 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Platform", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Platform", "Report", "Repository_Item", "Thesis_or_Dissertation", "Unspecified" ],
           "example" : "Platform"
         },
         "Access_Method" : {
           "type" : "string",
           "description" : "Identifies if the usage activity was 'Regular' usage (a user doing research on a content site) or if the usage was for the purpose of retrieving content for Text and Data Mining (TDM)",
           "enum" : [ "Regular", "TDM" ],
-          "example" : "Journal"
+          "example" : "Regular"
         },
         "Performance" : {
           "type" : "array",
@@ -1437,7 +1437,7 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Database", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository Item", "Thesis_or_Dissertation" ],
+          "enum" : [ "Book", "Database", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Thesis_or_Dissertation", "Unspecified" ],
           "example" : "Database"
         },
         "Access_Method" : {
@@ -1508,7 +1508,7 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "enum" : [ "Book", "Database", "Journal", "Newspaper_or_Newsletter", "Other", "Report", "Thesis_or_Dissertation", "Unspecified" ],
           "example" : "Journal"
         },
         "Section_Type" : {
@@ -1627,8 +1627,8 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the item being reported.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
-          "example" : "Journal"
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation", "Unspecified" ],
+          "example" : "Article"
         },
         "YOP" : {
           "type" : "string",
@@ -1696,7 +1696,7 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the parent item.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
+          "enum" : [ "Book", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation", "Unspecified" ],
           "example" : "Journal"
         }
       }
@@ -1741,8 +1741,8 @@
         "Data_Type" : {
           "type" : "string",
           "description" : "Nature of the component item.",
-          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation" ],
-          "example" : "Journal"
+          "enum" : [ "Article", "Book", "Book_Segment", "Dataset", "Journal", "Multimedia", "Newspaper_or_Newsletter", "Other", "Report", "Repository_Item", "Thesis_or_Dissertation", "Unspecified" ],
+          "example" : "Dataset"
         },
         "Performance" : {
           "type" : "array",
