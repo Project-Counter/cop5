@@ -5,7 +5,7 @@
 Transitioning to a New Reporting Service
 ----------------------------------------
 
-When a report provider implements a new reporting service, underlying logging system, or approach, they MUST continue to meet the requirement to offer valid COUNTER reports for the current year plus the prior 24 months (or from the date they first became compliant, whichever is later). At a minimum, these reports MUST be available in tabular format via the new reporting service's web interface. The reports SHOULD also be available in JSON via a SUSHI server.
+When a report provider implements a new reporting service, underlying logging system, or approach, they MUST continue to meet the requirement to offer valid COUNTER reports for the current year plus the prior 24 months (or from the date they first became compliant, whichever is later). At a minimum, these reports MUST be available in tabular format with all Attributes via the new reporting service's web interface. The reports SHOULD also be available in JSON via a SUSHI server.
 
 
 Availability of Previous Reports
