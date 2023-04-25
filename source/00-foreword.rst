@@ -43,7 +43,7 @@ Sections 1 and 2 provide an introduction and outline of the scope of the COUNTER
 Sections 3 and 4 provide an explanation of the COUNTER Reports and Standard Views of the COUNTER Reports which are a requirement for COUNTER-compliance and that allow the report consumer to filter and configure to create customized “views” of their usage data. Section 3 also explains Metric Types and Attributes.
 
 
-.. rubric:: Report Providers implementing Release 5
+.. rubric:: Report Providers implementing Release 5.1
 
 Sections 5 to 7 provide essential information. These sections give detail on the delivery of COUNTER-compliant reports and views, logging usage and processing rules.
 
