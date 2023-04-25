@@ -2,8 +2,8 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-E.6 Audit Tests for Investigations and Requests by Access Type
---------------------------------------------------------------
+E.6 Audit Tests for Investigations and Requests for Other Data_Types
+--------------------------------------------------------------------
 
 This section of the appendix outlines tests that MUST be run during audits for any platform delivering any Data_Type that is not Book or Reference_Work content. For report providers operating multiple platforms including one or more with non-Book or Reference_Work content, the audit scope as defined in :numref:`audit` MUST include one of these platforms and be subject to the audit tests outlined here. Note that these tests refer to 'item' for ease of reading, without specifying Data_Type.
 
@@ -44,12 +44,19 @@ The auditor MUST request
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Free_To_Read.
 
 
-E.6.4 Year of Publication
+E.6.2 Year of Publication
 """""""""""""""""""""""""
 
-Year of publication (YOP) is useful in evaluating usage of archive content.
+Year of publication (YOP) is useful in evaluating usage of archive content for Data_Types that can be published serially, namely:
 
-The auditor MUST confirm the YOP of items covered in other audit tests described above, with appropriate and proportionate spot checks covering a minimum of 20% of all items tested.
+* Article
+* Conference_Item
+* Conference
+* Journal
+* News_Item
+* Newspaper_or_Newsletter
+
+The auditor MUST confirm the YOP of items covered in other audit tests described above, with appropriate and proportionate spot checks covering a minimum of 20% of all items tested from the relevant Data_Types.
 
 If the YOP appearing in the COUNTER Reports is different from that of the item for more than 10% of the checked items, the auditor must expand their spot checks to cover at least 40% of tested items. If 10% or more of the items have a different YOP from that in the COUNTER Reports, the report provider has failed the YOP audit test. To use the example of audit tests under Option 1 above:
 

@@ -2,8 +2,8 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-E.5 Audit Tests for Investigations and Requests by Access Type, Books and Reference_Works
------------------------------------------------------------------------------------------
+E.5 Audit Tests for Investigations and Requests for Books and Reference_Works
+-----------------------------------------------------------------------------
 
 This section of the appendix outlines tests that MUST be run during audits for any platform delivering Book and/or Reference_Work content. For report providers operating multiple platforms including one or more with Book and/or Reference_Work content, the audit scope as defined in :numref:`audit` MUST include one of these platforms and be subject to the audit tests outlined here. Note that these tests refer to Data_Types Book and Book_Segment for ease of reading. In all cases, Book includes Data_Types Book and Reference_Work, while Book_Segment includes Data_Types Book_Segment and Reference_Item.
 
@@ -19,7 +19,7 @@ Audit test requirements vary depending on the set up of the platform, as indicat
 E.5.1 Books Available as Book_Segments
 """"""""""""""""""""""""""""""""""""""
 
-These tests apply where users can only access books segment-by-segment (i.e. it is not possible to download an entire book as a single file).
+These tests apply where users can access books segment-by-segment.
 
 **Option 1**: Report provider offers Book_Segments under only one Access_Type.
 
@@ -49,36 +49,27 @@ This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, U
 E.5.2 Books Available as Both Book_Segments and Whole Books
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-These tests apply where users can access books segment-by-segment and it is also possible to download an entire book as a single file. These tests also apply where books are available only as whole-books downloads, but Book_Segments can be identified for reporting purposes.
+These tests apply where books are available as whole-books downloads, but Book_Segments can be identified for reporting purposes.
 
-**Option 1**: Report provider offers Book_Segments and Whole Books under only one Access_Type.
+**Option 1**: Report provider offers whole Books under only one Access_Type.
 
-The auditor MUST request 
+The auditor MUST request 50 whole Books, noting the count of Book_Segments from each Title.
 
-* 50 Book_Segments across 5 different Books
-* 20 whole Books, noting the count of Book_Segments from each Title.
-
-This MUST result in 50, plus the count of Book_Segments from the Title downloads, of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 25 each of Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
+This MUST result in  the count of Book_Segments of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 50 each of Unique_Title_Investigations and Unique_Title_Requests with the appropriate Access_Type.
 
 **Option 2**: Report provider offers Book_Segments and Whole Books under two different Access_Types.
 
-The auditor MUST request 
+The auditor MUST request 30 whole Books, noting the count of Book_Segments, for each Access_Type.
 
-* 30 Book_Segments across 3 different Books, for each Access_Type
-* 10 whole Books, noting the count of Book_Segments, for each Access_Type.
-
-This MUST result in 30, plus the count of Book_Segments from the Title downloads, of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 13 each of Unique_Title_Investigations and Unique_Title_Requests, for each of the two Access_Types.
+This MUST result in the count of Book_Segments of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 30 each of Unique_Title_Investigations and Unique_Title_Requests, for each of the two Access_Types.
 
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
 **Option 3**: Report provider offers Book_Segments and Whole Books under all three Access_Types (Controlled, Open and Free_To_Read).
 
-The auditor MUST request 
+The auditor MUST request 20 whole Books, noting the count of Book_Segments from each Title, for each Access_Type
 
-* 20 Book_Segments across 2 different Books, for each Access_Type
-* 5 Books, noting the count of Book_Segments from each Title, for each Access_Type
-
-This MUST result in 20, plus the count of Book_Segments from the Title downloads, of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 7 each of Unique_Title_Investigations and Unique_Title_Requests, for each of the Access_Types.
+This MUST result in the count of Book_Segments of each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and 20 each of Unique_Title_Investigations and Unique_Title_Requests, for each of the Access_Types.
 
 
 E.5.3 Books Available as Whole Books Only
@@ -102,10 +93,6 @@ The Access_Type combinations might be: Controlled plus Open, Controlled plus Fre
 
 **Option 3**: Report provider offers Books without Book_Segments under all three Access_Types (Controlled, Open and Free_To_Read).
 
-The auditor MUST request
+The auditor MUST request 20 Books of each Access_Type.
 
-* 20 Books with Access_Type Controlled.
-* 20 Books with Access_Type Open.
-* 10 Books with Access_Type Free_To_Read.
-
-This MUST result in 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Controlled; the same again for Access_Type Open; and 10 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests with Access_Type Free_To_Read.
+This MUST result in 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations, Unique_Item_Requests, Unique_Title_Investigations and Unique_Title_Requests for each Access_Type.
