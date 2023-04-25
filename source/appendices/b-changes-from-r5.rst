@@ -26,7 +26,7 @@ Primary changes between R5 and R5.1
 * **Report headers** - R5.1 added a link to the `COUNTER Registry <https://registry.projectcounter.org>`_ to the standard report header in both JSON and tabular reports.
 * **SUSHI URLs** - Starting with Release 5.1, the release version number will need to be included in the SUSHI URL path.
 * **SUSHI authentication** - R5.1 removes support for IP-based authentication in the COUNTER_SUSHI API. API key may be used if a replacement is desired.
-* **SUSHI endpoints** - The /status endpoint is public in R5.1 to allow users to easily check whether a service is live. The /reports endpoint is extended to return information about the first and last months for which data are available. We are also introducing separate parameters for common extensions.
+* **SUSHI endpoints** - The /r51/status endpoint is public to allow users to easily check whether a service is live. The /r51/reports endpoint is extended to return information about the first and last months for which data are available. We are also introducing separate parameters for common extensions.
 * **JSON** - Key changes are upgrading to the OpenAPI3.1/JSON schema, and other changes that result in a more compact, easier-to-parse schema.
 
 
