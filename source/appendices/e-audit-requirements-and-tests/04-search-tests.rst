@@ -9,10 +9,11 @@ All report providers MUST be subject to the audit tests for Searches_Platform. F
 
 Audit test requirements vary depending on the set up of the platform, as indicated by the Options within the tests below.
 
-The first set of tests outlined here are specific to the Platform Report, while the second set relate to the Database Report. The PR_P1 Standard View of the Platform Report and the DR_D1 Standard View of the Database Report will be deemed COUNTER-compliant if the metrics match those in the relevant COUNTER Report, with the appropriate aggregation.
 
 E.4.1 Searches_Platform
 """""""""""""""""""""""
+
+These tests are specific to the Platform Report. The PR_P1 Standard View of the Platform Report will be deemed COUNTER-compliant if the metrics match those in the Platform Report, with the appropriate aggregation.
 
 **Option 1**: Platform has multiple databases and the user can search the whole platform, multiple selected databases, or a single database.
 
@@ -54,6 +55,8 @@ The auditor activity MUST result in 100 Searches_Platform (1 per search).
 
 E.4.2 Searches_Regular and Searches_Automated
 """""""""""""""""""""""""""""""""""""""""""""
+
+These tests are specific to the Database Report. The DR_D1 Standard View of the Database Report will be deemed COUNTER-compliant if the metrics match those in the Database Report, with the appropriate aggregation.
 
 **Option 1**: Platform has multiple databases and the user can search the whole platform, multiple selected databases, or a single database.
 

@@ -14,7 +14,7 @@ These audit tests apply to the Database Report, Title Report and Item Report. Th
 
 E.3.1 Limit_Exceeded
 """"""""""""""""""""""
-Note that the account used for this testing MUST have concurrent / simultaneous-user limit (concurrency limits) set at a single user. A second user attempting to access the database would be denied.
+Note that the account used for this testing MUST have concurrent/simultaneous-user limit (concurrency limits) set at a single user. A second user attempting to access the database would be denied.
 
 **Option 1**: The report provider denies the user access when the concurrency limit is exceeded upon login.
 

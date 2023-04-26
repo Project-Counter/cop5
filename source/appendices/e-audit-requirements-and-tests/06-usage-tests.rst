@@ -7,7 +7,7 @@ E.6 Audit Tests for Investigations and Requests for Other Data_Types
 
 This section of the appendix outlines tests that MUST be run during audits for any platform delivering any Data_Type that is not Book or Reference_Work content. For report providers operating multiple platforms including one or more with non-Book or Reference_Work content, the audit scope as defined in :numref:`audit` MUST include one of these platforms and be subject to the audit tests outlined here. Note that these tests refer to 'item' for ease of reading, without specifying Data_Type.
 
-These tests apply to the Platform Report, Database Report, Title Report and Item Report. The PR_P1, DR_D1, TR_J1, TR_J3, TR_J4 and IR_A1 Standard Views of the COUNTER Reports will be deemed COUNTER-compliant if the metrics and Data_Types match those in the relevant COUNTER Report, with the appropriate aggregation.
+These tests apply to the Platform Report, Database Report, Title Report and Item Report. The counts specified in the tests are those required for the Title Report and Item Report, which must be aggregated appropriately for the Platform Report and Database Report where multiple Access_Types are present on the platform under test. The PR_P1, DR_D1, TR_J1, TR_J3, TR_J4 and IR_A1 Standard Views of the COUNTER Reports will be deemed COUNTER-compliant if the metrics and Data_Types match those in the relevant COUNTER Report, with the appropriate aggregation.
 
 These audit tests specify minimum numbers of items to be tested. Where a platform has fewer than the required number of items, the auditor MUST make at least one request for each item on the platform, and where necessary undertake duplicate actions to reach the required threshold.
 
@@ -33,7 +33,7 @@ This MUST result in 50 each of Total_Item_Investigations, Total_Item_Requests, U
 
 The Access_Type combinations might be: Controlled plus Open, Controlled plus Free_To_Read, or Open plus Free_To_Read.
 
-**Option 3**: Report provider offers Controlled, Open and Free_To_Read items.
+**Option 3**: Report provider offers items under all three Access_Types (Controlled, Open and Free_To_Read).
 
 The auditor MUST request
 
@@ -44,19 +44,24 @@ The auditor MUST request
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Free_To_Read.
 
 
-E.6.2 Year of Publication
+E.5.3 Investigations Independent of Requests
+""""""""""""""""""""""""""""""""""""""""""""
+
+These audit tests applies where Investigations can be reported independently of Requests. If all Investigations have a matching Request, auditors MUST note this in the audit report. This does not require an exemption from the COUNTER Project Director.
+
+The tests mimic those defined above, but the auditor MUST undertake a separate Investigation activity for each audit test, resulting in a doubling of the Total_Item_Investigation counts.
+
+
+E.6.3 Year of Publication
 """""""""""""""""""""""""
 
 Year of publication (YOP) is useful in evaluating usage of archive content for Data_Types that can be published serially, namely:
 
-* Article
-* Conference_Item
-* Conference
-* Journal
-* News_Item
-* Newspaper_or_Newsletter
+* Conference/Conference_Item
+* Journal/Article
+* Newspaper_or_Newsletter/News_Item
 
-The auditor MUST confirm the YOP of items covered in other audit tests described above, with appropriate and proportionate spot checks covering a minimum of 20% of all items tested from the relevant Data_Types.
+The auditor MUST confirm the YOP of items covered in other audit tests described above, with appropriate and proportionate spot checks covering a minimum of 20% of all items tested from the relevant Data_Types. If an Item Report is provided the YOP checks should occur in that COUNTER Report, otherwise the aggregated counts in the Title Report should be used (i.e. to ensure that YOPs of tested items appear in the Title Report, without any other YOPs).
 
 If the YOP appearing in the COUNTER Reports is different from that of the item for more than 10% of the checked items, the auditor must expand their spot checks to cover at least 40% of tested items. If 10% or more of the items have a different YOP from that in the COUNTER Reports, the report provider has failed the YOP audit test. To use the example of audit tests under Option 1 above:
 

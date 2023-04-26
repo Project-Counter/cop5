@@ -19,13 +19,13 @@ Where report providers have elected to follow the pre-flight preparation step ou
 E.2.2 SUSHI Endpoints
 """""""""""""""""""""
 
-The auditor MUST test the SUSHI service endpoints as follows
+The auditor MUST test the SUSHI server endpoints as follows
 
 * The /status endpoint MUST be public (i.e. unprotected) to allow report consumers to easily check whether the service is live.
 * The /reports endpoint MUST return the date range for which COUNTER Reports and the Standard Views of COUNTER Reports are available. If this is less than the required year-to-date plus two years of back data, the auditor MUST note the missing months in the audit report.
-* The /members endpoing MUST return the auditor's customer details.
+* The /members endpoint MUST return the auditor's customer details.
 
-Any error messages returned by the SUSHI service in the process of audit MUST be noted in the audit report, including an indication of where these error messages deviate from those specified in  :ref:`Appendix D <appendix-d>`.
+Any error messages returned by the SUSHI server in the process of audit MUST be noted in the audit report, including an indication of where these error messages deviate from those specified in  :ref:`Appendix D <appendix-d>`.
 
 
 E.2.3 Audit Tests for Double-Click Filtering
@@ -37,8 +37,8 @@ The test consists of making requests to an item twice in succession (double-clic
 
 The auditor MUST carry out a total of 30 tests:
 
-* 15 'Inside' tests, whereby 2 identical requests are made and the second request is within 30 seconds of the first.
-* 15 'Outside' tests, whereby 2 identical requests are made and the second request is more than 30 seconds after the first.
+* 15 Inside tests, whereby 2 identical requests are made and the second request is within 30 seconds of the first.
+* 15 Outside tests, whereby 2 identical requests are made and the second request is more than 30 seconds after the first.
 
 The Inside tests MUST result in 15 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests, and the Outside” tests MUST result in 30 Total_Item_Investigations, 30 Total_Item_Requests, 15 Unique_Item_Investigations and 15 Unique_Item_Requests, for a total of 45 Total_Item_Investigations, 45 Total_Item_Requests, 30 Unique_Item_Investigations and 30 Unique_Item_Requests.
 
