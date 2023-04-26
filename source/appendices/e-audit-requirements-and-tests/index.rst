@@ -19,4 +19,4 @@ Note: The main Code of Practice document takes precedence in the case of any con
    03-denial-tests
    04-search-tests
    05-book-usage-tests
-   06-usage-tests
+   06-other-usage-tests

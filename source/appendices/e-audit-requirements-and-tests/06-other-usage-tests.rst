@@ -44,7 +44,7 @@ The auditor MUST request
 This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Controlled; the same again for Access_Type Open; and 20 each of Total_Item_Investigations, Total_Item_Requests, Unique_Item_Investigations and Unique_Item_Requests with Access_Type Free_To_Read.
 
 
-E.5.3 Investigations Independent of Requests
+E.6.2 Investigations Independent of Requests
 """"""""""""""""""""""""""""""""""""""""""""
 
 These audit tests applies where Investigations can be reported independently of Requests. If all Investigations have a matching Request, auditors MUST note this in the audit report. This does not require an exemption from the COUNTER Project Director.
