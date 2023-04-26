@@ -2,12 +2,14 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
+.. _sushi-security:
+
 Authentication and Security for the COUNTER_SUSHI API
 -----------------------------------------------------
 
 The COUNTER_SUSHI API MUST be implemented using TLS (HTTPS).
 
-The API MUST be secured using one or more of the following methods:
+The COUNTER_SUSHI API - excluding the public path /r51/status (see :numref:`sushi-paths`) - MUST be secured using one or more of the following methods:
 
 * Combination of customer ID and requestor ID
 * API key assigned to the organization harvesting the usage
