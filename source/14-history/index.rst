@@ -40,6 +40,12 @@ Change History
      - 2021-09-28
      - 2022-02-28 (with support for January 2022 usage)
 
+   * - `5.0.3 <https://cop5.projectcounter.org/_/downloads/en/5.0.3/pdf/>`_
+     - Corrections and clarifications based on feedback and questions from the community.
+     - No
+     - 2023-03-30
+     - 2023-04-28 (with support for March 2023 usage)
+
 A detailed description of the changes from Release 4 is provided in :ref:`Appendix B <appendix-b>`.
 
-Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_, and all changes are tracked with GitHub issues and linked pull requests. The `change log <https://github.com/Project-Counter/cop5/blob/5.0.2/CHANGELOG.rst>`_ lists all changes by type and impact of the change.
+Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_, and all changes are tracked with GitHub issues and linked pull requests. The `change log <https://github.com/Project-Counter/cop5/blob/5.0.3/CHANGELOG.rst>`_ lists all changes by type and impact of the change.

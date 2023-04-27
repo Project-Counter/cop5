@@ -10,10 +10,31 @@ All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub is
 The issues and pull requests are tagged with labels describing the type (amendment, correction, clarification, documentation) and impact (metric calcuation, report structure, permitted attribute values, sushi, documentation) of the change, they can be searched and filtered on GitHub. The change log below is ordered by type of change and shows the GitHub issue titles and numbers, with links to the issues, and the impact of the change.
 
 
+Release 5.0.3
+-------------
+
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.0.3%22>`_
+
+**Corrections**
+
+* Fix Data_Type lists and examples in COUNTER_SUSHI API Specification `#125 <https://github.com/Project-Counter/cop5/issues/125>`_ [permitted attribute values]
+* Add missing ROR ID to the COUNTER_SUSHI API Specification `#209 <https://github.com/Project-Counter/cop5/issues/209>`_ [documentation]
+
+**Clarifications**
+
+* Clarify invocation conditions for Exception 3030 `#201 <https://github.com/Project-Counter/cop5/issues/201>`_ [documentation]
+
+**Documentation**
+
+* Update COUNTER contact email address `#200 <https://github.com/Project-Counter/cop5/issues/200>`_ [documentation]
+* Remove postal address from Appendix C `#213 <https://github.com/Project-Counter/cop5/issues/213>`_ [documentation]
+* Update change log, release information and URLs for Release 5.0.3 `#211 <https://github.com/Project-Counter/cop5/issues/211>`_ [documentation]
+
+
 Release 5.0.2
 -------------
 
-`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.0.2%22+>`_
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.0.2%22>`_
 
 **Amendments**
 
