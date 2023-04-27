@@ -1,0 +1,25 @@
+Report_Name	Multimedia Item Requests																				
+Report_ID	IR_M1																				
+Release	5.1																				
+Institution_Name	Sample Institution																				
+Institution_ID	ISNI:1234123412341234																				
+Metric_Types	Total_Item_Requests; Unique_Item_Requests																				
+Report_Filters	Data_Type=Audiovisual|Image|Interactive_Resource|Multimedia|Sound; Access_Method=Regular																				
+Report_Attributes																					
+Exceptions																					
+Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31																				
+Created	2023-02-15T09:11:12Z																				
+Created_By	Sample Publisher																				
+Registry_Record	https://registry.projectcounter.org/usage-data-host/99999999-9999-9999-9999-999999999999																				
+																					
+Item	Publisher	Publisher_ID	Platform	DOI	Proprietary_ID	URI	Data_Type	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
+Item 2	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi02	P1:I02	https://doi.org/10.9999/xxxxi02	Audiovisual	Total_Item_Requests	9986	767	794	1096	716	658	666	758	670	1199	1131	887	644
+Item 2	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi02	P1:I02	https://doi.org/10.9999/xxxxi02	Audiovisual	Unique_Item_Requests	7491	575	596	822	537	494	500	569	503	899	848	665	483
+Item 9	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi09	P1:I09	https://doi.org/10.9999/xxxxi09	Image	Total_Item_Requests	10599	1039	716	1120	1186	603	1136	795	1111	740	668	769	716
+Item 9	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi09	P1:I09	https://doi.org/10.9999/xxxxi09	Image	Unique_Item_Requests	7949	779	537	840	890	452	852	596	833	555	501	577	537
+Item 10	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi10	P1:I10	https://doi.org/10.9999/xxxxi10	Interactive_Resource	Total_Item_Requests	11653	1061	1168	636	719	1067	1133	970	1087	858	930	958	1066
+Item 10	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi10	P1:I10	https://doi.org/10.9999/xxxxi10	Interactive_Resource	Unique_Item_Requests	8742	796	876	477	539	800	850	728	815	644	698	719	800
+Item 13	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi13	P1:I13	https://doi.org/10.9999/xxxxi13	Multimedia	Total_Item_Requests	11727	1119	1135	1024	935	1034	643	907	796	1070	945	941	1178
+Item 13	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi13	P1:I13	https://doi.org/10.9999/xxxxi13	Multimedia	Unique_Item_Requests	8796	839	851	768	701	776	482	680	597	803	709	706	884
+Item 22	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi22	P1:I22	https://doi.org/10.9999/xxxxi22	Sound	Total_Item_Requests	11072	876	1143	1066	739	611	839	912	802	795	1184	1033	1072
+Item 22	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi22	P1:I22	https://doi.org/10.9999/xxxxi22	Sound	Unique_Item_Requests	8304	657	857	800	554	458	629	684	602	596	888	775	804

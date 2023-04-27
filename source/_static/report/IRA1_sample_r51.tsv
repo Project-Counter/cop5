@@ -1,0 +1,21 @@
+Report_Name	Journal Article Requests																																	
+Report_ID	IR_A1																																	
+Release	5.1																																	
+Institution_Name	Sample Institution																																	
+Institution_ID	ISNI:1234123412341234																																	
+Metric_Types	Total_Item_Requests; Unique_Item_Requests																																	
+Report_Filters	Data_Type=Article; Access_Method=Regular																																	
+Report_Attributes																																		
+Exceptions																																		
+Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31																																	
+Created	2023-02-15T09:11:12Z																																	
+Created_By	Sample Publisher																																	
+Registry_Record	https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999																																	
+																																		
+Item	Publisher	Publisher_ID	Platform	Authors	Publication_Date	Article_Version	DOI	Proprietary_ID	Print_ISSN	Online_ISSN	URI	Parent_Title	Parent_Authors	Parent_Article_Version	Parent_DOI	Parent_Proprietary_ID	Parent_Print_ISSN	Parent_Online_ISSN	Parent_URI	Access_Type	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
+Item 1	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 1	2022-07-19		10.9999/xxxxi01	P1:I01			https://doi.org/10.9999/xxxxi01									Open	Total_Item_Requests	10445	877	1022	885	806	770	601	920	876	903	901	758	1126
+Item 1	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 1	2022-07-19		10.9999/xxxxi01	P1:I01			https://doi.org/10.9999/xxxxi01									Open	Unique_Item_Requests	7837	658	767	664	605	578	451	690	657	677	676	569	845
+Item 11	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 11	2022-09-19		10.9999/xxxxi11	P1:I11			https://doi.org/10.9999/xxxxi11	Title 3			10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Total_Item_Requests	2526	150	247	243	193	233	217	221	152	154	240	176	300
+Item 11	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 11	2022-09-19		10.9999/xxxxi11	P1:I11			https://doi.org/10.9999/xxxxi11	Title 3			10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Unique_Item_Requests	1896	113	186	183	144	175	163	165	114	116	180	132	225
+Item 12	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 12	2022-10-01		10.9999/xxxxi12	P1:I12			https://doi.org/10.9999/xxxxi12	Title 3			10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Total_Item_Requests	7585	451	743	731	578	700	652	662	457	463	719	530	899
+Item 12	Sample Publisher	ISNI:4321432143214321	Platform 1	Author 12	2022-10-01		10.9999/xxxxi12	P1:I12			https://doi.org/10.9999/xxxxi12	Title 3			10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Unique_Item_Requests	5689	338	557	548	434	525	489	497	343	347	539	398	674
