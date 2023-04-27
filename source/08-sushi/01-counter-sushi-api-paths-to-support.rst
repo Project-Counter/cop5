@@ -34,7 +34,7 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/reports
-     - Returns a list of reports supported by the COUNTER_SUSHI API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, and (optional but recommended for custom reports) the path to use when requesting the report.
+     - Returns a list of reports supported by the COUNTER_SUSHI API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, the path to use when requesting the report (optional but recommended for custom reports), and the first and last months for which usage data has been processed and is available. If possible, this information should be customer specific.
 
    * - GET
      - /r51/reports/*{Report_ID in lower case}*
