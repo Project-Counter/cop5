@@ -28,7 +28,7 @@ author = 'COUNTER'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '5.0.2'
+release = '5.0.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -184,7 +184,7 @@ latex_elements = {
     ''',
     'maketitle': r'''
         \hypersetup{
-            pdftitle={COUNTER Code of Practice Release 5.0.2},
+            pdftitle={COUNTER Code of Practice Release 5.0.3},
             pdfauthor={COUNTER}
         }
         \pagenumbering{Roman}
@@ -195,9 +195,9 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Release 5.0.2}}\par
+                {\Huge \textbf{\color{TitleColor} Release 5.0.3}}\par
                 \vspace{50pt}
-                {Published: 28 September 2021}\par
+                {Published: 28 April 2023}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -211,7 +211,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s library and content provider members have contributed to the development of Release 5 (R5) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables content providers to produce consistent, comparable and credible usage data for their online content. This allows librarians and other interested parties to compare the usage data they receive, and to understand and demonstrate the value of the electronic resources to which they subscribe.}\par
-            {Release 5.0.2 (published 28 September 2021) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2022.}\par
+            {Release 5.0.3 (published 28 April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective immediately.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
@@ -249,7 +249,7 @@ latex_documents = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice',
-     author, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice Release 5.0.2',
+     author, 'COUNTER_Code_of_Practice_R5', 'COUNTER Code of Practice Release 5.0.3',
      'Miscellaneous'),
 ]
 
