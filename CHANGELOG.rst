@@ -65,7 +65,7 @@ Release 5.1
 * Global text changes: report provider and report consumer in place of publisher and library `#145 <https://github.com/Project-Counter/cop5/issues/145>`_ [documentation]
 * General copy-edit `#130 <https://github.com/Project-Counter/cop5/issues/130>`_ [documentation]
 * Image replacements `#165 <https://github.com/Project-Counter/cop5/issues/165>`_ [documentation]
-* Clarifications from the Executive Committee during final review `#198 <https://github.com/Project-Counter/cop5/issues/198>`_ [documentation]
+* Miscellaneous corrections and clarifications identified during pre-live review `#198 <https://github.com/Project-Counter/cop5/issues/198>`_ [documentation]
 * Changelog for R5.1 `#152 <https://github.com/Project-Counter/cop5/issues/152>`_ [documentation]
 
 
