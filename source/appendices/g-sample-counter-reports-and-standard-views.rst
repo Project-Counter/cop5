@@ -101,7 +101,7 @@ Table G.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
       * - IR_M1
         - Multimedia Item Requests
-        - :download:`TSV <../_static/report/IRM!_sample_r51.tsv>`
+        - :download:`TSV <../_static/report/IRM1_sample_r51.tsv>`
           :download:`JSON <../_static/report/Sample-IR_M1.json>`
 
 .. only:: latex
