@@ -84,6 +84,8 @@ Table 3.f (below): COUNTER Report Header Elements
    * - Institution_ID
      - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
 
+       The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.
+
        For reports to "The World", Institution_ID should be 0000000000000000, with the platform ID as namespace.
      - ISNI:0000000419369078; ROR:00hx57361; pubsiteA:PrncU
 

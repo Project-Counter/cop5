@@ -1,0 +1,167 @@
+﻿Report_Name	Database Report																			
+Report_ID	DR																			
+Release	5.1																			
+Institution_Name	Sample Institution																			
+Institution_ID	ISNI:1234123412341234																			
+Metric_Types																				
+Report_Filters																				
+Report_Attributes	Attributes_To_Show=Access_Method																			
+Exceptions																				
+Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31																			
+Created	2023-02-15T09:11:12Z																			
+Created_By	Sample Publisher																			
+Registry_Record	https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999																			
+																				
+Database	Publisher	Publisher_ID	Platform	Proprietary_ID	Data_Type	Access_Method	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Total_Item_Investigations	16373	1104	1246	1329	1453	1166	1470	1758	1593	1066	1711	1432	1045
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Total_Item_Requests	9825	662	748	797	872	700	882	1055	956	640	1027	859	627
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Unique_Item_Investigations	12283	828	935	997	1090	875	1103	1319	1195	800	1283	1074	784
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Unique_Item_Requests	7369	497	561	598	654	525	662	791	717	480	770	644	470
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Unique_Title_Investigations	8189	552	623	665	727	583	735	879	797	533	856	716	523
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	Regular	Unique_Title_Requests	6141	414	467	499	545	437	551	659	598	400	642	537	392
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Total_Item_Investigations	16693	1429	1947	1397	1113	1291	1569	1379	1187	1263	1527	1254	1337
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Total_Item_Requests	10014	857	1168	838	668	775	941	827	712	758	916	752	802
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Unique_Item_Investigations	12520	1072	1460	1048	835	968	1177	1034	890	947	1145	941	1003
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Unique_Item_Requests	7512	643	876	629	501	581	706	620	534	569	687	564	602
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Unique_Title_Investigations	8352	715	974	699	557	646	785	690	594	632	764	627	669
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Book	TDM	Unique_Title_Requests	6266	536	731	524	418	485	589	518	446	474	573	470	502
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	Regular	Total_Item_Investigations	17627	1253	1070	1319	1225	1780	1210	1401	1531	1471	1550	1849	1968
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	Regular	Total_Item_Requests	10577	752	642	791	735	1068	726	841	919	883	930	1109	1181
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	Regular	Unique_Item_Investigations	13222	940	803	989	919	1335	908	1051	1148	1103	1163	1387	1476
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	Regular	Unique_Item_Requests	7934	564	482	593	551	801	545	631	689	662	698	832	886
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	TDM	Total_Item_Investigations	17145	1350	1288	1411	1943	1295	1234	1539	1250	1688	1145	1546	1456
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	TDM	Total_Item_Requests	10288	810	773	847	1166	777	740	923	750	1013	687	928	874
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	TDM	Unique_Item_Investigations	12860	1013	966	1058	1457	971	926	1154	938	1266	859	1160	1092
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Conference	TDM	Unique_Item_Requests	7718	608	580	635	875	583	555	692	563	760	515	696	656
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	Regular	Limit_Exceeded	616	47	59	38	32	49	69	74	67	43	79	47	12
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	Regular	No_License	549	41	77	42	45	26	64	64	31	62	39	21	37
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	Regular	Searches_Automated	192008	15888	14802	15488	18033	14967	15623	16431	16616	19358	14271	14756	15775
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	Regular	Searches_Federated	199413	17178	17517	18637	15315	13473	18671	17637	14521	18237	16167	13961	18099
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	Regular	Searches_Regular	185698	13878	13332	19412	13640	17924	14614	13959	13926	18215	13925	13872	19001
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	TDM	Limit_Exceeded	591	23	34	74	77	43	47	25	79	31	23	73	62
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	TDM	No_License	643	53	17	62	54	62	41	62	53	79	48	38	74
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Database_Aggregated	TDM	Searches_Federated	192825	17832	13028	14350	16294	13813	14421	16568	16528	17463	17144	16932	18452
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	Regular	Total_Item_Investigations	16853	1002	1650	1623	1285	1555	1449	1471	1015	1028	1599	1177	1999
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	Regular	Total_Item_Requests	10111	601	990	974	771	933	869	883	609	617	959	706	1199
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	Regular	Unique_Item_Investigations	12640	752	1238	1217	964	1166	1087	1103	761	771	1199	883	1499
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	Regular	Unique_Item_Requests	7585	451	743	731	578	700	652	662	457	463	719	530	899
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	TDM	Total_Item_Investigations	19121	1444	1214	1054	1962	1243	1702	1313	1900	1898	1980	1480	1931
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	TDM	Total_Item_Requests	11472	866	728	632	1177	746	1021	788	1140	1139	1188	888	1159
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	TDM	Unique_Item_Investigations	14343	1083	911	791	1472	932	1277	985	1425	1424	1485	1110	1448
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Journal	TDM	Unique_Item_Requests	8605	650	546	474	883	560	766	591	855	854	891	666	869
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	Regular	Total_Item_Investigations	19546	1865	1891	1707	1559	1724	1071	1511	1327	1784	1575	1568	1964
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	Regular	Total_Item_Requests	11727	1119	1135	1024	935	1034	643	907	796	1070	945	941	1178
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	Regular	Unique_Item_Investigations	14658	1399	1418	1280	1169	1293	803	1133	995	1338	1181	1176	1473
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	Regular	Unique_Item_Requests	8796	839	851	768	701	776	482	680	597	803	709	706	884
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	TDM	Total_Item_Investigations	19218	1997	1786	1572	1791	1234	1835	1972	1328	1568	1186	1455	1494
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	TDM	Total_Item_Requests	11531	1198	1072	943	1075	740	1101	1183	797	941	712	873	896
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	TDM	Unique_Item_Investigations	14415	1498	1340	1179	1343	926	1376	1479	996	1176	890	1091	1121
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Multimedia	TDM	Unique_Item_Requests	8649	899	804	707	806	555	826	887	598	706	534	655	672
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	Regular	Total_Item_Investigations	17395	1773	1527	1366	1147	1920	1269	1249	1685	1193	1768	1157	1341
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	Regular	Total_Item_Requests	10437	1064	916	820	688	1152	761	749	1011	716	1061	694	805
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	Regular	Unique_Item_Investigations	13048	1330	1145	1025	860	1440	952	937	1264	895	1326	868	1006
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	Regular	Unique_Item_Requests	7829	798	687	615	516	864	571	562	758	537	796	521	604
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	TDM	Total_Item_Investigations	17209	1836	1898	1561	1883	1657	1623	1143	1085	1039	1073	1149	1262
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	TDM	Total_Item_Requests	10326	1102	1139	937	1130	994	974	686	651	623	644	689	757
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	TDM	Unique_Item_Investigations	12908	1377	1424	1171	1412	1243	1217	857	814	779	805	862	947
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Newspaper_or_Newsletter	TDM	Unique_Item_Requests	7747	827	854	703	848	746	731	515	488	467	483	517	568
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	Regular	Total_Item_Investigations	17922	1730	1263	1787	1317	1497	1441	1154	1735	1881	1519	1379	1219
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	Regular	Total_Item_Requests	10752	1038	758	1072	790	898	865	692	1041	1129	911	827	731
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	Regular	Unique_Item_Investigations	13442	1298	947	1340	988	1123	1081	866	1301	1411	1139	1034	914
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	Regular	Unique_Item_Requests	8066	779	569	804	593	674	649	519	781	847	683	620	548
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	TDM	Total_Item_Investigations	17135	1305	1871	1557	1338	1407	1003	1227	1944	1185	1362	1390	1546
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	TDM	Total_Item_Requests	10281	783	1123	934	803	844	602	736	1166	711	817	834	928
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	TDM	Unique_Item_Investigations	12853	979	1403	1168	1004	1055	752	920	1458	889	1022	1043	1160
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Other	TDM	Unique_Item_Requests	7712	587	842	701	602	633	452	552	875	533	613	626	696
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	Regular	Total_Item_Investigations	17958	1012	1074	1259	1781	1902	1718	1749	1979	1713	1516	1024	1231
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	Regular	Total_Item_Requests	10774	607	644	755	1069	1141	1031	1049	1187	1028	910	614	739
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	Regular	Unique_Item_Investigations	13470	759	806	944	1336	1427	1289	1312	1484	1285	1137	768	923
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	Regular	Unique_Item_Requests	8081	455	483	566	802	856	773	787	890	771	683	461	554
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	TDM	Total_Item_Investigations	15659	1653	1016	1164	1535	1105	1353	1089	1901	1182	1168	1023	1470
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	TDM	Total_Item_Requests	9396	992	610	698	921	663	812	653	1141	709	701	614	882
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	TDM	Unique_Item_Investigations	11746	1240	762	873	1151	829	1015	817	1426	887	876	767	1103
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Patent	TDM	Unique_Item_Requests	7050	744	458	524	691	497	609	490	856	532	526	461	662
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Total_Item_Investigations	15523	1645	1022	1106	1431	1603	1051	1083	1322	1079	1344	1763	1074
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Total_Item_Requests	9314	987	613	664	859	962	631	650	793	647	806	1058	644
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Unique_Item_Investigations	11643	1234	767	830	1073	1202	788	812	992	809	1008	1322	806
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Unique_Item_Requests	7098	740	460	498	644	722	473	488	595	485	605	794	594
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Unique_Title_Investigations	3672	301	283	217	617	482	238	563	198	82	42	166	483
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	Regular	Unique_Title_Requests	2757	226	212	163	463	362	179	422	149	62	32	125	362
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Total_Item_Investigations	19634	1329	1472	1614	1827	1912	1610	1212	1710	1731	1959	1936	1322
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Total_Item_Requests	11779	797	883	968	1096	1147	966	727	1026	1039	1175	1162	793
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Unique_Item_Investigations	14394	1266	1030	1285	1190	1143	1284	1181	1135	1280	1170	1275	1155
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Unique_Item_Requests	10600	717	795	871	986	1032	869	654	923	935	1058	1046	714
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Unique_Title_Investigations	10148	886	721	900	833	800	899	897	795	896	819	893	809
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Reference_Work	TDM	Unique_Title_Requests	8280	574	636	697	789	726	695	523	738	748	746	837	571
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	Regular	Total_Item_Investigations	19254	1381	1852	1726	1266	1407	1715	1656	1895	1365	1402	1757	1832
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	Regular	Total_Item_Requests	11553	829	1111	1036	760	844	1029	994	1137	819	841	1054	1099
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	Regular	Unique_Item_Investigations	14442	1036	1389	1295	950	1055	1286	1242	1421	1024	1052	1318	1374
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	Regular	Unique_Item_Requests	8666	622	833	777	570	633	772	746	853	614	631	791	824
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	TDM	Total_Item_Investigations	16789	1271	1827	1229	1289	1491	1295	1394	1360	1258	1187	1923	1265
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	TDM	Total_Item_Requests	10073	763	1096	737	773	895	777	836	816	755	712	1154	759
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	TDM	Unique_Item_Investigations	12592	953	1370	922	967	1118	971	1046	1020	944	890	1442	949
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Report	TDM	Unique_Item_Requests	7555	572	822	553	580	671	583	627	612	566	534	866	569
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	Regular	Total_Item_Investigations	17783	1800	1721	1251	1301	1784	1539	1472	1772	1003	1441	1047	1652
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	Regular	Total_Item_Requests	10670	1080	1033	751	781	1070	923	883	1063	602	865	628	991
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	Regular	Unique_Item_Investigations	13337	1350	1291	938	976	1338	1154	1104	1329	752	1081	785	1239
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	Regular	Unique_Item_Requests	8003	810	775	563	586	803	692	662	797	452	649	471	743
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	TDM	Total_Item_Investigations	19015	1341	1606	1973	1350	1187	1870	1978	1451	1101	1953	1737	1468
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	TDM	Total_Item_Requests	11411	805	964	1184	810	712	1122	1187	871	661	1172	1042	881
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	TDM	Unique_Item_Investigations	14264	1006	1205	1480	1013	890	1403	1484	1088	826	1465	1303	1101
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Standard	TDM	Unique_Item_Requests	8560	604	723	888	608	534	842	890	653	496	879	782	661
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	Regular	Total_Item_Investigations	19812	1970	1930	1981	1864	1148	1826	1572	1660	1836	1037	1182	1806
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	Regular	Total_Item_Requests	11888	1182	1158	1189	1118	689	1096	943	996	1102	622	709	1084
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	Regular	Unique_Item_Investigations	14862	1478	1448	1486	1398	861	1370	1179	1245	1377	778	887	1355
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	Regular	Unique_Item_Requests	8919	887	869	892	839	517	822	707	747	827	467	532	813
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	TDM	Total_Item_Investigations	16809	1426	1708	1326	1743	1858	1025	1112	1005	1046	1099	1601	1860
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	TDM	Total_Item_Requests	10087	856	1025	796	1046	1115	615	667	603	628	659	961	1116
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	TDM	Unique_Item_Investigations	12609	1070	1281	995	1307	1394	769	834	754	785	824	1201	1395
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Thesis_or_Dissertation	TDM	Unique_Item_Requests	7565	642	769	597	785	836	461	500	452	471	494	721	837
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	Regular	Total_Item_Investigations	17882	1011	1828	1830	1705	1081	1284	1836	1249	1883	1568	1382	1225
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	Regular	Total_Item_Requests	10730	607	1097	1098	1023	649	770	1102	749	1130	941	829	735
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	Regular	Unique_Item_Investigations	13413	758	1371	1373	1279	811	963	1377	937	1412	1176	1037	919
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	Regular	Unique_Item_Requests	8050	455	823	824	767	487	578	827	562	848	706	622	551
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	TDM	Total_Item_Investigations	19470	1798	1426	1838	1791	1319	1700	1070	1449	1925	1579	1724	1851
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	TDM	Total_Item_Requests	11682	1079	856	1103	1075	791	1020	642	869	1155	947	1034	1111
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	TDM	Unique_Item_Investigations	14604	1349	1070	1379	1343	989	1275	803	1087	1444	1184	1293	1388
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unspecified	TDM	Unique_Item_Requests	8761	809	642	827	806	593	765	482	652	866	710	776	833
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Audiovisual	Regular	Total_Item_Investigations	16642	1279	1323	1826	1193	1096	1110	1264	1116	1998	1885	1478	1074
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Audiovisual	Regular	Unique_Item_Investigations	12484	959	992	1370	895	822	833	948	837	1499	1414	1109	806
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Audiovisual	TDM	Total_Item_Investigations	17181	1225	1560	1309	1466	1083	1185	1037	1508	1973	1173	1887	1775
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Audiovisual	TDM	Unique_Item_Investigations	12887	919	1170	982	1100	812	889	778	1131	1480	880	1415	1331
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	Regular	Limit_Exceeded	489	32	70	24	58	15	65	26	29	75	12	54	29
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	Regular	No_License	528	40	54	44	70	14	74	31	36	32	18	53	62
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	Regular	Searches_Automated	195502	18260	15802	13441	17708	19131	16656	18537	16193	16495	13810	16130	13339
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	Regular	Searches_Federated	187475	16894	16869	15396	12989	18541	12806	14672	15133	18890	19192	12898	13195
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	Regular	Searches_Regular	197245	16221	14212	18909	14855	15420	18830	17507	14787	17906	16765	18887	12946
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	TDM	Limit_Exceeded	488	26	56	76	19	38	40	35	63	18	32	23	62
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	TDM	No_License	623	44	66	45	35	12	77	73	66	57	53	72	23
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Database_AI	TDM	Searches_Federated	200102	16246	15459	18637	18200	17784	13832	16271	19116	15496	16803	18591	13667
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Image	Regular	Total_Item_Investigations	17665	1732	1194	1867	1977	1005	1893	1325	1851	1233	1113	1281	1194
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Image	Regular	Unique_Item_Investigations	13251	1299	896	1400	1483	754	1420	994	1388	925	835	961	896
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Image	TDM	Total_Item_Investigations	18798	1380	1852	1772	1321	1087	1658	1755	1297	1572	1486	1798	1820
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Image	TDM	Unique_Item_Investigations	14100	1035	1389	1329	991	815	1244	1316	973	1179	1115	1349	1365
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Interactive_Resource	Regular	Total_Item_Investigations	19421	1769	1947	1060	1198	1778	1889	1616	1812	1430	1550	1596	1776
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Interactive_Resource	Regular	Unique_Item_Investigations	14568	1327	1460	795	899	1334	1417	1212	1359	1073	1163	1197	1332
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Interactive_Resource	TDM	Total_Item_Investigations	18161	1621	1852	1658	1000	1319	1667	1668	1786	1020	1604	1360	1606
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Interactive_Resource	TDM	Unique_Item_Investigations	13622	1216	1389	1244	750	989	1250	1251	1340	765	1203	1020	1205
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Sound	Regular	Total_Item_Investigations	18451	1460	1905	1777	1231	1018	1398	1520	1337	1325	1973	1721	1786
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Sound	Regular	Unique_Item_Investigations	13841	1095	1429	1333	923	764	1049	1140	1003	994	1480	1291	1340
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Sound	TDM	Total_Item_Investigations	16518	1057	1924	1424	1478	1137	1279	1855	1074	1619	1172	1279	1220
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Sound	TDM	Unique_Item_Investigations	12389	793	1443	1068	1109	853	959	1391	806	1214	879	959	915
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	Regular	Limit_Exceeded	519	69	73	67	37	13	43	21	20	43	40	38	55
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	Regular	No_License	499	43	12	18	51	22	25	78	43	72	40	69	26
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	Regular	Searches_Automated	194034	14663	19209	16943	17089	14656	14698	18234	14554	12787	15871	19034	16296
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	Regular	Searches_Federated	203905	17030	14920	14380	19308	14942	19391	18875	15282	18107	15731	17634	18305
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	Regular	Searches_Regular	189376	14784	13761	15650	15816	18865	15753	15935	16500	13759	15697	13991	18865
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	TDM	Limit_Exceeded	558	36	34	68	63	72	24	73	55	23	16	60	34
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	TDM	No_License	558	64	71	30	56	48	22	65	19	68	34	20	61
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full	TDM	Searches_Federated	196751	14559	17297	13208	13344	15740	18589	18812	18075	13054	17979	18282	17812
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	Regular	Total_Item_Investigations	16981	1094	1325	1730	1062	1278	1861	1252	1371	1890	1462	1231	1425
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	Regular	Total_Item_Requests	10189	656	795	1038	637	767	1117	751	823	1134	877	739	855
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	Regular	Unique_Item_Investigations	12739	821	994	1298	797	959	1396	939	1028	1418	1097	923	1069
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	Regular	Unique_Item_Requests	7642	492	596	779	478	575	838	563	617	851	658	554	641
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	TDM	Total_Item_Investigations	16987	1361	1072	1032	1330	1558	1351	1739	1430	1810	1228	1865	1211
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	TDM	Total_Item_Requests	10193	817	643	619	798	935	811	1043	858	1086	737	1119	727
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	TDM	Unique_Item_Investigations	12742	1021	804	774	998	1169	1013	1304	1073	1358	921	1399	908
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Database_Full_Item	TDM	Unique_Item_Requests	7645	613	482	464	599	701	608	782	644	815	553	839	545

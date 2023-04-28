@@ -24,4 +24,4 @@ Custom COUNTER reports can be created as long as the general layout for COUNTER 
    * - EBSCOhost:LR1
      - EBSCOhost:Link-out Report 1
 
-It is recommended to make custom reports available both from the administrative/reporting site and via the COUNTER_SUSHI API and to include them in the response for the /reports path in the COUNTER_SUSHI API (see :numref:`sushi`).
+It is recommended to make custom reports available both from the administrative/reporting site and via the COUNTER_SUSHI API and to include them in the response for the /r51/reports path in the COUNTER_SUSHI API (see :numref:`sushi`).
