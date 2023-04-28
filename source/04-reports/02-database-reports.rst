@@ -98,9 +98,9 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
 
    * - 3
      - Release
-     - 5
-     - 5
-     - 5
+     - 5.1
+     - 5.1
+     - 5.1
 
    * - 4
      - Institution_Name

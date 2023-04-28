@@ -126,10 +126,10 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
 
    * - 3
      - Release
-     - 5
-     - 5
-     - 5
-     - 5
+     - 5.1
+     - 5.1
+     - 5.1
+     - 5.1
 
    * - 4
      - Institution_Name
@@ -235,10 +235,10 @@ Table 4.j (below): Header for Standard Views of the Title Report - Part 2 (for J
 
    * - 3
      - Release
-     - 5
-     - 5
-     - 5
-     - 5
+     - 5.1
+     - 5.1
+     - 5.1
+     - 5.1
 
    * - 4
      - Institution_Name
