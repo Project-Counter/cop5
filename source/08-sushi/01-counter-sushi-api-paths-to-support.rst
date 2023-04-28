@@ -40,6 +40,8 @@ The following paths (methods) MUST be supported:
      - /r51/reports/*{Report_ID in lower case}*
      - Each supported report has its own path, e.g. GET /r51/reports/tr_b1 for “Book Requests (Controlled)”, GET /r51/reports/tr_j1 for “Journal Requests (Controlled)”.
 
+       The paths for the COUNTER Reports offer parameters that allow report consumers to customize the reports by applying report filters and report attributes (see :numref:`filters-attributes`), including filters for some common extensions (see :numref:`reserved-elements`). Support for common extensions is optional. Report providers that support one of the extensions also SHOULD support the corresponding parameter. If filtering by an extension is not supported, report providers MUST handle this as described for Exception 3060 in :ref:`Appendix D <appendix-d>`.
+
    * - GET
      - /r51/members
      - Returns the list of consortium members or sites for multi-site customers. The response includes an array of customer account information, including for each the customer ID (to use when requesting COUNTER reports), the requestor ID (to use when requesting COUNTER reports), the customer account name, and additional identifiers for the organization (if any). Note that if the customer ID specified in the parameter for the /r51/members path is not a multi-site organization, then the response will simply return the details for that customer.

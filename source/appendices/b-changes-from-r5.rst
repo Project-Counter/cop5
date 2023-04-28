@@ -24,9 +24,9 @@ Primary changes between R5 and R5.1
 * **Access_Type** - R5.1 clarifies where and how COUNTER Access_Types apply. R5.1 also introduced revised definitions for Access_Types to better facilitate reporting of open and free materials.
 * **Components** - Required for the Item Report in R5, Components are optional in R5.1 to simplify delivery of Item Reports.
 * **Report headers** - R5.1 added a link to the `COUNTER Registry <https://registry.projectcounter.org>`_ to the standard report header in both JSON and tabular reports.
-* **SUSHI URLs** - Starting with Release 5.1, the release version number will need to be included in the SUSHI URL path.
+* **SUSHI URLs** - Starting with Release 5.1, the release version number is included in the SUSHI URL paths.
 * **SUSHI authentication** - R5.1 removes support for IP-based authentication in the COUNTER_SUSHI API. API key may be used if a replacement is desired.
-* **SUSHI paths** - The /r51/status path is public to allow report consumers to easily check whether a SUSHI server is live. The /r51/reports path is extended to return information about the first and last months for which usage data has been processed and is available. We are also introducing separate parameters for common extensions.
+* **SUSHI paths** - The /r51/status path is public to allow report consumers to easily check whether a SUSHI server is live. The /r51/reports path is extended to return information about the first and last months for which usage data has been processed and is available. We are also introducing separate parameters for the common extensions Attributed, Country_Code and Subdivision_Code for the COUNTER Report paths (support for common extensions is optional).
 * **JSON** - Key changes are upgrading to the OpenAPI3.1/JSON schema, and other changes that result in a more compact, easier-to-parse schema.
 
 
