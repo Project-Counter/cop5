@@ -200,7 +200,7 @@ Table 3.p (below): List of Data_Type Values
    * - Database_Full_Item
      - Usage of an item from a Full_Content_Database. Database_Full_Item applies where Investigations and Requests are being reported and a more specific Data_Type cannot be applied.
      - Full_Content_Database
-     - PR, DR\ |br|\ |lb|
+     - PR, DR, IR\ |br|\ |lb|
        PR_P1
 
    * - Dataset
@@ -388,6 +388,9 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
    * - Conference_Item
      - Conference
+
+   * - Database_Full_Item
+     - Database_Full
 
    * - News_Item
      - Newspaper_or_Newsletter
@@ -669,7 +672,7 @@ Table 3.u (below): List of Access_Type Values
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
    * - Open
-     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the report provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
+     - At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an open access model. Open applies where the report provider asserts that the content is open access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully open access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but are not intended to return to Controlled status.
      - Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        eBook\ |br|\ |lb|

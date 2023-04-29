@@ -17,6 +17,7 @@ The most common ways to recognize federated and automated search activity are as
 * If the standard HTML interface is being used (e.g. for screen scraping), the browser ID within the web log files can be used to identify the activity as coming from a federated search.
 * All searches via APIs and `Z39.50 activity <http://www.niso.org/standards/resources/Z39.50_Resources>`_ must be counted as Searches_Federated, as the results are not presented in the platform user interface.
 * If an API gateway is available, set up an instance of the gateway that is for the exclusive use of federated search tools. It is recommended you also require the federated search engine to include an identifying parameter when making requests to the gateway.
+* For Z39.50 activity, authentication is usually through a username/password combination. Create a unique username/password that just the federated search engine will use.
 
 Where federated or automated usage is genuine user-driven usage, in the context of Text & Data Mining, Access_Method=TDM should be used. This allows users of the resultant reports to distinguish automated usage from more traditional (Access_Method=Regular) usage.
 

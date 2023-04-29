@@ -39,4 +39,4 @@ Report providers implementing COUNTER for the first time are encouraged to imple
 * Are not required to meet the requirement to offer valid COUNTER reports for the current year plus the prior 24 months, but may choose to do so at their discretion.
 * Are not required to offer reports compliant with the prior release, but may choose to do so at their discretion.
 
-Report providers implementing COUNTER for the first time are encouraged to contact the COUNTER Project Director (tasha.mellins-cohen@counterusage.org) for advice and support and to request inclusion in the `COUNTER Registry <https://registry.projectcounter.org/>`_ per :numref:`compliance`.
+Report providers implementing COUNTER for the first time are encouraged to contact the COUNTER Project Director (tasha.mellins-cohen@counterusage.org) for advice and support and to request inclusion in the `COUNTER Registry <https://registry.projectcounter.org/>`_ per :numref:`audit`.
