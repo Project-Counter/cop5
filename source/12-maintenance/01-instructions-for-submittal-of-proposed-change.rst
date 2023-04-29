@@ -11,7 +11,6 @@ Changes and updates to the COUNTER Code of Practice can be submitted by anyone. 
 
     * Name
     * Email
-    * Phone
     * Affiliation
 
 * Description of the enhancement/adjustment (include the section and paragraph number of the current Code of Practice if applicable)
