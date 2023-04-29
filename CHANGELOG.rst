@@ -55,6 +55,7 @@ Release 5.1
 * Consortia reporting `#153 <https://github.com/Project-Counter/cop5/issues/153>`_ [documentation]
 * Replacement sample reports (tsv) `#154 <https://github.com/Project-Counter/cop5/issues/154>`_ [documentation]
 * Replacement sample reports (json) `#173 <https://github.com/Project-Counter/cop5/issues/173>`_ [documentation]
+* Replacement sample reports (Excel) `#230 <https://github.com/Project-Counter/cop5/issues/230>`_ [documentation]
 * Removal of comparisons to Release 4 `#192 <https://github.com/Project-Counter/cop5/issues/192>`_ [documentation]
 
 **Text Edits and Clarifications**
