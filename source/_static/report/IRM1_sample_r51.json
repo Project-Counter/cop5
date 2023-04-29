@@ -1,0 +1,286 @@
+{
+  "Report_Header": {
+    "Release": "5.1",
+    "Report_ID": "IR_M1",
+    "Report_Name": "Multimedia Item Requests",
+    "Created": "2023-02-15T09:11:12Z",
+    "Created_By": "Sample Publisher",
+    "Institution_ID": {
+      "ISNI": [
+        "1234123412341234"
+      ]
+    },
+    "Institution_Name": "Sample Institution",
+    "Registry_Record": "https://registry.projectcounter.org/usage-data-host/99999999-9999-9999-9999-999999999999",
+    "Report_Filters": {
+      "Metric_Type": [
+        "Total_Item_Requests",
+        "Unique_Item_Requests"
+      ],
+      "Begin_Date": "2022-01-01",
+      "End_Date": "2022-12-31",
+      "Data_Type": [
+        "Audiovisual",
+        "Image",
+        "Interactive_Resource",
+        "Multimedia",
+        "Sound"
+      ],
+      "Access_Method": [
+        "Regular"
+      ]
+    }
+  },
+  "Report_Items": [
+    {
+      "Item": "Item 2",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Item_ID": {
+        "DOI": "10.9999/xxxxi02",
+        "Proprietary": "P1:I02",
+        "URI": "https://doi.org/10.9999/xxxxi02"
+      },
+      "Attribute_Performance": [
+        {
+          "Platform": "Platform 1",
+          "Data_Type": "Audiovisual",
+          "Performance": {
+            "Total_Item_Requests": {
+              "2022-01": 767,
+              "2022-02": 794,
+              "2022-03": 1096,
+              "2022-04": 716,
+              "2022-05": 658,
+              "2022-06": 666,
+              "2022-07": 758,
+              "2022-08": 670,
+              "2022-09": 1199,
+              "2022-10": 1131,
+              "2022-11": 887,
+              "2022-12": 644
+            },
+            "Unique_Item_Requests": {
+              "2022-01": 575,
+              "2022-02": 596,
+              "2022-03": 822,
+              "2022-04": 537,
+              "2022-05": 494,
+              "2022-06": 500,
+              "2022-07": 569,
+              "2022-08": 503,
+              "2022-09": 899,
+              "2022-10": 848,
+              "2022-11": 665,
+              "2022-12": 483
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Item 9",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Item_ID": {
+        "DOI": "10.9999/xxxxi09",
+        "Proprietary": "P1:I09",
+        "URI": "https://doi.org/10.9999/xxxxi09"
+      },
+      "Attribute_Performance": [
+        {
+          "Platform": "Platform 1",
+          "Data_Type": "Image",
+          "Performance": {
+            "Total_Item_Requests": {
+              "2022-01": 1039,
+              "2022-02": 716,
+              "2022-03": 1120,
+              "2022-04": 1186,
+              "2022-05": 603,
+              "2022-06": 1136,
+              "2022-07": 795,
+              "2022-08": 1111,
+              "2022-09": 740,
+              "2022-10": 668,
+              "2022-11": 769,
+              "2022-12": 716
+            },
+            "Unique_Item_Requests": {
+              "2022-01": 779,
+              "2022-02": 537,
+              "2022-03": 840,
+              "2022-04": 890,
+              "2022-05": 452,
+              "2022-06": 852,
+              "2022-07": 596,
+              "2022-08": 833,
+              "2022-09": 555,
+              "2022-10": 501,
+              "2022-11": 577,
+              "2022-12": 537
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Item 10",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Item_ID": {
+        "DOI": "10.9999/xxxxi10",
+        "Proprietary": "P1:I10",
+        "URI": "https://doi.org/10.9999/xxxxi10"
+      },
+      "Attribute_Performance": [
+        {
+          "Platform": "Platform 1",
+          "Data_Type": "Interactive_Resource",
+          "Performance": {
+            "Total_Item_Requests": {
+              "2022-01": 1061,
+              "2022-02": 1168,
+              "2022-03": 636,
+              "2022-04": 719,
+              "2022-05": 1067,
+              "2022-06": 1133,
+              "2022-07": 970,
+              "2022-08": 1087,
+              "2022-09": 858,
+              "2022-10": 930,
+              "2022-11": 958,
+              "2022-12": 1066
+            },
+            "Unique_Item_Requests": {
+              "2022-01": 796,
+              "2022-02": 876,
+              "2022-03": 477,
+              "2022-04": 539,
+              "2022-05": 800,
+              "2022-06": 850,
+              "2022-07": 728,
+              "2022-08": 815,
+              "2022-09": 644,
+              "2022-10": 698,
+              "2022-11": 719,
+              "2022-12": 800
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Item 13",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Item_ID": {
+        "DOI": "10.9999/xxxxi13",
+        "Proprietary": "P1:I13",
+        "URI": "https://doi.org/10.9999/xxxxi13"
+      },
+      "Attribute_Performance": [
+        {
+          "Platform": "Platform 1",
+          "Data_Type": "Multimedia",
+          "Performance": {
+            "Total_Item_Requests": {
+              "2022-01": 1119,
+              "2022-02": 1135,
+              "2022-03": 1024,
+              "2022-04": 935,
+              "2022-05": 1034,
+              "2022-06": 643,
+              "2022-07": 907,
+              "2022-08": 796,
+              "2022-09": 1070,
+              "2022-10": 945,
+              "2022-11": 941,
+              "2022-12": 1178
+            },
+            "Unique_Item_Requests": {
+              "2022-01": 839,
+              "2022-02": 851,
+              "2022-03": 768,
+              "2022-04": 701,
+              "2022-05": 776,
+              "2022-06": 482,
+              "2022-07": 680,
+              "2022-08": 597,
+              "2022-09": 803,
+              "2022-10": 709,
+              "2022-11": 706,
+              "2022-12": 884
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Item": "Item 22",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Item_ID": {
+        "DOI": "10.9999/xxxxi22",
+        "Proprietary": "P1:I22",
+        "URI": "https://doi.org/10.9999/xxxxi22"
+      },
+      "Attribute_Performance": [
+        {
+          "Platform": "Platform 1",
+          "Data_Type": "Sound",
+          "Performance": {
+            "Total_Item_Requests": {
+              "2022-01": 876,
+              "2022-02": 1143,
+              "2022-03": 1066,
+              "2022-04": 739,
+              "2022-05": 611,
+              "2022-06": 839,
+              "2022-07": 912,
+              "2022-08": 802,
+              "2022-09": 795,
+              "2022-10": 1184,
+              "2022-11": 1033,
+              "2022-12": 1072
+            },
+            "Unique_Item_Requests": {
+              "2022-01": 657,
+              "2022-02": 857,
+              "2022-03": 800,
+              "2022-04": 554,
+              "2022-05": 458,
+              "2022-06": 629,
+              "2022-07": 684,
+              "2022-08": 602,
+              "2022-09": 596,
+              "2022-10": 888,
+              "2022-11": 775,
+              "2022-12": 804
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
