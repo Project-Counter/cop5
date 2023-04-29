@@ -11,6 +11,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
 The COUNTER Reports and Standard Views of the COUNTER Reports in the following table are organized by reporting level with Platform first followed by Database, Title and ending with Item. Within the reporting level, the COUNTER Report appears first followed by the Standard Views of the COUNTER Report. Click the TSV and JSON links to download the corresponding sample reports.
 
+Note that the sample reports provided here include all Data_Types. This has created some unusual situations; for example, Book_Segment and Book both appear in the Platform Report. In practice Book_Segment would appear in the Platform Report for Host_Types Repository and Scholarly_Collaboration_Network, while Book would appear in the Platform Report for Host_Types A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, and eBook_Collection.
+
 Table G.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
 .. only:: not latex

@@ -91,9 +91,9 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 
    * - 3
      - Release
-     - 5
-     - 5
-     - 5
+     - 5.1
+     - 5.1
+     - 5.1
 
    * - 4
      - Institution_Name
