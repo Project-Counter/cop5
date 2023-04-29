@@ -31,6 +31,7 @@ Release 5.1
 * SUSHI: /r51/status as a public endpoint `#216 <https://github.com/Project-Counter/cop5/issues/216>`_ [sushi]
 * SUSHI: include available months of data in /r51/reports endpoint `#218 <https://github.com/Project-Counter/cop5/issues/218>`_ [sushi]
 * SUSHI: clarify requirements for /r51/members endpoint `#219 <https://github.com/Project-Counter/cop5/issues/219>`_ [sushi]
+* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
 * JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
 
 **New Features**
