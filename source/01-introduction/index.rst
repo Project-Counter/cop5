@@ -35,7 +35,7 @@ COUNTER provides an open Code of Practice that evolves in response to the demand
 
 Governance
 """"""""""
-The COUNTER Code of Practice is owned and developed by Counter Online Metrics (COUNTER), a non-profit distributing company registered in England. A Board of Directors governs Counter Online Metrics. An Executive Committee reports to the Board, and the day-to-day management of COUNTER is the responsibility of the Project Director.
+The COUNTER Code of Practice is owned and developed by Counter Online Metrics (COUNTER), a non-profit distributing company registered in England. A Board of Directors governs Counter Online Metrics. An Executive Committee reports to the Board, and day-to-day management is the responsibility of the Project Director.
 
 
 Definitions
