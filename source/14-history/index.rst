@@ -44,7 +44,7 @@ Change History
      - Amendments, corrections and clarifications based on feedback and questions from the community.
      - No
      - 2023-03-30
-     - 2023-05-01 (with support for immediate usage)
+     - 2023-04-28 (with support for March 2023 usage)
 
    * - `5.1 <https://cop5.projectcounter.org/_/downloads/en/5.1/pdf/>`_
      - Substantive changes to the Code of Practice, in line with feedback and questions from the community.
