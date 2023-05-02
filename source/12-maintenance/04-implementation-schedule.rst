@@ -20,7 +20,7 @@ Breaking releases require report providers to make changes to their implementati
 * Breaking release goes live month 30 (e.g. September 2027).
 * Compliance required with Breaking release month 48 or subsequent January (e.g. January 2030). 
 
-Report providers may elect to become compliant with Feature and Breaking releases earlier than the stated compliance date.
+Report providers may elect to become compliant with Feature and Breaking releases earlier than the stated compliance date per :numref:`transitioning`.
 
 All changes will be clearly marked in the change log in our GitHub repository  to ensure they can be easily identified.
 

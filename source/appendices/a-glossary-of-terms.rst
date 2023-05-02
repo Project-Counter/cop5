@@ -92,20 +92,13 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Article processing charges
-     - An article processing charge (APC), also known as a publication fee, is a fee which is sometimes charged to authors to make a work available Open Access in either an Open Access journal or hybrid journal. ...They are the most common funding method for professionally published Open Access articles. [`Wikipedia <https://en.wikipedia.org/wiki/Article_processing_charge>`__]
+     - An article processing charge (APC), also known as a publication fee, is a fee which is sometimes charged to authors to make a work available open access in either an open access journal or hybrid journal. ...They are the most common funding method for professionally published open access articles. [`Wikipedia <https://en.wikipedia.org/wiki/Article_processing_charge>`__]
      -
 
    * - Article_Version
-     - Defined by ALPSP and NISO as a classification of the version of an Article as it goes through its publication life-cycle.
+     - Defined by ALPSP and NISO as a classification of the version of an Article as it goes through its publication life-cycle, in `NISO RP-8-2008, Journal Article Versions <https://www.niso.org/publications/niso-rp-8-2008-jav#:~:text=The%20Recommended%20Terms%20and%20Definitions,Version%20of%20Record%20(EVoR)>`_.
 
        An element in COUNTER Item Reports that identifies the version of the Article being accessed.
-
-       Typically COUNTER usage reporting only reflects usage of the following article versions (of the 7 versions defined by the ALPSP/NISO JAV Technical Working Group):
-
-       * Accepted Manuscript (AM)
-       * Version of Record (VoR)
-       * Corrected Version of Record (CVoR)
-       * Enhanced Version of Record (EVoR).
      - AM, VoR, CVoR, EVoR
 
    * - Articles in press
@@ -544,7 +537,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Hybrid publication
-     - A publication that is available via a subscription license but also contains articles available as Open Access.
+     - A publication that is available via a subscription license but also contains articles available as open access.
      -
 
    * - Image
@@ -759,7 +752,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Open
-     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an Open Access model. Open applies where the content provider asserts that the content is Open Access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully Open Access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
+     - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, under an open access model. Open applies where the content provider asserts that the content is open access, irrespective of the license associated with the content item (that is, while the content item may be under a Creative Commons license this is not essential). Open content items may be in hybrid or fully open access publications. Open content items may have been Open from the day of publication, or after expiry of an embargo, but it is not intended to return to Controlled status.
      -
 
    * - Open Access
@@ -777,7 +770,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - 1533-4406
 
    * - Open Access
-     - Open Access (OA) refers to online research outputs that are free of all restrictions on access (e.g. access tolls) and free of many restrictions on use (e.g. certain copyright and license restrictions). Open Access can be applied to all forms of published research output, including peer-reviewed and non-peer-reviewed academic journal articles, conference papers, theses, book chapters, and monographs. [`Wikipedia <https://en.wikipedia.org/wiki/Open_access>`__]
+     - Open Access (OA) refers to online research outputs that are free of all restrictions on access (e.g. access tolls) and free of many restrictions on use (e.g. certain copyright and license restrictions). Open access can be applied to all forms of published research output, including peer-reviewed and non-peer-reviewed academic journal articles, conference papers, theses, book chapters, and monographs. [`Wikipedia <https://en.wikipedia.org/wiki/Open_access>`__]
      -
 
    * - ORCID
