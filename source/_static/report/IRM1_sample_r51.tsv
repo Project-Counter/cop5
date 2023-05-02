@@ -10,7 +10,7 @@ Exceptions
 Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31																				
 Created	2023-02-15T09:11:12Z																				
 Created_By	Sample Publisher																				
-Registry_Record	https://registry.projectcounter.org/usage-data-host/99999999-9999-9999-9999-999999999999																				
+Registry_Record	https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999																				
 																					
 Item	Publisher	Publisher_ID	Platform	DOI	Proprietary_ID	URI	Data_Type	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
 Item 2	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxi02	P1:I02	https://doi.org/10.9999/xxxxi02	Audiovisual	Total_Item_Requests	9986	767	794	1096	716	658	666	758	670	1199	1131	887	644
