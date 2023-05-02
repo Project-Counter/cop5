@@ -1,0 +1,215 @@
+{
+  "Report_Header": {
+    "Release": "5.1",
+    "Report_ID": "IR_A1",
+    "Report_Name": "Journal Article Requests",
+    "Created": "2023-02-15T09:11:12Z",
+    "Created_By": "Sample Publisher",
+    "Institution_ID": {
+      "ISNI": [
+        "1234123412341234"
+      ]
+    },
+    "Institution_Name": "Sample Institution",
+    "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+    "Report_Filters": {
+      "Metric_Type": [
+        "Total_Item_Requests",
+        "Unique_Item_Requests"
+      ],
+      "Begin_Date": "2022-01-01",
+      "End_Date": "2022-12-31",
+      "Data_Type": [
+        "Article"
+      ],
+      "Access_Method": [
+        "Regular"
+      ]
+    }
+  },
+  "Report_Items": [
+    {
+      "Title": "Title 3",
+      "Item_ID": {
+        "DOI": "10.9999/xxxxt03",
+        "Proprietary": "P1:T03",
+        "Online_ISSN": "1234-4321",
+        "URI": "https://doi.org/10.9999/xxxxt03"
+      },
+      "Items": [
+        {
+          "Item": "Item 11",
+          "Publisher": "Sample Publisher",
+          "Publisher_ID": {
+            "ISNI": [
+              "4321432143214321"
+            ]
+          },
+          "Platform": "Platform 1",
+          "Authors": [
+            {
+              "Name": "Author 11"
+            }
+          ],
+          "Publication_Date": "2022-09-19",
+          "Item_ID": {
+            "DOI": "10.9999/xxxxi11",
+            "Proprietary": "P1:I11",
+            "URI": "https://doi.org/10.9999/xxxxi11"
+          },
+          "Attribute_Performance": [
+            {
+              "Access_Type": "Controlled",
+              "Performance": {
+                "Total_Item_Requests": {
+                  "2022-01": 150,
+                  "2022-02": 247,
+                  "2022-03": 243,
+                  "2022-04": 193,
+                  "2022-05": 233,
+                  "2022-06": 217,
+                  "2022-07": 221,
+                  "2022-08": 152,
+                  "2022-09": 154,
+                  "2022-10": 240,
+                  "2022-11": 176,
+                  "2022-12": 300
+                },
+                "Unique_Item_Requests": {
+                  "2022-01": 113,
+                  "2022-02": 186,
+                  "2022-03": 183,
+                  "2022-04": 144,
+                  "2022-05": 175,
+                  "2022-06": 163,
+                  "2022-07": 165,
+                  "2022-08": 114,
+                  "2022-09": 116,
+                  "2022-10": 180,
+                  "2022-11": 132,
+                  "2022-12": 225
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Item": "Item 12",
+          "Publisher": "Sample Publisher",
+          "Publisher_ID": {
+            "ISNI": [
+              "4321432143214321"
+            ]
+          },
+          "Platform": "Platform 1",
+          "Authors": [
+            {
+              "Name": "Author 12"
+            }
+          ],
+          "Publication_Date": "2022-10-01",
+          "Item_ID": {
+            "DOI": "10.9999/xxxxi12",
+            "Proprietary": "P1:I12",
+            "URI": "https://doi.org/10.9999/xxxxi12"
+          },
+          "Attribute_Performance": [
+            {
+              "Access_Type": "Open",
+              "Performance": {
+                "Total_Item_Requests": {
+                  "2022-01": 451,
+                  "2022-02": 743,
+                  "2022-03": 731,
+                  "2022-04": 578,
+                  "2022-05": 700,
+                  "2022-06": 652,
+                  "2022-07": 662,
+                  "2022-08": 457,
+                  "2022-09": 463,
+                  "2022-10": 719,
+                  "2022-11": 530,
+                  "2022-12": 899
+                },
+                "Unique_Item_Requests": {
+                  "2022-01": 338,
+                  "2022-02": 557,
+                  "2022-03": 548,
+                  "2022-04": 434,
+                  "2022-05": 525,
+                  "2022-06": 489,
+                  "2022-07": 497,
+                  "2022-08": 343,
+                  "2022-09": 347,
+                  "2022-10": 539,
+                  "2022-11": 398,
+                  "2022-12": 674
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Items": [
+        {
+          "Item": "Item 1",
+          "Publisher": "Sample Publisher",
+          "Publisher_ID": {
+            "ISNI": [
+              "4321432143214321"
+            ]
+          },
+          "Platform": "Platform 1",
+          "Authors": [
+            {
+              "Name": "Author 1"
+            }
+          ],
+          "Publication_Date": "2022-07-19",
+          "Item_ID": {
+            "DOI": "10.9999/xxxxi01",
+            "Proprietary": "P1:I01",
+            "URI": "https://doi.org/10.9999/xxxxi01"
+          },
+          "Attribute_Performance": [
+            {
+              "Access_Type": "Open",
+              "Performance": {
+                "Total_Item_Requests": {
+                  "2022-01": 877,
+                  "2022-02": 1022,
+                  "2022-03": 885,
+                  "2022-04": 806,
+                  "2022-05": 770,
+                  "2022-06": 601,
+                  "2022-07": 920,
+                  "2022-08": 876,
+                  "2022-09": 903,
+                  "2022-10": 901,
+                  "2022-11": 758,
+                  "2022-12": 1126
+                },
+                "Unique_Item_Requests": {
+                  "2022-01": 658,
+                  "2022-02": 767,
+                  "2022-03": 664,
+                  "2022-04": 605,
+                  "2022-05": 578,
+                  "2022-06": 451,
+                  "2022-07": 690,
+                  "2022-08": 657,
+                  "2022-09": 677,
+                  "2022-10": 676,
+                  "2022-11": 569,
+                  "2022-12": 845
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

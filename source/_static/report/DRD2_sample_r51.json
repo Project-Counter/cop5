@@ -1,0 +1,170 @@
+{
+  "Report_Header": {
+    "Release": "5.1",
+    "Report_ID": "DR_D2",
+    "Report_Name": "Database Access Denied",
+    "Created": "2023-02-15T09:11:12Z",
+    "Created_By": "Sample Publisher",
+    "Institution_ID": {
+      "ISNI": [
+        "1234123412341234"
+      ]
+    },
+    "Institution_Name": "Sample Institution",
+    "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+    "Report_Filters": {
+      "Metric_Type": [
+        "Limit_Exceeded",
+        "No_License"
+      ],
+      "Begin_Date": "2022-01-01",
+      "End_Date": "2022-12-31",
+      "Access_Method": [
+        "Regular"
+      ]
+    }
+  },
+  "Report_Items": [
+    {
+      "Database": "Database 1",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Platform": "Platform 1",
+      "Item_ID": {
+        "Proprietary": "P1:DB1"
+      },
+      "Attribute_Performance": [
+        {
+          "Performance": {
+            "Limit_Exceeded": {
+              "2022-01": 70,
+              "2022-02": 93,
+              "2022-03": 112,
+              "2022-04": 109,
+              "2022-05": 92,
+              "2022-06": 116,
+              "2022-07": 99,
+              "2022-08": 146,
+              "2022-09": 74,
+              "2022-10": 102,
+              "2022-11": 120,
+              "2022-12": 74
+            },
+            "No_License": {
+              "2022-01": 94,
+              "2022-02": 94,
+              "2022-03": 104,
+              "2022-04": 99,
+              "2022-05": 88,
+              "2022-06": 105,
+              "2022-07": 126,
+              "2022-08": 84,
+              "2022-09": 141,
+              "2022-10": 87,
+              "2022-11": 59,
+              "2022-12": 111
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Database": "Database 2",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Platform": "Platform 1",
+      "Item_ID": {
+        "Proprietary": "P1:DB2"
+      },
+      "Attribute_Performance": [
+        {
+          "Performance": {
+            "Limit_Exceeded": {
+              "2022-01": 58,
+              "2022-02": 126,
+              "2022-03": 100,
+              "2022-04": 77,
+              "2022-05": 53,
+              "2022-06": 105,
+              "2022-07": 61,
+              "2022-08": 92,
+              "2022-09": 93,
+              "2022-10": 44,
+              "2022-11": 77,
+              "2022-12": 91
+            },
+            "No_License": {
+              "2022-01": 84,
+              "2022-02": 120,
+              "2022-03": 89,
+              "2022-04": 105,
+              "2022-05": 26,
+              "2022-06": 151,
+              "2022-07": 104,
+              "2022-08": 102,
+              "2022-09": 89,
+              "2022-10": 71,
+              "2022-11": 125,
+              "2022-12": 85
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Database": "Database 3",
+      "Publisher": "Sample Publisher",
+      "Publisher_ID": {
+        "ISNI": [
+          "4321432143214321"
+        ]
+      },
+      "Platform": "Platform 1",
+      "Item_ID": {
+        "Proprietary": "P1:DB3"
+      },
+      "Attribute_Performance": [
+        {
+          "Performance": {
+            "Limit_Exceeded": {
+              "2022-01": 105,
+              "2022-02": 107,
+              "2022-03": 135,
+              "2022-04": 100,
+              "2022-05": 85,
+              "2022-06": 67,
+              "2022-07": 94,
+              "2022-08": 75,
+              "2022-09": 66,
+              "2022-10": 56,
+              "2022-11": 98,
+              "2022-12": 89
+            },
+            "No_License": {
+              "2022-01": 107,
+              "2022-02": 83,
+              "2022-03": 48,
+              "2022-04": 107,
+              "2022-05": 70,
+              "2022-06": 47,
+              "2022-07": 143,
+              "2022-08": 62,
+              "2022-09": 140,
+              "2022-10": 74,
+              "2022-11": 89,
+              "2022-12": 87
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
