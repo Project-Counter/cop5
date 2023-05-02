@@ -33,6 +33,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt01",
         "Proprietary": "P1:T01",
@@ -41,7 +42,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Book",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -162,7 +162,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Book",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -292,6 +291,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt02",
         "Proprietary": "P1:T02",
@@ -300,7 +300,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Conference",
           "YOP": "2021",
           "Access_Type": "Controlled",
@@ -393,7 +392,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Conference",
           "YOP": "2021",
           "Access_Type": "Controlled",
@@ -495,6 +493,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt03",
         "Proprietary": "P1:T03",
@@ -503,7 +502,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -596,7 +594,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -689,7 +686,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2022",
           "Access_Type": "Open",
@@ -754,7 +750,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2022",
           "Access_Type": "Open",
@@ -819,7 +814,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2021",
           "Access_Type": "Controlled",
@@ -912,7 +906,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2021",
           "Access_Type": "Controlled",
@@ -1005,7 +998,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2021",
           "Access_Type": "Open",
@@ -1070,7 +1062,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "YOP": "2021",
           "Access_Type": "Open",
@@ -1144,6 +1135,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt04",
         "Proprietary": "P1:T04",
@@ -1152,7 +1144,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Newspaper_or_Newsletter",
           "YOP": "2020",
           "Access_Type": "Controlled",
@@ -1245,7 +1236,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Newspaper_or_Newsletter",
           "YOP": "2020",
           "Access_Type": "Controlled",
@@ -1347,6 +1337,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt05",
         "Proprietary": "P1:T05",
@@ -1354,7 +1345,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Other",
           "YOP": "2019",
           "Access_Type": "Free_To_Read",
@@ -1419,7 +1409,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Other",
           "YOP": "2019",
           "Access_Type": "Free_To_Read",
@@ -1493,6 +1482,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt06",
         "Proprietary": "P1:T06",
@@ -1500,7 +1490,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Patent",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -1593,7 +1582,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Patent",
           "YOP": "2022",
           "Access_Type": "Controlled",
@@ -1695,6 +1683,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt07",
         "Proprietary": "P1:T07",
@@ -1703,7 +1692,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Reference_Work",
           "YOP": "2019",
           "Access_Type": "Controlled",
@@ -1824,7 +1812,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Reference_Work",
           "YOP": "2019",
           "Access_Type": "Controlled",
@@ -1954,6 +1941,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt08",
         "Proprietary": "P1:T08",
@@ -1961,7 +1949,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Report",
           "YOP": "2020",
           "Access_Type": "Controlled",
@@ -2054,7 +2041,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Report",
           "YOP": "2020",
           "Access_Type": "Controlled",
@@ -2156,6 +2142,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt09",
         "Proprietary": "P1:T09",
@@ -2163,7 +2150,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Standard",
           "YOP": "2022",
           "Access_Type": "Free_To_Read",
@@ -2228,7 +2214,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Standard",
           "YOP": "2022",
           "Access_Type": "Free_To_Read",
@@ -2302,6 +2287,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt10",
         "Proprietary": "P1:T10",
@@ -2309,7 +2295,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Thesis_or_Dissertation",
           "YOP": "2021",
           "Access_Type": "Open",
@@ -2374,7 +2359,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Thesis_or_Dissertation",
           "YOP": "2021",
           "Access_Type": "Open",
@@ -2448,6 +2432,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt11",
         "Proprietary": "P1:T11",
@@ -2455,7 +2440,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Unspecified",
           "YOP": "2018",
           "Access_Type": "Controlled",
@@ -2548,7 +2532,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Unspecified",
           "YOP": "2018",
           "Access_Type": "Controlled",

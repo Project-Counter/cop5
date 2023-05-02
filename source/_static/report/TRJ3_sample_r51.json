@@ -38,6 +38,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt03",
         "Proprietary": "P1:T03",
@@ -46,7 +47,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Access_Type": "Controlled",
           "Performance": {
             "Total_Item_Investigations": {
@@ -108,7 +108,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Access_Type": "Open",
           "Performance": {
             "Total_Item_Investigations": {

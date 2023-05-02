@@ -40,6 +40,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt01",
         "Proprietary": "P1:T01",
@@ -48,7 +49,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Book",
           "YOP": "2022",
           "Performance": {
@@ -92,6 +92,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt07",
         "Proprietary": "P1:T07",
@@ -100,7 +101,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Reference_Work",
           "YOP": "2019",
           "Performance": {

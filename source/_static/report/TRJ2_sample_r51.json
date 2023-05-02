@@ -36,6 +36,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt03",
         "Proprietary": "P1:T03",
@@ -44,7 +45,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Performance": {
             "Limit_Exceeded": {
               "2022-01": 174,

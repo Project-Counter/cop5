@@ -40,6 +40,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxi02",
         "Proprietary": "P1:I02",
@@ -47,7 +48,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Audiovisual",
           "Performance": {
             "Total_Item_Requests": {
@@ -90,6 +90,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxi09",
         "Proprietary": "P1:I09",
@@ -97,7 +98,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Image",
           "Performance": {
             "Total_Item_Requests": {
@@ -140,6 +140,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxi10",
         "Proprietary": "P1:I10",
@@ -147,7 +148,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Interactive_Resource",
           "Performance": {
             "Total_Item_Requests": {
@@ -190,6 +190,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxi13",
         "Proprietary": "P1:I13",
@@ -197,7 +198,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Multimedia",
           "Performance": {
             "Total_Item_Requests": {
@@ -240,6 +240,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxi22",
         "Proprietary": "P1:I22",
@@ -247,7 +248,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Sound",
           "Performance": {
             "Total_Item_Requests": {

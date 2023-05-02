@@ -45,6 +45,7 @@
               "4321432143214321"
             ]
           },
+          "Platform": "Platform 1",
           "Authors": [
             {
               "Name": "Author 11"
@@ -58,7 +59,6 @@
           },
           "Attribute_Performance": [
             {
-              "Platform": "Platform 1",
               "Access_Type": "Controlled",
               "Performance": {
                 "Total_Item_Requests": {
@@ -101,6 +101,7 @@
               "4321432143214321"
             ]
           },
+          "Platform": "Platform 1",
           "Authors": [
             {
               "Name": "Author 12"
@@ -114,7 +115,6 @@
           },
           "Attribute_Performance": [
             {
-              "Platform": "Platform 1",
               "Access_Type": "Open",
               "Performance": {
                 "Total_Item_Requests": {
@@ -161,6 +161,7 @@
               "4321432143214321"
             ]
           },
+          "Platform": "Platform 1",
           "Authors": [
             {
               "Name": "Author 1"
@@ -174,7 +175,6 @@
           },
           "Attribute_Performance": [
             {
-              "Platform": "Platform 1",
               "Access_Type": "Open",
               "Performance": {
                 "Total_Item_Requests": {

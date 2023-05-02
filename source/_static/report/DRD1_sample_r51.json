@@ -38,12 +38,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB1"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Performance": {
             "Searches_Automated": {
               "2022-01": 31000,
@@ -155,12 +155,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB2"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Performance": {
             "Searches_Automated": {
               "2022-01": 33864,
@@ -244,12 +244,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB3"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Performance": {
             "Searches_Automated": {
               "2022-01": 29083,

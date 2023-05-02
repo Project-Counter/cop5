@@ -39,6 +39,7 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "DOI": "10.9999/xxxxt03",
         "Proprietary": "P1:T03",
@@ -47,7 +48,6 @@
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "YOP": "2022",
           "Performance": {
             "Total_Item_Requests": {
@@ -81,7 +81,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "YOP": "2021",
           "Performance": {
             "Total_Item_Requests": {

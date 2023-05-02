@@ -31,12 +31,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB1"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Book",
           "Access_Method": "Regular",
           "Performance": {
@@ -127,7 +127,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Book",
           "Access_Method": "TDM",
           "Performance": {
@@ -218,7 +217,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Conference",
           "Access_Method": "Regular",
           "Performance": {
@@ -281,7 +279,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Conference",
           "Access_Method": "TDM",
           "Performance": {
@@ -344,7 +341,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Aggregated",
           "Access_Method": "Regular",
           "Performance": {
@@ -421,7 +417,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Aggregated",
           "Access_Method": "TDM",
           "Performance": {
@@ -470,7 +465,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "Access_Method": "Regular",
           "Performance": {
@@ -533,7 +527,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Journal",
           "Access_Method": "TDM",
           "Performance": {
@@ -596,7 +589,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Multimedia",
           "Access_Method": "Regular",
           "Performance": {
@@ -659,7 +651,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Multimedia",
           "Access_Method": "TDM",
           "Performance": {
@@ -722,7 +713,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Newspaper_or_Newsletter",
           "Access_Method": "Regular",
           "Performance": {
@@ -785,7 +775,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Newspaper_or_Newsletter",
           "Access_Method": "TDM",
           "Performance": {
@@ -848,7 +837,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Other",
           "Access_Method": "Regular",
           "Performance": {
@@ -911,7 +899,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Other",
           "Access_Method": "TDM",
           "Performance": {
@@ -974,7 +961,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Patent",
           "Access_Method": "Regular",
           "Performance": {
@@ -1037,7 +1023,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Patent",
           "Access_Method": "TDM",
           "Performance": {
@@ -1100,7 +1085,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Reference_Work",
           "Access_Method": "Regular",
           "Performance": {
@@ -1191,7 +1175,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Reference_Work",
           "Access_Method": "TDM",
           "Performance": {
@@ -1282,7 +1265,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Report",
           "Access_Method": "Regular",
           "Performance": {
@@ -1345,7 +1327,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Report",
           "Access_Method": "TDM",
           "Performance": {
@@ -1408,7 +1389,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Standard",
           "Access_Method": "Regular",
           "Performance": {
@@ -1471,7 +1451,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Standard",
           "Access_Method": "TDM",
           "Performance": {
@@ -1534,7 +1513,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Thesis_or_Dissertation",
           "Access_Method": "Regular",
           "Performance": {
@@ -1597,7 +1575,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Thesis_or_Dissertation",
           "Access_Method": "TDM",
           "Performance": {
@@ -1660,7 +1637,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Unspecified",
           "Access_Method": "Regular",
           "Performance": {
@@ -1723,7 +1699,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Unspecified",
           "Access_Method": "TDM",
           "Performance": {
@@ -1795,12 +1770,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB2"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Audiovisual",
           "Access_Method": "Regular",
           "Performance": {
@@ -1835,7 +1810,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Audiovisual",
           "Access_Method": "TDM",
           "Performance": {
@@ -1870,7 +1844,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_AI",
           "Access_Method": "Regular",
           "Performance": {
@@ -1947,7 +1920,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_AI",
           "Access_Method": "TDM",
           "Performance": {
@@ -1996,7 +1968,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Image",
           "Access_Method": "Regular",
           "Performance": {
@@ -2031,7 +2002,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Image",
           "Access_Method": "TDM",
           "Performance": {
@@ -2066,7 +2036,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Interactive_Resource",
           "Access_Method": "Regular",
           "Performance": {
@@ -2101,7 +2070,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Interactive_Resource",
           "Access_Method": "TDM",
           "Performance": {
@@ -2136,7 +2104,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Sound",
           "Access_Method": "Regular",
           "Performance": {
@@ -2171,7 +2138,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Sound",
           "Access_Method": "TDM",
           "Performance": {
@@ -2215,12 +2181,12 @@
           "4321432143214321"
         ]
       },
+      "Platform": "Platform 1",
       "Item_ID": {
         "Proprietary": "P1:DB3"
       },
       "Attribute_Performance": [
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Full",
           "Access_Method": "Regular",
           "Performance": {
@@ -2297,7 +2263,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Full",
           "Access_Method": "TDM",
           "Performance": {
@@ -2346,7 +2311,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Full_Item",
           "Access_Method": "Regular",
           "Performance": {
@@ -2409,7 +2373,6 @@
           }
         },
         {
-          "Platform": "Platform 1",
           "Data_Type": "Database_Full_Item",
           "Access_Method": "TDM",
           "Performance": {
