@@ -82,7 +82,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - Mt. Laurel University
 
    * - Institution_ID
-     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
+     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
 
        The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.
 
@@ -184,7 +184,7 @@ Table 3.g (below): Elements that Describe the Report Item
        APA
 
    * - Publisher_ID
-     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
+     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
@@ -241,9 +241,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - Examples
 
    * - Authors
-     - Authors of the work for which usage is being reported in the format *{author name}* (*{author identifier}*) with one OPTIONAL author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included with multiple authors separated by semicolon-space (“; ”).
-
-       Note that this element is only used in tabular reports, in JSON reports authors are represented as Item_Contributors with Type Author.
+     - Authors of the work for which usage is being reported, in tabular reports in the format *{author name}* (*{author identifier}*) with one OPTIONAL author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included, in tabular reports with multiple authors separated by semicolon-space (“; ”).
      - IR\ |br|\ |lb|
        IR_A1
      - John Smith (ORCID:0000-0001-2345-6789)
@@ -289,12 +287,6 @@ Table 3.i (below): Elements for Report Item Identifiers
      - TR, IR\ |br|\ |lb|
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1
      - 2048-7754
-
-   * - Linking_ISSN
-     - International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication in the format *nnnn-nnn[nX]* (JSON reports only).
-     - TR, IR\ |br|\ |lb|
-       TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1
-     - 0953-1513
 
    * - URI
      - Universal Resource Identifier, a valid URL or URN according to RFC 3986.
@@ -567,6 +559,6 @@ Table 3.n (below): Elements for Usage Data
      - 123456
 
    * - *Mmm-yyyy*
-     - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by Begin_Date and End_Date date elements for each month.
+     - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by the Counts element with the months in *yyyy-mm* format.
      - All COUNTER Reports and Standard Views of COUNTER Reports
      - May-2024

@@ -9,7 +9,7 @@ COUNTER Validation Tool
 
 The `COUNTER Validation Tool <https://www.projectcounter.org/validation-tool/>`_ allows report providers and auditors to quickly perform compliance checks related to format and consistency of both JSON and tabular reports. Report providers SHOULD use this free tool to check their reports and COUNTER_SUSHI API implementation and fix issues detected by the tool before they begin the audit. It is recommended to use the tool not just when preparing for the audit, but to integrate the testing in the regular QA processes or at least test regularly to make sure the reports stay compliant. We recommend testing reports using the Validation Tool once every four months at a minimum, and monthly where possible. 
 
-The COUNTER Release 5 Validation Tool uses the following error levels to report issues with different severity:
+The COUNTER Validation Tool uses the following error levels to report issues with different severity:
 
 * **Fatal error** - Validation was aborted because an unrecoverable error was encountered, for example a missing or invalid Reporting_Period. The fatal error MUST be fixed before the report can be fully validated.
 * **Critical error** - Validation has detected a serious error that MUST be fixed, for example inconsistent data like a title with more Unique_Item_Requests than Total_Item_Requests or missing data. A critical error indicates that there could be a serious issue that would cause the audit to fail.

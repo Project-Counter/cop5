@@ -668,10 +668,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A COUNTER Metric_Type. A user is denied access to a content item because the simultaneous-user limit for their institution’s license would be exceeded.
      -
 
-   * - Linking_ISSN
-     - A COUNTER report item identifier for the International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication (ISSN-L) in the format nnnn-nnn[nX] (JSON reports only).
-     -
-
    * - Log file analysis
      - A method of collecting usage data in which the web server records all of its transactions.
      -
