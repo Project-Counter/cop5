@@ -416,32 +416,32 @@ Table 3.k (below): Elements that Describe a Component Item
    * - Component_Title
      - Name or title of the component item.
      - IR
-     -
+     - Research Data Plan
 
    * - Component_Authors
      - Authors of the component item. See the Authors element in Table 3.i for the format.
      - IR
-     -
+     - John Smith (ORCID:0000-0001-2345-6789)
 
    * - Component_Publication_Date
      - Date of publication for the component item in the format *yyyy-mm-dd*.
      - IR
-     -
+     - 2022-09-05
 
    * - Component_Data_Type
      - Data type of the component item.
      - IR
-     -
+     - Other
 
    * - Component_DOI
      - DOI assigned to the component item in the format *{DOI prefix}*/*{DOI suffix}*.
      - IR
-     -
+     - 
 
    * - Component_Proprietary_ID
      - A proprietary ID assigned by the repository to uniquely identify the component. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the repository which assigned the proprietary identifier.
      - IR
-     -
+     - repositorya:plan12678
 
    * - Component_ISBN
      - ISBN that is assigned to the component item in the format ISBN-13 with hyphens.
