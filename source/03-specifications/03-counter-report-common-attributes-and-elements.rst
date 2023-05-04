@@ -776,7 +776,7 @@ Report Filters and Report Attributes
 
 Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5.1 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
 
-The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as name/value pairs in the Report_Filters and Report_Attributes elements and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a method parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/>`_ for details).
+The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as Report_Filters and Report_Attributes objects and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a API path parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://app.swaggerhub.com/apis/COUNTER/counter-sushi_5_0_api/>`_ for details).
 
 The tables below show the attributes and filters and the reports where they (might) appear in the header (excluding Standard Views using the default values).
 
@@ -846,7 +846,7 @@ Table 3.y (below): Report Filters
 
    * - Begin_Date\ |br|\ |lb|
        End_Date
-     - Beginning and end of the reporting period. Note that the COUNTER_SUSHI API allows the format *yyyy-mm* for the method parameters, which must be expanded with the first/last day of the month for the report header. For the tabular reports these filters are included in the Reporting_Period header instead of the Reporting_Filters header for easier reading.
+     - Beginning and end of the reporting period. Note that the COUNTER_SUSHI API allows the format *yyyy-mm* for the API path parameters, which must be expanded with the first/last day of the month for the report header. For the tabular reports these filters are included in the Reporting_Period header instead of the Reporting_Filters header for easier reading.
      - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Database
@@ -891,9 +891,11 @@ Not all report providers are able to link COUNTER reporting tools to the relevan
 
 * For JSON reports
 
-  * Omit any Instance element with a Count of zero.
-  * Omit Performance elements that don’t have at least one Instance element.
-  * Omit Report_Items elements that don’t have at least one Performance element.
+  * Omit months with zero usage from the Counts element.
+  * Omit Metric_Types with an empty Counts element.
+  * Omit Performance with no Metric_Types.
+  * Omit Attribute_Performance with no Performance.
+  * Omit Report_Items with no Attribute_Performance.
 
 
 .. _missing-values:
@@ -911,4 +913,4 @@ The value for an element might be missing or unknown, for example a title might 
 
 For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.
 
-If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Release 5 Validation Tool reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Release 5 Validation Tool reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the COUNTER Release 5 Validation Tool.
+If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Validation Tool reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Validation Tool reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the Validation Tool.
