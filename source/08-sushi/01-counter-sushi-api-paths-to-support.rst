@@ -28,7 +28,7 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/status
-     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the Register of COUNTER Compliant Report Providers, and an array of service alerts (if any).
+     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
 
        This path MUST be public, i.e. not protected by the methods described in :numref:`sushi-security`, to allow report consumers to easily check whether a SUSHI server is live.
 
