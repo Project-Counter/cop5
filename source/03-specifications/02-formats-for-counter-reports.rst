@@ -401,11 +401,11 @@ Table 3.k (below): Elements that Describe a Component Item
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.29}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.13}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.29}|>{\parskip=\tparskip}\Y{0.39}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.21}|
 
 .. list-table::
    :class: longtable
-   :widths: 21 60 9 10
+   :widths: 21 48 9 22
    :header-rows: 1
 
    * - Element Name
@@ -441,7 +441,7 @@ Table 3.k (below): Elements that Describe a Component Item
    * - Component_Proprietary_ID
      - A proprietary ID assigned by the repository to uniquely identify the component. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the repository which assigned the proprietary identifier.
      - IR
-     - repositorya:plan12678
+     - repositorya:plan126
 
    * - Component_ISBN
      - ISBN that is assigned to the component item in the format ISBN-13 with hyphens.
