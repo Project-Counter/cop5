@@ -166,7 +166,7 @@
                         "$ref": "#/components/parameters/platform"
                     }
                 ],
-                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and (if required for requesting reports) requestor IDs.\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing SUSHI credentials."
+                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing SUSHI credentials."
             },
             "parameters": []
         },
