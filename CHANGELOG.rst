@@ -7,7 +7,7 @@ Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained
 
 All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub issues and linked pull requests. Starting with the publication of Release 5.0.2 the SwaggerHub feature "GitHub Sync" will be used to also track changes to the COUNTER_SUSHI API Specification, for Release 5.0.2 there are only issues for these changes.
 
-The issues and pull requests are tagged with labels describing the type (amendment, correction, clarification, documentation) and impact (metric calcuation, report structure, permitted attribute values, sushi, documentation) of the change, they can be searched and filtered on GitHub. The change log below is ordered by type of change and shows the GitHub issue titles and numbers, with links to the issues, and the impact of the change.
+The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, sushi, documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
 
 
 Release 5.1
