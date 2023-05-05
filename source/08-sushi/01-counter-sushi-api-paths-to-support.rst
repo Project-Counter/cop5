@@ -28,7 +28,7 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/status
-     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the Register of COUNTER Compliant Report Providers, and an array of service alerts (if any).
+     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
 
        This path MUST be public, i.e. not protected by the methods described in :numref:`sushi-security`, to allow report consumers to easily check whether a SUSHI server is live.
 
@@ -44,4 +44,4 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/members
-     - Returns the list of consortium members or sites for multi-site customers. The response includes an array of customer account information, including for each the customer ID (to use when requesting COUNTER reports), the requestor ID (to use when requesting COUNTER reports), the customer account name, and additional identifiers for the organization (if any). Note that if the customer ID specified in the parameter for the /r51/members path is not a multi-site organization, then the response will simply return the details for that customer.
+     - Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs. The associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the response only includes the details for the customer itself. The response is an array of customer account information, including for each the customer ID (for requesting COUNTER reports and making other API calls), the requestor ID (if required for API calls and differing from the requestor ID in the request), the institution name, and additional identifiers for the institution (if any).
