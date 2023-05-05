@@ -29,13 +29,13 @@ Release 5.1
 * SUSHI: Remove IP address authorization from COUNTER_SUSHI API `#206 <https://github.com/Project-Counter/cop5/issues/206>`_ [sushi]
 * SUSHI: Include Release in the COUNTER_SUSHI API path `#207 <https://github.com/Project-Counter/cop5/issues/207>`_ [sushi]
 * SUSHI: /r51/status as a public endpoint `#216 <https://github.com/Project-Counter/cop5/issues/216>`_ [sushi]
-* SUSHI: include available months of data in /r51/reports endpoint `#218 <https://github.com/Project-Counter/cop5/issues/218>`_ [sushi]
+* SUSHI: include available months of data in path /r51/reports `#218 <https://github.com/Project-Counter/cop5/issues/218>`_ [sushi]
 * SUSHI: clarify requirements for /r51/members endpoint `#219 <https://github.com/Project-Counter/cop5/issues/219>`_ [sushi]
-* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
-* JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
 * SUSHI: add common extension parameters to COUNTER_SUSHI API paths `#224 <https://github.com/Project-Counter/cop5/issues/224>`_ [report structure]
-* SUSHI: move COUNTER_SUSHI API to stoplight.io `#232 <https://github.com/Project-Counter/cop5/issues/232>`_ [documentation]
-
+* SUSHI: remove search parameter from COUNTER_SUSHI API path /r51/reports `#232 <https://github.com/Project-Counter/cop5/issues/232>`_ [documentation]
+* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
+* JSON: JSON format changes `#183 <https://github.com/Project-Counter/cop5/issues/183>`_ [report structure]
+* JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
 
 **New Features**
 
