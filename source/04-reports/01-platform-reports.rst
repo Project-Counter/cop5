@@ -120,7 +120,7 @@ Table 4.a (below): Header for Platform Report and Standard Views of the Platform
      - :cspan:`1` *Name of organization or system that generated the report.*
 
    * - 13
-     - Registry
+     - Registry_Record
      - :cspan:`1` *Link to the platform's COUNTER Registry record.*
 
    * - 14

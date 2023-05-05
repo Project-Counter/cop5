@@ -44,6 +44,10 @@ Table 9.a (below): Audit Timelines
      - 1 month
      - August
 
+
+Extensions
+""""""""""
+
 Report providers may request extensions to the usual timelines under the following circumstances.
 
 * **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the tool before commencing an audit, they may apply for up to three months delay in the seeding process.

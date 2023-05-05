@@ -63,6 +63,7 @@ Release 5.1
 
 **Text Edits and Clarifications**
 
+* The COUNTER_SUSHI API can now be found at `Stoplight.io <https://countermetrics.stoplight.io/docs/counter-sushi-api>`_.
 * Global text changes: Report naming `#126 <https://github.com/Project-Counter/cop5/issues/126>`_ [documentation]
 * Global text changes: dates changed to be current `#127 <https://github.com/Project-Counter/cop5/issues/127>`_ [documentation]
 * Global text changes: lists of all reports compressed for ease of reading `#128 <https://github.com/Project-Counter/cop5/issues/128>`_ [documentation]

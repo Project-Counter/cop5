@@ -15,7 +15,7 @@ The method for counting book usage in R5.1 at the item level is different than i
 
 * Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
 * Where it is not possible to identify Book_Segments (e.g. the report provider does not have metadata identifying individual Book_Segments), the whole book MUST be counted as a single Book_Segment.
-* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or Articles within Journals.
+* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or News_Items within Newspaper_or_Newsletters.
 
 To illustrate: PDFs for twelve chapters are downloaded within a single book in a single session. In R5.1 this must be reported as 12 Unique_Item_Requests and 1 Unique_Title_Request, where in R5 the same usage would be reported as 1 Unique_Item_Request and 1 Unique_Title_Request. This change has been introduced to allow more consistent reporting on the Book_Segment level in the Item Report and to facilitate accurate comparisons of usage across Data_Types, while retaining the ability to accurately compare book usage across platforms through the unique title metrics.
 

@@ -145,8 +145,8 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
      - :cspan:`2` *Name of organization or system that generated the report.*
 
    * - 13
-     - Registry
-     - :cspan:`1` *Link to the platform's COUNTER Registry record.*
+     - Registry_Record
+     - :cspan:`2` *Link to the platform's COUNTER Registry record.*
 
    * - 14
      - *(blank)*

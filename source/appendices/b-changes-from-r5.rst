@@ -29,6 +29,7 @@ Primary changes between R5 and R5.1
 SUSHI changes between R5 and R5.1
 """""""""""""""""""""""""""""""""
 
+* **COUNTER_SUSHI API** - The COUNTER_SUSHI API can now be found at `Stoplight.io <https://countermetrics.stoplight.io/docs/counter-sushi-api>`_.
 * **SUSHI URLs** - Starting with Release 5.1, the release version number will need to be included in the SUSHI URL path.
 * **SUSHI authentication** - R5.1 removes support for IP-based authentication in the COUNTER_SUSHI API. API key may be used if a replacement is desired.
 * **SUSHI paths** - The /r51/status path is public to allow report consumers to easily check whether a service is live. The /r51/reports endpoint is extended to return information about the first and last months for which data are available. We are also introducing separate parameters for common extensions.
@@ -38,12 +39,16 @@ JSON changes between R5 and R5.1
 """"""""""""""""""""""""""""""""
 
 * **Compact** - to avoid problems with large reports, and easier to process:
+
   * Parent_Items include Report_Items to avoid duplicate parent metadata.
   * Report_Items include an Attribute_Performance object to avoid duplicate item metadata.
   * Performance is more compact and easier to read.
+
 * **Reflect all other changes**
+
   * Changes in the Code of Practice.
   * Changes related to the COUNTER_SUSHI API.
+
 * **JSON** - format updated to be more in line with standard JSON and thus easier to work with.
 * **Alignment** - removed deviations between the JSON and tabular reports.
 

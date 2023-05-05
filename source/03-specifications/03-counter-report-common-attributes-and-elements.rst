@@ -489,11 +489,11 @@ The method for counting book usage in R5.1 at the item level is different than i
 
 * Where Book_Segments can be identified within a Book, a Unique_Item_Investigation MUST be counted for each Book_Segment with which a user interacts and a Unique_Item_Request counted for each Book_Segment accessed in full. This includes where users download or view the whole book as a single file.
 * Where it is not possible to identify Book_Segments, the whole book MUST be counted as a single Book_Segment.
-* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or Articles within Journals.
+* The same rules apply to identifying and counting usage of other items within aggregated works, such as Reference_Items within Reference_Works or News_Items within Newspaper_or_Newsletters.
 
 This change facilitates consistent reporting on items within the Item Report, and permits more accurate comparisons of usage across Data_Types, while retaining the ability to compare book usage across platforms through Unique_Title_Investigations and Unique_Title_Requests.
 
-Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections were accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content was delivered. They are comparable across report providers and across releases.
+Unique_Title metrics were introduced in R5 to help normalize eBook metrics, and are retained in R5.1. Unique_Title metrics are only increased by 1 no matter how many (or how many times) chapters or sections are accessed in a given user session. Unique_Title metrics provide comparable eBook metrics regardless of the nature of the platform and how eBook content is delivered. They are comparable across report providers and across releases.
 
 The Unique_Title metrics MUST NOT be used for Data_Types other than Book and Reference_Work as they are not meaningful for them. If a title contains both Open and Controlled sections or sections with different YOPs, the usage must be broken down by Access_Type and YOP so that the total counts are consistent between reports including and not including these columns/elements.
 
@@ -703,7 +703,7 @@ Table 3.u (below): List of Access_Type Values
 Access Methods
 """"""""""""""
 
-In order to track content usage that was accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduced the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
+In order to track content usage accessed for the purpose of text and data mining (TDM) and to keep that usage separate from normal usage, R5 introduced the Access_Method attribute, with values of Regular and TDM. The table below lists the Access_Methods and the Host_Types and reports they apply to.
 
 Table 3.v (below): List of Access_Method Values
 

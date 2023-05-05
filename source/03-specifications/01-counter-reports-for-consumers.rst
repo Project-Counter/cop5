@@ -239,7 +239,7 @@ See :numref:`title-reports` below for details on Title Usage Standard Views.
 Standard Views of the Item Report
 '''''''''''''''''''''''''''''''''
 
-The Standard Views for item-level reporting are designed to support the most common reporting needs. The Standard View for repositories (Journal Article Requests) provides insight into the usage of individual journal articles. The Standard View for multimedia (Multimedia Item Requests) allows evaluation of multimedia at the title level.
+The Standard Views for item-level reporting are designed to support the most common reporting needs. Journal Article Requests provides insight into the usage of individual journal articles (e.g. in institutional repositories) while Multimedia Item Requests allows evaluation of multimedia materials.
 
 Table 3.e (below): Standard Views of the Item Report
 
@@ -260,8 +260,6 @@ Table 3.e (below): Standard Views of the Item Report
    * - IR_A1
      - Journal Article Requests
      - Reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article and Metric_Types of Total_Item_Requests and Unique_Item_Requests.
-
-       This Standard View must be provided only if (a) it is clear for all articles in IR whether they are journal articles or not and (b) the parent item is known for all journal articles.
      - Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
