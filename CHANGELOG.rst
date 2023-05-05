@@ -7,7 +7,93 @@ Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained
 
 All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub issues and linked pull requests. Starting with the publication of Release 5.0.2 the SwaggerHub feature "GitHub Sync" will be used to also track changes to the COUNTER_SUSHI API Specification, for Release 5.0.2 there are only issues for these changes.
 
-The issues and pull requests are tagged with labels describing the type (amendment, correction, clarification, documentation) and impact (metric calcuation, report structure, permitted attribute values, sushi, documentation) of the change, they can be searched and filtered on GitHub. The change log below is ordered by type of change and shows the GitHub issue titles and numbers, with links to the issues, and the impact of the change.
+The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, sushi, documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
+
+
+Release 5.1
+-------------
+
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.1%22>`_
+
+**Breaking Changes**
+
+* Report headers: links to COUNTER Registry `#134 <https://github.com/Project-Counter/cop5/issues/134>`_ [report structure]
+* Components moved from required to optional `#135 <https://github.com/Project-Counter/cop5/issues/135>`_ [report structure]
+* Access_Type: updated definitions `#140 <https://github.com/Project-Counter/cop5/issues/140>`_ [permitted attribute values]
+* Item as the unit of reporting `#142 <https://github.com/Project-Counter/cop5/issues/142>`_ [metric calculation]
+* Removal of Section_Type `#143 <https://github.com/Project-Counter/cop5/issues/143>`_ [metric calcuation]
+* Amendment of item counts for whole-book downloads `#149 <https://github.com/Project-Counter/cop5/issues/149>`_ [metric calculation]
+* Data_Types: include Data_Type in COUNTER Reports `#150 <https://github.com/Project-Counter/cop5/issues/150>`_ [report structure]
+* Data_Types: extend the list of Data_Types `#151 <https://github.com/Project-Counter/cop5/issues/151>`_ [permitted attribute values]
+* Data_Types: include Data_Type in PR_P1 `#155 <https://github.com/Project-Counter/cop5/issues/155>`_ [report structure]
+* SUSHI: Remove IP address authorization from COUNTER_SUSHI API `#206 <https://github.com/Project-Counter/cop5/issues/206>`_ [sushi]
+* SUSHI: Include Release in the COUNTER_SUSHI API path `#207 <https://github.com/Project-Counter/cop5/issues/207>`_ [sushi]
+* SUSHI: /r51/status as a public endpoint `#216 <https://github.com/Project-Counter/cop5/issues/216>`_ [sushi]
+* SUSHI: include available months of data in path /r51/reports `#218 <https://github.com/Project-Counter/cop5/issues/218>`_ [sushi]
+* SUSHI: clarify requirements for /r51/members endpoint `#219 <https://github.com/Project-Counter/cop5/issues/219>`_ [sushi]
+* SUSHI: add common extension parameters to COUNTER_SUSHI API paths `#224 <https://github.com/Project-Counter/cop5/issues/224>`_ [report structure]
+* SUSHI: remove search parameter from COUNTER_SUSHI API path /r51/reports `#232 <https://github.com/Project-Counter/cop5/issues/232>`_ [documentation]
+* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
+* JSON: JSON format changes `#183 <https://github.com/Project-Counter/cop5/issues/183>`_ [report structure]
+* JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
+
+**New Features**
+
+* Global Item Reports: encouraging Item Reports `#136 <https://github.com/Project-Counter/cop5/issues/136>`_ [documentation]
+* Global Item Reports: encouraging Global Reports `#137 <https://github.com/Project-Counter/cop5/issues/137>`_ [report structure]
+* Global Item Reports: standard Customer_ID `#138 <https://github.com/Project-Counter/cop5/issues/138>`_ [attribute values]
+* Common extension for number of Book_Segments `#148 <https://github.com/Project-Counter/cop5/issues/148>`_ [report structure]
+
+**Bug Fixes**
+
+* Versioning: use of explicit versioning `#131 <https://github.com/Project-Counter/cop5/issues/131>`_ [documentation]
+* Versioning: submitting proposed changes `#132 <https://github.com/Project-Counter/cop5/issues/132>`_ [documentation]
+* Versioning: and timelines for release `#133 <https://github.com/Project-Counter/cop5/issues/133>`_ [documentation]
+* Clarifying the application of Access_Types `#139 <https://github.com/Project-Counter/cop5/issues/139>`_ [documentation]
+* Transition notes: addition of R5.1 `#141 <https://github.com/Project-Counter/cop5/issues/141>`_ [documentation]
+* Transition notes: clarification of rules around transitioning `#144 <https://github.com/Project-Counter/cop5/issues/144>`_ [documentation]
+* Audit guidance `#146 <https://github.com/Project-Counter/cop5/issues/146>`_ [documentation]
+* Revision of Appendix E, audit scripts `#184 <https://github.com/Project-Counter/cop5/issues/184>`_ [documentation]
+* Technical guidance moved from Friendly Guide into Code of Practice `#147 <https://github.com/Project-Counter/cop5/issues/147>`_ [documentation]
+* Consortia reporting `#153 <https://github.com/Project-Counter/cop5/issues/153>`_ [documentation]
+* Replacement sample reports (tsv) `#154 <https://github.com/Project-Counter/cop5/issues/154>`_ [documentation]
+* Replacement sample reports (json) `#173 <https://github.com/Project-Counter/cop5/issues/173>`_ [documentation]
+* Replacement sample reports (Excel) `#230 <https://github.com/Project-Counter/cop5/issues/230>`_ [documentation]
+* Removal of comparisons to Release 4 `#192 <https://github.com/Project-Counter/cop5/issues/192>`_ [documentation]
+
+**Text Edits and Clarifications**
+
+* Global text changes: Report naming `#126 <https://github.com/Project-Counter/cop5/issues/126>`_ [documentation]
+* Global text changes: dates changed to be current `#127 <https://github.com/Project-Counter/cop5/issues/127>`_ [documentation]
+* Global text changes: lists of all reports compressed for ease of reading `#128 <https://github.com/Project-Counter/cop5/issues/128>`_ [documentation]
+* Global text changes: requested elements now indicated as 'if called for' `#129 <https://github.com/Project-Counter/cop5/issues/129>`_ [documentation]
+* Global text changes: report provider and report consumer in place of publisher and library `#145 <https://github.com/Project-Counter/cop5/issues/145>`_ [documentation]
+* General copy-edit `#130 <https://github.com/Project-Counter/cop5/issues/130>`_ [documentation]
+* Image replacements `#165 <https://github.com/Project-Counter/cop5/issues/165>`_ [documentation]
+* Addition of examples for Components `#233 <https://github.com/Project-Counter/cop5/issues/233>`_ [documentation]
+* Miscellaneous corrections and clarifications identified during pre-live review `#198 <https://github.com/Project-Counter/cop5/issues/198>`_ [documentation]
+* Changelog for R5.1 `#152 <https://github.com/Project-Counter/cop5/issues/152>`_ [documentation]
+
+
+Release 5.0.3
+-------------
+
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.0.3%22>`_
+
+**Corrections**
+
+* Fix Data_Type lists and examples in COUNTER_SUSHI API Specification `#125 <https://github.com/Project-Counter/cop5/issues/125>`_ [permitted attribute values]
+* Add missing ROR ID to the COUNTER_SUSHI API Specification `#209 <https://github.com/Project-Counter/cop5/issues/209>`_ [documentation]
+
+**Clarifications**
+
+* Clarify invocation conditions for Exception 3030 `#201 <https://github.com/Project-Counter/cop5/issues/201>`_ [documentation]
+
+**Documentation**
+
+* Update COUNTER contact email address `#200 <https://github.com/Project-Counter/cop5/issues/200>`_ [documentation]
+* Remove postal address from Appendix C `#213 <https://github.com/Project-Counter/cop5/issues/213>`_ [documentation]
+* Update change log, release information and URLs for Release 5.0.3 `#211 <https://github.com/Project-Counter/cop5/issues/211>`_ [documentation]
 
 
 Release 5.0.2
