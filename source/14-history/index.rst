@@ -41,7 +41,7 @@ Change History
      - 2022-02-28 (with support for January 2022 usage)
 
    * - `5.0.3 <https://cop5.projectcounter.org/_/downloads/en/5.0.3/pdf/>`_
-     - Amendments, corrections and clarifications based on feedback and questions from the community.
+     - Corrections and clarifications based on feedback and questions from the community.
      - No
      - 2023-03-30
      - 2023-04-28 (with support for March 2023 usage)

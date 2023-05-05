@@ -14,7 +14,7 @@ COUNTER Code of Practice Release 5.1
 
    The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.
 
-   Release 5.1 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
+   Release 5.1 (published 5 May 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
 
 .. only:: not (latex or builder_html)
 
