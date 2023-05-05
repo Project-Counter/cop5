@@ -197,7 +197,7 @@ latex_elements = {
                 \vspace{10pt}
                 {\Huge \textbf{\color{TitleColor} Release 5.1}}\par
                 \vspace{50pt}
-                {Published: April 2023}\par
+                {Published: 5 May 2023}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -211,7 +211,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s report consumer and report provider members have contributed to the development of Release 5.1 (R5.1) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.}\par
-            {Release 5.1 (published April 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.}\par
+            {Release 5.1 (published 5 May 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
