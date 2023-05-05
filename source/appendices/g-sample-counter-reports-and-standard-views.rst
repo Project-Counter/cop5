@@ -136,96 +136,96 @@ Table G.1: Sample COUNTER Reports and Standard Views of the COUNTER Reports
 
       * - PR
         - Platform Report
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PR_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PR_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PR_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/PR_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/PR_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/PR_sample_r51.xlsx>`_
 
       * - PR_P1
         - Platform Usage
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PRP1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PRP1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/PRP1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/PRP1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/PRP1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/PRP1_sample_r51.xlsx>`_
 
       * - DR
         - Database Report
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DR_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DR_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DR_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/DR_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/DR_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/DR_sample_r51.xlsx>`_
 
       * - DR_D1
         - Database Search and Item Usage
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/DRD1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/DRD1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/DRD1_sample_r51.xlsx>`_
 
       * - DR_D2
         - Database Access Denied
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD2_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD2_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/DRD2_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/DRD2_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/DRD2_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/DRD2_sample_r51.xlsx>`_
 
       * - TR
         - Title Report
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TR_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TR_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TR_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TR_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TR_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TR_sample_r51.xlsx>`_
 
       * - TR_B1
         - Book Requests (Controlled)
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRB1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRB1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRB1_sample_r51.xlsx>`_
 
       * - TR_B2
         - Book Access Denied
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB2_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB2_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB2_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRB2_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRB2_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRB2_sample_r51.xlsx>`_
 
       * - TR_B3
         - Book Usage by Access Type
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB3_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB3_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRB3_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRB3_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRB3_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRB3_sample_r51.xlsx>`_
 
       * - TR_J1
         - Journal Requests (Controlled)
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ1_sample_r51.xlsx>`_
 
       * - TR_J2
         - Journal Access Denied
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ2_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ2_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ2_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ2_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ2_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ2_sample_r51.xlsx>`_
 
       * - TR_J3
         - Journal Usage by Access Type
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ3_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ3_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ3_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ3_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ3_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ3_sample_r51.xlsx>`_
 
       * - TR_J4
         - Journal Request by YOP (Controlled)
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ4_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ4_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/TRJ4_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ4_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ4_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/TRJ4_sample_r51.xlsx>`_
 
       * - IR
         - Item Report
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IR_sample_r5.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IR_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IR_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/IR_sample_r5.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/IR_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/IR_sample_r51.xlsx>`_
 
       * - IR_A1
         - Journal Article Requests
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRA1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRA1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRA1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/IRA1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/IRA1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/IRA1_sample_r51.xlsx>`_
 
       * - IR_M1
         - Multimedia Item Requests
-        - `JSON <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRM1_sample_r51.json>`_
-          `TSV <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRM1_sample_r51.tsv>`_
-          `Excel <https://github.com/Project-Counter/cop5/tree/5.1/source/_static/report/IRM1_sample_r51.xlsx>`_
+        - `JSON <https://cop5.projectcounter.org/en/5.1/_static/report/IRM1_sample_r51.json>`_
+          `TSV <https://cop5.projectcounter.org/en/5.1/_static/report/IRM1_sample_r51.tsv>`_
+          `Excel <https://cop5.projectcounter.org/en/5.1/_static/report/IRM1_sample_r51.xlsx>`_
