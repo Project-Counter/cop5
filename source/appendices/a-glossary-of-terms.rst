@@ -472,10 +472,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Report filters.
      -
 
-   * - Format
-     - A COUNTER element for extending reports, used to identify the format of the content. Reserved values include: HTML, PDF, Other.
-     -
-
    * - Free_to_Read
      - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
      -
@@ -666,10 +662,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Limit_Exceeded
      - A COUNTER Metric_Type. A user is denied access to a content item because the simultaneous-user limit for their institution’s license would be exceeded.
-     -
-
-   * - Linking_ISSN
-     - A COUNTER report item identifier for the International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication (ISSN-L) in the format nnnn-nnn[nX] (JSON reports only).
      -
 
    * - Log file analysis

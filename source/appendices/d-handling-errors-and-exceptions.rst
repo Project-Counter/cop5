@@ -11,12 +11,12 @@ Appendix D: Handling Errors and Exceptions
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`sushi`) defines the API methods and the JSON response formats, including the format for Exceptions (SUSHI_error_model), this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
+Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`sushi`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
 
 There are four types of errors that can occur while responding to COUNTER_SUSHI API calls:
 
 * The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the SUSHI server MUST respond with HTTP status code 404.
-* While processing a COUNTER_SUSHI API call an error occurs that usually prohibits generating the requested report, report list, consortium member list or server status. The SUSHI server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
+* While processing a COUNTER_SUSHI API call an error occurs that usually prohibits generating the requested report, report list, member list or server status. The SUSHI server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
 * The SUSHI server detects errors in a report request that can be ignored and processing can continue. The SUSHI server SHOULD continue processing the request and return HTTP status code 200 and the report in JSON format with the appropriate Exceptions in the report header.
 * The report differs from what might be expected, for example the report is empty because there was no usage. In this case the report in JSON format MUST be returned with the appropriate Exceptions in the report header.
 
@@ -24,36 +24,38 @@ When requesting a tabular report at an administrative/reporting site, only the l
 
 While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the SUSHI server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
 
-The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as follows:
+The COUNTER_SUSHI API Specification defines the general JSON format for Exceptions as follows:
 
-.. code-block:: json-object
+.. code-block:: JSON
 
-   “SUSHI_error_model”: {
-     “type”: “object”,
-     “description”: “Generalized format for presenting errors and warnings.”,
-     “required”: [ “Code”, “Message” ],
-     “properties”: {
-       “Code”: {
-         “type”: “integer”,
-         “format”: “int32”,
-         “description”: “Exception Code. See Table D.1 in the Code of Practice, Appendix D.”,
-         “example”: 3031
+   {
+     "title": "Exception",
+     "type": "object",
+     "properties": {
+       "Code": {
+         "type": "integer",
+         "description": "Exception Code. See Table D.1 in the Code of Practice, Appendix D."
        },
-       “Message”: {
-         “type”: “string”,
-         “description”: “Exception Message. See Table D.1 in the Code of Practice, Appendix D.”,
-         “example”: “Usage Not Ready for Requested Dates”
+       "Message": {
+         "type": "string",
+         "minlength": 2,
+         "description": "Exception Message. See Table D.1 in the Code of Practice, Appendix D."
        },
-       “Help_URL”: {
-         “type”: “string”,
-         “description”: “URL to a help page that explains the Exception in more detail.”
+       "Help_URL": {
+         "type": "string",
+         "description": "URL to a help page that explains the Exception in more detail.",
+         "format": "uri"
        },
-       “Data”: {
-         “type”: “string”,
-         “description”: “Additional data provided by the server to clarify the Exception.”,
-         “example”: “Request was for 2024-01-01 to 2024-12-31; however, usage is only available to 2024-08-31.”
+       "Data": {
+         "type": "string",
+         "description": "Additional data provided by the server to clarify the Exception."
        }
-     }
+     },
+     "required": [
+       "Code",
+       "Message"
+     ],
+     "additionalProperties": false
    }
 
 For tabular reports the format for the Exceptions header is defined in :numref:`report-header` of the Code of Practice, Table 3.f, as "*{Exception Code}*: *{Exception Message}* (*{Data}*)" with multiple Exceptions separated by semicolon-space ("; ").
@@ -65,7 +67,7 @@ As indicated in the code above, Exceptions in JSON format have the following ele
 * **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table D.1 below), for other Exceptions it is optional.
 * **Help_URL**: An optional element that contains an URL to a help page that explains the Exception in more detail.
 
-Table D.1 lists all Exceptions permissible for the COUNTER_SUSHI API. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
+Table D.1 lists all permissible Exceptions. The COUNTER_SUSHI API Specification also includes this information, in the form of one Exception schema per row in Table D.1. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
 
 Table D.1 (below): Exceptions
 
@@ -111,7 +113,7 @@ Table D.1 (below): Exceptions
    * - Client has made too many requests
      - 1020
      - 429
-     - If the service sets a limit on the number of requests a client can make within a given timeframe, the server will return this Exception when the client exceeds that limit. The server would provide an explanation of the limit in the additional Data element (e.g. “Client has made too many requests. This server allows only 5 requests per day per requestor_id and customer_id.”).
+     - If the service sets a limit on the number of requests a client can make within a given timeframe, the server will return this Exception when the client exceeds that limit. The server would provide an explanation of the limit in the additional Data element (e.g. “Client has made too many requests. This server allows only 500 requests per day per requestor_id and customer_id.”).
 
    * - Insufficient Information to Process Request
      - 1030
@@ -160,7 +162,7 @@ Table D.1 (below): Exceptions
    * - Usage No Longer Available for Requested Dates
      - 3032
      - 200
-     - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the available data. If some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
+     - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the first month for which data has been processed and is available. If some months are available that data should be returned. The Exception should include the information about the months processed and available in the additional Data element.
 
    * - Partial Data Returned
      - 3040
