@@ -38,12 +38,16 @@ JSON changes between R5 and R5.1
 """"""""""""""""""""""""""""""""
 
 * **Compact** - to avoid problems with large reports, and easier to process:
+
   * Parent_Items include Report_Items to avoid duplicate parent metadata.
   * Report_Items include an Attribute_Performance object to avoid duplicate item metadata.
   * Performance is more compact and easier to read.
+
 * **Reflect all other changes**
+
   * Changes in the Code of Practice.
   * Changes related to the COUNTER_SUSHI API.
+
 * **JSON** - format updated to be more in line with standard JSON and thus easier to work with.
 * **Alignment** - removed deviations between the JSON and tabular reports.
 
