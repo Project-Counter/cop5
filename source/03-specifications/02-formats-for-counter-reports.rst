@@ -82,7 +82,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - Mt. Laurel University
 
    * - Institution_ID
-     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
+     - A series of identifiers that represent the institution, in tabular reports in the format of *{namespace}*:*{value}*. Include multiple identifiers separated with a semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included. Permitted identifier namespaces are ISIL, ISNI, OCLC, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
 
        The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.
 
@@ -111,7 +111,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
    * - Reporting_Period
      - The date range for the usage represented in the report, in the form of: “Begin_Date=\ *yyyy-mm-dd*; End_Date=\ *yyyy-mm-dd*”.
-     - Begin_Date=2024-01-01; End_Date=2024-08-30
+     - Begin_Date=2024-01-01; End_Date=2024-08-31
 
    * - Created
      - The date and time the usage was prepared, in RFC3339 date-time format (*yyyy-mm-ddThh:mm:ssZ*).
@@ -122,7 +122,7 @@ Table 3.f (below): COUNTER Report Header Elements
      - EBSCO Information Services\ |br|\ |lb|
        360 COUNTER
 
-   * - Registry
+   * - Registry_Record
      - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank.
      - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
 
@@ -184,7 +184,7 @@ Table 3.g (below): Elements that Describe the Report Item
        APA
 
    * - Publisher_ID
-     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports  multiple values per namespace can be included, separated by the vertical pipe (“|”) character. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
+     - A unique identifier for the publisher, in tabular reports in the form of *{namespace}*:*{value}*. When multiple identifiers are available for a given publisher, include all identifiers separated with semicolon-space (“; ”), but only one value per namespace. In JSON reports multiple values per namespace can be included. Permitted identifier namespaces are ISNI, ROR and, for local identifiers assigned by the report provider, the platform ID of the report provider.
      - DR, TR, IR\ |br|\ |lb|
        DR_D1, DR_D2, TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
      - ISNI:1234123412341234; ROR:012a3bc45; ebscohost:PubX
@@ -241,9 +241,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - Examples
 
    * - Authors
-     - Authors of the work for which usage is being reported in the format *{author name}* (*{author identifier}*) with one OPTIONAL author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included with multiple authors separated by semicolon-space (“; ”).
-
-       Note that this element is only used in tabular reports, in JSON reports authors are represented as Item_Contributors with Type Author.
+     - Authors of the work for which usage is being reported, in tabular reports in the format *{author name}* (*{author identifier}*) with one OPTIONAL author identifier in the format *{namespace}*:*{value}*. Permitted identifier namespaces are ISNI and ORCID. A maximum of three authors should be included, in tabular reports with multiple authors separated by semicolon-space (“; ”).
      - IR\ |br|\ |lb|
        IR_A1
      - John Smith (ORCID:0000-0001-2345-6789)
@@ -255,7 +253,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - 2024-09-05
 
    * - Article_Version
-     - ALPSP/NISO code indicating the version of the work. Possible values are the codes for Accepted Manuscript, Version of Record, Corrected Version of Record, and Enhanced Version of Record.
+     - ALPSP/NISO code indicating the version of the work as defined by `NISO RP-8-2008, Journal Article Versions <https://www.niso.org/publications/niso-rp-8-2008-jav#:~:text=The%20Recommended%20Terms%20and%20Definitions,Version%20of%20Record%20(EVoR)>`_.
      - IR\ |br|\ |lb|
        IR_A1
      - VoR
@@ -289,12 +287,6 @@ Table 3.i (below): Elements for Report Item Identifiers
      - TR, IR\ |br|\ |lb|
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1
      - 2048-7754
-
-   * - Linking_ISSN
-     - International Standard Serial Number that links together the ISSNs assigned to all instances of a serial publication in the format *nnnn-nnn[nX]* (JSON reports only).
-     - TR, IR\ |br|\ |lb|
-       TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1
-     - 0953-1513
 
    * - URI
      - Universal Resource Identifier, a valid URL or URN according to RFC 3986.
@@ -343,7 +335,7 @@ Table 3.j (below): Elements that Describe a Parent Item
      -
 
    * - Parent_Article_Version
-     - ALPSP/NISO code indicating the version of the parent work. Possible values are the codes for Accepted Manuscript, Version of Record, Corrected Version of Record, and Enhanced Version of Record.
+     - ALPSP/NISO code indicating the version of the parent work as defined by `NISO RP-8-2008, Journal Article Versions <https://www.niso.org/publications/niso-rp-8-2008-jav#:~:text=The%20Recommended%20Terms%20and%20Definitions,Version%20of%20Record%20(EVoR)>`_.
      - IR\ |br|\ |lb|
        IR_A1
      - VoR
@@ -401,11 +393,11 @@ Table 3.k (below): Elements that Describe a Component Item
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.29}|>{\parskip=\tparskip}\Y{0.47}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.13}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.29}|>{\parskip=\tparskip}\Y{0.39}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.21}|
 
 .. list-table::
    :class: longtable
-   :widths: 21 60 9 10
+   :widths: 21 48 9 22
    :header-rows: 1
 
    * - Element Name
@@ -416,32 +408,32 @@ Table 3.k (below): Elements that Describe a Component Item
    * - Component_Title
      - Name or title of the component item.
      - IR
-     -
+     - Research Data Plan
 
    * - Component_Authors
      - Authors of the component item. See the Authors element in Table 3.i for the format.
      - IR
-     -
+     - John Smith (ORCID:0000-0001-2345-6789)
 
    * - Component_Publication_Date
      - Date of publication for the component item in the format *yyyy-mm-dd*.
      - IR
-     -
+     - 2022-09-05
 
    * - Component_Data_Type
      - Data type of the component item.
      - IR
-     -
+     - Other
 
    * - Component_DOI
      - DOI assigned to the component item in the format *{DOI prefix}*/*{DOI suffix}*.
      - IR
-     -
+     - 
 
    * - Component_Proprietary_ID
      - A proprietary ID assigned by the repository to uniquely identify the component. Format as *{namespace}*:*{value}* where the namespace is the platform ID of the repository which assigned the proprietary identifier.
      - IR
-     -
+     - repositorya:plan126
 
    * - Component_ISBN
      - ISBN that is assigned to the component item in the format ISBN-13 with hyphens.
@@ -567,6 +559,6 @@ Table 3.n (below): Elements for Usage Data
      - 123456
 
    * - *Mmm-yyyy*
-     - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by Begin_Date and End_Date date elements for each month.
+     - A series of columns with usage for each month covered by the report. The format is *Mmm-yyyy*. Note: In the JSON format this is represented by the Counts element with the months in *yyyy-mm* format.
      - All COUNTER Reports and Standard Views of COUNTER Reports
      - May-2024

@@ -48,6 +48,7 @@ JSON changes between R5 and R5.1
 * **Alignment** - removed deviations between the JSON and tabular reports.
 
 
+
 Smaller and optional changes
 """"""""""""""""""""""""""""
 

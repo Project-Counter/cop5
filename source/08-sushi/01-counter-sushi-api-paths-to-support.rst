@@ -28,18 +28,20 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/status
-     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the Register of COUNTER Compliant Report Providers, and an array of service alerts (if any).
+     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
 
        This path MUST be public, i.e. not protected by the methods described in :numref:`sushi-security`, to allow report consumers to easily check whether a SUSHI server is live.
 
    * - GET
      - /r51/reports
-     - Returns a list of reports supported by the COUNTER_SUSHI API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, and (optional but recommended for custom reports) the path to use when requesting the report.
+     - Returns a list of reports supported by the COUNTER_SUSHI API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, the path to use when requesting the report (optional but recommended for custom reports), and the first and last months for which usage data has been processed and is available. This information SHOULD be specific for each customer ID.
 
    * - GET
      - /r51/reports/*{Report_ID in lower case}*
      - Each supported report has its own path, e.g. GET /r51/reports/tr_b1 for “Book Requests (Controlled)”, GET /r51/reports/tr_j1 for “Journal Requests (Controlled)”.
 
+       The paths for the COUNTER Reports offer parameters that allow report consumers to customize the reports by applying report filters and report attributes (see :numref:`filters-attributes`), including filters for some common extensions (see :numref:`reserved-elements`). Support for common extensions is optional. Report providers that support one of the extensions also SHOULD support the corresponding parameter. If filtering by an extension is not supported, report providers MUST handle this as described for Exception 3060 in :ref:`Appendix D <appendix-d>`.
+
    * - GET
      - /r51/members
-     - Returns the list of consortium members or sites for multi-site customers. The response includes an array of customer account information, including for each the customer ID (to use when requesting COUNTER reports), the requestor ID (to use when requesting COUNTER reports), the customer account name, and additional identifiers for the organization (if any). Note that if the customer ID specified in the parameter for the /r51/members path is not a multi-site organization, then the response will simply return the details for that customer.
+     - Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs. The associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the response only includes the details for the customer itself. The response is an array of customer account information, including for each the customer ID (for requesting COUNTER reports and making other API calls), the requestor ID (if required for API calls and differing from the requestor ID in the request), the institution name, and additional identifiers for the institution (if any).

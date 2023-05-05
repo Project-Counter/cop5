@@ -9,8 +9,6 @@
 Appendix C: Vendor/Aggregator/Gateway Declaration of COUNTER Compliance
 =======================================================================
 
-`Download Appendix C <https://www.projectcounter.org/wp-content/uploads/2017/10/Release5_Appendix-C.pdf>`_
-
 We <name of Report Provider> (‘The Company’) hereby confirm the following:
 
 #. | That the following online usage reports that are supplied by The Company to its customers, and which The Company claims to be ‘COUNTER-compliant’, conforming to Release 5.1 of the COUNTER Code of Practice:

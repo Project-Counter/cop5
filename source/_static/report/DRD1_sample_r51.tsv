@@ -1,0 +1,34 @@
+﻿Report_Name	Database Search and Item Usage																	
+Report_ID	DR_D1																	
+Release	5.1																	
+Institution_Name	Sample Institution																	
+Institution_ID	ISNI:1234123412341234																	
+Metric_Types	Searches_Automated; Searches_Federated; Searches_Regular; Total_Item_Investigations; Total_Item_Requests; Unique_Item_Investigations; Unique_Item_Requests																	
+Report_Filters	Access_Method=Regular																	
+Report_Attributes																		
+Exceptions																		
+Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31																	
+Created	2023-02-15T09:11:12Z																	
+Created_By	Sample Publisher																	
+Registry_Record	https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999																	
+																		
+Database	Publisher	Publisher_ID	Platform	Proprietary_ID	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Searches_Automated	388097	31000	33636	32681	36948	29634	29058	33763	30207	36051	31546	29354	34219
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Searches_Federated	392238	35010	30545	32987	31609	27286	33092	34205	31049	35700	33311	30893	36551
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Searches_Regular	379481	29408	30185	36765	28522	36923	28485	32688	29693	32900	29075	29867	34970
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Total_Item_Investigations	427825	35725	37133	35980	36899	35566	34862	34340	36333	34186	35248	34935	36618
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Total_Item_Requests	256698	21436	22282	21588	22141	21339	20917	20603	21799	20515	21148	20959	21971
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unique_Item_Investigations	320568	27068	27780	27063	27496	26384	26226	26029	27103	25624	26138	26027	27630
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Unique_Item_Requests	194430	16199	16847	16338	16772	16179	15836	15562	16504	15544	16040	15900	16709
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Searches_Automated	396225	33864	31991	27005	34266	36053	34795	37778	33628	35963	30377	32026	28479
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Searches_Federated	387577	33140	32328	34033	31189	36325	26638	30943	34249	34386	35995	31489	26862
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Searches_Regular	380644	31739	27667	32971	32141	32866	34544	32265	29080	31225	34355	32820	28971
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Total_Item_Investigations	142837	11523	13557	12693	10864	9523	12079	12040	11781	12170	11956	12400	12251
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Unique_Item_Investigations	107142	8643	10168	9521	8150	7143	9061	9030	8837	9129	8969	9301	9190
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Searches_Automated	401052	29083	33078	36293	31582	32861	32893	37456	32326	30807	32577	37306	34790
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Searches_Federated	400656	31589	32217	27588	32652	30682	37980	37687	33357	31161	33710	35916	36117
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Searches_Regular	383348	30960	32583	34697	32844	32120	32738	29398	29575	31913	33335	30812	32373
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Total_Item_Investigations	65300	33968	2455	2397	2762	2392	2836	3212	2991	2801	3700	2690	3096
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Total_Item_Requests	39182	20382	1473	1438	1657	1435	1702	1928	1794	1681	2220	1614	1858
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Unique_Item_Investigations	48985	25481	1842	1798	2072	1795	2128	2409	2243	2101	2776	2018	2322
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Unique_Item_Requests	29388	15287	1105	1078	1243	1077	1276	1446	1345	1261	1666	1211	1393

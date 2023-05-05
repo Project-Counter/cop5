@@ -98,9 +98,9 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
 
    * - 3
      - Release
-     - 5
-     - 5
-     - 5
+     - 5.1
+     - 5.1
+     - 5.1
 
    * - 4
      - Institution_Name
@@ -113,7 +113,7 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
    * - 6
      - Metric_Types
      - *Semicolon-space delimited list of Metric_Types included in the report.*
-     - Searches_Automated; Searches_Federated; Searches_Regular; Total_Item_Investigations; Total_Item_Requests
+     - Searches_Automated; Searches_Federated; Searches_Regular; Total_Item_Investigations; Total_Item_Requests; Unique_Item_Investigations; Unique_Item_Requests
      - Limit_Exceeded; No_License
 
    * - 7
@@ -287,7 +287,9 @@ Table 4.g (below): Filters/Attributes for Database Report and Standard Views of 
        Searches_Federated\ |br|\ |lb|
        Searches_Regular\ |br|\ |lb|
        Total_Item_Investigations\ |br|\ |lb|
-       Total_Item_Requests
+       Total_Item_Requests\ |br|\ |lb|
+       Unique_Item_Investigations\ |br|\ |lb|
+       Unique_Item_Requests
      - Limit_Exceeded\ |br|\ |lb|
        No_License
 
