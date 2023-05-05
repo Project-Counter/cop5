@@ -60,7 +60,7 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.1}|>{\raggedright\arraybackslash}\Y{0.19}|>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.28}|>{\raggedright\arraybackslash}\Y{0.26}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.1}|>{\raggedright\arraybackslash}\Y{0.19}|>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.25}|>{\raggedright\arraybackslash}\Y{0.29}|
 
 .. flat-table::
    :class: longtable
@@ -111,7 +111,7 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
      - Data_Type=Article; Access_Method=Regular*
-     - Data_Type=Audiovisual|Image|Interactive_Resource|Multimedia|Sound; Access_Method=Regular*
+     - Data_Type=Audiovisual| Image|Interactive_Resource| Multimedia|Sound; Access_Method=Regular*
 
    * - 8
      - Report_Attributes
@@ -136,8 +136,8 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
      - :cspan:`2` *Name of organization or system that generated the report.*
 
    * - 13
-     - Registry
-     - :cspan:`1` *Link to the platform's COUNTER Registry record.*
+     - Registry_Record
+     - :cspan:`2` *Link to the platform's COUNTER Registry record.*
 
    * - 14
      - *(blank)*
@@ -407,7 +407,11 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - Data_Type
      - One or more or all (default) of the Data_Types applicable to the platform.
      - Article
-     - Audiovisual; Image; Interactive_Resource; Multimedia; Sound
+     - Audiovisual\ |br|\ |lb|
+       Image\ |br|\ |lb|
+       Interactive_Resource\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Sound
 
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.

@@ -156,12 +156,12 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
    * - 7
      - Report_Filters
      - *Semicolon-space delimited list of filters applied to the data to generate the report.*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book| Reference_Work;\ |br|\ |lb|
        Access_Type=Controlled;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book| Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
-     - Data_Type=Book|Reference_Work;\ |br|\ |lb|
+     - Data_Type=Book| Reference_Work;\ |br|\ |lb|
        Access_Method=Regular*
 
    * - 8
@@ -188,6 +188,10 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
      - :cspan:`3` *Name of organization or system that generated the report.*
 
    * - 13
+     - Registry_Record
+     - :cspan:`3` *Link to the platform's COUNTER Registry record.*
+
+   * - 14
      - *(blank)*
      - *(blank)*
      - *(blank)*
@@ -298,8 +302,8 @@ Table 4.j (below): Header for Standard Views of the Title Report - Part 2 (for J
      - :cspan:`3` *Name of organization or system that generated the report.*
 
    * - 13
-     - Registry
-     - :cspan:`1` *Link to the platform's COUNTER Registry record.*
+     - Registry_Record
+     - :cspan:`3` *Link to the platform's COUNTER Registry record.*
 
    * - 14
      - *(blank)*

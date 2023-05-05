@@ -50,7 +50,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.19}|>{\parskip=\tparskip}\Y{0.48}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.19}|>{\parskip=\tparskip}\Y{0.43}|>{\raggedright\arraybackslash}\Y{0.38}|
 
 .. list-table::
    :class: longtable
@@ -464,11 +464,11 @@ Table 3.l (below): Elements for Item and Report Attributes
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.53}|>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.13}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.50}|>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.16}|
 
 .. list-table::
    :class: longtable
-   :widths: 13 62 13 12
+   :widths: 13 61 13 13
    :header-rows: 1
 
    * - Element Name
