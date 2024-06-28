@@ -252,7 +252,7 @@ Table 3.p (below): List of Data_Type Values
        PR_P1
 
    * - Newspaper_or_Newsletter
-     - Textual content published serially in a newspaper or newsletter.
+     - Textual content published serially in a newspaper, newsletter, magazine, or similar, but not classified as a Journal.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
