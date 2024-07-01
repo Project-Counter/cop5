@@ -2,14 +2,14 @@
    is licensed under CC BY-SA 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by-sa/4.0/
 
-.. _sushi-paths:
+.. _api-paths:
 
-COUNTER_SUSHI API Paths to Support
+COUNTER API Paths to Support
 ----------------------------------
 
-Starting with Release 5.1, the COUNTER_SUSHI API paths include the Release in the format */r{Release without .}*, so that the COUNTER_SUSHI API is properly versioned.
+Starting with Release 5.1, the COUNTER API paths include the Release in the format */r{Release without .}*, so that the COUNTER API is properly versioned.
 
-Report providers SHOULD use the same COUNTER_SUSHI API base URL for all releases. For example, if the URL for requesting the list of reports is ``https://example.org/sushi/reports`` in R5, it should be ``https://example.org/sushi/r51/reports`` in R5.1, so that the base URL for both releases is ``https://example.org/sushi``.
+Report providers SHOULD use the same COUNTER API base URL for all releases. For example, if the URL for requesting the list of reports is ``https://example.org/counter/reports`` in R5, it should be ``https://example.org/counter/r51/reports`` in R5.1, so that the base URL for both releases is ``https://example.org/counter``.
 
 The following paths (methods) MUST be supported:
 
@@ -28,13 +28,13 @@ The following paths (methods) MUST be supported:
 
    * - GET
      - /r51/status
-     - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
+     - Returns the current status of the COUNTER API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
 
-       This path MUST be public, i.e. not protected by the methods described in :numref:`sushi-security`, to allow report consumers to easily check whether a SUSHI server is live.
+       This path MUST be public, i.e. not protected by the methods described in :numref:`api-security`, to allow report consumers to easily check whether a COUNTER API server is live.
 
    * - GET
      - /r51/reports
-     - Returns a list of reports supported by the COUNTER_SUSHI API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, the path to use when requesting the report (optional but recommended for custom reports), and the first and last months for which usage data has been processed and is available. This information SHOULD be specific for each customer ID.
+     - Returns a list of reports supported by the COUNTER API service. The response includes an array of reports, including the report identifier, the release number, the report name, a description, the path to use when requesting the report (optional but recommended for custom reports), and the first and last months for which usage data has been processed and is available. This information SHOULD be specific for each customer ID.
 
    * - GET
      - /r51/reports/*{Report_ID in lower case}*

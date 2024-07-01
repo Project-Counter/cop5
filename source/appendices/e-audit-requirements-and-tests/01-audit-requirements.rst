@@ -9,7 +9,7 @@ Audits seek to mirror institutional (customer) usage on a report provider’s pl
 
 There are three aspects of audit compliance
 
-* **Report delivery**: Auditors test whether the COUNTER_SUSHI API has been correctly implemented for delivery of JSON reports, and whether the web interface permits retrieval of tabular reports, using the instructions supplied by the report provider.
+* **Report delivery**: Auditors test whether the COUNTER API has been correctly implemented for delivery of JSON reports, and whether the web interface permits retrieval of tabular reports, using the instructions supplied by the report provider.
 * **Format**: JSON and tabular reports are reviewed by the auditor to confirm they adhere to the format and presentation specified in the Code of Practice.
 * **Data integrity**: Metrics included in the reports are verified by the auditor to ensure they accurately record activities carried out during audit seeding. This includes
 
@@ -29,7 +29,7 @@ The reporting period for COUNTER is the calendar month: a report run for any giv
 Prior to an audit, the report provider SHOULD supply to the auditor, using either the setup form provided (:download:`PDF <../../_static/COUNTER-audit-setup.pdf>`) or the auditor’s preferred alternative:
 
 * Account details for at least four separate accounts with access to all areas of the site (or specific restrictions for testing Denials).
-* SUSHI credentials for the test accounts to enable verification of SUSHI harvesting of JSON format reports.
+* COUNTER API credentials for the test accounts to enable verification of harvesting of JSON format reports.
 * Access to download usage reports in tabular format.
 * A declaration confirming federated and automated searches have been disaggregated from any searches reported.
 * If server-side caching is implemented, information on cache settings used SHOULD be provided.
