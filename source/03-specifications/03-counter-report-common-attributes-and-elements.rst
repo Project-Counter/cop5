@@ -104,7 +104,7 @@ Report providers MUST report metrics in line with the following:
 
 * Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
 * Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
-* Host_Types that are required to provide the IR MUST also report at item level in the PR and, if required, the DR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
+* Host_Types that are required to provide the IR MUST report usage aggregated to Parent_Data_Types in the PR, DR and TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -363,8 +363,9 @@ Table 3.p (below): List of Data_Type Values
 Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
 
 * Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
-* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information as specified in the table.
+* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information in the IR, as specified in Table 3.q.
 * Data_Types MUST NOT be used with other Parent_Data_Types than those listed in the table.
+* The Parent_Data_Type MUST appear in the PR, DR and TR, whether or not an IR is available.
 
 Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
