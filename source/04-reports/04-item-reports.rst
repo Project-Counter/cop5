@@ -11,6 +11,8 @@ Item Reports provide a summary of activity related to content at the item level 
 
 To better facilitate open access reporting, Release 5.1 encourages all Host_Types to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not. This is particularly relevant for report providers with open access content. The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broken down by geolocation with the Country and Subdivision extensions, as well as by using Attributed and other extensions (see :numref:`reserved-elements`).
 
+To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. a Multimedia Standard View where no multimedia content is present).
+
 Table 4.n (below): Item Report and Standard Views of the Item Report
 
 .. only:: latex

@@ -11,6 +11,8 @@ Database Reports provide a summary of activity related to a given database or fi
 
 To better facilitate open access reporting, report providers are encouraged to provide a Global Database Report including all global usage, whether attributed to institutions or not. The Global Database Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
 
+To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur).
+
 Table 4.d (below): Database Report and Standard Views of the Database Report
 
 .. only:: latex
