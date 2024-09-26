@@ -16,16 +16,16 @@ Once reports are available for testing (i.e. up to 28 days after the end of the 
 Where report providers have elected to follow the pre-flight preparation step outlined in :numref:`audit` of the Code of Practice, this audit test should not result in any errors.
 
 
-E.2.2 SUSHI Endpoints
+E.2.2 COUNTER API Endpoints
 """""""""""""""""""""
 
-The auditor MUST test the SUSHI server endpoints as follows
+The auditor MUST test the COUNTER API (formerly sushi) server endpoints as follows
 
 * The /status endpoint MUST be public (i.e. unprotected) to allow report consumers to easily check whether the service is live.
 * The /reports endpoint MUST return the date range for which COUNTER Reports and the Standard Views of COUNTER Reports are available. If this is less than the required year-to-date plus two years of back data, the auditor MUST note the missing months in the audit report.
 * The /members endpoint MUST return the auditor's customer details.
 
-Any error messages returned by the SUSHI server in the process of audit MUST be noted in the audit report, including an indication of where these error messages deviate from those specified in  :ref:`Appendix D <appendix-d>`.
+Any error messages returned by the COUNTER API server in the process of audit MUST be noted in the audit report, including an indication of where these error messages deviate from those specified in  :ref:`Appendix D <appendix-d>`.
 
 
 E.2.3 Audit Tests for Double-Click Filtering
