@@ -722,7 +722,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Newspaper_or_Newsletter
-     - Textual content published serially in a newspaper or newsletter.
+     - Textual content published serially in a newspaper, newsletter, magazine, or similar serial not classified as a Journal.
 
        A COUNTER Data_Type.
      - The Guardian
