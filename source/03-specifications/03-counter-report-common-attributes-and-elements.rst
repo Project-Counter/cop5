@@ -13,33 +13,40 @@ Early releases of the COUNTER Code of Practice focused on usage statistics relat
 Host Types
 """"""""""
 
-Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5.1 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. The Host_Types are:
+Usage reports are provided by many different types of content hosts ranging from eBook to A&I_Database, eJournal, Discovery_Service, Multimedia etc. The usage reporting needs vary by Host_Type. To accommodate this variance, R5.1 defines a set of Host_Type categories. Although the Host_Type does not appear on the COUNTER report, the Code of Practice uses Host_Types throughout this document to help report providers identify which reports, elements, metric types, and attributes are relevant to them. 
+
+The table lists the COUNTER Reports which MUST be delivered by each Host_Type for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
+
+The Host_Types are:
 
 Table 3.o (below): List of Host_Type Values
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.33}|>{\parskip=\tparskip}\Y{0.41}|>{\raggedright\arraybackslash}\Y{0.26}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.33}|>{\parskip=\tparskip}\Y{0.38}|>{\raggedright\arraybackslash}\Y{0.19}|>{\raggedright\arraybackslash}\Y{0.1}|
 
 .. list-table::
    :class: longtable
-   :widths: 23 57 20
+   :widths: 23 44 20 13
    :header-rows: 1
 
    * - Host_Type
      - Description
      - Examples
+     - Reports
 
    * - A&I_Database
      - Provides access to databases containing abstract and index information on scholarly articles intended to support discovery.
      - APA\ |br|\ |lb|
        EBSCOhost\ |br|\ |lb|
        ProQuest
+     - PR, DR
 
    * - Aggregated_Full_Content
      - Provides access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      - EBSCOhost\ |br|\ |lb|
        ProQuest
+     - PR, DR, TR
 
    * - Data_Repository
      - Includes subject repositories, institution, etc.
@@ -47,46 +54,56 @@ Table 3.o (below): List of Host_Type Values
        Figshare\ |br|\ |lb|
        DSpace\ |br|\ |lb|
        Eprints
+     - PR, IR
 
    * - Discovery_Service
      - Assists users with discovery of scholarly content by providing access to a central index of articles, books, and other metadata.
      - EBSCOhost (EDS)\ |br|\ |lb|
        ProQuest (Primo/Summon)
+     - PR, DR
 
    * - eBook
      - Provides access to eBook content made available as individual eBooks or eBook packages.
      - EBL\ |br|\ |lb|
        EBSCOhost\ |br|\ |lb|
        ScienceDirect
+     - PR, TR
 
    * - eBook_Collection
      - Provides access to eBook content that is sold as fixed collections and behaves like databases.
      - EBSCOhost
+     - PR, DR, TR
 
    * - eJournal
      - Provides access to online serial (journals, conferences, newspapers, etc.) content made available as individual titles or packages.
      - ScienceDirect
+     - PR, TR
 
    * - Full_Content_Database
      - A COUNTER Host_Type for report providers that offer databases that are a collection of content items that are not aggregated into titles (i.e. not part of a serial or book or other title). Full_Content_Database may include but not be exclusively composed of multimedia content items.
      - Cochrane
+     - PR, DR
 
    * - Multimedia
      - Provides access to audio, video, or other multimedia content.
      - Alexander Street Press
+     - PR, IR
 
    * - Multimedia_Collection
      - Provides access to multimedia materials sold as and accessed like databases.
      -
+     - PR, DR
 
    * - Repository
      - Provides access to an institution’s research output. Includes subject repositories, institution, department, etc.
      - Cranfield CERES
+     - PR, IR
 
    * - Scholarly_Collaboration_Network
      - A service used by researchers to share information about their work.
      - Mendeley\ |br|\ |lb|
        Reddit/science
+     - PR, IR
 
 Note that a given content host may be classified as having multiple Host_Types and would be expected to provide reports, metric types, elements, and attributes applicable to all. For example, EBSCOhost would be classified as A&I_Database, Aggregated_Full_Content, Discovery_Service, eBook, and eBook_Collection.
 
