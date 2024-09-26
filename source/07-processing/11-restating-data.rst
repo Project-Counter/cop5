@@ -15,6 +15,6 @@ If errors are identified in COUNTER reports, the report provider MUST correct th
 Reporting Usage When Journal Titles Change
 """"""""""""""""""""""""""""""""""""""""""
 
-When the title of a journal is changed but the identification code (ISSN or DOI) stays the same, report providers should consider the journal to be a single title for the purposes of COUNTER reporting. COUNTER Reports and Standard Views of the COUNTER Reports SHOULD be provided against the new title, with the original title being dropped from the reports.
+When the title of a journal is changed but the identification code (ISSN or DOI) stays the same, report providers SHOULD consider the journal to be a single title for the purposes of COUNTER reporting. COUNTER Reports and Standard Views of the COUNTER Reports SHOULD be provided against the new title, with the original title being dropped from the reports.
 
-If a new DOI or ISSN is allocated to the journal when the title changes, Report providers should consider the journal to be two titles and provide usage information separately. Report providers MUST NOT report usage for the same period under both the old and new DOI or ISSN. Any report generated for the old DOI or ISSN SHOULD show zero usage from the month in which the new DOI or ISSN takes effect.
+If a new DOI or ISSN is allocated to a journal, with or without a name change, report providers SHOULD consider the journal to be two titles and provide usage information separately. Usage of journal content prior to the title change SHOULD be reported under the original ISSN, while usage of journal content after the title change SHOULD be reported under the new ISSN. Report providers MUST NOT report usage for the same period under both the old and new DOI or ISSN.
