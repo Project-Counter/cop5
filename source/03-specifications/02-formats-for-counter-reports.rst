@@ -54,7 +54,7 @@ Table 3.f (below): COUNTER Report Header Elements
 
 .. list-table::
    :class: longtable
-   :widths: 14 57 29
+   :widths: 14 55 31
    :header-rows: 1
 
    * - Element Name
@@ -123,8 +123,9 @@ Table 3.f (below): COUNTER Report Header Elements
        360 COUNTER
 
    * - Registry_Record
-     - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank.
-     - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c
+     - The link to the platform's COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank. Where a COUNTER Report is downloaded that includes usage data for multiple platforms in the COUNTER Registry, the Registry link should be to the Usage Data Host.
+     - https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c (platform)\ |br|\ |lb|
+       https://registry.countermetrics.org/usage-data-host/72a35413-6fcd-44f2-8bce-0c7b2373e33f (usage data host) 
 
    * - (blank row)
      - Row 14 MUST be blank.
