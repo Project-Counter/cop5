@@ -11,7 +11,7 @@ Title Reports provide a summary of activity related to content at the title leve
 
 To better facilitate open access reporting, report providers are encouraged to provide a Global Title Report including all global usage, whether attributed to institutions or not. The Global Title Report could be filtered and broken down as usual, including by using Attributed and other extensions (see :numref:`reserved-elements`).
 
-To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur).
+To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur, or Journal standard views where no journal content is present).
 
 Table 4.h (below): Title Report and Standard Views of the Title Report
 
