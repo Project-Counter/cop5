@@ -642,6 +642,8 @@ The Access_Type applied to an item MUST adhere to the following principles:
 * Access_Type applies to all parts of a content item. That is, the metadata, the full-text (if any) and supplementary materials (if any) all share a single Access_Type. For a journal article, for example, an Investigation of the article metadata must be reported under the same Access_Type as a Request for the full article.
 * Access_Type applies in all circumstances. That is, an item MUST NOT be reported as Open for one user and as Controlled for a different user.
 
+Access_Types on occasion may change in the middle of a calendar month. Report providers are expected to make all reasonable efforts to report the usage of each item against the correct Access_Types when this occurs. That is, usage accrued before the change should be reported against the first Access_Type and usage accrued after the change should be reported against the second Access_Type. Where it is not possible to do this, the Access_Type at month end SHOULD be used. Note that report providers MUST retain this information (i.e. if data are restated, the Access_Type for the month MUST NOT change).
+
 Table 3.u (below): List of Access_Type Values
 
 .. only:: latex
