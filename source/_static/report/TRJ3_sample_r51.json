@@ -11,7 +11,7 @@
       ]
     },
     "Institution_Name": "Sample Institution",
-    "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+    "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
     "Report_Filters": {
       "Metric_Type": [
         "Total_Item_Investigations",
