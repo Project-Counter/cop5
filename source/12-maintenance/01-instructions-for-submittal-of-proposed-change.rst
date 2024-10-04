@@ -5,7 +5,7 @@
 Instructions for Submittal of Proposed Change
 ---------------------------------------------
 
-Changes and updates to the COUNTER Code of Practice can be submitted by anyone. Submissions MUST be made via email and directed to the Project Director (tasha.mellins-cohen@counterusage.org). Each idea for submission MUST include:
+Changes and updates to the COUNTER Code of Practice can be submitted by anyone. Submissions MUST be made via email and directed to code@countermetrics.org. Each idea for submission MUST include:
 
 * Submitter contact information:
 

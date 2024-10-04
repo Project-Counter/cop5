@@ -30,6 +30,6 @@ We <name of Report Provider> (‘The Company’) hereby confirm the following:
 |
 | Email address: ________________________________________________________________________
 |
-| **Upon receipt of this signed declaration by the COUNTER office, and upon payment (where the Company is not a member of COUNTER) by The Company of the Report Provider Registration Fee, The Company will be listed on the COUNTER Registry as providing COUNTER-compliant usage reports pending completion of a formal audit within 6 months of signing this declaration.**
+| **Upon receipt of this signed declaration by the COUNTER office, and upon payment (where the Company is not a member of COUNTER) by The Company of the Report Provider Registration Fee, The Company will be listed on the COUNTER Registry as providing COUNTER-compliant usage reports for a term of one year, pending completion of a formal audit within 6 months of signing this declaration.**
 |
-| **This Declaration may be scanned and emailed to:** tasha.mellins-cohen@counterusage.org
+| **This Declaration may be scanned and emailed to:** code@countermetrics.org

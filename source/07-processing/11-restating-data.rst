@@ -9,7 +9,7 @@ Restating Data
 Retrospective Reporting of Errors
 """""""""""""""""""""""""""""""""
 
-If errors are identified in COUNTER reports, the report provider MUST correct the errors within three months of their discovery. The report provider MUST alert the Project Director (tasha.mellins-cohen@counterusage.org) so that a notification may be included in the COUNTER Registry. Report providers SHOULD also directly inform their customers of the corrections.
+If errors are identified in COUNTER reports, the report provider MUST correct the errors within three months of their discovery. The report provider MUST alert code@countermetrics.org so that a notification may be included in the COUNTER Registry. Report providers SHOULD also directly inform their customers of the corrections.
 
 
 Reporting Usage When Journal Titles Change

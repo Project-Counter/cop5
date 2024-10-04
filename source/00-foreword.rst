@@ -34,7 +34,7 @@ Flexibility is built into Release 5.1 through Attributes, pieces of information 
 
 .. rubric:: How do I use this Code of Practice?
 
-This online version is the version of record for Release 5.1 of the Code of Practice, which can also be downloaded as a PDF. More information is available from the `COUNTER website <https://www.projectcounter.org/>`_.
+This online version is the version of record for Release 5.1 of the Code of Practice, which can also be downloaded as a PDF. More information is available from the `COUNTER website <https://www.countermetrics.org/>`_.
 
 The Code of Practice will be of interest to both report providers and report consumers, however some sections are more relevant to particular user cases.
 
