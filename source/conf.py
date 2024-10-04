@@ -219,7 +219,7 @@ latex_elements = {
             \centering
             \fbox{%
                 \begin{minipage}{0.80\textwidth}
-                    The Code of Practice is available from the \href{https://www.projectcounter.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5 of the Code of Practice.
+                    The Code of Practice is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5 of the Code of Practice.
                 \end{minipage}
             }
             \vspace{50pt}
