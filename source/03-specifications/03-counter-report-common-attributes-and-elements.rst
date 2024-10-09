@@ -103,8 +103,14 @@ The table lists the Data_Types and related Host_Types which use them in one or m
 Report providers MUST report metrics in line with the following:
 
 * Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
-* Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
-* Host_Types that are required to provide the IR MUST report usage aggregated to Parent_Data_Types in the PR, DR and TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
+* Investigations and Requests reported in the DR MUST be reported with the same Data_Type in the PR.
+* Investigations and Requests reported in the TR MUST be reported with the same Data_Type in the DR (if applicable) and the PR.
+* Investigations and Requests reported in the IR but not in the DR or TR MUST be reported with the same Data_Type in the PR.
+
+Parent_Data_Types apply where usage is reported in the IR and either the DR or TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
+
+* Usage reported in the IR that is also reported in the DR but not in TR MUST include the Data_Type from the DR as the Parent_Data_Type in the IR.
+* Usage reported in the IR that is also reported in the TR MUST include the Data_Type from the TR as the Parent_Data_Type in the IR, unless the Data_Type and Parent_Data_Type would be identical (in which case the Parent_Data_Type MUST be omitted).
 
 Table 3.p (below): List of Data_Type Values
 
@@ -365,7 +371,7 @@ Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Ar
 * Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
 * Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information in the IR, as specified in Table 3.q.
 * Data_Types MUST NOT be used with other Parent_Data_Types than those listed in the table.
-* The Parent_Data_Type MUST appear in the PR, DR and TR, whether or not an IR is available.
+* Data_Types and Parent_Data_Types MUST appear in the PR, DR and TR as described in the rules above Table 3.p.
 
 Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
