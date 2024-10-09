@@ -136,7 +136,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -218,7 +220,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Image
      - A form of multimedia describing a static visual image.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -226,7 +230,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Interactive_Resource
      - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -244,7 +250,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Multimedia
      - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -278,6 +286,7 @@ Table 3.p (below): List of Data_Type Values
    * - Patent
      - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
      - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
@@ -329,7 +338,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Sound
      - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -398,6 +409,9 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
    * - Database_Full_Item
      - Database_Full
+
+   * - Multimedia data types: Audiovisual, Image, Interactive_Resource, Multimedia, Sound
+     - Database_Aggregated, Database_Full
 
    * - News_Item
      - Newspaper_or_Newsletter
