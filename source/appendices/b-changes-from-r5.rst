@@ -23,7 +23,7 @@ Primary changes between R5 and R5.1
 * **Section_Type** - The impact of the above changes means Section_Type is removed in R5.1.
 * **Access_Type** - R5.1 clarifies where and how COUNTER Access_Types apply. R5.1 also introduced revised definitions for Access_Types to better facilitate reporting of open and free materials.
 * **Components** - Required for the Item Report in R5, Components are optional in R5.1 to simplify delivery of Item Reports.
-* **Report headers** - R5.1 added a link to the `COUNTER Registry <https://registry.projectcounter.org>`_ to the standard report header in both JSON and tabular reports.
+* **Report headers** - R5.1 added a link to the `COUNTER Registry <https://registry.countermetrics.org>`_ to the standard report header in both JSON and tabular reports.
 
 
 SUSHI changes between R5 and R5.1

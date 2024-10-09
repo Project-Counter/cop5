@@ -37,7 +37,7 @@ Accessing Consortia-Level Reports
 
 Consortia managers and administrators MUST be able to access usage reports through the same user interface or SUSHI server as any other report consumer. 
 
-To facilitate gathering institutional reports, report providers MUST support the /r51/members COUNTER_SUSHI API path to provide the consortium with the list of their members on the platform and the SUSHI credentials for each member. This will enable tools to be created to efficiently retrieve member usage and create separate or consolidated reporting, such as those described on the `COUNTER website <https://www.projectcounter.org/counter-harvester-tools/>`_. Note that where an API Key is required, it must be possible to make requests to all API paths with that API key and the customer ID (and requestor ID) returned for the members.
+To facilitate gathering institutional reports, report providers MUST support the /r51/members COUNTER_SUSHI API path to provide the consortium with the list of their members on the platform and the SUSHI credentials for each member. This will enable tools to be created to efficiently retrieve member usage and create separate or consolidated reporting, such as those described on the `COUNTER website <https://www.countermetrics.org/code-of-practice/tools/>`_. Note that where an API Key is required, it must be possible to make requests to all API paths with that API key and the customer ID (and requestor ID) returned for the members.
 
 The report provider MUST NOT place limits on the SUSHI server (such as requests per day or amount of data transferred) that would prevent a consortium from retrieving reports for all its members.
 

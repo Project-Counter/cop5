@@ -15,9 +15,9 @@ Report providers SHOULD offer a single report with date ranges that span the tra
 
 When it is not practical to support a single report with date ranges that span the transition period, the report provider SHOULD perform the transition on the first day of a month. If the new reporting service was deployed in August 2024, a customer wanting January-December 2024 usage would request January-July 2024 from the previous reporting service and August-December 2024 from the new reporting service. 
 
-Project COUNTER is aware that it is not always possible to transition on the first day of a month (e.g. where a platform is moving from one service provider to another). Where a report provider has no option but to perform the transition mid-month, such that the customer is required to run reports on both the old and new reporting services for the same month, the report provider MUST provide clear guidance about merging and summing the results to obtain actual monthly usage.
+COUNTER Metrics is aware that it is not always possible to transition on the first day of a month (e.g. where a platform is moving from one service provider to another). Where a report provider has no option but to perform the transition mid-month, such that the customer is required to run reports on both the old and new reporting services for the same month, the report provider MUST provide clear guidance about merging and summing the results to obtain actual monthly usage.
 
-Report providers MUST alert the COUNTER Project Director (tasha.mellins-cohen@counterusage.org) in advance of platforms transitioning to a new reporting service to ensure that the `COUNTER Registry <https://registry.projectcounter.org/>`_ remains up to date. Transition details, including the date of transition, will be noted in the specific platform record and as a notification to report consumers.
+Report providers MUST alert code@countermetrics.org in advance of platforms transitioning to a new reporting service to ensure that the `COUNTER Registry <https://registry.countermetrics.org/>`_ remains up to date. Transition details, including the date of transition, will be noted in the specific platform record and as a notification to report consumers.
 
 
 Dual Running of Reporting Systems

@@ -18,7 +18,7 @@ COUNTER Code of Practice Release 5.1
 
 .. only:: not (latex or builder_html)
 
-   The Code of Practice is maintained by COUNTER. This online version is the version of record for Release 5.1 of the Code of Practice. There is more information about COUNTER on `COUNTER website <https://www.projectcounter.org/>`_.
+   The Code of Practice is maintained by COUNTER. This online version is the version of record for Release 5.1 of the Code of Practice. There is more information about COUNTER on `COUNTER website <https://www.countermetrics.org/>`_.
    
 .. toctree::
    :caption: Table of Contents

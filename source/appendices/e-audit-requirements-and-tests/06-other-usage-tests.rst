@@ -47,7 +47,7 @@ This MUST result in 40 each of Total_Item_Investigations, Total_Item_Requests, U
 E.6.2 Investigations Independent of Requests
 """"""""""""""""""""""""""""""""""""""""""""
 
-These audit tests applies where Investigations can be reported independently of Requests. If all Investigations have a matching Request, auditors MUST note this in the audit report. This does not require an exemption from the COUNTER Project Director.
+These audit tests applies where Investigations can be reported independently of Requests. If all Investigations have a matching Request, auditors MUST note this in the audit report. This does not require an exemption from the COUNTER Executive Director.
 
 The tests mimic those defined above, but the auditor MUST undertake a separate Investigation activity for each audit test, resulting in a doubling of the Total_Item_Investigation counts.
 

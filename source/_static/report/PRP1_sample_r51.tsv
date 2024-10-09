@@ -10,7 +10,7 @@ Exceptions
 Reporting_Period	Begin_Date=2022-01-01; End_Date=2022-12-31														
 Created	2023-02-15T09:11:12Z														
 Created_By	Sample Publisher														
-Registry_Record	https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999														
+Registry_Record	https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999														
 															
 Platform	Data_Type	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
 Platform 1	Article	Total_Item_Requests	10445	877	1022	885	806	770	601	920	876	903	901	758	1126

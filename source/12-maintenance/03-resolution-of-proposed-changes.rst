@@ -8,7 +8,7 @@ Resolution of Proposed Changes
 Responding to Submissions
 """""""""""""""""""""""""
 
-The `COUNTER Executive Committee <https://www.projectcounter.org/about/counter-executive-committee/>`_ (EC) will review submissions as recommended by the Technical Advisory Group (TAG) and provide a response via the Project Director after their next regularly scheduled EC meeting. The EC will respond to every submission with one of the following, providing clarity when needed:
+The `COUNTER Executive Committee <https://www.countermetrics.org/about/people/>`_ (EC) will review submissions as recommended by the Technical Advisory Group (TAG) and provide a response via the Executive Director after their next regularly scheduled EC meeting. The EC will respond to every submission with one of the following, providing clarity when needed:
 
 * Proposed change accepted without modification
 * Proposed change accepted with modification

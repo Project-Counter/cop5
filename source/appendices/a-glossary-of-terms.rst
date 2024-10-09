@@ -891,7 +891,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Registry of compliance
-     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.projectcounter.org/>`_].
+     - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.countermetrics.org/>`_].
      -
 
    * - Regular
