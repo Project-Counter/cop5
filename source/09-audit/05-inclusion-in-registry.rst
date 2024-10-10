@@ -14,3 +14,5 @@ When the reports are deemed to comply with the COUNTER Code of Practice, the rep
 An audit report confirming that the usage reports and data are indeed COUNTER-compliant is REQUIRED within six months of inclusion in the Registry.
 
 Report providers who have not applied for compliance or whose compliance has lapsed MUST NOT claim or imply COUNTER compliance on their site, in licenses, or in their marketing and do not have the rights to use the COUNTER name or logo.
+
+Note that report providers SHOULD be members of COUNTER Metrics in order to be included in the Registry without charge. Non-members are charged £500 per platform, per year for inclusion in the Registry.

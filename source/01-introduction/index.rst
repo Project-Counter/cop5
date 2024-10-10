@@ -6,7 +6,7 @@
 Introduction
 ------------
 
-Since its inception in 2002, COUNTER has been focused on providing a Code of Practice that helps ensure report consumers (e.g. librarians and consortia managers) have access to consistent, comparable, and credible usage reporting for their online scholarly information. The COUNTER Code of Practice provides guidance on data elements to be measured and definitions of these data elements, as well as guidelines for output report content and formatting and requirements for data processing and auditing. To have their usage statistics and reports designated COUNTER compliant, report providers MUST provide usage statistics that conform to the current Code of Practice.
+Since its inception in 2002, COUNTER has been focused on providing a Code of Practice that helps ensure report consumers (e.g. librarians and consortia managers) have access to consistent, comparable, and credible usage reporting for their online scholarly information. The COUNTER Code of Practice provides guidance on data elements to be measured and definitions of these data elements, as well as guidelines for output report content and formatting and requirements for data processing and auditing. To have their usage statistics and reports designated COUNTER compliant, report providers (e.g. publishers and usage data services) MUST provide usage statistics that conform to the current Code of Practice.
 
 
 Purpose

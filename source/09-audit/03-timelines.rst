@@ -55,6 +55,7 @@ Report providers may request extensions to the usual timelines under the followi
 
 Applications for extensions MUST be sent to both the Executive Director (code@countermetrics.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
 
+There may be limited, unforeseen circumstances in which an additional extension may be granted. In these cases the report provider and auditor MUST explain the extenuating circumstances in a short report to the COUNTER Executive Committee. If the additional extension is granted, the report provider will not be required to start seeding an audit until three months after a successful audit pass.
 
 Alternate year audits
 """""""""""""""""""""

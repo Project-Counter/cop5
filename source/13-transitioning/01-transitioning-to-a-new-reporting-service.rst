@@ -17,7 +17,7 @@ When it is not practical to support a single report with date ranges that span t
 
 COUNTER Metrics is aware that it is not always possible to transition on the first day of a month (e.g. where a platform is moving from one service provider to another). Where a report provider has no option but to perform the transition mid-month, such that the customer is required to run reports on both the old and new reporting services for the same month, the report provider MUST provide clear guidance about merging and summing the results to obtain actual monthly usage.
 
-Report providers MUST alert code@countermetrics.org in advance of platforms transitioning to a new reporting service to ensure that the `COUNTER Registry <https://registry.countermetrics.org/>`_ remains up to date. Transition details, including the date of transition, will be noted in the specific platform record and as a notification to report consumers.
+Report providers MUST alert code@countermetrics.org in advance of platforms transitioning to a new reporting service to ensure that the `COUNTER Registry <https://registry.countermetrics.org/>`_ remains up to date. Where a platform is migrating from or to a third-party report provider, it is the responsibility of that report provider to ensure that COUNTER is notified. Transition details, including the date of transition, will be noted in the specific platform record and as a notification to report consumers.
 
 
 Dual Running of Reporting Systems
