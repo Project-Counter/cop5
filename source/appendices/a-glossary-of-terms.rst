@@ -414,6 +414,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Executive Committee.
      -
 
+   * - E-ISBN
+     - See ISBN.
+     -
+
    * - eJournal
      - Serial content that is published online.
 
@@ -595,7 +599,11 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique standard identifier (ISO 2108) used to identify monographic publications (books).
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the Validation Tool.
+     -
+
+   * - ISBN-13
+     - See ISBN.
      -
 
    * - ISIL

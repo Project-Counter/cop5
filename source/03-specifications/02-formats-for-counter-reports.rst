@@ -272,7 +272,7 @@ Table 3.i (below): Elements for Report Item Identifiers
      - publisherA:jnrlCode123
 
    * - ISBN
-     - International Standard Book Number in the format ISBN-13 with hyphens.
+     - International Standard Book Number in the format ISBN-13 with hyphens. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available.
      - TR, IR\ |br|\ |lb|
        TR_B1, TR_B2, TR_B3
      - 978-3-16-148410-0
@@ -359,7 +359,7 @@ Table 3.j (below): Elements that Describe a Parent Item
      - TandF:wser20
 
    * - Parent_ISBN
-     - ISBN of the parent item in the format ISBN-13 with hyphens.
+     - ISBN of the parent item in the format ISBN-13 with hyphens. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available.
      - IR
      -
 
@@ -437,7 +437,7 @@ Table 3.k (below): Elements that Describe a Component Item
      - repositorya:plan126
 
    * - Component_ISBN
-     - ISBN that is assigned to the component item in the format ISBN-13 with hyphens.
+     - ISBN that is assigned to the component item in the format ISBN-13 with hyphens. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available.
      - IR
      -
 
