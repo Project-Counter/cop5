@@ -13,7 +13,7 @@ Table 9.a (below): Audit Timelines
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.13}|>{\raggedright\arraybackslash}\Y{0.17}|>{\parskip=\tparskip}\Y{0.37}|>{\raggedright\arraybackslash}\Y{0.33}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.34}|>{\raggedright\arraybackslash}\Y{0.4}|>{\raggedright\arraybackslash}\Y{0.14}|
 
 .. list-table::
    :class: longtable
