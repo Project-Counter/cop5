@@ -11,13 +11,13 @@ R5.1 consists of four COUNTER Reports that allow the report consumer to filter a
 
 To achieve compliance, a report provider MUST offer the COUNTER Reports and Standard Views of the COUNTER Reports that are applicable to their Host_Types, with the exception of Standard Views that always would be empty (e.g. an Access Denied Standard View if denials cannot occur). An independent audit is required for these reports.
 
-Report providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit is not required.
+Report providers may offer additional COUNTER Reports and Standard Views of the COUNTER Reports not required for compliance, or custom reports (see :numref:`custom-reports`), according to the rules set for the reports by the Code of Practice. For these reports an audit is not required.
 
 
 COUNTER Reports
 """""""""""""""
 
-COUNTER Reports include all relevant Metrics and Attributes; they are intended to be customizable through the application of filters and other configuration options, allowing report consumers to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and Host_Types who are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
+COUNTER Reports include all relevant Metrics and Attributes; they are intended to be customizable through the application of filters and other configuration options, allowing report consumers to create a report specific to their needs. The four COUNTER Reports are shown in Table 3.a along with their Report_ID, Report_Name and the Host_Types which are REQUIRED to provide these reports. See :numref:`host-types` below for details on Host_Types.
 
 Table 3.a (below): COUNTER Reports
 
@@ -66,7 +66,7 @@ Table 3.a (below): COUNTER Reports
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
-\* Data repositories may choose to conform to the Code of Practice R5.1, alternatively, may wish to work with the Code of Practice for Research Data.
+\* Data repositories may choose to conform to the Code of Practice R5.1, or alternatively may wish to work with the Code of Practice for Research Data.
 
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
 
@@ -81,9 +81,9 @@ Figure 3.a (below) provides an example of how the user interface could look. The
 Reporting for Open Access
 '''''''''''''''''''''''''
 
-All Host_Types are encourged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
+All Host_Types are encouraged but not required to provide a Global Item Report, which provides a granular per-item view of all usage, whether attributed to institutions or not.
 
-The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broked down by geolocation with the Country and Subdivision extensions.
+The Global Item Report is an Item Report to "The World" including all global usage, whether attributed to an institution or not, which could be broken down by geolocation with the Country and Subdivision extensions.
 
 
 Standard Views of the COUNTER Reports
@@ -118,7 +118,7 @@ Table 3.b (below): Platform Usage Standard View
      - Platform-level usage summarized by Metric_Type.
      - All Host_Types
 
-\*Data repositories may choose to conform to the Code of Practice R5.1 or, alternatively, may wish to work with the Code of Practice for Research Data.
+\*Data repositories may choose to conform to the Code of Practice R5.1, or alternatively may wish to work with the Code of Practice for Research Data.
 
 See :numref:`platform-reports` below for details on Platform Usage Reports.
 

@@ -7,7 +7,7 @@
 Formats for COUNTER Reports
 ---------------------------
 
-COUNTER Reports and Standard Views of the COUNTER Reports MUST be delivered in machine-readable data (JSON) via the COUNTER_SUSHI API and in tabular form as .tsv files. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
+COUNTER Reports and Standard Views of the COUNTER Reports MUST be delivered in machine-readable form (JSON) via the COUNTER_SUSHI API and in tabular form as .tsv files. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
 
 Except where otherwise specified, the remainder of this section uses COUNTER Reports to refer to both the four COUNTER Reports and the Standard Views of the COUNTER Reports.
 
@@ -300,7 +300,7 @@ At least one DOI, ISBN, Online_ISSN, Print_ISSN, Proprietary_ID or URI SHOULD be
 
 .. rubric:: Parent Item Description and Identifiers
 
-When reporting usage on content items like articles and book chapters, it is often desirable to identify the item’s parent item, such as the journal or book it is part of. This next grouping of columns identifies the parents and is used by a small subset of reports.
+When reporting usage on content items like articles and book chapters in an Item Report, it is often desirable to identify the item’s parent item, such as the journal or book it is part of. This next grouping of columns identifies the parents and is used by a small subset of reports. Note that if any parent information is included in an Item Report, the Parent_Data_Type MUST be specified.
 
 Table 3.j (below): Elements that Describe a Parent Item
 
