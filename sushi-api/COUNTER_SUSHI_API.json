@@ -9,8 +9,8 @@
         "description": "This version of the COUNTER_SUSHI API applies to Release 5.1 of the COUNTER Code of Practice, which can be read online at https://cop5.projectcounter.org/.\n\nThis workspace provides a detailed description of the entire COUNTER_SUSHI API, including the JSON schema for COUNTER Reports and Standard Views of the COUNTER Reports. \n\nIt is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.\n\nIf you have any queries, please contact the Project Director (tasha.mellins-cohen@counterusage.org).",
         "summary": "COUNTER_SUSHI API for Release 5.1",
         "license": {
-            "name": "CC BY-SA 4.0",
-            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+            "name": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "contact": {
             "name": "COUNTER Project Director",
