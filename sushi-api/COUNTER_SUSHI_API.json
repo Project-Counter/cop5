@@ -6569,7 +6569,6 @@
                                         "Subdivision_Name",
                                         "Subdivision_Code",
                                         "Attributed",
-                                        "Format",
                                         "Book_Segment_Count"
                                     ]
                                 }
@@ -10637,7 +10636,7 @@
                 "properties": {
                     "DOI": {
                         "type": "string",
-                        "pattern": "^10\\.[1-9][0-9]{3}[0-9.]*\\/.+$"
+                        "pattern": "^10\\.[1-9][0-9]{2}[0-9.]*\\/.+$"
                     },
                     "ISBN": {
                         "type": "string",
@@ -10716,7 +10715,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message. See Table D.1 in the Code of Practice, Appendix D."
                     },
                     "Help_URL": {
@@ -10749,7 +10748,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message."
                     },
                     "Help_URL": {
@@ -10796,7 +10795,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message."
                     },
                     "Help_URL": {
