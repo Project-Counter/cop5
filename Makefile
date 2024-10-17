@@ -13,7 +13,7 @@ help: sphinx
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 venv:
-	python3 -m venv venv
+	python3.11 -m venv venv
 	venv/bin/pip -q install --upgrade pip
 	venv/bin/pip -q install -r requirements.txt
 
