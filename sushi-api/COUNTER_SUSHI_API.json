@@ -10716,7 +10716,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message. See Table D.1 in the Code of Practice, Appendix D."
                     },
                     "Help_URL": {
@@ -10749,7 +10749,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message."
                     },
                     "Help_URL": {
@@ -10796,7 +10796,7 @@
                     },
                     "Message": {
                         "type": "string",
-                        "minlength": 2,
+                        "minLength": 2,
                         "description": "Exception Message."
                     },
                     "Help_URL": {
