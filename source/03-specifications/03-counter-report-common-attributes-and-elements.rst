@@ -117,11 +117,11 @@ To facilitate flexible reporting, R5 introduced Data_Types representing major gr
 
 The table lists the Data_Types and related Host_Types which use them in one or more reports for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
 
-Report providers MUST report metrics in line with the following:
+Report providers MUST report Data_Types in line with the following:
 
-* Host_Types required to provide the TR MUST deliver title level information in the PR (e.g. Journal for a journal article or Book for a book). If the DR is also required, usage MUST be reported at the title level within the DR.
-* Host_Types required to provide the TR and which choose to also offer the IR MUST report usage at the item level in IR (e.g. Article for a journal article, Book_Segment for a book).
-* Host_Types that are required to provide the IR MUST also report at item level in the PR and, if required, the DR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q.
+* Investigations and Requests reported in the DR MUST be reported with the same Data_Type in the PR.
+* Investigations and Requests reported in the TR MUST be reported with the same Data_Type in the DR (if applicable) and the PR.
+* Investigations and Requests reported in the IR but not in the DR or TR MUST be reported with the same Data_Type in the PR.
 
 Table 3.p (below): List of Data_Type Values
 
@@ -147,7 +147,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -229,7 +231,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Image
      - A form of multimedia describing a static visual image.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -237,7 +241,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Interactive_Resource
      - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -255,7 +261,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Multimedia
      - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -289,6 +297,7 @@ Table 3.p (below): List of Data_Type Values
    * - Patent
      - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
      - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
@@ -340,7 +349,9 @@ Table 3.p (below): List of Data_Type Values
 
    * - Sound
      - A form of multimedia, typically describing materials that are audio-only, such as radio programmes.
-     - Full_Content_Database\ |br|\ |lb|
+     - A&I_Database\ |br|\ |lb|
+       Aggregated_Full_Content\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -377,11 +388,15 @@ Table 3.p (below): List of Data_Type Values
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1
 
-Some Data_Types are associated with Parent_Data_Types. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+Parent_Data_Types apply where usage is reported in the IR and either the DR or TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+
+Report providers MUST report Parent_Data_Types in line with the following:
 
 * Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
-* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information as specified in the table.
-* Data_Types MUST NOT be used with other Parent_Data_Types than those listed in the table.
+* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information in the IR.
+* Data_Types MUST NOT be used with other Parent_Data_Types than those listed in Table 3.q.
+* Usage reported in the IR that is also reported in the DR but not in TR MUST include the Data_Type from the DR as the Parent_Data_Type in the IR.
+* Usage reported in the IR that is also reported in the TR MUST include the Data_Type from the TR as the Parent_Data_Type in the IR, unless the Data_Type and Parent_Data_Type would be identical, in which case the Parent_Data_Type (and all other parent information) MUST be omitted.
 
 Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
@@ -408,6 +423,9 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
    * - Database_Full_Item
      - Database_Full
+
+   * - Multimedia Data_Types: Audiovisual, Image, Interactive_Resource, Multimedia, Sound
+     - Database_Aggregated if the item is part of a Database_Aggregated, or Database_Full if the item is part of a Database_Full, or none (omit parent information) if the item it not part of a database
 
    * - News_Item
      - Newspaper_or_Newsletter
