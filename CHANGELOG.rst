@@ -33,7 +33,7 @@ Release 5.1
 * SUSHI: clarify requirements for /r51/members endpoint `#219 <https://github.com/Project-Counter/cop5/issues/219>`_ [sushi]
 * SUSHI: add common extension parameters to COUNTER_SUSHI API paths `#224 <https://github.com/Project-Counter/cop5/issues/224>`_ [report structure]
 * SUSHI: remove search parameter from COUNTER_SUSHI API path /r51/reports `#232 <https://github.com/Project-Counter/cop5/issues/232>`_ [documentation]
-* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
+* SUSHI/JSON: upgrade COUNTER_SUSHI API Specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
 * JSON: JSON format changes `#183 <https://github.com/Project-Counter/cop5/issues/183>`_ [report structure]
 * JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
 

@@ -7,7 +7,7 @@
 Delivery of COUNTER Reports
 ===========================
 
-Report providers MUST make COUNTER Reports and Standard Views of the COUNTER Reports available in JSON format via the COUNTER_SUSHI API. Report providers MUST also make tabular versions of their reports available from an administrative/reporting site accessible by members of the institution requesting the report.
+Report providers MUST make COUNTER Reports and Standard Views of the COUNTER Reports available in JSON format via the COUNTER API (formerly sushi). Report providers MUST also make tabular versions of their reports available from an administrative/reporting site accessible by members of the institution requesting the report.
 
 * Reports MUST be provided monthly.
 * Data MUST be updated within 4 weeks of the end of the reporting period.
