@@ -40,7 +40,7 @@ COUNTER Code of Practice Release 5.1
    05-delivery/index
    06-logging/index
    07-processing/index
-   08-sushi/index
+   08-api/index
    09-audit/index
    10-compliance/index
    11-extending/index
