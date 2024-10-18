@@ -53,4 +53,4 @@ Content to Report Usage On
 
 When a COUNTER report is harvested by a consortium administrator, a report provider may choose to limit member usage to include only content acquired through the consortium. Note that when such a limitation is in place the resulting report may differ from the member-sites own version of the report. Since not all report providers can provide such limits, the consortium will be responsible for ensuring usage is filtered to the content they license for members.
 
-When the report provider chooses to limit member usage to only content acquired through the consortium, they MUST include a message to this effect in the Notes element in their implementation of the /r51/members path in the COUNTER_SUSHI API (see :numref:`sushi` above).
+When the report provider chooses to limit member usage to only content acquired through the consortium, they MUST include a message to this effect in the Notes element in their implementation of the /r51/members path in the COUNTER_SUSHI API (see :numref:`api` above).
