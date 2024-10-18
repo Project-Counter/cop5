@@ -5,7 +5,7 @@
 Delivering JSON Reports
 -----------------------
 
-* JSON reports MUST be formatted in accordance with the COUNTER_SUSHI API Specification (see :numref:`sushi`).
+* JSON reports MUST be formatted in accordance with the COUNTER_SUSHI API Specification (see :numref:`api`).
 * The reports MUST be encoded using UTF-8. JSON reports and other SUSHI server responses MUST NOT include a byte order mark (according to `RFC 8259, Section 8.1 <https://datatracker.ietf.org/doc/html/rfc8259#section-8.1>`_).
 * JSON Reports MUST be "minimal", i.e. information that can be included in a single objects MUST NOT be split into multiple objects:
 

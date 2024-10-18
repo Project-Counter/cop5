@@ -11,7 +11,7 @@ Appendix D: Handling Errors and Exceptions
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`sushi`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
+Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`api`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
 
 There are four types of errors that can occur while responding to COUNTER_SUSHI API calls:
 

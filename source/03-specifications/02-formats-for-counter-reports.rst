@@ -7,7 +7,7 @@
 Formats for COUNTER Reports
 ---------------------------
 
-COUNTER Reports and Standard Views of the COUNTER Reports MUST be delivered in machine-readable form (JSON) via the COUNTER_SUSHI API and in tabular form as .tsv files. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`sushi` below).
+COUNTER Reports and Standard Views of the COUNTER Reports MUST be delivered in machine-readable form (JSON) via the COUNTER_SUSHI API and in tabular form as .tsv files. The tabular form MUST be provided as either an Excel or a tab-separated-value (TSV) file, or both. Additional file formats that can be easily imported into spreadsheet programs without loss or corruption may be offered at the vendor's discretion. The reports in JSON, TSV and other text formats MUST be encoded using UTF-8. The JSON format MUST comply with the COUNTER_SUSHI API Specification (see :numref:`api` below).
 
 Except where otherwise specified, the remainder of this section uses COUNTER Reports to refer to both the four COUNTER Reports and the Standard Views of the COUNTER Reports.
 

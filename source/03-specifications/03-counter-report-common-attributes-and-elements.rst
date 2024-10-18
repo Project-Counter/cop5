@@ -927,7 +927,7 @@ The value for an element might be missing or unknown, for example a title might 
 * For tabular reports the cell MUST be left blank.
 * For JSON reports
 
-  * If the COUNTER_SUSHI API Specification (see :numref:`sushi`) indicates the element is REQUIRED, the value of the element MUST be expressed as empty as appropriate for the data type.
+  * If the COUNTER_SUSHI API Specification (see :numref:`api`) indicates the element is REQUIRED, the value of the element MUST be expressed as empty as appropriate for the data type.
   * If the element is not REQUIRED according to the COUNTER_SUSHI API Specification, the element MUST be omitted.
 
 For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.

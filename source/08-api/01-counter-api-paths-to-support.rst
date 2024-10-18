@@ -2,7 +2,7 @@
    is licensed under CC BY 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by/4.0/
 
-.. _sushi-paths:
+.. _api-paths:
 
 COUNTER_SUSHI API Paths to Support
 ----------------------------------
@@ -30,7 +30,7 @@ The following paths (methods) MUST be supported:
      - /r51/status
      - Returns the current status of the COUNTER_SUSHI API service. This path returns a message that includes the operating status of the API, the URL to the service’s entry in the COUNTER Registry, and an array of service alerts (if any).
 
-       This path MUST be public, i.e. not protected by the methods described in :numref:`sushi-security`, to allow report consumers to easily check whether a SUSHI server is live.
+       This path MUST be public, i.e. not protected by the methods described in :numref:`api-security`, to allow report consumers to easily check whether a SUSHI server is live.
 
    * - GET
      - /r51/reports

@@ -63,7 +63,7 @@ Table 4.d (below): Database Report and Standard Views of the Database Report
 Report Header
 """""""""""""
 
-The table below shows the header details for the Database Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Database Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing, and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`api` below). Entries in the table appearing in italics describe the values to include.
 
 Note that for the Global Database Report, if provided, the Institution_Name should be “The World”.
 
@@ -164,7 +164,7 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`sushi` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the COUNTER Report if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`api` below). Mandatory (M) elements MUST be included in the report. The other elements MUST only be included in the COUNTER Report if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.f (below): Column Headings/Elements for Database Report and Standard Views of the Database Report
 

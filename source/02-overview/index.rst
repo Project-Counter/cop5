@@ -17,7 +17,7 @@ This section provides an overview of the scope of the COUNTER Code of Practice.
 
 :numref:`processing` :ref:`processing` discusses topics such as which HTTP status codes to count, double-click filtering, calculating unique items and unique titles accessed in a session, classifying searches (regular, federated, automated, or platform), robots and internet crawlers, tools that cause bulk downloads, and text and data mining.
 
-:numref:`sushi` :ref:`sushi` offers a more in-depth description of the REQUIRED COUNTER_SUSHI API support.
+:numref:`api` :ref:`api` offers a more in-depth description of the REQUIRED COUNTER_SUSHI API support.
 
 :numref:`audit` :ref:`audit` provides the requirements for the COUNTER audit.
 
