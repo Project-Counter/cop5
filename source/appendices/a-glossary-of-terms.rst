@@ -257,8 +257,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - The four primary reports (Platform, Database, Title and Item Reports) defined by COUNTER, highly flexible with multiple filter options, and with associated Standard Views of the COUNTER Reports.
      -
 
-   * - COUNTER_SUSHI API
-     - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format.
+   * - COUNTER API
+     - A RESTful implementation of automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. Formerly known as COUNTER_SUSHI API.
+
+     COUNTER compliance requires report providers to implement the COUNTER API.
      -
 
    * - Crawler
@@ -989,8 +991,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Data that supports research findings and may include databases, spreadsheets, tables, raw transaction logs, etc.
      -
 
-   * - RESTful COUNTER_SUSHI API
-     - A RESTful implementation of SUSHI automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. RESTful is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.
+   * - RESTful COUNTER API
+     - A RESTful implementation of automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. RESTful is based on representational state transfer (REST) technology, an architectural style and approach to communications often used in web services development.
      -
 
    * - Robot
@@ -1127,9 +1129,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - SUSHI
-     - Short form for the COUNTER_SUSHI API used in COUNTER R5 for harvesting COUNTER reports.
-
-       COUNTER compliance requires content hosts to implement the COUNTER_SUSHI API.
+     - SUSHI and COUNTER_SUSHI_API were references to SUSHI-Lite, the RESTful version of SUSHI that was described in an unpublished NISO Technical Report. The preferred term is COUNTER API.
      -
 
    * - Tab Separated Value

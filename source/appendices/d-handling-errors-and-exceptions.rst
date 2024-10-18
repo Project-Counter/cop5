@@ -11,20 +11,20 @@ Appendix D: Handling Errors and Exceptions
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-Exceptions are used both for reporting errors that occur while responding to a COUNTER_SUSHI API call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER_SUSHI API Specification (see :numref:`api`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
+Exceptions are used both for reporting errors that occur while responding to a COUNTER API (formerly sushi) call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER API Specification (see :numref:`api`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
 
-There are four types of errors that can occur while responding to COUNTER_SUSHI API calls:
+There are four types of errors that can occur while responding to COUNTER API calls:
 
-* The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the SUSHI server MUST respond with HTTP status code 404.
-* While processing a COUNTER_SUSHI API call an error occurs that usually prohibits generating the requested report, report list, member list or server status. The SUSHI server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
-* The SUSHI server detects errors in a report request that can be ignored and processing can continue. The SUSHI server SHOULD continue processing the request and return HTTP status code 200 and the report in JSON format with the appropriate Exceptions in the report header.
+* The base URL, for example the release, or the method is wrong, resulting in an invalid path. In this case the COUNTER API server MUST respond with HTTP status code 404.
+* While processing a COUNTER API call an error occurs that usually prohibits generating the requested report, report list, member list or server status. The COUNTER API server MUST respond with the appropriate non-200 HTTP status code and a single Exception in JSON format (see below).
+* The COUNTER API server detects errors in a report request that can be ignored and processing can continue. The COUNTER API server SHOULD continue processing the request and return HTTP status code 200 and the report in JSON format with the appropriate Exceptions in the report header.
 * The report differs from what might be expected, for example the report is empty because there was no usage. In this case the report in JSON format MUST be returned with the appropriate Exceptions in the report header.
 
 When requesting a tabular report at an administrative/reporting site, only the last type of error should occur and be included in a report. The website is expected to gracefully handle other errors that might occur while generating the report.
 
-While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the SUSHI server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
+While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the COUNTER API server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
 
-The COUNTER_SUSHI API Specification defines the general JSON format for Exceptions as follows:
+The COUNTER API Specification defines the general JSON format for Exceptions as follows:
 
 .. code-block:: JSON
 
@@ -67,7 +67,7 @@ As indicated in the code above, Exceptions in JSON format have the following ele
 * **Data:** The Data element contains additional information that further describes the Exception. For some Exceptions this additional information MUST be provided (as indicated in Table D.1 below), for other Exceptions it is optional.
 * **Help_URL**: An optional element that contains an URL to a help page that explains the Exception in more detail.
 
-Table D.1 lists all permissible Exceptions. The COUNTER_SUSHI API Specification also includes this information, in the form of one Exception schema per row in Table D.1. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
+Table D.1 lists all permissible Exceptions. The COUNTER API Specification also includes this information, in the form of one Exception schema per row in Table D.1. Note that the standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.
 
 Table D.1 (below): Exceptions
 
