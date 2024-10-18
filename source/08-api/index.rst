@@ -18,7 +18,7 @@ The COUNTER_SUSHI API Specification for R5.1 is more detailed and precise than t
 .. toctree::
    :maxdepth: 1
 
-   01-counter-sushi-api-paths-to-support
-   02-authentication-and-security-for-counter-sushi-api
+   01-counter-api-paths-to-support
+   02-authentication-and-security-for-counter-api
    03-report-filters-and-report-attributes
    04-errors-and-exceptions
