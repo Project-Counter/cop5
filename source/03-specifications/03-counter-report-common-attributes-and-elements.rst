@@ -118,7 +118,11 @@ To facilitate flexible reporting, R5 introduced Data_Types representing major gr
 The table lists the Data_Types and related Host_Types which use them in one or more reports for compliance, but Host_Types may choose to offer additional reports. For example, we encourage all Host_Types to offer the Global Item Report using all relevant Data_Types.
 
 Report providers MUST report Data_Types in line with the following:
+Report providers MUST report Data_Types in line with the following:
 
+* Investigations and Requests reported in the DR MUST be reported with the same Data_Type in the PR.
+* Investigations and Requests reported in the TR MUST be reported with the same Data_Type in the DR (if applicable) and the PR.
+* Investigations and Requests reported in the IR but not in the DR or TR MUST be reported with the same Data_Type in the PR.
 * Investigations and Requests reported in the DR MUST be reported with the same Data_Type in the PR.
 * Investigations and Requests reported in the TR MUST be reported with the same Data_Type in the DR (if applicable) and the PR.
 * Investigations and Requests reported in the IR but not in the DR or TR MUST be reported with the same Data_Type in the PR.
@@ -147,9 +151,6 @@ Table 3.p (below): List of Data_Type Values
 
    * - Audiovisual
      - A form of multimedia, typically describing video content.
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
@@ -237,9 +238,6 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -247,9 +245,6 @@ Table 3.p (below): List of Data_Type Values
 
    * - Interactive_Resource
      - A form of multimedia, typically describing materials that require user interaction to be understood, executed, or experienced (e.g. quizzes).
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
@@ -270,9 +265,6 @@ Table 3.p (below): List of Data_Type Values
 
    * - Multimedia
      - Multimedia content such as audio, image, streaming audio, streaming video, and video, that cannot be easily classified as a specific multimedia Data_Type.
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
@@ -303,6 +295,7 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1
@@ -310,7 +303,6 @@ Table 3.p (below): List of Data_Type Values
    * - Patent
      - A patent document representing an exclusive right granted for an invention, which is a product or a process that provides, in general, a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
      - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
@@ -350,6 +342,7 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -367,9 +360,6 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
-     - A&I_Database\ |br|\ |lb|
-       Aggregated_Full_Content\ |br|\ |lb|
-       Full_Content_Database\ |br|\ |lb|
        Multimedia\ |br|\ |lb|
        Multimedia_Collection
      - PR, DR, IR\ |br|\ |lb|
@@ -381,6 +371,7 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -391,6 +382,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
@@ -404,6 +396,7 @@ Table 3.p (below): List of Data_Type Values
        Data_Repository\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
        Full_Content_Database\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -412,8 +405,15 @@ Table 3.p (below): List of Data_Type Values
 Parent_Data_Types apply where usage is reported in the IR and either the DR or TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
 
 Report providers MUST report Parent_Data_Types in line with the following:
+Parent_Data_Types apply where usage is reported in the IR and either the DR or TR. Only certain Data_Type and Parent_Data_Type combinations are permitted, as detailed in Table 3.q. For example, Data_Type Article has Parent_Data_Type Journal, while Data_Type Book_Segment has Parent_Data_Type Book.
+
+Report providers MUST report Parent_Data_Types in line with the following:
 
 * Host_Types that MUST offer an IR MUST provide Parent_Data_Type and other relevant parent information if it is available.
+* Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information in the IR.
+* Data_Types MUST NOT be used with other Parent_Data_Types than those listed in Table 3.q.
+* Usage reported in the IR that is also reported in the DR but not in TR MUST include the Data_Type from the DR as the Parent_Data_Type in the IR.
+* Usage reported in the IR that is also reported in the TR MUST include the Data_Type from the TR as the Parent_Data_Type in the IR, unless the Data_Type and Parent_Data_Type would be identical, in which case the Parent_Data_Type (and all other parent information) MUST be omitted.
 * Host_Types that choose to offer an IR (e.g. eJournal or eBook) SHOULD provide Parent_Data_Type and other relevant parent information in the IR.
 * Data_Types MUST NOT be used with other Parent_Data_Types than those listed in Table 3.q.
 * Usage reported in the IR that is also reported in the DR but not in TR MUST include the Data_Type from the DR as the Parent_Data_Type in the IR.
@@ -444,6 +444,9 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
    * - Database_Full_Item
      - Database_Full
+
+   * - Multimedia Data_Types: Audiovisual, Image, Interactive_Resource, Multimedia, Sound
+     - Database_Aggregated if the item is part of a Database_Aggregated, or Database_Full if the item is part of a Database_Full, or none (omit parent information) if the item it not part of a database
 
    * - Multimedia Data_Types: Audiovisual, Image, Interactive_Resource, Multimedia, Sound
      - Database_Aggregated if the item is part of a Database_Aggregated, or Database_Full if the item is part of a Database_Full, or none (omit parent information) if the item it not part of a database
