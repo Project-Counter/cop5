@@ -9,7 +9,7 @@ COUNTER API for Automated Report Harvesting
 
 The COUNTER API (formerly sushi) is designed to simplify the gathering of usage statistics by report consumers, and report providers MUST support automatic harvesting of COUNTER reports via the COUNTER API. Starting with R5.1, the specification for the RESTful COUNTER API uses JSON schema for the JSON format, and OpenAPI 3.1 for the API. The COUNTER API Specification is now maintained by COUNTER on Stoplight.io:
 
-`https://countermetrics.stoplight.io/docs/counter-sushi-api <https://countermetrics.stoplight.io/docs/counter-sushi-api>`_
+`https://countermetrics.stoplight.io/docs/counter-api <https://countermetrics.stoplight.io/docs/counter-api>`_
 
 The COUNTER API Specification is contained in a single OpenAPI 3.1/JSON schema file (COUNTER_API.json) which is used by Stoplight.io for presenting the information about the API paths and the JSON responses. It is expected that report providers will use only the parts relevant to them, or export the file and make local tailored copies relevant to their particular circumstances, for example by removing API paths and models detailing reports they do not support. Note that it is also possible to export the JSON schemas for the JSON reports and other API responses and use them with a JSON schema validator.
 
