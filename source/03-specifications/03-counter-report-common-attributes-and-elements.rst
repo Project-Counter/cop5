@@ -813,7 +813,7 @@ Report Filters and Report Attributes
 
 Customized views of the usage data are created by applying report filters and report attributes to the COUNTER Reports. The Standard Views of the COUNTER Reports specified by R5.1 are examples of such views. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. For COUNTER Reports the user can choose from specific sets of filters and attributes depending on the report, while for Standard Views of the COUNTER Reports the filters and attributes are pre-set except for an optional Platform filter.
 
-The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as Report_Filters and Report_Attributes objects and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER_SUSHI API each filter/attribute corresponds to a API path parameter with the same name in lower case (see the `COUNTER_SUSHI API Specification <https://countermetrics.stoplight.io/docs/counter-sushi-api>`_ for details).
+The filters and attributes used to create a report are included in the report header (unless the default value is used, in this case the filter/attribute MUST be omitted), for JSON reports as Report_Filters and Report_Attributes objects and for tabular reports encoded in the Metric_Types, Reporting_Period, Report_Filters and Report_Attributes elements (see :numref:`report-header` for the encoding). For the COUNTER API each filter/attribute corresponds to a API path parameter with the same name in lower case (see the `COUNTER API Specification <https://countermetrics.stoplight.io/docs/counter-api>`_ for details).
 
 The tables below show the attributes and filters and the reports where they (might) appear in the header (excluding Standard Views using the default values).
 
@@ -883,7 +883,7 @@ Table 3.y (below): Report Filters
 
    * - Begin_Date\ |br|\ |lb|
        End_Date
-     - Beginning and end of the reporting period. Note that the COUNTER_SUSHI API allows the format *yyyy-mm* for the API path parameters, which must be expanded with the first/last day of the month for the report header. For the tabular reports these filters are included in the Reporting_Period header instead of the Reporting_Filters header for easier reading.
+     - Beginning and end of the reporting period. Note that the COUNTER API allows the format *yyyy-mm* for the API path parameters, which must be expanded with the first/last day of the month for the report header. For the tabular reports these filters are included in the Reporting_Period header instead of the Reporting_Filters header for easier reading.
      - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Database
@@ -908,11 +908,11 @@ Table 3.y (below): Report Filters
      - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Platform
-     - The Platform filter is only intended in cases where there is a single endpoint for multiple platforms; that is, the same base URL for the COUNTER_SUSHI API is used for multiple platforms and the platform parameter is required for all API calls. In the web interface this would correspond to first selecting one platform and then creating reports only for that platform.
+     - The Platform filter is only intended in cases where there is a single endpoint for multiple platforms; that is, the same base URL for the COUNTER API is used for multiple platforms and the platform parameter is required for all API calls. In the web interface this would correspond to first selecting one platform and then creating reports only for that platform.
      - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - YOP
-     - Range of years of publication for which to include usage (default: all). For the COUNTER_SUSHI API more complex filter values (list of years and ranges) MUST be supported.
+     - Range of years of publication for which to include usage (default: all). For the COUNTER API more complex filter values (list of years and ranges) MUST be supported.
      - TR, IR
 
 
@@ -945,8 +945,8 @@ The value for an element might be missing or unknown, for example a title might 
 * For tabular reports the cell MUST be left blank.
 * For JSON reports
 
-  * If the COUNTER_SUSHI API Specification (see :numref:`api`) indicates the element is REQUIRED, the value of the element MUST be expressed as empty as appropriate for the data type.
-  * If the element is not REQUIRED according to the COUNTER_SUSHI API Specification, the element MUST be omitted.
+  * If the COUNTER API Specification (see :numref:`api`) indicates the element is REQUIRED, the value of the element MUST be expressed as empty as appropriate for the data type.
+  * If the element is not REQUIRED according to the COUNTER API Specification, the element MUST be omitted.
 
 For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.
 

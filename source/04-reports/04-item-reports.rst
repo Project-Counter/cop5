@@ -54,7 +54,7 @@ Table 4.n (below): Item Report and Standard Views of the Item Report
 Report Header
 """""""""""""
 
-The table below shows the header details for the Item Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER_SUSHI API Specification (see :numref:`api` below). Entries in the table appearing in italics describe the values to include.
+The table below shows the header details for the Item Report and its Standard Views. For the tabular reports, elements MUST appear in the exact order shown, and spelling, casing and punctuation of labels (Column A) and fixed data elements such as report names (Column B) MUST match exactly. The JSON version of the report MUST comply with the Report_Header definition in the COUNTER API Specification (see :numref:`api` below). Entries in the table appearing in italics describe the values to include.
 
 Note that for the Global Item Report, if provided, the Institution_Name should be “The World”.
 
@@ -155,7 +155,7 @@ Table 4.o (below): Header for Item Report and Standard Views of the Item Report
 Column Headings/Elements
 """"""""""""""""""""""""
 
-The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER_SUSHI API Specification (see :numref:`api` below). Mandatory (M) elements MUST be included in the report. The Parent elements MUST only be included in the COUNTER Report if called for (C) via Include_Parent_Details. For report providers who elect to offer component usage information, the Component elements MUST only be included in the COUNTER Report if called for (C) via Include_Component_Details. If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
+The following elements MUST appear in the tabular report in the order they appear in the table below. For guidance on how these elements appear in the JSON format, refer to the COUNTER API Specification (see :numref:`api` below). Mandatory (M) elements MUST be included in the report. The Parent elements MUST only be included in the COUNTER Report if called for (C) via Include_Parent_Details. For report providers who elect to offer component usage information, the Component elements MUST only be included in the COUNTER Report if called for (C) via Include_Component_Details. If they are included, then the corresponding Include_Parent_Details=True or Include_Component_Details=True MUST be included in the Report_Attributes header. The other elements also MUST only be included if called for (C), and if included they MUST be listed in Attributes_To_Show in the Report_Attributes header.
 
 Table 4.p (below): Column Headings/Elements for Item Report and Standard Views of the Item Report
 
@@ -418,7 +418,7 @@ Table 4.q (below): Filters/Attributes for Item Report and Standard Views of the 
    * - YOP
      - All years (default), a specific year in the format yyyy, or a range of years in the format yyyy-yyyy. Use 0001 for unknown or 9999 for articles in press.
 
-       Note that the COUNTER_SUSHI API allows the specification of multiple years and ranges separated by the vertical pipe (“|”) character.
+       Note that the COUNTER API allows the specification of multiple years and ranges separated by the vertical pipe (“|”) character.
      -
      -
 
