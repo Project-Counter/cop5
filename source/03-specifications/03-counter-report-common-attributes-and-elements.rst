@@ -302,6 +302,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1
@@ -348,6 +349,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -378,6 +380,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -388,6 +391,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -399,6 +403,7 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
