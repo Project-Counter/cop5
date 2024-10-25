@@ -6,15 +6,15 @@
     "info": {
         "title": "COUNTER API",
         "version": "5.1",
-        "description": "This version of the COUNTER API (formerly sushi) applies to Release 5.1 of the COUNTER Code of Practice, which can be read online at https://cop5.projectcounter.org/.\n\nThis workspace provides a detailed description of the entire COUNTER API, including the JSON schema for COUNTER Reports and Standard Views of the COUNTER Reports. \n\nIt is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.\n\nIf you have any queries, please contact the Project Director (tasha.mellins-cohen@counterusage.org).",
+        "description": "This version of the COUNTER API (formerly sushi) applies to Release 5.1 of the COUNTER Code of Practice, which can be read online at https://cop5.countermetrics.org/.\n\nThis workspace provides a detailed description of the entire COUNTER API, including the JSON schema for COUNTER Reports and Standard Views of the COUNTER Reports. \n\nIt is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.\n\nIf you have any queries, please contact the Executive Director (code@countermetrics.org).",
         "summary": "COUNTER API for Release 5.1",
         "license": {
             "name": "CC BY 4.0",
             "url": "https://creativecommons.org/licenses/by/4.0/"
         },
         "contact": {
-            "name": "COUNTER Project Director",
-            "email": "tasha.mellins-cohen@counterusage.org"
+            "name": "COUNTER Executive Director",
+            "email": "code@countermetrics.org"
         }
     },
     "tags": [
@@ -1224,7 +1224,7 @@
                     },
                     "Registry_Record": {
                         "type": "string",
-                        "pattern": "^(https://registry.projectcounter.org/platform/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
+                        "pattern": "^(https://registry.countermetrics.org/platform/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
                         "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST omit this element."
                     },
                     "Note": {
@@ -1258,7 +1258,7 @@
                     {
                         "Description": "COUNTER Usage Reports for EBSCOhost platform.",
                         "Service_Active": true,
-                        "Registry_Record": "https://registry.projectcounter.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/b2b2736c-2cb9-48ec-91f4-870336acfb1c",
                         "Alerts": [
                             {
                                 "Date_Time": "2016-08-02T12:54:05Z",
@@ -1411,7 +1411,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Attributes": {
                                 "Attributes_To_Show": [
                                     "Access_Method"
@@ -1622,7 +1622,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Searches_Platform",
@@ -1776,7 +1776,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Attributes": {
                                 "Attributes_To_Show": [
                                     "Access_Method"
@@ -2074,7 +2074,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Searches_Automated",
@@ -2273,7 +2273,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Limit_Exceeded",
@@ -2417,7 +2417,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Attributes": {
                                 "Attributes_To_Show": [
                                     "YOP",
@@ -2812,7 +2812,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Requests",
@@ -2944,7 +2944,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Limit_Exceeded",
@@ -3073,7 +3073,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Investigations",
@@ -3248,7 +3248,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Requests",
@@ -3343,7 +3343,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Limit_Exceeded",
@@ -3435,7 +3435,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Investigations",
@@ -3565,7 +3565,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Requests",
@@ -3683,7 +3683,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Attributes": {
                                 "Attributes_To_Show": [
                                     "Authors",
@@ -4195,7 +4195,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Requests",
@@ -4384,7 +4384,7 @@
                                 ]
                             },
                             "Institution_Name": "Sample Institution",
-                            "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                            "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                             "Report_Filters": {
                                 "Metric_Type": [
                                     "Total_Item_Requests",
@@ -4571,7 +4571,7 @@
                     },
                     "Registry_Record": {
                         "type": "string",
-                        "pattern": "^(https://registry.projectcounter.org/platform/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
+                        "pattern": "^(https://registry.countermetrics.org/platform/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
                         "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank."
                     }
                 },
@@ -4661,7 +4661,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Attributes": {
                             "Attributes_To_Show": [
                                 "Access_Method"
@@ -5171,7 +5171,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Searches_Platform",
@@ -5529,7 +5529,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Attributes": {
                             "Attributes_To_Show": [
                                 "Access_Method"
@@ -5998,7 +5998,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Searches_Automated",
@@ -6244,7 +6244,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Limit_Exceeded",
@@ -6448,7 +6448,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Attributes": {
                             "Attributes_To_Show": [
                                 "YOP",
@@ -6828,7 +6828,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Requests",
@@ -7075,7 +7075,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Limit_Exceeded",
@@ -7309,7 +7309,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Investigations",
@@ -7588,7 +7588,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Requests",
@@ -7818,7 +7818,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Limit_Exceeded",
@@ -8035,7 +8035,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Investigations",
@@ -8302,7 +8302,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Requests",
@@ -8556,7 +8556,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Attributes": {
                             "Attributes_To_Show": [
                                 "Authors",
@@ -9354,7 +9354,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Requests",
@@ -9767,7 +9767,7 @@
                             ]
                         },
                         "Institution_Name": "Sample Institution",
-                        "Registry_Record": "https://registry.projectcounter.org/platform/99999999-9999-9999-9999-999999999999",
+                        "Registry_Record": "https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999",
                         "Report_Filters": {
                             "Metric_Type": [
                                 "Total_Item_Requests",
