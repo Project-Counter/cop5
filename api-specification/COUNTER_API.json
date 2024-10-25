@@ -4,10 +4,10 @@
         "id": "yc1o09env0d2a"
     },
     "info": {
-        "title": "COUNTER_SUSHI API",
+        "title": "COUNTER API",
         "version": "5.1",
-        "description": "This version of the COUNTER_SUSHI API applies to Release 5.1 of the COUNTER Code of Practice, which can be read online at https://cop5.projectcounter.org/.\n\nThis workspace provides a detailed description of the entire COUNTER_SUSHI API, including the JSON schema for COUNTER Reports and Standard Views of the COUNTER Reports. \n\nIt is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.\n\nIf you have any queries, please contact the Project Director (tasha.mellins-cohen@counterusage.org).",
-        "summary": "COUNTER_SUSHI API for Release 5.1",
+        "description": "This version of the COUNTER API (formerly sushi) applies to Release 5.1 of the COUNTER Code of Practice, which can be read online at https://cop5.projectcounter.org/.\n\nThis workspace provides a detailed description of the entire COUNTER API, including the JSON schema for COUNTER Reports and Standard Views of the COUNTER Reports. \n\nIt is expected that reporting services will use only the parts relevant to them, or make local tailored copies relevant to their particular circumstances, for example by removing methods detailing reports they do not support.\n\nIf you have any queries, please contact the Project Director (tasha.mellins-cohen@counterusage.org).",
+        "summary": "COUNTER API for Release 5.1",
         "license": {
             "name": "CC BY 4.0",
             "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -109,7 +109,7 @@
             "get": {
                 "summary": "Server Status",
                 "operationId": "get-r51-status",
-                "description": "Returns the current status of the reporting service(s) supported by the SUSHI server.\n\nThis path MUST be public to allow report consumers to easily check whether a SUSHI server is live.",
+                "description": "Returns the current status of the reporting service(s) supported by the COUNTER API server.\n\nThis path MUST be public to allow report consumers to easily check whether a COUNTER API server is live.",
                 "parameters": [
                     {
                         "$ref": "#/components/parameters/platform"
@@ -166,7 +166,7 @@
                         "$ref": "#/components/parameters/platform"
                     }
                 ],
-                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing SUSHI credentials."
+                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing COUNTER API credentials."
             },
             "parameters": []
         },
@@ -211,7 +211,7 @@
                         "$ref": "#/components/parameters/platform"
                     }
                 ],
-                "description": "Returns the list of reports supported by the SUSHI server for the customer, including the first and last months for which usage data has been processed and is available. This information SHOULD be specific for the customer ID."
+                "description": "Returns the list of reports supported by the COUNTER API server for the customer, including the first and last months for which usage data has been processed and is available. This information SHOULD be specific for the customer ID."
             },
             "parameters": []
         },
@@ -1267,7 +1267,7 @@
                         ]
                     }
                 ],
-                "description": "Status of a reporting service supported by a SUSHI server.",
+                "description": "Status of a reporting service supported by a COUNTER API server.",
                 "title": "Status Information",
                 "x-tags": [
                     "Server Status"
@@ -1299,7 +1299,7 @@
                     "Requestor_ID": {
                         "type": "string",
                         "minLength": 1,
-                        "description": "Requestor ID for requests to the API for the institution. This element MUST be omitted if the requestor ID is identical to the requestor ID in the request (or the SUSHI server does not use requestor IDs)."
+                        "description": "Requestor ID for requests to the API for the institution. This element MUST be omitted if the requestor ID is identical to the requestor ID in the request (or the COUNTER API server does not use requestor IDs)."
                     },
                     "Notes": {
                         "type": "string",
@@ -1319,7 +1319,7 @@
                 "type": "object",
                 "examples": [],
                 "title": "Report Information",
-                "description": "Information about a report supported by a SUSHI server.",
+                "description": "Information about a report supported by a COUNTER API server.",
                 "x-stoplight": {
                     "id": "85tjmqdp3o57g"
                 },
@@ -11836,7 +11836,7 @@
                 "schema": {
                     "type": "string"
                 },
-                "description": "Name of the platform the report data is being requested for. Might be required if a SUSHI server provides usage data for multiple platforms."
+                "description": "Name of the platform the report data is being requested for. Might be required if a COUNTER API server provides usage data for multiple platforms."
             },
             "requestor_id": {
                 "name": "requestor_id",
@@ -11984,7 +11984,7 @@
                 "schema": {
                     "type": "string"
                 },
-                "description": "Optional Report_Attribute. Include this parameter to include details of the item components in the report (if supported by the SUSHI server). Omitting the parameter will exclude the item component elements."
+                "description": "Optional Report_Attribute. Include this parameter to include details of the item components in the report (if supported by the COUNTER API server). Omitting the parameter will exclude the item component elements."
             },
             "include_parent_details": {
                 "name": "include_parent_details",

@@ -5,13 +5,13 @@ Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained
 
   https://cop5.projectcounter.org/
 
-All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub issues and linked pull requests. Starting with the publication of Release 5.0.2 the SwaggerHub feature "GitHub Sync" will be used to also track changes to the COUNTER_SUSHI API Specification, for Release 5.0.2 there are only issues for these changes.
+All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub issues and linked pull requests.
 
-The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, sushi, documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
+The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, counter api (formerly sushi), documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
 
 
 Release 5.1
--------------
+-----------
 
 `List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.1%22>`_
 
@@ -33,7 +33,7 @@ Release 5.1
 * SUSHI: clarify requirements for /r51/members endpoint `#219 <https://github.com/Project-Counter/cop5/issues/219>`_ [sushi]
 * SUSHI: add common extension parameters to COUNTER_SUSHI API paths `#224 <https://github.com/Project-Counter/cop5/issues/224>`_ [report structure]
 * SUSHI: remove search parameter from COUNTER_SUSHI API path /r51/reports `#232 <https://github.com/Project-Counter/cop5/issues/232>`_ [documentation]
-* SUSHI/JSON: upgrade COUNTER_SUSHI API specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
+* SUSHI/JSON: upgrade COUNTER_SUSHI API Specification to OpenAPI3.1/JSON schema `#182 <https://github.com/Project-Counter/cop5/issues/182>`_ [report structure]
 * JSON: JSON format changes `#183 <https://github.com/Project-Counter/cop5/issues/183>`_ [report structure]
 * JSON: remove Customer_ID from report header `#204 <https://github.com/Project-Counter/cop5/issues/204>`_ [report structure] 
 
