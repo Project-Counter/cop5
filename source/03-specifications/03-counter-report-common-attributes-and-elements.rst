@@ -290,6 +290,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository
      - PR, DR, TR, IR\ |br|\ |lb|
        PR_P1
@@ -335,6 +336,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -362,6 +364,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -372,6 +375,7 @@ Table 3.p (below): List of Data_Type Values
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -383,6 +387,7 @@ Table 3.p (below): List of Data_Type Values
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
        Discovery_Service\ |br|\ |lb|
+       Full_Content_Database\ |br|\ |lb|
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
@@ -402,11 +407,11 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.2}|>{\parskip=\tparskip}\Y{0.29}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.23}|>{\raggedright\arraybackslash}\Y{0.77}|
 
 .. list-table::
    :class: longtable
-   :widths: 20 29
+   :widths: 23 77
    :header-rows: 1
 
    * - Data_Type in IR
@@ -424,14 +429,31 @@ Table 3.q (below): List of Parent_Data_Type Values and Associated Data_Types
    * - Database_Full_Item
      - Database_Full
 
-   * - Multimedia Data_Types: Audiovisual, Image, Interactive_Resource, Multimedia, Sound
-     - Database_Aggregated if the item is part of a Database_Aggregated, or Database_Full if the item is part of a Database_Full, or none (omit parent information) if the item it not part of a database
-
    * - News_Item
      - Newspaper_or_Newsletter
 
    * - Reference_Item
      - Reference_Work
+
+   * - Audiovisual\ |br|\ |lb|
+       Image\ |br|\ |lb|
+       Interactive_Resource\ |br|\ |lb|
+       Multimedia\ |br|\ |lb|
+       Sound
+     - One of:\ |br|\ |lb|
+       - Database_Aggregated if the item is part of a Database_Aggregated\ |br|\ |lb|
+       - Database_Full if the item is part of a Database_Full\ |br|\ |lb|
+       - no Parent_Data_Type (omit parent information) if the item it not part of a database
+
+   * - Other\ |br|\ |lb|
+       Patent\ |br|\ |lb|
+       Report\ |br|\ |lb|
+       Standard\ |br|\ |lb|
+       Thesis_or_Dissertation\ |br|\ |lb|
+       Unspecified
+     - One of:\ |br|\ |lb|
+       - Database_Full if the item is part of a Database_Full\ |br|\ |lb|
+       - no Parent_Data_Type (omit parent information) if the item it not part of a Database_Full
 
 
 .. _metric-types:
