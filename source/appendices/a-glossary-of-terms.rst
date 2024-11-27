@@ -260,7 +260,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
    * - COUNTER API
      - A RESTful implementation of automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. Formerly known as COUNTER_SUSHI API.
 
-     COUNTER compliance requires report providers to implement the COUNTER API.
+       COUNTER compliance requires report providers to implement the COUNTER API.
      -
 
    * - Crawler
