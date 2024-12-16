@@ -13,9 +13,9 @@ Created_By	Sample Publisher
 Registry_Record	https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999																	
 																		
 Database	Publisher	Publisher_ID	Platform	Proprietary_ID	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
-Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Limit_Exceeded	1207	70	93	112	109	92	116	99	146	74	102	120	74
-Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	No_License	1192	94	94	104	99	88	105	126	84	141	87	59	111
-Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Limit_Exceeded	977	58	126	100	77	53	105	61	92	93	44	77	91
-Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	No_License	1151	84	120	89	105	26	151	104	102	89	71	125	85
-Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Limit_Exceeded	1077	105	107	135	100	85	67	94	75	66	56	98	89
-Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	No_License	1057	107	83	48	107	70	47	143	62	140	74	89	87
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	Limit_Exceeded	616	47	59	38	32	49	69	74	67	43	79	47	12
+Database 1	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB1	No_License	549	41	77	42	45	26	64	64	31	62	39	21	37
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	Limit_Exceeded	489	32	70	24	58	15	65	26	29	75	12	54	29
+Database 2	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB2	No_License	528	40	54	44	70	14	74	31	36	32	18	53	62
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	Limit_Exceeded	519	69	73	67	37	13	43	21	20	43	40	38	55
+Database 3	Sample Publisher	ISNI:4321432143214321	Platform 1	P1:DB3	No_License	499	43	12	18	51	22	25	78	43	72	40	69	26
