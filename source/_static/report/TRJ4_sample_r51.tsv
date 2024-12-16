@@ -14,6 +14,6 @@ Registry_Record	https://registry.countermetrics.org/platform/99999999-9999-9999-
 																							
 Title	Publisher	Publisher_ID	Platform	DOI	Proprietary_ID	Print_ISSN	Online_ISSN	URI	YOP	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
 Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2022	Total_Item_Requests	2526	150	247	243	193	233	217	221	152	154	240	176	300
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2021	Total_Item_Requests	2526	150	247	243	193	233	217	221	152	154	240	176	300
 Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2022	Unique_Item_Requests	1896	113	186	183	144	175	163	165	114	116	180	132	225
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2021	Unique_Item_Requests	1896	113	186	183	144	175	163	165	114	116	180	132	225
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2021	Total_Item_Requests	3210	207	304	300	250	290	274	278	209	211	297	233	357
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	2021	Unique_Item_Requests	2580	170	243	240	201	232	220	222	171	173	237	189	282

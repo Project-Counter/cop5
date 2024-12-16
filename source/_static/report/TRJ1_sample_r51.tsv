@@ -13,5 +13,5 @@ Created_By	Sample Publisher
 Registry_Record	https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999																					
 																						
 Title	Publisher	Publisher_ID	Platform	DOI	Proprietary_ID	Print_ISSN	Online_ISSN	URI	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Total_Item_Requests	8844	526	866	852	674	816	760	772	532	540	840	616	1050
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Unique_Item_Requests	3792	226	372	366	288	350	326	330	228	232	360	264	450
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Total_Item_Requests	5736	357	551	543	443	523	491	499	361	365	537	409	657
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Unique_Item_Requests	4476	283	429	423	345	407	383	387	285	289	417	321	507

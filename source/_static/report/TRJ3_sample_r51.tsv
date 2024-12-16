@@ -13,11 +13,11 @@ Created_By	Sample Publisher
 Registry_Record	https://registry.countermetrics.org/platform/99999999-9999-9999-9999-999999999999																						
 																							
 Title	Publisher	Publisher_ID	Platform	DOI	Proprietary_ID	Print_ISSN	Online_ISSN	URI	Access_Type	Metric_Type	Reporting_Period_Total	Jan-2022	Feb-2022	Mar-2022	Apr-2022	May-2022	Jun-2022	Jul-2022	Aug-2022	Sep-2022	Oct-2022	Nov-2022	Dec-2022
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Total_Item_Investigations	8426	500	824	812	642	778	724	736	508	514	800	588	1000
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Total_Item_Requests	5052	300	494	486	386	466	434	442	304	308	480	352	600
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Unique_Item_Investigations	6320	376	618	608	482	582	544	552	380	386	600	442	750
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Unique_Item_Requests	3792	226	372	366	288	350	326	330	228	232	360	264	450
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Total_Item_Investigations	25280	1504	2476	2434	1928	2332	2174	2206	1522	1542	2398	1766	2998
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Total_Item_Requests	15170	902	1486	1462	1156	1400	1304	1324	914	926	1438	1060	1798
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Unique_Item_Investigations	18960	1128	1858	1826	1446	1750	1630	1654	1142	1156	1798	1324	2248
-Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Unique_Item_Requests	11378	676	1114	1096	868	1050	978	994	686	694	1078	796	1348
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Total_Item_Investigations	9110	557	881	869	699	835	781	793	565	571	857	645	1057
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Total_Item_Requests	5736	357	551	543	443	523	491	499	361	365	537	409	657
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Unique_Item_Investigations	7004	433	675	665	539	639	601	609	437	443	657	499	807
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Controlled	Unique_Item_Requests	4476	283	429	423	345	407	383	387	285	289	417	321	507
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Total_Item_Investigations	26012	1565	2537	2495	1989	2393	2235	2267	1583	1603	2459	1827	3059
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Total_Item_Requests	15902	963	1547	1523	1217	1461	1365	1385	975	987	1499	1121	1859
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Unique_Item_Investigations	19692	1189	1919	1887	1507	1811	1691	1715	1203	1217	1859	1385	2309
+Title 3	Sample Publisher	ISNI:4321432143214321	Platform 1	10.9999/xxxxt03	P1:T03		1234-4321	https://doi.org/10.9999/xxxxt03	Open	Unique_Item_Requests	12110	737	1175	1157	929	1111	1039	1055	747	755	1139	857	1409
