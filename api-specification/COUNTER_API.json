@@ -15641,7 +15641,7 @@
                         "type": "string",
                         "enum": [
                             "Month",
-                            "Total"
+                            "Totals"
                         ]
                     }
                 },
@@ -17319,10 +17319,10 @@
                     "type": "string",
                     "enum": [
                         "Month",
-                        "Total"
+                        "Totals"
                     ]
                 },
-                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Total (usage not broken down by months)."
+                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Totals (usage not broken down by months)."
             },
             "database": {
                 "name": "database",
