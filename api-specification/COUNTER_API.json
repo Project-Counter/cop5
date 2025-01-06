@@ -17006,6 +17006,140 @@
                             "items": {
                                 "$ref": "#/components/schemas/Report"
                             }
+                        },
+                        "examples": {
+                            "Example 1": {
+                                "value": [
+                                    {
+                                        "Report_Name": "Platform Report",
+                                        "Report_ID": "PR",
+                                        "Release": "5.1",
+                                        "Report_Description": "A customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Platform Usage",
+                                        "Report_ID": "PR_P1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Platform-level usage summarized by Metric_Type.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Database Report",
+                                        "Report_ID": "DR",
+                                        "Release": "5.1",
+                                        "Report_Description": "A customizable report detailing activity by database that allows the user to apply filters and select other configuration options.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Database Search and Item Usage",
+                                        "Report_ID": "DR_D1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on key Searches, Investigations and Requests metrics needed to evaluate a database.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Database Access Denied",
+                                        "Report_ID": "DR_D2",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on Access Denied activity for databases where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the database.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Title Report",
+                                        "Report_ID": "TR",
+                                        "Release": "5.1",
+                                        "Report_Description": "A customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Book Requests (Controlled)",
+                                        "Report_ID": "TR_B1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on full-text activity for books, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Book Access Denied",
+                                        "Report_ID": "TR_B2",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on Access Denied activity for books where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the book.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Book Usage by Access Type",
+                                        "Report_ID": "TR_B3",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on book usage showing all applicable Metric_Types broken down by Access_Type.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Journal Requests (Controlled)",
+                                        "Report_ID": "TR_J1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on usage of journal content, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Item_Requests.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Journal Access Denied",
+                                        "Report_ID": "TR_J2",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on Access Denied activity for journal content where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the title.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Journal Usage by Access Type",
+                                        "Report_ID": "TR_J3",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on usage of journal content for all Metric_Types broken down by Access_Type.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Journal Requests by YOP (Controlled)",
+                                        "Report_ID": "TR_J4",
+                                        "Release": "5.1",
+                                        "Report_Description": "Breaks down the usage of journal content, excluding Open and Free_To_Read content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Item Report",
+                                        "Report_ID": "IR",
+                                        "Release": "5.1",
+                                        "Report_Description": "A granular, customizable report showing activity at the level of the item (article, chapter, media object, etc.) that allows the user to apply filters and select other configuration options.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Journal Article Requests",
+                                        "Report_ID": "IR_A1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article and Metric_Types of Total_Item_Requests and Unique_Item_Requests.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    },
+                                    {
+                                        "Report_Name": "Multimedia Item Requests",
+                                        "Report_ID": "IR_M1",
+                                        "Release": "5.1",
+                                        "Report_Description": "Reports on multimedia requests at the item level.",
+                                        "First_Month_Available": "2024-01",
+                                        "Last_Month_Available": "2024-11"
+                                    }
+                                ]
+                            }
                         }
                     }
                 }
