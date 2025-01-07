@@ -14166,6 +14166,14 @@
                             },
                             "Performance": {
                                 "$ref": "#/components/schemas/IR_Performance"
+                            },
+                            "Components": {
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/components/schemas/IR_Component_Item"
+                                },
+                                "uniqueItems": true,
+                                "minItems": 1
                             }
                         },
                         "required": [
@@ -14402,6 +14410,12 @@
                         "$ref": "#/components/schemas/Counts"
                     },
                     "Total_Item_Requests": {
+                        "$ref": "#/components/schemas/Counts"
+                    },
+                    "Limit_Exceeded": {
+                        "$ref": "#/components/schemas/Counts"
+                    },
+                    "No_License": {
                         "$ref": "#/components/schemas/Counts"
                     }
                 },
@@ -15450,14 +15464,6 @@
                             },
                             "Article_Version": {
                                 "$ref": "#/components/schemas/Article_Version"
-                            },
-                            "Components": {
-                                "type": "array",
-                                "items": {
-                                    "$ref": "#/components/schemas/IR_Component_Item"
-                                },
-                                "uniqueItems": true,
-                                "minItems": 1
                             }
                         }
                     }
