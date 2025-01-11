@@ -1,15 +1,47 @@
 Change Log
 ==========
 
-Starting with Release 5.0.2 the COUNTER Code of Practice Release 5 is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_. The HTML and PDF version are build with `Sphinx <https://www.sphinx-doc.org/>`_ from the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ in the `source <source/>`_ directory and can be read online at
+Starting with Release 5.0.2 the COUNTER Code of Practice is maintained in the GitHub repository `Project-Counter/cop5 <https://github.com/Project-Counter/cop5>`_. The HTML and PDF version are build with `Sphinx <https://www.sphinx-doc.org/>`_ from the `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_ in the `source <source/>`_ directory and can be read online at
 
-  https://cop5.projectcounter.org/
+  https://cop5.countermetrics.org/
 
-All changes to the COUNTER Code of Practice Release 5 are tracked with GitHub issues and linked pull requests.
+All changes to the COUNTER Code of Practice are tracked with GitHub issues and linked pull requests.
 
 The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, counter api (formerly sushi), documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
 
+Release 5.1.0.1
+---------------
 
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22R5.1.0.1%22>`_
+
+**Bug Fixes**
+
+* Format extension (JSON schema) `#244 <https://github.com/Project-Counter/cop5/issues/244>`_ [documentation]
+* Parent_Data_Type and Data_Type `#246 <https://github.com/Project-Counter/cop5/issues/246>`_ [permitted attribute values]
+* JSON fixes `#249 <https://github.com/Project-Counter/cop5/issues/249>`_ [documentation]
+* Fix the structure for Reports_Items with Components in the COUNTER API Specification `#292 <https://github.com/Project-Counter/cop5/issues/292>`_ [report structure, permitted attribute values]
+* Fix the permitted values for Granularity in the COUNTER API Specification `#293 <https://github.com/Project-Counter/cop5/issues/293>`_ [permitted attribute values]
+
+**Text Edits and Clarifications**
+
+* Registry links in headers (section 3.2.1) `#239 <https://github.com/Project-Counter/cop5/issues/239>`_ [documentation]
+* Newspaper or Newsletter (section 3.3.2) `#240 <https://github.com/Project-Counter/cop5/issues/240>`_ [documentation]
+* Access Type changes mid month (section 3.3.4) `#241 <https://github.com/Project-Counter/cop5/issues/241>`_ [documentation]
+* Reporting Denials (section 4) `#242 <https://github.com/Project-Counter/cop5/issues/242>`_ [documentation]
+* Journal name change rules (section 7.11) `#243 <https://github.com/Project-Counter/cop5/issues/243>`_ [documentation]
+* Typographic amendments and clarifications `#245 <https://github.com/Project-Counter/cop5/issues/245>`_ [documentation]
+* Clarifying requirements for ISBN `#247 <https://github.com/Project-Counter/cop5/issues/247>`_ [documentation]
+* COUNTER API (formerly sushi) `#248 <https://github.com/Project-Counter/cop5/issues/248>`_ [documentation]
+* Sample reports from the COUNTER API specification (section 8) `#250 <https://github.com/Project-Counter/cop5/issues/250>`_ [documentation]
+* Licensing `#252 <https://github.com/Project-Counter/cop5/issues/252>`_ [documentation]
+* Change log `#260 <https://github.com/Project-Counter/cop5/issues/260>`_ [documentation]
+* Add reports list to table 3.o `#262 <https://github.com/Project-Counter/cop5/issues/262>`_ [documentation]
+* Branding `#266 <https://github.com/Project-Counter/cop5/issues/266>`_ [documentation]
+* Update configuration for building the CoP documents `#268 <https://github.com/Project-Counter/cop5/issues/268>`_ [documentation]
+* Update change log, release information and URLs `#269 <https://github.com/Project-Counter/cop5/issues/269>`_ [documentation]
+* Improve sample COUNTER Reports and Standard Views `#287 <https://github.com/Project-Counter/cop5/issues/287>`_ [documentation]
+
+  
 Release 5.1
 -----------
 
