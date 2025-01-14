@@ -2,9 +2,9 @@
    is licensed under CC BY 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by/4.0/
 
-====================================
-COUNTER Code of Practice Release 5.1
-====================================
+========================================
+COUNTER Code of Practice Release 5.1.0.1
+========================================
 
 .. Same abstract in conf.py for the PDF version!
 
@@ -14,7 +14,7 @@ COUNTER Code of Practice Release 5.1
 
    The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.
 
-   Release 5.1 (published 5 May 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.
+   Release 5.1.0.1 (published 14 January 2025) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.
 
 .. only:: not (latex or builder_html)
 

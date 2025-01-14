@@ -28,7 +28,7 @@ author = 'COUNTER'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '5.1'
+release = '5.1.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -184,7 +184,7 @@ latex_elements = {
     ''',
     'maketitle': r'''
         \hypersetup{
-            pdftitle={COUNTER Code of Practice Release 5.1},
+            pdftitle={COUNTER Code of Practice Release 5.1.0.1},
             pdfauthor={COUNTER}
         }
         \pagenumbering{Roman}
@@ -195,9 +195,9 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Release 5.1}}\par
+                {\Huge \textbf{\color{TitleColor} Release 5.1.0.1}}\par
                 \vspace{50pt}
-                {Published: 5 May 2023}\par
+                {Published: 14 January 2025}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -211,7 +211,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s report consumer and report provider members have contributed to the development of Release 5.1 (R5.1) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.}\par
-            {Release 5.1 (published 5 May 2023) will become the current Code of Practice and the requirement for COUNTER compliance effective from January 2025.}\par
+            {Release 5.1.0.1 (published 14 January 2025) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
@@ -249,7 +249,7 @@ latex_documents = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice',
-     author, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice Release 5.1',
+     author, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice Release 5.1.0.1',
      'Miscellaneous'),
 ]
 
