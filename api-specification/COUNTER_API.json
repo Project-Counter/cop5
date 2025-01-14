@@ -1,7 +1,7 @@
 {
     "openapi": "3.1.0",
     "x-stoplight": {
-        "id": "yc1o09env0d2a"
+        "id": "au9uaf0yg84mo"
     },
     "info": {
         "title": "COUNTER API",
@@ -122,7 +122,10 @@
                 },
                 "tags": [
                     "Server Status"
-                ]
+                ],
+                "x-stoplight": {
+                    "id": "8bmbushs5pxel"
+                }
             }
         },
         "/r51/members": {
@@ -166,7 +169,10 @@
                         "$ref": "#/components/parameters/platform"
                     }
                 ],
-                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing COUNTER API credentials."
+                "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing COUNTER API credentials.",
+                "x-stoplight": {
+                    "id": "cpeuj2etekukw"
+                }
             },
             "parameters": []
         },
@@ -211,7 +217,10 @@
                         "$ref": "#/components/parameters/platform"
                     }
                 ],
-                "description": "Returns the list of reports supported by the COUNTER API server for the customer, including the first and last months for which usage data has been processed and is available. This information SHOULD be specific for the customer ID."
+                "description": "Returns the list of reports supported by the COUNTER API server for the customer, including the first and last months for which usage data has been processed and is available. This information SHOULD be specific for the customer ID.",
+                "x-stoplight": {
+                    "id": "ntn2mj2pv2b9g"
+                }
             },
             "parameters": []
         },
@@ -289,7 +298,10 @@
                         "$ref": "#/components/parameters/subdivision_code"
                     }
                 ],
-                "description": "Returns the COUNTER Report PR - Platform Report.\n\nPR is a customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options."
+                "description": "Returns the COUNTER Report PR - Platform Report.\n\nPR is a customizable report summarizing activity across a report provider’s platforms that allows the user to apply filters and select other configuration options.",
+                "x-stoplight": {
+                    "id": "wil5vg2nw7875"
+                }
             },
             "parameters": []
         },
@@ -343,7 +355,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the PR_P1 Standard Views of the Platform Report - Platform Usage.\n\nPR_P1 reports on platform-level usage summarized by Metric_Type."
+                "description": "Returns the PR_P1 Standard Views of the Platform Report - Platform Usage.\n\nPR_P1 reports on platform-level usage summarized by Metric_Type.",
+                "x-stoplight": {
+                    "id": "14woct8zgfn7y"
+                }
             },
             "parameters": []
         },
@@ -424,7 +439,10 @@
                         "$ref": "#/components/parameters/subdivision_code"
                     }
                 ],
-                "description": "Returns the COUNTER Report DR - Database Report.\n\nDR is a customizable report detailing activity by database that allows the user to apply filters and select other configuration options."
+                "description": "Returns the COUNTER Report DR - Database Report.\n\nDR is a customizable report detailing activity by database that allows the user to apply filters and select other configuration options.",
+                "x-stoplight": {
+                    "id": "182f2d81pwsnl"
+                }
             },
             "parameters": []
         },
@@ -478,7 +496,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the DR_D1 Standard View of the Database Report - Database Search and Item Usage.\n\nDR_D1 reports on key Searches, Investigations and Requests metrics needed to evaluate a database."
+                "description": "Returns the DR_D1 Standard View of the Database Report - Database Search and Item Usage.\n\nDR_D1 reports on key Searches, Investigations and Requests metrics needed to evaluate a database.",
+                "x-stoplight": {
+                    "id": "z8bik3hyq48vh"
+                }
             },
             "parameters": []
         },
@@ -532,7 +553,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the DR_D2 Standard View of the Database Report - Database Access Denied.\n\nDR_D2 reports on Access Denied activity for databases where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the database."
+                "description": "Returns the DR_D2 Standard View of the Database Report - Database Access Denied.\n\nDR_D2 reports on Access Denied activity for databases where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the database.",
+                "x-stoplight": {
+                    "id": "z7nirme3tiy89"
+                }
             },
             "parameters": []
         },
@@ -619,7 +643,10 @@
                         "$ref": "#/components/parameters/subdivision_code"
                     }
                 ],
-                "description": "Returns the COUNTER Report TR - Title Report.\n\nTR is a customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options."
+                "description": "Returns the COUNTER Report TR - Title Report.\n\nTR is a customizable report detailing activity at the title level (journal, book, etc.) that allows the user to apply filters and select other configuration options.",
+                "x-stoplight": {
+                    "id": "ggc46up3hl3qn"
+                }
             },
             "parameters": []
         },
@@ -673,7 +700,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_B1 Standard View of the Title Report - Book Requests (Controlled).\n\nTR_B1 reports on full-text activity for books (Data_Types Book and Reference_Work), excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter)."
+                "description": "Returns the TR_B1 Standard View of the Title Report - Book Requests (Controlled).\n\nTR_B1 reports on full-text activity for books (Data_Types Book and Reference_Work), excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Title_Requests. The Unique_Title_Requests provides comparable usage across book platforms. The Total_Item_Requests shows overall activity; however, numbers between sites will vary significantly based on how the content is delivered (e.g. delivered as a complete book or by chapter).",
+                "x-stoplight": {
+                    "id": "b7a02ayvg1t7o"
+                }
             },
             "parameters": []
         },
@@ -727,7 +757,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_B2 Standard View of the Title Report - Book Access Denied.\n\nTR_B2 reports on Access Denied activity for books (Data_Types Book and Reference_Work) where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the book."
+                "description": "Returns the TR_B2 Standard View of the Title Report - Book Access Denied.\n\nTR_B2 reports on Access Denied activity for books (Data_Types Book and Reference_Work) where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the book.",
+                "x-stoplight": {
+                    "id": "q94cza8f3zvsl"
+                }
             },
             "parameters": []
         },
@@ -781,7 +814,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_B3 Standard View of the Title Report - Book Usage by Access Type.\n\nTR_B3 reports on book usage (Data_Types Book and Reference_Work) showing all applicable Metric_Types broken down by Access_Type."
+                "description": "Returns the TR_B3 Standard View of the Title Report - Book Usage by Access Type.\n\nTR_B3 reports on book usage (Data_Types Book and Reference_Work) showing all applicable Metric_Types broken down by Access_Type.",
+                "x-stoplight": {
+                    "id": "e0zfomsyrw4fw"
+                }
             },
             "parameters": []
         },
@@ -835,7 +871,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_J1 Standard View of the Title Report - Journal Requests (Controlled).\n\nTR_J1 reports on usage of journal content, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity."
+                "description": "Returns the TR_J1 Standard View of the Title Report - Journal Requests (Controlled).\n\nTR_J1 reports on usage of journal content, excluding Open and Free_To_Read content, as Total_Item_Requests and Unique_Item_Requests. The Unique_Item_Requests provides comparable usage across journal platforms by reducing the inflationary effect that occurs when an HTML full text automatically displays and the user then accesses the PDF version. The Total_Item_Requests shows overall activity.",
+                "x-stoplight": {
+                    "id": "tgmjh03kpps4d"
+                }
             },
             "parameters": []
         },
@@ -889,7 +928,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_J2 Standard View of the Title Report - Journal Access Denied.\n\nTR_J2 reports on Access Denied activity for journal content where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the title."
+                "description": "Returns the TR_J2 Standard View of the Title Report - Journal Access Denied.\n\nTR_J2 reports on Access Denied activity for journal content where users were denied access because simultaneous-use licenses were exceeded or their institution did not have a license for the title.",
+                "x-stoplight": {
+                    "id": "42tb3n2z00efu"
+                }
             },
             "parameters": []
         },
@@ -943,7 +985,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_J3 Standard View of the Title Report - Journal Usage by Access Type.\n\nTR_J3 reports on usage of journal content for all Metric_Types broken down by Access_Type."
+                "description": "Returns the TR_J3 Standard View of the Title Report - Journal Usage by Access Type.\n\nTR_J3 reports on usage of journal content for all Metric_Types broken down by Access_Type.",
+                "x-stoplight": {
+                    "id": "5tg1fkbs8ttfa"
+                }
             },
             "parameters": []
         },
@@ -997,7 +1042,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the TR_J4 Standard View of the Title Report- Journal Requests by YOP (Controlled).\n\nTR_J4 breaks down the usage of journal content, excluding Open and Free_To_Read content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreement. Note that COUNTER reports do not provide access model or perpetual access rights details."
+                "description": "Returns the TR_J4 Standard View of the Title Report- Journal Requests by YOP (Controlled).\n\nTR_J4 breaks down the usage of journal content, excluding Open and Free_To_Read content, by year of publication (YOP), providing counts for the Metric_Types Total_Item_Requests and Unique_Item_Requests. Provides the details necessary to analyze usage of content in backfiles or covered by perpetual access agreement. Note that COUNTER reports do not provide access model or perpetual access rights details.",
+                "x-stoplight": {
+                    "id": "if2iaic3b29f0"
+                }
             },
             "parameters": []
         },
@@ -1093,7 +1141,10 @@
                         "$ref": "#/components/parameters/subdivision_code"
                     }
                 ],
-                "description": "Returns the COUNTER Report IR - Item Report.\n\nIR is a granular, customizable report showing activity at the level of the item (article, chapter, media object, etc.) that allows the user to apply filters and select other configuration options."
+                "description": "Returns the COUNTER Report IR - Item Report.\n\nIR is a granular, customizable report showing activity at the level of the item (article, chapter, media object, etc.) that allows the user to apply filters and select other configuration options.",
+                "x-stoplight": {
+                    "id": "r22dp0fotaqts"
+                }
             },
             "parameters": []
         },
@@ -1147,7 +1198,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the IR_A1 Standard View of the Item Report - Journal Article Requests.\n\nIR_A1 reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article and Metric_Types of Total_Item_Requests and Unique_Item_Requests.\n\n"
+                "description": "Returns the IR_A1 Standard View of the Item Report - Journal Article Requests.\n\nIR_A1 reports on journal article requests at the article level. This report is limited to content with a Data_Type of Article and Metric_Types of Total_Item_Requests and Unique_Item_Requests.\n\n",
+                "x-stoplight": {
+                    "id": "f2uhz9w9zwnha"
+                }
             },
             "parameters": []
         },
@@ -1201,7 +1255,10 @@
                         "$ref": "#/components/parameters/end_date"
                     }
                 ],
-                "description": "Returns the IR_M1 Standard View of the Item Report - Multimedia Item Requests.\n\nIR_M1 reports on multimedia requests at the item level."
+                "description": "Returns the IR_M1 Standard View of the Item Report - Multimedia Item Requests.\n\nIR_M1 reports on multimedia requests at the item level.",
+                "x-stoplight": {
+                    "id": "bb8z0h7dptt9i"
+                }
             },
             "parameters": []
         }
@@ -1210,7 +1267,7 @@
         "schemas": {
             "Status": {
                 "x-stoplight": {
-                    "id": "hl1z2pte1fcod"
+                    "id": "ar3g2lwa3lo37"
                 },
                 "type": "object",
                 "properties": {
@@ -1275,7 +1332,7 @@
             },
             "Member": {
                 "x-stoplight": {
-                    "id": "kk8n3mp9srz9n"
+                    "id": "cb2lt5eknvxn6"
                 },
                 "title": "Member Information",
                 "description": "Customer ID and (if required for API requests) requestor ID for an institution.",
@@ -1462,7 +1519,7 @@
                 "title": "Report Information",
                 "description": "Information about a report supported by a COUNTER API server.",
                 "x-stoplight": {
-                    "id": "85tjmqdp3o57g"
+                    "id": "bntdmeog8lmwo"
                 },
                 "properties": {
                     "Report_Name": {
@@ -1533,7 +1590,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "t172pmzyytazo"
+                    "id": "06fikws8lv1ls"
                 },
                 "x-tags": [
                     "PR - Platform Report"
@@ -2231,7 +2288,7 @@
             "PR_P1": {
                 "title": "PR_P1 - Platform Usage",
                 "x-stoplight": {
-                    "id": "cgl0t1rtltfsg"
+                    "id": "uvq2mrnx11qkt"
                 },
                 "type": "object",
                 "properties": {
@@ -2692,7 +2749,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "tmqfp16kvrqx3"
+                    "id": "e49g5mypmbfu5"
                 },
                 "x-tags": [
                     "DR - Database Report"
@@ -3307,7 +3364,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "2mblwe5zya7vc"
+                    "id": "wu9gtujat8bvc"
                 },
                 "x-tags": [
                     "DR_D1 - Database Search and Item Usage"
@@ -3521,7 +3578,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "x59rqhum3d5b9"
+                    "id": "filovs2dfo3tr"
                 },
                 "x-tags": [
                     "DR_D2 - Database Access Denied"
@@ -3665,7 +3722,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "n7aezmkd9regr"
+                    "id": "f01a0ad05ijns"
                 },
                 "x-tags": [
                     "TR - Title Report"
@@ -4416,7 +4473,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "kmeojbjugh5l2"
+                    "id": "mxyll4gvm6i6r"
                 },
                 "x-tags": [
                     "TR_B1 - Book Requests (Controlled)"
@@ -4548,7 +4605,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "amuxfnj42bdql"
+                    "id": "pzcthvk87lnas"
                 },
                 "x-tags": [
                     "TR_B2 - Book Access Denied"
@@ -4677,7 +4734,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "qowis64ywe62d"
+                    "id": "lhg612kxi1s2w"
                 },
                 "x-tags": [
                     "TR_B3 - Book Usage by Access Type"
@@ -4852,7 +4909,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "7cp0h7n1hm2en"
+                    "id": "66pewx9iysyuk"
                 },
                 "x-tags": [
                     "TR_J1 - Journal Requests (Controlled)"
@@ -4947,7 +5004,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "ioh5ei34fpluz"
+                    "id": "62ils2miarn72"
                 },
                 "x-tags": [
                     "TR_J2 - Journal Access Denied"
@@ -5039,7 +5096,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "5slh0nryxyfgf"
+                    "id": "6dfua9i5avrhe"
                 },
                 "x-tags": [
                     "TR_J3 - Journal Usage by Access Type"
@@ -5169,7 +5226,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "tegry7atchgx4"
+                    "id": "oddqiv1jfwd88"
                 },
                 "x-tags": [
                     "TR_J4 - Journal Requests by YOP (Controlled)"
@@ -5287,7 +5344,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "gpxv7s6izna34"
+                    "id": "96eo0w32fxy2j"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -6853,7 +6910,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "8g5zs5lfjro0b"
+                    "id": "uck2ahyaa2stm"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -7042,7 +7099,7 @@
                     "Report_Items"
                 ],
                 "x-stoplight": {
-                    "id": "uiu0jx5cml6t7"
+                    "id": "o2wtd02ggvdy4"
                 },
                 "x-tags": [
                     "IR_M1 - Multimedia Item Requests"
@@ -7252,7 +7309,7 @@
             },
             "Base_Report_Header": {
                 "x-stoplight": {
-                    "id": "mww6oexysw0ge"
+                    "id": "6tmoun8hivi6v"
                 },
                 "type": "object",
                 "title": "Base Report_Header",
@@ -7387,7 +7444,7 @@
             },
             "Base_Report_Filters": {
                 "x-stoplight": {
-                    "id": "fsjhn17nnb843"
+                    "id": "7ny160jujcllt"
                 },
                 "type": "object",
                 "examples": [
@@ -7475,7 +7532,7 @@
                     "PR - Platform Report"
                 ],
                 "x-stoplight": {
-                    "id": "5kpsquvbl2v9j"
+                    "id": "4ay4bzmz2xm3z"
                 }
             },
             "PR_Report_Filters": {
@@ -7559,7 +7616,7 @@
                     "PR - Platform Report"
                 ],
                 "x-stoplight": {
-                    "id": "3wikuuhv4hnbv"
+                    "id": "1l5jh8a550htj"
                 }
             },
             "PR_Report_Attributes": {
@@ -7605,7 +7662,7 @@
                     "PR - Platform Report"
                 ],
                 "x-stoplight": {
-                    "id": "yikd6ndtvc83d"
+                    "id": "0ddu2h2x5at5b"
                 }
             },
             "PR_Report_Item": {
@@ -8304,7 +8361,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "hgnc0kg4cv6zn"
+                    "id": "p5nvx33xdi9kg"
                 }
             },
             "PR_Attribute_Performance_Platform": {
@@ -8351,7 +8408,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "6s3l2a9vz6n3q"
+                    "id": "ri5wodp6cs5nu"
                 }
             },
             "PR_Attribute_Performance_Other": {
@@ -8448,7 +8505,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "dhem0q50ngzyd"
+                    "id": "97nd9tj2ybhvb"
                 }
             },
             "PR_Performance_Platform": {
@@ -8471,7 +8528,7 @@
                 "minProperties": 1,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "bc86tnytr571j"
+                    "id": "qb5cdngpy9kw2"
                 },
                 "x-tags": [
                     "PR - Platform Report"
@@ -8537,7 +8594,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "jot9tz1tbt9i2"
+                    "id": "hhnp0hyqbe2nf"
                 },
                 "x-tags": [
                     "PR - Platform Report"
@@ -8600,7 +8657,7 @@
                     "PR_P1 - Platform Usage"
                 ],
                 "x-stoplight": {
-                    "id": "2y69oqojyfwky"
+                    "id": "0xavrbb9dcd16"
                 }
             },
             "PR_P1_Report_Filters": {
@@ -8645,7 +8702,7 @@
                     "PR_P1 - Platform Usage"
                 ],
                 "x-stoplight": {
-                    "id": "xggfvq5by3gx0"
+                    "id": "oyshu9qe9aeof"
                 }
             },
             "PR_P1_Report_Item": {
@@ -9069,7 +9126,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "4a8aw0vlytzeo"
+                    "id": "v7aifgvzcu1cm"
                 }
             },
             "PR_P1_Attribute_Performance_Platform": {
@@ -9087,7 +9144,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "vrr38jf3ovkga"
+                    "id": "2zve3xzverims"
                 },
                 "type": "object",
                 "properties": {
@@ -9133,7 +9190,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "ywl8b81ap62xq"
+                    "id": "72cj2gqm2pgkg"
                 },
                 "type": "object",
                 "properties": {
@@ -9191,7 +9248,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "os1htj6tx0m5b"
+                    "id": "jcfe1169gz2c1"
                 },
                 "type": "object",
                 "properties": {
@@ -9227,7 +9284,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "mgu8ibcbgrwe0"
+                    "id": "2kvprp5jwf1d0"
                 },
                 "type": "object",
                 "properties": {
@@ -9275,7 +9332,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR - Report_Header",
                 "x-stoplight": {
-                    "id": "lgppen3qw4sug"
+                    "id": "h74l5s2euko00"
                 },
                 "examples": [
                     {
@@ -9387,7 +9444,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "arp83wbvfetzv"
+                    "id": "c0je2emycob8w"
                 },
                 "x-tags": [
                     "DR - Database Report"
@@ -9433,7 +9490,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "spnsr15bib3zr"
+                    "id": "0752xn5saf6fq"
                 },
                 "x-tags": [
                     "DR - Database Report"
@@ -9469,7 +9526,7 @@
                 ],
                 "unevaluatedProperties": false,
                 "x-stoplight": {
-                    "id": "47rf5vea24nap"
+                    "id": "brfjywrzpgofd"
                 },
                 "title": "DR - Report_Item",
                 "x-tags": [
@@ -9924,7 +9981,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "7ii07dnc5weov"
+                    "id": "p078b5wzit4dd"
                 }
             },
             "DR_Attribute_Performance_Other": {
@@ -10014,7 +10071,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "x21xwoz6858ye"
+                    "id": "goh9fm0bl8fyd"
                 }
             },
             "DR_Performance_Database": {
@@ -10069,7 +10126,7 @@
                 "minProperties": 1,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "cgao5v6kgefof"
+                    "id": "no6tr312wxemo"
                 },
                 "x-tags": [
                     "DR - Database Report"
@@ -10135,7 +10192,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "la7136jjh1elh"
+                    "id": "x952chvd7cu98"
                 },
                 "x-tags": [
                     "DR - Database Report"
@@ -10166,7 +10223,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D1 - Report_Header",
                 "x-stoplight": {
-                    "id": "59m4k0n7ysg66"
+                    "id": "pswvaub5et9tk"
                 },
                 "examples": [
                     {
@@ -10246,7 +10303,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D1 - Report_Filters",
                 "x-stoplight": {
-                    "id": "sliclay2yr1rp"
+                    "id": "9zfmg650jn92g"
                 },
                 "x-tags": [
                     "DR_D1 - Database Search and Item Usage"
@@ -10276,7 +10333,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D1 - Report_Item",
                 "x-stoplight": {
-                    "id": "bx3qxrr7xis3l"
+                    "id": "d0pdant0otxr1"
                 },
                 "x-tags": [
                     "DR_D1 - Database Search and Item Usage"
@@ -10392,7 +10449,7 @@
                 ],
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "9e4wd4piasw3f"
+                    "id": "nuo9p2td40827"
                 },
                 "x-tags": [
                     "DR_D1 - Database Search and Item Usage"
@@ -10466,7 +10523,7 @@
                 "minProperties": 1,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "zh4u5km5bjj7x"
+                    "id": "fznuxhkp2on13"
                 },
                 "x-tags": [
                     "DR_D1 - Database Search and Item Usage"
@@ -10497,7 +10554,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D2 - Report_Header",
                 "x-stoplight": {
-                    "id": "el8zh5t81wbpv"
+                    "id": "yxnsh846mw3bj"
                 },
                 "examples": [
                     {
@@ -10567,7 +10624,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D2 - Report_Filters",
                 "x-stoplight": {
-                    "id": "f9p7rnrqw3s58"
+                    "id": "ehemckrahnild"
                 },
                 "x-tags": [
                     "DR_D2 - Database Access Denied"
@@ -10597,7 +10654,7 @@
                 "unevaluatedProperties": false,
                 "title": "DR_D2 - Report_Item",
                 "x-stoplight": {
-                    "id": "3502czqernudx"
+                    "id": "hqb137oa5rxhl"
                 },
                 "x-tags": [
                     "DR_D2 - Database Access Denied"
@@ -10663,7 +10720,7 @@
                 ],
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "6fhlq7qds49qr"
+                    "id": "3e8xsgx6h4hyz"
                 },
                 "x-tags": [
                     "DR_D2 - Database Access Denied"
@@ -10697,7 +10754,7 @@
                 "minProperties": 1,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "5lgjfo7rqu396"
+                    "id": "1e4u5g7k6659n"
                 },
                 "x-tags": [
                     "DR_D2 - Database Access Denied"
@@ -10731,7 +10788,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR - Report_Header",
                 "x-stoplight": {
-                    "id": "2ihyi3twljei2"
+                    "id": "4px3esieammx7"
                 },
                 "examples": [
                     {
@@ -10845,7 +10902,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "ikcjo9wyfo37k"
+                    "id": "hqu7knig79f7x"
                 },
                 "x-tags": [
                     "TR - Title Report"
@@ -10896,7 +10953,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "r0nbyyl1j56xk"
+                    "id": "w19a0wmpz6aj5"
                 },
                 "x-tags": [
                     "TR - Title Report"
@@ -10936,7 +10993,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR - Report_Item",
                 "x-stoplight": {
-                    "id": "el61yju1kylm8"
+                    "id": "2j45lus8hc0t0"
                 },
                 "x-tags": [
                     "TR - Title Report"
@@ -11148,7 +11205,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "jyaddexytuhwr"
+                    "id": "zlfhw0d3kxsj1"
                 }
             },
             "TR_Performance": {
@@ -11227,7 +11284,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "0v12ognwi2zk2"
+                    "id": "p5flk51bgxgp3"
                 },
                 "x-tags": [
                     "TR - Title Report"
@@ -11258,7 +11315,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B1 - Report_Header",
                 "x-stoplight": {
-                    "id": "jv2tfha9qanco"
+                    "id": "052s5ism0rvu2"
                 },
                 "examples": [
                     {
@@ -11356,7 +11413,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B1 - Report_Filters",
                 "x-stoplight": {
-                    "id": "16xjook2llt1u"
+                    "id": "ht1u32e0qo3df"
                 },
                 "x-tags": [
                     "TR_B1 - Book Requests (Controlled)"
@@ -11386,7 +11443,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B1 - Report_Item",
                 "x-stoplight": {
-                    "id": "3yvmwksizcwam"
+                    "id": "zz014q2jr5lzp"
                 },
                 "x-tags": [
                     "TR_B1 - Book Requests (Controlled)"
@@ -11472,7 +11529,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "y88vgza9u3o7e"
+                    "id": "w48zc5xhfp5i4"
                 },
                 "x-tags": [
                     "TR_B1 - Book Requests (Controlled)"
@@ -11506,7 +11563,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "k5dbpeixxslwy"
+                    "id": "6vkszyzyrq9do"
                 },
                 "x-tags": [
                     "TR_B1 - Book Requests (Controlled)"
@@ -11537,7 +11594,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B2 - Report_Header",
                 "x-stoplight": {
-                    "id": "n5nqfrdms1p6m"
+                    "id": "v7s2f196gok2r"
                 },
                 "examples": [
                     {
@@ -11622,7 +11679,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B2 - Report_Filters",
                 "x-stoplight": {
-                    "id": "wcxhtz20r2pm3"
+                    "id": "phn2zdtzdjf2m"
                 },
                 "x-tags": [
                     "TR_B2 - Book Access Denied"
@@ -11652,7 +11709,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B2 - Report_Item",
                 "x-stoplight": {
-                    "id": "syl6svugeb04z"
+                    "id": "2jo2bto0i0de6"
                 },
                 "x-tags": [
                     "TR_B2 - Book Access Denied"
@@ -11738,7 +11795,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "ze7jmlmpaob23"
+                    "id": "qdlqgri5gl52e"
                 },
                 "x-tags": [
                     "TR_B2 - Book Access Denied"
@@ -11772,7 +11829,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "ly90mbh2s9l8w"
+                    "id": "zj5935hqgiuid"
                 },
                 "x-tags": [
                     "TR_B2 - Book Access Denied"
@@ -11803,7 +11860,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B3 - Report_Header",
                 "x-stoplight": {
-                    "id": "lutz4lb3ov4a6"
+                    "id": "gerptpja96rhf"
                 },
                 "examples": [
                     {
@@ -11896,7 +11953,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B3 - Report_Filters",
                 "x-stoplight": {
-                    "id": "d8z4qyvu3iwgd"
+                    "id": "ke9h8rxb7r0bg"
                 },
                 "x-tags": [
                     "TR_B3 - Book Usage by Access Type"
@@ -11926,7 +11983,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_B3 - Report_Item",
                 "x-stoplight": {
-                    "id": "zyduz72z14nfu"
+                    "id": "6wec4mmh74hco"
                 },
                 "x-tags": [
                     "TR_B3 - Book Usage by Access Type"
@@ -12058,7 +12115,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "m6dctygn8h9y4"
+                    "id": "o4jcchw7spi1m"
                 },
                 "x-tags": [
                     "TR_B3 - Book Usage by Access Type"
@@ -12124,7 +12181,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "xbtmleq4gkfvv"
+                    "id": "v8lpogu3luk9f"
                 },
                 "x-tags": [
                     "TR_B3 - Book Usage by Access Type"
@@ -12155,7 +12212,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J1 - Report_Header",
                 "x-stoplight": {
-                    "id": "7eyrrslldig4c"
+                    "id": "ne5z08rqav4gw"
                 },
                 "examples": [
                     {
@@ -12251,7 +12308,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J1 - Report_Filters",
                 "x-stoplight": {
-                    "id": "d81xlf1wh4n3e"
+                    "id": "oc13fhmyf0nyb"
                 },
                 "x-tags": [
                     "TR_J1 - Journal Requests (Controlled)"
@@ -12281,7 +12338,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J1 - Report_Item",
                 "x-stoplight": {
-                    "id": "80qxbmgxn141k"
+                    "id": "ktwpp8cihnoto"
                 },
                 "x-tags": [
                     "TR_J1 - Journal Requests (Controlled)"
@@ -12350,7 +12407,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "xhq69vque7lxr"
+                    "id": "zztkqu02imqrn"
                 },
                 "x-tags": [
                     "TR_J1 - Journal Requests (Controlled)"
@@ -12384,7 +12441,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "x4edp7g89t08d"
+                    "id": "v8rojqhw01j0d"
                 },
                 "x-tags": [
                     "TR_J1 - Journal Requests (Controlled)"
@@ -12415,7 +12472,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J2 - Report_Header",
                 "x-stoplight": {
-                    "id": "rpi0zw1ushz6b"
+                    "id": "xx7mq667z673g"
                 },
                 "examples": [
                     {
@@ -12498,7 +12555,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J2 - Report_Filters",
                 "x-stoplight": {
-                    "id": "7jt8wiwlro36u"
+                    "id": "c53mkv2xtx80f"
                 },
                 "x-tags": [
                     "TR_J2 - Journal Access Denied"
@@ -12528,7 +12585,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J2 - Report_Item",
                 "x-stoplight": {
-                    "id": "f50xqcxiqbjix"
+                    "id": "0q1tqzfy456xc"
                 },
                 "x-tags": [
                     "TR_J2 - Journal Access Denied"
@@ -12597,7 +12654,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "h65yo0cg6f40s"
+                    "id": "2emywscrz0brs"
                 },
                 "x-tags": [
                     "TR_J2 - Journal Access Denied"
@@ -12631,7 +12688,7 @@
                 "minProperties": 1,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "5i8z3nnatgl4f"
+                    "id": "x8qo2u5phttqj"
                 },
                 "x-tags": [
                     "TR_J2 - Journal Access Denied"
@@ -12662,7 +12719,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J3 - Report_Header",
                 "x-stoplight": {
-                    "id": "gxvi8kevrpt31"
+                    "id": "ej0zm339opbvi"
                 },
                 "examples": [
                     {
@@ -12749,7 +12806,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J3 - Report_Filters",
                 "x-stoplight": {
-                    "id": "nzq85qvsxgkyh"
+                    "id": "eugdonlrs30ln"
                 },
                 "x-tags": [
                     "TR_J3 - Journal Usage by Access Type"
@@ -12779,7 +12836,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J3 - Report_Item",
                 "x-stoplight": {
-                    "id": "i1owqrhbic5zb"
+                    "id": "fysmk0zj37qw5"
                 },
                 "x-tags": [
                     "TR_J3 - Journal Usage by Access Type"
@@ -12899,7 +12956,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "rmjpo555v0gta"
+                    "id": "v0in3ypw4e1ha"
                 },
                 "x-tags": [
                     "TR_J3 - Journal Usage by Access Type"
@@ -12949,7 +13006,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "0fe7w8izcea2p"
+                    "id": "5wmivrzedovb9"
                 },
                 "x-tags": [
                     "TR_J3 - Journal Usage by Access Type"
@@ -12980,7 +13037,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J4 - Report_Header",
                 "x-stoplight": {
-                    "id": "33reod3cpxmne"
+                    "id": "7s9bgnevaxwr4"
                 },
                 "examples": [
                     {
@@ -13076,7 +13133,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J4 - Report_Filters",
                 "x-stoplight": {
-                    "id": "nsent1gpsdpck"
+                    "id": "uydreg86r0oox"
                 },
                 "x-tags": [
                     "TR_J4 - Journal Requests by YOP (Controlled)"
@@ -13106,7 +13163,7 @@
                 "unevaluatedProperties": false,
                 "title": "TR_J4 - Report_Item",
                 "x-stoplight": {
-                    "id": "aeojy157gd08a"
+                    "id": "0hhok4efh8q6x"
                 },
                 "x-tags": [
                     "TR_J4 - Journal Requests by YOP (Controlled)"
@@ -13197,7 +13254,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "68vnc5ydkfyup"
+                    "id": "nahfdpzghvbe1"
                 },
                 "x-tags": [
                     "TR_J4 - Journal Requests by YOP (Controlled)"
@@ -13231,7 +13288,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "6y63ss9yxlhpb"
+                    "id": "m8hph9z49etcf"
                 },
                 "x-tags": [
                     "TR_J4 - Journal Requests by YOP (Controlled)"
@@ -13265,7 +13322,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR - Report_Header",
                 "x-stoplight": {
-                    "id": "wcjsyuz1v419a"
+                    "id": "f95x45jjypkso"
                 },
                 "examples": [
                     {
@@ -13393,7 +13450,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "y0b1afb0y2e5e"
+                    "id": "hbvg6q85px0i4"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -13464,7 +13521,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "8l9n08q64l551"
+                    "id": "ohqp080zkfexh"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -13494,7 +13551,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR - Parent_Item",
                 "x-stoplight": {
-                    "id": "kv9asbegobai3"
+                    "id": "vpv4va9egpoue"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -13592,7 +13649,7 @@
                 "title": "IR - No Parent_Item",
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "ghggq7fz0esb4"
+                    "id": "m696f8340w7k2"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14056,7 +14113,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR - Report_Item",
                 "x-stoplight": {
-                    "id": "1ejkndntb7war"
+                    "id": "t1hr7f6s0ipyl"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14259,7 +14316,7 @@
                     }
                 ],
                 "x-stoplight": {
-                    "id": "2wdfhga85l41l"
+                    "id": "1l145u6dnc16m"
                 }
             },
             "IR_Performance": {
@@ -14322,7 +14379,7 @@
                 "minProperties": 1,
                 "unevaluatedProperties": false,
                 "x-stoplight": {
-                    "id": "pgke4prgywgbp"
+                    "id": "b9daqz8v107qm"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14352,7 +14409,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR - Component_Item",
                 "x-stoplight": {
-                    "id": "zo8pl43qixokz"
+                    "id": "dvooh7y4lljs2"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14396,7 +14453,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "8nub7td3do4ss"
+                    "id": "japuh123zhqkx"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14422,7 +14479,7 @@
                 "minProperties": 1,
                 "unevaluatedProperties": false,
                 "x-stoplight": {
-                    "id": "j2df15m3r3wbw"
+                    "id": "b9ipotg46l7wi"
                 },
                 "x-tags": [
                     "IR - Item Report"
@@ -14453,7 +14510,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_A1 - Report_Header",
                 "x-stoplight": {
-                    "id": "cqjmv7wuy7nsg"
+                    "id": "rlfox1gdh8cti"
                 },
                 "examples": [
                     {
@@ -14536,7 +14593,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_A1 - Report_Filters",
                 "x-stoplight": {
-                    "id": "h8kyvkjhf77wl"
+                    "id": "f3wg2xgn28myp"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14566,7 +14623,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_A1 - Parent_Item",
                 "x-stoplight": {
-                    "id": "9jbuui8223a7d"
+                    "id": "8x47xnajj9hmi"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14678,7 +14735,7 @@
                 "title": "IR_A1 - No Parent_Item",
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "tb25mmlavb5bs"
+                    "id": "vrjpryth3yp3g"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14752,7 +14809,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_A1 - Report_Item",
                 "x-stoplight": {
-                    "id": "mt04jhiauph7q"
+                    "id": "cb9yw8rpbw053"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14832,7 +14889,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "9uyr23e1ngsjw"
+                    "id": "ao3oinhg6po2r"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14866,7 +14923,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "9abi5psc4d3q5"
+                    "id": "ad2w7mrqv6lky"
                 },
                 "x-tags": [
                     "IR_A1 - Journal Article Requests"
@@ -14897,7 +14954,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_M1 - Report_Header",
                 "x-stoplight": {
-                    "id": "7ffyolhz9zflj"
+                    "id": "ivpo26yy8oj80"
                 },
                 "examples": [
                     {
@@ -14988,7 +15045,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_M1 - Report_Filters",
                 "x-stoplight": {
-                    "id": "0balt4plwsgxe"
+                    "id": "xlx7is0nyhscl"
                 },
                 "x-tags": [
                     "IR_M1 - Multimedia Item Requests"
@@ -15014,7 +15071,7 @@
                     "IR_M1 - Multimedia Item Requests"
                 ],
                 "x-stoplight": {
-                    "id": "qixfygch84cko"
+                    "id": "n5ux1h3ptq3qy"
                 },
                 "examples": [
                     {
@@ -15207,7 +15264,7 @@
                 "unevaluatedProperties": false,
                 "title": "IR_M1 - Report_Item",
                 "x-stoplight": {
-                    "id": "d86v1n1u7al50"
+                    "id": "qnq117l4ci01k"
                 },
                 "examples": [
                     {
@@ -15288,7 +15345,7 @@
                     "Performance"
                 ],
                 "x-stoplight": {
-                    "id": "ikon3wqzg1jgv"
+                    "id": "8iq0fuv86bpta"
                 },
                 "x-tags": [
                     "IR_M1 - Multimedia Item Requests"
@@ -15322,7 +15379,7 @@
                 "minProperties": 2,
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "xx7gji1x4ptvf"
+                    "id": "kweyyw1d8oyzx"
                 },
                 "x-tags": [
                     "IR_M1 - Multimedia Item Requests"
@@ -15331,7 +15388,7 @@
             "Platform_Report_Item": {
                 "title": "Platform Report_Item",
                 "x-stoplight": {
-                    "id": "kl5xux886io83"
+                    "id": "eny72lit396q8"
                 },
                 "type": "object",
                 "properties": {
@@ -15351,7 +15408,7 @@
                 "title": "Database Report_Item",
                 "type": "object",
                 "x-stoplight": {
-                    "id": "yqajjnzqyera4"
+                    "id": "kk6bs9jzwbk7f"
                 },
                 "properties": {
                     "Database": {
@@ -15408,7 +15465,7 @@
                     "Platform"
                 ],
                 "x-stoplight": {
-                    "id": "wirujvphcg3ks"
+                    "id": "v1s5e6qb88lpg"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15441,7 +15498,7 @@
                     "Platform"
                 ],
                 "x-stoplight": {
-                    "id": "bx5vqok8mfsx7"
+                    "id": "cm2joryhidldu"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15473,14 +15530,14 @@
                     "Shared Models"
                 ],
                 "x-stoplight": {
-                    "id": "mjxd214jm4f9f"
+                    "id": "yp0wlwrejkf2y"
                 }
             },
             "Item_Base_Parent_Item": {
                 "title": "Item Base Parent_Item",
                 "type": "object",
                 "x-stoplight": {
-                    "id": "1k67dplp2mcyq"
+                    "id": "hauuga1wt2mru"
                 },
                 "properties": {
                     "Title": {
@@ -15534,14 +15591,14 @@
                     "Shared Models"
                 ],
                 "x-stoplight": {
-                    "id": "fvd8y48y2yh6j"
+                    "id": "1iynm7tzg0428"
                 }
             },
             "Item_Component_Item": {
                 "title": "Item Component_Item",
                 "type": "object",
                 "x-stoplight": {
-                    "id": "1ks0n0goebmzp"
+                    "id": "wz1kaijloz4sq"
                 },
                 "properties": {
                     "Item": {
@@ -15571,7 +15628,7 @@
             "Access_Method_Attribute": {
                 "title": "Access_Method Attribute",
                 "x-stoplight": {
-                    "id": "gidkvf2a1w501"
+                    "id": "50e6jks4bxclh"
                 },
                 "type": "string",
                 "enum": [
@@ -15595,7 +15652,7 @@
                     ]
                 },
                 "x-stoplight": {
-                    "id": "5toc2pl3nvyvv"
+                    "id": "2zzgyzwsjwlbe"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15610,7 +15667,7 @@
                     "Free_To_Read"
                 ],
                 "x-stoplight": {
-                    "id": "9hwewck8ocjsq"
+                    "id": "jhzf1yo3td32n"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15630,7 +15687,7 @@
                     ]
                 },
                 "x-stoplight": {
-                    "id": "z6duwqbh4h0eo"
+                    "id": "e7s113x9vgjd8"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15639,7 +15696,7 @@
             "Granularity_Attribute": {
                 "title": "Granularity Attribute",
                 "x-stoplight": {
-                    "id": "py7xf69jt9nc2"
+                    "id": "ybell2vsau1un"
                 },
                 "type": "object",
                 "properties": {
@@ -15659,7 +15716,7 @@
                 "title": "Common Extensions Filters",
                 "type": "object",
                 "x-stoplight": {
-                    "id": "kd7f5racpikt1"
+                    "id": "qwryex01htown"
                 },
                 "properties": {
                     "Attributed": {
@@ -15689,7 +15746,7 @@
                     "Shared Models"
                 ],
                 "x-stoplight": {
-                    "id": "2ipeh95ycr6da"
+                    "id": "0uwj2pnp66xvr"
                 },
                 "properties": {
                     "Customer_ID": {
@@ -15739,7 +15796,7 @@
                 "minItems": 1,
                 "maxItems": 3,
                 "x-stoplight": {
-                    "id": "2cw4hc6fs3dp0"
+                    "id": "spisn0q3toc41"
                 },
                 "items": {
                     "type": "object",
@@ -15769,7 +15826,7 @@
                 "title": "Article_Versoin",
                 "type": "string",
                 "x-stoplight": {
-                    "id": "39j66k5d9x1t7"
+                    "id": "v9lspau3grn3r"
                 },
                 "enum": [
                     "AO",
@@ -15817,7 +15874,7 @@
                     }
                 },
                 "x-stoplight": {
-                    "id": "z49t8xbmvzm1k"
+                    "id": "hsbita5bb4hwo"
                 },
                 "x-tags": [
                     "Shared Models"
@@ -15866,7 +15923,7 @@
                     "Shared Models"
                 ],
                 "x-stoplight": {
-                    "id": "vb4wtmd6f0ix9"
+                    "id": "g7pm8phxq9kga"
                 }
             },
             "Publisher_ID": {
@@ -15889,12 +15946,12 @@
                     "Shared Models"
                 ],
                 "x-stoplight": {
-                    "id": "q63o43pi9josw"
+                    "id": "xo56r5dpr9rx4"
                 }
             },
             "Item_ID": {
                 "x-stoplight": {
-                    "id": "ueffccklufu9b"
+                    "id": "hr3sz3guls9vx"
                 },
                 "type": "object",
                 "properties": {
@@ -15943,7 +16000,7 @@
             "Counts": {
                 "title": "Counts",
                 "x-stoplight": {
-                    "id": "3ns3hl7iablrd"
+                    "id": "2royhrgy5355l"
                 },
                 "type": "object",
                 "patternProperties": {
@@ -15968,7 +16025,7 @@
             "Exception": {
                 "title": "Exception",
                 "x-stoplight": {
-                    "id": "sgmqulr0emsi6"
+                    "id": "7ccbfsfe7nrev"
                 },
                 "type": "object",
                 "examples": [
@@ -16039,7 +16096,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "jmelferytrixm"
+                    "id": "qhslmg8xuwaqn"
                 },
                 "description": "Info or Debug Message. These Messages will never be standardized and service providers can design them as they see fit.\n\nNote: The standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999."
             },
@@ -16052,7 +16109,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "nojctc6mwmvg1"
+                    "id": "jthaeph98p1yr"
                 },
                 "description": "Warning Message. This range is reserved for the use of service providers to supply their own custom warnings.\n\nNote: The standard Exceptions with Code > 999 MUST be used for the indicated invocation conditions, it is neither permitted to use custom Exceptions with Code <= 999 instead nor to define custom Exceptions with Code > 999.",
                 "properties": {
@@ -16110,7 +16167,7 @@
                 ],
                 "additionalProperties": false,
                 "x-stoplight": {
-                    "id": "uxf636q3q8zkb"
+                    "id": "nnsvckcwhhrpn"
                 },
                 "description": "The service is executing a request, but due to internal errors cannot complete the request. If possible, the server should provide an explanation in the additional Data element.",
                 "x-tags": [
@@ -16146,7 +16203,7 @@
                 "additionalProperties": false,
                 "description": "The service is too busy to execute the incoming request. The client should retry the request after some reasonable time.",
                 "x-stoplight": {
-                    "id": "oevisx8zy30bt"
+                    "id": "ffu7dpwk712cc"
                 },
                 "x-tags": [
                     "Exceptions"
@@ -16181,7 +16238,7 @@
                 "additionalProperties": false,
                 "description": "Services queueing incoming report requests must return a response with this Exception and no payload to inform the client about the processing status. The client should retry the request after some reasonable time.",
                 "x-stoplight": {
-                    "id": "419oc9ym0ktry"
+                    "id": "s4dlpxqx1h4ij"
                 },
                 "x-tags": [
                     "Exceptions"
@@ -16219,7 +16276,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "n3bswqbipzgwq"
+                    "id": "f03gj10soo9rl"
                 }
             },
             "Exception_1030": {
@@ -16254,7 +16311,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "sgise2c2tmbrq"
+                    "id": "tosiypt95o4x3"
                 }
             },
             "Exception_2000": {
@@ -16289,7 +16346,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "s58glkvw12p0f"
+                    "id": "gz2d7p3c84tr2"
                 }
             },
             "Exception_2010": {
@@ -16324,7 +16381,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "e8aclm22yw1fl"
+                    "id": "pbruj42fy8lwk"
                 }
             },
             "Exception_2011": {
@@ -16359,7 +16416,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "748w0nkp09xox"
+                    "id": "mc0mh59ti0e08"
                 }
             },
             "Exception_2020": {
@@ -16394,7 +16451,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "yzvloxib0jxqy"
+                    "id": "pbsdlraqtnxjc"
                 }
             },
             "Exception_3020": {
@@ -16429,7 +16486,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "3anarphof7zh5"
+                    "id": "mqzhrgrtz7aqw"
                 }
             },
             "Exception_3030": {
@@ -16464,7 +16521,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "2fhcc5gkzzkg3"
+                    "id": "bb45dgmzs67hj"
                 }
             },
             "Exception_3031": {
@@ -16499,7 +16556,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "6lfhilgndgpde"
+                    "id": "n91svprzbw78b"
                 }
             },
             "Exception_3032": {
@@ -16534,7 +16591,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "x2o44d5p9kdp3"
+                    "id": "2tu8ef3qknv8i"
                 }
             },
             "Exception_3040": {
@@ -16569,7 +16626,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "kpw1mn9iso72z"
+                    "id": "lq1qrf91ykx82"
                 }
             },
             "Exception_3050": {
@@ -16604,7 +16661,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "mvg1sf79k34ni"
+                    "id": "2nk2t4j11vwmj"
                 }
             },
             "Exception_3060": {
@@ -16639,7 +16696,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "s2a2xb68jsnn6"
+                    "id": "l8uzfngogq6ui"
                 }
             },
             "Exception_3061": {
@@ -16674,7 +16731,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "9j3u8yld4rjyp"
+                    "id": "0zv5nln3b8785"
                 }
             },
             "Exception_3062": {
@@ -16709,7 +16766,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "2ovwpvuqh4s0e"
+                    "id": "bo5ndiiwc33ep"
                 }
             },
             "Exception_3063": {
@@ -16744,7 +16801,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "ka1hqoylcnld2"
+                    "id": "ka483mok43fd8"
                 }
             },
             "Exception_3070": {
@@ -16779,7 +16836,7 @@
                     "Exceptions"
                 ],
                 "x-stoplight": {
-                    "id": "2pakcfqog74fm"
+                    "id": "69tm0fqacc7xf"
                 }
             }
         },
