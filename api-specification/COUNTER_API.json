@@ -15894,7 +15894,7 @@
                                 "minItems": 1,
                                 "items": {
                                     "type": "string",
-                                    "pattern": "^([A-Z]{2}|[a-zA-Z0-9]{1,3,4})-.{1,11}$"
+                                    "pattern": "^([A-Z]{2}|[a-zA-Z0-9]|[a-zA-Z0-9]{3,4})-.{1,11}$"
                                 }
                             },
                             "OCLC": {
