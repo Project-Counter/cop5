@@ -26,38 +26,38 @@ While only a single Exception can be returned for a non-200 HTTP status code, th
 
 The COUNTER_SUSHI API Specification defines the JSON format for Exceptions as follows:
 
-.. code-block:: json-object
+.. code-block:: JSON
 
-   “SUSHI_error_model”: {
-     “type”: “object”,
-     “description”: “Generalized format for presenting errors and warnings.”,
-     “required”: [ “Code”, “Severity”, “Message” ],
-     “properties”: {
-       “Code”: {
-         “type”: “integer”,
-         “format”: “int32”,
-         “description”: “Exception Code. See Table F.1 in the Code of Practice, Appendix F.”,
-         “example”: 3031
+   "SUSHI_error_model": {
+     "type": "object",
+     "description": "Generalized format for presenting errors and warnings.",
+     "required": [ "Code", "Severity", "Message" ],
+     "properties": {
+       "Code": {
+         "type": "integer",
+         "format": "int32",
+         "description": "Exception Code. See Table F.1 in the Code of Practice, Appendix F.",
+         "example": 3031
        },
-       “Severity”: {
-         “type”: “string”,
-         “description”: “Severity of the Exception (deprecated).”,
-         “example”: “Warning”,
-         “enum”: [ “Warning”, “Error”, “Fatal”, “Debug”, “Info” ]
+       "Severity": {
+         "type": "string",
+         "description": "Severity of the Exception (deprecated).",
+         "example": "Warning",
+         "enum": [ "Warning", "Error", "Fatal", "Debug", "Info" ]
        },
-       “Message”: {
-         “type”: “string”,
-         “description”: “Exception Message. See Table F.1 in the Code of Practice, Appendix F.”,
-         “example”: “Usage Not Ready for Requested Dates”
+       "Message": {
+         "type": "string",
+         "description": "Exception Message. See Table F.1 in the Code of Practice, Appendix F.",
+         "example": "Usage Not Ready for Requested Dates"
        },
-       “Help_URL”: {
-         “type”: “string”,
-         “description”: “URL to a help page that explains the Exception in more detail.”
+       "Help_URL": {
+         "type": "string",
+         "description": "URL to a help page that explains the Exception in more detail."
        },
-       “Data”: {
-         “type”: “string”,
-         “description”: “Additional data provided by the server to clarify the Exception.”,
-         “example”: “Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31.”
+       "Data": {
+         "type": "string",
+         "description": "Additional data provided by the server to clarify the Exception.",
+         "example": "Request was for 2016-01-01 to 2016-12-31; however, usage is only available to 2016-08-31."
        }
      }
    }
