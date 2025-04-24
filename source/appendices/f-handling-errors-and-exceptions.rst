@@ -11,48 +11,48 @@ Appendix F: Handling Errors and Exceptions
 
 As a rule, the structure of the SUSHI response will be governed by the SUSHI schema; therefore, any error conditions that can be reported will be specified within the SUSHI response. The following is a definition of from the COUNTER_SUSHI API Specification that shows the format of the exception.
 
-.. code-block:: json-object
+.. code-block:: JSON
 
-   “SUSHI_errorModel”: {
-     “type”: “object”,
-     “description”: “Generalized format for presenting errors and exceptions.”,
-     “required”: [
-       “Code”,
-       “Severity”,
-       “Message”
+   "SUSHI_errorModel": {
+     "type": "object",
+     "description": "Generalized format for presenting errors and exceptions.",
+     "required": [
+       "Code",
+       "Severity",
+       "Message"
      ],
-     “properties”: {
-       “Code”: {
-         “type”: “integer”,
-         “format”: “int32”,
-         “description”: “Error number. See table of errors.”,
-         “example”: 3040
+     "properties": {
+       "Code": {
+         "type": "integer",
+         "format": "int32",
+         "description": "Error number. See table of errors.",
+         "example": 3040
        },
-       “Severity”: {
-         “type”: “string”,
-         “description”: “Severity of the error.”,
-         “example”: “Warning”,
-         “enum”: [
-           “Warning”,
-           “Error”,
-           “Fatal”,
-           “Debug”,
-           “Info”
+       "Severity": {
+         "type": "string",
+         "description": "Severity of the error.",
+         "example": "Warning",
+         "enum": [
+           "Warning",
+           "Error",
+           "Fatal",
+           "Debug",
+           "Info"
          ]
        },
-       “Message”: {
-         “type”: “string”,
-         “description”: “Text describing the error.”,
-         “example”: “Partial Data Returned.”
+       "Message": {
+         "type": "string",
+         "description": "Text describing the error.",
+         "example": "Partial Data Returned."
        },
-       “Help_URL”: {
-         “type”: “string”,
-         “description”: “URL describing error details.”
+       "Help_URL": {
+         "type": "string",
+         "description": "URL describing error details."
        },
-       “Data”: {
-         “type”: “string”,
-         “description”: “Additional data provided to clarify the error.”,
-         “example”: “Usage data has not been processed for all months.”
+       "Data": {
+         "type": "string",
+         "description": "Additional data provided to clarify the error.",
+         "example": "Usage data has not been processed for all months."
        }
      }
    }
