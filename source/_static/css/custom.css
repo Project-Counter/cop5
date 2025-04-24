@@ -2,11 +2,12 @@
    this as on RTD they are loaded after this stylesheet */
 
 .wy-side-nav-search {
-    background-color: #107da6 !important;
+    background-color: #273582 !important;
 }
 
 .wy-side-nav-search .wy-dropdown > a img.logo, .wy-side-nav-search > a img.logo {
-    max-width: 75% !important;
+    width: 230px !important;
+    padding-bottom: 16px;
 }
 
 .wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
