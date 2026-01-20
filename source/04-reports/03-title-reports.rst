@@ -139,7 +139,7 @@ Table 4.i (below) Header for Title Report and Standard Views of the Title Report
 
    * - 5
      - Institution_ID
-     - :cspan:`3` *Identifier(s) for the institution in the format of {namespace}:{value}. Leave blank if identifier is not known. Multiple identifiers may be included by separating with semicolon-space (“; ”).*
+     - :cspan:`3` *Identifier(s) for the institution in the format of {namespace}:{value}. Multiple identifiers may be included by separating with semicolon-space (“; ”). The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.*
 
    * - 6
      - Metric_Types

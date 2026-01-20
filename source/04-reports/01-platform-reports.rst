@@ -86,7 +86,7 @@ Table 4.a (below): Header for Platform Report and Standard Views of the Platform
 
    * - 5
      - Institution_ID
-     - :cspan:`1` *Identifier(s) for the institution in the format of {namespace}:{value}. Leave blank if identifier is not known. Multiple identifiers may be included by separating with semicolon-space (“; ”).*
+     - :cspan:`1` *Identifier(s) for the institution in the format of {namespace}:{value}. Multiple identifiers may be included by separating with semicolon-space (“; ”). The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.*
 
    * - 6
      - Metric_Types
