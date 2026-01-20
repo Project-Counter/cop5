@@ -972,4 +972,4 @@ The value for an element might be missing or unknown, for example a title might 
 
 For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.
 
-If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Validator reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Validator reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the COUNTER Validator.
+If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Validator reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Validator reports a Warning which might affect the result of an audit. See :numref:`counter-validator` for details on the error levels used by the COUNTER Validator.
