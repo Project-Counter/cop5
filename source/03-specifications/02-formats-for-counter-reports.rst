@@ -481,7 +481,7 @@ Table 3.l (below): Elements for Item and Report Attributes
      - Nature of the content that was used.
 
        See :numref:`data-types` for more detail.
-     - PR, DR, TR, IR
+     - PR, DR, TR, IR, PR_P1, TR_B1, TR_B2, TR_B3, IR_M1
      - Book\ |br|\ |lb|
        Journal
 
