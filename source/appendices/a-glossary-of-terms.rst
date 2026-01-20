@@ -250,7 +250,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - COUNTER Validator
-     - An online tool to validate COUNTER reports in JSON and tabular format.
+     - An online service to validate COUNTER reports in JSON and tabular format.
      -
 
    * - COUNTER Reports
@@ -601,7 +601,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the Validation Tool.
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the COUNTER Validatior.
      -
 
    * - ISBN-13
