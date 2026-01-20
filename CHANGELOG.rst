@@ -182,7 +182,7 @@ Release 5.0.2
 * Provide guidance on how to deal with specific error conditions `#81 <https://github.com/Project-Counter/cop5/issues/81>`_ [sushi]
 * Update description for Data_Type Journal `#25 <https://github.com/Project-Counter/cop5/issues/25>`_ [documentation]
 * Clarify required file formats for tabular COUNTER reports `#33 <https://github.com/Project-Counter/cop5/issues/33>`_ [documentation]
-* Update recommendations and add error level information for the Validation Tool `#39 <https://github.com/Project-Counter/cop5/issues/39>`_ [documentation]
+* Update recommendations and add error level information for the COUNTER Validator `#39 <https://github.com/Project-Counter/cop5/issues/39>`_ [documentation]
 * Clarify rules for using custom Exceptions `#53 <https://github.com/Project-Counter/cop5/issues/53>`_ [documentation]
 * Use Requested in place of Optional for columns/elements only included when requested `#55 <https://github.com/Project-Counter/cop5/issues/55>`_ [documentation]
 * Add note to appendixes that in case of conflicts the main document takes precedence `#94 <https://github.com/Project-Counter/cop5/issues/94>`_ [documentation]

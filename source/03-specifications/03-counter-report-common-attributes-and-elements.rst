@@ -382,7 +382,7 @@ Table 3.p (below): List of Data_Type Values
        PR_P1
 
    * - Unspecified
-     - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that report providers are expected to make all reasonable efforts to classify the content. Using Unspecified will give rise to a Warning in the Validation Tool.
+     - Content that cannot be classified by any of the other Data_Types due to lack of sufficient information. Note that report providers are expected to make all reasonable efforts to classify the content. Using Unspecified will give rise to a Warning in the COUNTER Validator.
      - A&I_Database\ |br|\ |lb|
        Aggregated_Full_Content\ |br|\ |lb|
        Data_Repository\ |br|\ |lb|
@@ -972,4 +972,4 @@ The value for an element might be missing or unknown, for example a title might 
 
 For clarity, values such as “unknown”, “n/a” or “-” MUST NOT be used.
 
-If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Validation Tool reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Validation Tool reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the Validation Tool.
+If a non-empty value is required for an element and the value is empty or the element is omitted, the COUNTER Validator reports a (Critical) Error which would cause the report to fail an audit. If Title, Item or Publisher is empty or Data_Type Unspecified is used, the COUNTER Validator reports a Warning which might affect the result of an audit. See :numref:`validation-tool` for details on the error levels used by the COUNTER Validator.

@@ -249,7 +249,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Status of a vendor who is currently not compliant but whose audit is in progress or scheduled.
      -
 
-   * - COUNTER Report Validation Tool
+   * - COUNTER Validator
      - An online tool to validate COUNTER reports in JSON and tabular format.
      -
 
@@ -953,8 +953,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An umbrella term. Includes publishers, aggregators and others who directly provide access to content, as well as organizations that provide specialist reporting services on behalf of one or more organizations.
      - Science Direct, Clarivate, JSTOR, ScholarlyIQ
 
-   * - Report validation tool
-     - See COUNTER Report Validation Tool.
+   * - Report validator
+     - See COUNTER Validator.
      -
 
    * - Reporting period\ |br|\ |lb|
