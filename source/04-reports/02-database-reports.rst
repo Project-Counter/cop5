@@ -110,7 +110,7 @@ Table 4.e (below): Header for Database Report and Standard Views of the Database
 
    * - 5
      - Institution_ID
-     - :cspan:`2` *Identifier(s) for the institution in the format of {namespace}:{value}. Leave blank if identifier is not known. Multiple identifiers may be included by separating with semicolon-space (“; ”).*
+     - :cspan:`2` *Identifier(s) for the institution in the format of {namespace}:{value}. Multiple identifiers may be included by separating with semicolon-space (“; ”). The customer ID used for requesting the report MUST be included, usually with the platform ID as namespace.*
 
    * - 6
      - Metric_Types
