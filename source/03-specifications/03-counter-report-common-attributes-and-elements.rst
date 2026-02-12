@@ -580,7 +580,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
      - Number of unique content items investigated in a user-session. Examples of content items are articles, book chapters, or multimedia files.
      - All Host_Types
      - PR, DR, TR, IR\ |br|\ |lb|
-       TR_B3, TR_J3
+       DR_D1, TR_B3, TR_J3
 
    * - Unique_Title_Investigations
      - Number of unique titles investigated in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
@@ -620,7 +620,7 @@ Table 3.s (below): List of Metric_Types for Requests and Investigations
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
      - PR, DR, TR, IR\ |br|\ |lb|
-       PR_P1, TR_B3, TR_J1, TR_J3, TR_J4, IR_A1
+       PR_P1, DR_D1, TR_B3, TR_J1, TR_J3, TR_J4, IR_A1
 
    * - Unique_Title_Requests
      - Number of unique titles requested in a user-session. This Metric_Type is only applicable for Data_Types Book and Reference_Work.
