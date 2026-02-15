@@ -15,3 +15,4 @@ Report providers seeking COUNTER compliant status are expected to comply with th
    01-including-counter-in-license-agreements
    02-confidentiality-of-usage-data
    03-counter-reporting-for-consortia
+   04-counter-for-repositories
