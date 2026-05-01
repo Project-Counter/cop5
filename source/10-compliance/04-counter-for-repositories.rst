@@ -37,10 +37,9 @@ Required Reports
 
 R5.1 requires Data_Repository and Repository Host_Types to deliver the Platform Report (PR) and Item Report (IR), together with the Standard Views of those reports. The IR maps closely to the Dataset Report specified in the CRD.
 
-There are fields which are required in the tabular version of the IR but which do not appear in the CRD. These elements are optional in JSON reports and MUST be omitted when no value is available.
+The Platform field in the PR and IR MUST be used to supply the repository name.
 
-* Platform, which MUST be used to supply the repository name.
-* ISBN, Print_ISSN and Online_ISSN. These are not applicable to research data but may apply where repositories include archived journal and book content. Where the information is not relevant, the fields MUST remain empty.
+Three elements are required in IR but do not appear in the CRD: ISBN, Print_ISSN and Online_ISSN. These are not applicable to research data but may apply where repositories include archived journal and book content. Where the information is not relevant, the fields MUST remain empty in the tabular version of the IR. These elements are optional in JSON reports and MUST be omitted when no value is available.
 
 There are also fields from the CRD which appear in R5.1 under different names:
 
@@ -59,7 +58,7 @@ An aspect of R5.1 that may be particularly helpful for repositories is Component
 Mapping COUNTER Data_Types to Datacite Resource Types
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
-The CRD only permits Data_Type Dataset. The R5.1 IR allows comprehensive reporting on multiple Data_Types. For Data_Repository Host_Types, Dataset remains the default. For mixed-content repositories, the full list of COUNTER Data_Types as described in R5.1 at :numref:`data-types` is available.
+The CRD only permits Data_Type Dataset. The R5.1 IR allows comprehensive reporting on multiple Data_Types. For Data_Repository Host_Types, Dataset remains the default. For mixed-content repositories, the full list of COUNTER Data_Types as described at :numref:`data-types` is available.
 
 Many COUNTER Data_Types map exactly to the Datacite metadata schema resource types:
 
