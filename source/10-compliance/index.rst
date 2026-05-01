@@ -16,3 +16,4 @@ Report providers seeking COUNTER compliant status are expected to comply with th
    02-confidentiality-of-usage-data
    03-counter-reporting-for-consortia
    04-counter-for-repositories
+   05-pathway-to-compliance
