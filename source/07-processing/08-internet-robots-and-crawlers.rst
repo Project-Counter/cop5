@@ -7,7 +7,7 @@
 Internet Robots and Crawlers
 ----------------------------
 
-Activity that is not initiated by human users (that is, activity initiated by autonomous systems without immediate human oversight or control) SHOULD NOT be included in COUNTER usage reports. This rule is a SHOULD NOT due to the challenges presented by rapidly changing technology and user behavior in defining activity that is not initiated by human users.
+The use of internet robots, crawlers and spiders has the potential to artificially inflate usage statistics. Only genuine, user-driven usage should be reported in COUNTER usage reports. Activity that is not initiated by human users (that is, activity initiated by autonomous systems without immediate human oversight or control) SHOULD NOT be included in COUNTER usage reports. This rule is a SHOULD NOT due to the challenges presented by rapidly changing technology and user behavior in defining activity that is not initiated by human users.
 
 
 Traditional Bots and Crawlers
@@ -21,6 +21,8 @@ Report providers SHOULD alert COUNTER to new bots and crawlers to add to the lis
 Usage by other bots and crawlers that can be identified by the report provider MUST NOT be included in COUNTER Reports.
 
 Traditional bot and crawler activity is often detected by commercial web application firewall solutions. At the time of writing, April 2026, such services include Cloudflare, AWS WAF, F5, Scamlytics, and Barracuda Networks. COUNTER supports the use of but does not require report providers to implement such solutions, provided bot and crawler usage can still be effectively excluded from usage reports.
+
+Note that the main Code of Practice takes precendence in the case of any conflicts between it and the bots repository.
 
 
 Generative and Agentic Artificial Intelligence
