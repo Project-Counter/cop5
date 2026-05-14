@@ -11,7 +11,7 @@ Appendix D: Handling Errors and Exceptions
 
 Note: The main Code of Practice document takes precedence in the case of any conflicts between it and this appendix.
 
-Exceptions are used both for reporting errors that occur while responding to a COUNTER API (formerly sushi) call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER API Specification (see :numref:`api`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions, that is the Exception Codes, the corresponding Exception Messages and HTTP status codes, and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
+Exceptions are used both for reporting errors that occur while responding to a COUNTER API (formerly sushi) call and, when generating a report, for indicating that the report differs from what might be expected. While the COUNTER API Specification (see :numref:`api`) defines the API methods and the JSON response formats, including the format for Exceptions, this appendix defines the permissible Exceptions (that is, the Exception Codes, the corresponding Exception Messages, and HTTP status codes), and how these Exceptions are expected to be used. Some of the Exceptions also can occur when generating tabular reports at an administrative/reporting site.
 
 There are four types of errors that can occur while responding to COUNTER API calls:
 
@@ -23,6 +23,8 @@ There are four types of errors that can occur while responding to COUNTER API ca
 When requesting a tabular report at an administrative/reporting site, only the last type of error should occur and be included in a report. The website is expected to gracefully handle other errors that might occur while generating the report.
 
 While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the COUNTER API server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
+
+Note that no COUNTER report should be empty without an appropriate Exception, as without an Exception code, the client has no way to know why the report is empty. Where there is no Exception code, the client may decide to treat the response as meaning there is no usage. That means the client will miss data that appears later after usage has been processed for reporting. Alternatively, the client may decide to try harvesting later. That would cause unnecessary load on the server by repeatedly asking for empty reports.
 
 The COUNTER API Specification defines the general JSON format for Exceptions as follows:
 
@@ -150,19 +152,25 @@ Table D.1 (below): Exceptions
      - 200
      - The service did not find any data for the specified date range and other filters (if any).
 
-       Note: If the usage for a requested month either hasn’t been processed yet or is no longer available, only Exception 3031 or 3032 must be returned for that month.
+       Note: If the usage for a requested month has not been processed yet, use Exception 3031 for that month. If usage for a requested month is no longer available, use Exception 3032 for that month.
+
+       Note: Delivering Exception 3030 will prevent COUNTER API clients from attempting to harvest the report again at a later time. This can lead to under-reporting of usage metrics.
 
    * - Usage Not Ready for Requested Dates
      - 3031
      - 200
-     - The service has not yet processed the usage for one or more of the requested months, if some months are available that data should be returned. The Exception should include the months not processed in the additional Data element.
+     - The service has not yet processed the usage for one or more of the requested months, but data is available for some of the requested months. Where data is available, that data should be returned. The Exception should include the months not processed in the additional Data element.
 
-       Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
+        Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, when transitioning to Release 5.1 and Release 5 reports are no longer available.
+        
+        Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
 
    * - Usage No Longer Available for Requested Dates
      - 3032
      - 200
      - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the first month for which data has been processed and is available. If some months are available that data should be returned. The Exception should include the information about the months processed and available in the additional Data element.
+
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice and not reprocessing older data. For example, when transitioning to Release 5.1 and older data are available only in Release 5 reports.
 
    * - Partial Data Returned
      - 3040
