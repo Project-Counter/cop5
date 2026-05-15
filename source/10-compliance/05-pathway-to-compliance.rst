@@ -13,7 +13,7 @@ For smaller publishers, full COUNTER compliance can be a major technical challen
 Eligibility
 """""""""""
 
-Small publishers who are not compliant with R5.1, and who were not compliant with the older R5, may apply to COUNTER for inclusion in the Registry under the terms of the Pathway To Compliance. 
+Small publishers who are not compliant with R5.1, and who were not compliant with the older R5, may apply to COUNTER for inclusion in the Registry under the terms of the Pathway To Compliance.
 
 For the purposes of the Pathway, a small publisher is one with a single platform, where that platform includes up to 150 books OR 15 journals OR one database. This aligns with the definition of small publishers eligible for alternate year audits, in :numref:`compliance` :ref:`compliance`.
 
@@ -28,22 +28,24 @@ Requirements
 """"""""""""
 
 Data
-'''''
+''''
 
-Publishers on the Pathway MUST process their raw usage data in compliance with the requirements of the Code of Practice, specifically Section 7. 
+Publishers on the Pathway MUST process their raw usage data in compliance with the requirements of the Code of Practice, specifically Section 7.
 
 
 Reports
-''''''''
+'''''''
 
-*Required Reports*
-Publishers on the Pathway are only REQUIRED to provide the Platform Report, plus the Database, Title and/or Item Reports as relevant. 
+.. rubric:: Required Reports
+
+Publishers on the Pathway are only REQUIRED to provide the Platform Report, plus the Database, Title and/or Item Reports as relevant.
 
 Standard views derived from the Reports are optional.
 
 The Executive Director is available to help publishers identify which Reports are required based on the publisher’s Host Type.
 
-*Report Filters and Attributes*
+.. rubric:: Report Filters and Attributes
+
 Per :numref:`specifications` :ref:`specifications`, customized views are created by applying report filters and report attributes to the COUNTER Reports. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. Publishers on the Pathway who are technically able to support the full COUNTER filter options for each report SHOULD do so. That is:
 
 * Filtering the Platform Report by all of Data_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
@@ -55,29 +57,33 @@ Where publishers on the Pathway allow the full set of filter options, they MUST 
 
 Publishers on the Pathway who cannot support the full COUNTER filter options for each report MUST include all Attributes in all Reports by default.
 
-*Report Format*
-Publishers on the Pathway MUST provide their reports in standard COUNTER format, as described in Section 3.2 of the Code of Practice. 
+.. rubric:: Report Format
+
+Publishers on the Pathway MUST provide their reports in standard COUNTER format, as described in Section 3.2 of the Code of Practice.
 
 * Delivery of both tabular and JSON formats is preferred.
 * Where only one format is available, publishers on the Pathway SHOULD provide reports in JSON format.
 * Where JSON is not an option, tabular reports in .tsv or .xlsx are acceptable.
 
-*Report Frequency and Granularity*
+.. rubric:: Report Frequency and Granularity
+
 Publishers on the Pathway MUST provide at least one set of reports each year, showing the Reporting_Period_Total usage for the calendar year (i.e. January to December 2026). More regular (quarterly or monthly) reports are preferred, but we acknowledge this may not be viable for the smallest publishers.
 
 Publishers on the Pathway MUST offer month-by-month breakdowns within their Reports, in line with Section 3.2 of the Code of Practice.
 
-*Report Delivery*
+.. rubric:: Report Delivery
+
 Publishers on the Pathway SHOULD facilitate report delivery through the COUNTER API (sushi) for automated report harvesting.
 
 Publishers who are unable to create a COUNTER API due to lack of technical resources MUST make it possible for librarians to set up an alternative automated report delivery system. The minimum requirement is to allow librarians to register once to receive a regular delivery of their reports via email.
 
 
 Metrics
-''''''''
+'''''''
 
-*Usage*
-Publishers on the Pathway MUST provide COUNTER usage metrics: 
+.. rubric:: Usage
+
+Publishers on the Pathway MUST provide COUNTER usage metrics:
 
 * Total_Item_Investigations
 * Unique_Item_Investigations
@@ -86,13 +92,15 @@ Publishers on the Pathway MUST provide COUNTER usage metrics:
 * Unique_Title_Investigations (for platforms including Books and/or Reference_Works)
 * Unique_Title_Requests (for platforms including Books and/or Reference_Works).
 
-*Denials*
+.. rubric:: Denials
+
 Publishers on the Pathway SHOULD provide denial metrics where these are relevant. For example, OA publishers will not have denial metrics.
 
 * No_License
 * Limit_Exceeded
 
-*Search*
+.. rubric:: Search
+
 Publishers on the Pathway with a database Host_Type SHOULD provide Searches_Regular in the Database Report. That includes these Host_Types:
 
 * A&I_Database
@@ -106,18 +114,19 @@ As publishers on the Pathway will only ever have one database on the platform, t
 
 Search metrics are OPTIONAL for all other publishers on the Pathway (e.g. eJournal and eBook Host_Types).
 
-*Non-COUNTER Metrics*
+.. rubric:: Non-COUNTER Metrics
+
 Publishers on the Pathway MUST NOT include any non-COUNTER metrics in their COUNTER reports except as outlined in :numref:`extending` :ref:`extending`.
 
 
 Transparency and verification
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""
 
 
 Technical Validity
 ''''''''''''''''''
 
-Publishers on the Pathway, like all publishers, are RECOMMENDED to use the free COUNTER Validator <https://validator.countermetrics.org/> regularly to make sure their reports remain technically accurate.
+Publishers on the Pathway, like all publishers, are RECOMMENDED to use the free `COUNTER Validator <https://validator.countermetrics.org/>`_ regularly to make sure their reports remain technically accurate.
 
 * Where they are available, tabular reports from publishers on the Pathway MUST pass the checks included in the Validator.
 * Where they are available, JSON reports from publishers on the Pathway MUST pass the checks included in the Validator.
@@ -131,7 +140,7 @@ Publishers on the Pathway MUST share a complete set of Validator results with CO
 
 
 Audit and Manual Assessment
-''''''''''''''''''''''''''''
+'''''''''''''''''''''''''''
 
 Publishers on the Pathway To Compliance are not subject to formal audits per :numref:`audit` :ref:`audit`.
 
