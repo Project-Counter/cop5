@@ -1332,6 +1332,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - UTF-8 is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes. The encoding is defined by the Unicode Standard, and was originally designed by Ken Thompson and Rob Pike. The name is derived from Unicode Transformation Format - 8-bit. [`Wikipedia <https://en.wikipedia.org/wiki/UTF-8>`__]
      -
 
+   * - Validation Tool
+     - See Validator.
+     -
+
    * - Validator
      - A free tool developed by the COUNTER team. The Validator runs a series of checks on tabular and JSON reports, and on the COUNTER API (sushi) for the purposes of assessing compliance with the Code of Practice. [`Validator <https://validator.countermetrics.org/>`_].
      -
