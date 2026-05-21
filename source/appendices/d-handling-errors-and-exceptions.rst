@@ -24,7 +24,7 @@ When requesting a tabular report at an administrative/reporting site, only the l
 
 While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the COUNTER API server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
 
-Note that no COUNTER report should be empty without an appropriate Exception, as without an Exception code, the client has no way to know why the report is empty. Where there is no Exception code, the client may decide to treat the response as meaning there is no usage. That means the client will miss data that appears later after usage has been processed for reporting. Alternatively, the client may decide to try harvesting later. That would cause unnecessary load on the server by repeatedly asking for empty reports.
+Note that no COUNTER report should be empty without an appropriate Exception. That is, reports must contain at least one metric.
 
 The COUNTER API Specification defines the general JSON format for Exceptions as follows:
 
@@ -152,14 +152,14 @@ Table D.1 (below): Exceptions
      - 200
      - The service did not find any data for the specified date range and other filters (if any).
 
-       Note: If the usage for a requested month has not been processed yet, use Exception 3031 for that month. If usage for a requested month is no longer available, use Exception 3032 for that month.
+       Note: If the usage for a requested month has not been processed yet, use Exception 3031 for that month. If usage for a requested month is no longer available, use Exception 3032 for that month. Exception 3030 MUST NOT be used in these cases.
 
-       Note: Delivering Exception 3030 will prevent COUNTER API clients from attempting to harvest the report again at a later time. This can lead to under-reporting of usage metrics.
+       Note: Delivering Exception 3030 instead of 3031 will prevent COUNTER API clients from attempting to harvest the report again at a later time. This can lead to under-reporting of usage metrics.
 
    * - Usage Not Ready for Requested Dates
      - 3031
      - 200
-     - The service has not yet processed the usage for one or more of the requested months, but data is available for some of the requested months. Where data is available, that data should be returned. The Exception should include the months not processed in the additional Data element.
+     - The service has not yet processed the usage for one or more of the requested months. Where data is available for one or more of the requested months, that data should be returned. The Exception should include the months not processed in the additional Data element.
 
         Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, when transitioning to Release 5.1 and Release 5 reports are no longer available.
         
