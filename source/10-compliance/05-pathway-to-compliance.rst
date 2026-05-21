@@ -46,16 +46,16 @@ The Executive Director is available to help publishers identify which COUNTER Re
 
 .. rubric:: Report Filters and Attributes
 
-Per :numref:`filters-attributes`, customized views are created by applying report filters and report attributes to the COUNTER Reports. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. Publishers on the Pathway who are technically able to support the full COUNTER filter options for each report SHOULD do so. That is:
+Per :numref:`filters-attributes`, customized views are created by applying the full COUNTER attribute and filters options to the COUNTER Reports. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. Publishers on the Pathway who are technically able to support the full COUNTER filter options for each report SHOULD do so. That is:
 
 * Filtering the Platform Report by all of Data_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
 * Filtering the Database Report by all of Data_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
 * Filtering the Title Report by all of Data_Type, YOP, Access_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
 * Filtering the Item Report by all of Data_Type, YOP, Access_Type, Access_Method, Metric_Type, Include_Parent_Details, Include_Component_Details, and Exclude_Monthly_Details.
 
-Where publishers on the Pathway allow the full set of filter options, they MUST specify which attributes are included in the report via Attributes_To_Show.
+Where publishers on the Pathway allow the full set of options, they MUST specify which attributes are included in the report via Attributes_To_Show and which filters are applied via Report_Filters.
 
-Publishers on the Pathway who cannot support the full COUNTER filter options for each report MUST include all attributes in all reports by default.
+Publishers on the Pathway who cannot support customization MUST include all attributes in all reports by default.
 
 .. rubric:: Report Format
 
@@ -135,8 +135,8 @@ Publishers on the Pathway, like all publishers, are RECOMMENDED to use the free 
 
 Publishers on the Pathway MUST share a complete set of Validator results with COUNTER annually to demonstrate technical validity. A complete set of Validator results is defined as including
 
-* Results for at least two iterations versions of each COUNTER Report with all attributes the publisher MUST deliver (e.g. two Platform Reports sent to two different institutions) in each format (tabular and/or JSON)
-* Results for at least two iterations versions of each report the publisher COULD deliver (e.g. if Standard Views are offered) in each format.
+* Results for at least two versions of each COUNTER Report with all attributes the publisher MUST deliver (e.g. two Platform Reports sent to two different institutions) in each format (tabular and/or JSON)
+* Results for at least two versions of each report the publisher has the capacity to  deliver (e.g. if Standard Views are offered) in each format.
 * Results of tests for each COUNTER API endpoint.
 
 
@@ -148,7 +148,7 @@ Publishers on the Pathway To Compliance are not subject to formal audits per :nu
 If errors are reported by more than three report consumers in one calendar month, or by more than six report consumers over a rolling three-month period, COUNTER will trigger an investigation into the report provider's compliance status. This will include
 
 * Seeking additional feedback from other libraries via the COUNTER listserv.
-* Requiring a repeat technical assessment as described in :numref:`pathway-technical-validity`.
+* Requiring a technical assessment as described in :numref:`pathway-technical-validity`.
 
 
 Fixing Issues
