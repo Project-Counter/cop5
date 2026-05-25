@@ -46,7 +46,7 @@ The Executive Director is available to help publishers identify which COUNTER Re
 
 .. rubric:: Report Filters and Attributes
 
-Per :numref:`filters-attributes`, customized views are created by applying the full COUNTER attribute and filters options to the COUNTER Reports. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. Publishers on the Pathway who are technically able to support the full COUNTER filter options for each report SHOULD do so. That is:
+Per :numref:`filters-attributes`, customized views are created by applying the full COUNTER attribute and filter options to the COUNTER Reports. Report attributes define the columns (elements) and report filters the rows (values) included in the reports. Publishers on the Pathway who are technically able to support the full COUNTER attribute and filter options for each report SHOULD do so. That is:
 
 * Filtering the Platform Report by all of Data_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
 * Filtering the Database Report by all of Data_Type, Access_Method, Metric_Type, and Exclude_Monthly_Details.
