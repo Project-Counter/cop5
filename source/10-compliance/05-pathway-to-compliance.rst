@@ -90,7 +90,7 @@ Publishers on the Pathway MUST provide COUNTER usage metrics:
 * Total_Item_Requests
 * Unique_Item_Requests
 * Unique_Title_Investigations (for platforms including Books and/or Reference_Works)
-* Unique_Title_Requests (for platforms including Books and/or Reference_Works).
+* Unique_Title_Requests (for platforms including Books and/or Reference_Works)
 
 .. rubric:: Denials
 
@@ -135,7 +135,7 @@ Publishers on the Pathway, like all publishers, are RECOMMENDED to use the free 
 
 Publishers on the Pathway MUST share a complete set of Validator results with COUNTER annually to demonstrate technical validity. A complete set of Validator results is defined as including
 
-* Results for at least two versions of each COUNTER Report with all attributes the publisher MUST deliver (e.g. two Platform Reports sent to two different institutions) in each format (tabular and/or JSON)
+* Results for at least two versions of each COUNTER Report with all attributes the publisher MUST deliver (e.g. two Platform Reports sent to two different institutions) in each format (tabular and/or JSON).
 * Results for at least two versions of each report the publisher has the capacity to  deliver (e.g. if Standard Views are offered) in each format.
 * Results of tests for each COUNTER API endpoint.
 
