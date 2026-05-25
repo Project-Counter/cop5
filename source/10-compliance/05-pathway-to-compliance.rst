@@ -40,7 +40,7 @@ Reports
 
 Publishers on the Pathway are only REQUIRED to provide the Platform Report, plus the Database, Title and/or Item Reports as relevant.
 
-Standard Views derived from the COUNTER Reports are optional.
+Standard Views derived from the COUNTER Reports are OPTIONAL.
 
 The Executive Director is available to help publishers identify which COUNTER Reports are required based on the publisher’s Host_Type.
 
