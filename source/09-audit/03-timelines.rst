@@ -57,10 +57,11 @@ Applications for extensions MUST be sent to both the Executive Director (code@co
 
 There may be limited, unforeseen circumstances in which an additional extension may be granted. In these cases the report provider and auditor MUST explain the extenuating circumstances in a short report to the COUNTER Executive Committee. If the additional extension is granted, the report provider will not be required to start seeding an audit until three months after a successful audit pass.
 
+.. _alternate-year-audits:
+
 Alternate year audits
 """""""""""""""""""""
 
 Some report providers are eligible to be audited once every 24 months. Specifically, report providers delivering COUNTER reports for a single platform, where that platform includes up to 150 books OR 15 journals OR one database, may apply to the Executive Director for alternate year audit status.
 
 Report providers with historic permission to be audited in alternate years for Release 5 of the Code of Pratice will also be considered for alternate year audit for R5.1, but they MUST reapply to the Executive Director for confirmation.
-
