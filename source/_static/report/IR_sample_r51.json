@@ -6,6 +6,9 @@
     "Created": "2023-02-15T09:11:12Z",
     "Created_By": "Sample Publisher",
     "Institution_ID": {
+      "Proprietary": [
+        "P1:1234"
+      ],
       "ISNI": [
         "1234123412341234"
       ]
