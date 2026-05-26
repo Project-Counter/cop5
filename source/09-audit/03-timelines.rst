@@ -26,23 +26,23 @@ Table 9.a (below): Audit Timelines
 
    * - Seeding
      - 1 calendar month
-     - February
+     - Seeding actions in February
 
    * - Usage processed, reports available
      - Up to 28 days from end of seeding month
-     - March
+     - Reports available by 28 March
 
    * - Report reconciliation
      - 4 to 6 weeks
-     - April
+     - Reconciliation during April
 
    * - Fixes after interim report
      - Up to 3 months
-     - May to July
+     - Interim report issued end April, fixes due by end July
 
    * - Report reconciliation after fixes
      - 1 month
-     - August
+     - Final report issued during August
 
 
 Extensions
@@ -51,11 +51,11 @@ Extensions
 Report providers may request extensions to the usual timelines under the following circumstances.
 
 * **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the tool before commencing an audit, they may apply for up to three months delay in the seeding process.
-* **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from three to up to six months.
+* **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from the standard three to a maximum of six months (i.e. an additional three months).
 
 Applications for extensions MUST be sent to both the Executive Director (code@countermetrics.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.
 
-There may be limited, unforeseen circumstances in which an additional extension may be granted. In these cases the report provider and auditor MUST explain the extenuating circumstances in a short report to the COUNTER Executive Committee. If the additional extension is granted, the report provider will not be required to start seeding an audit until three months after a successful audit pass.
+There may be limited, unforeseen circumstances in which an additional extension may be granted. In these cases the report provider and auditor MUST explain the extenuating circumstances in a short report to the COUNTER Executive Committee. Note that being unable to prioritise fixes in the development queue does not qualify as an unforeseen circumstance. If the additional extension is granted, the report provider will not be required to start seeding an audit until three months after a successful audit pass.
 
 .. _alternate-year-audits:
 
