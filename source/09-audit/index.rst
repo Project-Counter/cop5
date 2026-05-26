@@ -19,5 +19,5 @@ COUNTER will recognize an audit carried out by any Certified Public Accountant (
    01-the-audit-process
    02-categories-of-audit-result
    03-timelines
-   04-counter-validation-tool
+   04-counter-validator
    05-inclusion-in-registry
