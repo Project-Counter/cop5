@@ -161,9 +161,9 @@ Table D.1 (below): Exceptions
      - 200
      - The service has not yet processed the usage for one or more of the requested months. Where data is available for one or more of the requested months, that data should be returned. The Exception should include the months not processed in the additional Data element.
 
-        Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, when transitioning to Release 5.1 and Release 5 reports are no longer available.
-        
-        Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, when transitioning to Release 5.1 and Release 5 reports are no longer available.
+
+       Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
 
    * - Usage No Longer Available for Requested Dates
      - 3032
