@@ -50,6 +50,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A COUNTER Host_Type for report providers that provide  access to databases of full text serial and/or book content (monographs, reference works, etc.), and/or content otherwise aggregated into titles, where content is accessed in the context of the licensed database.
      -
 
+   * - Agentic AI
+     - A system, or agent, that is given a high-level goal and has the ability to autonomously plan, reason, and execute a sequence of actions in an environment to achieve that goal.
+     - 
+
    * - Aggregated full-text database
      - A full-text database that includes content from multiple titles, usually from multiple publishers.
      - Academic Search Complete
@@ -64,6 +68,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
        A COUNTER Host_Type.
      - PubMed, PsycInfo
+
+   * - AI system
+     - Generic term for generative and agentic AI, which encompasses machine learning, natural language processing, foundation models, and other related technologies.
+     -
 
    * - AJAX
      - Asynchronous JavaScript And XML. AJAX allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes.
@@ -167,6 +175,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
        Note: Publishers take steps to prevent local caching of their content, i.e. including appropriate response headers on their site to restrict caching.
      -
 
+   * - Called for
+     - Elements and attributes of COUNTER Reports that are delivered only when a report consumer requests their inclusion. An example from the main Code of Practice is the inclusion of Access_Method in a Platform Report.
+     -
+
    * - Central Index
      - Also known as a Discovery Index. A collection of locally-hosted, consistently indexed metadata and content harvested from multiple external metadata and content sources, frequently including a library’s catalog and repository metadata, and usually representing a significant portion of the library’s collection.
      -
@@ -181,6 +193,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - Chartered Accountant (CA)
      - An international accounting designation granted to accounting professionals in many countries around the world, aside from the United States.
+     -
+
+   * - Chunk
+     - Units of text, usually 100-300 words long, that allow AI systems to retrieve specific information efficiently. These may be created based on fixed size rules, variable size rules based on content characteristics, semantic, or a combination of the three.
      -
 
    * - Citation
@@ -247,10 +263,6 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - COUNTER compliance pending
      - Status of a vendor who is currently not compliant but whose audit is in progress or scheduled.
-     -
-
-   * - COUNTER Report Validation Tool
-     - An online tool to validate COUNTER reports in JSON and tabular format.
      -
 
    * - COUNTER Reports
@@ -478,6 +490,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - See Report filters.
      -
 
+   * - First party
+     - Report providers and publisher platforms offering scholarly content to end users and reporting usage directly to libraries.
+     -
+
    * - Free_to_Read
      - A COUNTER Access_Type. At the time of the Request or Investigation the content item was available to all users on this platform, regardless of authorization status, but was not Open. The content item may or may not have been Controlled at some point in the past, and may or may not return to Controlled status in the future (e.g. promotional materials where these can be tracked by the platform, or archival content a publisher has made free to read).
      -
@@ -496,6 +512,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - GDPR
      - General Data Protection Regulation.
+     -
+
+   * - Generative AI
+     - Artificial intelligence systems that are designed to create new content, such as text, images, audio, or code. In the context of COUNTER, Generative AI systems use scholarly content as sources for the generated materials.
      -
 
    * - Global Report
@@ -601,7 +621,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the Validation Tool.
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). ISBN-13 is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. ISBN-13 MUST be formatted as follows: the string MUST include four hyphens, the first of which appears after the first three digits and the last of which appears before the last digit. There must be at least one digit between each of the four hyphens in the ISBN-13. ISBN-10 MUST NOT be used.
      -
 
    * - ISBN-13
@@ -719,6 +739,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An item of non-textual media content such as an image or streaming or downloadable audio or video files. (Does not include thumbnails or descriptive text/metadata.)
      -
 
+   * - Multiple identities
+     - A term used to describe the situation where a single user's activities may be attributed to multiple institutions. For example, Sam may be affiliated with institution A through IP recognition, institution B through Shibboleth / Open Athens authentication, and Institution C through role-based access (i.e. a personal log-in for an editor).
+     -
+
    * - Namespace
      - A term primarily used in programming languages where the same name may be used for different objects. It is created to group together those names that might be repeated elsewhere within the same or interlinked programs, objects and elements.
 
@@ -805,6 +829,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
        A COUNTER Data_Type.
      -
 
+   * - Pathway to Compliance
+     - Available to small publishers who are not COUNTER compliant. The Pathway to Compliance offers a series of incremental steps that facilitates COUNTER reporting.
+     -
+
    * - Paywall
      - A term used to describe the fact that a user attempting to access a content item must be authorized by license or must pay a fee before the content can be accessed.
      -
@@ -845,6 +873,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - PR_P1
      - Platform Usage. A pre-set Standard View of PR showing Total and Unique_Item_Requests and Unique_Title_Requests, as well as Searches_Platform.
+     -
+
+   * - Pre-configured
+     - Text or image content generated by an AI system to supplement an Item. The generated content is saved and delivered on request to end users in the same way as other parts of the Item (e.g. figures).
      -
 
    * - Print_ISSN
@@ -900,7 +932,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A list of works referred to in an article or chapter with sufficient detail to enable the identification and location of each work.
      -
 
-   * - Registry of compliance
+   * - Registry
      - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.countermetrics.org/>`_].
      -
 
@@ -954,7 +986,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Science Direct, Clarivate, JSTOR, ScholarlyIQ
 
    * - Report validation tool
-     - See COUNTER Report Validation Tool.
+     - See Validator.
      -
 
    * - Reporting period\ |br|\ |lb|
@@ -1132,6 +1164,14 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - SUSHI and COUNTER_SUSHI_API were references to SUSHI-Lite, the RESTful version of SUSHI that was described in an unpublished NISO Technical Report. The preferred term is COUNTER API.
      -
 
+   * - Syndicated usage
+     - Content available from multiple platforms simultaneously. COUNTER's syndicated usage best practice guide facilitates usage reporting for syndicated content.
+     -
+
+   * - Syndication platform
+     - A platform which offers access to syndicated content, but which is not the original publisher of the material. ResearchGate acts as a syndication platform where it distributes content on behalf of publishers.
+     -
+
    * - Tab Separated Value
      - See TSV.
      -
@@ -1155,6 +1195,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
        A COUNTER Data_Type.
      -
+
+   * - Third party
+     - Services making use of First Party content to deliver services to end users. In the context of COUNTER's AI best practice, a service such as Consensus or Scite is a third party.
+     - 
 
    * - Title
      - The name of a book, journal, or reference work.
@@ -1286,6 +1330,14 @@ Note: The main Code of Practice document takes precedence in the case of any con
 
    * - UTF-8
      - UTF-8 is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes. The encoding is defined by the Unicode Standard, and was originally designed by Ken Thompson and Rob Pike. The name is derived from Unicode Transformation Format - 8-bit. [`Wikipedia <https://en.wikipedia.org/wiki/UTF-8>`__]
+     -
+
+   * - Validation Tool
+     - See Validator.
+     -
+
+   * - Validator
+     - A free tool developed by the COUNTER team. The Validator runs a series of checks on tabular and JSON reports, and on the COUNTER API (sushi) for the purposes of assessing compliance with the Code of Practice. [`Validator <https://validator.countermetrics.org/>`_].
      -
 
    * - Vendor
