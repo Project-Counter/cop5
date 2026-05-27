@@ -12,11 +12,11 @@ COUNTER's best practice on generative and agentic AI usage created a new Access_
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.22}|>{\parskip=\tparskip}\Y{0.54}|>{\raggedright\arraybackslash}\Y{0.11}|>{\raggedright\arraybackslash}\Y{0.13}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.55}|
 
 .. list-table::
    :class: longtable
-   :widths: 16 16 62
+   :widths: 15 22 63
    :header-rows: 1
 
    * - Element Name
@@ -45,7 +45,7 @@ COUNTER's best practice on generative and agentic AI usage created a new Access_
 
    * - Metric_Type
      - Unique_AI_Requests
-     - Unique count of times within a user session that a chunk from an Item was requested (i.e. the full text or content was accessible to the AI system) in generating a response to a user prompt. 
+     - Unique count of times within a user session that a chunk from an Item was requested (i.e. the full text or content was accessible to the AI system) in generating a response to a user prompt.
 
 
 Access_Method Agent is an OPTIONAL extension. Where report providers make Access_Method Agent available, it MUST only be included in COUNTER Reports. Where report providers make Access_Method Agent available, it MUST only be included in COUNTER Reports when called for by report consumers. Where Access_Method Agent is included in COUNTER Reports, it MUST be reported against AI Metric_Types.
