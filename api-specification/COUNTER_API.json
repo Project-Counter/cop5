@@ -1282,7 +1282,7 @@
                     "Registry_Record": {
                         "type": "string",
                         "pattern": "^(https://registry.countermetrics.org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
-                        "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST omit this element."
+                        "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank."
                     },
                     "Note": {
                         "type": "string",
@@ -1309,7 +1309,8 @@
                     }
                 },
                 "required": [
-                    "Service_Active"
+                    "Service_Active",
+                    "Registry_Record"
                 ],
                 "examples": [
                     {
