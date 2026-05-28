@@ -57,6 +57,8 @@ Applications for extensions MUST be sent to both the Executive Director (code@co
 
 There may be limited, unforeseen circumstances in which an additional extension may be granted. In these cases the report provider and auditor MUST explain the extenuating circumstances in a short report to the COUNTER Executive Committee. Note that being unable to prioritise fixes in the development queue does not qualify as an unforeseen circumstance. If the additional extension is granted, the report provider will not be required to start seeding an audit until three months after a successful audit pass.
 
+In rare circumstances, a report provider might receive both a delayed seeding extension, and an extension to the fix period for a single audit. If their seeding month was scheduled for January, the combination of both extensions would result in their audit being completed in December. In this circumstance, COUNTER will reschedule seeding to start three months after completion of the delayed audit.
+
 .. _alternate-year-audits:
 
 Alternate year audits
