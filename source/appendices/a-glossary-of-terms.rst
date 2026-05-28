@@ -249,8 +249,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - Status of a vendor who is currently not compliant but whose audit is in progress or scheduled.
      -
 
-   * - COUNTER Report Validation Tool
-     - An online tool to validate COUNTER reports in JSON and tabular format.
+   * - COUNTER Validator
+     - An online service to validate COUNTER reports in JSON and tabular format.
      -
 
    * - COUNTER Reports
@@ -601,7 +601,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the Validation Tool.
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the COUNTER Validator.
      -
 
    * - ISBN-13
@@ -953,8 +953,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An umbrella term. Includes publishers, aggregators and others who directly provide access to content, as well as organizations that provide specialist reporting services on behalf of one or more organizations.
      - Science Direct, Clarivate, JSTOR, ScholarlyIQ
 
-   * - Report validation tool
-     - See COUNTER Report Validation Tool.
+   * - Report validator
+     - See COUNTER Validator.
      -
 
    * - Reporting period\ |br|\ |lb|
