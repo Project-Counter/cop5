@@ -7,7 +7,7 @@
 Reserved Values Available for Extending Reports
 -------------------------------------------------
 
-COUNTER's best practice on generative and agentic AI usage created a new Access_Method and new Metric_Types specifically for reporting AI usage.
+COUNTER's `COUNTER Best Practice on Generative and Agentic AI Usage <https://www.countermetrics.org/code-of-practice/best-practice/bp-ai/>`_ created a new Access_Method and new Metric_Types specifically for reporting AI usage. These values are OPTIONAL extensions for inclusion in COUNTER Reports only when called for.
 
 
 .. only:: latex
@@ -16,36 +16,47 @@ COUNTER's best practice on generative and agentic AI usage created a new Access_
 
 .. list-table::
    :class: longtable
-   :widths: 15 22 63
+   :widths: 15 22 63 15
    :header-rows: 1
 
    * - Element Name
      - Value
      - Description
+     - Reports
 
    * - Access_Method
      - Agent
-     - Content and metadata accessed by an AI system. Access_Method Agent is an OPTIONAL extension for inclusion in COUNTER Reports only when called for.
+     - Content and metadata accessed by an AI system.
+     - PR, DR, TR, IR
 
    * - Metric_Type
      - AI_Responses_Generated
      - A response delivered by an AI system in response to a user prompt. The response is likely to be text, but may include images or other multimedia. Each response MUST only be counted once regardless of the number of queries initiated by the AI system. Subsequent prompts within the same user session MUST be counted as a new AI_Responses_Generated.
+     - PR
 
    * - Metric_Type
      - Total_AI_Investigations
      - Total number of times within a user session that a chunk from an Item or information related to an Item was included by an AI system in generating a response to a user prompt.
+     - PR, DR, TR, IR
+
 
    * - Metric_Type
      - Unique_AI_Investigations
      - Unique count of times within a user session that a chunk from an Item or information related to an Item was included by an AI system in generating a response to a user prompt.
+     - PR, DR, TR, IR
+
 
    * - Metric_Type
      - Total_AI_Requests
      - Total number of times within a user session that a chunk from an Item was requested (i.e. the full text or content was accessible to the AI system) in generating a response to a user prompt, during a user session.
+     - PR, DR, TR, IR
+
 
    * - Metric_Type
      - Unique_AI_Requests
      - Unique count of times within a user session that a chunk from an Item was requested (i.e. the full text or content was accessible to the AI system) in generating a response to a user prompt.
+     - PR, DR, TR, IR
+
 
 
 Access_Method Agent is an OPTIONAL extension. Where report providers make Access_Method Agent available, it MUST only be included in COUNTER Reports. Where report providers make Access_Method Agent available, it MUST only be included in COUNTER Reports when called for by report consumers. Where Access_Method Agent is included in COUNTER Reports, it MUST be reported against AI Metric_Types.
