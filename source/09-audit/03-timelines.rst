@@ -59,6 +59,7 @@ There may be limited, unforeseen circumstances in which an additional extension 
 
 In rare circumstances, a report provider might receive both a delayed seeding extension, and an extension to the fix period for a single audit. If their seeding month was scheduled for January, the combination of both extensions would result in their audit being completed in December. In this circumstance, COUNTER will reschedule seeding to start three months after completion of the delayed audit.
 
+
 .. _alternate-year-audits:
 
 Alternate year audits
