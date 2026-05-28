@@ -13,11 +13,11 @@ Table 9.a (below): Audit Timelines
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.34}|>{\raggedright\arraybackslash}\Y{0.4}|>{\raggedright\arraybackslash}\Y{0.14}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.34}|>{\raggedright\arraybackslash}\Y{0.28}|>{\raggedright\arraybackslash}\Y{0.38}|
 
 .. list-table::
    :class: longtable
-   :widths: 38 38 24
+   :widths: 27 32 41
    :header-rows: 1
 
    * - Process
