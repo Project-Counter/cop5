@@ -50,7 +50,7 @@ Extensions
 
 Report providers may request extensions to the usual timelines under the following circumstances.
 
-* **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validation Tool and are in the process of fixing problems identified by the tool before commencing an audit, they may apply for up to three months delay in the seeding process.
+* **Delayed seeding** - where a report provider is able to demonstrate that they have run the COUNTER Validator and are in the process of fixing problems identified by the validator before commencing an audit, they may apply for up to three months delay in the seeding process.
 * **Extension to the fix period** - where an Interim Report has identified significant problems with COUNTER reports, the report provider may apply for an extension of the fix period from the standard three to a maximum of six months (i.e. an additional three months).
 
 Applications for extensions MUST be sent to both the Executive Director (code@countermetrics.org) and the auditor, and will be considered on a case-by-case basis. Only one extension of each type will be granted for any audit, and all extensions will be tracked in the Registry.

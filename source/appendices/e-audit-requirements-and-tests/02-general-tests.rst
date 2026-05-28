@@ -8,10 +8,10 @@ E.2 General Audit Tests
 This section of the appendix outlines tests that MUST be run during all audits, and which are not specific to a particular COUNTER Report.
 
 
-E.2.1 Validation Tool
-"""""""""""""""""""""
+E.2.1 COUNTER Validator
+"""""""""""""""""""""""
 
-Once reports are available for testing (i.e. up to 28 days after the end of the seeding month), auditors MUST test the report providers' COUNTER API (sushi) configuration ans well as the COUNTER Reports and Standard Views of COUNTER Reports that are within the scope of the audit through the Validation Tool. This test must include all attributes report providers are required to support, including attributes that are included only if called for.
+Once reports are available for testing (i.e. up to 28 days after the end of the seeding month), auditors MUST test the report provider's COUNTER API (formerly sushi) configuration ans well as the COUNTER Reports and Standard Views of COUNTER Reports that are within the scope of the audit with the COUNTER Validator. This test must include all attributes report providers are required to support, including attributes that are included only if called for.
 
 Where report providers have elected to follow the pre-flight preparation step outlined in :numref:`audit` of the Code of Practice, this audit test should not result in any errors.
 
