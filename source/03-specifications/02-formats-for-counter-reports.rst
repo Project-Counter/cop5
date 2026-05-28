@@ -220,7 +220,7 @@ Table 3.h (below): Elements that Identify the Platform
        ProQuest\ |br|\ |lb|
        ScienceDirect
 
-Report providers MAY include syndicated usage in their COUNTER Reports, in compliance with the `Best Practice on Syndicated Usage <https://www.countermetrics.org/code-of-practice/best-practice/bp-syndicated-usage/>`_. Where syndicated usage is included, report providers MUST clearly mark the platforms on which usage occurred in the Platform field using the namespace SYNDICATED:{platform name}.
+Report providers MAY include syndicated usage in their COUNTER Reports, in accordance with the `Best Practice on Syndicated Usage <https://www.countermetrics.org/code-of-practice/best-practice/bp-syndicated-usage/>`_. Where syndicated usage is included, report providers MUST clearly mark the platforms on which usage occurred in the Platform field using the namespace SYNDICATED (i.e. the value of the Platform field must be in the format SYNDICATED:{platform name}).
 
 
 .. rubric:: Report Item Identifiers
