@@ -167,6 +167,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
        Note: Publishers take steps to prevent local caching of their content, i.e. including appropriate response headers on their site to restrict caching.
      -
 
+   * - Called for
+     - Elements and attributes of COUNTER Reports that are delivered only when a report consumer requests their inclusion. An example from the main Code of Practice is the inclusion of Access_Method in a Platform Report.
+     -
+
    * - Central Index
      - Also known as a Discovery Index. A collection of locally-hosted, consistently indexed metadata and content harvested from multiple external metadata and content sources, frequently including a library’s catalog and repository metadata, and usually representing a significant portion of the library’s collection.
      -
@@ -601,7 +605,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - ISBN (International Standard Book Number)
-     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). The format ISBN-13, with hyphens, is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. Inclusion of an ISBN-10, or an incorrectly formatted ISBN-13, will be flagged as an error by the COUNTER Validator.
+     - A unique standard identifier (ISO 2108) used to identify monographic publications (books). ISBN-13 is required. E-ISBN is the expected value, with print ISBNs provided only where E-ISBN is not available. ISBN-13 MUST be formatted as follows: the string MUST include four hyphens, the first of which appears after the first three digits and the last of which appears before the last digit. There must be at least one digit between each of the four hyphens in the ISBN-13. ISBN-10 MUST NOT be used.
      -
 
    * - ISBN-13
@@ -719,6 +723,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - An item of non-textual media content such as an image or streaming or downloadable audio or video files. (Does not include thumbnails or descriptive text/metadata.)
      -
 
+   * - Multiple identities
+     - A term used to describe the situation where a single user's activities may be attributed to multiple institutions. For example, Sam may be affiliated with institution A through IP recognition, institution B through Shibboleth / Open Athens authentication, and Institution C through role-based access (i.e. a personal log-in for an editor).
+     -
+
    * - Namespace
      - A term primarily used in programming languages where the same name may be used for different objects. It is created to group together those names that might be repeated elsewhere within the same or interlinked programs, objects and elements.
 
@@ -803,6 +811,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A patent document representing an exclusive right granted for an invention, which is a product or process that provides (in general) a new way of doing something, or offers a new technical solution to a problem. Typically associated with a patent number.
 
        A COUNTER Data_Type.
+     -
+
+   * - Pathway to Compliance
+     - Available to small publishers who are not COUNTER compliant. The Pathway to Compliance offers a series of incremental steps that facilitates COUNTER reporting.
      -
 
    * - Paywall
@@ -900,7 +912,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A list of works referred to in an article or chapter with sufficient detail to enable the identification and location of each work.
      -
 
-   * - Registry of compliance
+   * - Registry
      - The COUNTER Registry of report providers compliant with the COUNTER Code of Practice [`Registry <https://registry.countermetrics.org/>`_].
      -
 
@@ -1132,6 +1144,14 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - SUSHI and COUNTER_SUSHI_API were references to SUSHI-Lite, the RESTful version of SUSHI that was described in an unpublished NISO Technical Report. The preferred term is COUNTER API.
      -
 
+   * - Syndicated usage
+     - Content available from multiple platforms simultaneously. COUNTER's syndicated usage best practice guide facilitates usage reporting for syndicated content.
+     -
+
+   * - Syndication platform
+     - A platform which offers access to syndicated content, but which is not the original publisher of the material. ResearchGate acts as a syndication platform where it distributes content on behalf of publishers.
+     -
+
    * - Tab Separated Value
      - See TSV.
      -
@@ -1288,6 +1308,10 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - UTF-8 is a variable width character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes. The encoding is defined by the Unicode Standard, and was originally designed by Ken Thompson and Rob Pike. The name is derived from Unicode Transformation Format - 8-bit. [`Wikipedia <https://en.wikipedia.org/wiki/UTF-8>`__]
      -
 
+   * - Validator
+     - A free tool developed by the COUNTER team. The Validator runs a series of checks on tabular and JSON reports, and on the COUNTER API (sushi) for the purposes of assessing compliance with the Code of Practice. [`Validator <https://validator.countermetrics.org/>`_].
+     -
+     
    * - Vendor
      - A publisher or other online information provider who delivers licensed content to the customer and with whom the customer has a contractual relationship.
      - Taylor & Francis, EBSCO
