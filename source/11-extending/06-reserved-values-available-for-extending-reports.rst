@@ -12,11 +12,11 @@ COUNTER's `COUNTER Best Practice on Generative and Agentic AI Usage <https://www
 
 .. only:: latex
 
-   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.18}|>{\raggedright\arraybackslash}\Y{0.27}|>{\parskip=\tparskip}\Y{0.55}|
+   .. tabularcolumns:: |>{\raggedright\arraybackslash}\Y{0.17}|>{\raggedright\arraybackslash}\Y{0.26}|>{\parskip=\tparskip}\Y{0.46}|>{\raggedright\arraybackslash}\Y{0.11}|
 
 .. list-table::
    :class: longtable
-   :widths: 15 22 63 15
+   :widths: 15 22 51 12
    :header-rows: 1
 
    * - Element Name
