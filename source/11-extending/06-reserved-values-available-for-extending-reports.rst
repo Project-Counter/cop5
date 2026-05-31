@@ -7,7 +7,7 @@
 Reserved Values Available for Extending Reports
 -------------------------------------------------
 
-COUNTER's `COUNTER Best Practice on Generative and Agentic AI Usage <https://www.countermetrics.org/code-of-practice/best-practice/bp-ai/>`_ created a new Access_Method and new Metric_Types specifically for reporting AI usage. These values are OPTIONAL extensions for inclusion in COUNTER Reports only when called for.
+COUNTER's `Best Practice on Generative and Agentic AI Usage <https://www.countermetrics.org/code-of-practice/best-practice/bp-ai/>`_ created a new Access_Method and new Metric_Types specifically for reporting AI usage. These values are OPTIONAL extensions for inclusion in COUNTER Reports only when called for.
 
 
 .. only:: latex
