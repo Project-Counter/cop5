@@ -14,7 +14,7 @@
 
 This Code of Practice is implemented using the following convention:
 
-The keywords MUST, REQUIRED, MUST NOT, REQUIRED, SHALL, SHALL NOT, SHOULD (or RECOMMENDED), SHOULD NOT (or NOT RECOMMENDED), MAY, and OPTIONAL in this document are to be interpreted as described in `RFC 2119 <https://www.ietf.org/rfc/rfc2119.txt>`_.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in `RFC 2119 <https://www.ietf.org/rfc/rfc2119.txt>`_.
 
 Note that the force of these words is modified by the requirement level of the document in which they are used.
 
