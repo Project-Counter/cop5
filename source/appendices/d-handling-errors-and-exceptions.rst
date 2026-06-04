@@ -161,7 +161,7 @@ Table D.1 (below): Exceptions
      - 200
      - The service has not yet processed the usage for one or more of the requested months. Where data is available for one or more of the requested months, that data should be returned. The Exception should include the months not processed in the additional Data element.
 
-       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, if a user requests a Release 5 report and they are no longer available.
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, if a user requests a Release 5 report for a month where only Release 5.1 reports are available.
 
        Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
 
@@ -170,7 +170,7 @@ Table D.1 (below): Exceptions
      - 200
      - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the first month for which data has been processed and is available. If some months are available that data should be returned. The Exception should include the information about the months processed and available in the additional Data element.
 
-       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice and not reprocessing older data. For example, if a user requests a Release 5.1 report and older data are available only in Release 5 reports.
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice and not reprocessing older data. For example, if a user requests a Release 5.1 report for a month where only Release 5 reports are available.
 
    * - Partial Data Returned
      - 3040
