@@ -24,7 +24,7 @@ When requesting a tabular report at an administrative/reporting site, only the l
 
 While only a single Exception can be returned for a non-200 HTTP status code, the Exceptions element in the report header allows to return multiple Exceptions with HTTP status code 200, both in JSON and tabular reports. If the COUNTER API server detects multiple errors, including some with a non-200 HTTP status code, it MUST only return a single Exception with a non-200 HTTP status code, preferably the one with the lowest Exception Code.
 
-Note that no COUNTER report should be empty without an appropriate Exception. That is, reports must contain at least one metric.
+Note that COUNTER reports without usage MUST include an appropriate Exception. That is, reports without an Exception must contain at least one metric with a count.
 
 The COUNTER API Specification defines the general JSON format for Exceptions as follows:
 
@@ -161,7 +161,7 @@ Table D.1 (below): Exceptions
      - 200
      - The service has not yet processed the usage for one or more of the requested months. Where data is available for one or more of the requested months, that data should be returned. The Exception should include the months not processed in the additional Data element.
 
-       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, when transitioning to Release 5.1 and Release 5 reports are no longer available.
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice, and reports for the old Release are no longer available. For example, if a user requests a Release 5 report and they are no longer available.
 
        Note: If the requested begin_date is the current or a future month, the server should return Exception 3020. If the requested end_date is the current or a future month, the server may continue processing the request and include Exception 3031, the End_Date Report_Filter then should be set to the previous month (the last month that could have been processed).
 
@@ -170,7 +170,7 @@ Table D.1 (below): Exceptions
      - 200
      - The service does not have the usage for one or more of the requested months because the requested begin_date is earlier than the first month for which data has been processed and is available. If some months are available that data should be returned. The Exception should include the information about the months processed and available in the additional Data element.
 
-       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice and not reprocessing older data. For example, when transitioning to Release 5.1 and older data are available only in Release 5 reports.
+       Note: This is the appropriate code to use when transitioning between Releases of the Code of Practice and not reprocessing older data. For example, if a user requests a Release 5.1 report and older data are available only in Release 5 reports.
 
    * - Partial Data Returned
      - 3040
