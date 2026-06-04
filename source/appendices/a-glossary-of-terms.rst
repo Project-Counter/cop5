@@ -571,7 +571,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Internet robot, crawler, spider
-     - Any automated program or script that visits websites and systematically retrieves information from them, often to provide indexes for search engines. See :ref:`Appendix H <appendix-h>`.
+     - Any automated program or script that visits websites and systematically retrieves information from them, often to provide indexes for search engines. See :numref:`robots`.
      -
 
    * - Investigation
