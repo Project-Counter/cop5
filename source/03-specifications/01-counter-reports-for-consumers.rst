@@ -170,7 +170,7 @@ See :numref:`database-reports` below for details on Database Usage Reports.
 Standard Views of the Title Report
 '''''''''''''''''''''''''''''''''''
 
-Standard Views of the Title Report are used to support the evaluation of the value of a given journal, book, or reference work (e.g. book, eBook, textbook, or reference work) title.
+Standard Views of the Title Report are used to support the evaluation of the value of a given journal, book, or reference work.
 
 Table 3.d (below): Standard Views of the Title Report
 
