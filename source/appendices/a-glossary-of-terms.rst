@@ -249,22 +249,22 @@ Note: The main Code of Practice document takes precedence in the case of any con
      - A version of the Version of Record of a journal article in which errors in the VoR have been corrected. The errors could be author errors, publisher errors, or other processing errors.
      -
 
-   * - COUNTER compliance pending
-     - Status of a vendor who is currently not compliant but whose audit is in progress or scheduled.
+   * - COUNTER API
+     - A RESTful implementation of automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. Formerly known as COUNTER_SUSHI API.
+
+       COUNTER compliance requires report providers to implement the COUNTER API.
      -
 
-   * - COUNTER Validation Tool
-     - See Validator.
+   * - COUNTER compliance pending
+     - Status of a vendor who is currently not compliant but whose audit is in progress or scheduled.
      -
 
    * - COUNTER Reports
      - The four primary reports (Platform, Database, Title and Item Reports) defined by COUNTER, highly flexible with multiple filter options, and with associated Standard Views of the COUNTER Reports.
      -
 
-   * - COUNTER API
-     - A RESTful implementation of automation intended to return COUNTER Release 5 reports and snippets of COUNTER usage in JSON format. Formerly known as COUNTER_SUSHI API.
-
-       COUNTER compliance requires report providers to implement the COUNTER API.
+   * - COUNTER Validation Tool
+     - See Validator.
      -
 
    * - Crawler
