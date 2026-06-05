@@ -724,7 +724,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Multiple identities
-     - A term used to describe the situation where a single user's activities may be attributed to multiple institutions. For example, Sam may be affiliated with institution A through IP recognition, institution B through Shibboleth / Open Athens authentication, and Institution C through role-based access (i.e. a personal log-in for an editor).
+     - A term used to describe the situation where a single user's activities may be attributed to multiple institutions. For example, Sam may be affiliated with institution A through IP recognition, institution B through Shibboleth/Open Athens authentication, and Institution C through role-based access (i.e. a personal log-in for an editor).
      -
 
    * - Namespace
@@ -1149,8 +1149,8 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Syndication platform
-     - A platform which offers access to syndicated content, but which is not the original publisher of the material. ResearchGate acts as a syndication platform where it distributes content on behalf of publishers.
-     -
+     - A platform which offers access to syndicated content, but which is not the original publisher of the material. For example, ResearchGate acts as a syndication platform where it distributes content on behalf of publishers.
+     - ResearchGate
 
    * - Tab Separated Value
      - See TSV.
