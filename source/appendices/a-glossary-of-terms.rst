@@ -1309,7 +1309,7 @@ Note: The main Code of Practice document takes precedence in the case of any con
      -
 
    * - Validator
-     - A free tool developed by the COUNTER team. The Validator runs a series of checks on tabular and JSON reports, and on the COUNTER API (sushi) for the purposes of assessing compliance with the Code of Practice. [`Validator <https://validator.countermetrics.org/>`_].
+     - A free tool developed by the COUNTER team. The Validator runs a series of checks on tabular and JSON reports, and on the COUNTER API (formerly sushi) for the purposes of assessing compliance with the Code of Practice. [`Validator <https://validator.countermetrics.org/>`_].
      -
      
    * - Vendor
