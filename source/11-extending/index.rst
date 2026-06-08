@@ -16,5 +16,6 @@ COUNTER recognises that some report providers may want to provide customized ver
    02-creating-customized-counter-reports
    03-creating-new-elements-columns-headings
    04-creating-new-values-for-enumerated-elements-and-attributes
-   05-reserved-values-available-for-extending-reports
-   06-restrictions-in-using-customized-elements-and-values
+   05-reserved-elements-available-for-extending-reports
+   06-reserved-values-available-for-extending-reports
+   07-restrictions-in-using-customized-elements-and-values

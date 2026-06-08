@@ -4,8 +4,8 @@
 
 .. _reserved-elements:
 
-Reserved Elements and Values Available for Extending Reports
-------------------------------------------------------------
+Reserved Elements Available for Extending Reports
+-------------------------------------------------
 
 COUNTER recognizes that there are some common extensions that report providers might want to include in COUNTER Reports or when creating custom reports; therefore the following element names and values have been reserved for this common use:
 
