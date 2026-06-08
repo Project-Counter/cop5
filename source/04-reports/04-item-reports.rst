@@ -48,8 +48,6 @@ Table 4.n (below): Item Report and Standard Views of the Item Report
      - Reports on multimedia requests at the item level.
      - Multimedia
 
-\*Data repositories may choose to conform to the Code of Practice Release 5 or, alternatively, may wish to work with the Code of Practice for Research Data.
-
 
 Report Header
 """""""""""""
