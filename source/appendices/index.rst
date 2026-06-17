@@ -20,4 +20,3 @@ Appendices
    e-audit-requirements-and-tests/index
    f-list-of-federated-search-products
    g-sample-counter-reports-and-standard-views
-   h-list-of-internet-robots-crawlers-and-spiders

@@ -2,7 +2,7 @@
 Report_ID	TR_B1																								
 Release	5.1																								
 Institution_Name	Sample Institution																								
-Institution_ID	ISNI:1234123412341234																								
+Institution_ID	P1:1234; ISNI:1234123412341234																								
 Metric_Types	Total_Item_Requests; Unique_Title_Requests																								
 Report_Filters	Data_Type=Book|Reference_Work; Access_Type=Controlled; Access_Method=Regular																								
 Report_Attributes																									

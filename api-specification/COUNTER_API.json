@@ -1282,7 +1282,7 @@
                     "Registry_Record": {
                         "type": "string",
                         "pattern": "^(https://registry.countermetrics.org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
-                        "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST omit this element."
+                        "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank."
                     },
                     "Note": {
                         "type": "string",
@@ -1309,7 +1309,8 @@
                     }
                 },
                 "required": [
-                    "Service_Active"
+                    "Service_Active",
+                    "Registry_Record"
                 ],
                 "examples": [
                     {
@@ -1374,6 +1375,9 @@
                         "Institution_Name": "Sample Institution",
                         "Notes": "This is a sample customer",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -1604,6 +1608,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -2319,6 +2326,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -2763,6 +2773,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -3378,6 +3391,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -3592,6 +3608,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -3736,6 +3755,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -4487,6 +4509,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -4619,6 +4644,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -4748,6 +4776,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -4923,6 +4954,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -5018,6 +5052,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -5110,6 +5147,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -5240,6 +5280,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -5358,6 +5401,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -6924,6 +6970,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -7113,6 +7162,9 @@
                             "Created": "2023-02-15T09:11:12Z",
                             "Created_By": "Sample Publisher",
                             "Institution_ID": {
+                                "Proprietary": [
+                                    "P1:1234"
+                                ],
                                 "ISNI": [
                                     "1234123412341234"
                                 ]
@@ -7321,6 +7373,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -7511,6 +7566,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -8632,6 +8690,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -9342,6 +9403,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -10233,6 +10297,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -10564,6 +10631,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -10798,6 +10868,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -11325,6 +11398,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -11604,6 +11680,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -11870,6 +11949,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -12222,6 +12304,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -12482,6 +12567,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -12729,6 +12817,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -13047,6 +13138,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -13332,6 +13426,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -14520,6 +14617,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -14964,6 +15064,9 @@
                         "Created": "2023-02-15T09:11:12Z",
                         "Created_By": "Sample Publisher",
                         "Institution_ID": {
+                            "Proprietary": [
+                                "P1:1234"
+                            ],
                             "ISNI": [
                                 "1234123412341234"
                             ]
@@ -15869,7 +15972,7 @@
                         "minItems": 1,
                         "items": {
                             "type": "string",
-                            "pattern": "^[a-zA-Z][a-zA-Z0-9_./]{1,17}:.+"
+                            "pattern": "^[a-zA-Z][a-zA-Z0-9_./]{0,15}[a-zA-Z0-9]:.+"
                         }
                     }
                 },
@@ -15914,6 +16017,9 @@
                 "title": "Institution_ID",
                 "examples": [
                     {
+                        "Proprietary": [
+                            "P1:1234"
+                        ],
                         "ISNI": [
                             "1234123412341234"
                         ]
@@ -15975,7 +16081,7 @@
                     },
                     "Proprietary": {
                         "type": "string",
-                        "pattern": "^[a-zA-Z][a-zA-Z0-9_./]{1,17}:.+"
+                        "pattern": "^[a-zA-Z][a-zA-Z0-9_./]{0,15}[a-zA-Z0-9]:.+"
                     },
                     "URI": {
                         "type": "string",
