@@ -66,8 +66,6 @@ Table 3.a (below): COUNTER Reports
        Repository\ |br|\ |lb|
        Scholarly_Collaboration_Network
 
-\* Data repositories may choose to conform to the Code of Practice R5.1, or alternatively may wish to work with the Code of Practice for Research Data.
-
 Figure 3.a (below) provides an example of how the user interface could look. The user will be presented with an interface that allows them to select usage dates, one or more Metric_Types, Data_Types, Access_Types, etc. and indicate if the filter columns are to be included. Including the column will cause usage to be broken out by individual values for the selected filter, whereas not including the column will result in usage being summarized for the selected filter.
 
 .. figure:: ../_static/img/Figure-3a.png
@@ -117,8 +115,6 @@ Table 3.b (below): Platform Usage Standard View
      - Platform Usage
      - Platform-level usage summarized by Metric_Type.
      - All Host_Types
-
-\*Data repositories may choose to conform to the Code of Practice R5.1, or alternatively may wish to work with the Code of Practice for Research Data.
 
 See :numref:`platform-reports` below for details on Platform Usage Reports.
 

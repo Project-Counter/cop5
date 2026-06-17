@@ -37,8 +37,6 @@ Table 4 (below): Platform Report and Standard Views of the Platform Report
      - Platform-level usage summarized by Metric_Type.
      - All Host_Types
 
-\*Data repositories may choose to conform to the Code of Practice Release 5.1 or, alternatively, may wish to work with the Code of Practice for Research Data.
-
 
 Report Header
 """""""""""""
