@@ -18,3 +18,4 @@ COUNTER recognises that some report providers may want to provide customized ver
    04-creating-new-values-for-enumerated-elements-and-attributes
    05-reserved-values-available-for-extending-reports
    06-restrictions-in-using-customized-elements-and-values
+   07-api-extensions-for-the-counter-api
