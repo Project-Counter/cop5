@@ -19,4 +19,4 @@ Each of these approaches has advantages and disadvantages, summarised below.
 
    01-log-file-analysis
    02-page-tagging
-   03-distributed-usage-logging
+   03-syndicated-usage
