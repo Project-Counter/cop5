@@ -22,7 +22,7 @@ from datetime import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'COUNTER Code of Practice Release 5'
-copyright = '2017-%d by COUNTER Metrics. The COUNTER Code of Practice is licensed under CC BY 4.0.' % datetime.now().year
+copyright = '2017-%d by COUNTER Metrics. The COUNTER Code of Practice is licensed under CC BY 4.0' % datetime.now().year
 author = 'COUNTER'
 
 # The short X.Y version
