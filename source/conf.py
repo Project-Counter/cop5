@@ -77,10 +77,10 @@ rst_prolog = '''
        <br />
     .. |lb| raw:: latex
 
-       {\linebreak}
+       {\\linebreak}
     .. |clearpage| raw:: latex
 
-       {\clearpage}
+       {\\clearpage}
     .. |blscape| raw:: latex
 
        \\begin{landscape}
@@ -109,8 +109,7 @@ except ImportError:
 #
 html_theme_options = {
     'navigation_depth': 3,
-    'logo_only': True,
-    'display_version': False
+    'logo_only': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
