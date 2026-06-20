@@ -12,13 +12,14 @@ The change log below is ordered by type of change. It shows the GitHub issue tit
 Release 5.1.0.1
 ---------------
 
-`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22R5.1.0.1%22>`_
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.1.0.1%22>`_
 
 **Bug Fixes**
 
 * Format extension (JSON schema) `#244 <https://github.com/Project-Counter/cop5/issues/244>`_ [documentation]
 * Parent_Data_Type and Data_Type `#246 <https://github.com/Project-Counter/cop5/issues/246>`_ [permitted attribute values]
 * JSON fixes `#249 <https://github.com/Project-Counter/cop5/issues/249>`_ [documentation]
+* Fix minLength spelling in COUNTER API specification `#264 <https://github.com/Project-Counter/cop5/issues/264>`_ [documentation]
 * Fix the structure for Reports_Items with Components in the COUNTER API Specification `#292 <https://github.com/Project-Counter/cop5/issues/292>`_ [report structure, permitted attribute values]
 * Fix the permitted values for Granularity in the COUNTER API Specification `#293 <https://github.com/Project-Counter/cop5/issues/293>`_ [permitted attribute values]
 
