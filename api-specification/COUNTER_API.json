@@ -17491,7 +17491,7 @@
                         "Totals"
                     ]
                 },
-                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Totals (usage not broken down by months)."
+                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Totals (usage not broken down by months). Support for Totals is OPTIONAL, i.e. report providers can decide whether to support the value or not."
             },
             "database": {
                 "name": "database",
@@ -17500,7 +17500,7 @@
                 "schema": {
                     "type": "string"
                 },
-                "description": "Name of a specific database usage is being requested for. If omitted, all databases on the platform with usage for the customer will be returned."
+                "description": "Name of a specific database usage is being requested for. If omitted, all databases on the platform with usage for the customer will be returned. Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not."
             },
             "access_type": {
                 "name": "access_type",
@@ -17532,7 +17532,7 @@
                 "schema": {
                     "type": "string"
                 },
-                "description": "Identifier of a specific title usage is being requested for. If omitted, all titles on the platform with usage for the customer will be returned."
+                "description": "Identifier of a specific title usage is being requested for. If omitted, all titles on the platform with usage for the customer will be returned. Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not."
             },
             "author": {
                 "name": "author",
@@ -17541,7 +17541,7 @@
                 "schema": {
                     "type": "string"
                 },
-                "description": "Identifier of a specific author usage is being requested for. If omitted, all items on the platform with usage for the customer will be returned."
+                "description": "Identifier of a specific author usage is being requested for. If omitted, all items on the platform with usage for the customer will be returned. Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not."
             },
             "include_component_details": {
                 "name": "include_component_details",
