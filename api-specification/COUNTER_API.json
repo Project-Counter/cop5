@@ -17491,7 +17491,7 @@
                         "Totals"
                     ]
                 },
-                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Totals (usage not broken down by months). Support for Totals is OPTIONAL, i.e. report providers can decide whether to support the value or not."
+                "description": "Optional Report_Attribute. Include this parameter to retrieve usage with a granularity of Month (default if omitted) or Totals (usage not broken down by months). Support for Totals is recommended but OPTIONAL, i.e. report providers can decide whether to support the value or not."
             },
             "database": {
                 "name": "database",

@@ -868,7 +868,7 @@ Table 3.x (below): Report Attributes
    * - Granularity
      - Specifies the granularity of the usage data to include in the report. Permissible values are Month (default) and Totals. This attribute is only applicable to JSON reports, the corresponding attribute for tabular reports is Exclude_Monthly_Details.
 
-       For Totals each Item_Performance element represents the aggregated usage for the reporting period. Support for Month is REQUIRED for COUNTER compliance. Support for Totals is OPTIONAL, i.e. report providers can decide whether to support the value or not.
+       For Totals each Item_Performance element represents the aggregated usage for the reporting period. Support for Month is REQUIRED for COUNTER compliance. Support for Totals is recommended but OPTIONAL, i.e. report providers can decide whether to support the value or not.
      - PR, DR, TR, IR\ |br|\ |lb|
        (JSON)
 
