@@ -22,7 +22,7 @@ from datetime import datetime
 # -- Project information -----------------------------------------------------
 
 project = 'COUNTER Code of Practice Release 5'
-copyright = '2017-%d, COUNTER' % datetime.now().year
+copyright = '2017-%d by COUNTER Metrics. The COUNTER Code of Practice is licensed under CC BY 4.0' % datetime.now().year
 author = 'COUNTER'
 
 # The short X.Y version
@@ -218,7 +218,8 @@ latex_elements = {
             \centering
             \fbox{%
                 \begin{minipage}{0.80\textwidth}
-                    The Code of Practice is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5 of the Code of Practice.
+                    The COUNTER Code of Practice © 2017-2026 by COUNTER Metrics is licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.
+                    The Code of Practice is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5.1.0.1.
                 \end{minipage}
             }
             \vspace{50pt}

@@ -1,5 +1,5 @@
 
-.. The COUNTER Code of Practice © 2017-2024 by COUNTER Metrics
+.. The COUNTER Code of Practice © 2017-2026 by COUNTER Metrics
    is licensed under CC BY 4.0. To view a copy of this license,
    visit https://creativecommons.org/licenses/by/4.0/
 
