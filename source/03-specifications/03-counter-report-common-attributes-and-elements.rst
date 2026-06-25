@@ -868,7 +868,7 @@ Table 3.x (below): Report Attributes
    * - Granularity
      - Specifies the granularity of the usage data to include in the report. Permissible values are Month (default) and Totals. This attribute is only applicable to JSON reports, the corresponding attribute for tabular reports is Exclude_Monthly_Details.
 
-       For Totals each Item_Performance element represents the aggregated usage for the reporting period. Support for Month is REQUIRED for COUNTER compliance, support for Totals is optional.
+       For Totals each Item_Performance element represents the aggregated usage for the reporting period. Support for Month is REQUIRED for COUNTER compliance. Support for Totals is recommended but OPTIONAL, i.e. report providers can decide whether to support the value or not.
      - PR, DR, TR, IR\ |br|\ |lb|
        (JSON)
 
@@ -911,7 +911,7 @@ Table 3.y (below): Report Filters
      - All COUNTER Reports and Standard Views of COUNTER Reports
 
    * - Database
-     - Name of a specific database for which usage is being requested (default: all). Support for this filter is optional but recommended for the reporting website.
+     - Name of a specific database for which usage is being requested (default: all). Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not.
      - DR
 
    * - Data_Type
@@ -920,11 +920,11 @@ Table 3.y (below): Report Filters
        TR_B1, TR_B2, TR_B3, TR_J1, TR_J2, TR_J3, TR_J4, IR_A1, IR_M1
 
    * - Item_Contributor
-     - Identifier of a specific contributor (author) for which usage is being requested (default: all). Support for this filter is optional but recommended for the reporting website.
+     - Identifier of a specific contributor (author) for which usage is being requested (default: all). Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not.
      - IR
 
    * - Item_ID
-     - Identifier of a specific item for which usage is being requested. Support for this filter is optional but recommended for the reporting website.
+     - Identifier of a specific item for which usage is being requested. Support for this filter is recommended but OPTIONAL, i.e. report providers can decide whether to support the filter or not.
      - TR, IR
 
    * - Metric_Type
