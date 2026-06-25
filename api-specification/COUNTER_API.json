@@ -1538,7 +1538,7 @@
                     },
                     "Release": {
                         "type": "string",
-                        "minLength": 1,
+                        "const": "5.1",
                         "description": "Release version of the report."
                     },
                     "Report_Description": {
