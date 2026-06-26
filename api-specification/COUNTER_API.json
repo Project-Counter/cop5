@@ -215,6 +215,9 @@
                     },
                     {
                         "$ref": "#/components/parameters/platform"
+                    },
+                    {
+                        "$ref": "#/components/parameters/include_month_details"
                     }
                 ],
                 "description": "Returns the list of reports supported by the COUNTER API server for the customer, including the first and last months for which usage data has been processed and is available. This information SHOULD be specific for the customer ID.",
@@ -1560,6 +1563,9 @@
                         "type": "string",
                         "pattern": "^[0-9]{4}-[0-9]{2}$",
                         "description": "Last month for which usage data has been processed and is available."
+                    },
+                    "Month_Details": {
+                        "$ref": "#/components/schemas/Month_Details"
                     }
                 },
                 "required": [
@@ -1572,6 +1578,50 @@
                 ],
                 "x-tags": [
                     "Report List"
+                ]
+            },
+            "Month_Details": {
+                "x-stoplight": {
+                    "id": "eg0awspy261s0"
+                },
+                "title": "Month Details",
+                "description": "Information about when (and why) data for the report has changed. This is a common extension, support is OPTIONAL (see Section 11.7 of the Code of Practice for details).",
+                "type": "object",
+                "patternProperties": {
+                    "^[0-9]{4}-(0[1-9]|1[0-2])$": {
+                        "type": "object",
+                        "description": "Month for which the data has changed, in yyyy-mm format.",
+                        "properties": {
+                            "Last_Change_Date": {
+                                "type": "string",
+                                "description": "Date-time when the data for the month last changed, in RFC3339 date-time format.",
+                                "format": "date-time"
+                            },
+                            "Last_Change_Note": {
+                                "type": "string",
+                                "description": "Information about why the data for the month has changed."
+                            }
+                        },
+                        "required": [
+                            "Last_Change_Date"
+                        ]
+                    }
+                },
+                "minProperties": 1,
+                "additionalProperties": false,
+                "examples": [
+                    {
+                        "2026-03": {
+                            "Last_Change_Date": "2026-04-18T20:30:40Z",
+                            "Last_Change_Note": "Data restated after correction of duplicate request counts."
+                        },
+                        "2026-02": {
+                            "Last_Change_Date": "2026-03-29T01:02:03Z"
+                        }
+                    }
+                ],
+                "x-tags": [
+                    "Shared Models"
                 ]
             },
             "PR": {
@@ -17591,6 +17641,19 @@
                     "type": "string"
                 },
                 "description": "Optional Report_Filter. A list of Subdivision_Codes separated by the | character (URL encoded as %7C) to return usage for. Subdivision_Code is a common extension, support is optional (see Section 11 of the Code of Practice for details)."
+            },
+            "include_month_details": {
+                "name": "include_month_details",
+                "in": "query",
+                "required": false,
+                "schema": {
+                    "type": "string",
+                    "enum": [
+                        "False",
+                        "True"
+                    ]
+                },
+                "description": "Use a value of True to request the Month_Details common extension (see Section 11.7 of the Code of Practice for details). Support for common extensions is OPTIONAL, i.e. report providers can decide whether to support the extension or not."
             }
         },
         "securitySchemes": {}
