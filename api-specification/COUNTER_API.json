@@ -1584,7 +1584,7 @@
                 "x-stoplight": {
                     "id": "eg0awspy261s0"
                 },
-                "title": "Month Details",
+                "title": "Month_Details",
                 "description": "Information about when (and why) data for the report has changed. This is a common extension, support is OPTIONAL (see Section 11.7 of the Code of Practice for details).",
                 "type": "object",
                 "patternProperties": {
