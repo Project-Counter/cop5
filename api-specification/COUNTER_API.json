@@ -17598,18 +17598,26 @@
                 "in": "query",
                 "required": false,
                 "schema": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": [
+                        "False",
+                        "True"
+                    ]
                 },
-                "description": "Optional Report_Attribute. Include this parameter to include details of the item components in the report (if supported by the COUNTER API server). Omitting the parameter will exclude the item component elements."
+                "description": "Optional Report_Attribute. Include this parameter with a value of True to include details of the item components in the report (if supported by the COUNTER API server). Omitting the parameter will exclude the item component elements."
             },
             "include_parent_details": {
                 "name": "include_parent_details",
                 "in": "query",
                 "required": false,
                 "schema": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": [
+                        "False",
+                        "True"
+                    ]
                 },
-                "description": "Optional Report_Attribute. Include this parameter to include details of the item parents in the report, e.g. information about the journal in which an article is published. Omitting the parameter will exclude the item parent elements."
+                "description": "Optional Report_Attribute. Include this parameter with a value of True to include details of the item parents in the report, e.g. information about the journal in which an article is published. Omitting the parameter will exclude the item parent elements."
             },
             "attributed": {
                 "name": "attributed",
