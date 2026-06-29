@@ -1469,6 +1469,7 @@
                     "Platform_Parameter",
                     "Platform_Name"
                 ],
+                "additionalProperties": false,
                 "properties": {
                     "Platform_Parameter": {
                         "type": "string",
