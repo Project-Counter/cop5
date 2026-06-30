@@ -7,7 +7,7 @@
 Audit
 =====
 
-Release 5.1.0.1 of the COUNTER Code of Practice (published 14 January 2025) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.
+Release 5.1.1 of the COUNTER Code of Practice (published 30 June 2026) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.
 
 An important feature of the COUNTER Code of Practice is that compliant report providers (including third-party services providing stats on behalf of publishers) MUST be independently audited on an annual basis to maintain their COUNTER-compliant status. To facilitate this, a set of auditing standards and procedures has been published in :ref:`Appendix E <appendix-e>` of this Code of Practice. COUNTER has tried to meet the need of report consumers for credible usage statistics without placing an undue administrative or financial burden on report providers. For this reason, audits will be conducted online in accordance with the program included in the auditing standards and procedures (:ref:`Appendix E <appendix-e>`).
 
