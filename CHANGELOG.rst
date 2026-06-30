@@ -9,6 +9,56 @@ All changes to the COUNTER Code of Practice are tracked with GitHub issues and l
 
 The change log below is ordered by type of change. It shows the GitHub issue titles and numbers and the impact of the change (metric calcuation, report structure, permitted attribute values, counter api (formerly sushi), documentation), with links to the issues. From Release 5.1, the structure reflects our Explicit Versioning system (see :ref:`maintenance`).
 
+Release 5.1.1
+-------------
+
+`List of issues on GitHub <https://github.com/Project-Counter/cop5/issues?q=is%3Aissue+milestone%3A%22Release+5.1.1%22>`_
+
+**New Features**
+
+* Migrate COUNTER list of robots and crawlers to a COUNTER repository `#251 <https://github.com/Project-Counter/cop5/issues/251>`_ [documentation]
+* Update Section 7.8 for new COUNTER bots repository and AI usage `#316 <https://github.com/Project-Counter/cop5/issues/316>`_ [documentation]
+* Add information about last change of data to the COUNTER API /reports endpoint `#331 <https://github.com/Project-Counter/cop5/issues/331>`_ [counter api]
+* Add Section 10.5 Pathway to Compliance `#338 <https://github.com/Project-Counter/cop5/issues/338>`_ [documentation]
+* Add common extension Platforms to Section 11.7 and the COUNTER API Specification `#386 <https://github.com/Project-Counter/cop5/issues/386>`_ [counter api]
+
+**Bug Fixes**
+
+* Fix list of reports for Data_Type in Section 3.2.2 (Table 3.l) `#299 <https://github.com/Project-Counter/cop5/issues/299>`_ [documentation]
+* Fix invalid ISIL pattern in COUNTER API Specification `#300 <https://github.com/Project-Counter/cop5/issues/300>`_ [documentation]
+* Fix Status.Registry_Record in the COUNTER_API Specification `#302 <https://github.com/Project-Counter/cop5/issues/302>`_ [counter api]
+* Fix missing DR_D1 for Unique_Item_Investigations and Unique_Item_Requests in Section 3.3.3 (Table 3.s) `#314 <https://github.com/Project-Counter/cop5/issues/314>`_ [documentation]
+* Fix Section 4 to require Institution_ID in report headers `#319 <https://github.com/Project-Counter/cop5/issues/319>`_ [documentation]
+* Fix regular expression for proprietary identifiers in the COUNTER API Specification `#330 <https://github.com/Project-Counter/cop5/issues/330>`_ [counter api]
+* Having JSON Report_Filters sorted differently for Standard Views leads to a validation error `#361 <https://github.com/Project-Counter/cop5/issues/361>`_ [counter api]
+* Fix the COUNTER API Specification to only allow Release 5.1 in the /r51/reports response `#370 <https://github.com/Project-Counter/cop5/issues/370>`_ [counter api]
+* Fix definitions of the include_parent_details and include_component_details parameters in the COUNTER API Specification `#379 <https://github.com/Project-Counter/cop5/issues/379>`_ [counter api]
+
+**Text Edits and Clarifications**
+
+* Missing Article_Version in IR samples for COUNTER R5.1 `#284 <https://github.com/Project-Counter/cop5/issues/284>`_ [documentation]
+* Add a proprietary Institution_ID to the sample reports `#289 <https://github.com/Project-Counter/cop5/issues/289>`_ [documentation]
+* Clarify audit tests for the COUNTER API (formerly sushi) `#303 <https://github.com/Project-Counter/cop5/issues/303>`_ [documentation]
+* Update custom report example in Section 11.1 `#310 <https://github.com/Project-Counter/cop5/issues/310>`_ [documentation]
+* Update COUNTER URL domain `#311 <https://github.com/Project-Counter/cop5/issues/311>`_ [documentation]
+* Fix description of Standard Views of the Title Report in Section 3.1.2.3 `#312 <https://github.com/Project-Counter/cop5/issues/312>`_ [documentation]
+* Rename COUNTER Validation Tool to COUNTER Validator `#313 <https://github.com/Project-Counter/cop5/issues/313>`_ [documentation]
+* Add missing rules for counting redirect HTTP status codes to Section 7.1 `#315 <https://github.com/Project-Counter/cop5/issues/315>`_ [documentation]
+* Merge the Code for Research Data into the COUNTER Code of Practice `#317 <https://github.com/Project-Counter/cop5/issues/317>`_ [documentation]
+* Clarify audit timelines in Section 9.3 `#318 <https://github.com/Project-Counter/cop5/issues/318>`_ [documentation]
+* Add missing keywords from RFC 2119 to Section Conventions `#333 <https://github.com/Project-Counter/cop5/issues/333>`_ [documentation]
+* Update change log, change history, version information and URLs for R5.1.1 `#337 <https://github.com/Project-Counter/cop5/issues/337>`_ [documentation]
+* Clarify appropriate security for the COUNTER API `#340 <https://github.com/Project-Counter/cop5/issues/340>`_ [documentation]
+* Clarify handling of reports without usage and use of Exceptions 303X `#341 <https://github.com/Project-Counter/cop5/issues/341>`_ [documentation]
+* Update GLossary for R5.1.1 `#342 <https://github.com/Project-Counter/cop5/issues/342>`_ [documentation]
+* Add information about reporting syndicated usage `#352 <https://github.com/Project-Counter/cop5/issues/352>`_ [documentation]
+* Update license headers and footers `#353 <https://github.com/Project-Counter/cop5/issues/353>`_ [documentation]
+* Update Section 6.3 about DUL, superseeded by Best Practice on Syndicated Usage `#362 <https://github.com/Project-Counter/cop5/issues/362>`_ [documentation]
+* Fix broken link and add missing entry for R5.1.0.1 CHANGELOG `#364 <https://github.com/Project-Counter/cop5/issues/364>`_ [documentation]
+* Update configuration for building the CoP documents `#367 <https://github.com/Project-Counter/cop5/issues/367>`_ [documentation]
+* Clarify which Report Filters and Attributes are optional for the report providers to implement `#369 <https://github.com/Project-Counter/cop5/issues/369>`_ [documentation]
+
+
 Release 5.1.0.1
 ---------------
 
