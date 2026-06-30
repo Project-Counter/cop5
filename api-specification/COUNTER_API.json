@@ -27,6 +27,10 @@
             "description": "Path and models specific for Member List"
         },
         {
+            "name": "Platform List",
+            "description": "Path and models specific for Platform List"
+        },
+        {
             "name": "Report List",
             "description": "Path and models specific for Report List"
         },
@@ -172,6 +176,51 @@
                 "description": "Returns the institutions associated with the customer ID in the request and their customer IDs and requestor IDs (if required for API calls and differing from the requestor ID in the request).\n\nThe associated institutions can be consortium members, or sites for multi-site customers. If the customer in the request is neither a consortium nor multi-site, the list only includes the details for the customer itself.\n\nThis path is a good choice for testing COUNTER API credentials.",
                 "x-stoplight": {
                     "id": "cpeuj2etekukw"
+                }
+            },
+            "parameters": []
+        },
+        "/r51/platforms": {
+            "get": {
+                "summary": "Platform List",
+                "tags": [
+                    "Platform List"
+                ],
+                "responses": {
+                    "200": {
+                        "$ref": "#/components/responses/200_Platforms"
+                    },
+                    "400": {
+                        "$ref": "#/components/responses/400_Exception_1030"
+                    },
+                    "401": {
+                        "$ref": "#/components/responses/401_Exception"
+                    },
+                    "403": {
+                        "$ref": "#/components/responses/403_Exception"
+                    },
+                    "429": {
+                        "$ref": "#/components/responses/429_Exception"
+                    },
+                    "503": {
+                        "$ref": "#/components/responses/503_Exception"
+                    }
+                },
+                "operationId": "get-r51-platforms",
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/customer_id"
+                    },
+                    {
+                        "$ref": "#/components/parameters/requestor_id"
+                    },
+                    {
+                        "$ref": "#/components/parameters/api_key"
+                    }
+                ],
+                "description": "Returns the list of platforms supported by the COUNTER API server for the credentials included in the request. The response SHOULD be customer specific if possible.\n\nThis API path is a common extension (see Section 11.7 of the Code of Practice for details). Support for common extensions is OPTIONAL, i.e. report providers can decide whether to support this API path or not.",
+                "x-stoplight": {
+                    "id": "f3klmp9xqr2wd"
                 }
             },
             "parameters": []
@@ -1390,6 +1439,54 @@
                 "x-tags": [
                     "Member List"
                 ]
+            },
+            "Platform": {
+                "type": "object",
+                "title": "Platform Information",
+                "description": "Information about a platform supported by the COUNTER API server.",
+                "x-stoplight": {
+                    "id": "tz8njvy4bcqh1"
+                },
+                "examples": [
+                    {
+                        "Platform_Parameter": "12",
+                        "Platform_Name": "EBSCOhost"
+                    },
+                    {
+                        "Platform_Parameter": "23",
+                        "Platform_Name": "ProQuest",
+                        "Platform_Description": "Reports for the www.proquest.com platform"
+                    },
+                    {
+                        "Platform_Parameter": "41",
+                        "Platform_Name": "ScienceDirect"
+                    }
+                ],
+                "x-tags": [
+                    "Platform List"
+                ],
+                "required": [
+                    "Platform_Parameter",
+                    "Platform_Name"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                    "Platform_Parameter": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Value to be used for the platform parameter on other API paths."
+                    },
+                    "Platform_Name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Name of the platform."
+                    },
+                    "Platform_Description": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "Additional information about the platform."
+                    }
+                }
             },
             "Report": {
                 "type": "object",
@@ -17210,6 +17307,40 @@
                             "uniqueItems": true,
                             "items": {
                                 "$ref": "#/components/schemas/Member"
+                            }
+                        }
+                    }
+                }
+            },
+            "200_Platforms": {
+                "description": "Platform List response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "array",
+                            "minItems": 1,
+                            "uniqueItems": true,
+                            "items": {
+                                "$ref": "#/components/schemas/Platform"
+                            }
+                        },
+                        "examples": {
+                            "Example 1": {
+                                "value": [
+                                    {
+                                        "Platform_Parameter": "12",
+                                        "Platform_Name": "EBSCOhost"
+                                    },
+                                    {
+                                        "Platform_Parameter": "23",
+                                        "Platform_Name": "ProQuest",
+                                        "Platform_Description": "Reports for the www.proquest.com platform"
+                                    },
+                                    {
+                                        "Platform_Parameter": "41",
+                                        "Platform_Name": "ScienceDirect"
+                                    }
+                                ]
                             }
                         }
                     }
