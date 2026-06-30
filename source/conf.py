@@ -28,14 +28,14 @@ author = 'COUNTER'
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '5.1.0.1'
+release = '5.1.1'
 
 
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-needs_sphinx = '7.2.0'
+needs_sphinx = '8.2.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -183,7 +183,7 @@ latex_elements = {
     ''',
     'maketitle': r'''
         \hypersetup{
-            pdftitle={COUNTER Code of Practice Release 5.1.0.1},
+            pdftitle={COUNTER Code of Practice Release 5.1.1},
             pdfauthor={COUNTER}
         }
         \pagenumbering{Roman}
@@ -194,9 +194,9 @@ latex_elements = {
                 \vspace{25pt}
                 {\Huge \textbf{\color{TitleColor} COUNTER Code of Practice}}\par
                 \vspace{10pt}
-                {\Huge \textbf{\color{TitleColor} Release 5.1.0.1}}\par
+                {\Huge \textbf{\color{TitleColor} Release 5.1.1}}\par
                 \vspace{50pt}
-                {Published: 14 January 2025}\par
+                {Published: 30 June 2026}\par
                 {PDF created: \ddmonthyyyy\today}\par
                 \vspace{5pt}
             \end{flushright}
@@ -210,7 +210,7 @@ latex_elements = {
             \rmfamily
             {COUNTER’s report consumer and report provider members have contributed to the development of Release 5.1 (R5.1) of the COUNTER Code of Practice.}\par
             {The Code of Practice enables report providers to produce consistent, comparable and credible usage data for their online content. This allows report consumers to compare the usage data they receive, and to understand and demonstrate the value of electronic resources.}\par
-            {Release 5.1.0.1 (published 14 January 2025) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.}\par
+            {Release 5.1.1 (published 30 June 2026) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.}\par
             \noindent\rule{\textwidth}{1pt}\par
             \vfill
             \setlength{\fboxrule}{1pt}
@@ -219,7 +219,7 @@ latex_elements = {
             \fbox{%
                 \begin{minipage}{0.80\textwidth}
                     The COUNTER Code of Practice © 2017-2026 by COUNTER Metrics is licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.
-                    The Code of Practice is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5.1.0.1.
+                    The Code of Practice is available from the \href{https://www.countermetrics.org/}{COUNTER website} as an interactive code. This online version is the version of record for Release 5.1.1.
                 \end{minipage}
             }
             \vspace{50pt}
@@ -249,7 +249,7 @@ latex_documents = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice',
-     author, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice Release 5.1.0.1',
+     author, 'COUNTER_Code_of_Practice_R5.1', 'COUNTER Code of Practice Release 5.1.1',
      'Miscellaneous'),
 ]
 

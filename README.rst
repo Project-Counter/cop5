@@ -5,7 +5,9 @@ This repository contains the source for the `COUNTER <https://www.countermetrics
 
 There are multiple branches:
 
-* `5.1.0.1 <https://github.com/Project-Counter/cop5/tree/5.1.0.1>`_: Release 5.1.0.1 (published 14 January 2025) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.
+* `5.1.1 <https://github.com/Project-Counter/cop5/tree/5.1.1>`_: Release 5.1.1 (published 30 June 2026) is the current Code of Practice and the requirement for COUNTER compliance effective immediately.
+
+* `5.1.0.1 <https://github.com/Project-Counter/cop5/tree/5.1.0.1>`_: Release 5.1.0.1 (published 14 January 2025) was the Code of Practice and the requirement for COUNTER compliance effective from the date of release.
 
 * `5.1 <https://github.com/Project-Counter/cop5/tree/5.1>`_: Release 5.1 (published 5 May 2023) was the Code of Practice and the requirement for COUNTER compliance effective from January 2025.
 

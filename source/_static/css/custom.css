@@ -11,7 +11,7 @@
 }
 
 .wy-side-nav-search .wy-dropdown > a::after, .wy-side-nav-search > a::after {
-    content: "COUNTER Code of Practice\ARelease 5.1.0.1";
+    content: "COUNTER Code of Practice\ARelease 5.1.1";
     white-space: pre;
     font-weight: 400;
 }
