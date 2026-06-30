@@ -8887,14 +8887,17 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Searches_Platform",
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Requests",
-                                    "Unique_Title_Requests"
-                                ],
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Searches_Platform",
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Requests",
+                                        "Unique_Title_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -8906,6 +8909,21 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "PR_P1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Searches_Platform",
+                            "Total_Item_Requests",
+                            "Unique_Item_Requests",
+                            "Unique_Title_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-tags": [
                     "PR_P1 - Platform Usage"
                 ],
@@ -10494,17 +10512,20 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Searches_Automated",
-                                    "Searches_Federated",
-                                    "Searches_Regular",
-                                    "Total_Item_Investigations",
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Investigations",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 7,
+                                "maxItems": 7,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Searches_Automated",
+                                        "Searches_Federated",
+                                        "Searches_Regular",
+                                        "Total_Item_Investigations",
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Investigations",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -10516,6 +10537,24 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "DR_D1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Searches_Automated",
+                            "Searches_Federated",
+                            "Searches_Regular",
+                            "Total_Item_Investigations",
+                            "Total_Item_Requests",
+                            "Unique_Item_Investigations",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "9zfmg650jn92g"
                 },
@@ -10823,12 +10862,15 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Limit_Exceeded",
-                                    "No_License"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Limit_Exceeded",
+                                        "No_License"
+                                    ]
                                 }
                             }
                         },
@@ -10840,6 +10882,19 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "DR_D2 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Limit_Exceeded",
+                            "No_License"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "ehemckrahnild"
                 },
@@ -11606,22 +11661,28 @@
                             },
                             "Data_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Book",
-                                    "Reference_Work"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Book",
+                                        "Reference_Work"
+                                    ]
                                 }
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Requests",
-                                    "Unique_Title_Requests"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Requests",
+                                        "Unique_Title_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -11635,6 +11696,26 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_B1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Requests",
+                            "Unique_Title_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Book",
+                            "Reference_Work"
+                        ],
+                        "Access_Type": [
+                            "Controlled"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "ht1u32e0qo3df"
                 },
@@ -11876,22 +11957,28 @@
                             },
                             "Data_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Book",
-                                    "Reference_Work"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Book",
+                                        "Reference_Work"
+                                    ]
                                 }
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Limit_Exceeded",
-                                    "No_License"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Limit_Exceeded",
+                                        "No_License"
+                                    ]
                                 }
                             }
                         },
@@ -11904,6 +11991,23 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_B2 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Limit_Exceeded",
+                            "No_License"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Book",
+                            "Reference_Work"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "phn2zdtzdjf2m"
                 },
@@ -12149,26 +12253,32 @@
                             },
                             "Data_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Book",
-                                    "Reference_Work"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Book",
+                                        "Reference_Work"
+                                    ]
                                 }
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Investigations",
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Investigations",
-                                    "Unique_Item_Requests",
-                                    "Unique_Title_Investigations",
-                                    "Unique_Title_Requests"
-                                ],
+                                "minItems": 6,
+                                "maxItems": 6,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Investigations",
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Investigations",
+                                        "Unique_Item_Requests",
+                                        "Unique_Title_Investigations",
+                                        "Unique_Title_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -12181,6 +12291,27 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_B3 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Investigations",
+                            "Total_Item_Requests",
+                            "Unique_Item_Investigations",
+                            "Unique_Item_Requests",
+                            "Unique_Title_Investigations",
+                            "Unique_Title_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Book",
+                            "Reference_Work"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "ke9h8rxb7r0bg"
                 },
@@ -12520,12 +12651,15 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -12539,6 +12673,25 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_J1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Requests",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Journal"
+                        ],
+                        "Access_Type": [
+                            "Controlled"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "oc13fhmyf0nyb"
                 },
@@ -12771,12 +12924,15 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Limit_Exceeded",
-                                    "No_License"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Limit_Exceeded",
+                                        "No_License"
+                                    ]
                                 }
                             }
                         },
@@ -12789,6 +12945,22 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_J2 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Limit_Exceeded",
+                            "No_License"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Journal"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "c53mkv2xtx80f"
                 },
@@ -13023,14 +13195,17 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Investigations",
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Investigations",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 4,
+                                "maxItems": 4,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Investigations",
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Investigations",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -13043,6 +13218,24 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_J3 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Investigations",
+                            "Total_Item_Requests",
+                            "Unique_Item_Investigations",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Journal"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "eugdonlrs30ln"
                 },
@@ -13354,12 +13547,15 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -13373,6 +13569,25 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "TR_J4 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Requests",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Journal"
+                        ],
+                        "Access_Type": [
+                            "Controlled"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "uydreg86r0oox"
                 },
@@ -14821,12 +15036,15 @@
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -14839,6 +15057,22 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "IR_A1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Requests",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Article"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "f3wg2xgn28myp"
                 },
@@ -15263,25 +15497,31 @@
                             },
                             "Data_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Audiovisual",
-                                    "Image",
-                                    "Interactive_Resource",
-                                    "Multimedia",
-                                    "Sound"
-                                ],
+                                "minItems": 5,
+                                "maxItems": 5,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Audiovisual",
+                                        "Image",
+                                        "Interactive_Resource",
+                                        "Multimedia",
+                                        "Sound"
+                                    ]
                                 }
                             },
                             "Metric_Type": {
                                 "type": "array",
-                                "const": [
-                                    "Total_Item_Requests",
-                                    "Unique_Item_Requests"
-                                ],
+                                "minItems": 2,
+                                "maxItems": 2,
+                                "uniqueItems": true,
                                 "items": {
-                                    "type": "string"
+                                    "type": "string",
+                                    "enum": [
+                                        "Total_Item_Requests",
+                                        "Unique_Item_Requests"
+                                    ]
                                 }
                             }
                         },
@@ -15294,6 +15534,26 @@
                 ],
                 "unevaluatedProperties": false,
                 "title": "IR_M1 - Report_Filters",
+                "examples": [
+                    {
+                        "Metric_Type": [
+                            "Total_Item_Requests",
+                            "Unique_Item_Requests"
+                        ],
+                        "Begin_Date": "2022-01-01",
+                        "End_Date": "2022-03-31",
+                        "Data_Type": [
+                            "Audiovisual",
+                            "Image",
+                            "Interactive_Resource",
+                            "Multimedia",
+                            "Sound"
+                        ],
+                        "Access_Method": [
+                            "Regular"
+                        ]
+                    }
+                ],
                 "x-stoplight": {
                     "id": "xlx7is0nyhscl"
                 },
