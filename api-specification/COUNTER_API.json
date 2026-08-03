@@ -1333,7 +1333,7 @@
                     },
                     "Registry_Record": {
                         "type": "string",
-                        "pattern": "^(https://registry.(countermetrics|projectcounter).org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
+                        "pattern": "^(https://registry\\.(countermetrics|projectcounter)\\.org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
                         "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank."
                     },
                     "Note": {
@@ -7628,7 +7628,7 @@
                     },
                     "Registry_Record": {
                         "type": "string",
-                        "pattern": "^(https://registry.(countermetrics|projectcounter).org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
+                        "pattern": "^(https://registry\\.(countermetrics|projectcounter)\\.org/(platform|usage-data-host)/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}|)$",
                         "description": "The link to the platform’s COUNTER Registry record. Report providers who do not have a Registry record MUST leave the value blank."
                     }
                 },
